@@ -102,7 +102,7 @@ function NPCs() {
                 <i>Half-Elf, active</i>
                   <br />
                   <br />
-                Posing as Rictavio the Bard, Rudolph Van Richten is actually a famous monster hunter preparing to kill Strahd. 
+                Posing as Rictavio the Bard, Rudolph Van Richten is actually a famous monster hunter preparing to kill Strahd. He also fulfills reconnaissance requests for the Sunseekers.
                 </div> {/* card__description--bottom End */}
               </div> {/* card__description End */}
               <div className="card__heading">Van Richten &nbsp;</div>
