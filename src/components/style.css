@@ -192,5 +192,7 @@ body {
   .entry__date {
     text-align: center;
     margin-bottom: 2rem; }
+    .entry__date span {
+      display: block; }
   .entry__details {
     margin-bottom: 2rem; }

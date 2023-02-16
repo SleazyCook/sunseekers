@@ -12,11 +12,18 @@
   &__date {
     text-align: center;
     margin-bottom: 2rem;
+
+    & span {
+      display: block
+    }
   }
 
   &__details {
     margin-bottom: 2rem;
   }
 
+  // &__log {
+
+  // }
 
 }
