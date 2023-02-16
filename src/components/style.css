@@ -159,9 +159,18 @@ body {
 
 .shop {
   width: 100%;
-  height: 24rem;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  height: 35rem;
+  margin-bottom: 5rem; }
+  @media (min-width: 56.25em) {
+    .shop {
+      height: 27rem;
+      margin-bottom: 4rem; } }
+  @media (min-width: 75em) {
+    .shop {
+      height: 24rem;
+      margin-bottom: 0; } }
   .shop__banner {
     display: block;
     border-radius: 3px;
@@ -191,7 +200,10 @@ body {
     color: white;
     border-radius: 3px;
     position: absolute;
-    top: 13rem; }
+    top: 16rem; }
+    @media (min-width: 56.25em) {
+      .shop__table {
+        top: 14rem; } }
 
 .flexbox {
   display: flex;
