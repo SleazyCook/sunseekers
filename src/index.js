@@ -33,7 +33,7 @@ export const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "player-characters",
+        path: "sunseekers",
         element: <Characters />
       },
       {
