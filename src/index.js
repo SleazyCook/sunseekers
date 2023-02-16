@@ -8,6 +8,9 @@ import Home from './components/pages/home/Home'
 
 import Characters from './components/pages/characters/Characters'
 
+import Notes from './components/pages/notes/Notes'
+import AdventureLog from './components/pages/notes/AdventureLog'
+
 const appElement = document.getElementById('app')
 const root = createRoot(appElement)
 
@@ -24,6 +27,14 @@ export const router = createBrowserRouter([
       {
         path: "player-characters",
         element: <Characters />
+      },
+      {
+        path: "notes",
+        element: <Notes />,
+      },
+      {
+        path: "notes/adventure-log",
+        element: <AdventureLog />
       }
     ]
   }

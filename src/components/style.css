@@ -105,7 +105,7 @@ body {
     backface-visibility: hidden;
     border-radius: 3px;
     overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba(255, 255, 255, 0.15); }
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
     .card__side--front {
       background-color: black; }
     .card__side--back {
@@ -180,3 +180,17 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     min-width: 300px; }
+
+.entry {
+  line-height: 3rem;
+  padding: 0 2rem; }
+  .entry__title {
+    font-size: 4rem;
+    font-family: "Cinzel Decorative", cursive;
+    margin: 2rem 0;
+    text-align: center; }
+  .entry__date {
+    text-align: center;
+    margin-bottom: 2rem; }
+  .entry__details {
+    margin-bottom: 2rem; }

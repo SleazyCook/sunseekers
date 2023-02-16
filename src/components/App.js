@@ -13,6 +13,7 @@ function App() {
 
     <Link to="/">Home</Link>
     <Link to="player-characters">PCs</Link>
+    <Link to="notes">Notes</Link>
 
     <Outlet context />
 

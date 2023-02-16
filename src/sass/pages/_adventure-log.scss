@@ -1,0 +1,22 @@
+.entry {
+  line-height: 3rem;
+  padding: 0 2rem;
+
+  &__title {
+    font-size: 4rem;
+    font-family: $font-header;
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  &__date {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  &__details {
+    margin-bottom: 2rem;
+  }
+
+
+}
