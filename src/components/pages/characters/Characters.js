@@ -25,6 +25,9 @@ function Characters() {
                   <span>Arcane Trickster</span>
                 </div> {/* card__description--top End */}
                 <div className="card__description--bottom">
+                  <i>Half-Elf, active</i>
+                  <br />
+                  <br />
                 Safzira might have a greater body count than the Barbarian, but in a totally different way. She is well known for her unpredictable fighting style and close relationships.
                 </div> {/* card__description--bottom End */}
               </div> {/* card__description End */}
@@ -46,6 +49,9 @@ function Characters() {
                   <span>Thief</span>
                 </div> {/* card__description--top End */}
                 <div className="card__description--bottom">
+                <i>Halfling, active</i>
+                  <br />
+                  <br />
                 Elizana is known for her kindness and curiousity. Her spirits have been tested greatly since arriving in Barovia.
                 </div> {/* card__description--bottom End */}
               </div> {/* card__description End */}
@@ -67,6 +73,9 @@ function Characters() {
                   <span>Zealot</span>
                 </div> {/* card__description--top End */}
                 <div className="card__description--bottom">
+                <i>Human, inactive</i>
+                  <br />
+                  <br />
                 German the Barbarian, a man of few words, lives for battle. He will protect his fellow Sunseekers to the death just for the thrill of a fight.
                 </div> {/* card__description--bottom End */}
               </div> {/* card__description End */}
@@ -88,6 +97,9 @@ function Characters() {
                   <span>Forge Domain</span>
                 </div> {/* card__description--top End */}
                 <div className="card__description--bottom">
+                <i>Half-Elf, active</i>
+                  <br />
+                  <br />
                 Discovered in a Vallaki prison healing Lars Kjurls, Umnos soon joined the Sunseekers after Ireena was saved from the wolves.
                 </div> {/* card__description--bottom End */}
               </div> {/* card__description End */}
@@ -109,6 +121,9 @@ function Characters() {
                   <span>subclass</span>
                 </div> {/* card__description--top End */}
                 <div className="card__description--bottom">
+                <i>Human, active</i>
+                  <br />
+                  <br />
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet feugiat nulla, bibendum tincidunt lectus venenatis pellentesque.
                 </div> {/* card__description--bottom End */}
               </div> {/* card__description End */}

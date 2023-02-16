@@ -23,7 +23,7 @@ html {
       font-size: 75%; } }
 
 body {
-  background-color: #1e1e1e;
+  background-color: black;
   color: #fff;
   box-sizing: border-box;
   padding: 0rem; }
@@ -59,6 +59,11 @@ body {
     @media (min-width: 37.5em) {
       .heading-primary--sub {
         font-size: 3rem; } }
+
+.heading-secondary {
+  font-family: "Cinzel Decorative", cursive;
+  color: #771f09;
+  font-size: 3rem; }
 
 .u-center-text {
   text-align: center !important; }
@@ -146,10 +151,11 @@ body {
       line-height: 5rem;
       padding-top: 2rem; }
       .card__description--top span {
-        display: block; }
+        display: block;
+        font-size: 3rem; }
     .card__description--bottom {
       text-align: center;
-      padding-top: 10rem; }
+      padding-top: 8rem; }
 
 .flexbox {
   display: flex;
@@ -157,14 +163,16 @@ body {
   justify-content: center;
   gap: 2rem; }
   .flexbox__item {
-    width: 30rem; }
+    width: 25rem; }
 
 .header {
   height: 30vh;
   background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/OGws4K3.png");
   background-size: cover;
   background-position: 0 0;
-  position: relative; }
+  position: relative;
+  border-radius: 3px;
+  overflow: hidden; }
   .header__textbox {
     position: absolute;
     top: 50%;

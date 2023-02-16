@@ -8,6 +8,8 @@
   background-size: cover;
   background-position: 0 0;
   position: relative;
+  border-radius: 3px;
+  overflow: hidden;
 
   &__textbox {
     position: absolute;
