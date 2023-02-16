@@ -1,0 +1,19 @@
+.header {
+  height: 30vh;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary-light, .8),
+    rgba($color-primary-dark, .8)),
+    url("https://i.imgur.com/OGws4K3.png");
+  background-size: cover;
+  background-position: 0 0;
+  position: relative;
+
+  &__textbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

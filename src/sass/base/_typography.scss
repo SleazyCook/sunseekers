@@ -1,0 +1,31 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  // font-size: $default-font-size;
+  font-size: 16px;
+  line-height: 1.7rem;
+  // color: $color-grey--dark;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+.heading-primary {
+  color: black;
+  font-family: 'Cinzel Decorative', cursive;
+  line-height: 3rem;
+
+  &--main {
+    display: block;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-decoration: underline;
+    // letter-spacing: 3.5rem;
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 600;
+    // letter-spacing: 1.1rem;
+  }
+}
