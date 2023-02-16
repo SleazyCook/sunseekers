@@ -123,6 +123,11 @@ body {
       background-image: url("https://i.imgur.com/2XF3c41.jpg");
       background-size: cover;
       background-position: center; }
+    .card__picture--4 {
+      background-image: url("https://i.imgur.com/KeeYsZy.jpg");
+      background-position: center; }
+    .card__picture--5 {
+      background-image: url("https://i.imgur.com/dcGndjG.png"); }
   .card__heading {
     font-size: 5rem;
     font-weight: 400;
