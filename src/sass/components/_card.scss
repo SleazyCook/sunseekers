@@ -147,7 +147,11 @@
 
     &--bottom {
       text-align: center;
-      padding-top: 8rem;
+      padding-top: 4rem;
+
+      @include respond(tab-land) {
+        padding-top: 8rem;
+      }
     }
   }
 }

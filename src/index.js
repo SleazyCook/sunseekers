@@ -10,6 +10,7 @@ import Characters from './components/pages/characters/Characters'
 
 import Notes from './components/pages/notes/Notes'
 import AdventureLog from './components/pages/notes/AdventureLog'
+import StrahdLetters from './components/pages/notes/StrahdLetters'
 
 import Market from './components/pages/market/Market'
 
@@ -43,6 +44,10 @@ export const router = createBrowserRouter([
       {
         path: "notes/adventure-log",
         element: <AdventureLog />
+      },
+      {
+        path: "notes/strahd-letters",
+        element: <StrahdLetters />
       },
       {
         path: "market",

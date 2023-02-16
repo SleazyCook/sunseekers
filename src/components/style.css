@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
 *,
 *::before,
 *::after {
@@ -169,7 +170,10 @@ body {
         font-size: 3rem; }
     .card__description--bottom {
       text-align: center;
-      padding-top: 8rem; }
+      padding-top: 4rem; }
+      @media (min-width: 56.25em) {
+        .card__description--bottom {
+          padding-top: 8rem; } }
 
 .shop {
   width: 100%;
@@ -241,7 +245,7 @@ body {
   justify-content: center;
   gap: 2rem; }
   .flexbox__item {
-    width: 25rem; }
+    width: 30rem; }
 
 .navigation {
   position: relative; }
