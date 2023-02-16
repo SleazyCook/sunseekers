@@ -7,7 +7,7 @@ function Clothier() {
     <div>
       <div className="shop">
 
-        <div className="shop__banner shop__banner--1">
+        <div className="shop__banner shop__banner--2">
           <div className="shop__icon">
             <GiTravelDress /></div>
           <div className="shop__header">

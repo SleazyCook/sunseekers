@@ -6,7 +6,7 @@ function Apotheocary() {
   return (
     <div className="shop">
 
-      <div className="shop__banner shop__banner--1">
+      <div className="shop__banner shop__banner--3">
         <div className="shop__icon">
           <GiPotionBall /></div>
         <div className="shop__header">

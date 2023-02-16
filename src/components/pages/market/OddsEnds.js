@@ -6,7 +6,7 @@ function OddsEnds() {
   return (
     <div className="shop">
 
-      <div className="shop__banner shop__banner--1">
+      <div className="shop__banner shop__banner--6">
         <div className="shop__icon"><GiBrokenPottery /></div>
         <div className="shop__header">
           <span className="shop__header--main">

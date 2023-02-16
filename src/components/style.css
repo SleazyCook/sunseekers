@@ -162,15 +162,16 @@ body {
   position: relative;
   text-align: center;
   height: 35rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center; }
   @media (min-width: 56.25em) {
     .shop {
-      height: 27rem;
+      height: 29rem;
       margin-bottom: 4rem; } }
   @media (min-width: 75em) {
     .shop {
-      height: 24rem;
-      margin-bottom: 0; } }
+      height: 26rem; } }
   .shop__banner {
     display: block;
     border-radius: 3px;
@@ -178,6 +179,18 @@ body {
     min-width: 45rem; }
     .shop__banner--1 {
       background-color: grey; }
+    .shop__banner--2 {
+      background-color: #86c5da; }
+    .shop__banner--3 {
+      background-color: #f5a554; }
+    .shop__banner--4 {
+      background-color: #bf9000; }
+    .shop__banner--5 {
+      background-color: #ffd24d; }
+    .shop__banner--6 {
+      background-color: #93c47d; }
+    .shop__banner--7 {
+      background-color: #c27ba0; }
   .shop__icon {
     float: left;
     font-size: 7rem;
@@ -196,14 +209,14 @@ body {
       font-size: 1.5rem; }
   .shop__table {
     display: block;
-    background-color: grey;
     color: white;
     border-radius: 3px;
     position: absolute;
     top: 16rem; }
     @media (min-width: 56.25em) {
       .shop__table {
-        top: 14rem; } }
+        top: 16rem;
+        padding: 2rem; } }
 
 .flexbox {
   display: flex;

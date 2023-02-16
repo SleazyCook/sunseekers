@@ -6,7 +6,7 @@ function Tannery() {
   return (
     <div className="shop">
 
-      <div className="shop__banner shop__banner--1">
+      <div className="shop__banner shop__banner--4">
         <div className="shop__icon"><GiLeatherArmor /></div>
         <div className="shop__header">
           <span className="shop__header--main">
