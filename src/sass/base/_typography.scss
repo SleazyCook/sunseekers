@@ -14,12 +14,20 @@ body {
   font-family: 'Cinzel Decorative', cursive;
   line-height: 3rem;
 
+  @include respond(tab-port) {
+    line-height: 4rem;
+  }
+
   &--main {
     display: block;
     font-size: 3.5rem;
     font-weight: 600;
     text-decoration: underline;
     // letter-spacing: 3.5rem;
+
+    @include respond(tab-port) {
+      font-size: 5rem;
+    }
   }
 
   &--sub {
@@ -27,5 +35,10 @@ body {
     font-size: 2rem;
     font-weight: 600;
     // letter-spacing: 1.1rem;
+
+    
+    @include respond(tab-port) {
+      font-size: 3rem;
+    }
   }
 }
