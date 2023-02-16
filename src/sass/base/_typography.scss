@@ -3,7 +3,7 @@ body {
   font-weight: 400;
   // font-size: $default-font-size;
   font-size: 16px;
-  line-height: 1.7rem;
+  // line-height: 1.7rem;
   // color: $color-grey--dark;
 }
 
@@ -11,11 +11,11 @@ body {
 .heading-primary {
   color: black;
   font-family: $font-header;
-  line-height: 3rem;
+  // line-height: 3rem;
 
-  @include respond(tab-port) {
-    line-height: 4rem;
-  }
+  // @include respond(tab-port) {
+  //   line-height: 4rem;
+  // }
 
   &--main {
     display: block;

@@ -34,16 +34,11 @@ body {
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.7rem; }
+  font-size: 16px; }
 
 .heading-primary {
   color: black;
-  font-family: "Cinzel Decorative", cursive;
-  line-height: 3rem; }
-  @media (min-width: 37.5em) {
-    .heading-primary {
-      line-height: 4rem; } }
+  font-family: "Cinzel Decorative", cursive; }
   .heading-primary--main {
     display: block;
     font-size: 3.5rem;
@@ -164,6 +159,17 @@ body {
   gap: 2rem; }
   .flexbox__item {
     width: 25rem; }
+
+.navigation {
+  position: relative; }
+  .navigation--top {
+    font-size: 2.5rem;
+    text-align: center; }
+    .navigation--top a,
+    .navigation--top a:active,
+    .navigation--top a:visited {
+      color: white;
+      text-decoration: none; }
 
 .header {
   height: 30vh;

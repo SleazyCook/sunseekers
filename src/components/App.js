@@ -2,6 +2,7 @@ import React from 'react'
 import { Outlet, Link } from 'react-router-dom'
 
 import Header from './Header'
+import Navigation from './Navigation'
 
 import './style.css'
 
@@ -10,14 +11,9 @@ function App() {
     <div>
 
     <Header />
+    <Navigation />
 
-    <Link to="/">Home</Link> |
-    <Link to="player-characters">PCs</Link> |
-    <Link to="notes">Notes</Link> |
-    NPCs |
-    Quests |
-    Locations |
-    Vallaki Market |
+
 
     <Outlet context />
 
