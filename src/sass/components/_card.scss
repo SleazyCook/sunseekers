@@ -1,0 +1,109 @@
+.card {
+  // Functionality
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 52rem;
+  padding: 2rem;
+
+  &__side {
+    height: 52rem;
+    transition: all .8s ease;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+
+    &--front{
+      background-color: $color-white;
+    }
+
+    &--back {
+      transform: rotateY(180deg);
+
+      // &-1 {
+      //   background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+      // }
+
+      // &-2 {
+      //   background-image: linear-gradient(to right bottom, $color-primary--light, $color-primary--dark);
+      // }
+
+      // &-3 {
+      //   background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+      // }
+    }
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(-180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0);
+  }
+
+  // Front Side Styling
+  &__picture {
+    background-size: cover;
+    height: 46rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    // border radius?
+
+    &--1 {
+      background-image: 
+        url("https://i.imgur.com/pG4NWum.png")
+    }
+
+    &--2 {
+      background-image: 
+        url("https://i.imgur.com/UNhjy3p.jpg")
+    }
+
+    &--3 {
+      background-image: 
+        url("https://i.imgur.com/2XF3c41.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  &__heading {
+    font-size: 5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    font-family: $font-header-2;
+    // color: $color-primary;
+  }
+
+  &__description {
+    height: 46rem;
+    padding-left: 1rem;
+
+    &--top {
+      font-size: 4.5rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-align: left;
+      font-family: $font-header-2;
+      line-height: 5rem;
+      padding-top: 2rem;
+
+      & span {
+        display: block;
+      }
+    }
+
+    &--bottom {
+      text-align: center;
+      padding-top: 10rem;
+    }
+  }
+}

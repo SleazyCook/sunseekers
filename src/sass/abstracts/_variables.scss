@@ -3,8 +3,8 @@ $color-primary: rgb(119, 31, 9);
 $color-primary-light: lighten($color-primary, 10%);
 $color-primary-dark: darken($color-primary, 20%);
 
-// $color-seconday-light: 
-// $color-secondary-dark: 
+$color-secondary-light: yellow;
+$color-secondary-dark: darken($color-secondary-light, 15%);
 
 // $color-tertiary-light: 
 // $color-tertiary-dark: 
@@ -22,9 +22,20 @@ $color-white: black;
 $color-red: rgb(119, 31, 9);
 
 // FONT
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 $default-font-size: 1.6rem;
+
+$font-header: 'Cinzel Decorative', cursive; 
+$font-header-2: 'Bebas Neue', cursive;
 
 // BORDER-RADIUS
 // $border-radius-default: 
 
 // GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;

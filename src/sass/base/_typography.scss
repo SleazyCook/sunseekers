@@ -7,11 +7,10 @@ body {
   // color: $color-grey--dark;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 
 .heading-primary {
   color: black;
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: $font-header;
   line-height: 3rem;
 
   @include respond(tab-port) {

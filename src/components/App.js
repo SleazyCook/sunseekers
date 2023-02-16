@@ -1,5 +1,5 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
+import { Outlet, Link } from 'react-router-dom'
 
 import Header from './Header'
 
@@ -10,6 +10,9 @@ function App() {
     <div>
 
     <Header />
+
+    <Link to="/">Home</Link>
+    <Link to="player-characters">PCs</Link>
 
     <Outlet context />
 

@@ -1,0 +1,11 @@
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+
+  &__item {
+    width: 30rem;
+
+  }
+}
