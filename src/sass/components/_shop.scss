@@ -1,0 +1,40 @@
+.shop {
+  border: 5px solid red;
+  width: 100%;
+  height: 35rem;
+  overflow: scroll;
+  content: "";
+
+  &__banner {
+    border: 3px solid blue;
+    position: absolute;
+    width: 95vw;
+    height: 10rem;
+
+    &--1 {
+      background-color: grey;
+    }
+  }
+
+  &__icon {
+    float: left;
+    font-size: 7rem;
+    margin: 0 2rem;
+  }
+
+  &__header {
+    padding: 1rem 0;
+    
+    &--main {
+      display: block;
+      font-size: 3rem;
+      
+    }
+
+    &--sub {
+      display: block;
+      font-size: 2rem;
+    }
+  }
+
+}

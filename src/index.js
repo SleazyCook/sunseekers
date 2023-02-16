@@ -11,6 +11,8 @@ import Characters from './components/pages/characters/Characters'
 import Notes from './components/pages/notes/Notes'
 import AdventureLog from './components/pages/notes/AdventureLog'
 
+import Market from './components/pages/market/Market'
+
 const appElement = document.getElementById('app')
 const root = createRoot(appElement)
 
@@ -35,6 +37,10 @@ export const router = createBrowserRouter([
       {
         path: "notes/adventure-log",
         element: <AdventureLog />
+      },
+      {
+        path: "market",
+        element: <Market />
       }
     ]
   }

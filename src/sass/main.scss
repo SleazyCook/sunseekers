@@ -7,7 +7,9 @@
 @import "base/typography";
 @import "base/utilities";
 
+@import "components/bg-main";
 @import "components/card";
+@import "components/shop";
 
 @import "layout/flexbox";
 @import "layout/footer";
@@ -16,3 +18,4 @@
 
 @import "pages/adventure-log";
 @import "pages/home";
+@import "pages/market";
