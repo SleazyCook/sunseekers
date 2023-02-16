@@ -1,5 +1,7 @@
 import React from 'react'
 
+import NPCs from './NPCs'
+
 function Characters() {
   return (
     <div className="characters">
@@ -134,6 +136,9 @@ function Characters() {
 
         
       </div> {/* row End */}
+
+      <br />
+      <NPCs />
 
 
     </div>

@@ -7,11 +7,11 @@ function Navigation() {
 
       <div className="navigation--top">
         <Link to="/">Home</Link> |
-        <Link to="player-characters"> PCs</Link> |
+        <Link to="player-characters"> Sunseekers</Link> |
         <Link to="notes"> Notes</Link> |
-        NPCs |
-        Quests |
-        Locations |
+        <Link to="non-player-characters"> NPCs</Link> |
+        <Link to="quests"> Quests</Link> |
+        <Link to="locations"> Locations</Link> |
         <Link to="market"> Vallaki Market</Link>
       </div>
 

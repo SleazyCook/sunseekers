@@ -133,6 +133,20 @@ body {
       background-position: center; }
     .card__picture--5 {
       background-image: url("https://i.imgur.com/dcGndjG.png"); }
+    .card__picture--6 {
+      background-image: url("https://i.imgur.com/i3sWh1p.png");
+      background-position: center; }
+    .card__picture--7 {
+      background-image: url("https://i.imgur.com/5iWx4Sl.png"); }
+    .card__picture--8 {
+      background-image: url("https://i.imgur.com/BNcaXW9.jpg");
+      background-position: center; }
+    .card__picture--9 {
+      background-image: url("https://i.imgur.com/tYEzwNQ.png"); }
+    .card__picture--10 {
+      background-image: url("https://i.imgur.com/Gr3abpr.png"); }
+    .card__picture--11 {
+      background-image: url("https://i.imgur.com/VbVKHji.png"); }
   .card__heading {
     font-size: 5rem;
     font-weight: 400;

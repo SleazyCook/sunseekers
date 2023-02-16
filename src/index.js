@@ -13,6 +13,12 @@ import AdventureLog from './components/pages/notes/AdventureLog'
 
 import Market from './components/pages/market/Market'
 
+import Locations from './components/pages/locations/Locations'
+
+import NPCs from './components/pages/npc/NPCs'
+
+import Quests from './components/pages/quests/Quests'
+
 const appElement = document.getElementById('app')
 const root = createRoot(appElement)
 
@@ -20,7 +26,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorPage: <ErrorPage />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
@@ -41,6 +47,18 @@ export const router = createBrowserRouter([
       {
         path: "market",
         element: <Market />
+      },
+      {
+        path: "locations",
+        element: <Locations />
+      },
+      {
+        path: "non-player-characters",
+        element: <NPCs />
+      },
+      {
+        path: "quests",
+        element: <Quests />
       }
     ]
   }
