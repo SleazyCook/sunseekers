@@ -6,8 +6,10 @@ function Notes() {
     <div>Notes
 
       <br />
-      
+
       <Link to="adventure-log">Adventure Log</Link>
+
+      
 
 
     </div>

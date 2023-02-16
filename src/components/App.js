@@ -11,9 +11,13 @@ function App() {
 
     <Header />
 
-    <Link to="/">Home</Link>
-    <Link to="player-characters">PCs</Link>
-    <Link to="notes">Notes</Link>
+    <Link to="/">Home</Link> |
+    <Link to="player-characters">PCs</Link> |
+    <Link to="notes">Notes</Link> |
+    NPCs |
+    Quests |
+    Locations |
+    Vallaki Market |
 
     <Outlet context />
 

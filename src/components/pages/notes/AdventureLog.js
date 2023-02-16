@@ -4,9 +4,27 @@ function AdventureLog() {
   return (
     <div className="adventure-log">
       
-      <h3 className="heading-tertiary">Sunseeker Adventure Log</h3>
+      <h2 className="heading-secondary u-center-text">Sunseeker Adventure Log</h2>
 
-      <a href="#log-01">#1. Death House</a>
+      <p>Navigation</p><br />
+      <p>Season One</p><br />
+      <a href="#log-01">1. Death House</a><br /><br />
+      <a href='#log-02'>2. Village of Barovia</a><br /><br />
+      <a href='#log-02'>3. Madame Eva's Tarroka Reading</a><br /><br />
+      <a href='#log-02'>4. Dream Pastries at the Old Mill</a><br /><br />
+      <a href='#log-02'>5. Welcome to Vallaki</a><br /><br />
+      <a href='#log-02'>6. Festival of the Blazing Sun</a><br /><br />
+      <a href='#log-02'>7. Showdown at the Old Mill</a><br /><br />
+      <a href='#log-02'>8. Rats in Castle Ravenloft</a><br /><br />
+      <a href='#log-02'>9. Return to Vallaki</a><br /><br />
+      <a href='#log-02'>10. Wachterhaus and the Vallaki Vistani Camp</a><br /><br />
+      <a href='#log-02'>11. Bones of St. Andral</a><br /><br />
+      <a href='#log-02'>12. Mad Mage and the Feast of St. Andral</a><br /><br />
+
+      <p>Season Two</p>
+
+
+      {/* Log Entries START */}
 
       <section className="entry" id="log-01">
         <h4 className="entry__title">1. Death House</h4>
@@ -67,13 +85,13 @@ function AdventureLog() {
 
         <p className="entry__log">
           11th Day of Hammer <br/><br />
-          -arrival in town <br/><br />
-          -safzira and german go for a drink, where they meet 3 tough vistani women suggesting that they meet up with madam eva on their way out of town. Izmark offers to buy them drinks and asks them to protect his sister Ireena in exchange for free lodging and meals anytime they are in town. <br/><br />
-          -safzira and german go to Izmark's mansion to meet Ireena who insists on giving their father a proper burial. <br/><br />
+          -Arrival in town <br/><br />
+          -Safzira and german go for a drink, where they meet 3 tough vistani women suggesting that they meet up with madam eva on their way out of town. Izmark offers to buy them drinks and asks them to protect his sister Ireena in exchange for free lodging and meals anytime they are in town. <br/><br />
+          -Safzira and german go to Izmark's mansion to meet Ireena who insists on giving their father a proper burial. <br/><br />
           -Safzira and German escort Ireena and Ismark with the body of their father to the church where the priest Donavich holds a funeral in his honor.  <br/><br />
           -Ismark becomes the new Burgomaster in his father’s place
-          -halfing checks out shop, mean shop owner, directs to scratching on home fronts. investigation leads to the Cobb house, where a wife answers the door and the halfling meets her dying husband. He mentions resorting to drinking well water after a shortage of wine in the village. He dies and turns into a zombie. Elizana and Freebird slay the zombie outside his home after he devours his wife. <br/><br />
-          -safzira, german, izmark, and ireena join up with elizana and freebird and investigate the local well. Inside are several of Strahd's zombies. They defeat the zombies and retire to the burgomeister's mansion to rest up. <br/><br />
+          -Halfing checks out shop, mean shop owner, directs to scratching on home fronts. investigation leads to the Cobb house, where a wife answers the door and the halfling meets her dying husband. He mentions resorting to drinking well water after a shortage of wine in the village. He dies and turns into a zombie. Elizana and Freebird slay the zombie outside his home after he devours his wife. <br/><br />
+          -Safzira, german, izmark, and ireena join up with elizana and freebird and investigate the local well. Inside are several of Strahd's zombies. They defeat the zombies and retire to the burgomeister's mansion to rest up. <br/><br />
           -Ireena is officially a Sunseeker <br/><br /><br/>
 
           12th Day of Hammer <br/><br />
@@ -88,7 +106,30 @@ function AdventureLog() {
           <a href="#">Return to top</a>
 
         </p>
-      </section>
+      </section> {/* log 02 End */}
+      
+
+
+      {/* <section className="entry" id="log-XX">
+
+        <h4 className="entry__title">2. Village of Barovia</h4>
+
+        <h5 className="entry__date">
+          <span>11th Morning of Hammer through 12th Evening of Hammmer</span>
+          <span><i>June 12th, 2022 7pm </i></span>
+        </h5>
+
+        <p className="details">
+          <b>Player Characters: </b> Elizana, German, and Safzira<br />
+          <b>Non-Player Characters: </b> Freebird, Ireena, Ismark, Lancelot<br />
+          <b>Quests: </b> Village Plague, Missing Villagers, Burgomaster's Funeral, Protect Ireena, Replacement Priest, Find Gertruda
+        </p>
+
+        <p classsName="entry-log">
+          2-3 break tags, bold on titles
+        </p>
+
+      </section>  Log XX End */}
       
     </div>
   )
