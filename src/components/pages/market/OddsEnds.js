@@ -1,18 +1,18 @@
 import React from 'react'
 
-import { GiAnvilImpact } from 'react-icons/gi'
+import { GiBrokenPottery } from 'react-icons/gi'
 
-function Blacksmith() {
+function OddsEnds() {
   return (
     <div className="shop">
 
       <div className="shop__banner shop__banner--1">
-        <div className="shop__icon"><GiAnvilImpact /></div>
+        <div className="shop__icon"><GiBrokenPottery /></div>
         <div className="shop__header">
           <span className="shop__header--main">
-            Cracked Anvil</span>
+            Odds N Ends</span>
           <span className="shop__header--sub"><i>
-            Dragomir Valisov</i></span>
+            Bilbo</i></span>
         </div>
 
       </div> 
@@ -30,21 +30,29 @@ function Blacksmith() {
         <tbody>
           <tr>
             <td className="shop__table-cell">
-              Silver Coating</td>
+              Blank Journal</td>
             <td className="shop__table-cell">
-              15 gp + 1 sil. bar</td>
+              0.80 gp</td>
             <td className="shop__table-cell">
-              N/a</td>
+              0.40 gp</td>
             <td className="shop__table-cell">
-              N/a</td>
+              0</td>
+          </tr>
+          <tr>
+            <td className="shop__table-cell">
+              Healing Kit</td>
+            <td className="shop__table-cell">
+              5 gp</td>
+            <td className="shop__table-cell">
+              2.50 gp</td>
+            <td className="shop__table-cell">
+              1</td>
           </tr>
         </tbody>
       </table>
-
-      
 
     </div>
   )
 }
 
-export default Blacksmith
+export default OddsEnds

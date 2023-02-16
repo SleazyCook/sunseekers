@@ -1,18 +1,19 @@
 import React from 'react'
 
-import { GiAnvilImpact } from 'react-icons/gi'
+import { GiPotionBall } from 'react-icons/gi'
 
-function Blacksmith() {
+function Apotheocary() {
   return (
     <div className="shop">
 
       <div className="shop__banner shop__banner--1">
-        <div className="shop__icon"><GiAnvilImpact /></div>
+        <div className="shop__icon">
+          <GiPotionBall /></div>
         <div className="shop__header">
           <span className="shop__header--main">
-            Cracked Anvil</span>
+            Stefanovich Apotheocary</span>
           <span className="shop__header--sub"><i>
-            Dragomir Valisov</i></span>
+            Harkus Stefanovich</i></span>
         </div>
 
       </div> 
@@ -30,21 +31,40 @@ function Blacksmith() {
         <tbody>
           <tr>
             <td className="shop__table-cell">
-              Silver Coating</td>
+              Healing Potion</td>
             <td className="shop__table-cell">
-              15 gp + 1 sil. bar</td>
+              5 gp</td>
             <td className="shop__table-cell">
-              N/a</td>
+              2.5 gp</td>
             <td className="shop__table-cell">
-              N/a</td>
+              1</td>
+          </tr>
+          <tr>
+            <td className="shop__table-cell">
+              Greater Healing Potion</td>
+            <td className="shop__table-cell">
+              20 gp</td>
+            <td className="shop__table-cell">
+              10 gp</td>
+            <td className="shop__table-cell">
+              1</td>
+          </tr>
+          <tr>
+            <td className="shop__table-cell">
+              Mystery Potion</td>
+            <td className="shop__table-cell">
+              2 gp</td>
+            <td className="shop__table-cell">
+              1 gp</td>
+            <td className="shop__table-cell">
+              3</td>
           </tr>
         </tbody>
       </table>
 
-      
 
     </div>
   )
 }
 
-export default Blacksmith
+export default Apotheocary

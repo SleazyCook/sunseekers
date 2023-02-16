@@ -1,18 +1,18 @@
 import React from 'react'
 
-import { GiAnvilImpact } from 'react-icons/gi'
+import { GiLeatherArmor } from 'react-icons/gi'
 
-function Blacksmith() {
+function Tannery() {
   return (
     <div className="shop">
 
       <div className="shop__banner shop__banner--1">
-        <div className="shop__icon"><GiAnvilImpact /></div>
+        <div className="shop__icon"><GiLeatherArmor /></div>
         <div className="shop__header">
           <span className="shop__header--main">
-            Cracked Anvil</span>
+            Lukresh Tannery</span>
           <span className="shop__header--sub"><i>
-            Dragomir Valisov</i></span>
+            Fatima Lukresh</i></span>
         </div>
 
       </div> 
@@ -30,21 +30,38 @@ function Blacksmith() {
         <tbody>
           <tr>
             <td className="shop__table-cell">
-              Silver Coating</td>
+              Wolf Pelt</td>
             <td className="shop__table-cell">
-              15 gp + 1 sil. bar</td>
+              0.20 gp</td>
             <td className="shop__table-cell">
-              N/a</td>
+              0.10 gp</td>
             <td className="shop__table-cell">
-              N/a</td>
+              10</td>
+          </tr>
+          <tr>
+            <td className="shop__table-cell">
+              Dire Wolf Pelt</td>
+            <td className="shop__table-cell">
+              0.50 gp</td>
+            <td className="shop__table-cell">
+              0.25 gp</td>
+            <td className="shop__table-cell">
+              10</td>
+          </tr>          <tr>
+            <td className="shop__table-cell">
+              Leather Bracers</td>
+            <td className="shop__table-cell">
+              2 gp</td>
+            <td className="shop__table-cell">
+              1 gp</td>
+            <td className="shop__table-cell">
+              20</td>
           </tr>
         </tbody>
       </table>
-
-      
 
     </div>
   )
 }
 
-export default Blacksmith
+export default Tannery

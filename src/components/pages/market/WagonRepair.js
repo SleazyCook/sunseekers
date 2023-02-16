@@ -1,18 +1,18 @@
 import React from 'react'
 
-import { GiAnvilImpact } from 'react-icons/gi'
+import { GiOldWagon } from 'react-icons/gi'
 
-function Blacksmith() {
+function WagonRepair() {
   return (
     <div className="shop">
-
+      
       <div className="shop__banner shop__banner--1">
-        <div className="shop__icon"><GiAnvilImpact /></div>
+        <div className="shop__icon"><GiOldWagon /></div>
         <div className="shop__header">
           <span className="shop__header--main">
-            Cracked Anvil</span>
+            Vallaki Wagon Repair</span>
           <span className="shop__header--sub"><i>
-            Dragomir Valisov</i></span>
+            Tural</i></span>
         </div>
 
       </div> 
@@ -30,21 +30,19 @@ function Blacksmith() {
         <tbody>
           <tr>
             <td className="shop__table-cell">
-              Silver Coating</td>
+              -</td>
             <td className="shop__table-cell">
-              15 gp + 1 sil. bar</td>
+              -</td>
             <td className="shop__table-cell">
-              N/a</td>
+              -</td>
             <td className="shop__table-cell">
-              N/a</td>
+              -</td>
           </tr>
         </tbody>
       </table>
-
       
-
-    </div>
+      </div>
   )
 }
 
-export default Blacksmith
+export default WagonRepair

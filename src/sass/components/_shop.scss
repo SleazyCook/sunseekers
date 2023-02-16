@@ -1,15 +1,16 @@
 .shop {
-  border: 5px solid red;
+  // border: 5px solid red;
   width: 100%;
-  height: 35rem;
-  overflow: scroll;
-  content: "";
+  height: 24rem;
+  // overflow: scroll;
+  position: relative;
+  text-align: center;
 
   &__banner {
-    border: 3px solid blue;
+    display: block;
+    border-radius: 3px;
     position: absolute;
-    width: 95vw;
-    height: 10rem;
+    min-width: 45rem;
 
     &--1 {
       background-color: grey;
@@ -20,6 +21,9 @@
     float: left;
     font-size: 7rem;
     margin: 0 2rem;
+    padding: 1rem 1rem;
+    padding-top: 2rem;
+    color: black;
   }
 
   &__header {
@@ -27,14 +31,24 @@
     
     &--main {
       display: block;
-      font-size: 3rem;
-      
+      font-size: 2rem;
+      font-family: $font-header;
     }
 
     &--sub {
       display: block;
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
+  }
+
+  &__table {
+    display: block;
+    background-color: grey;
+    color: white;
+    // border: 4px solid blue;
+    border-radius: 3px;
+    position: absolute;
+    top: 13rem;
   }
 
 }

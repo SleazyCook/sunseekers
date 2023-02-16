@@ -158,30 +158,40 @@ body {
       padding-top: 8rem; }
 
 .shop {
-  border: 5px solid red;
   width: 100%;
-  height: 35rem;
-  overflow: scroll;
-  content: ""; }
+  height: 24rem;
+  position: relative;
+  text-align: center; }
   .shop__banner {
-    border: 3px solid blue;
+    display: block;
+    border-radius: 3px;
     position: absolute;
-    width: 95vw;
-    height: 10rem; }
+    min-width: 45rem; }
     .shop__banner--1 {
       background-color: grey; }
   .shop__icon {
     float: left;
     font-size: 7rem;
-    margin: 0 2rem; }
+    margin: 0 2rem;
+    padding: 1rem 1rem;
+    padding-top: 2rem;
+    color: black; }
   .shop__header {
     padding: 1rem 0; }
     .shop__header--main {
       display: block;
-      font-size: 3rem; }
+      font-size: 2rem;
+      font-family: "Cinzel Decorative", cursive; }
     .shop__header--sub {
       display: block;
-      font-size: 2rem; }
+      font-size: 1.5rem; }
+  .shop__table {
+    display: block;
+    background-color: grey;
+    color: white;
+    border-radius: 3px;
+    position: absolute;
+    top: 13rem; }
 
 .flexbox {
   display: flex;
@@ -236,4 +246,5 @@ body {
     margin-bottom: 2rem; }
 
 .market {
-  content: ""; }
+  display: flex;
+  flex-direction: column; }
