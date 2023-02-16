@@ -195,11 +195,14 @@ body {
     float: left;
     font-size: 7rem;
     margin: 0 2rem;
-    padding: 1rem 1rem;
+    padding: 1rem 0;
     padding-top: 2rem;
     color: black; }
   .shop__header {
-    padding: 1rem 0; }
+    padding: 1rem 0;
+    color: black;
+    padding-top: 3rem;
+    padding-right: 2.1rem; }
     .shop__header--main {
       display: block;
       font-size: 2rem;

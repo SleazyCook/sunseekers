@@ -12,8 +12,7 @@ function Navigation() {
         NPCs |
         Quests |
         Locations |
-        <Link to="market"> Vallaki Market</Link> |
-        External Rescources
+        <Link to="market"> Vallaki Market</Link>
       </div>
 
 
