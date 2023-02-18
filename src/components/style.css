@@ -304,6 +304,41 @@ body {
     background-size: cover;
     background-position: center;
     background-blend-mode: difference; }
+  .cat-card--adventure-log {
+    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/tFQlEqi.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten; }
+  .cat-card--tarroka-reading {
+    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/4TAGQ2R.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply; }
+  .cat-card--strahd-notes {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/AWQB28r.png");
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: hue; }
+  .cat-card--vallaki-laws {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/fgPPAfM.png");
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: hue; }
+  .cat-card--safzira-diary {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/pG4NWum.png");
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: lighten; }
+  .cat-card--ireena-diary {
+    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/5iWx4Sl.png");
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: darken; }
+  .cat-card--misc {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/r17tnaC.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
 
 .npc-card {
   background-color: #1a1a1a;

@@ -4,7 +4,14 @@ function AdventureLog() {
   return (
     <div className="adventure-log">
       
-      <h2 className="heading-secondary u-center-text">Sunseeker Adventure Log</h2>
+      <div className="u-center-text u-margin-bottom-big">
+        <h2 className="heading-secondary">
+          <span className="heading-secondary--main">
+            Journals</span>
+          <span className="heading-secondary--sub">
+            Adventure Log</span>
+          </h2>
+      </div>
 
       <p>Navigation</p><br />
       <p>Season One</p><br />

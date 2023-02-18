@@ -37,9 +37,7 @@
 
    }
 
-  //  &:hover &__caption {
-  //   opacity: 1;
-  //   transform: translate(-50%, -50%);
+  // CHARACTERS
 
   &--sunseekers {
     background-image: linear-gradient(
@@ -183,4 +181,83 @@
     background-position: center;
     background-blend-mode: difference;
    }
+
+  // JOURNALS
+
+  &--adventure-log {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-grey-light-2, 0.8),  
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/tFQlEqi.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+  }
+
+  &--tarroka-reading {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-grey-light-2, 0.8),  
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/4TAGQ2R.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+  }
+
+  &--strahd-notes {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8),  
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/AWQB28r.png");
+    background-size: cover;
+    background-position: top;
+    background-blend-mode:hue;
+  }
+
+  &--vallaki-laws {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8),  
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/fgPPAfM.png");
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: hue;
+  }
+
+  &--safzira-diary {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8),  
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/pG4NWum.png");
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: lighten;
+  }
+
+  &--ireena-diary {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-grey-light-2, 0.8),   
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/5iWx4Sl.png");
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: darken;
+  }
+
+  &--misc {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8),  
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/r17tnaC.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+  }
 }
