@@ -19,6 +19,11 @@
     width: 30rem;
    }
 
+   @include respond(desktop) {
+    height: 25rem;
+    width: 25rem;
+   }
+
    &__title {
     color: white;
     font-family: $font-nav;

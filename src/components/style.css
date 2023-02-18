@@ -190,6 +190,10 @@ body {
     .cat-card {
       height: 30rem;
       width: 30rem; } }
+  @media (min-width: 75em) {
+    .cat-card {
+      height: 25rem;
+      width: 25rem; } }
   .cat-card__title {
     color: white;
     font-family: "Yatra One", cursive;
