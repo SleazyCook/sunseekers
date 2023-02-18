@@ -1,0 +1,146 @@
+.cat-card {
+   height: 30rem; 
+   width: 30rem;
+   border-radius: 3px;
+   position: relative;
+
+   &__title {
+    color: white;
+    font-family: $font-nav;
+    font-size: 2rem;
+    text-align: center;
+    @include absCenter;
+   }
+
+   &--ravenloft {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8), 
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/1xI9Lua.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
+   }
+
+   &--barovia {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8), 
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/VP9HxsY.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-dodge;
+   }
+
+   &--vistani {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8), 
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/WhgUBnM.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference;
+   }
+
+   &--keepers {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-grey-light-2, 0.8), 
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/VsqE8Ic.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+   }
+
+   &--dragon {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-grey-light-2, 0.8), 
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/79TW4Fp.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+   }
+
+   &--church {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8), 
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/rsS64Ka.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
+   }
+
+   &--baron {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8), 
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/ES2lAjH.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hue;
+   }
+
+   &--wachterhaus {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-grey-light-2, 0.8), 
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/BjfQLaP.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:multiply;
+   }
+
+   &--merchants {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8), 
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/uHHFv1v.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference;
+   }
+
+   &--vallaki {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8), 
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/coz37xw.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference;
+   }
+
+   &--witches {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8), 
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/4jpT6Ux.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference;
+   }
+
+   &--unknown {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8), 
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/zRETq2O.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference;
+   }
+}

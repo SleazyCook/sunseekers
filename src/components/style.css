@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yatra+One&display=swap");
 *,
 *::before,
 *::after {
@@ -175,6 +176,81 @@ body {
         .card__description--bottom {
           padding-top: 8rem; } }
 
+.cat-card {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 3px;
+  position: relative; }
+  .cat-card__title {
+    color: white;
+    font-family: "Yatra One", cursive;
+    font-size: 2rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .cat-card--ravenloft {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/1xI9Lua.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn; }
+  .cat-card--barovia {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/VP9HxsY.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-dodge; }
+  .cat-card--vistani {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/WhgUBnM.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference; }
+  .cat-card--keepers {
+    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/VsqE8Ic.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--dragon {
+    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/79TW4Fp.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply; }
+  .cat-card--church {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/rsS64Ka.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn; }
+  .cat-card--baron {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/ES2lAjH.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hue; }
+  .cat-card--wachterhaus {
+    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BjfQLaP.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply; }
+  .cat-card--merchants {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/uHHFv1v.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference; }
+  .cat-card--vallaki {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/coz37xw.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference; }
+  .cat-card--witches {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/4jpT6Ux.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference; }
+  .cat-card--unknown {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/zRETq2O.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference; }
+
 .shop {
   width: 100%;
   position: relative;
@@ -248,7 +324,9 @@ body {
     width: 30rem; }
 
 .navigation {
-  position: relative; }
+  position: relative;
+  font-family: "Yatra One", cursive;
+  color: #771f09; }
   .navigation--top {
     font-size: 2.5rem;
     text-align: center;
@@ -256,7 +334,7 @@ body {
     .navigation--top a,
     .navigation--top a:active,
     .navigation--top a:visited {
-      color: white;
+      color: #771f09;
       text-decoration: none; }
 
 .header {

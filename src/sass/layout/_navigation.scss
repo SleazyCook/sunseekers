@@ -1,5 +1,7 @@
 .navigation {
   position: relative;
+  font-family: $font-nav;
+  color: $color-primary;
   
   &--top {
   //   height: 7.5vh;
@@ -18,7 +20,7 @@
     & a,
     & a:active,
     & a:visited {
-      color: white;
+      color: $color-primary;
       text-decoration: none;
     }
 

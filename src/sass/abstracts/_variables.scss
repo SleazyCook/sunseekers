@@ -10,9 +10,9 @@ $color-secondary-dark: darken($color-secondary-light, 15%);
 // $color-tertiary-dark: 
 
 // $color-grey-light-1: 
-// $color-grey-light-2: 
+$color-grey-light-2: grey;
 
-// $color-grey-dark-1: 
+// $color-grey-dark-1: grey;
 // $color-grey-dark-2: 
 // $color-grey-dark-3: 
 
@@ -26,12 +26,16 @@ $color-red: rgb(119, 31, 9);
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
 
 $default-font-size: 1.6rem;
 
 $font-header: 'Cinzel Decorative', cursive; 
 $font-header-2: 'Bebas Neue', cursive;
+$font-nav: 'Yatra One', cursive;
+
 $font-strahd: 'Pinyon Script', cursive;
+
 
 // BORDER-RADIUS
 // $border-radius-default: 
