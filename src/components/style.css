@@ -262,9 +262,6 @@ body {
     background-position: center;
     background-blend-mode: difference; }
 
-#cat-card__text-box--long-text {
-  width: fit-content; }
-
 .shop {
   width: 100%;
   position: relative;
@@ -349,7 +346,10 @@ body {
     .navigation--top a:active,
     .navigation--top a:visited {
       color: #771f09;
-      text-decoration: none; }
+      text-decoration: none;
+      transition: all .6s; }
+    .navigation--top a:hover {
+      color: white; }
 
 .header {
   height: 30vh;

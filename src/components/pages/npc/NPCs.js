@@ -58,7 +58,7 @@ function NPCs() {
       <div className="flex__item">
         <Link to="/">
           <div className="cat-card cat-card--church">
-            <div className="cat-card__text-box" id="cat-card__text-box--long-text">
+            <div className="cat-card__text-box">
               <h3 className="cat-card__title">Church of the Morning Lord</h3>
             </div>
           </div>
