@@ -13,7 +13,7 @@
 
   &:hover &__title {
     font-size: 2.2rem;
-
+    @include clearfix;
   }
 
    @include respond(tab-port) {

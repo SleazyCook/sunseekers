@@ -216,6 +216,10 @@ body {
       clear: both; }
   .cat-card:hover .cat-card__title {
     font-size: 2.2rem; }
+    .cat-card:hover .cat-card__title::after {
+      content: "";
+      display: table;
+      clear: both; }
   @media (min-width: 37.5em) {
     .cat-card {
       height: 30rem;
@@ -418,6 +422,42 @@ body {
       background-position: top; }
     .npc-card__img--cyrus-belview {
       background-image: url("https://i.imgur.com/3wcInwz.png");
+      background-position: top; }
+    .npc-card__img--cyrus-belview {
+      background-image: url("https://i.imgur.com/3wcInwz.png");
+      background-position: top; }
+    .npc-card__img--viktor-lazlo {
+      background-image: url("https://i.imgur.com/DUF2lfE.png");
+      background-position: top; }
+    .npc-card__img--madame-eva {
+      background-image: url("https://i.imgur.com/4TAGQ2R.jpg");
+      background-position: top; }
+    .npc-card__img--tser-pool {
+      background-image: url("https://i.imgur.com/4ESFX6g.png");
+      background-position: center; }
+    .npc-card__img--vallaki-camp {
+      background-image: url("https://i.imgur.com/BhKS1uC.png");
+      background-position: top; }
+    .npc-card__img--luvash {
+      background-image: url("https://i.imgur.com/zPDSJWv.png");
+      background-position: top; }
+    .npc-card__img--arrigal {
+      background-image: url("https://i.imgur.com/cJuJgQy.png");
+      background-position: top; }
+    .npc-card__img--arabelle {
+      background-image: url("https://i.imgur.com/mUPMdul.png");
+      background-position: center; }
+    .npc-card__img--alexei {
+      background-image: url("https://i.imgur.com/kJkTaka.png");
+      background-position: center; }
+    .npc-card__img--kasimir {
+      background-image: url("https://i.imgur.com/VbVKHji.png");
+      background-position: top; }
+    .npc-card__img--dusk-elves {
+      background-image: url("https://i.imgur.com/q3lsE1z.png");
+      background-position: center; }
+    .npc-card__img--vistani-nomads {
+      background-image: url("https://i.imgur.com/tyNOTjk.png");
       background-position: top; }
 
 .shop {
