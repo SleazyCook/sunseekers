@@ -180,7 +180,12 @@ body {
   height: 45rem;
   width: 45rem;
   border-radius: 3px;
-  position: relative; }
+  position: relative;
+  transition: all .4s; }
+  .cat-card:hover {
+    transform: scale(0.97); }
+  .cat-card:hover .cat-card__title {
+    font-size: 2.2rem; }
   @media (min-width: 37.5em) {
     .cat-card {
       height: 30rem;
@@ -193,7 +198,9 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    transition: all .4s;
+    width: 100%; }
   .cat-card--ravenloft {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/1xI9Lua.png");
     background-size: cover;
@@ -220,10 +227,10 @@ body {
     background-position: center;
     background-blend-mode: multiply; }
   .cat-card--church {
-    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/rsS64Ka.png");
+    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/rsS64Ka.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: color-burn; }
+    background-blend-mode: multiply; }
   .cat-card--baron {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/ES2lAjH.png");
     background-size: cover;
@@ -254,6 +261,9 @@ body {
     background-size: cover;
     background-position: center;
     background-blend-mode: difference; }
+
+#cat-card__text-box--long-text {
+  width: fit-content; }
 
 .shop {
   width: 100%;

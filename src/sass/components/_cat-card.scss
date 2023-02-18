@@ -3,6 +3,16 @@
    width: 45rem;
    border-radius: 3px;
    position: relative;
+   transition: all .4s;
+
+  &:hover {
+    transform: scale(.97)
+  }
+
+  &:hover &__title {
+    font-size: 2.2rem;
+
+  }
 
    @include respond(tab-port) {
     height: 30rem;
@@ -15,7 +25,15 @@
     font-size: 2rem;
     text-align: center;
     @include absCenter;
+    transition: all .4s;
+    width: 100%;
+
    }
+
+  //  &:hover &__caption {
+  //   opacity: 1;
+  //   transform: translate(-50%, -50%);
+
 
    &--ravenloft {
     background-image: linear-gradient(
@@ -75,12 +93,12 @@
    &--church {
     background-image: linear-gradient(
       to right bottom, 
-      rgba($color-primary-light, 0.8), 
+      rgba($color-grey-light-2, 0.8), 
       rgba($color-primary-dark, 0.8)), 
       url("https://i.imgur.com/rsS64Ka.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: color-burn;
+    background-blend-mode: multiply;
    }
 
    &--baron {
@@ -148,4 +166,8 @@
     background-position: center;
     background-blend-mode: difference;
    }
+}
+
+#cat-card__text-box--long-text {
+  width: fit-content;
 }
