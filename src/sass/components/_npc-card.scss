@@ -1,0 +1,77 @@
+.npc-card {
+  background-color: $color-grey-dark-1;
+  border-radius: 3px;
+
+  height: 80rem;
+  width: 40rem;
+
+  @include respond(tab-land) {
+    height: 60rem;
+  }
+
+  @include respond(desktop) {
+    height: 54rem;
+    width: 33rem;
+  }
+
+  &__heading{
+    font-size: 5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 1rem;
+    font-family: $font-header-2;
+    color: $color-primary-light;
+  }
+
+  &__description {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  &__bonds {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  &__img {
+    background-size: cover;
+    height: 25rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+
+    &--rose {
+      background-image: url("https://i.imgur.com/IrTKHqP.jpg");
+      background-position: center;
+    }
+
+    &--thorn {
+      background-image: url("https://i.imgur.com/zvK212S.jpg");
+      background-position: center;
+    }
+
+    &--gustav {
+      background-image: url("https://i.imgur.com/c5F4D19.jpg");
+      background-position: center;
+    }
+
+    &--elizabeth {
+      background-image: url("https://i.imgur.com/otQXN1s.jpg");
+      background-position: center;
+    }
+
+    &--walter {
+      background-image: url("https://i.imgur.com/l2cD0Wh.jpg");
+      background-position: center;
+    }
+
+    &--nursemaid {
+      background-image: url("https://i.imgur.com/TPaXcpo.png");
+      background-position: center;
+    }
+  }
+}

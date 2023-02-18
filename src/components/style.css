@@ -69,7 +69,11 @@ body {
 .heading-secondary {
   font-family: "Cinzel Decorative", cursive;
   color: #771f09;
-  font-size: 3rem; }
+  font-size: 3rem;
+  margin-top: 2rem; }
+  .heading-secondary--sub {
+    display: block;
+    text-decoration: overline; }
 
 .u-center-text {
   text-align: center !important; }
@@ -95,6 +99,9 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.u-underline {
+  text-decoration: underline; }
+
 .bg-main {
   background-image: url("https://i.imgur.com/yxCPjUN.png");
   height: 70vh;
@@ -116,7 +123,7 @@ body {
     backface-visibility: hidden;
     border-radius: 3px;
     overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+    box-shadow: 0 1.5rem 4rem rgba(26, 26, 26, 0.15); }
     .card__side--front {
       background-color: black; }
     .card__side--back {
@@ -275,6 +282,59 @@ body {
     background-position: center;
     background-blend-mode: difference; }
 
+.npc-card {
+  background-color: #1a1a1a;
+  border-radius: 3px;
+  height: 80rem;
+  width: 40rem; }
+  @media (min-width: 56.25em) {
+    .npc-card {
+      height: 60rem; } }
+  @media (min-width: 75em) {
+    .npc-card {
+      height: 54rem;
+      width: 33rem; } }
+  .npc-card__heading {
+    font-size: 5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 1rem;
+    font-family: "Bebas Neue", cursive;
+    color: #a62b0d; }
+  .npc-card__description {
+    padding: 2rem;
+    text-align: center; }
+  .npc-card__bonds {
+    text-align: center;
+    font-size: 2rem; }
+  .npc-card__img {
+    background-size: cover;
+    height: 25rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%); }
+    .npc-card__img--rose {
+      background-image: url("https://i.imgur.com/IrTKHqP.jpg");
+      background-position: center; }
+    .npc-card__img--thorn {
+      background-image: url("https://i.imgur.com/zvK212S.jpg");
+      background-position: center; }
+    .npc-card__img--gustav {
+      background-image: url("https://i.imgur.com/c5F4D19.jpg");
+      background-position: center; }
+    .npc-card__img--elizabeth {
+      background-image: url("https://i.imgur.com/otQXN1s.jpg");
+      background-position: center; }
+    .npc-card__img--walter {
+      background-image: url("https://i.imgur.com/l2cD0Wh.jpg");
+      background-position: center; }
+    .npc-card__img--nursemaid {
+      background-image: url("https://i.imgur.com/TPaXcpo.png");
+      background-position: center; }
+
 .shop {
   width: 100%;
   position: relative;
@@ -344,6 +404,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem; }
+  .flexbox--npc {
+    gap: 5rem; }
   .flexbox__item {
     width: 30rem; }
 

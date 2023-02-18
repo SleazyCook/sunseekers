@@ -4,6 +4,10 @@
   justify-content: center;
   gap: 2rem;
 
+  &--npc {
+    gap: 5rem;
+  }
+
   &__item {
     width: 30rem;
 

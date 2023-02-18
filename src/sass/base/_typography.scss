@@ -47,4 +47,14 @@ body {
   font-family: $font-header;
   color: $color-primary;
   font-size: 3rem;
+  margin-top: 2rem;
+
+  &--main {
+   
+  }
+
+  &--sub {
+    display: block;
+    text-decoration: overline;
+  }
 }
