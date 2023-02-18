@@ -13,10 +13,10 @@ function Home() {
         <br />
         <br />
         <Link to="/characters" className="btn">
-          Explore</Link>
+          Guide</Link>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="https://death-house.netlify.app" className="btn">
-          Play</a>
+          Death House</a>
       </div>
 
 
