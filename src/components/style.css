@@ -53,7 +53,8 @@ body {
     display: block;
     font-size: 3.5rem;
     font-weight: 600;
-    text-decoration: underline; }
+    text-decoration: underline;
+    margin-bottom: -1rem; }
     @media (min-width: 37.5em) {
       .heading-primary--main {
         font-size: 5rem; } }

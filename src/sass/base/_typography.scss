@@ -23,6 +23,7 @@ body {
     font-weight: 600;
     text-decoration: underline;
     // letter-spacing: 3.5rem;
+    margin-bottom: -1rem;
 
     @include respond(tab-port) {
       font-size: 5rem;
