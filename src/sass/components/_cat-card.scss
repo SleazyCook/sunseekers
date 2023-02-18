@@ -266,34 +266,34 @@
   &--mists {
     background-image: linear-gradient(
       to right bottom, 
-      rgba($color-primary-light, 0.8),  
+      rgba($color-grey-dark-1, 0.8),  
       rgba($color-primary-dark, 0.8)), 
       url("https://i.imgur.com/bgfcLRA.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: lighten;
   }
 
   &--old-svalich-road {
     background-image: linear-gradient(
       to right bottom, 
-      rgba($color-primary-light, 0.8),  
+      rgba($color-grey-dark-1, 0.8),   
       rgba($color-primary-dark, 0.8)), 
       url("https://i.imgur.com/B7TIY5w.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: lighten;
   }
 
   &--svalich-woods {
     background-image: linear-gradient(
       to right bottom, 
-      rgba($color-primary-light, 0.8),  
+      rgba($color-grey-dark-1, 0.8),  
       rgba($color-primary-dark, 0.8)), 
       url("https://i.imgur.com/aN6jACG.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode:difference;
   }
 
   // village of barovia card resused from characters
@@ -301,23 +301,23 @@
   &--river-ivlis {
     background-image: linear-gradient(
       to right bottom, 
-      rgba($color-primary-light, 0.8),  
-      rgba($color-primary-dark, 0.8)), 
+      rgba($color-primary-light, 0.2),  
+      rgba($color-primary-dark, 0.2)), 
       url("https://i.imgur.com/K0dBpvZ.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: hue;
   }
 
   &--tser-pool-encampent {
     background-image: linear-gradient(
       to right bottom, 
-      rgba($color-primary-light, 0.8),  
+      rgba($color-grey-dark-1, 0.8),   
       rgba($color-primary-dark, 0.8)), 
       url("https://i.imgur.com/4ESFX6g.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: lighten;
   }
 
   &--black-carriage {
@@ -328,7 +328,7 @@
       url("https://i.imgur.com/BgyFPCi.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: difference;
   }
 
   // castle ravenloft card reused from characters
@@ -341,7 +341,7 @@
       url("https://i.imgur.com/OVBsusR.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: lighten;
   }
 
   // vallaki location reused from characters
@@ -354,7 +354,7 @@
       url("https://i.imgur.com/BhKS1uC.png");
     background-size: cover;
     background-position: top;
-    background-blend-mode: darken;
+    background-blend-mode: lighten;
   }
 
   &--lake-zarovich {
@@ -365,7 +365,7 @@
       url("https://i.imgur.com/g5gBgCy.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: lighten;
   }
 
   &--mount-baratok {
@@ -376,7 +376,7 @@
       url("https://i.imgur.com/YeJikRd.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: lighten;
   }
 
   &--argonvostholt {
@@ -387,18 +387,18 @@
       url("https://i.imgur.com/a7MDVuA.png");
     background-size: cover;
     background-position: left;
-    background-blend-mode: darken;
+    background-blend-mode: lighten;
   }
 
   &--village-of-krezk {
     background-image: linear-gradient(
       to right bottom, 
-      rgba($color-primary-light, 0.8),  
+      rgba($color-grey-light-2, 0.8),  
       rgba($color-primary-dark, 0.8)), 
       url("https://i.imgur.com/KZksRvW.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: multiply;
   }
 
   &--tsolenka-pass {
@@ -409,7 +409,7 @@
       url("https://i.imgur.com/djjBndz.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: lighten;
   }
 
   &--ruins-of-berez {
@@ -420,7 +420,7 @@
       url("https://i.imgur.com/ucyJimG.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: lighten;
   }
 
   &--van-richten-tower {
@@ -431,7 +431,7 @@
       url("https://i.imgur.com/Bl3DflE.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: lighten;
   }
 
   &--wizard-of-wines {
@@ -442,7 +442,7 @@
       url("https://i.imgur.com/GlOt2XL.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode:color;
   }
 
   &--amber-temple {
@@ -453,7 +453,7 @@
       url("https://i.imgur.com/BGevuw0.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: lighten;
   }
 
   &--yester-hill {
@@ -464,7 +464,7 @@
       url("https://i.imgur.com/vulmMJ0.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: lighten;
   }
 
   &--werewolf-den {
