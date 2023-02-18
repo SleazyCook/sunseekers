@@ -339,6 +339,101 @@ body {
     background-size: cover;
     background-position: center;
     background-blend-mode: darken; }
+  .cat-card--mists {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/bgfcLRA.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--old-svalich-road {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/B7TIY5w.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--svalich-woods {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/aN6jACG.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--river-ivlis {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/K0dBpvZ.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--tser-pool-encampent {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/4ESFX6g.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--black-carriage {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BgyFPCi.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--old-mill {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/OVBsusR.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--vallaki-vistani-camp {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BhKS1uC.png");
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: darken; }
+  .cat-card--lake-zarovich {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/g5gBgCy.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--mount-baratok {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/YeJikRd.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--argonvostholt {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/a7MDVuA.png");
+    background-size: cover;
+    background-position: left;
+    background-blend-mode: darken; }
+  .cat-card--village-of-krezk {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/KZksRvW.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--tsolenka-pass {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/djjBndz.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--ruins-of-berez {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/ucyJimG.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--van-richten-tower {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/Bl3DflE.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--wizard-of-wines {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/GlOt2XL.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--amber-temple {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BGevuw0.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--yester-hill {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/vulmMJ0.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
+  .cat-card--werewolf-den {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/aN6jACG.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken; }
 
 .npc-card {
   background-color: #1a1a1a;
