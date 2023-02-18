@@ -285,6 +285,7 @@ body {
 .npc-card {
   background-color: #1a1a1a;
   border-radius: 3px;
+  transition: all .4s;
   height: 80rem;
   width: 40rem; }
   @media (min-width: 56.25em) {
@@ -294,6 +295,8 @@ body {
     .npc-card {
       height: 54rem;
       width: 33rem; } }
+  .npc-card:hover {
+    transform: scale(0.97); }
   .npc-card__heading {
     font-size: 5rem;
     font-weight: 400;

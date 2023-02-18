@@ -1,6 +1,7 @@
 .npc-card {
   background-color: $color-grey-dark-1;
   border-radius: 3px;
+  transition: all .4s;
 
   height: 80rem;
   width: 40rem;
@@ -12,6 +13,10 @@
   @include respond(desktop) {
     height: 54rem;
     width: 33rem;
+  }
+
+  &:hover {
+    transform: scale(.97)
   }
 
   &__heading{
