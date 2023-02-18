@@ -50,7 +50,7 @@
       url("https://i.imgur.com/1xI9Lua.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: color-burn;
+    background-blend-mode: multiply;
    }
 
    &--barovia {
@@ -111,12 +111,12 @@
    &--baron {
     background-image: linear-gradient(
       to right bottom, 
-      rgba($color-primary-light, 0.8), 
+      rgba($color-grey-light-2, 0.8), 
       rgba($color-primary-dark, 0.8)), 
       url("https://i.imgur.com/ES2lAjH.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: hue;
+    background-blend-mode: multiply;
    }
 
    &--wachterhaus {
