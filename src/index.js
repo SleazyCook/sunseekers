@@ -6,8 +6,6 @@ import ErrorPage from './components/ErrorPage'
 
 import Home from './components/pages/home/Home'
 
-import Characters from './components/pages/characters/Characters'
-
 import Notes from './components/pages/notes/Notes'
 import AdventureLog from './components/pages/notes/AdventureLog'
 import StrahdLetters from './components/pages/notes/StrahdLetters'
@@ -16,19 +14,20 @@ import Market from './components/pages/market/Market'
 
 import Locations from './components/pages/locations/Locations'
 
-import NPCs from './components/pages/npc/NPCs'
-import Baron from './components/pages/npc/Baron'
-import Barovia from './components/pages/npc/Barovia'
-import Church from './components/pages/npc/Church'
-import Dragon from './components/pages/npc/Dragon'
-import Feather from './components/pages/npc/Feather'
-import Merchants from './components/pages/npc/Merchants'
-import Ravenloft from './components/pages/npc/Ravenloft'
-import Unknown from './components/pages/npc/Unknown'
-import Vallaki from './components/pages/npc/Vallaki'
-import Vistani from './components/pages/npc/Vistani'
-import Wachterhaus from './components/pages/npc/Wachterhaus'
-import Witches from './components/pages/npc/Witches'
+import Players from './components/pages/characters/sunseekers/Players'
+import Characters from './components/pages/characters/Characters'
+import Baron from './components/pages/characters/Baron'
+import Barovia from './components/pages/characters/Barovia'
+import Church from './components/pages/characters/Church'
+import Dragon from './components/pages/characters/Dragon'
+import Feather from './components/pages/characters/Feather'
+import Merchants from './components/pages/characters/Merchants'
+import Ravenloft from './components/pages/characters/Ravenloft'
+import Unknown from './components/pages/characters/Unknown'
+import Vallaki from './components/pages/characters/Vallaki'
+import Vistani from './components/pages/characters/Vistani'
+import Wachterhaus from './components/pages/characters/Wachterhaus'
+import Witches from './components/pages/characters/Witches'
 
 
 import Quests from './components/pages/quests/Quests'
@@ -68,11 +67,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "characters",
-        element: <NPCs />
+        element: <Characters />
       },
       {
         path: "characters/sunseekers",
-        element: <Characters />
+        element: <Players />
       },
       {
         path: "characters/the-baron",
