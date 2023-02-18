@@ -19,7 +19,7 @@ function Barovia() {
 
       <div className="flexbox flexbox--npc">
 
-        <div className="flexbox__item"> {/* Rose Start */}
+        <div className="flexbox__item--npc"> {/* Rose Start */}
           <div className="npc-card">
             <div className="npc-card__heading">Rose Durst</div>
             <div className="npc-card__img npc-card__img--rose">&nbsp;</div>
@@ -38,7 +38,7 @@ function Barovia() {
           </div>
         </div> {/* Rose End */}
 
-        <div className="flexbox__item"> {/* Thorn Start */}
+        <div className="flexbox__item--npc"> {/* Thorn Start */}
           <div className="npc-card">
             <div className="npc-card__heading">Thorn Durst</div>
             <div className="npc-card__img npc-card__img--thorn">&nbsp;</div>
@@ -57,7 +57,7 @@ function Barovia() {
           </div>
         </div> {/* Thorn End */}
 
-        <div className="flexbox__item"> {/* Gustav Durst Start */}
+        <div className="flexbox__item--npc"> {/* Gustav Durst Start */}
           <div className="npc-card">
             <div className="npc-card__heading">Gustav Durst</div>
             <div className="npc-card__img npc-card__img--gustav">&nbsp;</div>
@@ -76,7 +76,7 @@ function Barovia() {
           </div>
         </div> {/* Gustav Durst End */}
 
-        <div className="flexbox__item"> {/* Elizabeth Durst Start */}
+        <div className="flexbox__item--npc"> {/* Elizabeth Durst Start */}
           <div className="npc-card">
             <div className="npc-card__heading">Elizabeth Durst</div>
             <div className="npc-card__img npc-card__img--elizabeth">&nbsp;</div>
@@ -95,7 +95,7 @@ function Barovia() {
           </div>
         </div> {/* Elizabeth Durst End */}
 
-        <div className="flexbox__item"> {/* Walter Durst Start */}
+        <div className="flexbox__item--npc"> {/* Walter Durst Start */}
           <div className="npc-card">
             <div className="npc-card__heading">Walter Durst</div>
             <div className="npc-card__img npc-card__img--walter">&nbsp;</div>
@@ -114,7 +114,7 @@ function Barovia() {
           </div>
         </div> {/* Walter Durst End */}
 
-        <div className="flexbox__item"> {/* Durst Nursemaid Start */}
+        <div className="flexbox__item--npc"> {/* Durst Nursemaid Start */}
           <div className="npc-card">
             <div className="npc-card__heading">Durst Nursemaid</div>
             <div className="npc-card__img npc-card__img--nursemaid">&nbsp;</div>

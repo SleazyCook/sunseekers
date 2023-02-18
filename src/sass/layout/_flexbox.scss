@@ -5,7 +5,21 @@
   gap: 2rem;
 
   &--npc {
-    gap: 5rem;
+    // gap: 5rem;
+
+    // &__item {
+    //   height: 80rem;
+    //   width: 40rem;
+    
+    //   @include respond(tab-land) {
+    //     height: 60rem;
+    //   }
+    
+    //   @include respond(desktop) {
+    //     height: 54rem;
+    //     width: 33rem;
+    //   }
+    // }
   }
 
   &__item {

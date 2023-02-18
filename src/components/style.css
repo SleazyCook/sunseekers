@@ -404,8 +404,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem; }
-  .flexbox--npc {
-    gap: 5rem; }
   .flexbox__item {
     width: 30rem; }
 
