@@ -20,9 +20,19 @@
     transform: translate(-50%, -50%);
     text-align: center;
     min-width: 300px;
-    animation: fadeIn 1s ease-out;
-    animation-fill-mode: backwards;
-    animation-delay: .5s;
+
+    & h1 {
+      animation: fadeIn 1s ease-out;
+      animation-fill-mode: backwards;
+      animation-delay: .5s;
+    }
+
+    & a {
+      animation: fadeIn .5s ease-out;
+      animation-fill-mode: backwards;
+      animation-delay: 1s;
+    }
+
   }
 }
 

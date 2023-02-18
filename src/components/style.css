@@ -804,10 +804,15 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    min-width: 300px;
-    animation: fadeIn 1s ease-out;
-    animation-fill-mode: backwards;
-    animation-delay: .5s; }
+    min-width: 300px; }
+    .home__textbox h1 {
+      animation: fadeIn 1s ease-out;
+      animation-fill-mode: backwards;
+      animation-delay: .5s; }
+    .home__textbox a {
+      animation: fadeIn .5s ease-out;
+      animation-fill-mode: backwards;
+      animation-delay: 1s; }
 
 .market {
   display: flex;
