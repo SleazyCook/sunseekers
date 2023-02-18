@@ -34,7 +34,7 @@ function Vistani() {
               </i>
               <br />
               <br />
-              The Vistani are the only people in Strahd's Barovia that are allowed to come and go as they please.  The relationship between Strahd and the Vistani is mysterious to most people.  They are known to travel lightly though Barovia, although they are not considered welcome in Barovian settlements.
+              The Vistani are the only people in Strahd's Barovia that are allowed to come and go as they please.  The relationship between Strahd and the Vistani is mysterious to most people.  They are known to travel lightly though Barovia, although they are not considered welcome in most Barovian settlements.
             </div>
           </div>
         </div> {/* Vistani Nomads End */}
@@ -234,7 +234,7 @@ function Vistani() {
             <div className="npc-card__heading">Dusk Elves</div>
             <div className="npc-card__img npc-card__img--dusk-elves">&nbsp;</div>
             <div className="npc-card__bonds">
-            <IoIosHeart /><IoIosHeart /><IoIosHeart />
+            <IoIosHeart /><IoIosHeart />
             </div>
             <div className="npc-card__description">
               340-450, &nbsp;
@@ -247,6 +247,25 @@ function Vistani() {
             </div>
           </div>
         </div> {/* Dusk Elves End */}
+
+        <div className="flexbox__item--npc"> {/* Ezmerelda Start */}
+          <div className="npc-card">
+            <div className="npc-card__heading">Ez d'Avenir</div>
+            <div className="npc-card__img npc-card__img--ezmerelda">&nbsp;</div>
+            <div className="npc-card__bonds">
+            <IoIosHeart /><IoIosHeart />
+            </div>
+            <div className="npc-card__description">
+              28, &nbsp;
+              <i>
+                 alive
+              </i>
+              <br />
+              <br />
+              Ezmerelda d'Avenir is a mysertious Vistana who saved Freebird and Umnos from certain death during their fight with Volenta in the Chamber of Sorrow. She stole the Tome Of Strahd from the Sunseekers and disappeared. 
+            </div>
+          </div>
+        </div> {/* Ezmerelda End */}
 
 
 

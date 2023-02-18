@@ -459,6 +459,9 @@ body {
     .npc-card__img--vistani-nomads {
       background-image: url("https://i.imgur.com/tyNOTjk.png");
       background-position: top; }
+    .npc-card__img--ezmerelda {
+      background-image: url("https://i.imgur.com/Zs0iM18.png");
+      background-position: top; }
 
 .shop {
   width: 100%;
