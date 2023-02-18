@@ -29,7 +29,6 @@ import Vistani from './components/pages/characters/Vistani'
 import Wachterhaus from './components/pages/characters/Wachterhaus'
 import Witches from './components/pages/characters/Witches'
 
-
 import Quests from './components/pages/quests/Quests'
 
 const appElement = document.getElementById('app')
