@@ -1,8 +1,13 @@
 .cat-card {
-   height: 30rem; 
-   width: 30rem;
+   height: 45rem; 
+   width: 45rem;
    border-radius: 3px;
    position: relative;
+
+   @include respond(tab-port) {
+    height: 30rem;
+    width: 30rem;
+   }
 
    &__title {
     color: white;
