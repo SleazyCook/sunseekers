@@ -2,6 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yatra+One&display=swap");
+@keyframes scaleDown {
+  0% {
+    transform: scale(1.2); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
 *,
 *::before,
 *::after {
@@ -783,14 +795,18 @@ body {
   background-position: center;
   position: relative;
   border-radius: 3px;
-  overflow: hidden; }
+  overflow: hidden;
+  animation: scaleDown 1.5s ease-out; }
   .home__textbox {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    min-width: 300px; }
+    min-width: 300px;
+    animation: fadeIn 1s ease-out;
+    animation-fill-mode: backwards;
+    animation-delay: .5s; }
 
 .market {
   display: flex;

@@ -10,6 +10,8 @@
   position: relative;
   border-radius: 3px;
   overflow: hidden;
+  
+  animation: scaleDown 1.5s ease-out;
 
   &__textbox {
     position: absolute;
@@ -18,6 +20,9 @@
     transform: translate(-50%, -50%);
     text-align: center;
     min-width: 300px;
+    animation: fadeIn 1s ease-out;
+    animation-fill-mode: backwards;
+    animation-delay: .5s;
   }
 }
 
