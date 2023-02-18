@@ -14,7 +14,7 @@ function Home() {
         <br />
         <Link to="/notes" className="btn">
           Guide</Link>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          
         <a href="https://death-house.netlify.app" className="btn">
           Death House</a>
       </div>

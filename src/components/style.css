@@ -137,6 +137,7 @@ body {
   /* forces element to have it's own space */
   display: inline-block;
   transition: all .2s;
+  margin: 2rem;
   font-family: "Yatra One", cursive;
   font-size: 2rem;
   color: #771f09;
