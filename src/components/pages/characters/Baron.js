@@ -1,8 +1,18 @@
 import React from 'react'
 
+import Header from '../../Header'
+import Navigation from '../../Navigation'
+
 function Baron() {
   return (
-    <div>Baron</div>
+    <div>
+      
+      <Header />
+      <Navigation />
+      
+      Baron
+      
+      </div>
   )
 }
 

@@ -1,10 +1,16 @@
 import React from 'react'
 
+import Header from '../../../Header'
+import Navigation from '../../../Navigation'
+
 import NPCs from './NPCs'
 
 function Players() {
   return (
     <div className="characters">
+
+      <Header />
+      <Navigation />
 
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">

@@ -1,8 +1,19 @@
 import React from 'react'
 
+import Header from '../../Header'
+import Navigation from '../../Navigation'
+
 function Dragon() {
   return (
-    <div>Dragon</div>
+    <div>
+      
+      <Header />
+      <Navigation />
+      
+      Dragon
+
+
+    </div>
   )
 }
 

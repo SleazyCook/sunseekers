@@ -1,5 +1,8 @@
 import React from 'react'
 
+import Header from '../../Header'
+import Navigation from '../../Navigation'
+
 import { IoIosHeart } from 'react-icons/io'
 import { IoIosHeartDislike } from 'react-icons/io'
 import { IoIosHeartEmpty } from 'react-icons/io'
@@ -7,9 +10,12 @@ import { RiQuestionMark } from 'react-icons/ri'
 
 function Vistani() {
   return (
-    <div className="npc-cards">
+    <div>
 
-<div className="u-center-text u-margin-bottom-big">
+      <Header />
+      <Navigation />
+
+      <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
           <span className="heading-secondary--main">
             Character Guide</span>

@@ -1,8 +1,14 @@
 import React from 'react'
 
+import Header from '../../Header'
+import Navigation from '../../Navigation'
+
 function AdventureLog() {
   return (
-    <div className="adventure-log">
+    <div>
+
+      <Header />
+      <Navigation />
       
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
