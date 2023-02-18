@@ -7,8 +7,15 @@ function Characters() {
     <div className="characters">
 
       <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">Player Characters</h2>
+        <h2 className="heading-secondary">
+          <span className="heading-secondary--main">
+            Character Guide</span>
+          <span className="heading-secondary--sub">
+            Sunseekers</span>
+        </h2>
       </div>
+
+      <h3 className="heading-tertiary">Player Characters</h3>
 
       {/* Row One - Gen 1*/}
 

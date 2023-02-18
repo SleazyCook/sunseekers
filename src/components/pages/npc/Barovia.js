@@ -11,7 +11,7 @@ function Barovia() {
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
           <span className="heading-secondary--main">
-            Non-Player Characters</span>
+            Character Guide</span>
           <span className="heading-secondary--sub">
             Village of Barovia</span>
           </h2>
@@ -360,7 +360,7 @@ function Barovia() {
               </i>
               <br />
               <br />
-              Group of Vistani woman who frequent the Blood on the Vine Tavern (unclear whether they own it). Took a liking to German the Barbarian. Told Safzira and German the Barbarian to visit Madame Eva if they want to ever leave Barovia.
+              Group of Vistani woman who frequent the Blood on the Vine Tavern (unclear whether they truly own it or not). Took a liking to German the Barbarian. Told Safzira and German the Barbarian to visit Madame Eva if they want to ever leave Barovia.
             </div>
           </div>
         </div> {/* Tavern Owners End */}

@@ -6,10 +6,20 @@ function NPCs() {
     <div>
 
       <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">Non-Player Characters</h2>
+        <h2 className="heading-secondary">Character Guide</h2>
       </div>
 
       <div className="flexbox">
+
+        <div className="flex__item">
+          <Link to="sunseekers">
+            <div className="cat-card cat-card--sunseekers">
+              <div className="cat-card__text-box">
+                <h3 className="cat-card__title">Sunseekers</h3>
+              </div>
+            </div>
+          </Link>
+        </div>
 
         <div className="flex__item">
           <Link to="castle-ravenloft">

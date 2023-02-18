@@ -47,10 +47,6 @@ export const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "sunseekers",
-        element: <Characters />
-      },
-      {
         path: "notes",
         element: <Notes />,
       },
@@ -71,55 +67,59 @@ export const router = createBrowserRouter([
         element: <Locations />
       },
       {
-        path: "non-player-characters",
+        path: "characters",
         element: <NPCs />
       },
       {
-        path: "non-player-characters/the-baron",
+        path: "characters/sunseekers",
+        element: <Characters />
+      },
+      {
+        path: "characters/the-baron",
         element: <Baron />
       },
       {
-        path: "non-player-characters/village-of-barovia",
+        path: "characters/village-of-barovia",
         element: <Barovia />
       },
       {
-        path: "non-player-characters/church-of-the-morninglord",
+        path: "characters/church-of-the-morninglord",
         element: <Church />
       },
       {
-        path: "non-player-characters/order-of-the-silver-dragon",
+        path: "characters/order-of-the-silver-dragon",
         element: <Dragon />
       },
       {
-        path: "non-player-characters/keepers-of-the-feather",
+        path: "characters/keepers-of-the-feather",
         element: <Feather />
       },
       {
-        path: "non-player-characters/vallaki-merchants",
+        path: "characters/vallaki-merchants",
         element: <Merchants />
       },
       {
-        path: "non-player-characters/castle-ravenloft",
+        path: "characters/castle-ravenloft",
         element: <Ravenloft />
       },
       {
-        path: "non-player-characters/unknown-alliance",
+        path: "characters/unknown-alliance",
         element: <Unknown />
       },
       {
-        path: "non-player-characters/vallaki-citizens",
+        path: "characters/vallaki-citizens",
         element: <Vallaki />
       },
       {
-        path: "non-player-characters/vistani",
+        path: "characters/vistani",
         element: <Vistani />
       },
       {
-        path: "non-player-characters/wachterhaus",
+        path: "characters/wachterhaus",
         element: <Wachterhaus />
       },
       {
-        path: "non-player-characters/witches-and-creatures",
+        path: "characters/witches-and-creatures",
         element: <Witches />
       },
       {

@@ -41,6 +41,16 @@
   //   opacity: 1;
   //   transform: translate(-50%, -50%);
 
+  &--sunseekers {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8), 
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/XdxUY3y.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+   }
 
    &--ravenloft {
     background-image: linear-gradient(

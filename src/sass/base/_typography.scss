@@ -58,3 +58,20 @@ body {
     text-decoration: overline;
   }
 }
+
+.heading-tertiary {
+  font-family: $font-nav;
+  color: $color-primary;
+  font-size: 2.5rem;
+  margin:  3rem;
+  text-align: center;
+
+  &--main {
+   
+  }
+
+  &--sub {
+    display: block;
+    text-decoration: overline;
+  }
+}

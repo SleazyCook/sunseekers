@@ -5,7 +5,8 @@ function NPCs() {
     <div>
 
       <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">Non-Player Characters</h2>
+        <h3 className="heading-tertiary">
+          Non-Player Characters</h3>
       </div>
 
       {/* Row One - Gen 1*/}

@@ -75,6 +75,16 @@ body {
     display: block;
     text-decoration: overline; }
 
+.heading-tertiary {
+  font-family: "Yatra One", cursive;
+  color: #771f09;
+  font-size: 2.5rem;
+  margin: 3rem;
+  text-align: center; }
+  .heading-tertiary--sub {
+    display: block;
+    text-decoration: overline; }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -225,6 +235,11 @@ body {
     transform: translate(-50%, -50%);
     transition: all .4s;
     width: 100%; }
+  .cat-card--sunseekers {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/XdxUY3y.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply; }
   .cat-card--ravenloft {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/1xI9Lua.png");
     background-size: cover;
