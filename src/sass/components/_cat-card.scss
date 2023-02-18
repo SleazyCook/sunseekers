@@ -250,6 +250,17 @@
     background-blend-mode: darken;
   }
 
+  &--maps {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-grey-dark-1, 0.8),  
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/9VKC5vb.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+  }
+
   &--misc {
     background-image: linear-gradient(
       to right bottom, 

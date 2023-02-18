@@ -334,6 +334,11 @@ body {
     background-size: cover;
     background-position: top;
     background-blend-mode: darken; }
+  .cat-card--maps {
+    background-image: linear-gradient(to right bottom, rgba(26, 26, 26, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/9VKC5vb.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten; }
   .cat-card--misc {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/r17tnaC.png");
     background-size: cover;

@@ -79,6 +79,16 @@ function Notes() {
         </div>
 
         <div className="flex__item">
+          <Link to="maps">
+            <div className="cat-card cat-card--maps">
+              <div className="cat-card__text-box">
+                <h3 className="cat-card__title">Maps</h3>
+              </div>
+            </div>
+          </Link>
+        </div>
+
+        <div className="flex__item">
           <Link to="misc">
             <div className="cat-card cat-card--misc">
               <div className="cat-card__text-box">
