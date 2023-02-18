@@ -1,0 +1,68 @@
+.btn {
+
+  &, // <-- applies to just class="button"
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    /* top bottom || top right bottom left */
+    padding: 1.5rem 4rem;
+    /* forces element to have it's own space */
+    display: inline-block;
+    transition: all .2s;
+
+
+
+    font-family: $font-nav;
+    font-size: 2rem;;
+    color: $color-primary;
+    background-color: $color-black;
+
+    text-decoration: none;
+    padding: .5rem 2rem;
+    width: 20rem;
+    border-radius: 5px;
+    transition: all .2s;
+
+    
+    // change for the <button> element
+    border: none;
+    cursor: pointer;
+  }
+
+  &:hover,
+  &:focus {
+    transform: scale(1.05);
+    /* box shadow: x y blur color/opacity*/
+    box-shadow: 0 1rem 2rem rgba($color-black, .6);
+
+    &::after {
+      /* scales  */
+      transform: scaleX(1.4) scaleY(1.6);
+      /* animation goes on initial state above, .btn::after */
+      opacity: 0;
+    }
+  }
+
+  &:active {
+    transform: translateY(-.5rem);
+    box-shadow: 0 .5rem 1rem rgba($color-black,.2);
+  }
+
+
+  &::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* animation for .btn:hover::after */
+    transition: all .4s;
+  }
+
+}
+

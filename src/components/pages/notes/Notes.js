@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import Header from '../../Header'
+import Navigation from '../../Navigation'
+
 function Notes() {
   return (
     <div>
@@ -11,6 +14,9 @@ function Notes() {
       Safzira's Diary
       Misc.
        */}
+
+       <Header />
+       <Navigation />
 
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">Journals</h2>

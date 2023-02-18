@@ -10,10 +10,6 @@ function App() {
   return (
     <div>
 
-    <Header />
-
-    <Navigation />
-
     <Outlet context />
 
 

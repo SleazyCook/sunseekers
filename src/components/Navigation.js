@@ -7,11 +7,11 @@ function Navigation() {
 
       <div className="navigation--top">
         <Link to="/">Home</Link> |
-        <Link to="characters"> Characters</Link> |
-        <Link to="notes"> Journals</Link> |
-        <Link to="quests"> Quests</Link> |
-        <Link to="locations"> Locations</Link> |
-        <Link to="market"> Vallaki Market</Link>
+        <Link to="/characters"> Characters</Link> |
+        <Link to="/notes"> Journals</Link> |
+        <Link to="/quests"> Quests</Link> |
+        <Link to="/locations"> Locations</Link> |
+        <Link to="/market"> Vallaki Market</Link>
       </div>
 
 

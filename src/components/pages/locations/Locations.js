@@ -1,9 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import Header from '../../Header'
+import Navigation from '../../Navigation'
+
 function Locations() {
   return (
     <div>
+
+      <Header />
+      <Navigation />
 
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">Locations Guide</h2>

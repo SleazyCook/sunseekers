@@ -1,5 +1,8 @@
 import React from 'react'
 
+import Header from '../../Header'
+import Navigation from '../../Navigation'
+
 import Blacksmith from './Blacksmith'
 import Clothier from './Clothier'
 import Apotheocary from './Apotheocary'
@@ -10,7 +13,10 @@ import StraightArrow from './StraightArrow'
 
 function Market() {
   return (
-    <div className="market">
+    <div>
+
+      <Header />
+      <Navigation />
       
       <h2 className="heading-secondary u-center-text u-margin-bottom-medium">Vallaki Market</h2>
 

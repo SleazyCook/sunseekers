@@ -1,17 +1,23 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
-    <div>
+    <div className="home">
 
-
-      <a href="https://death-house.netlify.app" target="_blank">
-        <img src="https://i.imgur.com/6UB8KMN.png" alt="death house computer game"/>
-      </a>
-      <p>
-        <b>Durst Manor</b><br />
-        A multiple choice adventure game based on the Sunseekers first outing in Barovia. To start you will choose a character ability: Strength, Dexterity, Charisma, or Luck. Use your ability to navigate through Durst Manor to uncover the truth and get out alive!
-      </p>
+      <div className="header__textbox">
+        <h1 className="heading-primary">
+          <span className="heading-primary--main">Curse of Strahd</span>
+          <span className="heading-primary--sub">Plight of the Sunseekers</span>
+        </h1>
+        <br />
+        <br />
+        <Link to="/characters" className="btn">
+          Explore</Link>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://death-house.netlify.app" className="btn">
+          Play</a>
+      </div>
 
 
     </div>

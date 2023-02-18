@@ -1,0 +1,25 @@
+.home {
+  height: 90vh;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary-light, .8),
+    rgba($color-primary-dark, .8)),
+    url("https://i.imgur.com/OGws4K3.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 3px;
+  overflow: hidden;
+
+  &__textbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    min-width: 300px;
+  }
+}
+
+
+
