@@ -11,6 +11,10 @@ function Church() {
       <Navigation />
 
       Church
+
+      {/* 
+      orphanage
+      */}
       
       </div>
   )

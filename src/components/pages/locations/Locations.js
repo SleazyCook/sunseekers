@@ -41,7 +41,7 @@ function Locations() {
           <Link to="svalich-woods">
             <div className="cat-card cat-card--svalich-woods">
               <div className="cat-card__text-box">
-                <h3 className="cat-card__title">Savlich Woods</h3>
+                <h3 className="cat-card__title">Svalich Woods</h3>
               </div>
             </div>
           </Link>

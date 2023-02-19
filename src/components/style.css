@@ -657,6 +657,45 @@ body {
     .npc-card__img--ezmerelda {
       background-image: url("https://i.imgur.com/Zs0iM18.png");
       background-position: top; }
+    .npc-card__img--danika-dorakova {
+      background-image: url("https://i.imgur.com/t76siZc.png");
+      background-position: top; }
+    .npc-card__img--urwin-martikov {
+      background-image: url("https://i.imgur.com/se3nVYA.png");
+      background-position: top; }
+    .npc-card__img--brom-martikov {
+      background-image: url("https://i.imgur.com/BkKm4Az.png");
+      background-position: center; }
+    .npc-card__img--bray-martikov {
+      background-image: url("https://i.imgur.com/zHZCDfN.png");
+      background-position: center; }
+    .npc-card__img--argynvost {
+      background-image: url("https://i.imgur.com/gMBEsmH.png");
+      background-position: center; }
+    .npc-card__img--vladimir-horngaard {
+      background-image: url("https://i.imgur.com/8s2uE3q.png");
+      background-position: center; }
+    .npc-card__img--godfrey-gilwyn {
+      background-image: url("https://i.imgur.com/I3Gc3uT.png");
+      background-position: center; }
+    .npc-card__img--vladimirs-revenants {
+      background-image: url("https://i.imgur.com/0IVdyxP.png");
+      background-position: center; }
+    .npc-card__img--godfreys-revenants {
+      background-image: url("https://i.imgur.com/ESpelam.png");
+      background-position: center; }
+    .npc-card__img--erich-norinthaal {
+      background-image: url("https://i.imgur.com/akPmTiU.png");
+      background-position: center; }
+    .npc-card__img--damien-hargrove {
+      background-image: url("https://i.imgur.com/lslqYhu.png");
+      background-position: top; }
+    .npc-card__img--arthund-boarwin {
+      background-image: url("https://i.imgur.com/TEMI1tp.png");
+      background-position: center; }
+    .npc-card__img--robern-teray {
+      background-image: url("https://i.imgur.com/oicL9Ap.png");
+      background-position: center; }
 
 .shop {
   width: 100%;

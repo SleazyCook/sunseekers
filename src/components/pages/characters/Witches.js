@@ -9,6 +9,14 @@ function Witches() {
       
       <Header />
       <Navigation />
+
+      {/* 
+      morgantha coven
+      rictavio's tiger
+      shadow demon
+
+      all enemy types
+      */}
       
     </div>
   )

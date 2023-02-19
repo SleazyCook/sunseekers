@@ -49,6 +49,8 @@
     -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
 
+    // village of barovia
+
     &--rose {
       background-image: url("https://i.imgur.com/IrTKHqP.jpg");
       background-position: center;
@@ -139,6 +141,8 @@
       background-position: top;
     }
 
+    // Castle Ravenloft
+
     &--strahd {
       background-image: url("https://i.imgur.com/LTsLbQk.png");
       background-position: center;
@@ -188,6 +192,8 @@
       background-image: url("https://i.imgur.com/3wcInwz.png");
       background-position: top;
     }
+
+    // Vistani
 
     &--viktor-lazlo {
       background-image: url("https://i.imgur.com/DUF2lfE.png");
@@ -247,6 +253,75 @@
     &--ezmerelda {
       background-image: url("https://i.imgur.com/Zs0iM18.png");
       background-position: top;
+    }
+
+    // Keepers of the Feather
+
+    &--danika-dorakova {
+      background-image: url("https://i.imgur.com/t76siZc.png");
+      background-position: top;
+    }
+
+    &--urwin-martikov {
+      background-image: url("https://i.imgur.com/se3nVYA.png");
+      background-position: top;
+    }
+
+    &--brom-martikov {
+      background-image: url("https://i.imgur.com/BkKm4Az.png");
+      background-position: center;
+    }
+
+    &--bray-martikov {
+      background-image: url("https://i.imgur.com/zHZCDfN.png");
+      background-position: center;
+    }
+
+    // Order of the Silver Dragon
+
+    &--argynvost {
+      background-image: url("https://i.imgur.com/gMBEsmH.png");
+      background-position: center;
+    }
+
+    &--vladimir-horngaard {
+      background-image: url("https://i.imgur.com/8s2uE3q.png");
+      background-position: center;
+    }
+
+    &--godfrey-gilwyn {
+      background-image: url("https://i.imgur.com/I3Gc3uT.png");
+      background-position: center;
+    }
+
+    &--vladimirs-revenants {
+      background-image: url("https://i.imgur.com/0IVdyxP.png");
+      background-position: center;
+    }
+
+    &--godfreys-revenants {
+      background-image: url("https://i.imgur.com/ESpelam.png");
+      background-position: center;
+    }
+
+    &--erich-norinthaal {
+      background-image: url("https://i.imgur.com/akPmTiU.png");
+      background-position: center;
+    }
+
+    &--damien-hargrove {
+      background-image: url("https://i.imgur.com/lslqYhu.png");
+      background-position: top;
+    }
+
+    &--arthund-boarwin {
+      background-image: url("https://i.imgur.com/TEMI1tp.png");
+      background-position: center;
+    }
+
+    &--robern-teray {
+      background-image: url("https://i.imgur.com/oicL9Ap.png");
+      background-position: center;
     }
   }
 }
