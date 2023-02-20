@@ -25,7 +25,7 @@ function Footer() {
 
         <div className="flexbox__item">
           <div className="footer__copyright">
-            <p>Built by <a href="#" className="footer__link">Andrew Cook</a> for his virtual Dungeons & Dragons campaign.  This website is for recreational use by players of this specific campaign.  <a href="#" className="footer__link">Curse of Strahd</a> is an official 5E module of Dungeons and Dragons. </p>
+            <p>Built by <a href="https://developedbydrewford.netlify.app" className="footer__link" target="_blank">Andrew Cook</a> for his virtual Dungeons & Dragons campaign.  This website is for recreational use by players of this specific campaign.  <a href="https://www.google.com/search?client=opera-gx&q=curse+of+strahd&sourceid=opera&ie=UTF-8&oe=UTF-8" className="footer__link" target="_blank">Curse of Strahd</a> is an official 5E module of Dungeons and Dragons. </p>
           </div>
         </div>
       </div> {/* Flexbox End */}
