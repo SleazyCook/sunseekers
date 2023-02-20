@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Header from '../../Header'
 import Navigation from '../../Navigation'
+import Footer from '../../Footer'
 
 function Characters() {
   return (
@@ -147,8 +148,10 @@ function Characters() {
           </Link>
         </div>
 
+      </div> {/* Flexbox End */}
 
-      </div>
+      <Footer />
+      
     </div>
   )
 }

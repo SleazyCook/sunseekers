@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yatra+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 @keyframes scaleDown {
   0% {
     transform: scale(1.2); }
@@ -525,7 +526,15 @@ body {
     color: #a62b0d; }
   .npc-card__description {
     padding: 2rem;
-    text-align: center; }
+    text-align: center;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    /* Hide scrollbar for Chrome, Safari and Opera */ }
+    .npc-card__description::-webkit-scrollbar {
+      display: none; }
   .npc-card__bonds {
     text-align: center;
     font-size: 2rem; }
@@ -708,6 +717,24 @@ body {
     .npc-card__img--milivoj {
       background-image: url("https://i.imgur.com/nYQC8VY.jpg");
       background-position: center; }
+    .npc-card__img--baron-vallakovich {
+      background-image: url("https://i.imgur.com/hHguveo.png");
+      background-position: top; }
+    .npc-card__img--baroness {
+      background-image: url("https://i.imgur.com/Uu6FNg4.png");
+      background-position: top; }
+    .npc-card__img--izek-strazni {
+      background-image: url("https://i.imgur.com/zwYIqcJ.png");
+      background-position: center; }
+    .npc-card__img--victor-vallakovich {
+      background-image: url("https://i.imgur.com/TZlpDIH.png");
+      background-position: center; }
+    .npc-card__img--vallaki-guards {
+      background-image: url("https://i.imgur.com/mYrMJos.png");
+      background-position: center; }
+    .npc-card__img--butler {
+      background-image: url("https://i.imgur.com/6vkrtpj.png");
+      background-position: top; }
 
 .shop {
   width: 100%;
@@ -790,6 +817,44 @@ body {
         width: 33rem; } }
   .flexbox__item {
     width: 30rem; }
+
+.footer {
+  background-color: #1a1a1a;
+  padding: 3rem 0;
+  margin-top: 2rem;
+  color: #a6a6a6;
+  border-radius: 3px; }
+  .footer__logo-box {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #a62b0d; }
+    .footer__logo-box--author {
+      font-family: "Berkshire Swash", cursive; }
+  .footer__navigation {
+    border-top: 1px solid #a6a6a6;
+    padding-top: 1rem;
+    display: block;
+    width: 100%; }
+  .footer__list {
+    list-style: none;
+    list-style-type: none; }
+  .footer__item {
+    display: inline-block; }
+  .footer__link:link, .footer__link:visited {
+    color: #a6a6a6;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all .2s; }
+  .footer__link:hover, .footer__link:active {
+    color: white;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
+  .footer__copyright {
+    border-top: 1px solid #a6a6a6;
+    padding-top: 1rem;
+    text-align: justify; }
 
 .navigation {
   position: relative;

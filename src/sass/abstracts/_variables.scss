@@ -12,8 +12,9 @@ $color-secondary-dark: darken($color-secondary-light, 15%);
 $color-white: white;
 $color-black: black;
 
-// $color-grey-light-1: 
 $color-grey-light-2: grey;
+$color-grey-light-1: lighten($color-grey-light-2, 15%);
+
 
 $color-grey-dark-1: lighten($color-black, 10);
 // $color-grey-dark-2: 
@@ -29,12 +30,14 @@ $color-red: rgb(119, 31, 9);
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 $default-font-size: 1.6rem;
 
 $font-header: 'Cinzel Decorative', cursive; 
 $font-header-2: 'Bebas Neue', cursive;
 $font-nav: 'Yatra One', cursive;
+$font-author: 'Berkshire Swash', cursive;
 
 $font-strahd: 'Pinyon Script', cursive;
 
