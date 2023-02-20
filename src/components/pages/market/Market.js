@@ -2,6 +2,7 @@ import React from 'react'
 
 import Header from '../../Header'
 import Navigation from '../../Navigation'
+import Footer from '../../Footer'
 
 import Blacksmith from './Blacksmith'
 import Clothier from './Clothier'
@@ -27,6 +28,9 @@ function Market() {
       <WagonRepair />
       <OddsEnds />
       <StraightArrow />
+
+
+      <Footer />
 
     </div>
   )

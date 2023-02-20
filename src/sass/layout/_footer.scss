@@ -1,7 +1,7 @@
 .footer {
   background-color: $color-grey-dark-1;
   padding: 3rem 0;
-  margin-top: 2rem;
+  margin-top: 4rem;
   color: $color-grey-light-1;
   border-radius: 3px;
 
@@ -36,6 +36,7 @@
   &__link {
     &:link,
     &:visited {
+      font-family: $font-nav;
       color: $color-grey-light-1;
       text-decoration: none;
       display: inline-block;

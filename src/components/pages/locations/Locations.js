@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Header from '../../Header'
 import Navigation from '../../Navigation'
+import Footer from '../../Footer'
 
 function Locations() {
   return (
@@ -238,6 +239,8 @@ function Locations() {
         </div> */}
 
       </div> {/* Flexbox End */}
+
+      <Footer />
 
     </div>
   )

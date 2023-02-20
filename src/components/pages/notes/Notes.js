@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Header from '../../Header'
 import Navigation from '../../Navigation'
+import Footer from '../../Footer'
 
 function Notes() {
   return (
@@ -108,6 +109,8 @@ function Notes() {
 
       
 
+      <Footer />
+      
 
     </div>
   )

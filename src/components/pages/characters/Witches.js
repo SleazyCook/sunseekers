@@ -2,6 +2,7 @@ import React from 'react'
 
 import Header from '../../Header'
 import Navigation from '../../Navigation'
+import Footer from '../../Footer'
 
 function Witches() {
   return (
@@ -17,6 +18,8 @@ function Witches() {
 
       all enemy types
       */}
+
+      <Footer />
       
     </div>
   )

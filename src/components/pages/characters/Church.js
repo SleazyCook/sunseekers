@@ -2,6 +2,7 @@ import React from 'react'
 
 import Header from '../../Header'
 import Navigation from '../../Navigation'
+import Footer from '../../Footer'
 
 import { IoIosHeart } from 'react-icons/io'
 import { IoIosHeartDislike } from 'react-icons/io'
@@ -145,6 +146,8 @@ function Church() {
 
 
       </div> {/* Flexbox End */}
+
+      <Footer />
     
     </div> 
   )
