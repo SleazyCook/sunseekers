@@ -904,10 +904,9 @@ body {
     display: block;
     width: 100%; }
   .footer__list {
-    list-style: none;
-    list-style-type: none; }
+    list-style: none; }
   .footer__item {
-    display: inline-block; }
+    display: block; }
   .footer__link:link, .footer__link:visited {
     font-family: "Yatra One", cursive;
     color: #a6a6a6;

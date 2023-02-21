@@ -27,11 +27,10 @@
 
   &__list {
     list-style: none;
-    list-style-type: none;
   }
 
   &__item {
-    display: inline-block;
+    display: block;
   }
 
   &__link {
