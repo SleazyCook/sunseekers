@@ -101,6 +101,9 @@ body {
 .u-center-text {
   text-align: center !important; }
 
+.u-underline {
+  text-decoration: underline; }
+
 .u-margin-bottom-small {
   margin-bottom: 1.5rem !important; }
 
@@ -121,9 +124,6 @@ body {
 
 .u-margin-top-huge {
   margin-top: 10rem !important; }
-
-.u-underline {
-  text-decoration: underline; }
 
 .bg-main {
   background-image: url("https://i.imgur.com/yxCPjUN.png");
@@ -1024,3 +1024,7 @@ body {
 .market {
   display: flex;
   flex-direction: column; }
+
+.vallaki-laws {
+  font-family: "Yatra One", cursive;
+  color: white; }

@@ -9,6 +9,7 @@ import Home from './components/pages/home/Home'
 import Notes from './components/pages/notes/Notes'
 import AdventureLog from './components/pages/notes/AdventureLog'
 import StrahdLetters from './components/pages/notes/StrahdLetters'
+import VallakiLaws from './components/pages/notes/VallakiLaws'
 
 import Market from './components/pages/market/Market'
 
@@ -55,6 +56,10 @@ export const router = createBrowserRouter([
       {
         path: "notes/strahd-letters",
         element: <StrahdLetters />
+      },
+      {
+        path: "notes/vallaki-laws",
+        element: <VallakiLaws />
       },
       {
         path: "market",

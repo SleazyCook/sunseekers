@@ -1,8 +1,6 @@
 import React from 'react'
 
-import DeathHouse from './DeathHouse'
-import StrahdWelcome from './StrahdWelcome'
-import TomeStrahd from './TomeStrahd'
+
 
 function StrahdLetters() {
   return (
