@@ -136,6 +136,12 @@ body {
   font-family: "Patrick Hand SC", cursive;
   padding: 3rem; }
 
+.list {
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  padding: 10rem; }
+
 .u-center-text {
   text-align: center !important; }
 
