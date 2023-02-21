@@ -773,7 +773,7 @@ body {
       background-position: center; }
     .npc-card__img--genies-ladies {
       background-image: url("https://i.imgur.com/OqbzSGS.png");
-      background-position: center; }
+      background-position: top; }
     .npc-card__img--vasili {
       background-image: url("https://i.imgur.com/3tdnSi9.png");
       background-position: top; }
@@ -785,22 +785,22 @@ body {
       background-position: top; }
     .npc-card__img--lars-kjurls {
       background-image: url("https://i.imgur.com/iNCA7ea.jpg");
-      background-position: center; }
+      background-position: top; }
     .npc-card__img--orphans {
       background-image: url("https://i.imgur.com/rMeg8Jx.png");
-      background-position: center; }
+      background-position: top; }
     .npc-card__img--felix {
       background-image: url("https://i.imgur.com/EpTyfoZ.png");
       background-position: top; }
     .npc-card__img--hair-puller {
       background-image: url("https://i.imgur.com/3V86wmr.png");
-      background-position: center; }
+      background-position: top; }
     .npc-card__img--lizard-boy {
       background-image: url("https://i.imgur.com/2n73COe.jpg");
-      background-position: center; }
+      background-position: top; }
     .npc-card__img--ace {
       background-image: url("https://i.imgur.com/OpBoXpH.jpg");
-      background-position: top; }
+      background-position: center; }
 
 .shop {
   width: 100%;

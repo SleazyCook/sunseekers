@@ -14,19 +14,19 @@ function Footer() {
         <div className="flexbox__item">
           <div className="footer__navigation">
             <ul className="footer__list">
-              <li clasName="footer__item"><a href="
+              <li className="footer__item"><a href="
               https://discord.gg/bacND625aF" className="footer__link" target="_blank">
                 Discord Group</a></li>
 
-              <li clasName="footer__item"><a href="
+              <li className="footer__item"><a href="
               https://app.roll20.net/campaigns/details/13151869/plight-of-the-sunseekers" className="footer__link" target="_blank">
                 Roll20 Campaign</a></li>
 
-              <li clasName="footer__item"><a href="
+              <li className="footer__item"><a href="
               https://death-house.netlify.app" className="footer__link" target="_blank">
                 Death House Game</a></li>
 
-              <li clasName="footer__item"><a href="
+              <li className="footer__item"><a href="
               https://developedbydrewford.netlify.app" className="footer__link" target="_blank">
                 Developed by Drewford</a></li>
 
