@@ -1,41 +1,128 @@
 import React from 'react'
 
-
+import Header from '../../Header'
+import Navigation from '../../Navigation'
+import Footer from '../../Footer'
 
 function StrahdLetters() {
   return (
     <div>
-      Letters from Strahd<br /><br />
-      Strahd Font picked in variables<br /><br />
 
-      <nav>
-        <a href="#death-house">Death House Note</a><br />
-        <a href="#strahd-welcome">Strahd's Welcome</a><br />
-        <a href="#tome-of-strahd">Tome of Strahd</a><br />
-      </nav>
+      <Header />
+      <Navigation />
+
+      <div className="u-center-text u-margin-bottom-big">
+        <h2 className="heading-secondary">
+          <span className="heading-secondary--main">
+            Journals</span>
+          <span className="heading-secondary--sub">
+            Strahd Notes</span>
+          </h2>
+      </div>
+
+      <p className="strahd-descriptive">
+        The following notes and artifacts have been recovered by the Sunseekers.  The intent of this collection is to better understand the vampire lord Count Strahd von Zarovich. 
+      </p>
+
+      <h3 className="heading-tertiary u-underline">Death House Note</h3>
+
+      <p className="strahd-descriptive">
+        NOTE FROM DEATH HOUSE<br />
+        [discovered in the possession of Gustav Durst]
+      </p>
+
+      <div className="notes-box">
+        <div className="notes-box__image-box notes-box__image-box--right">
+          <div className="notes-box__image">
+            <img src="https://i.imgur.com/QQiDvfn.png" />
+          </div>
+          <div className="notes-box__image-caption">
+            Crystal Ball  
+          </div>
+        </div>
+
+        <div className="notes-box__paragraph-box">
+          <p className="notes-box__paragraph strahd-script">
+          My most pathetic servant,<br />
+          I am not a messiah sent to you by the Dark Powers of this land. I have not come to lead you on a path to immortality. However many souls you have bled on your hidden altar, however many visitors you have tortured in your dungeon, know that you are not the ones who brought me to this beautiful land. You are but worms writhing in my earth.<br />
+          You say that you are cursed, your fortunes spent. You abandoned love for madness, took solace in the bosom of another woman, and sired a stillborn. Cursed by darkness? Of that I have no doubt. Save you from the wretchedness? I think not. I much prefer you as you are.<br /><br />
 
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam sollicitudin tempor id eu nisl nunc mi ipsum. Est ante in nibh mauris. Pellentesque sit amet porttitor eget dolor. Turpis egestas pretium aenean pharetra magna ac. Scelerisque fermentum dui faucibus in ornare quam viverra orci. Odio euismod lacinia at quis risus sed vulputate odio ut. Ac ut consequat semper viverra nam libero justo laoreet. Nibh cras pulvinar mattis nunc sed. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Nec feugiat nisl pretium fusce id velit ut tortor pretium. <br />
+          Your dread lord and master,<br />
+          Strahd von Zarovich
 
-      Egestas maecenas pharetra convallis posuere morbi leo urna molestie. Sem viverra aliquet eget sit amet tellus cras. Curabitur vitae nunc sed velit dignissim sodales ut eu sem. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Eget est lorem ipsum dolor sit. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Pharetra et ultrices neque ornare aenean euismod elementum nisi. Mauris ultrices eros in cursus. Elit duis tristique sollicitudin nibh sit amet. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Odio morbi quis commodo odio aenean sed adipiscing. Facilisis mauris sit amet massa. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Nunc id cursus metus aliquam eleifend mi in. Justo eget magna fermentum iaculis eu non diam. Semper quis lectus nulla at volutpat diam ut. Id velit ut tortor pretium viverra suspendisse. <br />
+          </p>
+        </div>
+      </div> {/* End Notes-Box */}
+      
 
-      <h2 className="heading-secondary" id="death-house">Death House Note</h2>
+      {/* Welcome Letter */}
+      <h3 className="heading-tertiary u-underline">Sunseeker Welcome Letter</h3>
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam sollicitudin tempor id eu nisl nunc mi ipsum. Est ante in nibh mauris. Pellentesque sit amet porttitor eget dolor. Turpis egestas pretium aenean pharetra magna ac. Scelerisque fermentum dui faucibus in ornare quam viverra orci. Odio euismod lacinia at quis risus sed vulputate odio ut. Ac ut consequat semper viverra nam libero justo laoreet. Nibh cras pulvinar mattis nunc sed. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Nec feugiat nisl pretium fusce id velit ut tortor pretium. <br />
+      <p className="strahd-descriptive">
+        Strahd’s Welcome Letter<br />
+        [discovered on a large gift basket outside of Durst Manor]
+      </p>
 
-      Egestas maecenas pharetra convallis posuere morbi leo urna molestie. Sem viverra aliquet eget sit amet tellus cras. Curabitur vitae nunc sed velit dignissim sodales ut eu sem. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Eget est lorem ipsum dolor sit. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Pharetra et ultrices neque ornare aenean euismod elementum nisi. Mauris ultrices eros in cursus. Elit duis tristique sollicitudin nibh sit amet. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Odio morbi quis commodo odio aenean sed adipiscing. Facilisis mauris sit amet massa. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Nunc id cursus metus aliquam eleifend mi in. Justo eget magna fermentum iaculis eu non diam. Semper quis lectus nulla at volutpat diam ut. Id velit ut tortor pretium viverra suspendisse. <br />
+      <div className="notes-box">
+        <div className="notes-box__image-box notes-box__image-box--right">
+          <div className="notes-box__image">
+            <img src="https://i.imgur.com/UkrmWrI.png" />
+          </div>
+          <div className="notes-box__image-caption">
+            Fruit basket 
+          </div>
+        </div>
 
-      <h2 className="heading-secondary" id="strahd-welcome">Strahd's Welcome</h2>
+        <div className="notes-box__paragraph-box">
+          <p className="notes-box__paragraph strahd-script">
+          My most pathetic servant,<br />
+          I am not a messiah sent to you by the Dark Powers of this land. I have not come to lead you on a path to immortality. However many souls you have bled on your hidden altar, however many visitors you have tortured in your dungeon, know that you are not the ones who brought me to this beautiful land. You are but worms writhing in my earth.<br />
+          You say that you are cursed, your fortunes spent. You abandoned love for madness, took solace in the bosom of another woman, and sired a stillborn. Cursed by darkness? Of that I have no doubt. Save you from the wretchedness? I think not. I much prefer you as you are.<br /><br />
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam sollicitudin tempor id eu nisl nunc mi ipsum. Est ante in nibh mauris. Pellentesque sit amet porttitor eget dolor. Turpis egestas pretium aenean pharetra magna ac. Scelerisque fermentum dui faucibus in ornare quam viverra orci. Odio euismod lacinia at quis risus sed vulputate odio ut. Ac ut consequat semper viverra nam libero justo laoreet. Nibh cras pulvinar mattis nunc sed. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Nec feugiat nisl pretium fusce id velit ut tortor pretium. <br />
 
-      Egestas maecenas pharetra convallis posuere morbi leo urna molestie. Sem viverra aliquet eget sit amet tellus cras. Curabitur vitae nunc sed velit dignissim sodales ut eu sem. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Eget est lorem ipsum dolor sit. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Pharetra et ultrices neque ornare aenean euismod elementum nisi. Mauris ultrices eros in cursus. Elit duis tristique sollicitudin nibh sit amet. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Odio morbi quis commodo odio aenean sed adipiscing. Facilisis mauris sit amet massa. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Nunc id cursus metus aliquam eleifend mi in. Justo eget magna fermentum iaculis eu non diam. Semper quis lectus nulla at volutpat diam ut. Id velit ut tortor pretium viverra suspendisse. <br />
+          Your dread lord and master,<br />
+          Strahd von Zarovich
 
-      <h2 className="heading-secondary" id="tome-of-strahd">Tome of Strahd</h2>
+          </p>
+        </div>
+      </div> {/* End Notes-Box */}
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam sollicitudin tempor id eu nisl nunc mi ipsum. Est ante in nibh mauris. Pellentesque sit amet porttitor eget dolor. Turpis egestas pretium aenean pharetra magna ac. Scelerisque fermentum dui faucibus in ornare quam viverra orci. Odio euismod lacinia at quis risus sed vulputate odio ut. Ac ut consequat semper viverra nam libero justo laoreet. Nibh cras pulvinar mattis nunc sed. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Nec feugiat nisl pretium fusce id velit ut tortor pretium. <br />
+      {/* Strahd's First Appearance */}
+      <h3 className="heading-tertiary u-underline">Strahd's First Appearance</h3>
 
-      Egestas maecenas pharetra convallis posuere morbi leo urna molestie. Sem viverra aliquet eget sit amet tellus cras. Curabitur vitae nunc sed velit dignissim sodales ut eu sem. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Eget est lorem ipsum dolor sit. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Pharetra et ultrices neque ornare aenean euismod elementum nisi. Mauris ultrices eros in cursus. Elit duis tristique sollicitudin nibh sit amet. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Odio morbi quis commodo odio aenean sed adipiscing. Facilisis mauris sit amet massa. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Nunc id cursus metus aliquam eleifend mi in. Justo eget magna fermentum iaculis eu non diam. Semper quis lectus nulla at volutpat diam ut. Id velit ut tortor pretium viverra suspendisse. <br />
+      <p className="strahd-descriptive">
+        Strahd’s first appearance<br />
+        [recorded on Old Svalich Road between the Village of Barovia and the Vistani Tser Pool Encampment]
+      </p>
+
+      <div className="notes-box">
+        <div className="notes-box__image-box notes-box__image-box--right">
+          <div className="notes-box__image">
+            <img src="https://i.imgur.com/wW4qxDR.png" />
+          </div>
+          <div className="notes-box__image-caption">
+            Strahd appears 
+          </div>
+        </div>
+
+        <div className="notes-box__paragraph-box">
+          <p className="notes-box__paragraph strahd-script">
+            I wanted to welcome you to my kingdom. I chose the name Barovia to honor my father, the great King Barov. Did you know that? Of course not. Well,  I conquered this valley in his name. Believe me, it wasn't much to look at before I spruced up the place.<br /><br />
+
+            I wanted to be the first to make amends on behalf of the Vistani. I'm aware of the... misunderstanding between the dearly departed Mr. Lazlo and your...sizable associate. These free spirited people, while they are my most loyal subjects, are anything but foot soldiers. They have a silly saying "Even the Best Men Die.'' They hold no ill will toward any of you, and they will be happy to host your party for the duration of your stay in Barovia.<br /><br />
+
+            Though, Ireena, my dear, you simply must understand that You deserve to be my Queen.  In fact, I must insist on this. <br /><br />
+
+            I know you all are absolutely titillated by my surprise visit and believe me I. am. too., but I really must be going. When you are ready to return the favor, there is a black carriage up the road. It will take you to my home without any.. outside interference.
+
+
+          </p>
+        </div>
+      </div> {/* End Notes-Box */}
+
+
+      <Footer />
 
     </div>
   )

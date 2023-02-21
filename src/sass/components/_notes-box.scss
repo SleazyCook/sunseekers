@@ -1,0 +1,32 @@
+.notes-box {
+  position: relative; 
+
+  &__image-box {
+    width: 20rem;
+    margin: 1rem;
+
+    & img {
+      width: 100%;
+      height: auto;
+    }
+
+    &--left {
+      float: left;
+    }
+
+    &--right {
+      float: right;
+    }
+  }
+
+  &__image-caption {
+    text-align: center;
+    font-family: $font-typewriter;
+  }
+
+  &__paragraph-box {
+    font-size: 2.2rem;
+    color: $color-primary-light;
+    padding: 3rem;
+  }
+}

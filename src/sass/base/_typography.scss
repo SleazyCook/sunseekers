@@ -75,3 +75,17 @@ body {
     text-decoration: overline;
   }
 }
+
+.strahd {
+  &-descriptive {
+    font-family: $font-typewriter;
+    font-size: 2rem;
+    text-align: center;
+    color: $color-grey-light-1;
+    margin: 3rem;
+  }
+}
+
+.strahd-script {
+  font-family: $font-strahd;
+}

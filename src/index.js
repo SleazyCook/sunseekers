@@ -54,7 +54,7 @@ export const router = createBrowserRouter([
         element: <AdventureLog />
       },
       {
-        path: "notes/strahd-letters",
+        path: "notes/strahd-notes",
         element: <StrahdLetters />
       },
       {

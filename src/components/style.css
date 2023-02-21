@@ -98,6 +98,16 @@ body {
     display: block;
     text-decoration: overline; }
 
+.strahd-descriptive {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  text-align: center;
+  color: #a6a6a6;
+  margin: 3rem; }
+
+.strahd-script {
+  font-family: "Pinyon Script", cursive; }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -500,6 +510,26 @@ body {
     background-size: cover;
     background-position: center;
     background-blend-mode: darken; }
+
+.notes-box {
+  position: relative; }
+  .notes-box__image-box {
+    width: 20rem;
+    margin: 1rem; }
+    .notes-box__image-box img {
+      width: 100%;
+      height: auto; }
+    .notes-box__image-box--left {
+      float: left; }
+    .notes-box__image-box--right {
+      float: right; }
+  .notes-box__image-caption {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace; }
+  .notes-box__paragraph-box {
+    font-size: 2.2rem;
+    color: #a62b0d;
+    padding: 3rem; }
 
 .npc-card {
   background-color: #1a1a1a;
@@ -1025,6 +1055,13 @@ body {
   display: flex;
   flex-direction: column; }
 
+.strahd-descriptive {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  text-align: center;
+  color: #a6a6a6; }
+
 .vallaki-laws {
   font-family: "Yatra One", cursive;
-  color: white; }
+  color: #a62b0d;
+  font-size: 2rem; }
