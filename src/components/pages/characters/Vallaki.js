@@ -273,6 +273,44 @@ function Vallaki() {
             </div>
           </div>
         </div> {/* Ace End */}
+
+        <div className="flexbox__item--npc"> {/* Szoldar Start */}
+          <div className="npc-card">
+            <div className="npc-card__heading">Szoldar </div>
+            <div className="npc-card__img npc-card__img--szoldar-szoldarovich">&nbsp;</div>
+            <div className="npc-card__bonds">
+              <IoIosHeart /><IoIosHeart /><IoIosHeart />
+            </div>
+            <div className="npc-card__description">
+              50, &nbsp;
+              <i>
+                alive
+              </i>
+              <br />
+              <br />
+              Szoldar and his brother Yevgeni are skilled wolf hunters.  They assist the Vallaki Guard on missions outside the walls as they are the most familiar with the area and it's threats.  
+            </div>
+          </div>
+        </div> {/* Szoldar End */}
+
+        <div className="flexbox__item--npc"> {/* Yevgeni Start */}
+          <div className="npc-card">
+            <div className="npc-card__heading">Yevgeni </div>
+            <div className="npc-card__img npc-card__img--yevgeni-krushkin">&nbsp;</div>
+            <div className="npc-card__bonds">
+              <IoIosHeart /><IoIosHeart /><IoIosHeart />
+            </div>
+            <div className="npc-card__description">
+              45, &nbsp;
+              <i>
+                alive
+              </i>
+              <br />
+              <br />
+              Yevgeni and his brother Szoldar are skilled wolf hunters.  They assist the Vallaki Guard on missions outside the walls as they are the most familiar with the area and it's threats.  
+            </div>
+          </div>
+        </div> {/* Yevgeni End */}
       
       </div> {/* Flexbox End */}
 

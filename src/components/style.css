@@ -801,6 +801,12 @@ body {
     .npc-card__img--ace {
       background-image: url("https://i.imgur.com/OpBoXpH.jpg");
       background-position: center; }
+    .npc-card__img--szoldar-szoldarovich {
+      background-image: url("https://i.imgur.com/J3BbMEv.png");
+      background-position: top; }
+    .npc-card__img--yevgeni-krushkin {
+      background-image: url("https://i.imgur.com/ikZfS2x.png");
+      background-position: top; }
 
 .shop {
   width: 100%;
