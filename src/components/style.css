@@ -762,6 +762,45 @@ body {
     .npc-card__img--ana-krogarov {
       background-image: url("https://i.imgur.com/5nEcuuL.png");
       background-position: top; }
+    .npc-card__img--rictavio {
+      background-image: url("https://i.imgur.com/tYEzwNQ.png");
+      background-position: center; }
+    .npc-card__img--gadof-blinsky {
+      background-image: url("https://i.imgur.com/QefdavN.png");
+      background-position: top; }
+    .npc-card__img--madame-genie {
+      background-image: url("https://i.imgur.com/W1VrGtT.png");
+      background-position: center; }
+    .npc-card__img--genies-ladies {
+      background-image: url("https://i.imgur.com/OqbzSGS.png");
+      background-position: center; }
+    .npc-card__img--vasili {
+      background-image: url("https://i.imgur.com/3tdnSi9.png");
+      background-position: top; }
+    .npc-card__img--henrik-van-der-root {
+      background-image: url("https://i.imgur.com/YBZxjjh.png");
+      background-position: top; }
+    .npc-card__img--bluto {
+      background-image: url("https://i.imgur.com/RVBXqGV.png");
+      background-position: top; }
+    .npc-card__img--lars-kjurls {
+      background-image: url("https://i.imgur.com/iNCA7ea.jpg");
+      background-position: center; }
+    .npc-card__img--orphans {
+      background-image: url("https://i.imgur.com/rMeg8Jx.png");
+      background-position: center; }
+    .npc-card__img--felix {
+      background-image: url("https://i.imgur.com/EpTyfoZ.png");
+      background-position: top; }
+    .npc-card__img--hair-puller {
+      background-image: url("https://i.imgur.com/3V86wmr.png");
+      background-position: center; }
+    .npc-card__img--lizard-boy {
+      background-image: url("https://i.imgur.com/2n73COe.jpg");
+      background-position: center; }
+    .npc-card__img--ace {
+      background-image: url("https://i.imgur.com/OpBoXpH.jpg");
+      background-position: top; }
 
 .shop {
   width: 100%;
@@ -846,7 +885,7 @@ body {
     width: 30rem; }
 
 .footer {
-  background-color: #1a1a1a;
+  background-image: radial-gradient(circle, #1a1a1a, #050505);
   padding: 3rem 0;
   margin-top: 4rem;
   color: #a6a6a6;
@@ -878,7 +917,8 @@ body {
     transition: all .2s; }
   .footer__link:hover, .footer__link:active {
     color: white;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    transform: scale(1.1); }
   .footer__copyright {
     border-top: 1px solid #a6a6a6;
     padding-top: 1rem;
