@@ -1,0 +1,16 @@
+.maps-box {
+  text-align: center;
+  width: 100%;
+
+  & img {
+    width: 35rem;
+
+    @include respond(tab-port) {
+      width: 50rem;
+    }
+
+    @include respond(desktop) {
+      width: 60rem;
+    }
+  };
+}

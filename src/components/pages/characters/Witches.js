@@ -11,6 +11,17 @@ function Witches() {
       <Header />
       <Navigation />
 
+      <div className="u-center-text u-margin-bottom-big">
+        <h2 className="heading-secondary">
+          <span className="heading-secondary--main">
+            Character Guide</span>
+          <span className="heading-secondary--sub">
+            Witches and Creatures</span>
+          </h2>
+      </div>
+
+      Content coming soon.
+
       {/* 
       morgantha coven
       rictavio's tiger

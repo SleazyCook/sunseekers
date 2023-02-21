@@ -547,6 +547,18 @@ body {
     background-position: center;
     background-blend-mode: darken; }
 
+.maps-box {
+  text-align: center;
+  width: 100%; }
+  .maps-box img {
+    width: 35rem; }
+    @media (min-width: 37.5em) {
+      .maps-box img {
+        width: 50rem; } }
+    @media (min-width: 75em) {
+      .maps-box img {
+        width: 60rem; } }
+
 .notes-nav ul {
   text-align: center;
   list-style: none; }

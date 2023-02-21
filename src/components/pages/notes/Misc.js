@@ -4,29 +4,28 @@ import Header from '../../Header'
 import Navigation from '../../Navigation'
 import Footer from '../../Footer'
 
-function Unknown() {
+function Misc() {
   return (
     <div>
-      
+
       <Header />
       <Navigation />
-      
+
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
           <span className="heading-secondary--main">
-            Character Guide</span>
+            Journals</span>
           <span className="heading-secondary--sub">
-            Misc</span>
+            Miscellaneous</span>
           </h2>
       </div>
 
-      Content coming soon.
+
 
       <Footer />
-
 
     </div>
   )
 }
 
-export default Unknown
+export default Misc

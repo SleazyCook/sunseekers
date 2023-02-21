@@ -21,7 +21,7 @@ function TarrokaReading() {
       </div>
 
       <p className="strahd-descriptive">
-        [The following took place inside the fortune teller Madame Eva's tent at the Vistani Tser Pool Encampment on the 14th Evening of Hammer]<br /><br />
+        The following took place inside the fortune teller Madame Eva's tent at the Vistani Tser Pool Encampment on the 14th Evening of Hammer<br /><br />
 
         <div className="u-thin-border-top">&nbsp;</div>
 

@@ -9,6 +9,8 @@ import Home from './components/pages/home/Home'
 import Notes from './components/pages/notes/Notes'
 import AdventureLog from './components/pages/notes/AdventureLog'
 import Ireena from './components/pages/notes/Ireena'
+import Maps from './components/pages/notes/Maps'
+import Misc from './components/pages/notes/Misc'
 import Safzira from './components/pages/notes/Safzira'
 import StrahdLetters from './components/pages/notes/StrahdLetters'
 import TarrokaReading from './components/pages/notes/TarrokaReading'
@@ -75,6 +77,14 @@ export const router = createBrowserRouter([
       {
         path: "notes/ireena-diary",
         element: <Ireena />
+      },
+      {
+        path: "notes/maps",
+        element: <Maps />
+      },
+      {
+        path: "notes/miscellaneous",
+        element: <Misc />
       },
       {
         path: "market",
