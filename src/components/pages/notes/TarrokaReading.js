@@ -67,7 +67,7 @@ function TarrokaReading() {
             <br /><br />
             <p className="typewriter-script u-center-text">
               UPDATE:<br/>
-              The Tome of Strahd was found atop a tall tower within Castle Ravenloft.
+              The Tome of Strahd, detailing Strahd's intimate history, was found atop a tall tower within Castle Ravenloft.
             </p>
         </div> 
 
