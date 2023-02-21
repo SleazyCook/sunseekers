@@ -150,6 +150,12 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.u-mpadding-top-small {
+  padding-top: 1.5rem !important; }
+
+.u-padding-top-medium {
+  padding-top: 4rem !important; }
+
 .bg-main {
   background-image: url("https://i.imgur.com/yxCPjUN.png");
   height: 70vh;

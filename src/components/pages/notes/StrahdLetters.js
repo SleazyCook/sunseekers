@@ -35,10 +35,9 @@ function StrahdLetters() {
         </ul>
       </div>
 
-      
 
       {/* Death House Note */}
-      <h3 className="heading-tertiary u-underline" id="death-house">Death House Note</h3>
+      <h3 className="heading-tertiary u-underline u-thin-border-top u-padding-top-medium" id="death-house">Death House Note</h3>
 
       <p className="strahd-descriptive">
         NOTE FROM DEATH HOUSE<br />
@@ -73,7 +72,7 @@ function StrahdLetters() {
       
 
       {/* Welcome Letter */}
-      <h3 className="heading-tertiary u-underline" id="welcome-letter">Sunseeker Welcome Letter</h3>
+      <h3 className="heading-tertiary u-underline u-thin-border-top u-padding-top-medium" id="welcome-letter">Sunseeker Welcome Letter</h3>
 
       <p className="strahd-descriptive">
         Strahd’s Welcome Letter<br />
@@ -108,7 +107,7 @@ function StrahdLetters() {
 
 
       {/* Strahd's First Appearance */}
-      <h3 className="heading-tertiary u-underline" id="first-appearance">Strahd's First Appearance</h3>
+      <h3 className="heading-tertiary u-underline u-thin-border-top u-padding-top-medium" id="first-appearance">Strahd's First Appearance</h3>
 
       <p className="strahd-descriptive">
         Strahd’s first appearance<br />
@@ -145,7 +144,7 @@ function StrahdLetters() {
 
 
       {/* Sergei's Letter */}
-      <h3 className="heading-tertiary u-underline" id="sergei-letter">Sergei's Letter</h3>
+      <h3 className="heading-tertiary u-underline u-thin-border-top u-padding-top-medium" id="sergei-letter">Sergei's Letter</h3>
 
       <p className="strahd-descriptive">
         Sergei’s Letter to Strahd<br />
@@ -177,7 +176,7 @@ function StrahdLetters() {
 
 
       {/* Tome of Strahd */}
-      <h3 className="heading-tertiary u-underline" id="tome-of-strahd">Tome of Strahd</h3>
+      <h3 className="heading-tertiary u-underline u-thin-border-top u-padding-top-medium" id="tome-of-strahd">Tome of Strahd</h3>
 
       <p className="strahd-descriptive">
         Tome of Strahd (excerpt) <br />
