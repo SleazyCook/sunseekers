@@ -37,10 +37,9 @@ function StrahdLetters() {
 
 
       {/* Death House Note */}
-      <h3 className="heading-tertiary u-underline u-thin-border-top u-padding-top-medium" id="death-house">Death House Note</h3>
+      <h3 className="heading-tertiary u-underline u-thin-border-top u-padding-top-medium" id="death-house">Durst Manor Note</h3>
 
       <p className="strahd-descriptive">
-        NOTE FROM DEATH HOUSE<br />
         [discovered in the possession of Gustav Durst]
       </p>
 
@@ -75,7 +74,6 @@ function StrahdLetters() {
       <h3 className="heading-tertiary u-underline u-thin-border-top u-padding-top-medium" id="welcome-letter">Sunseeker Welcome Letter</h3>
 
       <p className="strahd-descriptive">
-        Strahd’s Welcome Letter<br />
         [discovered on a large gift basket outside of Durst Manor]
       </p>
 
@@ -110,7 +108,6 @@ function StrahdLetters() {
       <h3 className="heading-tertiary u-underline u-thin-border-top u-padding-top-medium" id="first-appearance">Strahd's First Appearance</h3>
 
       <p className="strahd-descriptive">
-        Strahd’s first appearance<br />
         [recorded on Old Svalich Road between the Village of Barovia and the Vistani Tser Pool Encampment]
       </p>
 
@@ -147,7 +144,6 @@ function StrahdLetters() {
       <h3 className="heading-tertiary u-underline u-thin-border-top u-padding-top-medium" id="sergei-letter">Sergei's Letter</h3>
 
       <p className="strahd-descriptive">
-        Sergei’s Letter to Strahd<br />
         [Discovered next to an assassin’s dagger by Umnos and Elizana on Strahd’s throne in the Audience Hall at Castle Ravenloft]
       </p>
 
@@ -179,8 +175,7 @@ function StrahdLetters() {
       <h3 className="heading-tertiary u-underline u-thin-border-top u-padding-top-medium" id="tome-of-strahd">Tome of Strahd</h3>
 
       <p className="strahd-descriptive">
-        Tome of Strahd (excerpt) <br />
-        [discovered within Castle Ravenloft]
+        [excerpt discovered within Castle Ravenloft]
       </p>
 
       <div className="notes-box">
