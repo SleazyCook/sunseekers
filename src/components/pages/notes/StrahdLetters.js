@@ -89,13 +89,8 @@ function StrahdLetters() {
 
         <div className="notes-box__paragraph-box">
           <p className="notes-box__paragraph strahd-script">
-          My most pathetic servant,<br /><br />
-          I am not a messiah sent to you by the Dark Powers of this land. I have not come to lead you on a path to immortality. However many souls you have bled on your hidden altar, however many visitors you have tortured in your dungeon, know that you are not the ones who brought me to this beautiful land. You are but worms writhing in my earth.<br />
-          You say that you are cursed, your fortunes spent. You abandoned love for madness, took solace in the bosom of another woman, and sired a stillborn. Cursed by darkness? Of that I have no doubt. Save you from the wretchedness? I think not. I much prefer you as you are.<br /><br />
-
-
-          Your dread lord and master,<br />
-          Strahd von Zarovich
+          Welcome to Barovia!<br /><br />
+          Count Strahd von Zarovich
 
           </p>
         </div>
