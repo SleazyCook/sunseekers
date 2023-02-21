@@ -13,4 +13,9 @@
       width: 60rem;
     }
   };
+
+  &__list {
+    list-style: none;
+    font-family: $font-typewriter;
+  };
 }

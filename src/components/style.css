@@ -558,6 +558,9 @@ body {
     @media (min-width: 75em) {
       .maps-box img {
         width: 60rem; } }
+  .maps-box__list {
+    list-style: none;
+    font-family: "Courier New", Courier, monospace; }
 
 .notes-nav ul {
   text-align: center;
