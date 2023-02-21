@@ -8,8 +8,9 @@ import Home from './components/pages/home/Home'
 
 import Notes from './components/pages/notes/Notes'
 import AdventureLog from './components/pages/notes/AdventureLog'
-import StrahdLetters from './components/pages/notes/StrahdLetters'
+import Ireena from './components/pages/notes/Ireena'
 import Safzira from './components/pages/notes/Safzira'
+import StrahdLetters from './components/pages/notes/StrahdLetters'
 import TarrokaReading from './components/pages/notes/TarrokaReading'
 import VallakiLaws from './components/pages/notes/VallakiLaws'
 
@@ -70,6 +71,10 @@ export const router = createBrowserRouter([
       {
         path: "notes/safzira-diary",
         element: <Safzira />
+      },
+      {
+        path: "notes/ireena-diary",
+        element: <Ireena />
       },
       {
         path: "market",
