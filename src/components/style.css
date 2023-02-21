@@ -735,6 +735,33 @@ body {
     .npc-card__img--butler {
       background-image: url("https://i.imgur.com/6vkrtpj.png");
       background-position: top; }
+    .npc-card__img--dragomir-valisov {
+      background-image: url("https://i.imgur.com/9xMXn7l.png");
+      background-position: top; }
+    .npc-card__img--alek-alastroi {
+      background-image: url("https://i.imgur.com/ezgNkJR.png");
+      background-position: top; }
+    .npc-card__img--andrej-alastroi {
+      background-image: url("https://i.imgur.com/GkLBY9s.pngg");
+      background-position: top; }
+    .npc-card__img--alana-alastroi {
+      background-image: url("https://i.imgur.com/qM3iqDT.png");
+      background-position: top; }
+    .npc-card__img--harkus-stefanovich {
+      background-image: url("https://i.imgur.com/CiucFK9.jpg");
+      background-position: top; }
+    .npc-card__img--fatima-lukresh {
+      background-image: url("https://i.imgur.com/6M5oCvn.jpg");
+      background-position: top; }
+    .npc-card__img--tural {
+      background-image: url("https://i.imgur.com/LoWGZUj.jpg");
+      background-position: center; }
+    .npc-card__img--bilbo {
+      background-image: url("https://i.imgur.com/SrppwD9.jpg");
+      background-position: center; }
+    .npc-card__img--ana-krogarov {
+      background-image: url("https://i.imgur.com/5nEcuuL.png");
+      background-position: top; }
 
 .shop {
   width: 100%;

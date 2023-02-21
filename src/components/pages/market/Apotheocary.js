@@ -11,7 +11,7 @@ function Apotheocary() {
           <GiPotionBall /></div>
         <div className="shop__header">
           <span className="shop__header--main">
-            Stefanovich Apotheocary</span>
+            Stefanovich Apothecary</span>
           <span className="shop__header--sub"><i>
             Harkus Stefanovich</i></span>
         </div>
