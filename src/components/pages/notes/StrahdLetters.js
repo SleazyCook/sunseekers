@@ -13,7 +13,7 @@ function StrahdLetters() {
 
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
-          <span className="heading-secondary--main">
+          <span className="heading-secondary--main" id="page-top">
             Journals</span>
           <span className="heading-secondary--sub">
             Strahd Notes</span>
@@ -24,7 +24,21 @@ function StrahdLetters() {
         The following notes and artifacts have been recovered by the Sunseekers.  The intent of this collection is to better understand the vampire lord Count Strahd von Zarovich. 
       </p>
 
-      <h3 className="heading-tertiary u-underline">Death House Note</h3>
+
+      <div className="notes-nav">
+        <ul className="flexbox">
+          <li className="flexbox__item"><a href="#death-house">Death House Note</a></li>
+          <li className="flexbox__item"><a href="#welcome-letter">Welcome Letter</a></li>
+          <li className="flexbox__item"><a href="#first-appearance">First Appearance</a></li>
+          <li className="flexbox__item"><a href="#sergei-letter">Sergei Letter</a></li>
+          <li className="flexbox__item"><a href="#tome-of-strahd">Tome of Strahd</a></li>
+        </ul>
+      </div>
+
+      
+
+      {/* Death House Note */}
+      <h3 className="heading-tertiary u-underline" id="death-house">Death House Note</h3>
 
       <p className="strahd-descriptive">
         NOTE FROM DEATH HOUSE<br />
@@ -54,10 +68,12 @@ function StrahdLetters() {
           </p>
         </div>
       </div> {/* End Notes-Box */}
+
+      <a href="#page-top">Return to top</a>
       
 
       {/* Welcome Letter */}
-      <h3 className="heading-tertiary u-underline">Sunseeker Welcome Letter</h3>
+      <h3 className="heading-tertiary u-underline" id="welcome-letter">Sunseeker Welcome Letter</h3>
 
       <p className="strahd-descriptive">
         Strahd’s Welcome Letter<br />
@@ -87,9 +103,12 @@ function StrahdLetters() {
           </p>
         </div>
       </div> {/* End Notes-Box */}
+      <a href="#page-top">Return to top</a>
+
+
 
       {/* Strahd's First Appearance */}
-      <h3 className="heading-tertiary u-underline">Strahd's First Appearance</h3>
+      <h3 className="heading-tertiary u-underline" id="first-appearance">Strahd's First Appearance</h3>
 
       <p className="strahd-descriptive">
         Strahd’s first appearance<br />
@@ -120,9 +139,13 @@ function StrahdLetters() {
           </p>
         </div>
       </div> {/* End Notes-Box */}
+      <a href="#page-top">Return to top</a>
+
+
+
 
       {/* Sergei's Letter */}
-      <h3 className="heading-tertiary u-underline">Sergei's Letter</h3>
+      <h3 className="heading-tertiary u-underline" id="sergei-letter">Sergei's Letter</h3>
 
       <p className="strahd-descriptive">
         Sergei’s Letter to Strahd<br />
@@ -148,9 +171,13 @@ function StrahdLetters() {
           </p>
         </div>
       </div> {/* End Notes-Box */}
+      <a href="#page-top">Return to top</a>
+
+
+
 
       {/* Tome of Strahd */}
-      <h3 className="heading-tertiary u-underline">Tome of Strahd</h3>
+      <h3 className="heading-tertiary u-underline" id="tome-of-strahd">Tome of Strahd</h3>
 
       <p className="strahd-descriptive">
         Tome of Strahd (excerpt) <br />
@@ -201,6 +228,7 @@ function StrahdLetters() {
           </p>
         </div>
       </div> {/* End Notes-Box */}
+      <a href="#page-top">Return to top</a>
 
 
       <Footer />

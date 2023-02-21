@@ -112,6 +112,13 @@ body {
 .sergei-script {
   font-family: "Zeyada", cursive; }
 
+.return-top {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border: 3px solid red;
+  width: 100%; }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -514,6 +521,10 @@ body {
     background-size: cover;
     background-position: center;
     background-blend-mode: darken; }
+
+.notes-nav ul {
+  text-align: center;
+  list-style: none; }
 
 .notes-box {
   position: relative; }
@@ -1068,4 +1079,5 @@ body {
 .vallaki-laws {
   font-family: "Yatra One", cursive;
   color: #a62b0d;
-  font-size: 2rem; }
+  font-size: 2rem;
+  padding: 3rem; }
