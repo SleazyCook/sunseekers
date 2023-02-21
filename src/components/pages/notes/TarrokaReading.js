@@ -22,8 +22,9 @@ function TarrokaReading() {
 
       <p className="strahd-descriptive">
         The following took place inside the fortune teller Madame Eva's tent at the Vistani Tser Pool Encampment on the 14th Evening of Hammer<br /><br />
+      </p>
 
-        <div className="u-thin-border-top">&nbsp;</div>
+      <div className="tarroka-script u-thin-border-top">
 
         Her old hands working deftly, the ancient seer removes fourteen cards from the top of the deck, setting them aside. The remaining cards, she shuffles nimbly twice, three times, four.<br /><br />
 
@@ -41,7 +42,7 @@ function TarrokaReading() {
 
         "The Eight of glyphs - the Transmuter" Her dark pupils shift from side to side, as though reading from an unseen text. "Go to a place of dizzying heights, where the stone itself is alive!"
 
-      </p>
+      </div>
 
       <div className="flexbox flexbox--tarroka"> {/* transmuter start */}
 
@@ -73,7 +74,7 @@ function TarrokaReading() {
 
       </div> {/* transmuter end */}
 
-      <p className="strahd-descriptive">
+      <p className="tarroka-script">
         She moves her hand to the second card, this one at the top of the cross. As she closes her eyes and listens once more, the candlelight flares, its color bursting into a fierce, cheery yellow.<br /><br />
 
         "This card tells of a powerful force for good and protection, a holy symbol of great hope."<br /><br />
@@ -116,7 +117,7 @@ function TarrokaReading() {
 
       </div> {/* monk end */}
 
-      <p className="strahd-descriptive">
+      <p className="tarroka-script">
         She moves her hand to the third card, at the right arm of the cross, her eyelids closing like a trance, her lips pursed in quiet contemplation. The candlelight vanishes, for a heartbeat - and then returns in a nova of fierce, burning white, so pure and strong and clean that it hurts to look at, burns to see—<br /><br />
 
         Madam Eva's eyes snap open, burning with a fierce determination. ""This is a card of power and strength. It tells of a weapon of vengeance: a sword of sunlight.""<br /><br />
@@ -156,7 +157,7 @@ function TarrokaReading() {
 
       </div> {/* hooded one end */}
 
-      <p className="strahd-descriptive">
+      <p className="tarroka-script">
         She moves to the fourth card, at the bottom of the cross, and listens once more, tracing small circles across its back as she hums a contemplative note. The magic flames leap and dance upon their wicks, now casting swirling violet embers into the air as the walls of the tent gleam with the shimmer of twilight.<br /><br />
 
         "This card sheds light on one who will help you greatly in the battle against darkness."<br /><br />
@@ -198,7 +199,7 @@ function TarrokaReading() {
 
       </div> {/* artifact end */}
 
-      <p className="strahd-descriptive">
+      <p className="tarroka-script">
         Finally, she moves her hand to the fifth card - and nearly recoils, her brow furrowing until the wrinkles split her forehead like a trench. Behind her, shadows encircle the candlelight until the light is very nearly swallowed by the creeping dark.<br /><br />
 
         When next she speaks, Madam Eva's rasping voice is scarce above a whisper. "Your enemy is a creature of darkness, whose powers are beyond mortality. This card will lead you to him!"<br /><br />
@@ -239,7 +240,7 @@ function TarrokaReading() {
 
       </div> {/* beast end */}
 
-      <p className="strahd-descriptive">
+      <p className="tarroka-script">
         As the last syllable passes her lips, the old woman freezes - and then rocks back in her chair, her eyes rolling until their whites gleam like pearls in the darkness - and then she snaps back, the candlelight burning down to its customary crimson glow.<br /><br />
 
         The sound of the outside world returns - the voices of the Vistani, the crackling of the bonfire, the whisper of the wind, and the lapping of the waves against the shore of the pool. Light, grey and insubstantial, filters in once more through the canvas walls of the tent, and you feel yourselves breathe for the first time since the reading began.<br /><br />

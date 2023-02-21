@@ -132,6 +132,10 @@ body {
   font-size: 2rem;
   color: #a6a6a6; }
 
+.tarroka-script {
+  font-family: "Patrick Hand SC", cursive;
+  padding: 3rem; }
+
 .u-center-text {
   text-align: center !important; }
 
