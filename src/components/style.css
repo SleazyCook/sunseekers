@@ -571,7 +571,8 @@ body {
   .maps-box__list {
     list-style: none;
     font-family: "Courier New", Courier, monospace;
-    text-align: left; }
+    text-align: left;
+    padding-left: 6rem; }
 
 .notes-nav ul {
   text-align: center;
