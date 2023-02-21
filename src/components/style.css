@@ -341,9 +341,9 @@ body {
     background-position: center;
     background-blend-mode: multiply; }
   .cat-card--wachterhaus {
-    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BjfQLaP.png");
+    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/qLO3OuR.png");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-blend-mode: multiply; }
   .cat-card--merchants {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/uHHFv1v.png");
@@ -806,6 +806,24 @@ body {
       background-position: top; }
     .npc-card__img--yevgeni-krushkin {
       background-image: url("https://i.imgur.com/ikZfS2x.png");
+      background-position: top; }
+    .npc-card__img--fiona-wachter {
+      background-image: url("https://i.imgur.com/qLO3OuR.png");
+      background-position: top; }
+    .npc-card__img--nikolai-wachter {
+      background-image: url("https://i.imgur.com/jo9RNTW.png");
+      background-position: top; }
+    .npc-card__img--ernst-larnak {
+      background-image: url("https://i.imgur.com/VTYepBN.png");
+      background-position: top; }
+    .npc-card__img--stella-wachter {
+      background-image: url("https://i.imgur.com/jLxQzr1.png");
+      background-position: top; }
+    .npc-card__img--nikolai-jr {
+      background-image: url("https://i.imgur.com/xd7dn5q.png");
+      background-position: top; }
+    .npc-card__img--karl-wachter {
+      background-image: url("https://i.imgur.com/PcJwUpU.png");
       background-position: top; }
 
 .shop {
