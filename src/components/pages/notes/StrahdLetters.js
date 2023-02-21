@@ -69,7 +69,7 @@ function StrahdLetters() {
         </div>
       </div> {/* End Notes-Box */}
 
-      <a href="#page-top">Return to top</a>
+
       
 
       {/* Welcome Letter */}
@@ -103,7 +103,7 @@ function StrahdLetters() {
           </p>
         </div>
       </div> {/* End Notes-Box */}
-      <a href="#page-top">Return to top</a>
+
 
 
 
@@ -139,7 +139,7 @@ function StrahdLetters() {
           </p>
         </div>
       </div> {/* End Notes-Box */}
-      <a href="#page-top">Return to top</a>
+
 
 
 
@@ -171,7 +171,7 @@ function StrahdLetters() {
           </p>
         </div>
       </div> {/* End Notes-Box */}
-      <a href="#page-top">Return to top</a>
+
 
 
 
@@ -228,7 +228,7 @@ function StrahdLetters() {
           </p>
         </div>
       </div> {/* End Notes-Box */}
-      <a href="#page-top">Return to top</a>
+
 
 
       <Footer />

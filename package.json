@@ -16,7 +16,8 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.8.1",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "react-scroll-to-top": "^3.0.0"
   },
   "devDependencies": {
     "node-sass": "^7.0.3"
