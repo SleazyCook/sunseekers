@@ -9,6 +9,7 @@ import Home from './components/pages/home/Home'
 import Notes from './components/pages/notes/Notes'
 import AdventureLog from './components/pages/notes/AdventureLog'
 import StrahdLetters from './components/pages/notes/StrahdLetters'
+import Safzira from './components/pages/notes/Safzira'
 import TarrokaReading from './components/pages/notes/TarrokaReading'
 import VallakiLaws from './components/pages/notes/VallakiLaws'
 
@@ -65,6 +66,10 @@ export const router = createBrowserRouter([
       {
         path: "notes/vallaki-laws",
         element: <VallakiLaws />
+      },
+      {
+        path: "notes/safzira-diary",
+        element: <Safzira />
       },
       {
         path: "market",

@@ -34,19 +34,24 @@ $color-red: rgb(119, 31, 9);
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 $default-font-size: 1.6rem;
 
+// Application Fonts
 $font-header: 'Cinzel Decorative', cursive; 
-$font-header-2: 'Bebas Neue', cursive;
 $font-nav: 'Yatra One', cursive;
 $font-author: 'Berkshire Swash', cursive;
 
-
+// Content Fonts
+$font-header-2: 'Bebas Neue', cursive;
 $font-typewriter: 'Courier New', Courier, monospace;
+$font-tarroka: 'Patrick Hand SC', cursive;
+
+// Handwriting Fonts
 $font-strahd: 'Pinyon Script', cursive;
 $font-sergei: 'Zeyada', cursive;
-$font-tarroka: 'Patrick Hand SC', cursive;
+$font-safzira: 'Satisfy', cursive;
 
 
 

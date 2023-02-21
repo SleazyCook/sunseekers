@@ -87,6 +87,15 @@ body {
   }
 }
 
+.tarroka-script {
+  font-family: $font-tarroka;
+  font-size: 2rem;
+}
+
+.typewriter-script {
+  font-family: $font-typewriter;
+}
+
 .strahd-script {
   font-family: $font-strahd;
 }
@@ -95,11 +104,8 @@ body {
   font-family: $font-sergei;
 }
 
-.tarroka-script {
-  font-family: $font-tarroka;
+.safzira-script {
+  font-family: $font-safzira;
   font-size: 2rem;
-}
-
-.typewriter-script {
-  font-family: $font-typewriter;
+  color: $color-grey-light-1
 }

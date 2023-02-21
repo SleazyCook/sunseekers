@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @keyframes scaleDown {
   0% {
     transform: scale(1.2); }
@@ -107,18 +108,23 @@ body {
   color: #a6a6a6;
   margin: 3rem; }
 
-.strahd-script {
-  font-family: "Pinyon Script", cursive; }
-
-.sergei-script {
-  font-family: "Zeyada", cursive; }
-
 .tarroka-script {
   font-family: "Patrick Hand SC", cursive;
   font-size: 2rem; }
 
 .typewriter-script {
   font-family: "Courier New", Courier, monospace; }
+
+.strahd-script {
+  font-family: "Pinyon Script", cursive; }
+
+.sergei-script {
+  font-family: "Zeyada", cursive; }
+
+.safzira-script {
+  font-family: "Satisfy", cursive;
+  font-size: 2rem;
+  color: #a6a6a6; }
 
 .u-center-text {
   text-align: center !important; }
@@ -150,11 +156,14 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
-.u-mpadding-top-small {
+.u-padding-top-small {
   padding-top: 1.5rem !important; }
 
 .u-padding-top-medium {
   padding-top: 4rem !important; }
+
+.u-padding-medium {
+  padding: 4rem !important; }
 
 .bg-main {
   background-image: url("https://i.imgur.com/yxCPjUN.png");
