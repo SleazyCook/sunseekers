@@ -9,13 +9,6 @@ function Notes() {
   return (
     <div>
 
-      {/* 
-      Strahd Notes (include sergei note, images)
-      Ireena's Diary
-      Safzira's Diary
-      Misc.
-       */}
-
        <Header />
        <Navigation />
 

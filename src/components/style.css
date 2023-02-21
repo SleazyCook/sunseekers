@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Yatra+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
 @keyframes scaleDown {
   0% {
     transform: scale(1.2); }
@@ -112,12 +113,12 @@ body {
 .sergei-script {
   font-family: "Zeyada", cursive; }
 
-.return-top {
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  border: 3px solid red;
-  width: 100%; }
+.tarroka-script {
+  font-family: "Patrick Hand SC", cursive;
+  font-size: 2rem; }
+
+.typewriter-script {
+  font-family: "Courier New", Courier, monospace; }
 
 .u-center-text {
   text-align: center !important; }
@@ -935,6 +936,32 @@ body {
         top: 16rem;
         padding: 2rem; } }
 
+.tarroka-card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 45rem;
+  width: 32rem; }
+  .tarroka-card__side {
+    height: 45rem;
+    width: 32rem;
+    transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3rem;
+    overflow: hidden; }
+    .tarroka-card__side--back {
+      transform: rotateY(180deg); }
+    .tarroka-card__side img {
+      height: 45rem; }
+  .tarroka-card:hover .tarroka-card__side--front {
+    transform: rotateY(-180deg); }
+  .tarroka-card:hover .tarroka-card__side--back {
+    transform: rotateY(0); }
+
 .flexbox {
   display: flex;
   flex-wrap: wrap;
@@ -950,8 +977,17 @@ body {
       .flexbox--npc__item {
         height: 54rem;
         width: 33rem; } }
+  .flexbox--tarroka {
+    gap: 5rem;
+    border-top: 1px solid white;
+    padding: 3rem 0; }
+    .flexbox--tarroka__item {
+      height: 45rem;
+      width: 32rem; }
   .flexbox__item {
     width: 30rem; }
+    .flexbox__item--tarroka {
+      width: 40rem; }
 
 .footer {
   background-image: radial-gradient(circle, #1a1a1a, #050505);

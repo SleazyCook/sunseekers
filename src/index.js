@@ -9,6 +9,7 @@ import Home from './components/pages/home/Home'
 import Notes from './components/pages/notes/Notes'
 import AdventureLog from './components/pages/notes/AdventureLog'
 import StrahdLetters from './components/pages/notes/StrahdLetters'
+import TarrokaReading from './components/pages/notes/TarrokaReading'
 import VallakiLaws from './components/pages/notes/VallakiLaws'
 
 import Market from './components/pages/market/Market'
@@ -52,6 +53,10 @@ export const router = createBrowserRouter([
       {
         path: "notes/adventure-log",
         element: <AdventureLog />
+      },
+      {
+        path: "notes/tarroka-reading",
+        element: <TarrokaReading />
       },
       {
         path: "notes/strahd-notes",

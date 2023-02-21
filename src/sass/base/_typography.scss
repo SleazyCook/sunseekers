@@ -95,10 +95,11 @@ body {
   font-family: $font-sergei;
 }
 
-.return-top {
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  border: 3px solid red;
-  width: 100%;
+.tarroka-script {
+  font-family: $font-tarroka;
+  font-size: 2rem;
+}
+
+.typewriter-script {
+  font-family: $font-typewriter;
 }

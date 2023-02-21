@@ -1,0 +1,39 @@
+.tarroka-card {
+  // Functionality
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 45rem;
+  width: 32rem;
+
+  &__side {
+    height: 45rem;
+    width: 32rem;
+    transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3rem;
+    overflow: hidden;
+
+    &--back {
+      transform: rotateY(180deg);
+    }
+
+    & img {
+      height: 45rem;
+    }
+
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(-180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0);
+  }
+
+}

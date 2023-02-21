@@ -22,8 +22,32 @@
     }
   }
 
+  &--tarroka {
+    gap: 5rem;
+    border-top: 1px solid white;
+    padding: 3rem 0;
+
+    &__item {
+      height: 45rem;
+      width: 32rem;
+    
+      // @include respond(tab-land) {
+      //   height: 60rem;
+      // }
+    
+      // @include respond(desktop) {
+      //   height: 54rem;
+      //   width: 33rem;
+      // }
+    }
+  }
+
   &__item {
     width: 30rem;
+
+    &--tarroka {
+      width: 40rem;
+    }
 
   }
 }
