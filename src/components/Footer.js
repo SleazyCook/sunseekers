@@ -20,7 +20,7 @@ function Footer() {
 
               <li clasName="footer__item"><a href="
               https://app.roll20.net/campaigns/details/13151869/plight-of-the-sunseekers" className="footer__link" target="_blank">
-                Roll20 Campagin</a></li>
+                Roll20 Campaign</a></li>
 
               <li clasName="footer__item"><a href="
               https://death-house.netlify.app" className="footer__link" target="_blank">
