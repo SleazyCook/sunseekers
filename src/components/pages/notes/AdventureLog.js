@@ -84,10 +84,10 @@ function AdventureLog() {
           <div className="adventure__card adventure__card--04">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
-                Tarroka Reading</span>
+                Dream Pastries</span>
               <span className="adventure__card-text-box--sub">
               <span className="adventure__card-text-box--sub-num">04 &nbsp;</span>
-              6/13/2022</span>
+              6/20/2022</span>
             </div>
           </div> 
         </Link> {/* 04 End */}
