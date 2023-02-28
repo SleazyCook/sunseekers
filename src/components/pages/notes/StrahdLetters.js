@@ -24,18 +24,6 @@ function StrahdLetters() {
         The following notes and artifacts have been recovered by the Sunseekers.  The intent of this collection is to better understand the vampire lord Count Strahd von Zarovich. 
       </p>
 
-
-      <div className="notes-nav">
-        <ul className="flexbox">
-          <li className="flexbox__item"><a href="#death-house">Death House Note</a></li>
-          <li className="flexbox__item"><a href="#welcome-letter">Welcome Letter</a></li>
-          <li className="flexbox__item"><a href="#first-appearance">First Appearance</a></li>
-          <li className="flexbox__item"><a href="#sergei-letter">Sergei Letter</a></li>
-          <li className="flexbox__item"><a href="#tome-of-strahd">Tome of Strahd</a></li>
-        </ul>
-      </div>
-
-
       {/* Death House Note */}
       <h3 className="heading-tertiary u-underline u-thin-border-top u-padding-top-medium" id="death-house">Durst Manor Note</h3>
 
