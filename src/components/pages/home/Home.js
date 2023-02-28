@@ -12,7 +12,7 @@ function Home() {
         </h1>
         <br />
         <br />
-        <Link to="/notes" className="btn">
+        <Link to="/notes/adventure-log" className="btn">
           Guide</Link>
           
         <a href="https://death-house.netlify.app" className="btn">

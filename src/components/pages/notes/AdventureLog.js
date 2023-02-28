@@ -12,12 +12,12 @@ function AdventureLog() {
   const slider = useRef(null);
 
   const slideLeft = (event) => {
-    slider.current.scroll({ left: slider.current.scrollLeft -500, behavior: 'smooth'}) 
+    slider.current.scroll({ left: slider.current.scrollLeft -700, behavior: 'smooth'}) 
     console.log(slider)
   }
 
   const slideRight = (event) => {
-    slider.current.scroll({ left: slider.current.scrollLeft + 500, behavior: 'smooth'}) 
+    slider.current.scroll({ left: slider.current.scrollLeft + 700, behavior: 'smooth'}) 
     console.log(slider)
   }
   return (
@@ -35,7 +35,7 @@ function AdventureLog() {
           </h2>
       </div>
 
-      <div ref={slider} className="adventure__main">
+      <div ref={slider} scrollLeft={100} className="adventure__main">
 
         <div className="adventure__nav-icon adventure__nav-icon--left">
           <FaChevronCircleLeft className="adventure__icon" onClick={slideLeft}/>
@@ -56,7 +56,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 01 End */}
 
-        <Link to="/adventure-log/02" className="adventure__link">
+        <Link to="/notes/adventure-log/02" className="adventure__link">
           <div className="adventure__card adventure__card--02">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -68,7 +68,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 02 End */}
 
-        <Link to="/adventure-log/03" className="adventure__link">
+        <Link to="/notes/adventure-log/03" className="adventure__link">
           <div className="adventure__card adventure__card--03">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -80,7 +80,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 03 End */}
 
-        <Link to="/adventure-log/04" className="adventure__link">
+        <Link to="/notes/adventure-log/04" className="adventure__link">
           <div className="adventure__card adventure__card--04">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -92,7 +92,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 04 End */}
 
-        <Link to="/adventure-log/05" className="adventure__link">
+        <Link to="/notes/adventure-log/05" className="adventure__link">
           <div className="adventure__card adventure__card--05">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -104,7 +104,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 05 End */}
 
-        <Link to="/adventure-log/06" className="adventure__link">
+        <Link to="/notes/adventure-log/06" className="adventure__link">
           <div className="adventure__card adventure__card--06">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -116,7 +116,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 06 End */}
 
-        <Link to="/adventure-log/07" className="adventure__link">
+        <Link to="/notes/adventure-log/07" className="adventure__link">
           <div className="adventure__card adventure__card--07">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -128,7 +128,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 07 End */}
 
-        <Link to="/adventure-log/08" className="adventure__link">
+        <Link to="/notes/adventure-log/08" className="adventure__link">
           <div className="adventure__card adventure__card--08">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -140,7 +140,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 08 End */}
 
-        <Link to="/adventure-log/09" className="adventure__link">
+        <Link to="/notes/adventure-log/09" className="adventure__link">
           <div className="adventure__card adventure__card--09">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -152,7 +152,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 09 End */}
 
-        <Link to="/adventure-log/10" className="adventure__link">
+        <Link to="/notes/adventure-log/10" className="adventure__link">
           <div className="adventure__card adventure__card--10">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -164,7 +164,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 10 End */}
 
-        <Link to="/adventure-log/11" className="adventure__link">
+        <Link to="/notes/adventure-log/11" className="adventure__link">
           <div className="adventure__card adventure__card--11">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -176,7 +176,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 11 End */}
 
-        <Link to="/adventure-log/12" className="adventure__link">
+        <Link to="/notes/adventure-log/12" className="adventure__link">
           <div className="adventure__card adventure__card--12">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -188,7 +188,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 12 End */}
 
-        <Link to="/adventure-log/13" className="adventure__link">
+        <Link to="/notes/adventure-log/13" className="adventure__link">
           <div className="adventure__card adventure__card--13">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -200,7 +200,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 13 End */}
 
-        <Link to="/adventure-log/14" className="adventure__link">
+        <Link to="/notes/adventure-log/14" className="adventure__link">
           <div className="adventure__card adventure__card--14">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -212,7 +212,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 14 End */}
 
-        <Link to="/adventure-log/15" className="adventure__link">
+        <Link to="/notes/adventure-log/15" className="adventure__link">
           <div className="adventure__card adventure__card--15">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -224,7 +224,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 15 End */}
 
-        <Link to="/adventure-log/16" className="adventure__link">
+        <Link to="/notes/adventure-log/16" className="adventure__link">
           <div className="adventure__card adventure__card--16">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -236,7 +236,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 16 End */}
 
-        <Link to="/adventure-log/17" className="adventure__link">
+        <Link to="/notes/adventure-log/17" className="adventure__link">
           <div className="adventure__card adventure__card--17">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
@@ -248,7 +248,7 @@ function AdventureLog() {
           </div> 
         </Link> {/* 17 End */}
 
-        <Link to="/adventure-log/18" className="adventure__link">
+        <Link to="/notes/adventure-log/18" className="adventure__link">
           <div className="adventure__card adventure__card--18">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">
