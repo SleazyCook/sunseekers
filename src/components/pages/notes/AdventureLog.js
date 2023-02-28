@@ -44,7 +44,7 @@ function AdventureLog() {
             <FaChevronCircleRight className="adventure__icon" onClick={slideRight}/>
         </div>
 
-        <Link to="/adventure-log/01" className="adventure__link">
+        <Link to="/notes/adventure-log/01" className="adventure__link">
           <div className="adventure__card adventure__card--01">
             <div className="adventure__card-text-box">
               <span className="adventure__card-text-box--main">

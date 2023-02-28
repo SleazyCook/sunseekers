@@ -16,6 +16,8 @@ import StrahdLetters from './components/pages/notes/StrahdLetters'
 import TarrokaReading from './components/pages/notes/TarrokaReading'
 import VallakiLaws from './components/pages/notes/VallakiLaws'
 
+import J01 from './components/pages/notes/log-entries/J01'
+
 import Market from './components/pages/market/Market'
 
 import Locations from './components/pages/locations/Locations'
@@ -57,6 +59,10 @@ export const router = createBrowserRouter([
       {
         path: "notes/adventure-log",
         element: <AdventureLog />
+      },
+      {
+        path: "notes/adventure-log/01",
+        element: <J01 />
       },
       {
         path: "notes/tarroka-reading",

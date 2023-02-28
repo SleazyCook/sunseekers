@@ -1353,6 +1353,30 @@ body {
       animation-fill-mode: backwards;
       animation-delay: 1s; }
 
+.log-entry__link {
+  text-decoration: none; }
+
+.log-entry__main {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.log-entry__title {
+  max-width: 100rem;
+  align-self: center; }
+
+.log-entry__date {
+  max-width: 100rem;
+  align-self: center; }
+
+.log-entry__details {
+  max-width: 100rem;
+  align-self: center; }
+
+.log-entry__text {
+  max-width: 100rem;
+  align-self: center; }
+
 .market {
   display: flex;
   flex-direction: column; }
