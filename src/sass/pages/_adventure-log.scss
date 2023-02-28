@@ -1,29 +1,255 @@
-.entry {
-  line-height: 3rem;
-  padding: 0 2rem;
+.adventure {
+  display: flex;
+  // justify-content: center;
+  align-items: center;
 
-  &__title {
-    font-size: 4rem;
-    font-family: $font-header;
-    margin: 2rem 0;
-    text-align: center;
+  height: 100svh;
+  flex-direction: column;
+  position: relative;
+  transition: all .5s;
+  position: relative;
+
+  @include respond(tab-port) {
+    height: 100vh;
   }
 
-  &__date {
-    text-align: center;
-    margin-bottom: 2rem;
+  // Background Image
+  // background-image: linear-gradient(
+  //   to right bottom,
+  //   rgba(lightgreen, 0.25),
+  //   rgba(purple, 0.25)
+  // ),
+  // url("https://i.imgur.com/M6Gv3fe.png");
+  // background-size:cover;
+  // background-position: center;
+  // position: relative;
 
-    & span {
-      display: block
+
+  // Remove Highlight Select
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+
+  &__link {
+    text-decoration: none;
+    color: white;
+  }
+
+  &__main {
+    width: 100%;
+    margin: 0;
+    padding: 3rem;
+    position: relative;
+
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+  }
+
+  &__nav-icon {
+    display: none;
+
+    @include respond(tab-port) {
+      display: inline;
+      z-index: 10;
+      font-size: 32px;
+      width: 5rem;;
+      height: 5rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      &--left {
+        position: fixed;
+        top: 50%;
+        left: 2%;
+      }
+  
+      &--right {
+        position: fixed;
+        top: 50%;
+        right: 2%;
+      }
+    }
+
+  }
+
+  &__icon {
+    color: $color-primary;
+    transition: .25s;
+    
+    &:hover {
+      transform: scale(1.1);
+      color: $color-primary-light;
+;    }
+  }
+
+  &__card {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    cursor: pointer;
+    // margin-top: rem;
+    height: 60rem;
+    min-width: 40rem;
+  
+    border-radius: 3px;
+  
+    @include respond(tab-land) {
+      margin-top: 5rem;
+      height: 60rem;
+      min-width: 45rem;
+  
+      &:hover {
+        transform: scale(1.05);
+        transition: .5s;
+        box-shadow: 0 2rem 5rem rgba($color-primary-light, 0.5);
+        z-index: 5;
+      }
+    }
+  
+    @include respond(desktop) {
+      margin-top: 0;
+      height: 40rem;
+      min-width: 30rem;
+    }
+  
+    @include respond(desktop-big) {
+      margin-top: 0;
+      height: 45rem;
+      min-width: 35rem;
+    }
+  
+    &-text-box {
+      font-family: $font-header-2;
+      
+      width: 100%;
+      background-image: linear-gradient(
+        to right top,
+        rgba($color-primary-light, 0.8),
+        rgba(black, 0.8)
+      );
+      padding: 2rem;
+
+      // Remove Highlight Select
+      -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none;
+  
+  
+      &--main {
+        display: block;
+        font-size: 3rem;
+      }
+  
+      &--sub {
+        display: block;
+        font-size: 1.5rem;
+
+        &-num {
+          color: $color-primary-dark;
+        }
+      }
+    }
+  
+    &--01{
+      background-image: 
+        url("https://i.imgur.com/Qugofsg.png");
+      background-position: center;
+    }
+  
+    &--02{
+      background-image:  
+        url("https://i.imgur.com/0Bc9RtN.png");
+      background-position: bottom;
+    }
+  
+    &--03{
+      background-image:  
+        url("https://i.imgur.com/4TAGQ2R.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+  
+    &--04{
+      background-image:  
+        url("https://i.imgur.com/Z3CS9zj.png");
+      background-position: left;
+    }
+
+    &--05{
+      background-image:  
+        url("https://i.imgur.com/fgPPAfM.png");
+      background-position: bottom;
+    }
+
+    &--06{
+      background-image:  
+        url("https://i.imgur.com/G2pd6iZ.jpg");
+      background-position: bottom;
+      background-size: cover;
+    }
+
+    &--07{
+      background-image:  
+        url("https://i.imgur.com/RXoVXmW.png");
+      background-position: center;
+      background-size: cover;
+    }
+
+    &--08{
+      background-image:  
+        url("https://i.imgur.com/Dr4kWTj.png");
+      background-position: center;
+      background-size: cover;
+    }
+
+    &--09{
+      background-image:  
+        url("https://i.imgur.com/jfqY25H.png");
+      background-position: right;
+      background-size: cover;
+    }
+
+    &--10{
+      background-image:  
+        url("https://i.imgur.com/BhKS1uC.png");
+      background-position: center;
+      background-size: cover;
+    }
+
+    &--11{
+      background-image:  
+        url("https://i.imgur.com/8Gkjbgh.png");
+      background-position: center;
+      background-size: cover;
+    }
+
+    &--12{
+      background-image:  
+        url("https://i.imgur.com/MPP8A9i.png");
+      background-position: left;
+      background-size: cover;
     }
   }
-
-  &__details {
-    margin-bottom: 2rem;
-  }
-
-  // &__log {
-
-  // }
 
 }
