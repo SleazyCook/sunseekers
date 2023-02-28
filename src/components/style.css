@@ -1361,17 +1361,14 @@ body {
   display: flex;
   flex-direction: column; }
 
-.log-entry__title {
-  max-width: 100rem;
-  align-self: center; }
-
-.log-entry__date {
-  max-width: 100rem;
-  align-self: center; }
+.log-entry__title, .log-entry__date, .log-entry__details {
+  max-width: 60rem;
+  align-self: center;
+  text-align: center;
+  margin-bottom: .5rem; }
 
 .log-entry__details {
-  max-width: 100rem;
-  align-self: center; }
+  margin-bottom: 2rem; }
 
 .log-entry__text {
   max-width: 100rem;
