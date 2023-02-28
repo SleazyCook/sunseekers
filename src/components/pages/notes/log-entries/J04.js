@@ -27,7 +27,7 @@ function J04() {
           <h4 className="log-entry__title">4. Dream Pastries at the Old Mill</h4>
           <h5 className="log-entry__date">
             <span>18th Morning of Hammer through 19th Evening of Hammer</span>
-            <span><i>June 20th, 2022 7pmJune 13th, 2022 7pm </i></span>
+            <span><i>June 20th, 2022 7pm</i></span>
           </h5>
 
           <p className="log-entry__details">
