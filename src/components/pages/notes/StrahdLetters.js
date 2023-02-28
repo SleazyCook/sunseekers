@@ -42,14 +42,15 @@ function StrahdLetters() {
         </div>
 
         <div className="notes-box__paragraph-box">
-          <p className="notes-box__paragraph strahd-script">
+          <p className="notes-box__paragraph">
           My most pathetic servant,<br />
           I am not a messiah sent to you by the Dark Powers of this land. I have not come to lead you on a path to immortality. However many souls you have bled on your hidden altar, however many visitors you have tortured in your dungeon, know that you are not the ones who brought me to this beautiful land. You are but worms writhing in my earth.<br />
           You say that you are cursed, your fortunes spent. You abandoned love for madness, took solace in the bosom of another woman, and sired a stillborn. Cursed by darkness? Of that I have no doubt. Save you from the wretchedness? I think not. I much prefer you as you are.<br /><br />
 
-
+          
           Your dread lord and master,<br />
-          Strahd von Zarovich
+          <span className="strahd-script">
+          Strahd von Zarovich</span>
 
           </p>
         </div>
@@ -76,9 +77,10 @@ function StrahdLetters() {
         </div>
 
         <div className="notes-box__paragraph-box">
-          <p className="notes-box__paragraph strahd-script">
+          <p className="notes-box__paragraph">
           Welcome to Barovia!<br /><br />
-          Count Strahd von Zarovich
+          <span className="strahd-script">
+          Strahd von Zarovich</span>
 
           </p>
         </div>
@@ -105,7 +107,7 @@ function StrahdLetters() {
         </div>
 
         <div className="notes-box__paragraph-box">
-          <p className="notes-box__paragraph strahd-script">
+          <p className="notes-box__paragraph">
             I wanted to welcome you to my kingdom. I chose the name Barovia to honor my father, the great King Barov. Did you know that? Of course not. Well,  I conquered this valley in his name. Believe me, it wasn't much to look at before I spruced up the place.<br /><br />
 
             I wanted to be the first to make amends on behalf of the Vistani. I'm aware of the... misunderstanding between the dearly departed Mr. Lazlo and your...sizable associate. These free spirited people, while they are my most loyal subjects, are anything but foot soldiers. They have a silly saying "Even the Best Men Die.'' They hold no ill will toward any of you, and they will be happy to host your party for the duration of your stay in Barovia.<br /><br />
@@ -172,7 +174,7 @@ function StrahdLetters() {
         </div>
 
         <div className="notes-box__paragraph-box">
-          <p className="notes-box__paragraph strahd-script">
+          <p className="notes-box__paragraph">
             I am the ancient. I am the land. My beginnings are lost in the darkness of the past. I was the warrior, I was good and just. I thundered across the land like the wrath of a just god, but the war years and the killing years wore down my soul as the wind wears stone into sand.<br /><br />
             All goodness slipped from my life. I found my youth and strength gone, and all I had left was death. My army settled in the valley of Barovia and took power over the people in the name of a just god, but with none of a god’s grace or justice. 
             I called for my family, long unseated from their ancient thrones, and brought them here to settle in the castle Ravenloft. They came with a younger brother of mine, Sergei. He was handsome and youthful. I hated him for both.<br /><br />
@@ -194,7 +196,7 @@ function StrahdLetters() {
         </div>
 
         <div className="notes-box__paragraph-box">
-          <p className="notes-box__paragraph strahd-script">
+          <p className="notes-box__paragraph">
 
             The death she saw in me turned her from me. And so I came to hate death - my death. My hate is very strong. I would not be called “death” so soon. I made a pact with death, a pact of blood. On the day of the wedding, I killed Sergei, my brother. My pact was sealed with his blood. <br /><br />
             I found Tatyana weeping in the garden east of the chapel. She fled from me. She would not let me explain, and a great anger swelled within me. She had to understand the pact I made for her. I pursued her. Finally, in despair, she flung herself from the walls of Ravenloft, and I watched everything I ever wanted fall from my grasp forever.<br /><br />
