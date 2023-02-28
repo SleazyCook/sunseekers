@@ -1237,11 +1237,12 @@ body {
         .adventure__card-text-box--sub-num {
           color: #180602; }
     .adventure__card--01 {
-      background-image: url("https://i.imgur.com/Qugofsg.png");
-      background-position: center; }
+      background-image: url("https://i.imgur.com/v0UJOI8.png");
+      background-position: center;
+      background-size: cover; }
     .adventure__card--02 {
-      background-image: url("https://i.imgur.com/0Bc9RtN.png");
-      background-position: bottom; }
+      background-image: url("https://i.imgur.com/n5ktd93.png");
+      background-position: center; }
     .adventure__card--03 {
       background-image: url("https://i.imgur.com/4TAGQ2R.jpg");
       background-position: center;
@@ -1265,15 +1266,15 @@ body {
       background-position: center;
       background-size: cover; }
     .adventure__card--09 {
-      background-image: url("https://i.imgur.com/jfqY25H.png");
-      background-position: right;
+      background-image: url("https://i.imgur.com/9hhPNLe.png");
+      background-position: center;
       background-size: cover; }
     .adventure__card--10 {
       background-image: url("https://i.imgur.com/BhKS1uC.png");
       background-position: center;
       background-size: cover; }
     .adventure__card--11 {
-      background-image: url("https://i.imgur.com/8Gkjbgh.png");
+      background-image: url("https://i.imgur.com/pb4SaMI.png");
       background-position: center;
       background-size: cover; }
     .adventure__card--12 {
