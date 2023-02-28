@@ -188,6 +188,78 @@ function AdventureLog() {
           </div> 
         </Link> {/* 12 End */}
 
+        <Link to="/adventure-log/13" className="adventure__link">
+          <div className="adventure__card adventure__card--13">
+            <div className="adventure__card-text-box">
+              <span className="adventure__card-text-box--main">
+                After the Feast</span>
+              <span className="adventure__card-text-box--sub">
+              <span className="adventure__card-text-box--sub-num">13 &nbsp;</span>
+              9/11/2022</span>
+            </div>
+          </div> 
+        </Link> {/* 13 End */}
+
+        <Link to="/adventure-log/14" className="adventure__link">
+          <div className="adventure__card adventure__card--14">
+            <div className="adventure__card-text-box">
+              <span className="adventure__card-text-box--main">
+                Umnos in Ravenloft</span>
+              <span className="adventure__card-text-box--sub">
+              <span className="adventure__card-text-box--sub-num">14 &nbsp;</span>
+              9/26/2022</span>
+            </div>
+          </div> 
+        </Link> {/* 14 End */}
+
+        <Link to="/adventure-log/15" className="adventure__link">
+          <div className="adventure__card adventure__card--15">
+            <div className="adventure__card-text-box">
+              <span className="adventure__card-text-box--main">
+                Order of the Dragon</span>
+              <span className="adventure__card-text-box--sub">
+              <span className="adventure__card-text-box--sub-num">15 &nbsp;</span>
+              9/26/2022</span>
+            </div>
+          </div> 
+        </Link> {/* 15 End */}
+
+        <Link to="/adventure-log/16" className="adventure__link">
+          <div className="adventure__card adventure__card--16">
+            <div className="adventure__card-text-box">
+              <span className="adventure__card-text-box--main">
+                Heart of Sorrow</span>
+              <span className="adventure__card-text-box--sub">
+              <span className="adventure__card-text-box--sub-num">16 &nbsp;</span>
+              10/25/2022</span>
+            </div>
+          </div> 
+        </Link> {/* 16 End */}
+
+        <Link to="/adventure-log/17" className="adventure__link">
+          <div className="adventure__card adventure__card--17">
+            <div className="adventure__card-text-box">
+              <span className="adventure__card-text-box--main">
+                Ez and the Tome</span>
+              <span className="adventure__card-text-box--sub">
+              <span className="adventure__card-text-box--sub-num">17 &nbsp;</span>
+              11/07/2022</span>
+            </div>
+          </div> 
+        </Link> {/* 17 End */}
+
+        <Link to="/adventure-log/18" className="adventure__link">
+          <div className="adventure__card adventure__card--18">
+            <div className="adventure__card-text-box">
+              <span className="adventure__card-text-box--main">
+                Cold Deep South</span>
+              <span className="adventure__card-text-box--sub">
+              <span className="adventure__card-text-box--sub-num">18 &nbsp;</span>
+              11/14/2022</span>
+            </div>
+          </div> 
+        </Link> {/* 18 End */}
+
       </div> {/* adventure Main End */}
 
       <Footer />
