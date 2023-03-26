@@ -26,8 +26,8 @@ function J18() {
         <div className="log-entry__main">
           <h4 className="log-entry__title">18. Cold Deep South</h4>
           <h5 className="log-entry__date">
-            <span>18th Morning of Hammer through 19th Evening of Hammer</span>
-            <span><i>10th Day of Alturiak</i></span>
+            <span>18th Morning of Hammer through 19th Evening of Hammer</span><br />
+            <span><i>November, 14th, 2022</i></span>
           </h5>
 
           <p className="log-entry__details">

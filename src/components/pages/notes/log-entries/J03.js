@@ -26,7 +26,7 @@ function J03() {
         <div className="log-entry__main">
           <h4 className="log-entry__title">3. Madame Eva's Tarroka Reading</h4>
           <h5 className="log-entry__date">
-            <span>14th Afternoon of Hammer</span>
+            <span>14th Afternoon of Hammer</span><br />
             <span><i>June 13th, 2022 7pm </i></span>
           </h5>
 

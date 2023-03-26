@@ -34,6 +34,7 @@ import J15 from './components/pages/notes/log-entries/J15'
 import J16 from './components/pages/notes/log-entries/J16'
 import J17 from './components/pages/notes/log-entries/J17'
 import J18 from './components/pages/notes/log-entries/J18'
+import J19 from './components/pages/notes/log-entries/J19'
 
 
 import Market from './components/pages/market/Market'
@@ -149,6 +150,10 @@ export const router = createBrowserRouter([
       {
         path: "notes/adventure-log/18",
         element: <J18 />
+      },
+      {
+        path: "notes/adventure-log/19",
+        element: <J19 />
       },
       {
         path: "notes/tarroka-reading",

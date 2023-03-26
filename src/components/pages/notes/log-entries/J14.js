@@ -26,7 +26,7 @@ function J14() {
         <div className="log-entry__main">
           <h4 className="log-entry__title">14. Umnos in Ravenloft</h4>
           <h5 className="log-entry__date">
-            <span>7th Day of Altruiak</span>
+            <span>7th Day of Altruiak</span><br />
             <span><i>June 20th, 2022 7pm</i></span>
           </h5>
 

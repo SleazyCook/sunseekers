@@ -26,7 +26,7 @@ function J02() {
       <div className="log-entry__main">
         <h4 className="log-entry__title">2. Village of Barovia</h4>
         <h5 className="log-entry__date">
-          <span>11th Morning of Hammer through 12th Evening of Hammmer</span>
+          <span>11th Morning of Hammer through 12th Evening of Hammmer</span><br />
           <span><i>June 12th, 2022 7pm</i></span>
         </h5>
 

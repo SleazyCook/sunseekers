@@ -26,7 +26,7 @@ function J17() {
         <div className="log-entry__main">
           <h4 className="log-entry__title">17. Ez and the Tome of Strahd</h4>
           <h5 className="log-entry__date">
-            <span>10th Morning of Alturiak</span>
+            <span>10th Morning of Alturiak</span><br />
             <span><i>November 7th, 2022 7pm</i></span>
           </h5>
 

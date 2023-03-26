@@ -26,7 +26,7 @@ function J08() {
         <div className="log-entry__main">
           <h4 className="log-entry__title">8. Rats in Castle Ravenloft</h4>
           <h5 className="log-entry__date">
-            <span>26th Day of Hammer</span>
+            <span>26th Day of Hammer</span><br />
             <span><i>July 31st, 2022 8:30pm </i></span>
           </h5>
 

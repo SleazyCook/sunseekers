@@ -26,7 +26,7 @@ function J01() {
         <div className="log-entry__main">
           <h4 className="log-entry__title">1. Death House</h4>
           <h5 className="log-entry__date">
-            <span>8th Night of Hammer through 9th Morning of Hammer</span>
+            <span>8th Night of Hammer through 9th Morning of Hammer</span><br />
             <span><i>May 27th, 2022 8pm</i></span>
           </h5>
 

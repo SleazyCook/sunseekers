@@ -26,7 +26,7 @@ function J16() {
         <div className="log-entry__main">
           <h4 className="log-entry__title">16. Heart of Sorrow</h4>
           <h5 className="log-entry__date">
-            <span>9th Day of Alturiak</span>
+            <span>9th Day of Alturiak</span><br />
             <span><i>October 25th, 2022</i></span>
           </h5>
 

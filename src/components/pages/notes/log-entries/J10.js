@@ -26,7 +26,7 @@ function J10() {
       <div className="log-entry__main">
         <h4 className="log-entry__title">10. Wachterhaus and the Vallaki Vistani Camp</h4>
         <h5 className="log-entry__date">
-          <span>28th and 29th Day of Hammer</span>
+          <span>28th and 29th Day of Hammer</span><br />
           <span><i>August 21st, 2022 8pm </i></span>
         </h5>
 

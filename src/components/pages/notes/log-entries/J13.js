@@ -26,7 +26,7 @@ function J13() {
         <div className="log-entry__main">
           <h4 className="log-entry__title">13. After the Feast</h4>
           <h5 className="log-entry__date">
-            <span>4th Day of Alturiak</span>
+            <span>4th Day of Alturiak</span><br />
             <span><i>September 11th, 2022 8pm</i></span>
           </h5>
 

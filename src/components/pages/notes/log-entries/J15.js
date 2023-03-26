@@ -26,7 +26,7 @@ function J15() {
         <div className="log-entry__main">
           <h4 className="log-entry__title">15. Order of the Silver Dragon</h4>
           <h5 className="log-entry__date">
-            <span>8th Day of Alturiak</span>
+            <span>8th Day of Alturiak</span><br />
             <span><i>October 10th, 2022</i></span>
           </h5>
 

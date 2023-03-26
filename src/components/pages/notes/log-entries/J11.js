@@ -26,7 +26,7 @@ function J11() {
         <div className="log-entry__main">
           <h4 className="log-entry__title">11. Bones of St. Andral</h4>
           <h5 className="log-entry__date">
-            <span>30th Day of Hammer</span>
+            <span>30th Day of Hammer</span><br />
             <span><i>August 28th, 2022 8pm </i></span>
           </h5>
 

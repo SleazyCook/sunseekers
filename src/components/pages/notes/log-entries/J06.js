@@ -26,7 +26,7 @@ function J06() {
         <div className="log-entry__main">
           <h4 className="log-entry__title">6. Festival of the Blazing Sun</h4>
           <h5 className="log-entry__date">
-            <span>21st Day of Hammer</span>
+            <span>21st Day of Hammer</span><br />
             <span><i>July 3rd, 2022 7:30pm </i></span>
           </h5>
 

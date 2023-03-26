@@ -26,7 +26,7 @@ function J05() {
         <div className="log-entry__main">
           <h4 className="log-entry__title">5. Welcome to Vallaki</h4>
           <h5 className="log-entry__date">
-          <span>20th Day of Hammer</span>
+          <span>20th Day of Hammer</span><br />
           <span><i>June 20th, 2022 7pm </i></span>
           </h5>
 

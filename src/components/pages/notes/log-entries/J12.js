@@ -26,7 +26,7 @@ function J12() {
         <div className="log-entry__main">
           <h4 className="log-entry__title">12. Mad Mage and the Feast of St. Andral</h4>
           <h5 className="log-entry__date">
-            <span>2nd Day and 3rd Day of Alturiak</span>
+            <span>2nd Day and 3rd Day of Alturiak</span><br />
             <span><i>September 4th, 2022 8pm </i></span>
           </h5>
 
