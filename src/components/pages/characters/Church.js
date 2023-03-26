@@ -114,7 +114,7 @@ function Church() {
             <div className="npc-card__description">
               70, &nbsp;
               <i>
-                dead
+                alive
               </i>
               <br />
               <br />

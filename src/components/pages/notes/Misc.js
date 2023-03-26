@@ -84,6 +84,25 @@ function Misc() {
       </div>
       {/* safzira letter End */}
 
+      {/* brazier room hourglass inscription Start */}
+      <div className="u-thin-border-top u-padding-medium"> 
+
+        <h3 className="heading-tertiary">Hourglass Inscription, Brazier Room at Castle Ravenloft</h3>
+
+        <p className="u-padding-medium u-center-text typewriter-script">
+          Cast a stone into the fire<br />
+          Violet leads to the mountain spire<br />
+          Orange to the castle's peak<br />
+          Red if lore is what you seek<br />
+          Green to where the coffins hide<br />
+          Indigo to the master's bride<br />
+          Blue to ancient magic's womb<br />
+          Yellow to the master's tomb<br />
+        </p>
+
+        </div>
+        {/* safzira letter End */}
+
       <Footer />
 
     </div>
