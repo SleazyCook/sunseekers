@@ -260,6 +260,18 @@ function AdventureLog() {
           </div> 
         </Link> {/* 18 End */}
 
+        <Link to="/notes/adventure-log/19" className="adventure__link">
+          <div className="adventure__card adventure__card--19">
+            <div className="adventure__card-text-box">
+              <span className="adventure__card-text-box--main">
+                The Brazier Room</span>
+              <span className="adventure__card-text-box--sub">
+              <span className="adventure__card-text-box--sub-num">19 &nbsp;</span>
+              3/25/2023</span>
+            </div>
+          </div> 
+        </Link> {/* 19 End */}
+
       </div> {/* adventure Main End */}
 
       <Footer />

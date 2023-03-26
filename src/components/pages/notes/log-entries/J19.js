@@ -60,7 +60,7 @@ function J18() {
             Green to where the coffins hide<br />
             Indigo to the master’s bride<br />
             Blue to ancient magic’s womb<br />
-            Yellow to the master’s tomb<br />
+            Yellow to the master’s tomb<br /><br />
 
             Ludmilla fastens the violet stone tightly in its place and nod to the sunseekers to stand within the brazier. Ludmilla joins them flames, without heat, rise around them. Umnos motions to Elizana to sneak one of the loose crystals.  She snatches up the blue crystal just as the flames hit the ceiling. <br /><br />
 
