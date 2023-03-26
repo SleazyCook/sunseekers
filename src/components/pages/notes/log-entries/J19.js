@@ -47,7 +47,7 @@ function J18() {
 
             Strahd considers the peculiarity of this moment and offers the sunseekers a choice.  Follow Ludmilla, to where or why no one is sure, or finish the fight with Strahd. Umnos agrees to go with the bride so long as he can take the corpse of Freebird, and Elizana sticks with him. <br /><br />
 
-            When Umnos and Elizana first came to Castle Ravenloft together, they were five strong. Now Freebird is dead, Ireena and Lancelot are missing, and Umnos and Elizana were best by Strahd in his castle. Beated and broken, they are less than half the party they were just days before. <br /><br />
+            When Umnos and Elizana first came to Castle Ravenloft together, they were five strong. Now Freebird is dead, Ireena and Lancelot are missing, and Umnos and Elizana were bested by Strahd in his castle. Beated and broken, they are less than half the party they were just days before. <br /><br />
 
             The gargoyles lead the two sunseekers through twisted hallways and spiraling staircases down and up and snaking through the confusing halls of Castle Ravenloft. Just as they are almost sure which floor they are on, they arrive in the Brazier Room. <br /><br />
 
