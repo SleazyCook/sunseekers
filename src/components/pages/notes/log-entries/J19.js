@@ -47,7 +47,7 @@ function J18() {
 
             Strahd considers the peculiarity of this moment and offers the sunseekers a choice.  Follow Ludmilla, to where or why no one is sure, or finish the fight with Strahd. Umnos agrees to go with the bride so long as he can take the corpse of Freebird, and Elizana sticks with him. <br /><br />
 
-            When Umnos and Elizana first came to Castle Ravenloft together, they had three others with them - Freebird, Ireena, and Lancelot. With Freebird dead, Ireena and Lancelot missing, and Umnos and Elizana helpless to Strahd’s attack, they are less than half the party they started as. <br /><br />
+            When Umnos and Elizana first came to Castle Ravenloft together, they were five strong. Now Freebird is dead, Ireena and Lancelot are missing, and Umnos and Elizana were best by Strahd in his castle. Beated and broken, they are less than half the party they were just days before. <br /><br />
 
             The gargoyles lead the two sunseekers through twisted hallways and spiraling staircases down and up and snaking through the confusing halls of Castle Ravenloft. Just as they are almost sure which floor they are on, they arrive in the Brazier Room. <br /><br />
 
@@ -62,7 +62,7 @@ function J18() {
             Blue to ancient magic’s womb<br />
             Yellow to the master’s tomb<br /><br />
 
-            Ludmilla fastens the violet stone tightly in its place and nod to the sunseekers to stand within the brazier. Ludmilla joins them flames, without heat, rise around them. Umnos motions to Elizana to sneak one of the loose crystals.  She snatches up the blue crystal just as the flames hit the ceiling. <br /><br />
+            Ludmilla fastens the violet stone tightly in its place and nods to the sunseekers to stand around the brazier. Ludmilla joins them as flames, without heat, rise around them. Umnos motions to Elizana to sneak one of the loose crystals.  She snatches up the blue crystal just as the flames hit the ceiling. <br /><br />
 
             As the flames die down, the temperature drops with them - significantly. They are in a different room in a different place. Outside the sound of large teeth snapping and heavy machinery hitting the ground as Ludmilla shouts “Wolfie!” There is a second sound in the distance. It is the voice of Safzira calling out to Kasimir. 
 
