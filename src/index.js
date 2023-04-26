@@ -16,6 +16,8 @@ import StrahdLetters from './components/pages/notes/StrahdLetters'
 import TarrokaReading from './components/pages/notes/TarrokaReading'
 import VallakiLaws from './components/pages/notes/VallakiLaws'
 
+import LogEntry from './components/pages/notes/LogEntry'
+
 import J01 from './components/pages/notes/log-entries/J01'
 import J02 from './components/pages/notes/log-entries/J02'
 import J03 from './components/pages/notes/log-entries/J03'
@@ -80,13 +82,17 @@ export const router = createBrowserRouter([
         element: <AdventureLog />
       },
       {
-        path: "notes/adventure-log/01",
-        element: <J01 />
+        path: "notes/adventure-log/:entryNumber",
+        element: <LogEntry />
       },
-      {
-        path: "notes/adventure-log/02",
-        element: <J02 />
-      },
+      // {
+      //   path: "notes/adventure-log/01",
+      //   element: <J01 />
+      // },
+      // {
+      //   path: "notes/adventure-log/02",
+      //   element: <J02 />
+      // },
       {
         path: "notes/adventure-log/03",
         element: <J03 />

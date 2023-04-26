@@ -1258,14 +1258,14 @@ body {
         font-size: 1.5rem; }
         .adventure__card-text-box--sub-num {
           color: #180602; }
-    .adventure__card--01 {
+    .adventure__card--1 {
       background-image: url("https://i.imgur.com/v0UJOI8.png");
       background-position: center;
       background-size: cover; }
-    .adventure__card--02 {
+    .adventure__card--2 {
       background-image: url("https://i.imgur.com/n5ktd93.png");
       background-position: center; }
-    .adventure__card--03 {
+    .adventure__card--3 {
       background-image: url("https://i.imgur.com/4TAGQ2R.jpg");
       background-position: center;
       background-size: cover; }
