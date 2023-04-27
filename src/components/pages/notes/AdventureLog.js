@@ -65,30 +65,6 @@ function AdventureLog() {
           )
          } )}
 
-        <Link to="/notes/adventure-log/01" className="adventure__link">
-          <div className="adventure__card adventure__card--{entryObj.number}" >
-            <div className="adventure__card-text-box">
-              <span className="adventure__card-text-box--main">
-                Death House</span>
-              <span className="adventure__card-text-box--sub">
-                <span className="adventure__card-text-box--sub-num">01 &nbsp;</span>
-                5/27/2022</span>
-            </div>
-          </div> 
-        </Link> {/* 01 End */}
-
-        <Link to="/notes/adventure-log/02" className="adventure__link">
-          <div className="adventure__card adventure__card--02">
-            <div className="adventure__card-text-box">
-              <span className="adventure__card-text-box--main">
-                Village of Barovia</span>
-              <span className="adventure__card-text-box--sub">
-              <span className="adventure__card-text-box--sub-num">02 &nbsp;</span>
-              6/12/2022</span>
-            </div>
-          </div> 
-        </Link> {/* 02 End */}
-
         <Link to="/notes/adventure-log/03" className="adventure__link">
           <div className="adventure__card adventure__card--03">
             <div className="adventure__card-text-box">
