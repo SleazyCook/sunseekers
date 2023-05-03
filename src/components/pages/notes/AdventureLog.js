@@ -77,6 +77,8 @@ function AdventureLog() {
           </div> 
         </Link> {/* 03 End */}
 
+        {/* don't stop now. */}
+
         <Link to="/notes/adventure-log/04" className="adventure__link">
           <div className="adventure__card adventure__card--04">
             <div className="adventure__card-text-box">
