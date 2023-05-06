@@ -71,6 +71,113 @@ let logData = [
     numDate: "7/3/2022",
     imgUrl: "",
     entry: "21st Day of Hammer\n\nVisit to the Cracked Anvil\nHunt wolves and create bracers to sell for 1gp per pair\nMeeting with Rictavio at the Swift Finish\n-real name: Rudolph Van Richten, monster hunter\n-offered insight to card reading\n-offers to investigate things for part\n-offers topographical map [see Journals/Maps]\n\n22nd Day of Hammer, Festival of the Blazing Sun\n\nGuards command the party to pass out flyers\nSt. Andral's Church, meet the two priests\nSt. Andral's Orphanage, Claudia Belasco, Vladislav, lizard boy, hair pulling girl, 10 yr old Szvolt want to roam outside\nFestival of the Blazing Sun ruined on account of rain\n-Lars the guard laughs, is dragged through the streets by the Baron's horse\n-Elizana, in a child's voice, calls out the Baron\n-Orphans are blamed for outcry and sent to stocks\n-German challenges Izek, head guard, as a distraction while the rest of the party tries to rescue the children\n-Saf and Freebird sneak the children out of Vallaki to take to the Old Mill\n-German is incapacitated and brought back to the Burgomaster's mansion while Elizana stealhily follows behind\n\n23rd Day of Hammer\n\nSaf talks to Danika Martikov at the Blue Water Inn, asked about Elizana\nSaf runs into Ireena, who has begun courting the accountant Vasili, and Elizana\n-Elizana talks to the Baron about the missing children and the Barbarian, both issues dismissed by the Baron\n-The party sneaks into the mansion and rescues German the Barbarian\nElizana shows headmistress Claudia Belasco the effigy. Claudia fearfully warns to avoid the Old Mill Coven as they are known for kidnapping children to use as ingredients for their dream pastries\nThe Sunseekers turn their attention immediately to the Old Mill Coven to save whatever is left of the children."
+  },
+  {
+    number: 7,
+    title: "Showdown at the Mill",
+    players: ["Elizana", "German", "Safzira"],
+    npcs: ["Freebird"],
+    quests: ["Children of Vallaki", "A Message for Cyrus Belview"],
+    gameDate: "July 10th, 2022",
+    numDate: "7/10/2022",
+    imgUrl: "",
+    entry: "",
+  },
+  {
+    number: 8, 
+    title: "Rats in Ravenloft",
+    players: ["Elizana", "German", "Safzira"],
+    npcs: ["Prisoner"],
+    quests: ["A Message for Cyrus Belview"],
+    gameDate: "26th Day of Hammer",
+    realDate: "July 31st, 2022",
+    numDate: "7/31/2022",
+    imgUrl: "",
+    entry: ""
+  },
+  {
+    number: 9,
+    title: "Return to Vallaki",
+    players: ["Elizana", "German", "Safzira"],
+    npcs: ["None"],
+    quests: ["'All Will Be Well!'"],
+    gameDate: "27th Day of Hammer",
+    realDate: "August 7th, 2022",
+    numDate: "8/7/2022",
+    imgUrl: "",
+    entry: ""
+  },
+  {
+    number: 10,
+    title: "Vallaki Vistani Camp",
+    players: ["Elizana", "German", "Safzira"],
+    npcs: ["Freebird", "Ireena", "Kasimir", "Van Richten", "Vasili"],
+    quests: ["'All Will Be Well!", "Coup of Vallaki", "Rescue Arabelle", "Bones of St. Andral"],
+    gameDate: "28th and 29th Day of Hammer",
+    realDate: "August 21st, 2022",
+    numDate: "8/21/2022",
+    imgUrl: "",
+    entry: ""
+  },
+  {
+    number: 11,
+    title: "Bones of St. Andral",
+    players: ["Elizana", "German", "Safzira"],
+    npcs: ["Ireena", "Kasimir", "Rictavio", "Vasili"],
+    quests: ["'All Will Be Well!'", "Bones of St. Andral", "Strange Lights", "Mad Mage in the Mountains"],
+    gameDate: "30th Day of Hammer",
+    realDate: "August 28th, 2022",
+    numDate: "8/28/2022",
+    imgUrl: "",
+    entry: ""
+  },
+  {
+    number: 12,
+    title: "Feast of St.Andral",
+    players: ["Elizana", "German", "Safzira"],
+    npcs: ["Freebird", "Ireena", "Vasili"],
+    quests: ["Mad Mage in the Mountains", "Bones of St. Anfral"],
+    gameDate: "2nd Day of Alturiak",
+    realDate: "September 4th, 2022",
+    numDate: "9/4/2022",
+    imgUrl: "",
+    entry: ""
+  },
+  {
+    number: 13,
+    title: "After the Feast",
+    players: ["Elizana", "German", "Safzira", "Umnos"],
+    npcs: ["Freebird", "Ireena", "Lancelot"],
+    quests: ["Protect Ireena"],
+    gameDate: "4th Day of Alturiak",
+    realDate: "September 11th, 2022",
+    numDate: "9/11/2022",
+    imgUrl: "",
+    entry: ""
+  },
+  {
+    number: 14,
+    title: "Umnos in Ravenloft",
+    players: ["Elizana", "Umnos", "Safzira", "Zoro"],
+    npcs: ["Freebird", "Ireena", "Kasimir", "Viktor the Mage"],
+    quests: ["Protect Ireena"],
+    gameDate: "7th Day of Alturiak",
+    realDate: "September 26th, 2022",
+    numDate: "9/26/2022",
+    imgUrl: "",
+    entry: ""
+  },
+  {
+    number: 15,
+    title: "Order of the Dragon",
+    players: ["Elizana", "Umnos", "Safzira", "Zoro"],
+    npcs: ["Kasmir", "Viktor the Mage", "Freebird", "Ireena"],
+    quests: ["Protect Ireena"],
+    gameDate: "8th Day of Alturiak",
+    realDate: "October 10th, 2022",
+    numDate: "10/10/2022",
+    imgUrl: "",
+    entry: ""
   }
 ]
 
