@@ -1188,13 +1188,14 @@ body {
         cursor: pointer;
         display: flex;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        border: 3px solid white; }
         .adventure__nav-icon--left {
-          position: fixed;
+          position: absolute;
           top: 50%;
           left: 2%; }
         .adventure__nav-icon--right {
-          position: fixed;
+          position: absolute;
           top: 50%;
           right: 2%; } }
   .adventure__icon {
@@ -1269,25 +1270,25 @@ body {
       background-image: url("https://i.imgur.com/4TAGQ2R.jpg");
       background-position: center;
       background-size: cover; }
-    .adventure__card--04 {
+    .adventure__card--4 {
       background-image: url("https://i.imgur.com/Z3CS9zj.png");
       background-position: left; }
-    .adventure__card--05 {
+    .adventure__card--5 {
       background-image: url("https://i.imgur.com/fgPPAfM.png");
       background-position: bottom; }
-    .adventure__card--06 {
+    .adventure__card--6 {
       background-image: url("https://i.imgur.com/G2pd6iZ.jpg");
       background-position: bottom;
       background-size: cover; }
-    .adventure__card--07 {
+    .adventure__card--7 {
       background-image: url("https://i.imgur.com/RXoVXmW.png");
       background-position: center;
       background-size: cover; }
-    .adventure__card--08 {
+    .adventure__card--8 {
       background-image: url("https://i.imgur.com/4iLw0nC.png");
       background-position: center;
       background-size: cover; }
-    .adventure__card--09 {
+    .adventure__card--9 {
       background-image: url("https://i.imgur.com/9hhPNLe.png");
       background-position: center;
       background-size: cover; }

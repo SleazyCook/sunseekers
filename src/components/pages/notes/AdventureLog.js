@@ -39,14 +39,18 @@ function AdventureLog() {
           </h2>
       </div>
 
+
+      <div className="adventure__nav-icon adventure__nav-icon--left">
+          <FaChevronCircleLeft className="adventure__icon" onClick={slideLeft}/>
+      </div>
+      <div className="adventure__nav-icon adventure__nav-icon--right">
+          <FaChevronCircleRight className="adventure__icon" onClick={slideRight}/>
+      </div>
+
+
       <div ref={slider} scrollLeft={100} className="adventure__main">
 
-        <div className="adventure__nav-icon adventure__nav-icon--left">
-          <FaChevronCircleLeft className="adventure__icon" onClick={slideLeft}/>
-        </div>
-        <div className="adventure__nav-icon adventure__nav-icon--right">
-            <FaChevronCircleRight className="adventure__icon" onClick={slideRight}/>
-        </div>
+
 
         {logData.map((entryObj) => {
           return (
@@ -65,55 +69,6 @@ function AdventureLog() {
           )
          } )}
 
-        <Link to="/notes/adventure-log/03" className="adventure__link">
-          <div className="adventure__card adventure__card--03">
-            <div className="adventure__card-text-box">
-              <span className="adventure__card-text-box--main">
-                Tarroka Reading</span>
-              <span className="adventure__card-text-box--sub">
-              <span className="adventure__card-text-box--sub-num">03 &nbsp;</span>
-              6/13/2022</span>
-            </div>
-          </div> 
-        </Link> {/* 03 End */}
-
-        {/* don't stop now. */}
-
-        <Link to="/notes/adventure-log/04" className="adventure__link">
-          <div className="adventure__card adventure__card--04">
-            <div className="adventure__card-text-box">
-              <span className="adventure__card-text-box--main">
-                Dream Pastries</span>
-              <span className="adventure__card-text-box--sub">
-              <span className="adventure__card-text-box--sub-num">04 &nbsp;</span>
-              6/20/2022</span>
-            </div>
-          </div> 
-        </Link> {/* 04 End */}
-
-        <Link to="/notes/adventure-log/05" className="adventure__link">
-          <div className="adventure__card adventure__card--05">
-            <div className="adventure__card-text-box">
-              <span className="adventure__card-text-box--main">
-                Welcome to Vallaki</span>
-              <span className="adventure__card-text-box--sub">
-              <span className="adventure__card-text-box--sub-num">05 &nbsp;</span>
-              6/20/2022</span>
-            </div>
-          </div> 
-        </Link> {/* 05 End */}
-
-        <Link to="/notes/adventure-log/06" className="adventure__link">
-          <div className="adventure__card adventure__card--06">
-            <div className="adventure__card-text-box">
-              <span className="adventure__card-text-box--main">
-                Festival of the Blz Sun</span>
-              <span className="adventure__card-text-box--sub">
-              <span className="adventure__card-text-box--sub-num">06 &nbsp;</span>
-              7/03/2022</span>
-            </div>
-          </div> 
-        </Link> {/* 06 End */}
 
         <Link to="/notes/adventure-log/07" className="adventure__link">
           <div className="adventure__card adventure__card--07">

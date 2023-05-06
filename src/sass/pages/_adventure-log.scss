@@ -71,15 +71,17 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
+      border: 3px solid white;
   
       &--left {
-        position: fixed;
+        position: absolute;
         top: 50%;
         left: 2%;
       }
   
       &--right {
-        position: fixed;
+        position: absolute;
         top: 50%;
         right: 2%;
       }
@@ -191,40 +193,40 @@
       background-size: cover;
     }
   
-    &--04{
+    &--4{
       background-image:  
         url("https://i.imgur.com/Z3CS9zj.png");
       background-position: left;
     }
 
-    &--05{
+    &--5{
       background-image:  
         url("https://i.imgur.com/fgPPAfM.png");
       background-position: bottom;
     }
 
-    &--06{
+    &--6{
       background-image:  
         url("https://i.imgur.com/G2pd6iZ.jpg");
       background-position: bottom;
       background-size: cover;
     }
 
-    &--07{
+    &--7{
       background-image:  
         url("https://i.imgur.com/RXoVXmW.png");
       background-position: center;
       background-size: cover;
     }
 
-    &--08{
+    &--8{
       background-image:  
         url("https://i.imgur.com/4iLw0nC.png");
       background-position: center;
       background-size: cover;
     }
 
-    &--09{
+    &--9{
       background-image:  
         url("https://i.imgur.com/9hhPNLe.png");
       background-position: center;
