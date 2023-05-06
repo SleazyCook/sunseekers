@@ -1332,6 +1332,10 @@ body {
       background-image: url("https://i.imgur.com/Bev2dep.png");
       background-position: center;
       background-size: cover; }
+    .adventure__card--20 {
+      background-image: url("https://i.imgur.com/G32pbKr.png");
+      background-position: center;
+      background-size: cover; }
 
 .home {
   height: 90vh;

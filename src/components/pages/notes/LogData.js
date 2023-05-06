@@ -178,6 +178,66 @@ let logData = [
     numDate: "10/10/2022",
     imgUrl: "",
     entry: ""
+  },
+  {
+    number: 16,
+    title: "Heart of Sorrow",
+    players: ["Elizana", "Umnos"],
+    npcs: ["Freebird", "Ireena"],
+    quests: ["Tarroka Reading: The Transmuter"],
+    gameDate: "9th Day of Alturiak",
+    realDate: "October 25th, 2022",
+    numDate: "10/25/2022",
+    imgUrl: "",
+    entry: ""
+  },
+  {
+    number: 17,
+    title: "Ez and the Tome",
+    players: ["Elizana", "Umnos", "Safzira", "Zoro"],
+    npcs: ["Freebird", "Ezmerelda d'Avenir", "Kasimir", "Viktor the Mage", "Ser Erich"],
+    quests: ["The Last Hunting Trip"],
+    gameDate: "10th Day of Alturiak",
+    realDate: "November 7th, 2022",
+    numDate: "11/7/2022",
+    imgUrl: "",
+    entry: ""
+  },
+  {
+    number: 18,
+    title: "Cold Deep South",
+    players: ["Safzira", "Zoro"],
+    npcs: ["Kasimir", "Viktor the Mage", "Ser Erich"],
+    quests: ["The Last Hunting Trip"],
+    gameDate: "8th Day of Alturiak",
+    realDate: "November 18th, 2022",
+    numDate: "11/18/22",
+    imgUrl: "",
+    entry: ""
+  },
+  {
+    number: 19,
+    title: "The Brazier Room",
+    players: ["Elizana", "Umnos"],
+    npcs: ["Freebird"],
+    quests: ["None"],
+    gameDate: "10th Day of Alturiak",
+    realDate: "March 25th, 2023",
+    numDate: "3/25/2023",
+    imgUrl: "",
+    entry: ""
+  },
+  {
+    number: 20,
+    title: "Gate of Tsolenka",
+    players: ["Safzira"],
+    npcs: ["Kasimir", "Viktor the Mage", "Ser Erich"],
+    quests: ["None"],
+    gameDate: "10th Day of Alturiak",
+    realDate: "April 23rd, 2023",
+    numDate: "4/23/23",
+    imgUrl: "",
+    entry: ""
   }
 ]
 
