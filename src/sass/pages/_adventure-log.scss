@@ -33,6 +33,18 @@
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none;
 
+  &__text-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__text-actual {
+    max-width: 800px;
+    text-align: center;
+    font-family: $font-typewriter;
+    font-size: 1.5rem;
+  }
+
   &__link {
     text-decoration: none;
     color: white;

@@ -1157,6 +1157,14 @@ body {
   @media (min-width: 37.5em) {
     .adventure {
       height: 100vh; } }
+  .adventure__text-box {
+    display: flex;
+    justify-content: center; }
+  .adventure__text-actual {
+    max-width: 800px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.5rem; }
   .adventure__link {
     text-decoration: none;
     color: white; }
