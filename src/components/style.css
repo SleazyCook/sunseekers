@@ -53,18 +53,7 @@ body {
   background-color: black;
   color: #fff;
   box-sizing: border-box;
-  padding: 0rem;
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Safari */
-  -khtml-user-select: none;
-  /* Konqueror HTML */
-  -moz-user-select: none;
-  /* Old versions of Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none; }
+  padding: 0rem; }
   @media (min-width: 56.25em) {
     body {
       padding: 3rem; } }
