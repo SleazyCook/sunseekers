@@ -153,6 +153,10 @@ body {
   width: 100%;
   padding: 10rem; }
 
+.hyperlink {
+  color: red;
+  text-decoration: none; }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -1135,6 +1139,71 @@ body {
     text-align: center;
     min-width: 300px; }
 
+.title {
+  height: 50vh;
+  background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/OGws4K3.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 3px;
+  overflow: hidden;
+  clip-path: polygon(100% 0, 100% 70%, 70% 70%, 60% 100%, 60% 75%, 40% 75%, 40% 100%, 30% 70%, 0 70%, 0 0);
+  animation: scaleDown 1.5s ease-out; }
+  .title__textbox {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    min-width: 300px; }
+    .title__textbox h1 {
+      animation: fadeIn 1s ease-out;
+      animation-fill-mode: backwards;
+      animation-delay: .5s; }
+    .title__textbox a {
+      animation: fadeIn .5s ease-out;
+      animation-fill-mode: backwards;
+      animation-delay: 1s; }
+
+.description__flex-container {
+  display: flex;
+  flex-direction: row;
+  padding: 5px; }
+
+.description__flex-title {
+  position: absolute;
+  top: 90%;
+  left: 35%;
+  transform: translate(-50%, -50%); }
+
+.description__text-box {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-grow: 2; }
+
+.description__text-actual {
+  max-width: 800px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem; }
+
+.description__game {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  flex-grow: 1; }
+  .description__game-link {
+    max-width: 500px; }
+  .description__game-img {
+    width: 100%;
+    text-decoration: none;
+    max-width: 500px;
+    border-radius: 5px; }
+
 .adventure {
   display: flex;
   align-items: center;
@@ -1157,14 +1226,6 @@ body {
   @media (min-width: 37.5em) {
     .adventure {
       height: 100vh; } }
-  .adventure__text-box {
-    display: flex;
-    justify-content: center; }
-  .adventure__text-actual {
-    max-width: 800px;
-    text-align: center;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 1.5rem; }
   .adventure__link {
     text-decoration: none;
     color: white; }
@@ -1363,31 +1424,6 @@ body {
       background-image: url("https://i.imgur.com/G32pbKr.png");
       background-position: center;
       background-size: cover; }
-
-.home {
-  height: 90vh;
-  background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/OGws4K3.png");
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  border-radius: 3px;
-  overflow: hidden;
-  animation: scaleDown 1.5s ease-out; }
-  .home__textbox {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    min-width: 300px; }
-    .home__textbox h1 {
-      animation: fadeIn 1s ease-out;
-      animation-fill-mode: backwards;
-      animation-delay: .5s; }
-    .home__textbox a {
-      animation: fadeIn .5s ease-out;
-      animation-fill-mode: backwards;
-      animation-delay: 1s; }
 
 .log-entry__link {
   text-decoration: none; }

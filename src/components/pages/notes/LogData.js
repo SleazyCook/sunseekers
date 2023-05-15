@@ -1,15 +1,31 @@
+import { Link } from 'react-router-dom'
+
 let logData = [
   {
     number: 1,
     title: "Death House",
-    players: ["Elizana", "German", "Safzira"],
-    npcs: ["Freebid", "Lancelot", "Viktor Lazlo"],
+    players: <> <Link className="hyperlink" to="../characters/sunseekers">Elizana</Link>,&nbsp;
+        <Link className="hyperlink" to="../characters/sunseekers">German</Link>,&nbsp;
+        <Link className="hyperlink" to="../characters/sunseekers">Safzira</Link>
+      </>,
+    npcs: <> <Link className="hyperlink" to="../characters/sunseekers">Freebird</Link>,&nbsp;
+        <Link className="hyperlink" to="../characters/sunseekers">Freebird</Link>,&nbsp;
+        <Link className="hyperlink" to="../characters/vistani">Viktor Lazlo</Link>
+      </>,
     quests: ["Death House"],
     gameDate: "8th Night of Hammer through 9th Morning of Hammer",
     realDate: "May 27th, 2022",
     numDate: "5/27/2022",
+    test: <Link className="hyperlink" to="/">Hello</Link>,
     imgUrl: "https://i.imgur.com/4TAGQ2R.jpg",
-    entry: ["A few days after joining Viktor Lazlo's traveling show, the characters slowly start to get to know one another. The Sunset wagon comes to a stop as the Sunseekers pile out to see two small children, Rose and Thorn, crying for help. The Sunseekers agree to help find their brother inside.  \\n The house is not what it appears.  A lonely dog is looking for his owener, Gertruda. They learn of the Durst family, once the charitable owners of the local Windmill, turned to cultists after the mysterious Strahd arrived in their homeland. Gustav Durst had an affair with the nursemaid Margaret, birthing baby Walter. Gustav eventually committed suicide in his bedroom leaving Margaret to be murdered by Elizabeth and her baby to sacrificed in a bogus cultish ritual.", "During this time, the children Rose and Thorn were locked in their room left to starve to death as Strahd turned to cultists to undead monsters.", "While exploring the basement catacombs, the Sunseekers were able to give Rose, Thorn, and Margaret a proper burial by placing their bones in their long-empty coffins. On their way to the deepest depths of the catacombs, the Sunseekers discover a statue of a pale, cloaked figure holding a very real, very magical crystal ball. The owner of the Sunset wagon, Viktor Lazlo, seems to recognize the face of the statue and claims to have accidently activated the crystal ball  - creating the feeling that they are being watched intensely, almost perversely. They cover the crystal ball and go on.  Ghostly chants within the ritual chamber demand a sacrifice so Viktor Lazlo promptly picks up the dog Lancelot and proceeds to take him to the alter & pick up the rusty, bloody ritual knife with his other hand. He seems adamant that this is the only way out of the house alive. The barbarian German beheads Lazlo, saving the dog's life.  This action upsets the spirits within the chamber as they summon a large Flesh Mound with the remains of baby Walter serving as its beating heart. The party killed the best to save the child's remains.", "Once outside, baby Walter's remains were buried in the stable next door bringing an end the curse. As the party set to return to the Sunset Wagon, they were greeted by a massive basket of fresh fruit, bread, cheese, and wine.  In it a card reads 'Welcome to Barovia, signed Count Strahd von Zarovich' The basket is delicious but they can feel Strahd's gaze upon them."]
+    entry: <p>A few days after joining Viktor Lazlo's traveling show, the characters slowly start to get to know one another. The Sunset wagon comes to a stop as the Sunseekers pile out to see two small children, <Link className="hyperlink" to="../characters/village-of-barovia">Rose and Thorn</Link>, crying for help. The Sunseekers agree to help find their brother <Link className="hyperlink" to="../characters/village-of-barovia">Walter</Link> inside.<br /><br />
+    
+
+    The house is not what it appears.  A lonely dog <Link className="hyperlink" to="../characters/sunseekers">Lancelot</Link> is looking for his owner, <Link className="hyperlink" to="../characters/village-of-barovia">Gertruda</Link>. They learn of the Durst family, once the charitable owners of the local Windmill, turned to cultists after the mysterious <Link className="hyperlink" to="../characters/castle-ravenloft">Strahd</Link> arrived in their homeland. <Link className="hyperlink" to="../characters/village-of-barovia">Gustav Durst</Link> cheated on his wife <Link className="hyperlink" to="../characters/village-of-barovia">Elizabeth</Link> through an affair with the nursemaid <Link className="hyperlink" to="../characters/village-of-barovia">Margaret</Link>, birthing baby Walter. Gustav eventually committed suicide in his bedroom leaving Margaret to be murdered by Elizabeth and her baby to sacrificed in a bogus cultish ritual. During this time, the children Rose and Thorn were locked in their room left to starve to death as Strahd turned to cultists to undead monsters. <br /><br />
+    
+    While exploring the basement catacombs, the Sunseekers were able to give Rose, Thorn, and Margaret a proper burial by placing their bones in their long-empty coffins. On their way to the deepest depths of the catacombs, the Sunseekers discover a statue of a pale, cloaked figure holding a very real, very magical crystal ball. The owner of the Sunset wagon, Viktor Lazlo, seems to recognize the face of the statue and claims to have accidently activated the crystal ball  - creating the feeling that they are being watched intensely, almost perversely. They cover the crystal ball and go on.  Ghostly chants within the ritual chamber demand a sacrifice so Viktor Lazlo promptly picks up the dog Lancelot and proceeds to take him to the alter & pick up the rusty, bloody ritual knife with his other hand. He seems adamant that this is the only way out of the house alive. The barbarian German beheads Lazlo, saving the dog's life.  This action upsets the spirits within the chamber as they summon a large Flesh Mound with the remains of baby Walter serving as its beating heart. The party killed the best to save the child's remains. <br /><br />
+    
+    Once outside, baby Walter's remains were buried in the stable next door bringing an end the curse. As the party set to return to the Sunset Wagon, they were greeted by a massive basket of fresh fruit, bread, cheese, and wine.  In it a card reads 'Welcome to Barovia, signed Count Strahd von Zarovich' The basket is delicious but they can feel Strahd's gaze upon them.</p>
   },
   {
     number: 2,

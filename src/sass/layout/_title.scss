@@ -1,5 +1,5 @@
-.home {
-  height: 90vh;
+.title {
+  height: 50vh;
   background-image: linear-gradient(
     to right bottom,
     rgba($color-primary-light, .8),
@@ -10,12 +10,13 @@
   position: relative;
   border-radius: 3px;
   overflow: hidden;
+  clip-path: polygon(100% 0, 100% 70%, 70% 70%, 60% 100%, 60% 75%, 40% 75%, 40% 100%, 30% 70%, 0 70%, 0 0);
   
   animation: scaleDown 1.5s ease-out;
 
   &__textbox {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;

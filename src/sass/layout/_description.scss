@@ -1,0 +1,59 @@
+.description {
+
+  &__flex-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+  }
+
+  &__flex-title {
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+
+    // TO-DO: Media Queries needed for absolute position
+  }
+
+  &__text-box {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-grow: 2;
+  }
+
+  &__text-actual {
+    max-width: 800px;
+    text-align: center;
+    font-family: $font-typewriter;
+    font-size: 1.5rem;
+  }
+
+  &__game {
+    color: $color-white;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    flex-grow: 1;
+
+    &-link {
+      max-width: 500px;
+    }
+
+    &-img {
+      // height: 200px;
+      width: 100%;
+      text-decoration: none;
+      max-width: 500px;
+      border-radius: 5px;
+    }
+  }
+
+
+}

@@ -21,9 +21,11 @@
 @import "layout/footer";
 @import "layout/navigation";
 @import "layout/header";
+@import "layout/title";
+@import "layout/description";
 
 @import "pages/adventure-log";
-@import "pages/home";
+// @import "pages/home";
 @import "pages/log-entry";
 @import "pages/market";
 @import "pages/strahd-notes";

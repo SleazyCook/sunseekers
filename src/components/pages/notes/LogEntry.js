@@ -42,24 +42,24 @@ function LogEntry() {
           <h5 className="log-entry__date">
             <span>
               {entryObj.gameDate}</span><br />
-            <span><i>
+            <span>Played <i>
               {entryObj.realDate}</i></span>
           </h5>
 
           <p className="log-entry__details">
             <b>Player Characters:</b> 
-            {entryObj.players?.join(', ')}
+            {entryObj.players}
             <br />
 
             <b>Non-Player Characters:</b> 
-            {entryObj.npcs?.join(', ')}
+            {entryObj.npcs}
             <br />
 
             <b>Quests: </b> 
             {entryObj.quests?.join(', ')}
           </p>
 
-          <p className="log-entry__text">
+          <p className="log-entry__text" style={{whiteSpace:'break-spaces'}}>
             {entryObj.entry}
 
           </p>

@@ -27,7 +27,7 @@ function AdventureLog() {
   return (
     <div>
 
-      <Header />
+      {/* <Header />
       <Navigation />
       
       <div className="u-center-text u-margin-bottom-big">
@@ -37,15 +37,8 @@ function AdventureLog() {
           <span className="heading-secondary--sub">
             Adventure Log</span>
           </h2>
-      </div>
+      </div> */}
 
-      <div className="adventure__text-box">
-        <p className="adventure__text-actual">
-          Curse of Strahd: Plight of the Sunseekers is a virtual tabletop based on a popular 5E Dungeons and Dragons campagin. Many adventurers have stumbled into the dread domain of Barovia only to meet their fate at the hands of the vampie lord Count Strahd Von Zarovich or some other twisted horror. Those who remain continue to seek out the sun and make it back home alive. 
-          <br /><br />
-          The adventures of the Sunseekers so far are detailed in the chapters below.
-        </p>
-      </div>
 
 
 

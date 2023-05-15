@@ -5,7 +5,7 @@ import Navigation from '../../Navigation'
 import Footer from '../../Footer'
 
 
-import baronData from './CharacterData'
+import {baronData} from './CharacterData'
 
 import { IoIosHeart } from 'react-icons/io'
 import { IoIosHeartDislike } from 'react-icons/io'
@@ -32,7 +32,7 @@ function Baron() {
 
         {baronData.map((baronObj) => { 
           return (
-          <div className="flexbox__item--npc"> 
+          <div className="flexbox__item--npc" key={baronObj.id}> 
             <div className="npc-card">
               <div className="npc-card__heading">{baronObj.name}</div>
               <div className={`npc-card__img npc-card__img--${baronObj.imgCode}`}>&nbsp;</div>
