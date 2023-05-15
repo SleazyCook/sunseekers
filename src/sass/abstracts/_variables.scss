@@ -12,12 +12,15 @@ $color-secondary-dark: darken($color-secondary-light, 15%);
 $color-white: white;
 $color-black: black;
 
-$color-grey-light-2: grey;
-$color-grey-light-1: lighten($color-grey-light-2, 15%);
+// darker to lighter
+$color-grey-light-1: grey;
+$color-grey-light-2: lighten($color-grey-light-1, 15%);
+$color-grey-light-3: lighten($color-grey-light-2, 25%);
 
-
+// lighter to darker
 $color-grey-dark-1: lighten($color-black, 10);
-$color-grey-dark-2: lighten($color-black, 2);
+$color-grey-dark-2: lighten($color-black, 5);
+$color-grey-dark-3: lighten($color-black, 2);
 // $color-grey-dark-2: 
 // $color-grey-dark-3: 
 
@@ -36,7 +39,8 @@ $color-red: rgb(119, 31, 9);
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 $default-font-size: 1.6rem;
 
@@ -49,6 +53,9 @@ $font-author: 'Berkshire Swash', cursive;
 $font-header-2: 'Bebas Neue', cursive;
 $font-typewriter: 'Courier New', Courier, monospace;
 $font-tarroka: 'Patrick Hand SC', cursive;
+
+$font-display: 'Staatliches', sans-serif;
+$font-clean: 'Lato', sans-serif;
 
 // Handwriting Fonts
 $font-strahd: 'Pinyon Script', cursive;

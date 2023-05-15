@@ -18,27 +18,6 @@ import VallakiLaws from './components/pages/notes/VallakiLaws'
 
 import LogEntry from './components/pages/notes/LogEntry'
 
-import J01 from './components/pages/notes/log-entries/J01'
-import J02 from './components/pages/notes/log-entries/J02'
-import J03 from './components/pages/notes/log-entries/J03'
-import J04 from './components/pages/notes/log-entries/J04'
-import J05 from './components/pages/notes/log-entries/J05'
-import J06 from './components/pages/notes/log-entries/J06'
-import J07 from './components/pages/notes/log-entries/J07'
-import J08 from './components/pages/notes/log-entries/J08'
-import J09 from './components/pages/notes/log-entries/J09'
-import J10 from './components/pages/notes/log-entries/J10'
-import J11 from './components/pages/notes/log-entries/J11'
-import J12 from './components/pages/notes/log-entries/J12'
-import J13 from './components/pages/notes/log-entries/J13'
-import J14 from './components/pages/notes/log-entries/J14'
-import J15 from './components/pages/notes/log-entries/J15'
-import J16 from './components/pages/notes/log-entries/J16'
-import J17 from './components/pages/notes/log-entries/J17'
-import J18 from './components/pages/notes/log-entries/J18'
-import J19 from './components/pages/notes/log-entries/J19'
-
-
 import Market from './components/pages/market/Market'
 
 import Locations from './components/pages/locations/Locations'
@@ -84,82 +63,6 @@ export const router = createBrowserRouter([
       {
         path: "notes/adventure-log/:entryNumber",
         element: <LogEntry />
-      },
-      // {
-      //   path: "notes/adventure-log/01",
-      //   element: <J01 />
-      // },
-      // {
-      //   path: "notes/adventure-log/02",
-      //   element: <J02 />
-      // },
-      {
-        path: "notes/adventure-log/03",
-        element: <J03 />
-      },
-      {
-        path: "notes/adventure-log/04",
-        element: <J04 />
-      },
-      {
-        path: "notes/adventure-log/05",
-        element: <J05 />
-      },
-      {
-        path: "notes/adventure-log/06",
-        element: <J06 />
-      },
-      {
-        path: "notes/adventure-log/07",
-        element: <J07 />
-      },
-      {
-        path: "notes/adventure-log/08",
-        element: <J08 />
-      },
-      {
-        path: "notes/adventure-log/09",
-        element: <J09 />
-      },
-      {
-        path: "notes/adventure-log/10",
-        element: <J10 />
-      },
-      {
-        path: "notes/adventure-log/11",
-        element: <J11 />
-      },
-      {
-        path: "notes/adventure-log/12",
-        element: <J12 />
-      },
-      {
-        path: "notes/adventure-log/13",
-        element: <J13 />
-      },
-      {
-        path: "notes/adventure-log/14",
-        element: <J14 />
-      },
-      {
-        path: "notes/adventure-log/15",
-        element: <J15 />
-      },
-      {
-        path: "notes/adventure-log/16",
-        element: <J16 />
-      },
-      {
-        path: "notes/adventure-log/17",
-        element: <J17 />
-      },
-      {
-        path: "notes/adventure-log/18",
-        element: <J18 />
-      },
-      {
-        path: "notes/adventure-log/19",
-        element: <J19 />
       },
       {
         path: "notes/tarroka-reading",

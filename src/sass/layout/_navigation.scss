@@ -2,6 +2,8 @@
   position: relative;
   font-family: $font-nav;
   color: $color-primary;
+  border-top: 3px solid $color-primary;
+  border-bottom: 3px solid $color-primary;
   
   &--top {
   //   height: 7.5vh;

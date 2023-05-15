@@ -7,6 +7,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @keyframes scaleDown {
   0% {
     transform: scale(1.2); }
@@ -50,7 +52,7 @@ html {
       font-size: 75%; } }
 
 body {
-  background-color: black;
+  background-color: #0d0d0d;
   color: #fff;
   box-sizing: border-box;
   padding: 0rem; }
@@ -93,9 +95,9 @@ body {
     text-decoration: overline; }
 
 .heading-tertiary {
-  font-family: "Yatra One", cursive;
-  color: #771f09;
-  font-size: 2.5rem;
+  font-family: "Staatliches", sans-serif;
+  color: grey;
+  font-size: 3.5rem;
   margin: 3rem;
   text-align: center; }
   .heading-tertiary--sub {
@@ -106,7 +108,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: 2rem;
   text-align: center;
-  color: #a6a6a6;
+  color: grey;
   margin: 3rem; }
 
 .tarroka-script {
@@ -125,12 +127,12 @@ body {
 .safzira-script {
   font-family: "Satisfy", cursive;
   font-size: 2rem;
-  color: #a6a6a6; }
+  color: grey; }
 
 .ireena-script {
   font-family: "Dancing Script", cursive;
   font-size: 2rem;
-  color: #a6a6a6; }
+  color: grey; }
 
 .tarroka-script {
   font-family: "Patrick Hand SC", cursive;
@@ -145,6 +147,13 @@ body {
 .hyperlink {
   color: red;
   text-decoration: none; }
+
+.headline {
+  font-family: "Staatliches", sans-serif;
+  color: #e6e6e6;
+  font-size: 2.5rem;
+  margin: 0 1rem;
+  text-align: center; }
 
 .u-center-text {
   text-align: center !important; }
@@ -381,27 +390,27 @@ body {
     background-position: center;
     background-blend-mode: difference; }
   .cat-card--keepers {
-    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/VsqE8Ic.png");
+    background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/VsqE8Ic.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: darken; }
   .cat-card--dragon {
-    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/79TW4Fp.png");
+    background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/79TW4Fp.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply; }
   .cat-card--church {
-    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/rsS64Ka.png");
+    background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/rsS64Ka.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply; }
   .cat-card--baron {
-    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/ES2lAjH.png");
+    background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/ES2lAjH.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply; }
   .cat-card--wachterhaus {
-    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/qLO3OuR.png");
+    background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/qLO3OuR.png");
     background-size: cover;
     background-position: top;
     background-blend-mode: multiply; }
@@ -426,12 +435,12 @@ body {
     background-position: center;
     background-blend-mode: difference; }
   .cat-card--adventure-log {
-    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/tFQlEqi.png");
+    background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/tFQlEqi.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
   .cat-card--tarroka-reading {
-    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/4TAGQ2R.jpg");
+    background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/4TAGQ2R.jpg");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply; }
@@ -451,7 +460,7 @@ body {
     background-position: top;
     background-blend-mode: lighten; }
   .cat-card--ireena-diary {
-    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/5iWx4Sl.png");
+    background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/5iWx4Sl.png");
     background-size: cover;
     background-position: top;
     background-blend-mode: darken; }
@@ -521,7 +530,7 @@ body {
     background-position: left;
     background-blend-mode: lighten; }
   .cat-card--village-of-krezk {
-    background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/KZksRvW.png");
+    background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/KZksRvW.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply; }
@@ -599,7 +608,7 @@ body {
     font-family: "Courier New", Courier, monospace; }
   .notes-box__paragraph-box {
     font-size: 2.2rem;
-    color: #a6a6a6;
+    color: grey;
     padding: 3rem; }
 
 .npc-card {
@@ -1046,10 +1055,10 @@ body {
       width: 40rem; }
 
 .footer {
-  background-image: radial-gradient(circle, #1a1a1a, #050505);
+  background-image: radial-gradient(circle, #1a1a1a, #0d0d0d);
   padding: 3rem 0;
   margin-top: 4rem;
-  color: #a6a6a6;
+  color: grey;
   border-radius: 3px;
   -webkit-touch-callout: none;
   /* iOS Safari */
@@ -1071,7 +1080,7 @@ body {
     .footer__logo-box--author {
       font-family: "Berkshire Swash", cursive; }
   .footer__navigation {
-    border-top: 1px solid #a6a6a6;
+    border-top: 1px solid grey;
     padding-top: 1rem;
     display: block;
     width: 100%; }
@@ -1081,7 +1090,7 @@ body {
     display: block; }
   .footer__link:link, .footer__link:visited {
     font-family: "Yatra One", cursive;
-    color: #a6a6a6;
+    color: grey;
     text-decoration: none;
     display: inline-block;
     text-transform: uppercase;
@@ -1091,14 +1100,16 @@ body {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
     transform: scale(1.1); }
   .footer__copyright {
-    border-top: 1px solid #a6a6a6;
+    border-top: 1px solid grey;
     padding-top: 1rem;
     text-align: justify; }
 
 .navigation {
   position: relative;
   font-family: "Yatra One", cursive;
-  color: #771f09; }
+  color: #771f09;
+  border-top: 3px solid #771f09;
+  border-bottom: 3px solid #771f09; }
   .navigation--top {
     font-size: 2.5rem;
     text-align: center;
@@ -1156,8 +1167,11 @@ body {
 
 .description__flex-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 5px; }
+  @media (min-width: 75em) {
+    .description__flex-container {
+      flex-direction: row; } }
 
 .description__text-box {
   display: flex;
@@ -1169,20 +1183,25 @@ body {
 .description__text-actual {
   max-width: 800px;
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.5rem; }
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  padding: 3rem;
+  background-color: #a6a6a6;
+  border-radius: 5px;
+  transition: all .5s; }
 
 .description__game {
-  color: white;
-  text-decoration: none;
-  padding: 5px;
+  padding: 2rem 0;
   text-align: center;
   position: relative;
-  flex-grow: 1; }
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   .description__game-link {
     max-width: 500px; }
     .description__game-link:hover .description__game-img {
-      transform: scale(1.05); }
+      transform: scale(1.02); }
   .description__game-img {
     width: 100%;
     text-decoration: none;
@@ -1440,7 +1459,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: 2rem;
   text-align: center;
-  color: #a6a6a6; }
+  color: grey; }
 
 .vallaki-laws {
   font-family: "Yatra One", cursive;

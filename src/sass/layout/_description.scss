@@ -2,8 +2,12 @@
 
   &__flex-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 5px;
+
+    @include respond(desktop) {
+      flex-direction: row;
+    }
   }
 
   &__text-box {
@@ -17,23 +21,33 @@
   &__text-actual {
     max-width: 800px;
     text-align: center;
-    font-family: $font-typewriter;
+    font-family: $font-clean;
     font-size: 1.5rem;
+    padding: 3rem;
+    background-color: $color-grey-light-2;
+    border-radius: 5px;
+    transition: all .5s;
+
+    // &:hover {
+    //   transform: scale(1.01);
+    // }
   }
 
   &__game {
-    color: $color-white;
-    text-decoration: none;
-    padding: 5px;
+    padding: 2rem 0;
     text-align: center;
     position: relative;
     flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &-link {
       max-width: 500px;
 
       &:hover .description__game-img{
-        transform: scale(1.05);
+        transform: scale(1.02);
       }
     }
 

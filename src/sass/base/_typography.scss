@@ -60,9 +60,9 @@ body {
 }
 
 .heading-tertiary {
-  font-family: $font-nav;
-  color: $color-primary;
-  font-size: 2.5rem;
+  font-family: $font-display;
+  color: $color-grey-light-1;
+  font-size: 3.5rem;
   margin:  3rem;
   text-align: center;
 
@@ -128,7 +128,19 @@ body {
   padding: 10rem;
 }
 
+// refactor
+
+
+
 .hyperlink {
   color: red;
   text-decoration: none;
+}
+
+.headline {
+  font-family: $font-display;
+  color: $color-grey-light-3;
+  font-size: 2.5rem;
+  margin:  0 1rem;
+  text-align: center;
 }

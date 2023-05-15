@@ -30,7 +30,10 @@ let logData = [
   {
     number: 2,
     title: "Village of Barovia",
-    players: ["Elizana", "German", "Safzira"],
+    players: <> <Link className="hyperlink" to="../characters/sunseekers">Elizana</Link>,&nbsp;
+    <Link className="hyperlink" to="../characters/sunseekers">German</Link>,&nbsp;
+    <Link className="hyperlink" to="../characters/sunseekers">Safzira</Link>
+  </>,
     npcs: ["Freebid", "Lancelot", "Viktor Lazlo"],
     quests: ["Village Plague", "Missing Villagers", "Burgomaster's Funeral", "Protect Ireena", "Replacement Priest", "Find Gertruda"],
     gameDate: "11th Night of Hammer through 12th Morning of Hammer",
@@ -43,7 +46,10 @@ let logData = [
   {
     number: 3,
     title: "Tarroka Reading",
-    players: ["Elizana", "German", "Safzira"],
+    players: <> <Link className="hyperlink" to="../characters/sunseekers">Elizana</Link>,&nbsp;
+    <Link className="hyperlink" to="../characters/sunseekers">German</Link>,&nbsp;
+    <Link className="hyperlink" to="../characters/sunseekers">Safzira</Link>
+  </>,
     npcs: ["Freebird", "Ireena", "Lancelot"],
     quests: ["Madame Eva's Tarroka Reading"],
     gameDate: "14th Afternoon of Hammer",
@@ -55,7 +61,10 @@ let logData = [
   {
     number: 4,
     title: "Dream Pastries",
-    players: ["Elizana", "German", "Safzira"],
+    players: <> <Link className="hyperlink" to="../characters/sunseekers">Elizana</Link>,&nbsp;
+    <Link className="hyperlink" to="../characters/sunseekers">German</Link>,&nbsp;
+    <Link className="hyperlink" to="../characters/sunseekers">Safzira</Link>
+  </>,
     npcs: ["Freebird", "Ireena", "Lancelot"],
     quests: ["Dream Pastries", "Children of Vallaki", "'All Will Be Well'"],
     gameDate: "18th Morning of Hammer through 19th Evening of Hammer",
@@ -67,7 +76,10 @@ let logData = [
   {
     number: 5,
     title: "Welcome to Vallaki",
-    players: ["Elizana", "German", "Safzira"],
+    players: <> <Link className="hyperlink" to="../characters/sunseekers">Elizana</Link>,&nbsp;
+    <Link className="hyperlink" to="../characters/sunseekers">German</Link>,&nbsp;
+    <Link className="hyperlink" to="../characters/sunseekers">Safzira</Link>
+  </>,
     npcs: ["Freebird"],
     quests: ["'All Will Be Well!", "Tarroka Reading: The Artificat"],
     gameDate: "20th Day of Hammer",
@@ -79,7 +91,10 @@ let logData = [
   {
     number: 6,
     title: "Festival of the Blz Sun",
-    players: ["Elizana", "German", "Safzira"],
+    players: <> <Link className="hyperlink" to="../characters/sunseekers">Elizana</Link>,&nbsp;
+    <Link className="hyperlink" to="../characters/sunseekers">German</Link>,&nbsp;
+    <Link className="hyperlink" to="../characters/sunseekers">Safzira</Link>
+  </>,
     npcs: ["Freebird"],
     quests: ["'All Will Be Well!'", "Tarroka Reading: The Artifact", "Festival of the Blazing Sun", "Children of Vallaki"],
     gameDate: "21st Day of Hammer through 23rd Day of Hammer",
@@ -91,7 +106,10 @@ let logData = [
   {
     number: 7,
     title: "Showdown at the Mill",
-    players: ["Elizana", "German", "Safzira"],
+    players: <> <Link className="hyperlink" to="../characters/sunseekers">Elizana</Link>,&nbsp;
+    <Link className="hyperlink" to="../characters/sunseekers">German</Link>,&nbsp;
+    <Link className="hyperlink" to="../characters/sunseekers">Safzira</Link>
+  </>,
     npcs: ["Freebird"],
     quests: ["Children of Vallaki", "A Message for Cyrus Belview"],
     gameDate: "July 10th, 2022",
@@ -102,7 +120,10 @@ let logData = [
   {
     number: 8, 
     title: "Rats in Ravenloft",
-    players: ["Elizana", "German", "Safzira"],
+    players: <> <Link className="hyperlink" to="../characters/sunseekers">Elizana</Link>,&nbsp;
+    <Link className="hyperlink" to="../characters/sunseekers">German</Link>,&nbsp;
+    <Link className="hyperlink" to="../characters/sunseekers">Safzira</Link>
+  </>,
     npcs: ["Prisoner"],
     quests: ["A Message for Cyrus Belview"],
     gameDate: "26th Day of Hammer",
@@ -114,7 +135,11 @@ let logData = [
   {
     number: 9,
     title: "Return to Vallaki",
-    players: ["Elizana", "German", "Safzira"],
+    players: <> 
+        <Link className="hyperlink" to="../characters/sunseekers">Elizana</Link>,&nbsp;
+        <Link className="hyperlink" to="../characters/sunseekers">German</Link>,&nbsp;
+        <Link className="hyperlink" to="../characters/sunseekers">Safzira</Link>
+      </>,
     npcs: ["None"],
     quests: ["'All Will Be Well!'"],
     gameDate: "27th Day of Hammer",
@@ -126,7 +151,11 @@ let logData = [
   {
     number: 10,
     title: "Vallaki Vistani Camp",
-    players: ["Elizana", "German", "Safzira"],
+    players: <> 
+        <Link className="hyperlink" to="../characters/sunseekers">Elizana</Link>,&nbsp;
+        <Link className="hyperlink" to="../characters/sunseekers">German</Link>,&nbsp;
+        <Link className="hyperlink" to="../characters/sunseekers">Safzira</Link>
+      </>,
     npcs: ["Freebird", "Ireena", "Kasimir", "Van Richten", "Vasili"],
     quests: ["'All Will Be Well!", "Coup of Vallaki", "Rescue Arabelle", "Bones of St. Andral"],
     gameDate: "28th and 29th Day of Hammer",
@@ -138,7 +167,11 @@ let logData = [
   {
     number: 11,
     title: "Bones of St. Andral",
-    players: ["Elizana", "German", "Safzira"],
+    players: <> 
+        <Link className="hyperlink" to="../characters/sunseekers">Elizana</Link>,&nbsp;
+        <Link className="hyperlink" to="../characters/sunseekers">German</Link>,&nbsp;
+        <Link className="hyperlink" to="../characters/sunseekers">Safzira</Link>
+      </>,
     npcs: ["Ireena", "Kasimir", "Rictavio", "Vasili"],
     quests: ["'All Will Be Well!'", "Bones of St. Andral", "Strange Lights", "Mad Mage in the Mountains"],
     gameDate: "30th Day of Hammer",
@@ -150,7 +183,11 @@ let logData = [
   {
     number: 12,
     title: "Feast of St.Andral",
-    players: ["Elizana", "German", "Safzira"],
+    players: <> 
+        <Link className="hyperlink" to="../characters/sunseekers">Elizana</Link>,&nbsp;
+        <Link className="hyperlink" to="../characters/sunseekers">German</Link>,&nbsp;
+        <Link className="hyperlink" to="../characters/sunseekers">Safzira</Link>
+      </>,
     npcs: ["Freebird", "Ireena", "Vasili"],
     quests: ["Mad Mage in the Mountains", "Bones of St. Anfral"],
     gameDate: "2nd Day of Alturiak",
@@ -162,7 +199,12 @@ let logData = [
   {
     number: 13,
     title: "After the Feast",
-    players: ["Elizana", "German", "Safzira", "Umnos"],
+    players: <> 
+        <Link className="hyperlink" to="../characters/sunseekers">Elizana</Link>,&nbsp;
+        <Link className="hyperlink" to="../characters/sunseekers">German</Link>,&nbsp;
+        <Link className="hyperlink" to="../characters/sunseekers">Safzira</Link>,&nbsp;
+        <Link className="hyperlink" to="../characters/sunseekers">Umnos</Link>
+      </>,
     npcs: ["Freebird", "Ireena", "Lancelot"],
     quests: ["Protect Ireena"],
     gameDate: "4th Day of Alturiak",
@@ -174,7 +216,12 @@ let logData = [
   {
     number: 14,
     title: "Umnos in Ravenloft",
-    players: ["Elizana", "Umnos", "Safzira", "Zoro"],
+    players: <> 
+      <Link className="hyperlink" to="../characters/sunseekers">Elizana</Link>,&nbsp;
+      <Link className="hyperlink" to="../characters/sunseekers">Safzira</Link>,&nbsp;
+      <Link className="hyperlink" to="../characters/sunseekers">Umnos</Link>,&nbsp;
+      <Link className="hyperlink" to="../characters/sunseekers">Zoro</Link>
+      </>,
     npcs: ["Freebird", "Ireena", "Kasimir", "Viktor the Mage"],
     quests: ["Protect Ireena"],
     gameDate: "7th Day of Alturiak",
