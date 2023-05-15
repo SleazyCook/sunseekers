@@ -17,9 +17,8 @@ function Description() {
         </div>
 
         <div className="description__game">
-          <span className="description__flex-title">Play Curse of Strahd: Durst Manor</span>
           <a href="https://death-house.netlify.app" target="_blank" className="description__game-link">
-            <img className="description__game-img" src="https://i.imgur.com/WdGbV1C.png" />
+            <img className="description__game-img" src="https://i.imgur.com/j8zRB5s.png" />
           </a>
         </div>
 
