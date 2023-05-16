@@ -1449,7 +1449,8 @@ body {
 
 .log-entry__text {
   max-width: 100rem;
-  align-self: center; }
+  align-self: center;
+  padding: 1rem; }
 
 .market {
   display: flex;
