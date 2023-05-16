@@ -1436,7 +1436,8 @@ body {
 .log-entry__main {
   width: 100%;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding: 1.5rem; }
 
 .log-entry__title, .log-entry__date, .log-entry__details {
   max-width: 60rem;
@@ -1449,8 +1450,7 @@ body {
 
 .log-entry__text {
   max-width: 100rem;
-  align-self: center;
-  padding: 1rem; }
+  align-self: center; }
 
 .market {
   display: flex;
