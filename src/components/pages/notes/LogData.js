@@ -82,7 +82,8 @@ let logData = [
   {
     number: 4,
     title: "Dream Pastries",
-    players: <> 
+    players: 
+      <> 
         <Link className="hyperlink" to="../characters/sunseekers"> Elizana</Link>,
         <Link className="hyperlink" to="../characters/sunseekers"> German</Link>,
         <Link className="hyperlink" to="../characters/sunseekers"> Safzira</Link>
