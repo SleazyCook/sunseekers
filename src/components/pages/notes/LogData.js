@@ -4,39 +4,31 @@ let logData = [
   {
     number: 1,
     title: "Death House",
-    players: <> 
-        <Link className="hyperlink" to="../characters/sunseekers"> Elizana</Link>,
-        <Link className="hyperlink" to="../characters/sunseekers"> German</Link>,
-        <Link className="hyperlink" to="../characters/sunseekers"> Safzira</Link>
-      </>,
-    npcs: <> 
-        <Link className="hyperlink" to="../characters/sunseekers"> Freebird</Link>,
-        <Link className="hyperlink" to="../characters/vistani"> Viktor Lazlo</Link>,
-        <Link className="hyperlink" to="../characters/sunseekers"> Lancelot</Link>
-      </>,
+    // players: "Elizana , German , Safzira",
+    players: ["Elizana", "German", "Safzira"],
+    npcs: ["Freebird", "Viktor Lazlo", "Lancelot"],
     quests: ["Death House"],
     gameDate: "8th Night of Hammer through 9th Morning of Hammer",
     realDate: "May 27th, 2022",
     numDate: "5/27/2022",
     test: <Link className="hyperlink" to="/">Hello</Link>,
     imgUrl: "https://i.imgur.com/4TAGQ2R.jpg",
-    entry: <p>A few days after joining Viktor Lazlo's traveling show, the characters slowly start to get to know one another. The Sunset wagon comes to a stop as the Sunseekers pile out to see two small children, <Link className="hyperlink" to="../characters/village-of-barovia">Rose and Thorn</Link>, crying for help. The Sunseekers agree to help find their brother <Link className="hyperlink" to="../characters/village-of-barovia">Walter</Link> inside.<br /><br />
+    localLinks: {
+      "Count Strahd Von Zarovich": "/characters/castle-ravenloft"
+    },
+    entry: `    A few days after joining Viktor Lazlo's traveling show, the characters slowly start to get to know one another. The Sunset wagon comes to a stop as the Sunseekers pile out to see two small children, Rose and Thorn, crying for help. The Sunseekers agree to help find their brother Walter inside.
     
 
-    The house is not what it appears.  A lonely dog <Link className="hyperlink" to="../characters/sunseekers">Lancelot</Link> is looking for his owner, <Link className="hyperlink" to="../characters/village-of-barovia">Gertruda</Link>. They learn of the Durst family, once the charitable owners of the local Windmill, turned to cultists after the mysterious <Link className="hyperlink" to="../characters/castle-ravenloft">Strahd</Link> arrived in their homeland. <Link className="hyperlink" to="../characters/village-of-barovia">Gustav Durst</Link> cheated on his wife <Link className="hyperlink" to="../characters/village-of-barovia">Elizabeth</Link> through an affair with the nursemaid <Link className="hyperlink" to="../characters/village-of-barovia">Margaret</Link>, birthing baby Walter. Gustav eventually committed suicide in his bedroom leaving Margaret to be murdered by Elizabeth and her baby to sacrificed in a bogus cultish ritual. During this time, the children Rose and Thorn were locked in their room left to starve to death as Strahd turned to cultists to undead monsters. <br /><br />
+    The house is not what it appears.  A lonely dog Lancelot is looking for his owner, Gertruda. They learn of the Durst family, once the charitable owners of the local Windmill, joined the ~Priests of Osybus~ after the mysterious Strahd arrived in their homeland. Gustav Durst cheated on his wife Elizabeth through an affair with the nursemaid Margaret, birthing baby Walter. Gustav eventually committed suicide in his bedroom leaving Margaret to be murdered by Elizabeth and her baby to sacrificed in a bogus cultish ritual. During this time, the children Rose and Thorn were locked in their room left to starve to death as Strahd turned to cultists to undead monsters. 
     
-    While exploring the basement catacombs, the Sunseekers were able to give Rose, Thorn, and Margaret a proper burial by placing their bones in their long-empty coffins. On their way to the deepest depths of the catacombs, the Sunseekers discover a statue of a pale, cloaked figure holding a very real, very magical crystal ball. The owner of the Sunset wagon, Viktor Lazlo, seems to recognize the face of the statue and claims to have accidently activated the crystal ball  - creating the feeling that they are being watched intensely, almost perversely. They cover the crystal ball and go on.  Ghostly chants within the ritual chamber demand a sacrifice so Viktor Lazlo promptly picks up the dog Lancelot and proceeds to take him to the alter & pick up the rusty, bloody ritual knife with his other hand. He seems adamant that this is the only way out of the house alive. The barbarian German beheads Lazlo, saving the dog's life.  This action upsets the spirits within the chamber as they summon a large Flesh Mound with the remains of baby Walter serving as its beating heart. The party killed the best to save the child's remains. <br /><br />
+    While exploring the basement catacombs, the Sunseekers were able to give Rose, Thorn, and Margaret a proper burial by placing their bones in their long-empty coffins. On their way to the deepest depths of the catacombs, the Sunseekers discover a statue of a pale, cloaked figure holding a very real, very magical crystal ball. The owner of the Sunset wagon, Viktor Lazlo, seems to recognize the face of the statue and claims to have accidently activated the crystal ball  - creating the feeling that they are being watched intensely, almost perversely. They cover the crystal ball and go on.  Ghostly chants within the ritual chamber demand a sacrifice so Viktor Lazlo promptly picks up the dog Lancelot and proceeds to take him to the alter & pick up the rusty, bloody ritual knife with his other hand. He seems adamant that this is the only way out of the house alive. The barbarian German beheads Lazlo, saving the dog's life.  This action upsets the spirits within the chamber as they summon a large Flesh Mound with the remains of baby Walter serving as its beating heart. The party killed the best to save the child's remains. 
     
-    Once outside, baby Walter's remains were buried in the stable next door bringing an end the curse. As the party set to return to the Sunset Wagon, they were greeted by a massive basket of fresh fruit, bread, cheese, and wine.  In it a card reads 'Welcome to Barovia, signed Count Strahd von Zarovich' The basket is delicious but they can feel Strahd's gaze upon them.</p>
+    Once outside, baby Walter's remains were buried in the stable next door bringing an end the curse. As the party set to return to the Sunset Wagon, they were greeted by a massive basket of fresh fruit, bread, cheese, and wine.  In it a card reads "Welcome to Barovia, signed ~Count Strahd von Zarovich~." The basket is delicious but they can feel Strahd's gaze upon them.`
   },
   {
     number: 2,
     title: "Village of Barovia",
-    players: <> 
-        <Link className="hyperlink" to="../characters/sunseekers"> Elizana</Link>,
-        <Link className="hyperlink" to="../characters/sunseekers"> German</Link>,
-        <Link className="hyperlink" to="../characters/sunseekers"> Safzira</Link>
-      </>,
+    players: ["Elizana", "German", "Safzira"],
     npcs: ["Freebid", "Lancelot", "Viktor Lazlo"],
     quests: ["Village Plague", "Missing Villagers", "Burgomaster's Funeral", "Protect Ireena", "Replacement Priest", "Find Gertruda"],
     gameDate: "11th Night of Hammer through 12th Morning of Hammer",
@@ -44,7 +36,32 @@ let logData = [
     numDate: "6/12/2022",
     entry: "11th Day of Hammer \n -Arrival in Town. \n ",
     imgUrl: "",
-    entry: ""
+    localLinks: {},
+    entry: <p>
+
+      <span className="log-entry__subtitle">11th Day of Hammer</span>
+
+      -Arrival in town <br />
+
+      -Safzira and German go for a drink, where they meet 3 tough vistani women suggesting that they meet up with madam eva on their way out of town. Izmark offers to buy them drinks and asks them to protect his sister Ireena in exchange for free lodging and meals anytime they are in town.<br />
+      -Safzira and German go to Izmark's mansion to meet Ireena who insists on giving their father a proper burial.<br />
+      -Safzira and German escort Ireena and Ismark with the body of their father to the church where the priest Donavich holds a funeral in his honor. <br />
+      -Ismark becomes the new Burgomaster in his father’s place<br />
+      -halfing checks out shop, mean shop owner, directs to scratching on home fronts. investigation leads to the Cobb house, where a wife answers the door and the halfling meets her dying husband. He mentions resorting to drinking well water after a shortage of wine in the village. He dies and turns into a zombie. Elizana and Freebird slay the zombie outside his home after he devours his wife.<br />
+      -Safzira, German, izmark, and ireena join up with Elizana and Freebird and investigate the local well. Inside are several of Strahd's zombies. They defeat the zombies and retire to the burgomeister's mansion to rest up.<br />
+      -Ireena is officially a Sunseeker
+
+      <span className="log-entry__subtitle">12th Day of Hammer</span>
+      -Elizana attempts the shop again but along the way the dog lancelot scratches at a door of a village home. <br />
+      -Mad Mary explains that Lancelot belongs to her missing daughter Gertruda. Lancelot is looking for her.<br />
+      -Mad Mary has witnessed a cloaked figure dragging people towards the north end of town at night. She believes that Gertruda must have been one of them<br />
+      -The Sunseekers investigate the area on the north side of town which brings them back to the priest Donavich at his church. <br />
+      -Strange screams are heard from the undercroft of the church.<br />
+      -Donavich’s son Doru is a vampire and attacks the friendly Elizana in a hungry rage. <br />
+      -Doru is killed and Donavich is imprisoned for his crimes in the undercroft.<br />
+      -Ismark asks that the Sunseekers look for a replacement priest in the town of Vallaki to the West. 
+
+    </p>
   },
   {
     number: 3,

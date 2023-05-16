@@ -144,7 +144,7 @@ body {
   width: 100%;
   padding: 10rem; }
 
-.hyperlink {
+.hyperlink a {
   color: red;
   text-decoration: none; }
 
@@ -1439,6 +1439,12 @@ body {
   flex-direction: column;
   padding: 1.5rem; }
 
+.log-entry__title {
+  font-size: 2.5rem;
+  font-family: "Staatliches", sans-serif;
+  letter-spacing: .20rem;
+  font-weight: normal; }
+
 .log-entry__title, .log-entry__date, .log-entry__details {
   max-width: 60rem;
   align-self: center;
@@ -1447,6 +1453,11 @@ body {
 
 .log-entry__details {
   margin-bottom: 2rem; }
+
+.log-entry__subtitle {
+  font-weight: bold;
+  display: block;
+  margin: 1rem 0; }
 
 .log-entry__text {
   max-width: 100rem;

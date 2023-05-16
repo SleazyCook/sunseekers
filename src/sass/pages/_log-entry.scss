@@ -12,6 +12,13 @@
     padding: 1.5rem;
   }
 
+  &__title {
+    font-size: 2.5rem;
+    font-family: $font-display;
+    letter-spacing: .20rem;
+    font-weight: normal;
+  }
+
   &__title,
   &__date,
   &__details {
@@ -24,6 +31,12 @@
 
   &__details {
     margin-bottom: 2rem;
+  }
+
+  &__subtitle {
+    font-weight: bold;
+    display: block;
+    margin: 1rem 0;
   }
 
   &__text {

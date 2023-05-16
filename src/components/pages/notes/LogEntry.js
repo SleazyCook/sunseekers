@@ -7,6 +7,8 @@ import Footer from '../../Footer'
 
 import logData from './LogData'
 
+import renderWithLinks from './HyperlinkFunction';
+
 function LogEntry() {
 
   let {entryNumber} = useParams();
@@ -14,7 +16,6 @@ function LogEntry() {
 
   useEffect(() => {
     setEntryObj(logData[entryNumber-1])
-    console.log(entryNumber-1)
   }, [])
 
   return (
@@ -42,25 +43,26 @@ function LogEntry() {
           <h5 className="log-entry__date">
             <span>
               {entryObj.gameDate}</span><br />
-            <span>Played <i>
-              {entryObj.realDate}</i></span>
+            <span>Played&nbsp;
+              {entryObj.realDate}</span>
           </h5>
 
-          <p className="log-entry__details">
-            <b>Player Characters:</b> 
-            {entryObj.players}
+          <p className="log-entry__details hyperlink">
+            <b>Player Characters:</b> &nbsp;
+            {entryObj.players && renderWithLinks(entryObj.players, entryObj.localLinks)}
             <br />
 
-            <b>Non-Player Characters:</b> 
-            {entryObj.npcs}
+            <b>Non-Player Characters:</b> &nbsp;
+            {entryObj.npcs && renderWithLinks(entryObj.npcs, entryObj.localLinks)}
             <br />
 
             <b>Quests: </b> 
-            {entryObj.quests?.join(', ')}
+            {entryObj.quests && renderWithLinks(entryObj.quests, entryObj.localLinks)}
+
           </p>
 
-          <p className="log-entry__text" style={{whiteSpace:'break-spaces'}}>
-            {entryObj.entry}
+          <p className="log-entry__text hyperlink" style={{whiteSpace:'break-spaces'}}>
+            {entryObj.entry && renderWithLinks(entryObj.entry, entryObj.localLinks)}
 
           </p>
         
