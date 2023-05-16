@@ -30,51 +30,54 @@ let logData = [
     title: "Village of Barovia",
     players: ["Elizana", "German", "Safzira"],
     npcs: ["Freebird", "Lancelot", "Viktor Lazlo"],
-    quests: ["Village Plague", "Missing Villagers", "Burgomaster's Funeral", "Protect Ireena", "Replacement Priest", "Find Gertruda"],
+    quests: ["Village Plague", "Missing Villagers", "Burgomasters Funeral", "Protect Ireena", "Replacement Priest", "Find Gertruda"],
     gameDate: "11th Night of Hammer through 12th Morning of Hammer",
     realDate: "June 12th, 2022",
     numDate: "6/12/2022",
     entry: "11th Day of Hammer \n -Arrival in Town. \n ",
     imgUrl: "",
-    localLinks: {},
-    entry: <p>
+    localLinks: {
+      "Burgomaster": "/characters/village-of-barovia",
+      "mansion": "locations/village-of-barovia",
+      "mean shop owner": "characters/village-of-barovia"
+    },
+    entry: `11th Day of Hammer
+ 
+      - Arrival in town
+      - Safzira and German go for a drink, where they meet ~three tough vistani women~ suggesting that they meet up with ~Madame Eva~ on their way out of town. Ismark offers to buy them drinks and asks them to ~protect his sister~ Ireena in exchange for free lodging and meals anytime they are in town.
+      - Safzira and German go to Ismark's mansion to meet Ireena who insists on giving their father a ~proper burial~.
+      - Safzira and German escort Ireena and Ismark with the body of their father to the church where the priest Donavich holds a funeral in his honor. 
+      - Ismark becomes the new Burgomaster in his father’s place
+      - Halfling checks out shop, ~mean shop owner~, directs to scratching on home fronts. investigation leads to the ~Cobb House~, where a wife answers the door and the Halfling meets her ~dying husband~. He mentions resorting to drinking well water after a shortage of wine in the village. He dies and turns into a zombie. Elizana and Freebird slay the zombie outside his home after he devours his wife.
+      - Safzira, German, Ismark, and ireena join up with Elizana and Freebird and investigate the local well. Inside are several of Strahd's zombies. They defeat the zombies and retire to the burgomeister's mansion to rest up.
+      - Ireena is officially a Sunseeker
 
-      <span className="log-entry__subtitle">11th Day of Hammer</span>
+      12th Day of Hammer
 
-      -Arrival in town <br />
-
-      -Safzira and German go for a drink, where they meet 3 tough vistani women suggesting that they meet up with madam eva on their way out of town. Izmark offers to buy them drinks and asks them to protect his sister Ireena in exchange for free lodging and meals anytime they are in town.<br />
-      -Safzira and German go to Izmark's mansion to meet Ireena who insists on giving their father a proper burial.<br />
-      -Safzira and German escort Ireena and Ismark with the body of their father to the church where the priest Donavich holds a funeral in his honor. <br />
-      -Ismark becomes the new Burgomaster in his father’s place<br />
-      -halfing checks out shop, mean shop owner, directs to scratching on home fronts. investigation leads to the Cobb house, where a wife answers the door and the halfling meets her dying husband. He mentions resorting to drinking well water after a shortage of wine in the village. He dies and turns into a zombie. Elizana and Freebird slay the zombie outside his home after he devours his wife.<br />
-      -Safzira, German, izmark, and ireena join up with Elizana and Freebird and investigate the local well. Inside are several of Strahd's zombies. They defeat the zombies and retire to the burgomeister's mansion to rest up.<br />
-      -Ireena is officially a Sunseeker
-
-      <span className="log-entry__subtitle">12th Day of Hammer</span>
-      -Elizana attempts the shop again but along the way the dog lancelot scratches at a door of a village home. <br />
-      -Mad Mary explains that Lancelot belongs to her missing daughter Gertruda. Lancelot is looking for her.<br />
-      -Mad Mary has witnessed a cloaked figure dragging people towards the north end of town at night. She believes that Gertruda must have been one of them<br />
-      -The Sunseekers investigate the area on the north side of town which brings them back to the priest Donavich at his church. <br />
-      -Strange screams are heard from the undercroft of the church.<br />
-      -Donavich’s son Doru is a vampire and attacks the friendly Elizana in a hungry rage. <br />
-      -Doru is killed and Donavich is imprisoned for his crimes in the undercroft.<br />
-      -Ismark asks that the Sunseekers look for a replacement priest in the town of Vallaki to the West. 
-
-    </p>
+      - Elizana attempts the shop again but along the way the dog Lancelot scratches at a door of a village home. 
+      - Mad Mary explains that Lancelot belongs to her ~missing daughter~ Gertruda. Lancelot is looking for her.
+      - Mad Mary has witnessed a cloaked figure ~dragging people~ towards the north end of town at night. She believes that Gertruda must have been one of them
+      - The Sunseekers investigate the area on the north side of town which brings them back to the priest Donavich at his church. 
+      - Strange screams are heard from the undercroft of the church.
+      - Donavich’s son Doru is a vampire and attacks the friendly Elizana in a hungry rage. 
+      - Doru is killed and Donavich is ~imprisoned for his crimes~ in the undercroft.
+      - Ismark asks that the Sunseekers look for a ~replacement priest~ in the town of Vallaki to the West. `
   },
   {
     number: 3,
     title: "Tarroka Reading",
     players: ["Elizana", "German", "Safzira"],
     npcs: ["Freebird", "Ireena", "Lancelot"],
-    quests: ["Madame Eva's Tarroka Reading"],
+    quests: ["Madame Evas Tarroka Reading"],
     gameDate: "14th Afternoon of Hammer",
     realDate: "June 13th, 2022",
     numDate: "6/13/22",
     imgUrl: "",
     localLinks: {},
-    entry: "Strahd meets the sunseekers in person on the Old Svalich Road \n Strahd casually invites the party to visit his Castle Ravenloft by way of the Black Carriage \n The party wakes up at the Vistani Tser Pool Encampment, invitied into Madame Eva's tent \n Madame Eva gives a tarroka reading [see Journals/Tarroka Reading for details]."
+    entry: `    Strahd ~meets the sunseekers~ ~in person~ on the ~Old Svalich Road~ 
+    Strahd casually invites the party to visit his ~Castle Ravenloft~ by way of the ~Black Carriage~. 
+    The party wakes up at the ~Vistani Tser Pool Encampment~, invited into ~Madame Eva's Tent~. 
+    ~Madame Eva~ gives a ~tarroka reading~.`
   },
   {
     number: 4,
