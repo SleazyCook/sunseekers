@@ -35,6 +35,7 @@ function LogEntry() {
         </Link>
       </div>
 
+
         <div className="log-entry__main">
           <h4 className="log-entry__title">
             {entryObj.title}
@@ -65,6 +66,9 @@ function LogEntry() {
             {entryObj.entry && renderWithLinks(entryObj.entry, entryObj.localLinks)}
 
           </p>
+          
+          {entryNumber === "1" ? <p>No Previous</p> : <Link to="/">Previous Session</Link>}
+          <Link to="/">Next Session</Link>
         
         </div>
 

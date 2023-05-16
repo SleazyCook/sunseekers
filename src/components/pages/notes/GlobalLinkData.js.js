@@ -315,6 +315,34 @@ let globalHyperLinks = {
     // III. QUESTS
     // -------------------------------------------
 
+      "Death House": "/quests/death-house",
+      "Village Plague": "/quests/village-plauge",
+      "Missing Villagers": "/quests/missing-villagers",
+      "Burgomaster's Funeral": "/quests/burgomasters-funeral",
+      "Protect Ireena": "/quests/protect-ireena",
+      "Replacement Priest": "/quests/replacement-priest",
+      "Find Gertruda": "/quests/find-gertruda",
+      "Madame Eva's Tarroka Reading": "/quests/madame-evas-tarroka-reading",
+      "Tarroka Reading: The Transmuter": "/quests/madame-evas-tarroka-reading",
+      "Tarroka Reading: The Monk": "/quests/madame-evas-tarroka-reading",
+      "Tarroka Reading: The Hooded One": "/quests/madame-evas-tarroka-reading",
+      "Tarroka Reading: The Artifact": "/quests/madame-evas-tarroka-reading",
+      "Tarroka Reading: The Beast": "/quests/madame-evas-tarroka-reading",
+      "Dream Pastries": "/quests/dream-pastries",
+      "All Will Be Well!": "/quests/all-will-be-well",
+      "Children of Vallaki": "quests/children-of-vallaki",
+      "A Message for Cyrus Belview": "/quests/a-message-for-cyrus-belview",
+      "Bones of St. Andral": "/quests/bones-of-st.andral",
+      "Rescue Arabelle": "/quests/rescue-arrabelle",
+      "Investigate Winery": "/quests/investigate-winery",
+      "Strange Lights": "/quests/strange-lights",
+      "Coup of Vallaki": "/quests/coup-of-vallaki",
+      "Mad Mage in the Mountains": "/quests/mad-mage-in-the-mountains",
+      "Haunted Castle": "/quests/haunted-castle",
+      "Save Stella": "/quests/save-stella",
+      "Unfinished Business": "/quests/unfinished-business",
+      "Last Hunting Trip": "/quests/last-hunting-trip"
+
 
 
 
