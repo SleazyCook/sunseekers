@@ -20,6 +20,9 @@ function Home() {
       <div style={{color: "red", textalign: "center"}}>
         <br />
         <br />
+        Attention!
+        <br />
+        <br />
         Hello! This website is currently undergoing some work. I'm hoping to have it back up and running with more features and a new design by the end of May 2023. Feel free to poke around in the meantime.
         <br />
         <br />
