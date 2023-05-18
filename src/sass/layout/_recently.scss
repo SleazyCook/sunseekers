@@ -55,7 +55,10 @@
     // transition: all .1s;
 
     &:hover {
-      border: 2px solid white;
+
+      @include respond(tab-land){ 
+        border: 2px solid white;
+      }
     }
   }
 
@@ -117,7 +120,10 @@
     // transition: all .1s;
 
     &:hover {
-      border: 2px solid white;
+      
+      @include respond(tab-land){ 
+        border: 2px solid white;
+      }
     }
 
     &--all {

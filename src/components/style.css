@@ -1251,8 +1251,9 @@ body {
     background-color: green;
     height: 100%;
     padding: 1rem; }
-    .most-recent__single:hover {
-      border: 2px solid white; }
+    @media (min-width: 56.25em) {
+      .most-recent__single:hover {
+        border: 2px solid white; } }
   .most-recent__text-box {
     background-color: grey;
     opacity: 80%;
@@ -1287,8 +1288,9 @@ body {
     flex-grow: 1;
     padding: 1rem;
     background-color: green; }
-    .less-recent__single:hover {
-      border: 2px solid white; }
+    @media (min-width: 56.25em) {
+      .less-recent__single:hover {
+        border: 2px solid white; } }
     .less-recent__single--all {
       background-image: url("https://i.imgur.com/HGZzSIa.png");
       background-position: center;
