@@ -56,9 +56,6 @@ body {
   color: #fff;
   box-sizing: border-box;
   padding: 0rem; }
-  @media (min-width: 56.25em) {
-    body {
-      padding: 3rem; } }
 
 body {
   font-family: "Lato", sans-serif;
