@@ -39,9 +39,6 @@ function AdventureLog() {
           </h2>
       </div> */}
 
-
-
-
       <div className="adventure__slider-button-box">
 
         <div className="adventure__nav-icon adventure__nav-icon--left" onClick={slideLeft}>
@@ -49,9 +46,6 @@ function AdventureLog() {
         </div>
 
         <div ref={slider} scrollleft={100} className="adventure__main">
-
-
-
 
           {logData.map((entryObj) => {
             return (

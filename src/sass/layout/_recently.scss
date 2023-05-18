@@ -1,22 +1,48 @@
 .recently {
 
-  grid-column: 2 / 3;
+  grid-column: 1 / 4 ;
   grid-row: 4 / 5;
+
+  @include respond(tab-land) {
+    grid-column: 2 / 3;
+  }
 
   // display: flex;
   // flex-direction: row;
   // justify-content: space-between;
 
   display: grid;
+  grid-template-rows: 10vh 70vh;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   column-gap: 1rem;
+
+  @include respond(tab-land) {
+
+  }
 
   height: 40rem;
   height: 100%;
 
+  &__head {
+    grid-row: 1 / 2;
+    grid-column: 1 / 3 ;
+
+    height: 10vh;
+    margin: 0 auto;
+    line-height: 10vh;
+  }
 }
 
+// Background Images for this component are found on the _adventure-log.scss file.
+
 .most-recent {
+
+  grid-row: 2 / 3;
+
+  @include respond(tab-land){ 
+
+  }
+
   border-radius: 5px;
 
   box-sizing:border-box;
@@ -70,6 +96,12 @@
 .less-recent {
   display: grid;
 
+  grid-row: 2 / 3;
+
+  @include respond(tab-land){ 
+
+  }
+
   :not(:last-child) {
     margin-bottom: 1rem;
   }
@@ -122,126 +154,5 @@
 
   &__title {
     color: white;
-  }
-}
-
-// background-images
-
-.most-recent__single {
-  background-color: purple;
-
-  &--20 {
-    background-image:
-    url("https://i.imgur.com/G32pbKr.png");
-    background-position: center;
-    background-size: cover;
-  }
-}
-
-.less-recent__single {
-  background-color: orangered;
-
-  &--19 {
-    background-image:  
-    url("https://i.imgur.com/Bev2dep.png");
-    background-position: top;
-    background-size: cover;
-  }
-
-  &--5{
-    background-image:  
-      url("https://i.imgur.com/fgPPAfM.png");
-    background-position: bottom;
-  }
-
-  &--6{
-    background-image:  
-      url("https://i.imgur.com/G2pd6iZ.jpg");
-    background-position: bottom;
-    background-size: cover;
-  }
-
-  &--7{
-    background-image:  
-      url("https://i.imgur.com/RXoVXmW.png");
-    background-position: center;
-    background-size: cover;
-  }
-
-  &--8{
-    background-image:  
-      url("https://i.imgur.com/4iLw0nC.png");
-    background-position: center;
-    background-size: cover;
-  }
-
-  &--9{
-    background-image:  
-      url("https://i.imgur.com/9hhPNLe.png");
-    background-position: center;
-    background-size: cover;
-  }
-
-  &--10{
-    background-image:  
-      url("https://i.imgur.com/BhKS1uC.png");
-    background-position: center;
-    background-size: cover;
-  }
-
-  &--11{
-    background-image:  
-      url("https://i.imgur.com/pb4SaMI.png");
-    background-position: center;
-    background-size: cover;
-  }
-
-  &--12{
-    background-image:  
-      url("https://i.imgur.com/MPP8A9i.png");
-    background-position: left;
-    background-size: cover;
-  }
-
-  &--13{
-    background-image:  
-      url("https://i.imgur.com/KeeYsZy.jpg");
-    background-position: left;
-    background-size: cover;
-  }
-
-  &--14{
-    background-image:  
-      url("https://i.imgur.com/RztDbSi.png");
-    background-position: center;
-    background-size: cover;
-  }
-
-  &--15{
-    background-image:  
-      url("https://i.imgur.com/I3Gc3uT.png");
-    background-position: center;
-    background-size: cover;
-  }
-
-  &--16{
-    background-image:  
-      url("https://i.imgur.com/qIbqsK8.png");
-    background-position: center;
-    background-size: cover;
-  }
-
-  &--17{
-    background-image:  
-      url("https://i.imgur.com/Zs0iM18.png");
-    background-position: top;
-    background-size: cover;
-  }
-
-  &--18{
-    background-image:  
-      url("https://i.imgur.com/y2eHL8S.png");
-    background-position: top;
-    background-size: cover;
   }
 }
