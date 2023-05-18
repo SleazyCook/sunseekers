@@ -43,19 +43,27 @@
     opacity: 80%;
     border-radius: .5rem;
     padding: 5px;
+
+    color: white;
   }
 
   &__number {
-    color: black;
+    color: $color-primary;
+
+    font-family: $font-header-2;
+    font-size: 3rem;
   }
 
   &__title {
-    color: black;
+    color: white;
+
+    font-family: $font-header-2;
+    font-size: 3rem;
   }
 
   &__synopsis {
-    color: black;
     display: block;
+    font-size: 1.5rem;
   }
 }
 
@@ -95,19 +103,25 @@
     background-color: grey;
     opacity: 80%;
 
+
+
     border-radius: .5rem;
     padding: 5px;
     display: inline-block;
     min-width: 30%;
     text-align: center;
+
+    font-family: $font-header-2;
+    font-size: 2rem;
+
   }
 
   &__number {
-    color: black;
+    color: $color-primary;
   }
 
   &__title {
-    color: black;
+    color: white;
   }
 }
 

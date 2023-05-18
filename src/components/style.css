@@ -1233,14 +1233,19 @@ body {
     background-color: grey;
     opacity: 80%;
     border-radius: .5rem;
-    padding: 5px; }
+    padding: 5px;
+    color: white; }
   .most-recent__number {
-    color: black; }
+    color: #771f09;
+    font-family: "Bebas Neue", cursive;
+    font-size: 3rem; }
   .most-recent__title {
-    color: black; }
+    color: white;
+    font-family: "Bebas Neue", cursive;
+    font-size: 3rem; }
   .most-recent__synopsis {
-    color: black;
-    display: block; }
+    display: block;
+    font-size: 1.5rem; }
 
 .less-recent {
   display: grid; }
@@ -1265,11 +1270,13 @@ body {
     padding: 5px;
     display: inline-block;
     min-width: 30%;
-    text-align: center; }
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2rem; }
   .less-recent__number {
-    color: black; }
+    color: #771f09; }
   .less-recent__title {
-    color: black; }
+    color: white; }
 
 .most-recent__single {
   background-color: purple; }
