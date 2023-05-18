@@ -1028,13 +1028,25 @@ body {
   grid-row: death-house-start / death-house-end; }
 
 .description {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
-  background-image: url("https://i.imgur.com/oW4ZCfa.png");
-  background-size: cover;
-  background-position: right;
   height: 70vh;
-  border-radius: 1rem; }
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px black; }
+  .description--main {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-image: url("https://i.imgur.com/oW4ZCfa.png");
+    background-size: cover;
+    background-position: right; }
+  .description--tarroka {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    background-image: url("https://i.imgur.com/XSJtpVP.png");
+    background-size: cover;
+    background-position-y: 90%; }
+    @media (min-width: 37.5em) {
+      .description--tarroka:hover {
+        border: 3px solid grey;
+        box-shadow: 5px 5px 5px grey; } }
   .description__flex-container {
     display: flex;
     flex-direction: column;
@@ -1051,7 +1063,8 @@ body {
     justify-items: center;
     align-items: center;
     flex-grow: 2;
-    color: white; }
+    color: white;
+    text-decoration: none; }
   .description__text-actual {
     max-width: 600px;
     text-align: center;
@@ -1059,9 +1072,12 @@ body {
     font-size: 1.5rem;
     padding: 3rem;
     background-color: #a6a6a6;
+    background-color: black;
     border-radius: 1rem;
     transition: all .5s;
     opacity: 80%; }
+    .description__text-actual--tarroka {
+      background-color: #752e1a; }
   .description__headline {
     color: white; }
 
@@ -1090,7 +1106,7 @@ body {
   grid-template-columns: [page-horizontal-start] 2rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 2rem [home-horizontal-end]; }
   @media (min-width: 56.25em) {
     .home {
-      grid-template-rows: [header-start] 20vh [header-end nav-start] 9vh [nav-end description-start] 1fr [description-end most-recent-start] 80vh [most-recent-end tarroka-start] 40vh [tarroka-end bonus-start] 40vh [bonus-end death-house-start] 40vh [death-house-end footer-start] 1fr [footer-end];
+      grid-template-rows: [header-start] 20vh [header-end nav-start] 9vh [nav-end description-start] 1fr [description-end most-recent-start] 80vh [most-recent-end tarroka-start] 70vh [tarroka-end bonus-start] 40vh [bonus-end death-house-start] 40vh [death-house-end footer-start] 1fr [footer-end];
       grid-template-columns: [page-horizontal-start] 5rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 5rem [home-horizontal-end]; } }
   @media (min-width: 75em) {
     .home {
@@ -1303,6 +1319,13 @@ body {
     color: #771f09; }
   .less-recent__title {
     color: white; }
+
+.tarroka-home {
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+  background-image: url("https://i.imgur.com/XSJtpVP.png");
+  background-size: cover;
+  background-position-y: 90%; }
 
 .title {
   height: 50vh;

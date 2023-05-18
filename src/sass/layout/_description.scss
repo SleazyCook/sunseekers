@@ -1,17 +1,39 @@
 .description {
 
-  // Homepage Grid
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
+  &--main {
+    // Homepage Grid
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
 
-  // background-color: white;
-  background-image: 
-    url("https://i.imgur.com/oW4ZCfa.png");
-  background-size: cover;
-  background-position: right;
+    background-image: 
+      url("https://i.imgur.com/oW4ZCfa.png");
+    background-size: cover;
+    background-position: right;
+  }
+
+  &--tarroka {
+    // Homepage Grid
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+
+    background-image: 
+      url("https://i.imgur.com/XSJtpVP.png");
+    background-size: cover;
+    background-position-y: 90%;
+
+    &:hover {
+      @include respond(tab-port) {
+        border: 3px solid $color-grey-light-1;
+        box-shadow: $box-shadow-highlight;
+      }
+    }
+  }
+
+
 
   height: 70vh;
   border-radius: 1rem;
+  box-shadow: $box-shadow-dark;
 
   &__flex-container {
     display: flex;
@@ -36,6 +58,9 @@
     flex-grow: 2;
 
     color: white;
+
+    // tarroka link
+    text-decoration: none;
   }
 
   &__text-actual {
@@ -45,10 +70,15 @@
     font-size: 1.5rem;
     padding: 3rem;
     background-color: $color-grey-light-2;
+    background-color: $color-black;
     border-radius: 1rem;
     transition: all .5s;
 
     opacity: 80%;
+
+    &--tarroka {
+      background-color: #752e1a;
+    }
   }
 
   &__headline {

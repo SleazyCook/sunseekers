@@ -2,7 +2,7 @@ import React from 'react'
 
 function Description() {
   return (
-    <div className="description">
+    <div className="description description--main">
 
       {/* New Take on This: Divide component into three columns. Text in the middle, an image on each side. Raven on one side, ravenloft crest on the other perhaps? */}
 
