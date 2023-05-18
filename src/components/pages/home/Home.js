@@ -19,7 +19,7 @@ function Home() {
       
       <Header />
 
-      <Navigation />
+
 
       <Description />
 

@@ -3,7 +3,7 @@
   &--main {
     // Homepage Grid
     grid-column: 2 / 3;
-    grid-row: 3 / 4;
+    grid-row: description-start / description-end;
 
     background-image: 
       url("https://i.imgur.com/oW4ZCfa.png");
@@ -14,7 +14,7 @@
   &--tarroka {
     // Homepage Grid
     grid-column: 2 / 3;
-    grid-row: 5 / 6;
+    grid-row: tarroka-start / tarroka-end;
 
     background-image: 
       url("https://i.imgur.com/XSJtpVP.png");
