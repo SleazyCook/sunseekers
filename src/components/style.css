@@ -1217,7 +1217,8 @@ body {
   height: 100%; }
 
 .most-recent {
-  border-radius: 5px; }
+  border-radius: 5px;
+  box-sizing: border-box; }
   .most-recent a {
     text-decoration: none; }
   .most-recent__single {
@@ -1226,6 +1227,8 @@ body {
     background-color: green;
     height: 100%;
     padding: 1rem; }
+    .most-recent__single:hover {
+      border: 2px solid white; }
   .most-recent__text-box {
     background-color: grey;
     opacity: 80%;
@@ -1249,6 +1252,8 @@ body {
     flex-grow: 1;
     padding: 1rem;
     background-color: green; }
+    .less-recent__single:hover {
+      border: 2px solid white; }
   .less-recent__text-box {
     background-color: grey;
     opacity: 80%;

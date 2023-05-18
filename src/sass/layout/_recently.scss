@@ -19,6 +19,8 @@
 .most-recent {
   border-radius: 5px;
 
+  box-sizing:border-box;
+
   & a {
     text-decoration: none;
   }
@@ -29,6 +31,11 @@
     background-color: green;
     height: 100%;
     padding: 1rem;
+    // transition: all .1s;
+
+    &:hover {
+      border: 2px solid white;
+    }
   }
 
   &__text-box {
@@ -69,6 +76,12 @@
     padding: 1rem;
 
     background-color: green;
+
+    // transition: all .1s;
+
+    &:hover {
+      border: 2px solid white;
+    }
   }
 
   &__text-box {
