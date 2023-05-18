@@ -12,7 +12,7 @@ function Recently() {
   return (
     <div className="recently">
 
-      <h3 className="heading-tertiary recently__head">Catch up on the most recent adventures</h3>
+      <h3 className="heading-secondary recently__head">Catch up on the most recent adventures</h3>
 
       <div className="most-recent">
         <Link to={`/notes/adventure-log/${MostRecent.number}`}>

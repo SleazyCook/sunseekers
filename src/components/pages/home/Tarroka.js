@@ -16,7 +16,7 @@ function Tarroka() {
 
             The mysterious Vistana fortune teller Madame Eva harnesses the power of the Tarroka deck from her tent in the Vistani Tser Pool Encampment. Upon arriving, the Sunseekers received a reading that may contain the secrets to defeating Strahd and escaping Barovia. 
             <br /><br />
-            Revisit this crucial session and unravel the mysterious of the Tarroka.
+            Revisit this crucial event and unravel the mysterious of the Tarroka.
           </p>
           <br />
         </Link>

@@ -1045,8 +1045,7 @@ body {
     background-position-y: 90%; }
     @media (min-width: 37.5em) {
       .description--tarroka:hover {
-        border: 3px solid grey;
-        box-shadow: 5px 5px 5px grey; } }
+        box-shadow: 5px 5px 5px #c68932; } }
   .description__flex-container {
     display: flex;
     flex-direction: column;
@@ -1240,7 +1239,8 @@ body {
     grid-column: 1 / 3;
     height: 10vh;
     margin: 0 auto;
-    line-height: 8vh; }
+    line-height: 10vh;
+    color: white; }
 
 .most-recent {
   grid-row: 2 / 3;

@@ -23,8 +23,8 @@
 
     &:hover {
       @include respond(tab-port) {
-        border: 3px solid $color-grey-light-1;
-        box-shadow: $box-shadow-highlight;
+        // border: 3px solid $color-grey-light-1;
+        box-shadow: $box-shadow-tarroka;
       }
     }
   }
