@@ -1250,7 +1250,9 @@ body {
     border-radius: 1rem;
     background-color: green;
     height: 100%;
-    padding: 1rem; }
+    padding: 1rem;
+    transition: all .5s;
+    box-shadow: 5px 5px 5px black; }
     @media (min-width: 56.25em) {
       .most-recent__single:hover {
         box-shadow: 5px 5px 5px #a62b0d; } }
@@ -1287,7 +1289,9 @@ body {
     height: 100%;
     flex-grow: 1;
     padding: 1rem;
-    background-color: green; }
+    background-color: green;
+    transition: all .5s;
+    box-shadow: 5px 5px 5px black; }
     @media (min-width: 56.25em) {
       .less-recent__single:hover {
         box-shadow: 5px 5px 5px #a62b0d; } }

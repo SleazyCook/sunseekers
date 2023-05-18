@@ -52,7 +52,9 @@
     background-color: green;
     height: 100%;
     padding: 1rem;
-    // transition: all .1s;
+    transition: all .5s;
+
+    box-shadow: 5px 5px 5px $color-black;
 
     &:hover {
 
@@ -117,7 +119,9 @@
 
     background-color: green;
 
-    // transition: all .1s;
+    transition: all .5s;
+
+    box-shadow: 5px 5px 5px $color-black;
 
     &:hover {
 
