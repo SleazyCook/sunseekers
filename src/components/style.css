@@ -1094,9 +1094,15 @@ body {
 
 .home {
   display: grid;
-  grid-template-rows: [header-start] 20vh [header-end nav-start] 9vh [nav-end description-start] 1fr [description-end most-recent-start] 80vh [most-recent-end tarroka-start] 40vh [tarroka-end bonus-start] 40vh [bonus-end death-house-start] 40vh [death-house-end footer-start] 1fr [footer-end];
+  grid-template-rows: [header-start] 20vh [header-end nav-start] 9vh [nav-end description-start] 1fr [description-end most-recent-start] 150vh [most-recent-end tarroka-start] 40vh [tarroka-end bonus-start] 40vh [bonus-end death-house-start] 40vh [death-house-end footer-start] 1fr [footer-end];
   row-gap: 3rem;
-  grid-template-columns: [page-horizontal-start] 10rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 10rem [home-horizontal-end]; }
+  grid-template-columns: [page-horizontal-start] 2rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 2rem [home-horizontal-end]; }
+  @media (min-width: 56.25em) {
+    .home {
+      grid-template-columns: [page-horizontal-start] 5rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 5rem [home-horizontal-end]; } }
+  @media (min-width: 75em) {
+    .home {
+      grid-template-columns: [page-horizontal-start] 10rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 10rem [home-horizontal-end]; } }
   .home__placeholder--1 {
     grid-column: 2 / 3;
     grid-row: tarroka-start / tarroka-end;
@@ -1208,17 +1214,19 @@ body {
       color: white; }
 
 .recently {
-  grid-column: 1 / 4;
+  grid-column: 2 / 3;
   grid-row: 4 / 5;
   display: grid;
-  grid-template-rows: 10vh 70vh;
+  grid-template-rows: 10vh 70vh 70vh;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   column-gap: 1rem;
+  row-gap: 1rem;
   height: 40rem;
   height: 100%; }
   @media (min-width: 56.25em) {
     .recently {
-      grid-column: 2 / 3; } }
+      grid-template-rows: 10vh 70vh;
+      grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   .recently__head {
     grid-row: 1 / 2;
     grid-column: 1 / 3;
@@ -1228,8 +1236,12 @@ body {
 
 .most-recent {
   grid-row: 2 / 3;
+  grid-column: 1 / 3;
   border-radius: 5px;
   box-sizing: border-box; }
+  @media (min-width: 56.25em) {
+    .most-recent {
+      grid-column: 1 / 2; } }
   .most-recent a {
     text-decoration: none; }
   .most-recent__single {
@@ -1260,7 +1272,12 @@ body {
 
 .less-recent {
   display: grid;
-  grid-row: 2 / 3; }
+  grid-row: 3 / 4;
+  grid-column: 1 / 3; }
+  @media (min-width: 56.25em) {
+    .less-recent {
+      grid-row: 2 / 3;
+      grid-column: 2 / 3; } }
   .less-recent :not(:last-child) {
     margin-bottom: 1rem; }
   .less-recent__single {
