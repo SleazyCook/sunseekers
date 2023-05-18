@@ -16,7 +16,7 @@ function Description() {
 
             Curse of Strahd: Plight of the Sunseekers is a virtual tabletop based on a popular 5E Dungeons and Dragons campaign. Many adventurers have stumbled into the dread domain of Barovia only to meet their fate at the hands of the vampie lord Count Strahd Von Zarovich or some other twisted horror. Those who remain continue to seek out the sun and make it back home alive. 
             <br /><br />
-            The adventures of the Sunseekers so far are detailed in the chapters below.
+            The adventures of the Sunseekers so far are detailed in journals and notes collected here as the official Player Guide.
           </p>
           <br />
         </div>
