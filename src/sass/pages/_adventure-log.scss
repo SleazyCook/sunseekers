@@ -3,16 +3,16 @@
   // justify-content: center;
   align-items: center;
 
-  // height: 100svh;
+  height: 100svh;
   flex-direction: column;
   position: relative;
   transition: all .5s;
   position: relative;
 
-  // Homepage Grid
-  grid-column: 2 / 3;
-  grid-row: all-chapters-start / all-chapters-end;
-  max-width: 400px;
+  // Homepage Grid - removed from Homepage
+  // grid-column: 2 / 3;
+  // grid-row: all-chapters-start / all-chapters-end;
+  // max-width: 400px;
   border: 3px solid green;
 
 

@@ -14,14 +14,15 @@ function LogEntry() {
   let {entryNumber} = useParams();
   let [entryObj, setEntryObj] = useState({});
 
-  let nextNumber = +entryNumber+1
-
-  console.log(nextNumber)
+  let nextNumber = +entryNumber+1;
+  let prevNumber = +entryNumber-1;
 
   useEffect(() => {
     setEntryObj(logData[entryNumber-1])
-  }, [])
+  }, [entryNumber])
 
+  // console.log('nextNumber: ', typeof nextNumber, nextNumber)
+  console.log()
 
 
   return (
@@ -73,10 +74,10 @@ function LogEntry() {
 
           </p>
           
-          {entryNumber === "1" ? <p>No Previous</p> : <Link to="/">Previous Session</Link>}
+          {entryNumber === "1" ? <p>No Previous</p> : <Link to={`/notes/adventure-log/${prevNumber}`}>Previous Session: {logData[prevNumber-1].title}</Link>}
 
-          
-          <Link to={`/notes/adventure-log/${nextNumber}`}>Next Session</Link>
+
+          {entryNumber >= logData.length ? <p>No Next</p> : <Link to={`/notes/adventure-log/${nextNumber}`}>Next Session: {logData[nextNumber-1].title}</Link>}
         
         </div>
 
