@@ -1253,7 +1253,7 @@ body {
     padding: 1rem; }
     @media (min-width: 56.25em) {
       .most-recent__single:hover {
-        border: 2px solid white; } }
+        box-shadow: 5px 5px 5px #a62b0d; } }
   .most-recent__text-box {
     background-color: grey;
     opacity: 80%;
@@ -1290,7 +1290,7 @@ body {
     background-color: green; }
     @media (min-width: 56.25em) {
       .less-recent__single:hover {
-        border: 2px solid white; } }
+        box-shadow: 5px 5px 5px #a62b0d; } }
     .less-recent__single--all {
       background-image: url("https://i.imgur.com/HGZzSIa.png");
       background-position: center;

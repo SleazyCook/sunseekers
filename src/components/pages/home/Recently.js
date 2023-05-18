@@ -55,7 +55,7 @@ function Recently() {
           </div>
         </Link>
 
-        <Link to={`/notes/adventure-log/${RecentA.number}`}>
+        <Link to="/notes/adventure-log">
           <div className="less-recent__single less-recent__single--all">
             <div className="less-recent__text-box">
               <span className="less-recent__title">All Adventure Logs</span>
