@@ -4,13 +4,15 @@
   color: $color-primary;
   border-top: 3px solid $color-primary;
   border-bottom: 3px solid $color-primary;
+
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
   
   &--top {
-  //   height: 7.5vh;
+    // height: 7.5vh;
     font-size: 2.5rem;
     text-align: center;
     padding: 1rem;
-
 
     // border: 4px solid red;
 
@@ -31,9 +33,5 @@
     & a:hover {
       color: $color-white;
     }
-
   }
-
-
-
 }

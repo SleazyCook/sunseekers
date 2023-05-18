@@ -1,5 +1,8 @@
 .description {
 
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+
   &__flex-container {
     display: flex;
     flex-direction: column;

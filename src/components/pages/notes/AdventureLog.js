@@ -25,7 +25,7 @@ function AdventureLog() {
 
 
   return (
-    <div>
+    <div className="adventure">
 
       {/* <Header />
       <Navigation />
@@ -78,7 +78,7 @@ function AdventureLog() {
 
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
         
     </div>
   )

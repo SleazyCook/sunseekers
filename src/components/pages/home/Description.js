@@ -4,6 +4,8 @@ function Description() {
   return (
     <div className="description">
 
+      {/* New Take on This: Divide component into three columns. Text in the middle, an image on each side. Raven on one side, ravenloft crest on the other perhaps? */}
+
       <div className="heading-tertiary">Tabletop Companion Guide & Interactive Game</div>
 
       <div className="description__flex-container">

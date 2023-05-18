@@ -129,7 +129,9 @@ let globalHyperLinks = {
     Milivoj: "/characters/church-of-the-morninglord",
 
   // The Baron
+    "Baron": "/characters/the-baron",
     "The Baron": "/characters/the-baron",
+    "the Baron": "/characters/the-baron",
     "Baron Vallakovich": "/characters/the-baron",
     "Vargas Vallakovich": "/characters/the-baron",
     "The Baroness": "/characters/the-baron",
@@ -203,8 +205,14 @@ let globalHyperLinks = {
 
   // Witches & Cults
     "Priests of Osybus": "/characters/witches-and-cults",
+    "Morgantha": "/characters/witches-and-cults",
+    "Bella": "/characters/witches-and-cults",
 
   // Creatures
+    "wolves": '/characters/creatures',
+    "Wolves": "/characters/creatures",
+    "dire wolves": "/characters/creatures",
+    "Dire wolves": "/characters/creatures",
 
   // Unknown Alliance
 
@@ -277,12 +285,17 @@ let globalHyperLinks = {
 
     // Old Mill
       "Old Mill": "/locations/old-mill",
+      Mill: "/locations/old-mill",
       "Old Bonegrinder": "/locations/old-mill",
       "Windmill": "/locations/old-mill",
       "windmill": "/locations/old-mill",
 
     // Vallaki
+      "Vallaki": "/locations/vallaki",
+      "Vallaki gates": "/locations/vallaki",
       "St. Andral's Church": "/locations/vallaki",
+      "St. Andral's Orphanage": "/locations/vallaki",
+      "orphanage": "/locations/vallaki",
       "Blue Water Inn": "/locations/vallaki",
       // "Burgomaster's Mansion": "/locations/vallaki",
       "Wachterhaus": "/locations/vallaki",
@@ -344,6 +357,8 @@ let globalHyperLinks = {
 
       "Madame Eva's Tarroka Reading": "/quests/madame-evas-tarroka-reading",
       "Madame Evas Tarroka Reading": "/quests/madame-evas-tarroka-reading",
+      "Tarroka": "/quests/madame-evas-tarroka-reading",
+      "Tarroka Reading": "/quests/madame-evas-tarroka-reading",
       "tarroka reading": "/quests/madame-evas-tarroka-reading",
       "Tarroka Reading: The Transmuter": "/quests/madame-evas-tarroka-reading",
       "Tarroka Reading: The Monk": "/quests/madame-evas-tarroka-reading",
@@ -353,7 +368,7 @@ let globalHyperLinks = {
 
       "Dream Pastries": "/quests/dream-pastries",
 
-      "All Will Be Well!": "/quests/all-will-be-well",
+      "All Will Be Well": "/quests/all-will-be-well",
 
       "Children of Vallaki": "quests/children-of-vallaki",
 
