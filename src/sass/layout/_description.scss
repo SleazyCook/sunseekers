@@ -21,6 +21,8 @@
     background-size: cover;
     background-position-y: 90%;
 
+    transition: all .5s;
+
     &:hover {
       @include respond(tab-port) {
         // border: 3px solid $color-grey-light-1;
