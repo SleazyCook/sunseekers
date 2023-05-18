@@ -1099,6 +1099,7 @@ body {
   grid-template-columns: [page-horizontal-start] 2rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 2rem [home-horizontal-end]; }
   @media (min-width: 56.25em) {
     .home {
+      grid-template-rows: [header-start] 20vh [header-end nav-start] 9vh [nav-end description-start] 1fr [description-end most-recent-start] 80vh [most-recent-end tarroka-start] 40vh [tarroka-end bonus-start] 40vh [bonus-end death-house-start] 40vh [death-house-end footer-start] 1fr [footer-end];
       grid-template-columns: [page-horizontal-start] 5rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 5rem [home-horizontal-end]; } }
   @media (min-width: 75em) {
     .home {
