@@ -14,7 +14,7 @@ function Recently() {
 
       <div className="most-recent">
         <Link to={`/notes/adventure-log/${MostRecent.number}`}>
-          <div className="most-recent__single">
+          <div className={`most-recent__single most-recent__single--${MostRecent.number}`}>
             <div className="most-recent__text-box">
                 <span className="most-recent__number">{MostRecent.number}</span>&nbsp;
                 <span className="most-recent__title">{MostRecent.title}</span>
@@ -27,7 +27,7 @@ function Recently() {
       <div className="less-recent">
 
         <Link to={`/notes/adventure-log/${RecentA.number}`}>
-          <div className="less-recent__single less-recent__single--1">
+          <div className={`less-recent__single less-recent__single--${RecentA.number}`}>
             <div className="less-recent__text-box">
               <span className="less-recent__number">{RecentA.number}</span>&nbsp;
               <span className="less-recent__title">{RecentA.title}</span>
@@ -36,7 +36,7 @@ function Recently() {
         </Link>
 
         <Link to={`/notes/adventure-log/${RecentB.number}`}>
-          <div className="less-recent__single less-recent__single--1">
+          <div className={`less-recent__single less-recent__single--${RecentB.number}`}>
             <div className="less-recent__text-box">
               <span className="less-recent__number">{RecentB.number}</span>&nbsp;
               <span className="less-recent__title">{RecentB.title}</span>
@@ -45,7 +45,7 @@ function Recently() {
         </Link>
 
         <Link to={`/notes/adventure-log/${RecentC.number}`}>
-          <div className="less-recent__single less-recent__single--1">
+          <div className={`less-recent__single less-recent__single--${RecentC.number}`}>
             <div className="less-recent__text-box">
               <span className="less-recent__number">{RecentC.number}</span>&nbsp;
               <span className="less-recent__title">{RecentC.title}</span>
@@ -54,7 +54,7 @@ function Recently() {
         </Link>
 
         <Link to={`/notes/adventure-log/${RecentA.number}`}>
-          <div className="less-recent__single less-recent__single--4">
+          <div className="less-recent__single less-recent__single--all">
             <div className="less-recent__text-box">
               <span className="less-recent__title">All Adventure Logs</span>
             </div>
