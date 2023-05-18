@@ -14,9 +14,15 @@ function LogEntry() {
   let {entryNumber} = useParams();
   let [entryObj, setEntryObj] = useState({});
 
+  let nextNumber = +entryNumber+1
+
+  console.log(nextNumber)
+
   useEffect(() => {
     setEntryObj(logData[entryNumber-1])
   }, [])
+
+
 
   return (
     <div>
@@ -68,7 +74,9 @@ function LogEntry() {
           </p>
           
           {entryNumber === "1" ? <p>No Previous</p> : <Link to="/">Previous Session</Link>}
-          <Link to="/">Next Session</Link>
+
+          
+          <Link to={`/notes/adventure-log/${nextNumber}`}>Next Session</Link>
         
         </div>
 
