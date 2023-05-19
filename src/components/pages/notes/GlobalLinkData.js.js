@@ -103,6 +103,7 @@ let globalHyperLinks = {
     "Bray Martikov": "/characters/keepers-of-the-feather",
 
   // Order of the Silver Dragon
+    "Order of the Silver Dragon": "/characters/order-of-the-silver-dragon",
     Argynvost: "/characters/order-of-the-silver-dragon",
     Vladimir: "/characters/order-of-the-silver-dragon",
     "Sir Vladimir": "/characters/order-of-the-silver-dragon",

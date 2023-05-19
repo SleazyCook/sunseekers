@@ -327,9 +327,16 @@ let logData = [
     realDate: "April 23rd, 2023",
     numDate: "4/23/23",
     imgUrl: "",
-    localLinks: {},
+    localLinks: {
+      monstrosity: "/characters/creatures"
+    },
     short: "Safzira and Kasimir encounter a monstrosity at the Gate of Tsolenka Pass",
-    entry: ""
+    entry: `    After a days of treading through the coldest parts of Barovia the Southern Sunseekers Safzira, Kasimir, ~Ser Erich~, and Victor finally arrive at ~Tsolenka Pass~, the last stop before the ~Amber Temple~.
+    They are met by a large archway blocked by an iron portcullis and magical barrier. Safzira uses her Mage Hand to slip through the iron bars and draw back the heavy gate.  ~Ser Erich~, familiar with the former outpost of his once honorable ~Order of the Silver Dragon~, waves his hand across the magical barrier like a soft wave to an old friend. The magic is calmly dispelled allowing the group to continue. 
+    Just before crossing through the archway, the group notices a large and unusual shape beyond the snowy mountain wind.  Kasimir is first to recognize the horror of the monstrosity before them and without hesitation leaps in front of Safzira to keep it at bay. With Ser Erich right behind him, Kasimir throws his elven dagger at the beast followed by a fire bolt. 
+    As the beast is struck by the flame, the party starts to make out the vaguely wolf-shaped monstrosity and it's unnatural mechanical limbs and alterations sprouting from fresh stich-wounds and open flesh.  There are rows of mismatched bloodshot eyes staring back at them. 
+    One wrong move and the amalgamation swings it's elongated spiny tongue at Kasimir striking him in the chest. Without hesitation, Safzira hits the beast with dissonant whispers and the ~Mad Mage~ finishes the monster off with a a magic missile.
+    As Safzira rushes to Kasimir's aid, a voice is heard shrieking 'Wolfie!' The party looks up to see a woman swallowing her anger. Disgusted by the revenant, the woman orders everyone else into a nearby tower to escape the cold.`
   }
 ]
 
