@@ -414,6 +414,13 @@
       }
     }
 
+    &--6 {
+      background-image: linear-gradient(to bottom right, #292924, #634f2f, #292924);
+      &:hover {
+        box-shadow: 5px 5px 5px #a7a89f;
+      }
+    }
+
     &--name {
       color: white;
       padding-left: 3rem;
@@ -464,6 +471,13 @@
         background-size:auto;
         background-position-x: 30%;
         background-position-y: 50%;
+      }
+
+      &-6 {
+        background-image: 
+          url('https://i.imgur.com/mEaQFYR.png');
+        background-size: cover;
+        background-position: bottom;
       }
     }
   }

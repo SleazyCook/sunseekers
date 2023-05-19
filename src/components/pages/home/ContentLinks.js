@@ -37,6 +37,12 @@ function ContentLinks() {
       title: "Vallaki Market",
       link: "market",
       img: "https://i.imgur.com/CiucFK9.jpg"
+    },
+    {
+      number: 6,
+      title: "Player Resources",
+      link: "resources",
+      img: "https://i.imgur.com/mEaQFYR.png"
     }
   ]
 

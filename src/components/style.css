@@ -1410,6 +1410,17 @@ body {
       background-position: center;
       background-size: cover; }
 
+.feedback {
+  background-color: red;
+  background-color: #1e1e1e;
+  text-align: center; }
+  .feedback--title {
+    color: white;
+    padding: 3rem; }
+  .feedback iframe {
+    background-color: #771f09;
+    border-radius: 1rem; }
+
 .home {
   background-color: #1e1e1e;
   display: grid;
@@ -1679,6 +1690,10 @@ body {
       background-image: linear-gradient(to bottom right, #292a49, #20230b, #292a49); }
       .content-links__card--5:hover {
         box-shadow: 5px 5px 5px #424917; }
+    .content-links__card--6 {
+      background-image: linear-gradient(to bottom right, #292924, #634f2f, #292924); }
+      .content-links__card--6:hover {
+        box-shadow: 5px 5px 5px #a7a89f; }
     .content-links__card--name {
       color: white;
       padding-left: 3rem;
@@ -1711,6 +1726,10 @@ body {
         background-size: auto;
         background-position-x: 30%;
         background-position-y: 50%; }
+      .content-links__card--img-6 {
+        background-image: url("https://i.imgur.com/mEaQFYR.png");
+        background-size: cover;
+        background-position: bottom; }
 
 .log-entry__link {
   text-decoration: none; }
