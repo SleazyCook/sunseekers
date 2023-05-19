@@ -365,68 +365,73 @@ body {
     transform: translate(-50%, -50%);
     transition: all .4s;
     width: 100%; }
-  .cat-card--sunseekers {
+  .cat-card--characters-1 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/XdxUY3y.jpg");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply; }
-  .cat-card--ravenloft {
+  .cat-card--characters-2 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/1xI9Lua.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply; }
-  .cat-card--barovia {
+  .cat-card--characters-3 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/VP9HxsY.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: color-dodge; }
-  .cat-card--vistani {
+  .cat-card--characters-4 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/WhgUBnM.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: difference; }
-  .cat-card--keepers {
+  .cat-card--characters-5 {
     background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/VsqE8Ic.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: darken; }
-  .cat-card--dragon {
+  .cat-card--characters-6 {
     background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/79TW4Fp.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply; }
-  .cat-card--church {
+  .cat-card--characters-7 {
     background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/rsS64Ka.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply; }
-  .cat-card--baron {
+  .cat-card--characters-8 {
     background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/ES2lAjH.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply; }
-  .cat-card--wachterhaus {
+  .cat-card--characters-9 {
     background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/qLO3OuR.png");
     background-size: cover;
     background-position: top;
     background-blend-mode: multiply; }
-  .cat-card--merchants {
+  .cat-card--characters-10 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/uHHFv1v.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: difference; }
-  .cat-card--vallaki {
+  .cat-card--characters-11 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/coz37xw.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: difference; }
-  .cat-card--witches {
+  .cat-card--characters-12 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/4jpT6Ux.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: difference; }
-  .cat-card--unknown {
+  .cat-card--characters-13 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/zRETq2O.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference; }
+  .cat-card--characters-14 {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/q1DGuW9.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: difference; }

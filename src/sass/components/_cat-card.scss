@@ -39,7 +39,7 @@
 
   // CHARACTERS
 
-  &--sunseekers {
+  &--characters-1 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8), 
@@ -50,7 +50,7 @@
     background-blend-mode: multiply;
    }
 
-   &--ravenloft {
+   &--characters-2 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8), 
@@ -61,7 +61,7 @@
     background-blend-mode: multiply;
    }
 
-   &--barovia {
+   &--characters-3 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8), 
@@ -72,7 +72,7 @@
     background-blend-mode: color-dodge;
    }
 
-   &--vistani {
+   &--characters-4 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8), 
@@ -83,7 +83,7 @@
     background-blend-mode: difference;
    }
 
-   &--keepers {
+   &--characters-5 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-grey-light-2, 0.8), 
@@ -94,7 +94,7 @@
     background-blend-mode: darken;
    }
 
-   &--dragon {
+   &--characters-6 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-grey-light-2, 0.8), 
@@ -105,7 +105,7 @@
     background-blend-mode: multiply;
    }
 
-   &--church {
+   &--characters-7 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-grey-light-2, 0.8), 
@@ -116,7 +116,7 @@
     background-blend-mode: multiply;
    }
 
-   &--baron {
+   &--characters-8 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-grey-light-2, 0.8), 
@@ -127,7 +127,7 @@
     background-blend-mode: multiply;
    }
 
-   &--wachterhaus {
+   &--characters-9 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-grey-light-2, 0.8), 
@@ -138,7 +138,7 @@
     background-blend-mode:multiply;
    }
 
-   &--merchants {
+   &--characters-10 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8), 
@@ -149,7 +149,7 @@
     background-blend-mode: difference;
    }
 
-   &--vallaki {
+   &--characters-11 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8), 
@@ -160,7 +160,7 @@
     background-blend-mode: difference;
    }
 
-   &--witches {
+   &--characters-12 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8), 
@@ -171,12 +171,23 @@
     background-blend-mode: difference;
    }
 
-   &--unknown {
+   &--characters-13 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8), 
       rgba($color-primary-dark, 0.8)), 
       url("https://i.imgur.com/zRETq2O.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference;
+   }
+
+   &--characters-14 {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8), 
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/q1DGuW9.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: difference;
