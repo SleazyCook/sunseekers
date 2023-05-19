@@ -5,6 +5,8 @@ import Header from '../../Header'
 import Navigation from '../../Navigation'
 import Footer from '../../Footer'
 
+import journalsData from './JournalsData'
+
 function Notes() {
 
   useEffect(() => {
@@ -23,89 +25,21 @@ function Notes() {
 
       <div className="flexbox">
 
-        <div className="flex__item">
-          <Link to="adventure-log">
-            <div className="cat-card cat-card--adventure-log">
-              <div className="cat-card__text-box">
-                <h3 className="cat-card__title">Adventure Log</h3>
+        {journalsData.map((journalsObj) => {
+          return (
+            <div className="flex__item">
+            <Link to={`${journalsObj.link}`}>
+              <div className={`cat-card cat-card--journal-${journalsObj.number}`}>
+                <div className="cat-card__text-box">
+                  <h3 className="cat-card__title">{journalsObj.name}</h3>
+                </div>
               </div>
-            </div>
-          </Link>
-        </div>
-
-        <div className="flex__item">
-          <Link to="tarroka-reading">
-            <div className="cat-card cat-card--tarroka-reading">
-              <div className="cat-card__text-box">
-                <h3 className="cat-card__title">Tarroka Reading</h3>
-              </div>
-            </div>
-          </Link>
-        </div>
-
-        <div className="flex__item">
-          <Link to="strahd-notes">
-            <div className="cat-card cat-card--strahd-notes">
-              <div className="cat-card__text-box">
-                <h3 className="cat-card__title">Strahd Notes</h3>
-              </div>
-            </div>
-          </Link>
-        </div>
-
-        <div className="flex__item">
-          <Link to="vallaki-laws">
-            <div className="cat-card cat-card--vallaki-laws">
-              <div className="cat-card__text-box">
-                <h3 className="cat-card__title">Vallaki Laws</h3>
-              </div>
-            </div>
-          </Link>
-        </div>
-
-        <div className="flex__item">
-          <Link to="safzira-diary">
-            <div className="cat-card cat-card--safzira-diary">
-              <div className="cat-card__text-box">
-                <h3 className="cat-card__title">Safzira's Diary</h3>
-              </div>
-            </div>
-          </Link>
-        </div>
-
-        <div className="flex__item">
-          <Link to="ireena-diary">
-            <div className="cat-card cat-card--ireena-diary">
-              <div className="cat-card__text-box">
-                <h3 className="cat-card__title">Ireena's Diary</h3>
-              </div>
-            </div>
-          </Link>
-        </div>
-
-        <div className="flex__item">
-          <Link to="maps">
-            <div className="cat-card cat-card--maps">
-              <div className="cat-card__text-box">
-                <h3 className="cat-card__title">Maps</h3>
-              </div>
-            </div>
-          </Link>
-        </div>
-
-        <div className="flex__item">
-          <Link to="miscellaneous">
-            <div className="cat-card cat-card--misc">
-              <div className="cat-card__text-box">
-                <h3 className="cat-card__title">Miscellaneous</h3>
-              </div>
-            </div>
-          </Link>
-        </div>
+            </Link>
+          </div>
+          )
+        })}
       
       </div> {/* Flexbox End */}
-
-      
 
       <Footer />
       

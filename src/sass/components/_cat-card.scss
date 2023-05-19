@@ -184,7 +184,7 @@
 
   // JOURNALS
 
-  &--adventure-log {
+  &--journal-1 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-grey-light-2, 0.8),  
@@ -195,7 +195,7 @@
     background-blend-mode: lighten;
   }
 
-  &--tarroka-reading {
+  &--journal-2 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-grey-light-2, 0.8),  
@@ -206,7 +206,7 @@
     background-blend-mode: multiply;
   }
 
-  &--strahd-notes {
+  &--journal-3 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -217,7 +217,7 @@
     background-blend-mode:hue;
   }
 
-  &--vallaki-laws {
+  &--journal-4 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -228,7 +228,7 @@
     background-blend-mode: hue;
   }
 
-  &--safzira-diary {
+  &--journal-5 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -239,7 +239,7 @@
     background-blend-mode: lighten;
   }
 
-  &--ireena-diary {
+  &--journal-6 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-grey-light-2, 0.8),   
@@ -250,7 +250,7 @@
     background-blend-mode: darken;
   }
 
-  &--maps {
+  &--journal-7 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-grey-dark-1, 0.8),  
@@ -261,7 +261,7 @@
     background-blend-mode: lighten;
   }
 
-  &--misc {
+  &--journal-8 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
