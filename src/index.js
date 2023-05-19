@@ -39,6 +39,7 @@ import Witches from './components/pages/characters/Witches'
 
 import Quests from './components/pages/quests/Quests'
 
+import Resources from './components/pages/Resources'
 import Feedback from './components/pages/Feedback'
 
 const appElement = document.getElementById('app')
@@ -57,6 +58,10 @@ export const router = createBrowserRouter([
       {
         path: "notes",
         element: <Notes />,
+      },
+      {
+        path: "resources",
+        element: <Resources />
       },
       {
         path: "feedback",

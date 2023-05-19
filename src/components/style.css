@@ -585,6 +585,30 @@ body {
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
+  .cat-card--resources-1 {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/fp1DXnW.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten; }
+  .cat-card--resources-2 {
+    background-image: url("https://i.imgur.com/CeY4FIC.png");
+    background-size: cover;
+    background-position: center; }
+  .cat-card--resources-3 {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/7CqaHzP.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hue; }
+  .cat-card--resources-4 {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/ZzFQKI3.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hue; }
+  .cat-card--resources-5 {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BiISWmu.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hue; }
 
 .maps-box {
   text-align: center;
@@ -1767,6 +1791,11 @@ body {
 .market {
   display: flex;
   flex-direction: column; }
+
+.resources__title {
+  text-align: center;
+  color: white;
+  padding: 3rem; }
 
 .strahd-descriptive {
   font-family: "Courier New", Courier, monospace;
