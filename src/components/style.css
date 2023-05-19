@@ -1422,7 +1422,20 @@ body {
       grid-template-columns: [page-horizontal-start] 5rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 5rem [home-horizontal-end]; } }
   @media (min-width: 75em) {
     .home {
-      grid-template-columns: [page-horizontal-start] 10rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 10rem [home-horizontal-end]; } }
+      grid-template-columns: [page-horizontal-start] 10rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 10rem [home-horizontal-end];
+      -webkit-touch-callout: none;
+      /* iOS Safari */
+      -webkit-user-select: none;
+      /* Safari */
+      -khtml-user-select: none;
+      /* Konqueror HTML */
+      -moz-user-select: none;
+      /* Old versions of Firefox */
+      -ms-user-select: none;
+      /* Internet Explorer/Edge */
+      user-select: none;
+      /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */ } }
   .home__placeholder--1 {
     grid-column: 2 / 3;
     grid-row: tarroka-start / tarroka-end;
