@@ -31,8 +31,6 @@
     }
   }
 
-
-
   height: 70vh;
   border-radius: 1rem;
   box-shadow: $box-shadow-dark;
@@ -58,7 +56,6 @@
     justify-items: center;
     align-items: center;
     flex-grow: 2;
-
     color: white;
 
     // tarroka link
@@ -86,5 +83,4 @@
   &__headline {
     color: white;
   }
-
 }

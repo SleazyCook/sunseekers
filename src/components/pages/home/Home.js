@@ -7,7 +7,7 @@ import Description from './Description';
 import DeathHouse from './DeathHouse';
 import Recently from './Recently';
 import Tarroka from './Tarroka';
-import AdventureLog from '../notes/AdventureLog';
+import ContentLinks from './ContentLinks';
 import Footer from '../../Footer';
 
 import { FaAlignCenter } from 'react-icons/fa';
@@ -33,7 +33,7 @@ function Home() {
 
       <Tarroka />
 
-      <div className="home__placeholder home__placeholder--2">Links to interesting things like journals, important quests, shops, etc</div >
+      <ContentLinks />
 
       <DeathHouse />
 

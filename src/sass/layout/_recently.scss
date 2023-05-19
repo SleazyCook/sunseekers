@@ -30,7 +30,6 @@
 }
 
 // Background Images for this component are found on the _adventure-log.scss file.
-
 .most-recent {
 
   grid-row: 2 / 3;
@@ -49,13 +48,11 @@
   }
 
   &__single {
-    // border: 1px solid black;
     border-radius: 1rem;
     background-color: green;
     height: 100%;
     padding: 1rem;
     transition: all .5s;
-
     box-shadow: 5px 5px 5px $color-black;
 
     &:hover {
@@ -111,22 +108,15 @@
   }
 
   &__single {
-    // border: 3px solid black;
     border-radius: 1rem;
-    // height: 5rem;
     height: 100%;
     flex-grow: 1;
-
     padding: 1rem;
-
     background-color: green;
-
     transition: all .5s;
-
     box-shadow: 5px 5px 5px $color-black;
 
     &:hover {
-
       @include respond(tab-land){ 
         // border: 2px solid white;
         box-shadow: 5px 5px 5px $color-grey-light-1;
@@ -144,9 +134,6 @@
   &__text-box {
     background-color: grey;
     opacity: 80%;
-
-
-
     border-radius: .5rem;
     padding: 5px;
     display: inline-block;
