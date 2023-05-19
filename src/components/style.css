@@ -1585,7 +1585,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between; }
+    justify-content: space-around; }
   .content-links__card {
     text-decoration: none;
     width: 40rem;
