@@ -470,101 +470,116 @@ body {
     background-size: cover;
     background-position: center;
     background-blend-mode: darken; }
-  .cat-card--mists {
+  .cat-card--location-1 {
     background-image: linear-gradient(to right bottom, rgba(26, 26, 26, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/bgfcLRA.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--old-svalich-road {
+  .cat-card--location-2 {
     background-image: linear-gradient(to right bottom, rgba(26, 26, 26, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/B7TIY5w.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--svalich-woods {
+  .cat-card--location-3 {
     background-image: linear-gradient(to right bottom, rgba(26, 26, 26, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/aN6jACG.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: difference; }
-  .cat-card--river-ivlis {
+  .cat-card--location-4 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.2), rgba(24, 6, 2, 0.2)), url("https://i.imgur.com/K0dBpvZ.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: hue; }
-  .cat-card--tser-pool-encampent {
+  .cat-card--location-5 {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.2), rgba(24, 6, 2, 0.2)), url("https://i.imgur.com/VP9HxsY.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hue; }
+  .cat-card--location-6 {
     background-image: linear-gradient(to right bottom, rgba(26, 26, 26, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/4ESFX6g.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--black-carriage {
+  .cat-card--location-7 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BgyFPCi.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: difference; }
-  .cat-card--old-mill {
+  .cat-card--location-8 {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/1xI9Lua.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply; }
+  .cat-card--location-9 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/OVBsusR.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--vallaki-vistani-camp {
+  .cat-card--location-10 {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/coz37xw.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference; }
+  .cat-card--location-11 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BhKS1uC.png");
     background-size: cover;
     background-position: top;
     background-blend-mode: lighten; }
-  .cat-card--lake-zarovich {
+  .cat-card--location-11 {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BhKS1uC.png");
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: lighten; }
+  .cat-card--location-12 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/g5gBgCy.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--mount-baratok {
+  .cat-card--location-13 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/YeJikRd.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--argonvostholt {
+  .cat-card--location-14 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/a7MDVuA.png");
     background-size: cover;
     background-position: left;
     background-blend-mode: lighten; }
-  .cat-card--village-of-krezk {
+  .cat-card--location-15 {
     background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/KZksRvW.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply; }
-  .cat-card--tsolenka-pass {
+  .cat-card--location-16 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/djjBndz.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--ruins-of-berez {
+  .cat-card--location-17 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/ucyJimG.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--van-richten-tower {
+  .cat-card--location-18 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/Bl3DflE.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--wizard-of-wines {
+  .cat-card--location-19 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/GlOt2XL.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: color; }
-  .cat-card--amber-temple {
+  .cat-card--location-20 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BGevuw0.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--yester-hill {
+  .cat-card--location-21 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/vulmMJ0.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--werewolf-den {
-    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/aN6jACG.png");
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: darken; }
 
 .maps-box {
   text-align: center;
