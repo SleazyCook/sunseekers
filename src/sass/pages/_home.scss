@@ -324,7 +324,7 @@
 
     display: flex;
     justify-content: space-between;
-    align-items:end;
+    align-items:flex-end;
 
     &:hover {
       box-shadow: $box-shadow-highlight;

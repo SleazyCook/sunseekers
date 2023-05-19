@@ -1601,7 +1601,7 @@ body {
     margin: 1rem;
     display: flex;
     justify-content: space-between;
-    align-items: end; }
+    align-items: flex-end; }
     .content-links__card:hover {
       box-shadow: 5px 5px 5px grey; }
     .content-links__card--1 {
