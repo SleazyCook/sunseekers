@@ -30,7 +30,7 @@ function ContentLinks() {
     {
       number: 5,
       title: "Vallaki Market",
-      link: "/market",
+      link: "market",
       img: "https://i.imgur.com/CiucFK9.jpg"
     }
   ]
