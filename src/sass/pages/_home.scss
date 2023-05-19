@@ -4,15 +4,14 @@
   background-color: #1e1e1e;
 
   display: grid;
-  grid-template-rows: [header-start] 50vh [header-end description-start] 1fr  [description-end most-recent-start] 150vh [most-recent-end tarroka-start] 40vh [tarroka-end bonus-start] 1fr [bonus-end death-house-start] 40vh [death-house-end footer-start] 40vh [footer-end];
-  // Header, Nav, Description, Most recent Adventure, Madame Eva's Tarroka Reading, Bonus Content, Footer
+  grid-template-rows: [header-start] 50vh [header-end description-start] 1fr  [description-end most-recent-start] 150vh [most-recent-end tarroka-start] 40vh [tarroka-end death-house-start] 60vh [death-house-end bonus-start] 1fr [bonus-end footer-start] 40vh [footer-end];
 
   row-gap: 5rem;
 
   grid-template-columns: [page-horizontal-start] 2rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 2rem [home-horizontal-end];
 
   @include respond(tab-land) {
-    grid-template-rows: [header-start] 50vh [header-end description-start] 70vh  [description-end most-recent-start] 82vh [most-recent-end tarroka-start] 70vh [tarroka-end bonus-start] 1fr [bonus-end death-house-start] 40vh [death-house-end footer-start] 40vh [footer-end];
+    grid-template-rows: [header-start] 50vh [header-end description-start] 70vh  [description-end most-recent-start] 82vh [most-recent-end tarroka-start] 70vh [tarroka-end death-house-start] 60vh [death-house-end bonus-start] 1fr [bonus-end footer-start] 40vh [footer-end];
 
     grid-template-columns: [page-horizontal-start] 5rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 5rem [home-horizontal-end];
   }
@@ -279,6 +278,47 @@
 
   &__number {
     color: $color-primary;
+  }
+
+  &__title {
+    color: white;
+  }
+}
+
+.death-house {
+  background-color: purple;
+
+  grid-column: main-content-start / main-content-end ;
+  grid-row: death-house-start / death-house-end;
+
+  border-radius: 1rem;
+
+  background-image: linear-gradient(
+    to right bottom, 
+    rgba($color-primary-light, 0.7), 
+    rgba($color-primary-dark, 0.7)), 
+    url("https://i.imgur.com/ZzFQKI3.png");
+  background-size: contain;
+  background-position: top;
+
+  text-decoration: none;
+  color: white;
+
+  box-shadow: $box-shadow-dark;
+  transition: all .5s;
+
+  &:hover {
+    box-shadow: 5px 5px 5px rgba($color-primary-light, 0.7);
+  }
+
+  &__textbox {
+    max-width: 600px;
+    font-size: 1.5rem;
+    margin: 7rem 5rem;
+    padding: 3rem;
+    border-radius: 1rem;
+    background-color: $color-grey-dark-1;
+    opacity: .8;
   }
 
   &__title {

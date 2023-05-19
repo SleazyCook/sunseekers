@@ -1022,11 +1022,6 @@ body {
   .tarroka-card:hover .tarroka-card__side--back {
     transform: rotateY(0); }
 
-.death-house {
-  background-color: green;
-  grid-column: main-content-start / main-content-end;
-  grid-row: death-house-start / death-house-end; }
-
 .header {
   height: 50vh;
   background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/OGws4K3.png");
@@ -1396,12 +1391,12 @@ body {
 .home {
   background-color: #1e1e1e;
   display: grid;
-  grid-template-rows: [header-start] 50vh [header-end description-start] 1fr [description-end most-recent-start] 150vh [most-recent-end tarroka-start] 40vh [tarroka-end bonus-start] 1fr [bonus-end death-house-start] 40vh [death-house-end footer-start] 40vh [footer-end];
+  grid-template-rows: [header-start] 50vh [header-end description-start] 1fr [description-end most-recent-start] 150vh [most-recent-end tarroka-start] 40vh [tarroka-end death-house-start] 60vh [death-house-end bonus-start] 1fr [bonus-end footer-start] 40vh [footer-end];
   row-gap: 5rem;
   grid-template-columns: [page-horizontal-start] 2rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 2rem [home-horizontal-end]; }
   @media (min-width: 56.25em) {
     .home {
-      grid-template-rows: [header-start] 50vh [header-end description-start] 70vh [description-end most-recent-start] 82vh [most-recent-end tarroka-start] 70vh [tarroka-end bonus-start] 1fr [bonus-end death-house-start] 40vh [death-house-end footer-start] 40vh [footer-end];
+      grid-template-rows: [header-start] 50vh [header-end description-start] 70vh [description-end most-recent-start] 82vh [most-recent-end tarroka-start] 70vh [tarroka-end death-house-start] 60vh [death-house-end bonus-start] 1fr [bonus-end footer-start] 40vh [footer-end];
       grid-template-columns: [page-horizontal-start] 5rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 5rem [home-horizontal-end]; } }
   @media (min-width: 75em) {
     .home {
@@ -1567,6 +1562,31 @@ body {
   .less-recent__number {
     color: #771f09; }
   .less-recent__title {
+    color: white; }
+
+.death-house {
+  background-color: purple;
+  grid-column: main-content-start / main-content-end;
+  grid-row: death-house-start / death-house-end;
+  border-radius: 1rem;
+  background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.7), rgba(24, 6, 2, 0.7)), url("https://i.imgur.com/ZzFQKI3.png");
+  background-size: contain;
+  background-position: top;
+  text-decoration: none;
+  color: white;
+  box-shadow: 5px 5px 5px black;
+  transition: all .5s; }
+  .death-house:hover {
+    box-shadow: 5px 5px 5px rgba(166, 43, 13, 0.7); }
+  .death-house__textbox {
+    max-width: 600px;
+    font-size: 1.5rem;
+    margin: 7rem 5rem;
+    padding: 3rem;
+    border-radius: 1rem;
+    background-color: #1a1a1a;
+    opacity: .8; }
+  .death-house__title {
     color: white; }
 
 .content-links {
