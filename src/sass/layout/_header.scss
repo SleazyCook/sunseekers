@@ -1,5 +1,5 @@
 .header {
-  height: 50vh;
+  height:30vh;
   background-image: linear-gradient(
     to right bottom,
     rgba($color-primary-light, .8),
@@ -8,12 +8,13 @@
   background-size: cover;
   background-position: 0 0;
   position: relative;
-  border-radius: 3px;
   overflow: hidden;
+  box-shadow: $box-shadow-dark;
 
-  grid-column: 1 / 4;
-
-  
+  &--home {
+    height: 50vh;
+    grid-column: 1 / 4;
+  }
 
   &__textbox {
     position: absolute;

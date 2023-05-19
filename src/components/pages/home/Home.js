@@ -1,7 +1,8 @@
+import { useEffect } from 'react';
 
 import Title from './Title';
 
-import Header from '../../Header'
+import HeaderHome from '../../HeaderHome'
 import Navigation from '../../Navigation'
 import Description from './Description';
 import DeathHouse from './DeathHouse';
@@ -14,10 +15,14 @@ import { FaAlignCenter } from 'react-icons/fa';
 
 function Home() {
 
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0})
+  }, [])
+
   return (
     <div className="home">
       
-      <Header />
+      <HeaderHome />
 
 
 

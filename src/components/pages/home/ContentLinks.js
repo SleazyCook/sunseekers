@@ -1,6 +1,11 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function ContentLinks() {
+
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0})
+  }, [])
 
   let contentData = [
     {

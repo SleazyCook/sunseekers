@@ -18,7 +18,8 @@ function LogEntry() {
   let prevNumber = +entryNumber-1;
 
   useEffect(() => {
-    setEntryObj(logData[entryNumber-1])
+    setEntryObj(logData[entryNumber-1]);
+    window.scrollTo({top: 0, left: 0});
   }, [entryNumber])
 
   // console.log('nextNumber: ', typeof nextNumber, nextNumber)

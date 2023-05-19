@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react'
 
 import Header from '../../Header'
 import Navigation from '../../Navigation'
@@ -13,6 +13,11 @@ import OddsEnds from './OddsEnds'
 import StraightArrow from './StraightArrow'
 
 function Market() {
+
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0})
+  }, [])
+
   return (
     <div>
 
