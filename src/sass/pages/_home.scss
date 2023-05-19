@@ -4,7 +4,7 @@
   background-color: #1e1e1e;
 
   display: grid;
-  grid-template-rows: [header-start] 50vh [header-end description-start] 1fr  [description-end most-recent-start] 150vh [most-recent-end tarroka-start] 40vh [tarroka-end bonus-start] 1fr [bonus-end death-house-start] 40vh [death-house-end footer-start] 1fr [footer-end];
+  grid-template-rows: [header-start] 50vh [header-end description-start] 1fr  [description-end most-recent-start] 150vh [most-recent-end tarroka-start] 40vh [tarroka-end bonus-start] 1fr [bonus-end death-house-start] 40vh [death-house-end footer-start] 40vh [footer-end];
   // Header, Nav, Description, Most recent Adventure, Madame Eva's Tarroka Reading, Bonus Content, Footer
 
   row-gap: 5rem;
@@ -12,7 +12,7 @@
   grid-template-columns: [page-horizontal-start] 2rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 2rem [home-horizontal-end];
 
   @include respond(tab-land) {
-    grid-template-rows: [header-start] 50vh [header-end description-start] 70vh  [description-end most-recent-start] 82vh [most-recent-end tarroka-start] 70vh [tarroka-end bonus-start] 1fr [bonus-end death-house-start] 40vh [death-house-end footer-start] 1fr [footer-end];
+    grid-template-rows: [header-start] 50vh [header-end description-start] 70vh  [description-end most-recent-start] 82vh [most-recent-end tarroka-start] 70vh [tarroka-end bonus-start] 1fr [bonus-end death-house-start] 40vh [death-house-end footer-start] 40vh [footer-end];
 
     grid-template-columns: [page-horizontal-start] 5rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 5rem [home-horizontal-end];
   }
