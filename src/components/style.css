@@ -1837,7 +1837,8 @@ body {
     margin: 0 auto;
     border-radius: 5px;
     cursor: pointer;
-    transition: all .5s; }
+    transition: all .5s;
+    box-shadow: 3px 3px 3px black; }
     .tarroka-new__card--small:hover {
       transform: scale(1.1);
       box-shadow: 5px 5px 10px #ecae9c; }
@@ -1849,12 +1850,12 @@ body {
     .tarroka-new__card--small-2 {
       grid-column: 2 / 3;
       grid-row: 1 / 2;
-      background-image: url("https://i.imgur.com/PeIzBFy.png");
+      background-image: linear-gradient(to right bottom, rgba(24, 6, 2, 0.5), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/PeIzBFy.png");
       background-size: cover; }
     .tarroka-new__card--small-3 {
       grid-column: 3 / 4;
       grid-row: 2 / 3;
-      background-image: url("https://i.imgur.com/PeIzBFy.png");
+      background-image: linear-gradient(to right bottom, rgba(24, 6, 2, 0.5), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/PeIzBFy.png");
       background-size: cover; }
     .tarroka-new__card--small-4 {
       grid-column: 2 / 3;
@@ -1864,7 +1865,7 @@ body {
     .tarroka-new__card--small-5 {
       grid-column: 2 / 3;
       grid-row: 2 / 3;
-      background-image: url("https://i.imgur.com/PeIzBFy.png");
+      background-image: linear-gradient(to right bottom, rgba(24, 6, 2, 0.5), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/PeIzBFy.png");
       background-size: cover; }
 
 .vallaki-laws {

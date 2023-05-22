@@ -53,6 +53,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: all .5s;
+    box-shadow: 3px 3px 3px black;
 
     &:hover {
       transform: scale(1.1);
@@ -72,7 +73,10 @@
     &-2 {
       grid-column: 2 / 3;
       grid-row: 1 / 2;
-      background-image:  
+      background-image:  linear-gradient(
+        to right bottom, 
+        rgba($color-primary-dark, 0.5), 
+        rgba($color-primary-dark, 0.8)),
         url("https://i.imgur.com/PeIzBFy.png");
       background-size: cover;
     }
@@ -81,7 +85,10 @@
     &-3 {
       grid-column: 3 / 4;
       grid-row: 2 / 3;
-      background-image:  
+      background-image:  linear-gradient(
+        to right bottom, 
+        rgba($color-primary-dark, 0.5), 
+        rgba($color-primary-dark, 0.8)),
         url("https://i.imgur.com/PeIzBFy.png");
       background-size: cover;
     }
@@ -99,8 +106,12 @@
     &-5 {
       grid-column: 2 / 3;
       grid-row: 2 / 3;
-      background-image:  
+      background-image:  linear-gradient(
+        to right bottom, 
+        rgba($color-primary-dark, 0.5), 
+        rgba($color-primary-dark, 0.8)), 
         url("https://i.imgur.com/PeIzBFy.png");
+      // background-blend-mode: hue;
       background-size: cover;
     }
   }
