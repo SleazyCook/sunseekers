@@ -1,0 +1,107 @@
+.tarroka-new {
+  background-color: red;
+
+  height: 100vh;
+
+  background-image: linear-gradient(
+    to right bottom, 
+    rgba($color-primary-light, 0.5), 
+    rgba($color-primary-dark, 0.5)), 
+    url("https://i.imgur.com/Ene9b1B.jpg");
+  background-position-y: 50%;
+  background-size: cover;
+  // background-blend-mode: ;
+
+  &__table {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &--popup {
+      position: absolute;
+      height: 55rem;
+      width: 80rem;
+      background-color: black;
+      border-radius: 1rem;
+      z-index: 10;
+    }
+
+    &--center {
+      // border: 2px solid yellow;
+      width: 40rem;
+      height: 40rem;
+
+      display: grid;
+
+      grid-template-columns: repeat(3, 10rem);
+      grid-template-rows: repeat(3, 12rem);
+      row-gap: 3rem;
+      column-gap: 3rem;
+
+    }
+
+  }
+
+  &__card--small  {
+    height: 12rem;
+    width: 8rem;
+    background-color: black;
+    // border: 1px solid white;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s;
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 5px 5px 10px #ecae9c;
+    }
+
+    // transmuter - done
+    &-1 {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+      background-image:  
+        url("https://i.imgur.com/udpvjxn.png");
+      background-size: cover;
+    }
+
+    // monk
+    &-2 {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+      background-image:  
+        url("https://i.imgur.com/PeIzBFy.png");
+      background-size: cover;
+    }
+
+    // hooded one - in progress
+    &-3 {
+      grid-column: 3 / 4;
+      grid-row: 2 / 3;
+      background-image:  
+        url("https://i.imgur.com/PeIzBFy.png");
+      background-size: cover;
+    }
+
+    // artifact - done
+    &-4 {
+      grid-column: 2 / 3;
+      grid-row: 3 / 4;
+      background-image:  
+        url("https://i.imgur.com/tYEzwNQ.png");
+      background-size: cover;
+    }
+
+    // beast - maybe
+    &-5 {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+      background-image:  
+        url("https://i.imgur.com/PeIzBFy.png");
+      background-size: cover;
+    }
+  }
+}

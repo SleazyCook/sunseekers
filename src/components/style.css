@@ -1448,7 +1448,7 @@ body {
 .home {
   background-color: #1e1e1e;
   display: grid;
-  grid-template-rows: [header-start] 50vh [header-end description-start] 1fr [description-end most-recent-start] 150vh [most-recent-end tarroka-start] 40vh [tarroka-end death-house-start] 60vh [death-house-end bonus-start] 1fr [bonus-end footer-start] 40vh [footer-end];
+  grid-template-rows: [header-start] 50vh [header-end description-start] 50vh [description-end most-recent-start] 150vh [most-recent-end tarroka-start] 40vh [tarroka-end death-house-start] 60vh [death-house-end bonus-start] 1fr [bonus-end footer-start] 40vh [footer-end];
   row-gap: 5rem;
   grid-template-columns: [page-horizontal-start] 2rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 2rem [home-horizontal-end]; }
   @media (min-width: 56.25em) {
@@ -1802,6 +1802,70 @@ body {
   font-size: 2rem;
   text-align: center;
   color: grey; }
+
+.tarroka-new {
+  background-color: red;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.5), rgba(24, 6, 2, 0.5)), url("https://i.imgur.com/Ene9b1B.jpg");
+  background-position-y: 50%;
+  background-size: cover; }
+  .tarroka-new__table {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; }
+    .tarroka-new__table--popup {
+      position: absolute;
+      height: 55rem;
+      width: 80rem;
+      background-color: black;
+      border-radius: 1rem;
+      z-index: 10; }
+    .tarroka-new__table--center {
+      width: 40rem;
+      height: 40rem;
+      display: grid;
+      grid-template-columns: repeat(3, 10rem);
+      grid-template-rows: repeat(3, 12rem);
+      row-gap: 3rem;
+      column-gap: 3rem; }
+  .tarroka-new__card--small {
+    height: 12rem;
+    width: 8rem;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s; }
+    .tarroka-new__card--small:hover {
+      transform: scale(1.1);
+      box-shadow: 5px 5px 10px #ecae9c; }
+    .tarroka-new__card--small-1 {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+      background-image: url("https://i.imgur.com/udpvjxn.png");
+      background-size: cover; }
+    .tarroka-new__card--small-2 {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+      background-image: url("https://i.imgur.com/PeIzBFy.png");
+      background-size: cover; }
+    .tarroka-new__card--small-3 {
+      grid-column: 3 / 4;
+      grid-row: 2 / 3;
+      background-image: url("https://i.imgur.com/PeIzBFy.png");
+      background-size: cover; }
+    .tarroka-new__card--small-4 {
+      grid-column: 2 / 3;
+      grid-row: 3 / 4;
+      background-image: url("https://i.imgur.com/tYEzwNQ.png");
+      background-size: cover; }
+    .tarroka-new__card--small-5 {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+      background-image: url("https://i.imgur.com/PeIzBFy.png");
+      background-size: cover; }
 
 .vallaki-laws {
   font-family: "Yatra One", cursive;

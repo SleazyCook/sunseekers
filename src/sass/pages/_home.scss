@@ -4,7 +4,9 @@
   background-color: #1e1e1e;
 
   display: grid;
-  grid-template-rows: [header-start] 50vh [header-end description-start] 1fr  [description-end most-recent-start] 150vh [most-recent-end tarroka-start] 40vh [tarroka-end death-house-start] 60vh [death-house-end bonus-start] 1fr [bonus-end footer-start] 40vh [footer-end];
+  grid-template-rows: [header-start] 50vh [header-end description-start] 50vh  [description-end most-recent-start] 150vh [most-recent-end tarroka-start] 40vh [tarroka-end death-house-start] 60vh [death-house-end bonus-start] 1fr [bonus-end footer-start] 40vh [footer-end];
+
+  // grid-template-rows: [header-start] 50vh [header-end description-start] 70vh  [description-end most-recent-start] 82vh [most-recent-end tarroka-start] 70vh [tarroka-end death-house-start] 60vh [death-house-end bonus-start] 1fr [bonus-end footer-start] 40vh [footer-end];
 
   row-gap: 5rem;
 

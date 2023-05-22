@@ -13,6 +13,8 @@ function Resources() {
     window.scrollTo({top: 0, left: 0});
   }, [])
 
+  // console.log(010)
+
   return (
     <div>
 
@@ -22,6 +24,8 @@ function Resources() {
       <div className="resources">
         <div className="heading-secondary resources__title">Player Resources</div>
       </div>
+
+
       
       
       <div className="flexbox">
