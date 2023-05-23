@@ -22,6 +22,8 @@ import Market from './components/pages/market/Market'
 
 import Locations from './components/pages/locations/Locations'
 
+import WorldMap from './components/pages/locations/WorldMap'
+
 import Players from './components/pages/characters/sunseekers/Players'
 import Characters from './components/pages/characters/Characters'
 import Baron from './components/pages/characters/Baron'
@@ -110,6 +112,10 @@ export const router = createBrowserRouter([
       {
         path: "locations",
         element: <Locations />
+      },
+      {
+        path: "locations/map",
+        element: <WorldMap />
       },
       {
         path: "characters",

@@ -76,36 +76,40 @@ let locationsData = [
   },
   {
     number: 16,
+    name: "Mount Ghakis"
+  },
+  {
+    number: 17,
     name: "Tsolenka Pass",
     img: ""
   },
   {
-    number: 17,
+    number: 18,
     name: "Ruins of Berez",
     img: ""
   },
   {
-    number: 18,
+    number: 19,
     name: "Van Richten's Tower",
     img: ""
   },
   {
-    number: 19,
+    number: 20,
     name: "Wizard of Wines",
     img: ""
   },
   {
-    number: 20,
+    number: 21,
     name: "Amber Temple",
     img: ""
   },
   {
-    number: 21,
+    number: 22,
     name: "Yester Hill",
     img: ""
   },
   // {
-  //   number: 21,
+  //   number: 23,
   //   name: "Werewolf Den",
   //   img: ""
   // }

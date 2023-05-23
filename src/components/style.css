@@ -31,6 +31,18 @@
     transform: rotateX(0);
     transform-origin: left; } }
 
+@keyframes rotate-div {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+  50% {
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+  100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    background-color: #ec407a; } }
+
 *,
 *::before,
 *::after {
@@ -566,31 +578,36 @@ body {
     background-position: center;
     background-blend-mode: multiply; }
   .cat-card--location-16 {
-    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/djjBndz.png");
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/UOUFifH.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
   .cat-card--location-17 {
-    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/ucyJimG.png");
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/djjBndz.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
   .cat-card--location-18 {
-    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/Bl3DflE.png");
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/ucyJimG.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
   .cat-card--location-19 {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/Bl3DflE.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten; }
+  .cat-card--location-20 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/GlOt2XL.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: color; }
-  .cat-card--location-20 {
+  .cat-card--location-21 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BGevuw0.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--location-21 {
+  .cat-card--location-22 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/vulmMJ0.png");
     background-size: cover;
     background-position: center;
@@ -2001,3 +2018,37 @@ body {
   color: #a62b0d;
   font-size: 2rem;
   padding: 3rem; }
+
+.world-map {
+  text-align: center;
+  position: relative;
+  height: 99rem;
+  width: 145rem;
+  background-image: url("https://i.imgur.com/28ypbbJ.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .world-map__flexbox {
+    display: flex;
+    text-align: center;
+    justify-content: center; }
+  .world-map__map {
+    height: 100%; }
+  .world-map__pin {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: red; }
+  .world-map__location-name {
+    font-family: arial;
+    color: black; }
+  .world-map__coordinates {
+    position: absolute;
+    z-index: 10;
+    height: 5rem;
+    width: 5rem;
+    background-color: black;
+    border: 3px solid white; }
+    .world-map__coordinates--1 {
+      top: 10%;
+      left: 10%; }

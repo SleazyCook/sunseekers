@@ -466,18 +466,18 @@
       to right bottom, 
       rgba($color-primary-light, 0.8),  
       rgba($color-primary-dark, 0.8)), 
-      url("https://i.imgur.com/djjBndz.png");
+      url("https://i.imgur.com/UOUFifH.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten;
   }
-
+  
   &--location-17 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
       rgba($color-primary-dark, 0.8)), 
-      url("https://i.imgur.com/ucyJimG.png");
+      url("https://i.imgur.com/djjBndz.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten;
@@ -488,7 +488,7 @@
       to right bottom, 
       rgba($color-primary-light, 0.8),  
       rgba($color-primary-dark, 0.8)), 
-      url("https://i.imgur.com/Bl3DflE.png");
+      url("https://i.imgur.com/ucyJimG.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten;
@@ -499,13 +499,24 @@
       to right bottom, 
       rgba($color-primary-light, 0.8),  
       rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/Bl3DflE.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+  }
+
+  &--location-20 {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8),  
+      rgba($color-primary-dark, 0.8)), 
       url("https://i.imgur.com/GlOt2XL.png");
     background-size: cover;
     background-position: center;
     background-blend-mode:color;
   }
 
-  &--location-20 {
+  &--location-21 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -516,7 +527,7 @@
     background-blend-mode: lighten;
   }
   
-  &--location-21 {
+  &--location-22 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  

@@ -1,0 +1,51 @@
+.world-map {
+  text-align: center;
+  position: relative;
+
+  height: 99rem;
+  width: 145rem;
+
+
+  background-image: 
+    url("https://i.imgur.com/28ypbbJ.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &__flexbox {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  &__map {
+    height: 100%;
+  }
+
+  &__pin {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: red;;
+  }
+
+  &__location-name {
+    font-family: arial;
+    color: black;
+  }
+
+  &__coordinates {
+    position: absolute;
+
+    z-index: 10;
+    height: 5rem;
+    width: 5rem;
+    background-color: black;
+    border: 3px solid white;
+
+    &--1 {
+      top: 10%;
+      left: 10%;
+    }
+  }
+}
