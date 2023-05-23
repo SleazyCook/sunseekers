@@ -313,9 +313,31 @@ let logData = [
     realDate: "March 25th, 2023",
     numDate: "3/25/2023",
     imgUrl: "",
-    localLinks: {},
+    localLinks: {
+      "dusk elf": "/characters/castle-ravenloft"
+    },
     short: "",
-    entry: ""
+    entry: `  Elizana, Freebird, and Umnos find themselves on the balcony of ~Castle Ravenloft~'s chapel.  They can see that two obscured figures are sitting in throne chairs overlooking the chapel floor.  They cautiously peer around the high backed chairs to see zombies dressed up to resemble the recently deceased brides of Strahd, Anastrasya and Volenta. Before the sunseekers can draw their weapons, a cold hand gently lands on their shoulders.  
+    
+    "An attempt to honor the dead, it's like they're still here with us - it's as if you haven't taken their lives." For the first time, Strahd and Umnos stand face-to-face. "I'll make you sunseekers a deal: Kill one of your little party members in front of me and I won't have to. It's only fair, you've taken two of my wives and I'm only asking for one of you in return." Umnos orders the party to run out of the Castle as fast as they can.
+    
+    Elizana makes it to the Great Entry before being blocked by gargoyles and wyverns.  An armored ~dusk elf~ with brown skin and long black hair descends the wide staircase, quiet as a cat. He wears a gray clock over black studded armor and has a polished scimitar hanging from his belt. "My master has not allowed you to leave," he says. Umnos is charmed by the vampire Strahd freezing him in place long enough for him to chase Freedbird into the Grand Entry to kill Freebird in front of both Umnos and Elizana. "Now that wasn't so bad, was it?" he says, cleaning the blood off of his hands. "Who's next?" he asks before a loud door slams open down a hall.
+    
+    A soft, but stern voice is heard saying "My love, I need these two at Tsolenka. Surely you can find something else to play with." Elizana looks to see an unfamiliar woman with her hands on her hips. Strahd looks at the dead bird on the ground and the horrified faces of the remaining sunseekers. "I suppose I've had my fun for now. They're all yours, Ludmilla."
+    
+    When Elizana and Umnos first arrived in Castle Ravenloft together, they were five strong. Now, being led by Ludmilla and gargoyles towards the depths of the dungeons, they are less than half the party they once were. Ireena and Lancelot are missing and the corpse of Freebird is being hauled by Umnos. Filled with defeat, they are marched to a room with a stone brazier burning fiercely.  Its tall white flames produce no heat.  Overhead, a wood-framed hourglass as tall and wide as a dwarf hangs ten feet above the brazier, suspended from the ceiling by thick iron chains. All the sand is stuck in the upper portion of the hourglass, seemingly unable to run down to the bottom.  Written in script on the base of the hourflass is a verse in common:
+
+    Cast a stone into the fire:
+    Violet leads to the mountain spire
+    Orange to the castle's peak
+    Red if lore is what you seek
+    Green to where the coffins hide
+    Indigo to the master's bride
+    Blue to ancient magic's tomb
+    Yellow to the master's tomb
+
+    Umnos eyes the stones and motions to Elizana to snatch one up just before they are teleported to another room. The room is small and octaganol. The temperature has dropped significantly and pressure has spiked upwards. Outside the a window there are sounds of crushing metal and gnashing teeth followed by the familiar sound of Safzira's voice shouting in the distance "Kasimir!"
+     `
   },
   {
     number: 20,
