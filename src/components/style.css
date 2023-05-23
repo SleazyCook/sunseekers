@@ -1820,7 +1820,8 @@ body {
   .tarroka-pop__header {
     color: white;
     text-align: center;
-    background-color: #771f09; }
+    background-color: #771f09;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%); }
   .tarroka-pop__flexbox {
     display: flex;
     padding: 2rem; }
