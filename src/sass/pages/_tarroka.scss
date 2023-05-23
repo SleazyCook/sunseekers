@@ -192,9 +192,11 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    transition: all .5s;
 
-    // &--popup {
-    // }
+    &--popup {
+      animation: flipIn .25s ease 0s 1 normal forwards;
+    }
 
     &--center {
       width: 40rem;

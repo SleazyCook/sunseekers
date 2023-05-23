@@ -12,10 +12,11 @@ function TarrokaModal({cardObj, setCardOpen}) {
 
         <div className="tarroka-card">
           <div className="tarroka-card__side tarroka-card__side--front">
-            <img src={`${cardObj.cardFront}`} />
+            <img src="https://i.imgur.com/i5jBvTr.png" />
+            
           </div> {/* side--front end */}
           <div className="tarroka-card__side tarroka-card__side--back">
-            <img src="https://i.imgur.com/i5jBvTr.png" />
+            <img src={`${cardObj.cardFront}`} />
           </div> {/* side--back end */}
         </div> {/* card end */}
 

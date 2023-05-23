@@ -21,6 +21,16 @@
   100% {
     opacity: 1; } }
 
+@keyframes flipIn {
+  0% {
+    opacity: 0;
+    transform: rotateY(100deg);
+    transform-origin: left; }
+  100% {
+    opacity: 1;
+    transform: rotateX(0);
+    transform-origin: left; } }
+
 *,
 *::before,
 *::after {
@@ -1935,7 +1945,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative; }
+    position: relative;
+    transition: all .5s; }
+    .tarroka-new__table--popup {
+      animation: flipIn .25s ease 0s 1 normal forwards; }
     .tarroka-new__table--center {
       width: 40rem;
       height: 40rem;
