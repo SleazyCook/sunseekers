@@ -22,7 +22,7 @@ function TarrokaTranscript({setTransOpen}) {
 
         The cerulean light dances across its surface, revealing an illustration of a powerful sorceress extends her four arms. One hand clasps a torch, one a glowing orb, and the final two contain a single coin each.<br /><br />
 
-        "The Eight of glyphs - the Transmuter" Her dark pupils shift from side to side, as though reading from an unseen text. "Go to a place of dizzying heights, where the stone itself is alive!"<br /><br />
+        "The One of Stars - the Transmuter" Her dark pupils shift from side to side, as though reading from an unseen text. "Go to a place of dizzying heights, where the stone itself is alive!"<br /><br />
 
         She moves her hand to the second card, this one at the top of the cross. As she closes her eyes and listens once more, the candlelight flares, its color bursting into a fierce, cheery yellow.<br /><br />
 
@@ -32,7 +32,7 @@ function TarrokaTranscript({setTransOpen}) {
 
         This time, the light reveals a new illustration: a portly man about to pour himself another drink from the cask under his arm. <br /><br />
 
-        "The Three of coins - the Monk". Her eyes stare deep into the shadows that lurk in the corners of the tent. "The treasure you seek is hidden behind the sun, in the house of a saint."<br /><br />
+        "The One of Glyphs - the Monk". Her eyes stare deep into the shadows that lurk in the corners of the tent. "The treasure you seek is hidden behind the sun, in the house of a saint."<br /><br />
 
         She moves her hand to the third card, at the right arm of the cross, her eyelids closing like a trance, her lips pursed in quiet contemplation. The candlelight vanishes, for a heartbeat - and then returns in a nova of fierce, burning white, so pure and strong and clean that it hurts to look at, burns to see—<br /><br />
 
@@ -50,7 +50,7 @@ function TarrokaTranscript({setTransOpen}) {
 
         This time, the illustration revealed is a strange decorated jar contains a human skull with a dark, hollow gaze. Its scalp is carved with symbols of profane arcanum.<br /><br />
 
-        "The Joker - the Artifact". Madam Eva leans forward with a hushed intensity to her voice "Look for an entertaining man with a monkey. This man is more than he seems."<br /><br />
+        "From the High deck - the Artifact". Madam Eva leans forward with a hushed intensity to her voice "Look for an entertaining man with a monkey. This man is more than he seems."<br /><br />
 
         Finally, she moves her hand to the fifth card - and nearly recoils, her brow furrowing until the wrinkles split her forehead like a trench. Behind her, shadows encircle the candlelight until the light is very nearly swallowed by the creeping dark.<br /><br />
 
@@ -59,7 +59,9 @@ function TarrokaTranscript({setTransOpen}) {
         Her hand trembles above the card for a silent moment - and then deft, ancient fingers reveal its opposite side.<br /><br />
 
         "In the darkness, the fifth and final illustration is only barely visible through the smoke and unnatural murk:<br />
-        a grotesque beast with menacing fangs and long claws rips apart an iron fence, a village sleeps peacefully behind it Madam Eva slowly exhales."The Jester - the Beast. The beast sits on his dark throne.<br /><br />
+        a grotesque beast with menacing fangs and long claws rips apart an iron fence, a village sleeps peacefully behind it Madam Eva slowly exhales.<br /><br />
+        
+        "From the High Deck - the Beast. The beast sits on his dark throne.<br /><br />
 
         the last syllable passes her lips, the old woman freezes - and then rocks back in her chair, her eyes rolling until their whites gleam like pearls in the darkness - and then she snaps back, the candlelight burning down to its customary crimson glow.<br /><br />
 
