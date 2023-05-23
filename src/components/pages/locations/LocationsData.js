@@ -2,22 +2,26 @@ let locationsData = [
   {
     number: 1,
     name: "Mists of Barovia",
-    img: ""
+    img: "",
+    link: "/locations/mists-of-barovia"
   },
   {
     number: 2,
     name: "Old Svalich Road",
-    img: ""
+    img: "",
+    link: "/locations/old-svalich-road"
   },
   {
     number: 3,
     name: "Svalich Woods",
-    img: ""
+    img: "",
+    link: "/locations/svalich-woods"
   },
   {
     number: 4, 
     name: "River Ivlis",
-    img: ""
+    img: "",
+    link: "/locations/river-ivlis"
   },
   {
     number: 5,

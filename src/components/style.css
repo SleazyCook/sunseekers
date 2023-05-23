@@ -2035,20 +2035,84 @@ body {
   .world-map__map {
     height: 100%; }
   .world-map__pin {
-    height: 5rem;
-    width: 5rem;
+    height: 2rem;
+    width: 2rem;
+    display: block;
+    border: 2px solid white;
     border-radius: 50%;
-    background-color: red; }
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)); }
+    .world-map__pin:hover + .world-map__location-name {
+      opacity: 1; }
   .world-map__location-name {
     font-family: arial;
-    color: black; }
+    color: black;
+    opacity: 0;
+    transition: all .3s; }
   .world-map__coordinates {
-    position: absolute;
-    z-index: 10;
-    height: 5rem;
-    width: 5rem;
-    background-color: black;
-    border: 3px solid white; }
+    position: absolute; }
     .world-map__coordinates--1 {
-      top: 10%;
+      top: 5%;
       left: 10%; }
+    .world-map__coordinates--2 {
+      top: 60%;
+      right: 6%; }
+    .world-map__coordinates--3 {
+      top: 43%;
+      right: 3%; }
+    .world-map__coordinates--4 {
+      top: 70%;
+      right: 11%; }
+    .world-map__coordinates--5 {
+      top: 61%;
+      right: 11%; }
+    .world-map__coordinates--6 {
+      top: 61%;
+      right: 23%; }
+    .world-map__coordinates--7 {
+      top: 46%;
+      right: 32%; }
+    .world-map__coordinates--8 {
+      top: 52%;
+      right: 20%; }
+    .world-map__coordinates--9 {
+      top: 44%;
+      right: 47.5%; }
+    .world-map__coordinates--10 {
+      top: 33%;
+      left: 41%; }
+    .world-map__coordinates--11 {
+      top: 36%;
+      left: 39%; }
+    .world-map__coordinates--12 {
+      top: 25%;
+      left: 47%; }
+    .world-map__coordinates--13 {
+      top: 10%;
+      left: 35%; }
+    .world-map__coordinates--14 {
+      top: 47%;
+      left: 33%; }
+    .world-map__coordinates--15 {
+      top: 30%;
+      left: 15%; }
+    .world-map__coordinates--16 {
+      top: 80%;
+      left: 47%; }
+    .world-map__coordinates--17 {
+      top: 72%;
+      left: 27.5%; }
+    .world-map__coordinates--18 {
+      top: 60%;
+      left: 34%; }
+    .world-map__coordinates--19 {
+      top: 28%;
+      left: 24%; }
+    .world-map__coordinates--20 {
+      top: 47%;
+      left: 12%; }
+    .world-map__coordinates--22 {
+      top: 77%;
+      left: 36%; }
+    .world-map__coordinates--21 {
+      top: 63%;
+      left: 7%; }

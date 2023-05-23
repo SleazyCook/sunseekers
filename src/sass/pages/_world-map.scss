@@ -1,10 +1,8 @@
 .world-map {
   text-align: center;
   position: relative;
-
   height: 99rem;
   width: 145rem;
-
 
   background-image: 
     url("https://i.imgur.com/28ypbbJ.jpg");
@@ -23,29 +21,166 @@
   }
 
   &__pin {
-    height: 5rem;
-    width: 5rem;
+    height: 2rem;
+    width: 2rem;
+    display: block;
+    border: 2px solid white;
+
     border-radius: 50%;
-    background-color: red;;
+
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8),  
+      rgba($color-primary-dark, 0.8));
+
+    &:hover + .world-map__location-name {
+      opacity: 1;
+    }
   }
 
   &__location-name {
     font-family: arial;
     color: black;
+    opacity: 0;
+    transition: all .3s;
   }
 
   &__coordinates {
     position: absolute;
 
-    z-index: 10;
-    height: 5rem;
-    width: 5rem;
-    background-color: black;
-    border: 3px solid white;
 
+    // Mists of Barovia
     &--1 {
-      top: 10%;
+      top: 5%;
       left: 10%;
     }
+
+    // Old Svalich Road
+    &--2 {
+      top: 60%;
+      right: 6%;
+    }
+
+    // Svalich Woods
+    &--3 {
+      top: 43%;
+      right: 3%;
+    }
+
+    // River Ivlis
+    &--4 {
+      top: 70%;
+      right: 11%;
+    }
+
+    // Village of Barovia
+    &--5 {
+      top: 61%;
+      right: 11%;
+    }
+
+    // Tser Pool Encampment
+    &--6 {
+      top: 61%;
+      right: 23%;
+    }
+
+    // Black Carriage
+    &--7 {
+      top: 46%;
+      right: 32%;
+    }
+
+    // Castle Ravenloft
+    &--8 {
+      top: 52%;
+      right: 20%;
+    }
+
+    // Old Mill
+    &--9 {
+      top: 44%;
+      right: 47.5%;
+    }
+
+    // Vallaki
+    &--10 {
+      top: 33%;
+      left: 41%;
+    }
+
+    // Vallaki Vistani Camp 
+    &--11 {
+      top: 36%;
+      left: 39%;
+    }
+
+    // Lake Zarovich
+    &--12 {
+      top: 25%;
+      left: 47%;
+    }
+
+    // Mount Baratok
+    &--13 {
+      top: 10%;
+      left: 35%;
+    }
+
+    // Argonvostholt
+    &--14 {
+      top: 47%;
+      left: 33%;
+    }
+
+    // Village of Krezk
+    &--15 {
+      top: 30%;
+      left: 15%;
+    }
+
+    // Mount Ghakis
+    &--16 {
+      top: 80%;
+      left: 47%;
+    }
+
+    // Tsolenka Pass
+    &--17 {
+      top: 72%;
+      left: 27.5%;
+    }
+
+    // Ruins of Berez
+    &--18 {
+      top:  60%;
+      left: 34%;
+    }
+
+    // Van Richten's Tower
+    &--19 {
+      top: 28%;
+      left: 24%;
+    }
+
+    // Wizard of Wines
+    &--20 {
+      top: 47%;
+      left: 12%;
+    }
+
+    // Amber Temple
+    &--22 {
+      top: 77%;
+      left: 36%;
+    }
+
+    // Yester Hill
+    &--21 {
+      top: 63%;
+      left: 7%;
+    }
+
+
   }
 }
