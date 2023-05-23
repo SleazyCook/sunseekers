@@ -1878,6 +1878,20 @@ body {
           height: 20rem;
           margin-left: 3rem; } }
 
+.tarroka__transcript {
+  background-color: black;
+  height: 70vh;
+  width: 70vw;
+  border-radius: 1rem;
+  overflow: scroll;
+  padding: 2rem;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */ }
+  .tarroka__transcript::-webkit-scrollbar {
+    display: none; }
+
 .tarroka-new {
   position: relative;
   height: 100vh;
@@ -1900,6 +1914,22 @@ body {
     -ms-user-select: none;
     /* Internet Explorer/Edge */
     user-select: none; }
+    .tarroka-new__header--transcript {
+      left: 80%;
+      color: black;
+      color: #771f09;
+      height: 8rem;
+      width: 20rem;
+      text-align: center;
+      padding: 2rem;
+      padding-right: 2.5rem;
+      font-size: 2rem;
+      background-image: url("https://i.imgur.com/4hZPx17.png");
+      background-size: cover;
+      cursor: pointer;
+      transition: all .5s; }
+      .tarroka-new__header--transcript:hover {
+        transform: scale(1.1); }
   .tarroka-new__table {
     height: 100vh;
     display: flex;

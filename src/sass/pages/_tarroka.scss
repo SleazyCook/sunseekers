@@ -118,6 +118,23 @@
       }
     }
   }
+
+  &__transcript {
+    background-color: black;
+    height: 70vh;
+    width: 70vw;
+    border-radius: 1rem;
+    overflow: scroll;
+    padding: 2rem;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
 }
 
 
@@ -147,6 +164,26 @@
        -moz-user-select: none; /* Old versions of Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; 
+
+    &--transcript {
+      left: 80%;
+      color: black;
+      color: $color-primary;
+      height: 8rem;
+      width: 20rem;
+      text-align: center;
+      padding: 2rem;
+      padding-right: 2.5rem;
+      font-size: 2rem;
+      background-image: 
+        url("https://i.imgur.com/4hZPx17.png");
+      background-size: cover;
+      cursor: pointer;
+      transition: all .5s;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
   }
 
   &__table {

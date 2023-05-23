@@ -1,9 +1,6 @@
 import { Link } from 'react-router-dom'
 
 function TarrokaModal({cardObj, setCardOpen}) {
-
-  console.log(cardObj)
-
   return (
     <div className="fuckity" id="detailed-media-parent" onClick={()=>{setCardOpen(false)}} >
 
