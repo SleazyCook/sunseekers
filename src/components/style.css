@@ -1824,7 +1824,11 @@ body {
     clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%); }
   .tarroka-pop__flexbox {
     display: flex;
-    padding: 2rem; }
+    padding: 2rem;
+    flex-direction: column; }
+    @media (min-width: 37.5em) {
+      .tarroka-pop__flexbox {
+        flex-direction: row; } }
   .tarroka-pop__details-box {
     padding: 3rem 3rem 3rem 3rem;
     max-width: 50%;
@@ -1844,11 +1848,16 @@ body {
       height: 25rem; }
 
 .tarroka-new {
-  background-color: red;
+  position: relative;
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.5), rgba(24, 6, 2, 0.5)), url("https://i.imgur.com/Ene9b1B.jpg");
   background-position-y: 50%;
   background-size: cover; }
+  .tarroka-new__header {
+    color: white;
+    position: absolute;
+    top: 0%;
+    left: 10%; }
   .tarroka-new__table {
     height: 100vh;
     display: flex;

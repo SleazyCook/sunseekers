@@ -28,7 +28,10 @@ function TarrokaReading() {
       <Navigation />
 
       <div className="tarroka-new">
+        
         <div className="tarroka-new__table">
+
+        {!cardOpen && <div className="tarroka-new__header heading-secondary">Madame Eva's<br />Tarroka Reading</div>}
 
           {cardOpen && <TarrokaModal cardObj={cardObj} setCardOpen={setCardOpen}/>}
 
