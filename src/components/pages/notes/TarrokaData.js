@@ -74,7 +74,7 @@ let tarrokaData = [
     cardFront: "https://i.imgur.com/QabQGME.png",
     reading: "Your enemy is a creature of darkness, whose powers are beyond mortality. This card will lead you to him!",
     tip: "The beast sits on his dark throne.",
-    update: "The Tome of Strahd, detailing Strahd's intimate history, was found atop the Heart of Sorrow, a tall tower in Castle Ravenloft.",
+    update: "Umnos and Elizana discovered a throne on the second floor of Castle Ravenloft",
     found: false,
     reward: "Defeat Strahd",
     img: "",
