@@ -11,12 +11,6 @@ function TarrokaReading() {
   const [cardOpen, setCardOpen] = useState(false);
   const [cardObj, setCardObj] = useState({});
 
-  // function openCardOpen(event) {
-    // setCardOpen(true)
-    // setCardObj(tarrokaData[event.target.key])
-    // console.log(event.target.value)
-  // }
-
   useEffect(() => {
     window.scrollTo({top: 0, left: 0})
   }, [])

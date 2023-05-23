@@ -1855,8 +1855,10 @@ body {
       background-color: #1c1c1c;
       border-radius: 1rem;
       margin-top: 1rem;
-      margin-left: 5rem; }
+      margin-left: 5rem;
+      transition: all .5s; }
       .tarroka-pop__reward-img-1:hover {
+        transform: scale(1.05);
         box-shadow: 5px 5px 5px rgba(119, 31, 9, 0.8); }
       @media (min-width: 112.5em) {
         .tarroka-pop__reward-img-1 {
@@ -1866,8 +1868,10 @@ body {
       height: 15rem;
       margin-left: 5rem;
       margin-top: 1rem;
-      border-radius: 1rem; }
+      border-radius: 1rem;
+      transition: all .5s; }
       .tarroka-pop__reward-img-4:hover {
+        transform: scale(1.05);
         box-shadow: 5px 5px 5px rgba(119, 31, 9, 0.8); }
       @media (min-width: 112.5em) {
         .tarroka-pop__reward-img-4 {

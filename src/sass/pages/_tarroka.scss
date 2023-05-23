@@ -74,7 +74,10 @@
         border-radius: 1rem;
         margin-top: 1rem;
         margin-left: 5rem;
+        transition: all .5s;
+
         &:hover {
+          transform: scale(1.05);
           box-shadow: 5px 5px 5px rgba($color-primary,.8);
         }
 
@@ -97,8 +100,10 @@
         margin-left: 5rem;
         margin-top: 1rem;
         border-radius: 1rem;
+        transition: all .5s;
 
         &:hover {
+          transform: scale(1.05);
           box-shadow: 5px 5px 5px rgba($color-primary,.8);
         }
 
@@ -151,17 +156,13 @@
     align-items: center;
     position: relative;
 
-    &--popup {
-      // see above tarroka-pop 
-    }
+    // &--popup {
+    // }
 
     &--center {
-      // border: 2px solid yellow;
       width: 40rem;
       height: 40rem;
-
       display: grid;
-
       grid-template-columns: repeat(3, 10rem);
       grid-template-rows: repeat(3, 12rem);
       row-gap: 3rem;
@@ -187,12 +188,11 @@
       box-shadow: 5px 5px 10px #ecae9c;
     }
 
-    // transmuter - done
+    // transmuter
     &-1 {
       grid-column: 1 / 2;
       grid-row: 2 / 3;
       background-image:  
-        // url("https://i.imgur.com/udpvjxn.png");
         url("https://i.imgur.com/zciYECT.png");
       background-size: cover;
       background-position: center;
@@ -210,7 +210,7 @@
       background-size: cover;
     }
 
-    // hooded one - in progress
+    // hooded one
     &-3 {
       grid-column: 3 / 4;
       grid-row: 2 / 3;
@@ -222,7 +222,7 @@
       background-size: cover;
     }
 
-    // artifact - done
+    // artifact 
     &-4 {
       grid-column: 2 / 3;
       grid-row: 3 / 4;
@@ -231,7 +231,7 @@
       background-size: cover;
     }
 
-    // beast - maybe
+    // beast 
     &-5 {
       grid-column: 2 / 3;
       grid-row: 2 / 3;
