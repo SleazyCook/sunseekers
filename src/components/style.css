@@ -1857,7 +1857,18 @@ body {
     color: white;
     position: absolute;
     top: 0%;
-    left: 10%; }
+    left: 10%;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none; }
   .tarroka-new__table {
     height: 100vh;
     display: flex;
