@@ -1803,6 +1803,45 @@ body {
   text-align: center;
   color: grey; }
 
+.tarroka-pop {
+  position: absolute;
+  height: 55rem;
+  width: 80rem;
+  background-color: black;
+  border-radius: 1rem;
+  z-index: 10;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */ }
+  .tarroka-pop::-webkit-scrollbar {
+    display: none; }
+  .tarroka-pop__header {
+    color: white;
+    text-align: center;
+    background-color: #771f09; }
+  .tarroka-pop__flexbox {
+    display: flex;
+    padding: 2rem; }
+  .tarroka-pop__details-box {
+    padding: 3rem 3rem 3rem 3rem;
+    max-width: 50%;
+    margin-left: 5rem; }
+    .tarroka-pop__details-box span {
+      display: inline-block;
+      margin-bottom: 1rem; }
+      .tarroka-pop__details-box span a {
+        color: white; }
+  .tarroka-pop__reward-img {
+    text-align: center;
+    padding: 3rem; }
+    .tarroka-pop__reward-img-1 {
+      padding: 1rem;
+      height: 25rem; }
+    .tarroka-pop__reward-img-4 {
+      height: 25rem; }
+
 .tarroka-new {
   background-color: red;
   height: 100vh;
@@ -1815,13 +1854,6 @@ body {
     justify-content: center;
     align-items: center;
     position: relative; }
-    .tarroka-new__table--popup {
-      position: absolute;
-      height: 55rem;
-      width: 80rem;
-      background-color: black;
-      border-radius: 1rem;
-      z-index: 10; }
     .tarroka-new__table--center {
       width: 40rem;
       height: 40rem;

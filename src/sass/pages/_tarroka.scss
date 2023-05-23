@@ -1,3 +1,79 @@
+.tarroka {
+  &-pop {
+    position: absolute;
+    height: 55rem;
+    width: 80rem;
+    background-color: black;
+    border-radius: 1rem;
+    z-index: 10;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    &__header {
+      color: white;
+      // padding: .25rem;
+      text-align: center;
+      background-color: $color-primary;
+    }
+
+    &__flexbox {
+      display: flex;
+      // border: 2px solid white;
+      padding: 2rem;
+    }
+
+    &__details-box {
+      padding: 3rem 3rem 3rem 3rem;
+      max-width: 50%;
+      margin-left: 5rem;
+      // border: 3px solid red;
+
+      & span {
+        display: inline-block;
+        margin-bottom: 1rem;
+
+        & a {
+          color: white;
+          // text-decoration: none;
+        }
+      }
+    }
+
+    &__reward-img{
+      // border: 3px solid red;
+      text-align: center;
+      padding: 3rem ;
+
+      &-1 {
+        padding: 1rem ;
+        height: 25rem;
+      }
+
+      &-2 {
+
+      }
+
+      &-3 {
+
+      }
+
+      &-4 {
+        height: 25rem;
+      }
+
+      &-5 {
+
+      }
+    }
+  }
+}
+
 .tarroka-new {
   background-color: red;
 
@@ -20,12 +96,7 @@
     position: relative;
 
     &--popup {
-      position: absolute;
-      height: 55rem;
-      width: 80rem;
-      background-color: black;
-      border-radius: 1rem;
-      z-index: 10;
+      // see above tarroka-pop 
     }
 
     &--center {

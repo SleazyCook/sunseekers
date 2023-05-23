@@ -8,6 +8,11 @@ let tarrokaData = [
     reading: "This card tells of history. Knowledge of the Ancient will help you better understand your enemy.",
     tip: "Go to a place of dizzying heights, where the stone itself is alive!",
     update: "The Tome of Strahd, detailing Strahd's intimate history, was found atop the Heart of Sorrow, a tall tower in Castle Ravenloft.",
+    found: true,
+    reward: "Tome of Strahd",
+    img: "https://i.imgur.com/zciYECT.png",
+    imgAlt: "tome of Strahd",
+    imgLink: "/notes/strahd-notes"
   },
 
 
@@ -20,6 +25,11 @@ let tarrokaData = [
     reading: "This card tells of a powerful force for good and protection, a holy symbol of great hope.",
     tip: "The treasure you seek is hidden behind the sun, in the house of a saint",
     update: "No known whereabouts",
+    found: false,
+    reward: "Holy Symbol of Ravenkind",
+    img: "",
+    imgAlt: "holy symbol of ravenkind",
+    imgLink: "/notes/strahd-notes"
   },
 
   // hooded one
@@ -31,6 +41,11 @@ let tarrokaData = [
     reading: "This is a card of power and strength. It tells of a weapon of vengeance; a sword of sunlight.",
     tip: "I see a faceless god. He awaits you at the end of a long and winding road, deep in the mountains.",
     update: "Safzira is headed to the Amber Temple at the end of a long a winding road, deep in the mountains",
+    found: false,
+    reward: "Sunsword",
+    img: "",
+    imgAlt: "Drawing of Sunsword",
+    imgLink: "/notes/strahd-notes"
   },
 
 
@@ -43,6 +58,11 @@ let tarrokaData = [
     reading: "This card sheds light on one who will help you greatly in the battle against darkness",
     tip: "Look for an entertaining man with a monkey. This man is more than he seems.",
     update: "The Sunseekers met Rictavio, a traveling bard with a pet monkey, who is actually Rudolph Van Richten, famous Monster Hunter",
+    found: true,
+    reward: "Ally: Rudolph Van Richten",
+    img: "https://i.imgur.com/tYEzwNQ.png",
+    imgAlt: "Portrait of Van Richten",
+    imgLink: "/characters/vallaki-citizens"
   },
 
 
@@ -55,6 +75,11 @@ let tarrokaData = [
     reading: "Your enemy is a creature of darkness, whose powers are beyond mortality. This card will lead you to him!",
     tip: "The beast sits on his dark throne.",
     update: "The Tome of Strahd, detailing Strahd's intimate history, was found atop the Heart of Sorrow, a tall tower in Castle Ravenloft.",
+    found: false,
+    reward: "Defeat Strahd",
+    img: "",
+    imgAlt: "Strahd's throne",
+    imgLink: "/notes/strahd-notes"
   },
 
 ]
