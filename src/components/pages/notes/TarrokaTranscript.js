@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TarrokaTranscript(setTransOpen) {
+function TarrokaTranscript({setTransOpen}) {
   return (
     <div className="fuckity" onClick={()=>{setTransOpen(false)}}>
 
