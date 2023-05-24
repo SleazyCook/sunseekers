@@ -27,17 +27,8 @@ function AdventureLog() {
   return (
     <div className="adventure">
 
-      {/* <Header />
+      <Header />
       <Navigation />
-      
-      <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">
-          <span className="heading-secondary--main">
-            Journals</span>
-          <span className="heading-secondary--sub">
-            Adventure Log</span>
-          </h2>
-      </div> */}
 
       <div className="adventure__slider-button-box">
 

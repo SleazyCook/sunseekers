@@ -1264,231 +1264,213 @@ body {
       animation-fill-mode: backwards;
       animation-delay: 1s; }
 
-.adventure {
+.adventure__link {
+  text-decoration: none;
+  color: white; }
+
+.adventure__slider-button-box {
+  position: relative;
+  overflow-y: visible;
   display: flex;
   align-items: center;
-  height: 100svh;
-  flex-direction: column;
-  position: relative;
-  transition: all .5s;
-  position: relative;
-  border: 3px solid green;
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Safari */
-  -khtml-user-select: none;
-  /* Konqueror HTML */
-  -moz-user-select: none;
-  /* Old versions of Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none; }
+  justify-content: center; }
+  @media (min-width: 75em) {
+    .adventure__slider-button-box {
+      height: 50rem; } }
+  .adventure__slider-button-box:hover .adventure__nav-icon {
+    opacity: .5; }
+
+.adventure__nav-icon {
+  display: none; }
   @media (min-width: 37.5em) {
-    .adventure {
-      height: 100vh; } }
-  .adventure__link {
-    text-decoration: none;
-    color: white; }
-  .adventure__slider-button-box {
-    position: relative;
-    overflow-y: visible;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    @media (min-width: 75em) {
-      .adventure__slider-button-box {
-        height: 50rem; } }
-    .adventure__slider-button-box:hover .adventure__nav-icon {
-      opacity: .5; }
-  .adventure__nav-icon {
-    display: none; }
-    @media (min-width: 37.5em) {
-      .adventure__nav-icon {
-        display: inline;
-        z-index: 10;
-        font-size: 32px;
-        width: 5rem;
-        height: 100%;
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 0;
-        transition: all .5s;
-        background-color: black; } }
+    .adventure__nav-icon {
+      display: inline;
+      z-index: 10;
+      font-size: 32px;
+      width: 5rem;
+      height: 100%;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: all .5s;
+      background-color: black; } }
   @media (min-width: 37.5em) and (min-width: 75em) {
     .adventure__nav-icon {
       height: 45rem; } }
-    @media (min-width: 37.5em) {
-        .adventure__nav-icon:hover {
-          opacity: 0.8; }
-        .adventure__nav-icon:hover .adventure__icon {
-          transform: scale(1.1);
-          color: #a62b0d; }
-        .adventure__nav-icon--left {
-          position: absolute;
-          left: 0%; }
-        .adventure__nav-icon--right {
-          position: absolute;
-          right: 0%; } }
-  .adventure__icon {
-    color: #771f09;
-    transition: .25s; }
-  .adventure__main {
+  @media (min-width: 37.5em) {
+      .adventure__nav-icon:hover {
+        opacity: 0.8; }
+      .adventure__nav-icon:hover .adventure__icon {
+        transform: scale(1.1);
+        color: #a62b0d; }
+      .adventure__nav-icon--left {
+        position: absolute;
+        left: 0%; }
+      .adventure__nav-icon--right {
+        position: absolute;
+        right: 0%; } }
+
+.adventure__icon {
+  color: #771f09;
+  transition: .25s; }
+
+.adventure__main {
+  width: 100%;
+  margin: 0;
+  height: 65rem;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  overflow-y: visible;
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */ }
+  @media (min-width: 75em) {
+    .adventure__main {
+      height: 60rem; } }
+  .adventure__main::-webkit-scrollbar {
+    display: none; }
+
+.adventure__card {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  transition: .5s;
+  cursor: pointer;
+  height: 60rem;
+  min-width: 40rem;
+  border-radius: 3px; }
+  @media (min-width: 56.25em) {
+    .adventure__card {
+      height: 60rem;
+      min-width: 45rem; }
+      .adventure__card:hover {
+        transform: scale(1.05);
+        transition: .5s;
+        box-shadow: 0 2rem 5rem rgba(166, 43, 13, 0.5);
+        z-index: 5; } }
+  @media (min-width: 75em) {
+    .adventure__card {
+      margin-top: 0;
+      height: 40rem;
+      min-width: 30rem; } }
+  @media (min-width: 112.5em) {
+    .adventure__card {
+      margin-top: 0;
+      height: 45rem;
+      min-width: 35rem; } }
+  .adventure__card-text-box {
+    font-family: "Bebas Neue", cursive;
     width: 100%;
-    margin: 0;
-    height: 65rem;
-    display: flex;
-    align-items: center;
-    overflow-x: scroll;
-    overflow-y: visible;
-    /* Hide scrollbar for Chrome, Safari and Opera */
-    /* Hide scrollbar for IE, Edge and Firefox */
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    /* Firefox */ }
-    @media (min-width: 75em) {
-      .adventure__main {
-        height: 60rem; } }
-    .adventure__main::-webkit-scrollbar {
-      display: none; }
-  .adventure__card {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-    transition: .5s;
-    cursor: pointer;
-    height: 60rem;
-    min-width: 40rem;
-    border-radius: 3px; }
-    @media (min-width: 56.25em) {
-      .adventure__card {
-        height: 60rem;
-        min-width: 45rem; }
-        .adventure__card:hover {
-          transform: scale(1.05);
-          transition: .5s;
-          box-shadow: 0 2rem 5rem rgba(166, 43, 13, 0.5);
-          z-index: 5; } }
-    @media (min-width: 75em) {
-      .adventure__card {
-        margin-top: 0;
-        height: 40rem;
-        min-width: 30rem; } }
-    @media (min-width: 112.5em) {
-      .adventure__card {
-        margin-top: 0;
-        height: 45rem;
-        min-width: 35rem; } }
-    .adventure__card-text-box {
-      font-family: "Bebas Neue", cursive;
-      width: 100%;
-      background-image: linear-gradient(to right top, rgba(166, 43, 13, 0.8), rgba(0, 0, 0, 0.8));
-      padding: 2rem;
-      -webkit-touch-callout: none;
-      /* iOS Safari */
-      -webkit-user-select: none;
-      /* Safari */
-      -khtml-user-select: none;
-      /* Konqueror HTML */
-      -moz-user-select: none;
-      /* Old versions of Firefox */
-      -ms-user-select: none;
-      /* Internet Explorer/Edge */
-      user-select: none; }
-      .adventure__card-text-box--main {
-        display: block;
-        font-size: 3rem; }
-      .adventure__card-text-box--sub {
-        display: block;
-        font-size: 1.5rem; }
-        .adventure__card-text-box--sub-num {
-          color: #180602; }
-    .adventure__card--1 {
-      background-image: url("https://i.imgur.com/v0UJOI8.png");
-      background-position: center;
-      background-size: cover; }
-    .adventure__card--2 {
-      background-image: url("https://i.imgur.com/n5ktd93.png");
-      background-position: center; }
-    .adventure__card--3 {
-      background-image: url("https://i.imgur.com/4TAGQ2R.jpg");
-      background-position: center;
-      background-size: cover; }
-    .adventure__card--4 {
-      background-image: url("https://i.imgur.com/Z3CS9zj.png");
-      background-position: left; }
-    .adventure__card--5 {
-      background-image: url("https://i.imgur.com/fgPPAfM.png");
-      background-position: bottom; }
-    .adventure__card--6 {
-      background-image: url("https://i.imgur.com/G2pd6iZ.jpg");
-      background-position: bottom;
-      background-size: cover; }
-    .adventure__card--7 {
-      background-image: url("https://i.imgur.com/RXoVXmW.png");
-      background-position: center;
-      background-size: cover; }
-    .adventure__card--8 {
-      background-image: url("https://i.imgur.com/4iLw0nC.png");
-      background-position: center;
-      background-size: cover; }
-    .adventure__card--9 {
-      background-image: url("https://i.imgur.com/9hhPNLe.png");
-      background-position: center;
-      background-size: cover; }
-    .adventure__card--10 {
-      background-image: url("https://i.imgur.com/BhKS1uC.png");
-      background-position: center;
-      background-size: cover; }
-    .adventure__card--11 {
-      background-image: url("https://i.imgur.com/pb4SaMI.png");
-      background-position: center;
-      background-size: cover; }
-    .adventure__card--12 {
-      background-image: url("https://i.imgur.com/MPP8A9i.png");
-      background-position: left;
-      background-size: cover; }
-    .adventure__card--13 {
-      background-image: url("https://i.imgur.com/KeeYsZy.jpg");
-      background-position: left;
-      background-size: cover; }
-    .adventure__card--14 {
-      background-image: url("https://i.imgur.com/RztDbSi.png");
-      background-position: center;
-      background-size: cover; }
-    .adventure__card--15 {
-      background-image: url("https://i.imgur.com/I3Gc3uT.png");
-      background-position: center;
-      background-size: cover; }
-    .adventure__card--16 {
-      background-image: url("https://i.imgur.com/qIbqsK8.png");
-      background-position: center;
-      background-size: cover; }
-    .adventure__card--17 {
-      background-image: url("https://i.imgur.com/Zs0iM18.png");
-      background-position: center;
-      background-size: cover; }
-    .adventure__card--17 {
-      background-image: url("https://i.imgur.com/zciYECT.png");
-      background-position: center;
-      background-size: cover; }
-    .adventure__card--18 {
-      background-image: url("https://i.imgur.com/y2eHL8S.png");
-      background-position: center;
-      background-size: cover; }
-    .adventure__card--19 {
-      background-image: url("https://i.imgur.com/Bev2dep.png");
-      background-position: center;
-      background-size: cover; }
-    .adventure__card--20 {
-      background-image: url("https://i.imgur.com/G32pbKr.png");
-      background-position: center;
-      background-size: cover; }
+    background-image: linear-gradient(to right top, rgba(166, 43, 13, 0.8), rgba(0, 0, 0, 0.8));
+    padding: 2rem;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none; }
+    .adventure__card-text-box--main {
+      display: block;
+      font-size: 3rem; }
+    .adventure__card-text-box--sub {
+      display: block;
+      font-size: 1.5rem; }
+      .adventure__card-text-box--sub-num {
+        color: #180602; }
+  .adventure__card--1 {
+    background-image: url("https://i.imgur.com/v0UJOI8.png");
+    background-position: center;
+    background-size: cover; }
+  .adventure__card--2 {
+    background-image: url("https://i.imgur.com/n5ktd93.png");
+    background-position: center; }
+  .adventure__card--3 {
+    background-image: url("https://i.imgur.com/4TAGQ2R.jpg");
+    background-position: center;
+    background-size: cover; }
+  .adventure__card--4 {
+    background-image: url("https://i.imgur.com/Z3CS9zj.png");
+    background-position: left; }
+  .adventure__card--5 {
+    background-image: url("https://i.imgur.com/fgPPAfM.png");
+    background-position: bottom; }
+  .adventure__card--6 {
+    background-image: url("https://i.imgur.com/G2pd6iZ.jpg");
+    background-position: bottom;
+    background-size: cover; }
+  .adventure__card--7 {
+    background-image: url("https://i.imgur.com/RXoVXmW.png");
+    background-position: center;
+    background-size: cover; }
+  .adventure__card--8 {
+    background-image: url("https://i.imgur.com/4iLw0nC.png");
+    background-position: center;
+    background-size: cover; }
+  .adventure__card--9 {
+    background-image: url("https://i.imgur.com/9hhPNLe.png");
+    background-position: center;
+    background-size: cover; }
+  .adventure__card--10 {
+    background-image: url("https://i.imgur.com/BhKS1uC.png");
+    background-position: center;
+    background-size: cover; }
+  .adventure__card--11 {
+    background-image: url("https://i.imgur.com/pb4SaMI.png");
+    background-position: center;
+    background-size: cover; }
+  .adventure__card--12 {
+    background-image: url("https://i.imgur.com/MPP8A9i.png");
+    background-position: left;
+    background-size: cover; }
+  .adventure__card--13 {
+    background-image: url("https://i.imgur.com/KeeYsZy.jpg");
+    background-position: left;
+    background-size: cover; }
+  .adventure__card--14 {
+    background-image: url("https://i.imgur.com/RztDbSi.png");
+    background-position: center;
+    background-size: cover; }
+  .adventure__card--15 {
+    background-image: url("https://i.imgur.com/I3Gc3uT.png");
+    background-position: center;
+    background-size: cover; }
+  .adventure__card--16 {
+    background-image: url("https://i.imgur.com/qIbqsK8.png");
+    background-position: center;
+    background-size: cover; }
+  .adventure__card--17 {
+    background-image: url("https://i.imgur.com/Zs0iM18.png");
+    background-position: center;
+    background-size: cover; }
+  .adventure__card--17 {
+    background-image: url("https://i.imgur.com/zciYECT.png");
+    background-position: center;
+    background-size: cover; }
+  .adventure__card--18 {
+    background-image: url("https://i.imgur.com/y2eHL8S.png");
+    background-position: center;
+    background-size: cover; }
+  .adventure__card--19 {
+    background-image: url("https://i.imgur.com/Bev2dep.png");
+    background-position: center;
+    background-size: cover; }
+  .adventure__card--20 {
+    background-image: url("https://i.imgur.com/G32pbKr.png");
+    background-position: center;
+    background-size: cover; }
 
 .feedback {
   background-color: red;

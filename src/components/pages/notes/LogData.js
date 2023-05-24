@@ -18,9 +18,8 @@ let logData = [
     imgUrl: "https://i.imgur.com/ZzFQKI3.png",
     imgCap: "Durst Manor",
     localLinks: {},
-    short: "",
+    short: "The Sunseekers explore a haunted house",
     entry: `    A few days after joining Viktor Lazlo's traveling show, the characters slowly start to get to know one another. The Sunset wagon comes to a stop as the Sunseekers pile out to see two small children, Rose and Thorn, crying for help. The Sunseekers agree to help find their brother Walter inside.
-    
 
     The house is not what it appears.  A lonely dog Lancelot is looking for his owner, Gertruda. They learn of the Durst family, once the charitable owners of the local Windmill, joined the ~Priests of Osybus~ after the mysterious Strahd arrived in their homeland. Gustav Durst cheated on his wife Elizabeth through an affair with the nursemaid Margaret, birthing baby Walter. Gustav eventually committed suicide in his bedroom leaving Margaret to be murdered by Elizabeth and her baby to sacrificed in a bogus cultish ritual. During this time, the children Rose and Thorn were locked in their room left to starve to death as Strahd turned to cultists to undead monsters. 
     
@@ -45,28 +44,23 @@ let logData = [
       "mansion": "locations/village-of-barovia",
       "mean shop owner": "characters/village-of-barovia"
     },
-    short: "",
-    entry: `11th Day of Hammer
- 
-      - Arrival in town
-      - Safzira and German go for a drink, where they meet ~three tough vistani women~ suggesting that they meet up with ~Madame Eva~ on their way out of town. Ismark offers to buy them drinks and asks them to ~protect his sister~ Ireena in exchange for free lodging and meals anytime they are in town.
-      - Safzira and German go to Ismark's mansion to meet Ireena who insists on giving their father a ~proper burial~.
-      - Safzira and German escort Ireena and Ismark with the body of their father to the church where the priest Donavich holds a funeral in his honor. 
-      - Ismark becomes the new Burgomaster in his father’s place
-      - Halfling checks out shop, ~mean shop owner~, directs to scratching on home fronts. investigation leads to the ~Cobb House~, where a wife answers the door and the Halfling meets her ~dying husband~. He mentions resorting to drinking well water after a shortage of wine in the village. He dies and turns into a zombie. Elizana and Freebird slay the zombie outside his home after he devours his wife.
-      - Safzira, German, Ismark, and ireena join up with Elizana and Freebird and investigate the local well. Inside are several of Strahd's zombies. They defeat the zombies and retire to the burgomeister's mansion to rest up.
-      - Ireena is officially a Sunseeker
+    short: "The Sunseekers discover the grim Village of Barovia",
+    entry: `    After escaping Durst Manor, the Sunseekers make their way into the Village of Barovia proper. The gloom of their last adventure looks ever-present in the village. The grey skies only make the boarded up homes covered in clawmarks all that much worse. While most of the village homes are dark, there is a light on in the local tavern.
+    
+    German and Safzira get a drink form a dull bartender before encountering the three propietors of the establishment - three Vistani women suggesting a visit to a nearby fortune teller.  A stranger offers to buy more drinks if they will sit with him while he talks about his problems. The man introduces himself as Ismark, the Burgomaster's son, and offers regular hospitality in the village if they can protect his sister Ireena and take her far away from this place.
 
-      12th Day of Hammer
+    Ismark takes the party to the burgomaster's mansion to meet his sister, but she refuses to leave town until their father, who has died two days earlier, can have a proper burial. It turns out that the situation has worsened in Barovia, the remainig villagers have been too scared to leave their homes for such things. The sunseekers march the casket to the church, where the priest Donavich is happy to honor the memory of the burgomaster.
 
-      - Elizana attempts the shop again but along the way the dog Lancelot scratches at a door of a village home. 
-      - Mad Mary explains that Lancelot belongs to her ~missing daughter~ Gertruda. Lancelot is looking for her.
-      - Mad Mary has witnessed a cloaked figure ~dragging people~ towards the north end of town at night. She believes that Gertruda must have been one of them
-      - The Sunseekers investigate the area on the north side of town which brings them back to the priest Donavich at his church. 
-      - Strange screams are heard from the undercroft of the church.
-      - Donavich’s son Doru is a vampire and attacks the friendly Elizana in a hungry rage. 
-      - Doru is killed and Donavich is ~imprisoned for his crimes~ in the undercroft.
-      - Ismark asks that the Sunseekers look for a ~replacement priest~ in the town of Vallaki to the West. `
+    Elizana and Freebird go to the local shop, but the shopkeeper Bildrath is too greedy for his own good. He does, however, give them a tip obout the local plague and suggests a visit to Cobb House. At Cobb House, they discover Mrs. Cobb mourning the death of her husband, but before they can learn anything beyond where they get their water, Mr. Cobb reanimates in front of them, killing his wife and chasing them into the street. Freebird throws fire bolts while Elizana shoots her arrows to put him back down again. In a gesture of trust and friendship, Freebird offers Elizana one of his feathers.
+
+    Given the chance to grieve, Ismark becomes the new burgomaster and takes on the village plague with the Sunseekers. Despite his pleading, Ireena join them as they investigate the local well where they find several zombies decomposing in the water. Ireena leaps in to clear them out with the Sunseekers support.  Afterwards fighting alongside each other Ireena agrees to stay with the Sunseekers, but first they will rest up at the burgomaster's mansion.
+
+    The next day Elizana disvoers the a dog called Lancelot scratching at a door of one of the village homes. Inside a woman known to the locals as Mad Mary says the dog used to belong to her missing daughter Gertruda, but its been so long since she has seen her. She claims to have seen a figure at night dragging bodies to the north side of town.
+
+    Investigating the north side of town, the Sunseeekers find themselves talking once again to the priest Donavich, only now they can hear screams coming from below the floorboards. Donavich begs the Sunseekers not to hurt his son, Doru, who has become a vampire that requires human blood and is kept away under the church. Doru is slain by the Sunseekers and Donavich is locked away in the undercroft in his sons place. 
+
+    Before the Sunseekers leave the village, Ismark says he has heard rumors of a young priest in the next town over who may be able to fill Donavich's position. He tells them he could use all the support he can get as they ride off in search of the Vistani fortune teller. 
+    `
   },
   {
     number: 3,
@@ -81,11 +75,21 @@ let logData = [
     imgUrl: "https://i.imgur.com/XSJtpVP.png",
     imgCap: "Madame Eva reads the Tarroka",
     localLinks: {},
-    short: "",
-    entry: `    Strahd ~meets the sunseekers~ ~in person~ on the ~Old Svalich Road~ 
-    Strahd casually invites the party to visit his ~Castle Ravenloft~ by way of the ~Black Carriage~. 
-    The party wakes up at the ~Vistani Tser Pool Encampment~, invited into ~Madame Eva's Tent~. 
-    ~Madame Eva~ gives a ~tarroka reading~.`
+    short: "Madame Eva reads the Tarroka Cards",
+    entry: `    Traveling the Old Svalich Road from the Village of Barovia, the Sunseekers encounter a strange man petting a horse. He seems friendly enough as he starts talking to the group:
+    
+    "I wanted to welcome you to my kingdom. I chose the name Barovia to honor my father, the great King Barov. Did you know that? Of course not. Well, I conquered this valley in his name. Believe me, it wasn't much to look at before I spruced up the place.
+
+    "I wanted to be the first to make amends on behalf of the Vistani. I'm aware of the... misunderstanding between the dearly departed Mr. Lazlo and your...sizable associate. These free spirited people, while they are my most loyal subjects, are anything but foot soldiers. They have a silly saying "Even the Best Men Die.'' They hold no ill will toward any of you, and they will be happy to host your party for the duration of your stay in Barovia.
+
+    "Though, Ireena, my dear, you simply must understand that You deserve to be my Queen. In fact, I must insist on this.
+
+    "I know you all are absolutely titillated by my surprise visit and believe me I. am. too., but I really must be going. When you are ready to return the favor, there is a black carriage up the road. It will take you to my home without any.. outside interference."
+    
+    A dark mist surronds the Sunseekers and when it dissipates they find themselves further up the road at the Tser Pool Encampment.  They seek out Madame Eva who reads the tarroka cards for them. 
+
+    Madame Eva draws five cards and reads five different prophecies from them. She promises that fulfilling them will give the Sunseekers what they need to defeat Strahd - an ally, a deeper understanding of their enemy, a weapon, holy protection, and an arena to fight in. After the card reading, the local Vistani host drinking, dancing, and a long rest.
+    `
   },
   {
     number: 4,
@@ -321,7 +325,7 @@ let logData = [
     imgUrl: "https://i.imgur.com/zciYECT.png",
     imgCap: "Tome of Strahd",
     localLinks: {},
-    short: "",
+    short: "Ez and the Sunseekers fight over the Tome of Strahd",
     entry: ""
   },
   {
