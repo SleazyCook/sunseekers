@@ -2056,7 +2056,7 @@ body {
     padding: 1rem;
     transition: all .3s;
     border-radius: 1rem 1rem 0 0;
-    width: 15rem;
+    width: 18rem;
     display: none;
     font-family: "Cinzel Decorative", cursive;
     font-weight: bold;
@@ -2064,7 +2064,7 @@ body {
     z-index: 10;
     position: relative; }
   .world-map__img {
-    width: 15rem;
+    width: 18rem;
     transition: all .3s;
     box-sizing: border-box;
     border: 3px solid #481305;
