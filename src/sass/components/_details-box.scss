@@ -6,7 +6,6 @@
     border-bottom: 1px solid white;
     width: 100%;
     text-align: center;
-
     display: flex;
 
 
@@ -21,11 +20,16 @@
       width: 70%;
       text-align: center;
       overflow-wrap: break-word;
-      padding: .5rem 0;
+      padding: .5rem .25rem;
     }
   }
 
-  &__image {
+  &__img {
     width: 28rem;
+
+    &-cap {
+      padding: .5rem;
+      display: block;
+    }
   }
 }

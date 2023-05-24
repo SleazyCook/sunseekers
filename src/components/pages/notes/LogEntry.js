@@ -43,7 +43,7 @@ function LogEntry() {
 
           <div className="log-entry__page-buttons">
 
-            {entryNumber === "1" ? <p>No Previous</p> : <Link className="log-entry__page-buttons--last" to={`/notes/adventure-log/${prevNumber}`}>Previous Session: {logData[prevNumber-1].title}</Link>}
+            {entryNumber === "1" ? <p className="log-entry__page-buttons--placeholder"></p> : <Link className="log-entry__page-buttons--last" to={`/notes/adventure-log/${prevNumber}`}>Previous Session: {logData[prevNumber-1].title}</Link>}
 
 
             {entryNumber >= logData.length ? <></> : <Link className="log-entry__page-buttons--next" to={`/notes/adventure-log/${nextNumber}`}>Next Session: {logData[nextNumber-1].title}</Link>}
@@ -58,7 +58,7 @@ function LogEntry() {
             <div className="details-box__section">
               <div>
                 <span className="details-box__img-cap">{entryObj.imgCap}</span>
-                <img className="details-box__image" src={entryObj.imgUrl} alt={`image of ${entryObj.imgAlt}`}/>
+                <img className="details-box__img" src={entryObj.imgUrl} alt={`image of ${entryObj.imgAlt}`}/>
               </div>
             </div>
             {/* Date */}

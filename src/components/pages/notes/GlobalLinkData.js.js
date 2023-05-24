@@ -316,8 +316,12 @@ let globalHyperLinks = {
       "Mount Baratok": "/locations/mount-baratok",
 
     // Argonvostholt
+      "Argonvostholt": "/locations/argonvostholt",
 
     // Village of Krezk
+
+    // Mount Ghakis
+      "Mount Ghakis": "/locations/mount-ghakis",
 
     // Tsolenka Pass
       "Tsolenka Pass": "/locations/tsolenka-pass",

@@ -164,6 +164,7 @@ body {
 
 .hyperlink a {
   color: #a62b0d;
+  color: peru;
   text-decoration: none; }
 
 .headline {
@@ -654,9 +655,12 @@ body {
       width: 70%;
       text-align: center;
       overflow-wrap: break-word;
-      padding: .5rem 0; }
-  .details-box__image {
+      padding: .5rem .25rem; }
+  .details-box__img {
     width: 28rem; }
+    .details-box__img-cap {
+      padding: .5rem;
+      display: block; }
 
 .maps-box {
   text-align: center;
@@ -2076,7 +2080,7 @@ body {
     display: block;
     border: 1.5px solid white;
     border-radius: 50%;
-    background-image: linear-gradient(to right bottom, rgba(250, 119, 33, 0.8), rgba(122, 57, 15, 0.8)); }
+    background-image: linear-gradient(to right bottom, rgba(205, 133, 63, 0.8), rgba(122, 57, 15, 0.8)); }
     .world-map__pin:hover + span,
     .world-map__pin:hover ~ img {
       display: block; }
