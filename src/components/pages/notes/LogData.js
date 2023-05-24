@@ -337,8 +337,19 @@ let logData = [
     imgUrl: "https://i.imgur.com/y2eHL8S.png",
     imgCap: "Cold Depths of Mount Ghakis",
     localLinks: {},
-    short: "",
-    entry: ""
+    short: "Safzira and Kasimir continue their journey to the Amber Temple in the bitter cold",
+    entry: `  Safzira and Kasimir continue their journey south towards the Amber Temple. Barovia is brutally cold the closer you get to Mount Ghakis. The bitter winds begin to beat down on them. Sir Erich, who hasn't felt much of anything in a very long time, begins to tell his tale about his last hunting trip. "Maybe a story might give them something else to think about at a time like this" he mutters under his breath before slowing his walk to match their pace.
+    
+    "The Order was the top priority of the Knights, but it wasn't the only one. We made sure to have a little fun. Argonvost himself had starting a hunting party during our downtime before the war.  Giant goats used to roam wild over the Mount Ghakis region, but they were troublesome and dangerous.  
+    
+    "It all started when a couple of giant goats made their way into the church of Berez.  Within minutes the place was completely torn up.  The Burgomaster pleaded with Argonvost to do something, but the Order was never intended to defend individual settlements from wildlife.  Nevertheless, our silver leader did see an opportunity to bring the Knights together to hunt for sport. Before long there were fewer and fewer giant goats and we had developed a hunger for the hunt.  
+    
+    "When Strahd invaded Barovia to go to war with the Dusk Elves, strange people and creatures followed behind him. One of these creautres was a roc, a gargantuan monstrousity that terrorized the valley. The Knights would dream of hunting this beast, but Strahd's war eventually found its way onto our doorstep. Argonvost, in his silver dragon form fought bravely, but was struck down by Strahd himself. Vladimir swore his eternal revenge turning every Knight of the Order into a bloodlust-infested revenant. 
+    
+    "I love this valley and I lived to serve Argonvost and the Order, but I have lived far longer than is natural for a man like myself and I'm ready to rest. If Sir Godfrey is correct about connecting with what we loved in our motal lives, I may find peace."
+    
+    As the party marches closer together, the cold becomes less and less bitter. They can see in the distance scarecrows and plant monsters marching west through the snow. No doubt another horror for another day.
+    `
   },
   {
     number: 19,
@@ -355,7 +366,7 @@ let logData = [
     localLinks: {
       "dusk elf": "/characters/castle-ravenloft"
     },
-    short: "",
+    short: "Elizana, Freebird, and Umnos try to escape from Castle Ravenloft",
     entry: `  Elizana, Freebird, and Umnos find themselves on the balcony of ~Castle Ravenloft~'s chapel.  They can see that two obscured figures are sitting in throne chairs overlooking the chapel floor.  They cautiously peer around the high backed chairs to see zombies dressed up to resemble the recently deceased brides of Strahd, Anastrasya and Volenta. Before the sunseekers can draw their weapons, a cold hand gently lands on their shoulders.  
     
     "An attempt to honor the dead, it's like they're still here with us - it's as if you haven't taken their lives." For the first time, Strahd and Umnos stand face-to-face. "I'll make you sunseekers a deal: Kill one of your little party members in front of me and I won't have to. It's only fair, you've taken two of my wives and I'm only asking for one of you in return." Umnos orders the party to run out of the Castle as fast as they can.

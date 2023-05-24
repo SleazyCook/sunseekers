@@ -57,7 +57,7 @@ let tarrokaData = [
     cardFront: "https://i.imgur.com/LN8PmRe.png",
     reading: "This card sheds light on one who will help you greatly in the battle against darkness",
     tip: "Look for an entertaining man with a monkey. This man is more than he seems.",
-    update: "The Sunseekers met Rictavio, a traveling bard with a pet monkey, who is actually Rudolph Van Richten, famous Monster Hunter.",
+    update: "The Sunseekers met Rictavio, a traveling bard with a pet monkey, whose true identity is revealed to be Rudolph Van Richten, famous Monster Hunter.",
     found: true,
     reward: "Ally: Rudolph Van Richten",
     img: "https://i.imgur.com/tYEzwNQ.png",
