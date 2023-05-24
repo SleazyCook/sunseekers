@@ -25,6 +25,16 @@ function Locations() {
 
       <div className="flexbox">
 
+        <div className="flex__item">
+          <Link to="map">
+            <div className="cat-card cat-card--location-map">
+              <div className="cat-card__text-box">
+                <h3 className="cat-card__title">World Map</h3>
+              </div>
+            </div>
+          </Link>
+        </div>
+
         {locationsData.map((locationsObj) => {
           return (
             <div className="flex__item">
