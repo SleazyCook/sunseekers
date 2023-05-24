@@ -375,7 +375,7 @@ let logData = [
     Blue to ancient magic's tomb
     Yellow to the master's tomb
 
-    Umnos eyes the stones and motions to Elizana to snatch one up just before they are teleported to another room. The room is small and octaganol. The temperature has dropped significantly and pressure has spiked upwards. Outside the a window there are sounds of crushing metal and gnashing teeth followed by the familiar sound of Safzira's voice shouting in the distance "Kasimir!"
+    Ludmilla twists the indigo stone into a slot on the brazier's edge, seemingly activating something. Umnos eyes the stones and motions to Elizana to snatch one up just before the flames flourish around them teleporting to another room entirely. The new room is small and octagonal. The temperature has dropped significantly and pressure has spiked upwards. Outside the a window there are sounds of crushing metal and gnashing teeth followed by the familiar sound of Safzira's voice shouting in the distance "Kasimir!"
      `
   },
   {
