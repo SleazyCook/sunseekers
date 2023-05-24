@@ -1264,6 +1264,10 @@ body {
       animation-fill-mode: backwards;
       animation-delay: 1s; }
 
+.adventure__head {
+  color: white;
+  text-align: center; }
+
 .adventure__link {
   text-decoration: none;
   color: white; }
