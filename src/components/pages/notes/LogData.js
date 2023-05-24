@@ -309,10 +309,12 @@ let logData = [
     players: ["Elizana", "Umnos"],
     npcs: ["Freebird"],
     quests: ["None"],
+    locations: ["Castle Ravenloft"],
     gameDate: "10th Day of Alturiak",
     realDate: "March 25th, 2023",
     numDate: "3/25/2023",
-    imgUrl: "",
+    imgUrl: "https://i.imgur.com/Bev2dep.png",
+    imgCap: "The Brazier Room",
     localLinks: {
       "dusk elf": "/characters/castle-ravenloft"
     },
@@ -343,12 +345,14 @@ let logData = [
     number: 20,
     title: "Gate of Tsolenka",
     players: ["Safzira"],
-    npcs: ["Kasimir", "Viktor the Mage", "Ser Erich"],
+    npcs: ["Kasimir", "Viktor", "Ser Erich"],
     quests: ["None"],
+    locations: ["Tsolenka Pass"],
     gameDate: "10th Day of Alturiak",
     realDate: "April 23rd, 2023",
     numDate: "4/23/23",
-    imgUrl: "",
+    imgUrl: "https://i.imgur.com/djjBndz.png",
+    imgCap: "Tsolenka Pass Entrance",
     localLinks: {
       monstrosity: "/characters/creatures"
     },

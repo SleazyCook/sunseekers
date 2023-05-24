@@ -1,0 +1,31 @@
+.details-box {
+  border: 2px solid white;
+  width: 30rem;
+
+  &__section {
+    border-bottom: 1px solid white;
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+
+
+    &--left {
+      width: 50%;
+      text-align: center;
+      border-right: 1px solid white;
+      padding: .5rem 0;
+    }
+
+    &--right {
+      width: 70%;
+      text-align: center;
+      overflow-wrap: break-word;
+      padding: .5rem 0;
+    }
+  }
+
+  &__image {
+    width: 28rem;
+  }
+}

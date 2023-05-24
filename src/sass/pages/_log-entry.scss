@@ -1,5 +1,10 @@
 .log-entry {
 
+  display: flex;
+  padding: 0 10rem;
+  margin-top: 5rem;
+  // flex-direction: row;
+
   &__link {
     text-decoration: none;
   }
@@ -17,6 +22,7 @@
     font-family: $font-display;
     letter-spacing: .20rem;
     font-weight: normal;
+    padding-bottom: 2rem;
   }
 
   &__title,
@@ -42,5 +48,30 @@
   &__text {
     max-width: 100rem;
     align-self: center;
+  }
+
+  &__page-buttons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+    
+    & a {
+      text-decoration: none;
+      background-color: $color-grey-dark-2;
+      color: $color-grey-light-2;
+      
+    }
+
+    &--last {
+      padding: 1rem 2rem 1rem 3rem;
+      text-decoration: none;
+      clip-path: polygon(100% 0, 10% 0, 0 50%, 10% 100%, 100% 100%);
+    }
+
+    &--next {
+      padding: 1rem 3rem 1rem 2rem;
+      clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 0 0);
+    }
   }
 }

@@ -22,63 +22,98 @@ function LogEntry() {
     window.scrollTo({top: 0, left: 0});
   }, [entryNumber])
 
-  // console.log('nextNumber: ', typeof nextNumber, nextNumber)
-  console.log()
-
-
   return (
     <div>
 
       <Header />
       <Navigation />
-      
-      <div className="u-center-text u-margin-bottom-big">
-        <Link className="log-entry__link" to="/notes/adventure-log">
-        <h2 className="heading-secondary">
-          <span className="heading-secondary--main">
-            Journals</span>
-          <span className="heading-secondary--sub">
-            Adventure Log</span>
-          </h2>
-        </Link>
-      </div>
 
+        <div className="log-entry">
 
+        {/* MAIN TITLE & CONTENT */}
         <div className="log-entry__main">
           <h4 className="log-entry__title">
             {entryObj.title}
             </h4>
 
-          <h5 className="log-entry__date">
-            <span>
-              {entryObj.gameDate}</span><br />
-            <span>Played&nbsp;
-              {entryObj.realDate}</span>
-          </h5>
-
-          <p className="log-entry__details hyperlink">
-            <b>Player Characters:</b> &nbsp;
-            {entryObj.players && renderWithLinks(entryObj.players, entryObj.localLinks)}
-            <br />
-
-            <b>Non-Player Characters:</b> &nbsp;
-            {entryObj.npcs && renderWithLinks(entryObj.npcs, entryObj.localLinks)}
-            <br />
-
-            <b>Quests: </b> 
-            {entryObj.quests && renderWithLinks(entryObj.quests, entryObj.localLinks)}
-
-          </p>
-
           <p className="log-entry__text hyperlink" style={{whiteSpace:'break-spaces'}}>
             {entryObj.entry && renderWithLinks(entryObj.entry, entryObj.localLinks)}
 
           </p>
-          
-          {entryNumber === "1" ? <p>No Previous</p> : <Link to={`/notes/adventure-log/${prevNumber}`}>Previous Session: {logData[prevNumber-1].title}</Link>}
+
+          <div className="log-entry__page-buttons">
+
+            {entryNumber === "1" ? <p>No Previous</p> : <Link className="log-entry__page-buttons--last" to={`/notes/adventure-log/${prevNumber}`}>Previous Session: {logData[prevNumber-1].title}</Link>}
 
 
-          {entryNumber >= logData.length ? <p>No Next</p> : <Link to={`/notes/adventure-log/${nextNumber}`}>Next Session: {logData[nextNumber-1].title}</Link>}
+            {entryNumber >= logData.length ? <></> : <Link className="log-entry__page-buttons--next" to={`/notes/adventure-log/${nextNumber}`}>Next Session: {logData[nextNumber-1].title}</Link>}
+
+          </div>
+        
+        </div>
+
+        {/* DETAILS BOX */}
+        <div className="details-box">
+            {/* Image */}
+            <div className="details-box__section">
+              <div>
+                <span className="details-box__img-cap">{entryObj.imgCap}</span>
+                <img className="details-box__image" src={entryObj.imgUrl} alt={`image of ${entryObj.imgAlt}`}/>
+              </div>
+            </div>
+            {/* Date */}
+            <div className="details-box__section">
+              <div className="details-box__section--left">
+                <b>In Game Date:</b>
+              </div>
+              <div className="details-box__section--right">
+                {entryObj.gameDate}
+              </div>
+            </div>
+            <div className="details-box__section">
+              <div className="details-box__section--left">
+                <b>Played:</b>
+              </div>
+              <div className="details-box__section--right">
+                {entryObj.realDate}
+              </div>
+            </div>
+            {/* Players */}
+            <div className="details-box__section">
+              <div className="details-box__section--left">
+                <b>Players:</b>
+              </div>
+              <div className="details-box__section--right hyperlink">
+                {entryObj.players && renderWithLinks(entryObj.players, entryObj.localLinks)}
+              </div>
+            </div>
+            <div className="details-box__section">
+              <div className="details-box__section--left">
+                <b>NPCs:</b>
+              </div>
+              <div className="details-box__section--right hyperlink">
+                {entryObj.npcs && renderWithLinks(entryObj.npcs, entryObj.localLinks)}
+              </div>
+            </div>
+            <div className="details-box__section">
+              <div className="details-box__section--left">
+                <b>Quests:</b>
+              </div>
+              <div className="details-box__section--right hyperlink">
+                {entryObj.quests && renderWithLinks(entryObj.quests, entryObj.localLinks)}
+              </div>
+            </div>
+            <div className="details-box__section">
+              <div className="details-box__section--left">
+                <b>Locations:</b>
+              </div>
+              <div className="details-box__section--right hyperlink">
+                {entryObj.locations && renderWithLinks(entryObj.locations, entryObj.localLinks)}
+              </div>
+            </div>
+
+
+          </div>
         
         </div>
 

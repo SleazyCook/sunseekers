@@ -116,7 +116,7 @@ let globalHyperLinks = {
     "Godfrey's Knights": "/characters/order-of-the-silver-dragon",
     Revenants: "/characters/order-of-the-silver-dragon",
     revenants: "/characters/order-of-the-silver-dragon",
-    "Sir Erich": "/characters/order-of-the-silver-dragon",
+    "Ser Erich": "/characters/order-of-the-silver-dragon",
     "Sir Damien": "/characters/order-of-the-silver-dragon",
     "Sir Robern": "/characters/order-of-the-silver-dragon",
     Arthund: "/characters/order-of-the-silver-dragon",
@@ -320,6 +320,7 @@ let globalHyperLinks = {
     // Village of Krezk
 
     // Tsolenka Pass
+      "Tsolenka Pass": "/locations/tsolenka-pass",
 
     // Ruins of Berez
 
