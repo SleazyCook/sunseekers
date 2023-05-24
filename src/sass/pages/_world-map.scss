@@ -24,29 +24,52 @@
     height: 2rem;
     width: 2rem;
     display: block;
-    border: 2px solid white;
-
+    border: 1.5px solid white;
     border-radius: 50%;
 
     background-image: linear-gradient(
       to right bottom, 
-      rgba($color-primary-light, 0.8),  
-      rgba($color-primary-dark, 0.8));
+      rgba(#fa7721, 0.8),  
+      rgba(#7a390f, 0.8));
 
-    &:hover + .world-map__location-name {
-      opacity: 1;
+    &:hover + span,
+    &:hover ~ img {
+      display: block;
     }
   }
 
   &__location-name {
     font-family: arial;
     color: black;
-    opacity: 0;
+    background-color: darken($color-primary, 10);
+    padding: 1rem;
+    // opacity: 0;
     transition: all .3s;
+    border-radius: 1rem 1rem 0 0;
+    width: 15rem;
+    display: none;
+    font-family: $font-header;
+    font-weight: bold;
+    color: white;
+    z-index: 10;
+    position: relative;
+  }
+
+  &__img {
+    // opacity: 0;
+    width: 15rem;
+    transition: all .3s;
+    box-sizing: border-box;
+    border: 3px solid darken($color-primary, 10);
+    border-radius: 0 0 1rem 1rem;
+    z-index: 10;
+    position: relative;
+    display: none;
   }
 
   &__coordinates {
     position: absolute;
+    text-decoration: none;
 
 
     // Mists of Barovia
@@ -58,49 +81,49 @@
     // Old Svalich Road
     &--2 {
       top: 60%;
-      right: 6%;
+      left: 84%;
     }
 
     // Svalich Woods
     &--3 {
       top: 43%;
-      right: 3%;
+      left: 87%;
     }
 
     // River Ivlis
     &--4 {
       top: 70%;
-      right: 11%;
+      left: 79%;
     }
 
     // Village of Barovia
     &--5 {
       top: 61%;
-      right: 11%;
+      left: 79%;
     }
 
     // Tser Pool Encampment
     &--6 {
       top: 61%;
-      right: 23%;
+      left: 66%;
     }
 
     // Black Carriage
     &--7 {
       top: 46%;
-      right: 32%;
+      left: 61%;
     }
 
     // Castle Ravenloft
     &--8 {
       top: 52%;
-      right: 20%;
+      left: 70%;
     }
 
     // Old Mill
     &--9 {
-      top: 44%;
-      right: 47.5%;
+      top: 43%;
+      left: 50%;
     }
 
     // Vallaki
@@ -170,13 +193,13 @@
     }
 
     // Amber Temple
-    &--22 {
+    &--21 {
       top: 77%;
       left: 36%;
     }
 
     // Yester Hill
-    &--21 {
+    &--22 {
       top: 63%;
       left: 7%;
     }

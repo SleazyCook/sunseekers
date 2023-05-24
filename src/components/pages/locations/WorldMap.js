@@ -21,6 +21,7 @@ function WorldMap() {
                 {console.log(mapObj.number)}
                 <span className="world-map__pin"></span>
                 <span className="world-map__location-name">{mapObj.name}</span>
+                <img className="world-map__img"src={mapObj.img} />
               </Link>
             )
           })}
