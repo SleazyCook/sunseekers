@@ -21,6 +21,7 @@ import LogEntry from './components/pages/notes/LogEntry'
 import Market from './components/pages/market/Market'
 
 import Locations from './components/pages/locations/Locations'
+import LocationPage from './components/pages/locations/LocationPage'
 
 import WorldMap from './components/pages/locations/WorldMap'
 
@@ -112,6 +113,10 @@ export const router = createBrowserRouter([
       {
         path: "locations",
         element: <Locations />
+      },
+      {
+        path: "locations/:locationNumber",
+        element: <LocationPage />
       },
       {
         path: "locations/map",

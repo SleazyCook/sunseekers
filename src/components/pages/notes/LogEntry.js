@@ -19,7 +19,7 @@ function LogEntry() {
 
   useEffect(() => {
     setEntryObj(logData[entryNumber-1]);
-    window.scrollTo({top: 0, left: 0});
+    // window.scrollTo({top: 0, left: 0});
   }, [entryNumber])
 
   return (
@@ -44,7 +44,6 @@ function LogEntry() {
           <div className="log-entry__page-buttons">
 
             {entryNumber === "1" ? <p className="log-entry__page-buttons--placeholder"></p> : <Link className="log-entry__page-buttons--last" to={`/notes/adventure-log/${prevNumber}`}>Previous Session: {logData[prevNumber-1].title}</Link>}
-
 
             {entryNumber >= logData.length ? <></> : <Link className="log-entry__page-buttons--next" to={`/notes/adventure-log/${nextNumber}`}>Next Session: {logData[nextNumber-1].title}</Link>}
 

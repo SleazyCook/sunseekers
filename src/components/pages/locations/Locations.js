@@ -38,7 +38,7 @@ function Locations() {
         {locationsData.map((locationsObj) => {
           return (
             <div className="flex__item">
-              <Link to="mists">
+              <Link to={`/locations/${locationsObj.number}`}>
                 <div className={`cat-card cat-card--location-${locationsObj.number}`}>
                   <div className="cat-card__text-box">
                     <h3 className="cat-card__title">{locationsObj.name}</h3>

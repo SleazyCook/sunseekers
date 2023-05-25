@@ -55,7 +55,7 @@ let logData = [
 
     Given the chance to grieve, Ismark becomes the new burgomaster and takes on the village plague with the Sunseekers. Despite his pleading, Ireena join them as they investigate the local well where they find several zombies decomposing in the water. Ireena leaps in to clear them out with the Sunseekers support.  Afterwards fighting alongside each other Ireena agrees to stay with the Sunseekers, but first they will rest up at the burgomaster's mansion.
 
-    The next day Elizana disvoers the a dog called Lancelot scratching at a door of one of the village homes. Inside a woman known to the locals as Mad Mary says the dog used to belong to her missing daughter Gertruda, but its been so long since she has seen her. She claims to have seen a figure at night dragging bodies to the north side of town.
+    The next day Elizana discovers the a dog called Lancelot scratching at a door of one of the village homes. Inside a woman known to the locals as Mad Mary says the dog used to belong to her missing daughter Gertruda, but its been so long since she has seen her. She claims to have seen a figure at night dragging bodies to the north side of town.
 
     Investigating the north side of town, the Sunseeekers find themselves talking once again to the priest Donavich, only now they can hear screams coming from below the floorboards. Donavich begs the Sunseekers not to hurt his son, Doru, who has become a vampire that requires human blood and is kept away under the church. Doru is slain by the Sunseekers and Donavich is locked away in the undercroft in his sons place. 
 

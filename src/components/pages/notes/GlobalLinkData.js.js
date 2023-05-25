@@ -235,106 +235,116 @@ let globalHyperLinks = {
     // NOTE THAT SOME LINK TERMS ARE COMMENTED OUT DUE TO TERM LENGTH. USE LOCAL SEARCH TERMS WHERE POSSIBLE IN THESE CASES. 
 
     // Barovia
-      "Barovia": "/locations/barovia",
+      "Barovia": "/locations/1",
 
     // Mists of Barovia
-      "mists": "/locations/mists",
+      "mists": "/locations/1",
 
     // Old Svalich Road
-      "Old Svalich Road": "locations/old-svalich-road",
+      "Old Svalich Road": "locations/2",
   
     // Svalich Woods
-      "Svalich Woods": "/locations/svalich-woods",
+      "Svalich Woods": "/locations/3",
   
     // River Ivlis
-      "River Ivlis": "/locations/river-ivlis",
+      "River Ivlis": "/locations/4",
   
     // Village of Barovia
-      "Village of Barovia": "/locations/village-of-barovia",
-      "Durst Manor": "/locations/village-of-barovia",
-      "Bildrath's Mercantile": "/locations/village-of-barovia",
-      "Blood of the Vine Tavern": "/locations/village-of-barovia",
-      "Blood of the Vine": "/locations/village-of-barovia",
-      "Blood on the Vine": "/locations/village-of-barovia",
-      "Blood on the Vine Tavern": "/locations/village-of-barovia",
-      "Cobb House": "/locations/village-of-barovia",
+      "Village of Barovia": "/locations/5",
+      "Durst Manor": "/locations/5",
+      "Bildrath's Mercantile": "/locations/5",
+      "Blood of the Vine Tavern": "/locations/5",
+      "Blood of the Vine": "/locations/5",
+      "Blood on the Vine": "/locations/5",
+      "Blood on the Vine Tavern": "/locations/5",
+      "Cobb House": "/locations/5",
       // "Burgomaster's Mansion": "/locations/village-of-barovia",
       // Church: "/locations/village-of-barovia",
       // Cemetary: "/locations/village-of-barovia",
   
     // Tser Pool Encampment
-      "Vistani Tser Pool Encampment": "/locations/tser-pool-encampment",
-      "Tser Pool Encampment": "/locations/tser-pool-encampment",
-      "Madame Eva's Tent": "/locations/tser-pool-encampment",
+      "Vistani Tser Pool Encampment": "/locations/6",
+      "Tser Pool Encampment": "/locations/6",
+      "Madame Eva's Tent": "/locations/6",
   
     // Black Carriage
-      "Black Carriage": "/locations/black-carriage",
+      "Black Carriage": "/locations/black-carriage/7",
 
     // Castle Ravenloft
-      "Castle Ravenloft": "/locations/castle-ravenloft",
-      "Walls of Ravenloft": "/locations/castle-ravenloft",
-      "Front Courtyard": "/locations/castle-ravenloft",
-      "Heart of Sorrow": "/locations/castle-ravenloft",
-      "Study": "/locations/castle-ravenloft",
-      "Hall of Faith": "/locations/castle-ravenloft",
-      "High Tower": "/locations/castle-ravenloft",
-      "Hall of Bones": "/locations/castle-ravenloft",
-      "Hall of Heroes": "/locations/castle-ravenloft",
-      "Brazier Room": "/locations/castle-ravenloft",
-      "Audience Hall": "/locations/castle-ravenloft",
-      "Dining Hall": "/locations/castle-ravenloft",
+      "Castle Ravenloft": "/locations/8",
+      "Walls of Ravenloft": "/locations/8",
+      "Front Courtyard": "/locations/8",
+      "Heart of Sorrow": "/locations/8",
+      "Study": "/locations/8",
+      "Hall of Faith": "/locations/8",
+      "High Tower": "/locations/8",
+      "Hall of Bones": "/locations/8",
+      "Hall of Heroes": "/locations/8",
+      "Brazier Room": "/locations/8",
+      "Audience Hall": "/locations/8",
+      "Dining Hall": "/locations/8",
 
     // Old Mill
-      "Old Mill": "/locations/old-mill",
-      Mill: "/locations/old-mill",
-      "Old Bonegrinder": "/locations/old-mill",
-      "Windmill": "/locations/old-mill",
-      "windmill": "/locations/old-mill",
+      "Old Mill": "/locations/9",
+      Mill: "/locations/9",
+      "Old Bonegrinder": "/locations/9",
+      "Windmill": "/locations/9",
+      "windmill": "/locations/9",
 
     // Vallaki
-      "Vallaki": "/locations/vallaki",
-      "Vallaki gates": "/locations/vallaki",
-      "St. Andral's Church": "/locations/vallaki",
-      "St. Andral's Orphanage": "/locations/vallaki",
-      "orphanage": "/locations/vallaki",
-      "Blue Water Inn": "/locations/vallaki",
-      // "Burgomaster's Mansion": "/locations/vallaki",
-      "Wachterhaus": "/locations/vallaki",
-      "Arasek Stockyards": "/locations/vallaki",
-      stockyards: "/locations/vallaki",
-      "Town Square": "/locations/vallaki",
-      // "Coffin Maker's Shop": "/locations/vallaki",
-      "Blinsky's Toys": "/locations/vallaki",
-      "Swift Finish": "/locations/vallaki",
-      // "Vistani Camp": "/locations/vallaki",
-      "Vallaki Vistani Camp": "/locations/vallaki",
+      "Vallaki": "/locations/10",
+      "10 gates": "/locations/10",
+      "St. Andral's Church": "/locations/10",
+      "St. Andral's Orphanage": "/locations/10",
+      "orphanage": "/locations/10",
+      "Blue Water Inn": "/locations/10",
+      // "Burgomaster's Mansion": "/locations/10",
+      "Wachterhaus": "/locations/10",
+      "Arasek Stockyards": "/locations/10",
+      stockyards: "/locations/10",
+      "Town Square": "/locations/10",
+      // "Coffin Maker's Shop": "/locations/10",
+      "Blinsky's Toys": "/locations/10",
+      "Swift Finish": "/locations/10",
+      // "Vistani Camp": "/locations/10",
+      "Vallaki Vistani Camp": "/locations/10",
 
     // Lake Zarovich
-      "Lake Zarovich": "/locations/lake-zarovich",
+      "Lake Zarovich": "/locations/12",
 
     // Mount Baratok
-      "Mount Baratok": "/locations/mount-baratok",
+      "Mount Baratok": "/locations/13",
 
     // Argonvostholt
-      "Argonvostholt": "/locations/argonvostholt",
+      "Argonvostholt": "/locations/14",
 
     // Village of Krezk
+      "Village of Krezk": "/locations/15",
+      "Krezk": "/locations/15",
 
     // Mount Ghakis
-      "Mount Ghakis": "/locations/mount-ghakis",
+      "Mount Ghakis": "/locations/16",
 
     // Tsolenka Pass
-      "Tsolenka Pass": "/locations/tsolenka-pass",
+      "Tsolenka Pass": "/locations/17",
 
     // Ruins of Berez
+      "Ruins of Berez": "/locations/18",
+      "Berez": "/locations/17",
 
     // Van Richten's Tower
+      "Van Richten's Tower": "/locations/19",
 
     // Wizard of Wines
+      "Wizard of Wines": "/locations/20",
+      "Winery": "/locations/20",
+      "winery": "/locations/20",
 
     // Amber Temple
+      "Amber Temple": "/locations/21",
 
     // Yester Hill
+      "Yester Hill": "/locations/22",
 
     // -------------------------------------------
     // III. QUESTS

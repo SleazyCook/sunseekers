@@ -17,8 +17,7 @@ function WorldMap() {
 
           {locationsData.map((mapObj) => {
             return (
-              <Link to="/" className={`world-map__coordinates world-map__coordinates--${mapObj.number}`}>
-                {console.log(mapObj.number)}
+              <Link to={`/locations/${mapObj.number}`} key={mapObj.number} className={`world-map__coordinates world-map__coordinates--${mapObj.number}`}>
                 <span className="world-map__pin"></span>
                 <span className="world-map__location-name">{mapObj.name}</span>
                 <img className="world-map__img"src={mapObj.img} />
