@@ -30,7 +30,8 @@ function LocationPage() {
             {locationObj.name}
             </h4>
 
-            <p style={{whiteSpace:'break-spaces'}}>{locationObj.quote}</p>
+            <span className="location__quote" style={{whiteSpace:'break-spaces'}}>
+              {locationObj.quote}</span>
 
           <p className="log-entry__text hyperlink" style={{whiteSpace:'break-spaces'}}>
             {locationObj.main}

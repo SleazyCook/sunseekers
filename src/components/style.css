@@ -1797,6 +1797,20 @@ body {
         background-size: cover;
         background-position: bottom; }
 
+.location__quote {
+  display: inline-block;
+  text-align: center;
+  font-family: "Patrick Hand SC", cursive;
+  font-size: 2rem;
+  background-color: #0d0d0d;
+  border-radius: 1rem;
+  padding: 1rem;
+  max-width: 70rem;
+  margin: 0 auto; }
+
+.location p {
+  margin: 3rem 0; }
+
 .log-entry {
   display: flex;
   padding: 0 10rem;

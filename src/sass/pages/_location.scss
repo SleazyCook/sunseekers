@@ -1,5 +1,19 @@
 .location {
-  display: flex;
-  padding: 0 10rem;
-  margin-top: 5rem;
+
+
+  &__quote {
+    display: inline-block;
+    text-align: center;
+    font-family: $font-tarroka;
+    font-size: 2rem;
+    background-color: $color-grey-dark-2;
+    border-radius: 1rem;
+    padding: 1rem;
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+
+  & p {
+    margin: 3rem 0;
+  }
 }
