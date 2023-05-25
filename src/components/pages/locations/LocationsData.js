@@ -292,7 +292,7 @@ let locationsData = [
         img: "https://i.imgur.com/Bev2dep.png"
       }
     ],
-    section: [
+    sections: [
       {
         name: "Rats in Ravenloft",
         content: ""
@@ -337,7 +337,7 @@ let locationsData = [
         img: "https://i.imgur.com/RXoVXmW.png"
       }
     ],
-    section: [
+    sections: [
       {
         name: "Megaliths",
         content: ""
