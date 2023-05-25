@@ -57,7 +57,15 @@ let locationsData = [
       },
       {
         name: "First Interaction with Strahd",
-        content: "This one thing happened one time"
+        content: `After leaving the Village of Barovia, the Sunseekers encountered Strahd Von Zarovich on the Old Svalich Road. He first appeared as a stranger grooming his horse, but revealed his true identity in his opening monologue:
+        
+        "I wanted to welcome you to my kingdom. I chose the name Barovia to honor my father, the great King Barov. Did you know that? Of course not. Well, I conquered this valley in his name. Believe me, it wasn't much to look at before I spruced up the place.
+
+        I wanted to be the first to make amends on behalf of the Vistani. I'm aware of the... misunderstanding between the dearly departed Mr. Lazlo and your...sizable associate. These free spirited people, while they are my most loyal subjects, are anything but foot soldiers. They have a silly saying "Even the Best Men Die.'' They hold no ill will toward any of you, and they will be happy to host your party for the duration of your stay in Barovia.
+
+        Though, Ireena, my dear, you simply must understand that You deserve to be my Queen. In fact, I must insist on this.
+
+        I know you all are absolutely titillated by my surprise visit and believe me I. am. too., but I really must be going. When you are ready to return the favor, there is a black carriage up the road. It will take you to my home without any.. outside interference."`
       }
     ]
   },
