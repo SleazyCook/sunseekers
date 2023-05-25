@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 
 import Header from '../../Header';
 import Navigation from '../../Navigation';
+import Footer from '../../Footer';
 
 import locationsData from './LocationsData'
 import renderWithLinks from '../notes/HyperlinkFunction';
@@ -111,6 +112,8 @@ function LocationPage() {
         })}
 
       </div>  
+
+      <Footer />
 
 
     </div>
