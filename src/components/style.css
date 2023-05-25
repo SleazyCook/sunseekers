@@ -1018,6 +1018,19 @@ body {
       background-image: url("https://i.imgur.com/PcJwUpU.png");
       background-position: top; }
 
+.page-section {
+  color: #e6e6e6;
+  margin: 2rem 5rem;
+  padding: 0 10rem; }
+  .page-section__title {
+    text-align: start;
+    font-size: 2.5rem;
+    background-color: #771f09;
+    display: inline-block;
+    clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+    color: #e6e6e6;
+    padding: 0 3rem; }
+
 .shop {
   width: 100%;
   position: relative;
@@ -1836,11 +1849,13 @@ body {
     flex-direction: column;
     padding: 1.5rem; }
   .log-entry__title {
-    font-size: 2.5rem;
-    font-family: "Staatliches", sans-serif;
-    letter-spacing: .20rem;
-    font-weight: normal;
-    padding-bottom: 2rem; }
+    padding-bottom: 2rem;
+    color: #e6e6e6;
+    clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+    color: #e6e6e6;
+    padding: 0 3rem;
+    background-color: #771f09;
+    display: inline-block; }
   .log-entry__title, .log-entry__date, .log-entry__details {
     max-width: 60rem;
     align-self: center;

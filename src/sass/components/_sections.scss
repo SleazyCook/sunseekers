@@ -1,0 +1,20 @@
+.page-section {
+  color: $color-white-soft;
+  margin: 2rem 5rem;
+  padding: 0 10rem;
+
+  &__title {
+    text-align: start;
+    font-size: 2.5rem;
+    background-color: $color-primary;
+    // width: 50rem;
+    display: inline-block;
+    clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+    color: $color-white-soft;
+    padding: 0 3rem;
+  };
+
+  & p {
+
+  }
+}

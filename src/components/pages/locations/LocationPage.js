@@ -26,9 +26,10 @@ function LocationPage() {
 
         {/* MAIN TITLE & CONTENT */}
         <div className="log-entry__main">
-          <h4 className="log-entry__title">
-            {locationObj.name}
-            </h4>
+          <div className="log-entry__title-box">
+            <span className="log-entry__title heading-tertiary">{locationObj.name}</span>
+            
+            </div>
 
             <span className="location__quote" style={{whiteSpace:'break-spaces'}}>
               "{locationObj.quote}"</span>
@@ -77,17 +78,18 @@ function LocationPage() {
 
       </div> {/* Flexbox End */}
 
-      <div className="page-section">
+      {/* <div className="page-section"> */}
         {locationObj?.sections?.map((sectionObj) => {
           return (
-            <>
-            <br/><br />
-            {sectionObj.name}<br />
-            {sectionObj.content}
-            </>
+            <div className="page-section">
+              <span className="page-section__title heading-tertiary">{sectionObj.name}</span>
+              <p>
+                {sectionObj.content}
+              </p>
+            </div>
           )
         })}
-      </div>
+      {/* </div> */}
 
       {/* Gallery */}
       <div className="gallery__header heading-secondary">Image Gallery</div>
@@ -104,7 +106,6 @@ function LocationPage() {
             </div>
 
             {/* Pop Up */}
-
             </>
           )
         })}

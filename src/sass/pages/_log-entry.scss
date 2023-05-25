@@ -18,12 +18,18 @@
   }
 
   &__title {
-    font-size: 2.5rem;
-    font-family: $font-display;
-    letter-spacing: .20rem;
-    font-weight: normal;
+    // font-size: 2.5rem;
+    // font-family: $font-display;
+    // letter-spacing: .20rem;
+    // font-weight: normal;
     padding-bottom: 2rem;
     // text-align: start;
+    color: $color-white-soft;
+    clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+    color: $color-white-soft;
+    padding: 0 3rem;
+    background-color: $color-primary;
+    display: inline-block;
   }
 
   &__title,

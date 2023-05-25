@@ -23,13 +23,6 @@ let locationsData = [
         cap: "Mists of Barovia",
         img: "https://i.imgur.com/bgfcLRA.png"
       }
-    ],
-    sections: [
-      {
-        name: "House A",
-        img: "alksdjfasldkf",
-        content: "as;ldkfjas;ldk"
-      }
     ]
   },
   {
@@ -42,7 +35,9 @@ let locationsData = [
     notes: ["None"],
     localLinks: {},
     quote: "Black pools of water stand like dark mirrors in and around the muddy roadway. Giant trees loom on both sides of the road, their branches clawing at the mist.",
-    main: `   The Old Svalich Road snakes all the way throught the valley of Barovia.  The Sunseekers first arrived in Barovia on the road followed through the Village of Barovia, the Old Mill, and Vallaki.`,
+    main: `   The Old Svalich Road winds and twists all the way throught the valley of Barovia.  The Sunseekers first arrived in Barovia on the road followed through the Village of Barovia, the Old Mill, and Vallaki.
+    
+    While the Old Svalich Road is known to be safer than the Svalich Woods that surround it, most travels refuse to follow the road without veteran wolf hunter escorts.`,
     gallery: [
       {
         cap: "Old Svalich",
@@ -52,12 +47,10 @@ let locationsData = [
     sections: [
       {
         name: "Wolf attacks",
-        img: "",
         content: "Wolves attacked the shit out of us"
       },
       {
         name: "First Interaction with Strahd",
-        img: "",
         content: "This one thing happened one time"
       }
     ]
@@ -136,37 +129,30 @@ let locationsData = [
     sections: [
       {
         name: "Bildrath's Mercantile",
-        img: "",
         content: ""
       },
       {
         name: "Blood on the Vine",
-        img: "",
         content: "Vistani owned tavern"
       },
       {
         name: "Mad Mary's Townhouse",
-        img: "",
         content: ""
       },
       {
         name: "Burgomaster's Mansion",
-        img: "",
         content: ""
       },
       {
         name: "Church",
-        img: "",
         content: ""
       },
       {
         name: "Cemetary",
-        img: "",
         content: ""
       },
       {
         name: "Durst Manor",
-        img: "",
         content: "Who are the Dursts, Adventure in Death House"
       },
     ]
@@ -211,7 +197,6 @@ let locationsData = [
     sections: [
       {
         name: "Madame Eva",
-        img: "",
         content: ""
       }
     ]
@@ -296,12 +281,10 @@ let locationsData = [
     section: [
       {
         name: "Rats in Ravenloft",
-        img: "",
         content: ""
       },
       {
         name: "Umnos in Ravenloft",
-        img: "",
         content: ""
       }
     ]
@@ -343,17 +326,14 @@ let locationsData = [
     section: [
       {
         name: "Megaliths",
-        img: "",
         content: ""
       },
       {
         name: "Dream pastries",
-        img: "",
         content: ""
       },
       {
         name: "Old Mill Burned Down",
-        img: "",
         content: ""
       }
     ]
@@ -412,47 +392,38 @@ let locationsData = [
     sections: [
       {
         name: "St. Andral's Church",
-        img: "",
         content: "include orphange"
       },
       {
         name: "Blue Water Inn",
-        img: "",
         content: ""
       },
       {
         name: "Burgomaster's Mansion",
-        img: "",
         content: ""
       },
       {
         name: "Wachterhaus",
-        img: "",
         content: ""
       },
       {
         name: "Arasek Stockyards",
-        img: "",
         content: ""
       },
       {
         name: "Coffine Maker's Shop",
-        img: "",
         content: ""
       },
       {
         name: "Blinsky's Toys",
-        img: "",
         content: ""
       },
       {
         name: "Town Square",
-        img: "",
         content: "include vallaki market"
       },
       {
         name: "Vistani Camp",
-        img: "",
         content: ""
       }
     ]
