@@ -91,6 +91,48 @@ let locationsData = [
     localLinks: {},
     quote: "Tall shapes loom out of the dense fog that surrounds everything. The muddy ground underfoot gives way to slick, wet cobblestones. The tall shapes become recognizable as village dwellings. The windows of each house stare out from pools of Blackness. No sound cuts the silence except for mournful sobbing that echoes through the streets from a distance.",
     main: `   `,
+    gallery: [
+      {
+        cap: "View of Castle Ravenloft from the Village of Barovia",
+        img: "https://i.imgur.com/yxCPjUN.png"
+      },
+      {
+        cap: "Map of Village of Barovia",
+        img: "https://i.imgur.com/zxl3W65.png"
+      },
+      {
+        cap: "Map of Church in Village of Barovia",
+        img: "https://i.imgur.com/fxgQqfY.jpg"
+      },
+      {
+        cap: "Blood on the Vine Tavern sign",
+        img: "https://i.imgur.com/HU0bX4P.jpg"
+      },
+      {
+        cap: "Blood on the Vine Tavern exterior",
+        img: "https://i.imgur.com/fZlkLtN.png"
+      },
+      {
+        cap: "Downtown Village of Barovia",
+        img: "https://i.imgur.com/n5ktd93.png"
+      },
+      {
+        cap: "Zombies in the Village Well",
+        img: "https://i.imgur.com/V6fdcx7.png"
+      },
+      {
+        cap: "Durst Manor",
+        img: "https://i.imgur.com/ZzFQKI3.png"
+      },
+      {
+        cap: "Priests of Osybus",
+        img: "https://i.imgur.com/v0UJOI8.png"
+      },
+      {
+        cap: "Map of Durst Manor",
+        img: "https://i.imgur.com/hiFFkUj.png"
+      }
+    ]
   },
   {
     number: 5,
@@ -106,7 +148,29 @@ let locationsData = [
     The canopy of mist and branches suddenly gives way to black clouds boiling far above. There is a clearing here, next to a river that widens to form a small lake several hundred feet across. Five colorful round tents, each ten feet in diameter, are pitched outside a ring of four barrel-topped wagons. A much larger tent stands near the shore of the lake, its saggin form lit from within. Near this tent, eight unbridled horses drink from the river.
     
     The mournful strains of an accordian clash with the singing of several brightly clad figures around a bonfire. A footpath continues beyond this encampment, meandering north between the river and the forest's edge.`,
-    main: ""
+    main: "",
+    gallery: [
+      {
+        cap: "Tser Pool Encampment",
+        img: "https://i.imgur.com/4ESFX6g.png"
+      },
+      {
+        cap: "Map of Tser Pool Encampment",
+        img: "https://i.imgur.com/90YbfjU.png"
+      },
+      {
+        cap: "Dancing Vistani",
+        img: "https://i.imgur.com/THM9GkI.png"
+      },
+      {
+        cap: "Madame Eva",
+        img: "https://i.imgur.com/4TAGQ2R.jpg"
+      },
+      {
+        cap: "Madame Eva's Table",
+        img: "https://i.imgur.com/Ene9b1B.jpg"
+      }
+    ]
   },
   {
     number: 6,
@@ -120,7 +184,13 @@ let locationsData = [
     quote: `Even here, in the mountains, the forest and the fog are inescapable. Ahead, the dirt road splits in two, widening toward the east. There you see patches of cobblestone, suggesting that the eastern branch was once an important thoroughfare. 
     
     Parked at the fork in the road, pointed east, is a large black carriage drawn by two black horses. The horses snort puffs of steamy breath into the chill mountain air. The side door of the carriage swings open silently.`,
-    main: ""
+    main: "",
+    gallery: [
+      {
+        cap: "Black Carriage",
+        img: "https://i.imgur.com/BgyFPCi.png"
+      }
+    ]
   },
   {
     number: 7,
@@ -132,7 +202,54 @@ let locationsData = [
     notes: ["..."],
     localLinks: {},
     quote: `At the center of the far west wall, between floor-to-ceiling mirrors, stands a massive organ. Its pipes blare out a thunderous melody that speaks in its tone of greatness and despair. Seated at the organ facing away from you, Strahd pounds the keys in raptured ecstasy. The music softens as he turns gently and smiles to acknoweldge you.`,
-    main: ""
+    main: "",
+    gallery: [
+      {
+        cap: "Strahd's organ",
+        img: "https://i.imgur.com/4iLw0nC.png"
+      },
+      {
+        cap: "Ravenloft chapel",
+        img: "https://i.imgur.com/evHCMah.png"
+      },
+      {
+        cap: "Ba'al Verzi dagger",
+        img: "https://i.imgur.com/nngoYtw.png"
+      },
+      {
+        cap: "Strahd's study",
+        img: "https://i.imgur.com/RztDbSi.png"
+      },
+      {
+        cap: "Strahd portrait",
+        img: "https://i.imgur.com/udpvjxn.png"
+      },
+      {
+        cap: "Von Zarovich family crest",
+        img: "https://i.imgur.com/6SASbnM.png"
+      },
+      {
+        cap: "Heart of Sorrow",
+        img: "https://i.imgur.com/qIbqsK8.png"
+      },
+      {
+        cap: "Volenta", 
+        img: "https://i.imgur.com/2tsTehi.png"
+      },
+      {
+        cap: "Bucephalus",
+        img: "https://i.imgur.com/ncyiGNK.png"
+      },
+      {
+        cap: "Tome of Strahd",
+        img: "https://i.imgur.com/zciYECT.png"
+      },
+      {
+        cap: "Brazier Room",
+        img: "https://i.imgur.com/Bev2dep.png"
+      }
+
+    ]
   },
   {
     number: 8,
@@ -145,7 +262,29 @@ let locationsData = [
     notes: ["..."],
     localLinks: {},
     quote: `The Old Svalich Road transitions here from being a winding path through the Balinok Mountains to a lazy trail that hugs the mountainside as it descends into a fog-filled valley. In the heart of the valley you see a walled town near the shores of a great mountain lake, its waters dark and still. A branch in the raod leads west to a promontory, atop which is perched a dilapidated stone windmill, its warped wooden vanes stripped here.`,
-    main: ""
+    main: "The Old Mill was once owned and operated by the Durst family from the Village of Barovia.",
+    gallery: [
+      {
+        cap: "Old Mill",
+        img: "https://i.imgur.com/OVBsusR.png"
+      },
+      {
+        cap: "Bella's Bakery",
+        img: "https://i.imgur.com/Z3CS9zj.png"
+      },
+      {
+        cap: "Dream Pastries",
+        img: "https://i.imgur.com/eLxD2MB.png"
+      },
+      {
+        cap: "Morgantha's Pastry Cart",
+        img: "https://i.imgur.com/p7NId0c.png"
+      },
+      {
+        cap: "Mill Witches",
+        img: "https://i.imgur.com/RXoVXmW.png"
+      }
+    ]
   },
   {
     number: 9,
@@ -159,7 +298,45 @@ let locationsData = [
     quote: `The Old Svalich Road meanders into a valley watched over by dark, brooding mountains to the north and south. The woods recede, revealing a sullen mountain burg surrounded by a wooden palisade. Thick fog presses up against this wall, as though looking for a way inside, hoping to catch the town aslumber. 
     
     The dirt road ends at a set of sturdy iron gates with a pair of shadowy figures standing behind them. Planted in the ground and flanking the road outside the gates are a half-dozen pikes with wolves' heads impaled on them.`,
-    main: ""
+    main: "",
+    gallery: [
+      {
+        cap: "Sunseekers enter Vallaki",
+        img: "https://i.imgur.com/fgPPAfM.png"
+      },
+      {
+        cap: "Vallaki from a distance",
+        img: "https://i.imgur.com/AWH6Imb.png"
+      },
+      {
+        cap: "Map of Vallaki",
+        img: "https://i.imgur.com/LOLy8XV.png"
+      },
+      {
+        cap: "Map of Church of St. Andral",
+        img: "https://i.imgur.com/Oia2nrv.jpg"
+      },
+      {
+        cap: "Rictavio's Wagon",
+        img: "https://i.imgur.com/9hhPNLe.png"
+      },
+      {
+        cap: "Downtown Vallaki",
+        img: "https://i.imgur.com/coz37xw.png"
+      },
+      {
+        cap: "Blue Water Inn interior",
+        img: "https://i.imgur.com/t3qHoMg.png"
+      },
+      {
+        cap: "Wachterhaus exterior",
+        img: "https://i.imgur.com/mfeP7a9.png"
+      },
+      {
+        cap: "Festival of the Blazing Sun flyer",
+        img: "https://i.imgur.com/G2pd6iZ.jpg"
+      }
+    ]
   },
   {
     number: 10,
@@ -173,7 +350,17 @@ let locationsData = [
     quote: `The woods part to reveal an expansive clearing: a small, grass-covered hill with low houses built into its sides. Fog obscures the details, but you can see that these buildings feature elegantly carved woodwork and have decorative lanterns hanging from their scultped eaves. 
     
     Atop the hill, above the fog, is a ring of barrel-topped wagons that surround a large tent with a column of smoke pouring out through a hole in the top. The tent is brightly lit from within. Even at this distance, you can smell the odors of wine and horses that emanate from this central area.`,
-    main: ""
+    main: "",
+    gallery: [
+      {
+        cap: "Vallaki Vistani Camp",
+        img: "https://i.imgur.com/BhKS1uC.png"
+      },
+      {
+        cap: "Map of Vallaki Vistani Camp",
+        img: "https://i.imgur.com/HflDsfo.png"
+      }
+    ]
   },
   {
     number: 11,
@@ -185,7 +372,13 @@ let locationsData = [
     notes: ["..."],
     localLinks: {},
     quote: "At the foot of the mountain, nestled in the misty forest, is a large lake. The water is perfectly still and dark, reflecting the black clouds overhead like amonstrous mirror.",
-    main: ""
+    main: "",
+    gallery: [
+      {
+        cap: "Lake Zarovich",
+        img: "https://i.imgur.com/g5gBgCy.png"
+      }
+    ]
   },
   {
     number: 12,
@@ -199,7 +392,13 @@ let locationsData = [
     quote: `    North of the mountain lake, the trees begin their steady climb up the slopes of Mount Baratok, its monolithic presence oppressive at this distance. The ground here is rocky, uneven, and tiring to navigate. Even the wolves avoid this neck of the woods. Soon, you climb above the blanket of fog that englulfs the valley. Dark thunderclouds roll overhead.
     
     You see an elk standing on a rocky spur about sicty feet away. Suddenly, it assumes the form of a man in tattered robes. His hair and beard are long, black, and streaked with gray, and his eyes crackle with eldritch power.`,
-    main: ""
+    main: "",
+    gallery: [
+      {
+        cap: "Mount Baratok",
+        img: "https://i.imgur.com/YeJikRd.png"
+      }
+    ]
   },
   {
     number: 13,
@@ -211,7 +410,25 @@ let locationsData = [
     notes: ["..."],
     localLinks: {},
     quote: "Perched atop a ten-foot-wide, ten-foot-high cube of granite is a moss-covered statue of a dragon, its wings tucked close to its body. The statue looks east, toward the mansion.",
-    main: ""
+    main: "",
+    gallery: [
+      {
+        cap: "Argonvostholt",
+        img: "https://i.imgur.com/a7MDVuA.png"
+      },
+      {
+        cap: "Argonvost statue",
+        img: "https://i.imgur.com/udW0ilM.png"
+      },
+      {
+        cap: "Argonvost portrait",
+        img: "https://i.imgur.com/gMBEsmH.png"
+      },
+      {
+        cap: "Argonvost",
+        img: "https://i.imgur.com/Phx9MiB.png"
+      }
+    ]
   },
   {
     number: 14,
@@ -226,7 +443,13 @@ let locationsData = [
     
     // The walls that extend from the gatehouse are twenty feet high. Atop the parapet you see four figures wearing fur hats and clutching spears. They watch you nervously.`,
     quote: "UNDISCOVERED",
-    main: ""
+    main: "",
+    // gallery: [
+    //   {
+    //     cap: "",
+    //     img: "https://i.imgur.com/UOUFifH.png"
+    //   }
+    // ]
   },
   {
     number: 15,
@@ -243,7 +466,13 @@ let locationsData = [
     Barovia's coldest and harshest temperatures can be found around Mount Ghakis. Traversing this region is difficult and dangerous. 
 
     It was once patrolled by the Order of the Silver Dragon along the road leading up to Tsolenka Pass. It is believed that when Strahd and his forces extinguished the Order, he was able to march right into the Amber Temple and whatever he found there changed him forever, turning him into a vampire and separating Barovia from the material plane.
-    `
+    `,
+    gallery: [
+      {
+        cap: "Mount Ghakis",
+        img: "https://i.imgur.com/UOUFifH.png"
+      }
+    ]
   },
   {
     number: 16,
@@ -257,7 +486,17 @@ let locationsData = [
     quote: `The shelf of rock on which the mountain road clings grows narrow. To your left, the icy cliffs rise sharply toward dark, rolling clouds. To your right, the ground fallas away into a sea of fog. Ahead, through the wind and snow, you see a high wall of black stone lined with spikes and topped by statues of crouching stone gargoyles with snarling mouths. Set in the center of the wall is a closed iron portcullis, behind which burns a curtain of green flame. 
     
     On the other side of the dark BsWallet, gripping the mountain's edge, is a guard's tower of white stone topped by golden statues of mighty warriors.`,
-    main: ""
+    main: "",
+    gallery: [
+      {
+        cap: "Tsolenka Pass",
+        img: "https://i.imgur.com/G32pbKr.png"
+      },
+      {
+        cap: "Wolfie",
+        img: "https://i.imgur.com/U80ipYz.png"
+      }
+    ]
   },
   {
     number: 17,

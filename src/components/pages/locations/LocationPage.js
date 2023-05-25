@@ -78,8 +78,10 @@ function LocationPage() {
       </div> {/* Flexbox End */}
 
       {/* Gallery */}
+      <div className="gallery__header heading-secondary">Image Gallery</div>
+      
       <div className="gallery">
-        <div className="gallery__header heading-secondary">Image Gallery</div>
+
 
         {locationObj?.gallery?.map((galleryObj) => {
           return (

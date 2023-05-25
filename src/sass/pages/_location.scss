@@ -21,6 +21,8 @@
 .gallery {
   border: 1px solid white;
   margin: 0 10rem;
+  display: flex;
+  flex-wrap: wrap;
 
   &__header {
     color: white;
