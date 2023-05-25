@@ -83,7 +83,7 @@ function LocationPage() {
           return (
             <div className="page-section">
               <span className="page-section__title heading-tertiary">{sectionObj.name}</span>
-              <p>
+              <p style={{whiteSpace:'break-spaces'}}>
                 {sectionObj.content}
               </p>
             </div>

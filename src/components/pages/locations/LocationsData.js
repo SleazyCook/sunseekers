@@ -37,7 +37,9 @@ let locationsData = [
     quote: "Black pools of water stand like dark mirrors in and around the muddy roadway. Giant trees loom on both sides of the road, their branches clawing at the mist.",
     main: `   The Old Svalich Road winds and twists all the way throught the valley of Barovia.  The Sunseekers first arrived in Barovia on the road followed through the Village of Barovia, the Old Mill, and Vallaki.
     
-    While the Old Svalich Road is known to be safer than the Svalich Woods that surround it, most travels refuse to follow the road without veteran wolf hunter escorts.`,
+    While the Old Svalich Road is known to be safer than the Svalich Woods that surround it, most travels refuse to follow the road without veteran wolf hunter escorts. Wolf hunters, such as Szoldar and Yevgeni, can be found in major settlements like Vallaki and Krezk. 
+    
+    It is not uncommon for undead or other horrors to cross the road without warning.`,
     gallery: [
       {
         cap: "Old Svalich",
@@ -47,7 +49,11 @@ let locationsData = [
     sections: [
       {
         name: "Wolf attacks",
-        content: "Wolves attacked the shit out of us"
+        content: `      The wolves of the Svalich Woods often hunt for travelers along the Old Svalich Road. 
+        
+        The Sunseekers have been attacked by wolves several times on their travels. Even their Sunset wagon has done little to protect them from wandering wolf packs.
+        
+        One one occasion three large dire wolves nearly ripped the wagon apart while attacking the party.`
       },
       {
         name: "First Interaction with Strahd",

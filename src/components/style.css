@@ -1029,7 +1029,8 @@ body {
     display: inline-block;
     clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
     color: #e6e6e6;
-    padding: 0 3rem; }
+    padding: 0 3rem;
+    margin: 2rem 0; }
 
 .shop {
   width: 100%;
