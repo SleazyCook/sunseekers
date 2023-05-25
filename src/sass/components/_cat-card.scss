@@ -328,18 +328,18 @@
     background-blend-mode:difference;
   }
 
-  &--location-4 {
-    background-image: linear-gradient(
-      to right bottom, 
-      rgba($color-primary-light, 0.2), 
-      rgba($color-primary-dark, 0.2)), 
-      url("https://i.imgur.com/K0dBpvZ.png");
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: hue;
-   }
+  // &--location-4 {
+  //   background-image: linear-gradient(
+  //     to right bottom, 
+  //     rgba($color-primary-light, 0.2), 
+  //     rgba($color-primary-dark, 0.2)), 
+  //     url("https://i.imgur.com/K0dBpvZ.png");
+  //   background-size: cover;
+  //   background-position: center;
+  //   background-blend-mode: hue;
+  //  }
 
-  &--location-5 {
+  &--location-4 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.2),  
@@ -350,7 +350,7 @@
     background-blend-mode: hue;
   }
 
-  &--location-6 {
+  &--location-5 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-grey-dark-1, 0.8),   
@@ -361,7 +361,7 @@
     background-blend-mode: lighten;
   }
 
-  &--location-7 {
+  &--location-6 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -372,7 +372,7 @@
     background-blend-mode: difference;
   }
 
-  &--location-8 {
+  &--location-7 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8), 
@@ -383,7 +383,7 @@
     background-blend-mode: multiply;
    }
 
-  &--location-9 {
+  &--location-8 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -394,7 +394,7 @@
     background-blend-mode: lighten;
   }
 
-  &--location-10 {
+  &--location-9 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8), 
@@ -405,7 +405,7 @@
     background-blend-mode: difference;
    }
 
-  &--location-11 {
+  &--location-10 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -416,18 +416,18 @@
     background-blend-mode: lighten;
   }
 
-  &--location-11 {
-    background-image: linear-gradient(
-      to right bottom, 
-      rgba($color-primary-light, 0.8),  
-      rgba($color-primary-dark, 0.8)), 
-      url("https://i.imgur.com/BhKS1uC.png");
-    background-size: cover;
-    background-position: top;
-    background-blend-mode: lighten;
-  }
+  // &--location-11 {
+  //   background-image: linear-gradient(
+  //     to right bottom, 
+  //     rgba($color-primary-light, 0.8),  
+  //     rgba($color-primary-dark, 0.8)), 
+  //     url("https://i.imgur.com/BhKS1uC.png");
+  //   background-size: cover;
+  //   background-position: top;
+  //   background-blend-mode: lighten;
+  // }
 
-  &--location-12 {
+  &--location-11 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -438,7 +438,7 @@
     background-blend-mode: lighten;
   }
 
-  &--location-13 {
+  &--location-12 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -449,7 +449,7 @@
     background-blend-mode: lighten;
   }
 
-  &--location-14 {
+  &--location-13 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -460,7 +460,7 @@
     background-blend-mode: lighten;
   }
 
-  &--location-15 {
+  &--location-14 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-grey-light-2, 0.8),  
@@ -471,7 +471,7 @@
     background-blend-mode: multiply;
   }
 
-  &--location-16 {
+  &--location-15 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -482,7 +482,7 @@
     background-blend-mode: lighten;
   }
   
-  &--location-17 {
+  &--location-16 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -493,7 +493,7 @@
     background-blend-mode: lighten;
   }
 
-  &--location-18 {
+  &--location-17 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -504,7 +504,7 @@
     background-blend-mode: lighten;
   }
 
-  &--location-19 {
+  &--location-18 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -515,7 +515,7 @@
     background-blend-mode: lighten;
   }
 
-  &--location-20 {
+  &--location-19 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -526,7 +526,7 @@
     background-blend-mode:color;
   }
 
-  &--location-21 {
+  &--location-20 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -537,7 +537,7 @@
     background-blend-mode: lighten;
   }
   
-  &--location-22 {
+  &--location-21 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  

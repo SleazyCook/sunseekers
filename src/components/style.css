@@ -514,101 +514,91 @@ body {
     background-position: center;
     background-blend-mode: difference; }
   .cat-card--location-4 {
-    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.2), rgba(24, 6, 2, 0.2)), url("https://i.imgur.com/K0dBpvZ.png");
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: hue; }
-  .cat-card--location-5 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.2), rgba(24, 6, 2, 0.2)), url("https://i.imgur.com/VP9HxsY.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: hue; }
-  .cat-card--location-6 {
+  .cat-card--location-5 {
     background-image: linear-gradient(to right bottom, rgba(26, 26, 26, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/4ESFX6g.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--location-7 {
+  .cat-card--location-6 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BgyFPCi.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: difference; }
-  .cat-card--location-8 {
+  .cat-card--location-7 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/1xI9Lua.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply; }
-  .cat-card--location-9 {
+  .cat-card--location-8 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/OVBsusR.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--location-10 {
+  .cat-card--location-9 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/coz37xw.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: difference; }
-  .cat-card--location-11 {
+  .cat-card--location-10 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BhKS1uC.png");
     background-size: cover;
     background-position: top;
     background-blend-mode: lighten; }
   .cat-card--location-11 {
-    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BhKS1uC.png");
-    background-size: cover;
-    background-position: top;
-    background-blend-mode: lighten; }
-  .cat-card--location-12 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/g5gBgCy.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--location-13 {
+  .cat-card--location-12 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/YeJikRd.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--location-14 {
+  .cat-card--location-13 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/a7MDVuA.png");
     background-size: cover;
     background-position: left;
     background-blend-mode: lighten; }
-  .cat-card--location-15 {
+  .cat-card--location-14 {
     background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/KZksRvW.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply; }
-  .cat-card--location-16 {
+  .cat-card--location-15 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/UOUFifH.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--location-17 {
+  .cat-card--location-16 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/djjBndz.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--location-18 {
+  .cat-card--location-17 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/ucyJimG.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--location-19 {
+  .cat-card--location-18 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/Bl3DflE.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--location-20 {
+  .cat-card--location-19 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/GlOt2XL.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: color; }
-  .cat-card--location-21 {
+  .cat-card--location-20 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BGevuw0.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--location-22 {
+  .cat-card--location-21 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/vulmMJ0.png");
     background-size: cover;
     background-position: center;
@@ -1811,6 +1801,27 @@ body {
 .location p {
   margin: 3rem 0; }
 
+.gallery {
+  border: 1px solid white;
+  margin: 0 10rem; }
+  .gallery__header {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem 2rem 2rem 2rem; }
+  .gallery__img {
+    height: 20rem;
+    width: 20rem;
+    margin: auto; }
+    .gallery__img-cap {
+      text-align: center;
+      background-color: red; }
+    .gallery__img-box {
+      height: 25rem;
+      width: 25rem;
+      padding: 2.5rem;
+      border: 1px solid white; }
+
 .log-entry {
   display: flex;
   padding: 0 10rem;
@@ -2124,59 +2135,56 @@ body {
       top: 43%;
       left: 87%; }
     .world-map__coordinates--4 {
-      top: 70%;
+      top: 61%;
       left: 79%; }
     .world-map__coordinates--5 {
       top: 61%;
-      left: 79%; }
-    .world-map__coordinates--6 {
-      top: 61%;
       left: 66%; }
-    .world-map__coordinates--7 {
+    .world-map__coordinates--6 {
       top: 46%;
       left: 61%; }
-    .world-map__coordinates--8 {
+    .world-map__coordinates--7 {
       top: 52%;
       left: 70%; }
-    .world-map__coordinates--9 {
+    .world-map__coordinates--8 {
       top: 43%;
       left: 50%; }
-    .world-map__coordinates--10 {
+    .world-map__coordinates--9 {
       top: 33%;
       left: 41%; }
-    .world-map__coordinates--11 {
+    .world-map__coordinates--10 {
       top: 36%;
       left: 39%; }
-    .world-map__coordinates--12 {
+    .world-map__coordinates--11 {
       top: 25%;
       left: 47%; }
-    .world-map__coordinates--13 {
+    .world-map__coordinates--12 {
       top: 10%;
       left: 35%; }
-    .world-map__coordinates--14 {
+    .world-map__coordinates--13 {
       top: 47%;
       left: 33%; }
-    .world-map__coordinates--15 {
+    .world-map__coordinates--14 {
       top: 30%;
       left: 15%; }
-    .world-map__coordinates--16 {
+    .world-map__coordinates--15 {
       top: 80%;
       left: 47%; }
-    .world-map__coordinates--17 {
+    .world-map__coordinates--16 {
       top: 72%;
       left: 27.5%; }
-    .world-map__coordinates--18 {
+    .world-map__coordinates--17 {
       top: 60%;
       left: 34%; }
-    .world-map__coordinates--19 {
+    .world-map__coordinates--18 {
       top: 28%;
       left: 24%; }
-    .world-map__coordinates--20 {
+    .world-map__coordinates--19 {
       top: 47%;
       left: 12%; }
-    .world-map__coordinates--21 {
+    .world-map__coordinates--20 {
       top: 77%;
       left: 36%; }
-    .world-map__coordinates--22 {
+    .world-map__coordinates--21 {
       top: 63%;
       left: 7%; }

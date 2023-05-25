@@ -31,7 +31,7 @@ function LocationPage() {
             </h4>
 
             <span className="location__quote" style={{whiteSpace:'break-spaces'}}>
-              {locationObj.quote}</span>
+              "{locationObj.quote}"</span>
 
           <p className="log-entry__text hyperlink" style={{whiteSpace:'break-spaces'}}>
             {locationObj.main}
@@ -54,8 +54,7 @@ function LocationPage() {
               <b>Characters:</b>
             </div>
             <div className="details-box__section--right hyperlink">
-              {locationObj.characters}
-            {/* {locationObj.characters && renderWithLinks(locationObj.characters, locationObj.localLinks)} */}
+            {locationObj.characters && renderWithLinks(locationObj.characters, locationObj.localLinks)}
             </div>
           </div>
           <div className="details-box__section">
@@ -63,8 +62,7 @@ function LocationPage() {
               <b>Quests:</b>
             </div>
             <div className="details-box__section--right hyperlink">
-              {locationObj.quests}
-              {/* {locationObj.quests && renderWithLinks(locationObj.quests, locationObj.localLinks)} */}
+              {locationObj.quests && renderWithLinks(locationObj.quests, locationObj.localLinks)}
             </div>
           </div>
           <div className="details-box__section">
@@ -72,13 +70,31 @@ function LocationPage() {
               <b>Notes:</b>
             </div>
             <div className="details-box__section--right hyperlink">
-              {locationObj.notes}
-             {/* {locationObj.notes && renderWithLinks(locationObj.notes, locationObj.localLinks)} */}
+             {locationObj.notes && renderWithLinks(locationObj.notes, locationObj.localLinks)}
             </div>
           </div>
         </div>
 
-      </div>
+      </div> {/* Flexbox End */}
+
+      {/* Gallery */}
+      <div className="gallery">
+        <div className="gallery__header heading-secondary">Image Gallery</div>
+
+        {locationObj?.gallery?.map((galleryObj) => {
+          return (
+            <>
+            <div className="gallery__img-box">
+              <img className="gallery__img" src={galleryObj.img} alt={`image of ${galleryObj.cap}`}/>
+              <p classname="gallery__img-cap">{galleryObj.cap}</p>
+            </div>
+
+            {/* Pop Up */}
+
+            </>
+          )
+        })}
+      </div>  
 
 
     </div>
