@@ -77,9 +77,21 @@ function LocationPage() {
 
       </div> {/* Flexbox End */}
 
+      <div className="page-section">
+        {locationObj?.sections?.map((sectionObj) => {
+          return (
+            <>
+            <br/><br />
+            {sectionObj.name}<br />
+            {sectionObj.content}
+            </>
+          )
+        })}
+      </div>
+
       {/* Gallery */}
       <div className="gallery__header heading-secondary">Image Gallery</div>
-      
+
       <div className="gallery">
 
 
@@ -96,6 +108,7 @@ function LocationPage() {
             </>
           )
         })}
+
       </div>  
 
 

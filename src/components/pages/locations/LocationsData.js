@@ -48,6 +48,18 @@ let locationsData = [
         cap: "Old Svalich",
         img: "https://i.imgur.com/B7TIY5w.png"
       }
+    ],
+    sections: [
+      {
+        name: "Wolf attacks",
+        img: "",
+        content: "Wolves attacked the shit out of us"
+      },
+      {
+        name: "First Interaction with Strahd",
+        img: "",
+        content: "This one thing happened one time"
+      }
     ]
   },
   {
@@ -68,18 +80,6 @@ let locationsData = [
       }
     ]
   },
-  // {
-  //   number: 4, 
-  //   name: "River Ivlis",
-  //   img: "https://i.imgur.com/K0dBpvZ.png",
-  //   imgCap: "River Ivlis",
-  //   characters: ["Vistani"],
-  //   quests: ["None"],
-  //   notes: ["None"],
-  //   localLinks: {},
-  //   quote: "This river flows as clear as a blue winter sky through the valley.",
-  //   main: `   The Ivlis River runs Eastward through the Eastern half of Barovia. Along it length lie the Tser Falls and Tser Pool.`
-  // },
   {
     number: 4,
     name: "Village of Barovia",
@@ -90,7 +90,7 @@ let locationsData = [
     notes: ["Ireena's Diary"],
     localLinks: {},
     quote: "Tall shapes loom out of the dense fog that surrounds everything. The muddy ground underfoot gives way to slick, wet cobblestones. The tall shapes become recognizable as village dwellings. The windows of each house stare out from pools of Blackness. No sound cuts the silence except for mournful sobbing that echoes through the streets from a distance.",
-    main: `   `,
+    main: `  `,
     gallery: [
       {
         cap: "View of Castle Ravenloft from the Village of Barovia",
@@ -132,6 +132,43 @@ let locationsData = [
         cap: "Map of Durst Manor",
         img: "https://i.imgur.com/hiFFkUj.png"
       }
+    ],
+    sections: [
+      {
+        name: "Bildrath's Mercantile",
+        img: "",
+        content: ""
+      },
+      {
+        name: "Blood on the Vine",
+        img: "",
+        content: "Vistani owned tavern"
+      },
+      {
+        name: "Mad Mary's Townhouse",
+        img: "",
+        content: ""
+      },
+      {
+        name: "Burgomaster's Mansion",
+        img: "",
+        content: ""
+      },
+      {
+        name: "Church",
+        img: "",
+        content: ""
+      },
+      {
+        name: "Cemetary",
+        img: "",
+        content: ""
+      },
+      {
+        name: "Durst Manor",
+        img: "",
+        content: "Who are the Dursts, Adventure in Death House"
+      },
     ]
   },
   {
@@ -169,6 +206,13 @@ let locationsData = [
       {
         cap: "Madame Eva's Table",
         img: "https://i.imgur.com/Ene9b1B.jpg"
+      }
+    ],
+    sections: [
+      {
+        name: "Madame Eva",
+        img: "",
+        content: ""
       }
     ]
   },
@@ -248,7 +292,18 @@ let locationsData = [
         cap: "Brazier Room",
         img: "https://i.imgur.com/Bev2dep.png"
       }
-
+    ],
+    section: [
+      {
+        name: "Rats in Ravenloft",
+        img: "",
+        content: ""
+      },
+      {
+        name: "Umnos in Ravenloft",
+        img: "",
+        content: ""
+      }
     ]
   },
   {
@@ -283,6 +338,23 @@ let locationsData = [
       {
         cap: "Mill Witches",
         img: "https://i.imgur.com/RXoVXmW.png"
+      }
+    ],
+    section: [
+      {
+        name: "Megaliths",
+        img: "",
+        content: ""
+      },
+      {
+        name: "Dream pastries",
+        img: "",
+        content: ""
+      },
+      {
+        name: "Old Mill Burned Down",
+        img: "",
+        content: ""
       }
     ]
   },
@@ -336,6 +408,53 @@ let locationsData = [
         cap: "Festival of the Blazing Sun flyer",
         img: "https://i.imgur.com/G2pd6iZ.jpg"
       }
+    ],
+    sections: [
+      {
+        name: "St. Andral's Church",
+        img: "",
+        content: "include orphange"
+      },
+      {
+        name: "Blue Water Inn",
+        img: "",
+        content: ""
+      },
+      {
+        name: "Burgomaster's Mansion",
+        img: "",
+        content: ""
+      },
+      {
+        name: "Wachterhaus",
+        img: "",
+        content: ""
+      },
+      {
+        name: "Arasek Stockyards",
+        img: "",
+        content: ""
+      },
+      {
+        name: "Coffine Maker's Shop",
+        img: "",
+        content: ""
+      },
+      {
+        name: "Blinsky's Toys",
+        img: "",
+        content: ""
+      },
+      {
+        name: "Town Square",
+        img: "",
+        content: "include vallaki market"
+      },
+      {
+        name: "Vistani Camp",
+        img: "",
+        content: ""
+      }
     ]
   },
   {
@@ -360,6 +479,13 @@ let locationsData = [
         cap: "Map of Vallaki Vistani Camp",
         img: "https://i.imgur.com/HflDsfo.png"
       }
+    ],
+    sections: [
+      {
+        name: "Rescue Arabelle",
+        img: "",
+        content: ""
+      }
     ]
   },
   {
@@ -376,7 +502,15 @@ let locationsData = [
     gallery: [
       {
         cap: "Lake Zarovich",
-        img: "https://i.imgur.com/g5gBgCy.png"
+        img: "https://i.imgur.com/g5gBgCy.png",
+        content: ""
+      }
+    ],
+    sections: [
+      {
+        name: "Bluto",
+        img: "",
+        content: ""
       }
     ]
   },
@@ -397,6 +531,13 @@ let locationsData = [
       {
         cap: "Mount Baratok",
         img: "https://i.imgur.com/YeJikRd.png"
+      }
+    ],
+    sections: [
+      {
+        name: "Mad Mage in the Mountains",
+        img: "",
+        content: ""
       }
     ]
   },
@@ -427,6 +568,18 @@ let locationsData = [
       {
         cap: "Argonvost",
         img: "https://i.imgur.com/Phx9MiB.png"
+      }
+    ],
+    sections: [
+      {
+        name: "Order of the Silver Dragon",
+        img: "",
+        content: ""
+      },
+      {
+        name: "Godfrey's Knights",
+        img: "",
+        content: ""
       }
     ]
   },
@@ -495,6 +648,13 @@ let locationsData = [
       {
         cap: "Wolfie",
         img: "https://i.imgur.com/U80ipYz.png"
+      }
+    ],
+    sections: [
+      {
+        name: "Ludmilla's Lab",
+        img: "",
+        content: ""
       }
     ]
   },
