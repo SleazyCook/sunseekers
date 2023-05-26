@@ -638,7 +638,7 @@ body {
     text-align: center;
     display: flex; }
     .details-box__section:not(:first-child) {
-      background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)); }
+      background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(26, 26, 26, 0.8)); }
     .details-box__section--left {
       width: 50%;
       text-align: center;
