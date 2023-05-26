@@ -1,12 +1,25 @@
 .details-box {
-  border: 2px solid white;
+  // border: 2px solid white;
   width: 30rem;
+  padding: .5rem;
+  // background-color: red;
+  // transition: all .5s;
+
+  // &:hover {
+  //   transform: scale(1.05);
+  // }
 
   &__section {
     border-bottom: 1px solid white;
+
     width: 100%;
     text-align: center;
     display: flex;
+
+    &:not(:first-child) {
+      border-left: 1px solid white;
+      border-right: 1px solid white;
+    }
 
 
     &--left {
@@ -26,6 +39,8 @@
 
   &__img {
     width: 28rem;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: 5px 5px 5px $box-shadow-highlight;
 
     &-cap {
       padding: .5rem;

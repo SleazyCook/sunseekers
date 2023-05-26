@@ -630,13 +630,16 @@ body {
     background-blend-mode: hue; }
 
 .details-box {
-  border: 2px solid white;
-  width: 30rem; }
+  width: 30rem;
+  padding: .5rem; }
   .details-box__section {
     border-bottom: 1px solid white;
     width: 100%;
     text-align: center;
     display: flex; }
+    .details-box__section:not(:first-child) {
+      border-left: 1px solid white;
+      border-right: 1px solid white; }
     .details-box__section--left {
       width: 50%;
       text-align: center;
@@ -648,7 +651,9 @@ body {
       overflow-wrap: break-word;
       padding: .5rem .25rem; }
   .details-box__img {
-    width: 28rem; }
+    width: 28rem;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: 5px 5px 5px 5px 5px 5px grey; }
     .details-box__img-cap {
       padding: .5rem;
       display: block; }

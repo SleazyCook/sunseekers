@@ -87,10 +87,14 @@ let locationsData = [
     name: "Village of Barovia",
     img: "https://i.imgur.com/VP9HxsY.png",
     imgCap: "Castle Ravenloft overlooking the Village of Barovia",
-    characters: ["Bildrath"],
+    leader: ["Ismark Indirovich"],
+    characters: ["Durst Family", "Ismark", "Ireena", "Cobb Family", "Bildrath", "Parriwimple", "Donavich", "Doru"],
     quests: ["Death House", "Village Plague", "Missing Villagers", "Find Gertruda", "Protect Ireena", "Replacement Priest"],
     notes: ["Ireena's Diary"],
-    localLinks: {},
+    localLinks: {
+      "Durst Family": "/characters/village-of-barovia",
+      "Cobb Family": "/characters/village-of-barovia",
+    },
     quote: "Tall shapes loom out of the dense fog that surrounds everything. The muddy ground underfoot gives way to slick, wet cobblestones. The tall shapes become recognizable as village dwellings. The windows of each house stare out from pools of Blackness. No sound cuts the silence except for mournful sobbing that echoes through the streets from a distance.",
     main: `  The Village of Barovia unfortunately sits at the base of the rock that Castle Ravenloft was built upon. Living in the gloomy shadow of Castle Ravenloft has been brutal to the village over the centuries since its construction. The village was home to Kolyan Indirovich who raised Ismark and Ireena, the optimistic next generation of Eastern Barovia. In their visit, the Sunseekers encountered zombies, plague, wolf attacks, and a vampire. It remains a cold and dark place for those unfortunate enough to find themselves in the shadow of Castle Ravenloft.`,
     gallery: [
@@ -186,11 +190,12 @@ let locationsData = [
     name: "Tser Pool Encampment",
     img: "https://i.imgur.com/4ESFX6g.png",
     imgCap: "Tser Pool Encampment",
+    leader: ["Madame Eva"],
     characters: ["Vistani"],
     quests: ["Madame Eva's Tarroka Reading"],
     notes: ["None"],
     localLinks: {},
-    quote: `    The mournful strains of an accordian clash with the singing of several brightly clad figures around a bonfire. A footpath continues beyond this encampment, meandering north between the river and the forest's edge.`,
+    quote: `The mournful strains of an accordian clash with the singing of several brightly clad figures around a bonfire. A footpath continues beyond this encampment, meandering north between the river and the forest's edge.`,
     main: `   The Vistani Tser Pool Encampment is located just west of the Village of Barovia on a small dirt road that splits off from the Old Svalich Road. The encampment rests along the edge of the Ivlis River, which has been fruitful to the Vistani travelers who find themselves passing through this area. The Vistani are known to celebrate life in contrast to the Barovians whose lives can be mostly summarized by constant suffering. Parties run all night with singing, dancing, and lots of drinking. The Tser Pool Encampment is also where Madame Eva, an elder in the Vistani community, tells fortunes for travelers who first arrive in Barovia.`,
     gallery: [
       {
@@ -230,9 +235,7 @@ let locationsData = [
     quests: ["None"],
     notes: ["None"],
     localLinks: {},
-    quote: `Even here, in the mountains, the forest and the fog are inescapable. Ahead, the dirt road splits in two, widening toward the east. There you see patches of cobblestone, suggesting that the eastern branch was once an important thoroughfare. 
-    
-    Parked at the fork in the road, pointed east, is a large black carriage drawn by two black horses. The horses snort puffs of steamy breath into the chill mountain air. The side door of the carriage swings open silently.`,
+    quote: `Parked at the fork in the road, pointed east, is a large black carriage drawn by two black horses. The horses snort puffs of steamy breath into the chill mountain air. The side door of the carriage swings open silently.`,
     main: "The Black Carriage is a strange phenomenon. It usually lurks down the road leading up to Castle Ravenloft.  Rumor has it that the unmanned carriage will safely take you to the castle to entertain the vampire lord Strahd Von Zarovich, though the locals are too scared to approach it.",
     gallery: [
       {
@@ -246,6 +249,7 @@ let locationsData = [
     name: "Castle Ravenloft",
     img: "https://i.imgur.com/1xI9Lua.png",
     imgCap: "Castle Ravenloft",
+    leader: ["Strahd Von Zarovich"],
     characters: ["Castle Ravenloft"],
     quests: ["..."],
     notes: ["..."],
@@ -315,6 +319,7 @@ let locationsData = [
     img: "https://i.imgur.com/OVBsusR.png",
     imgCap: "",
     imgCap: "Old Mill",
+    leader: ["Morgantha"],
     characters: ["..."],
     quests: ["..."],
     notes: ["..."],
@@ -363,13 +368,19 @@ let locationsData = [
     name: "Vallaki",
     img: "https://i.imgur.com/coz37xw.png",
     imgCap: "Vallaki Town Square",
-    characters: ["..."],
+    leader: ["Baron Vallakovich"],
+    characters: ["Keepers of the Feather", "St Andrals Church", "The Baron", "Wachterhaus", "Vallaki Merchants", "Vallaki Citizens"],
     quests: ["..."],
     notes: ["..."],
-    localLinks: {},
-    quote: `The Old Svalich Road meanders into a valley watched over by dark, brooding mountains to the north and south. The woods recede, revealing a sullen mountain burg surrounded by a wooden palisade. Thick fog presses up against this wall, as though looking for a way inside, hoping to catch the town aslumber. 
-    
-    The dirt road ends at a set of sturdy iron gates with a pair of shadowy figures standing behind them. Planted in the ground and flanking the road outside the gates are a half-dozen pikes with wolves' heads impaled on them.`,
+    localLinks: {
+      "Keepers of the Feather": "/characters/keepers-of-the-feather",
+      "St Andrals Church": "/characters/church-of-the-morninglord",
+      "The Baron": "/characters/the-baron",
+      "Wachterhaus": "/characters/wachterhaus",
+      "Vallaki Merchants": "/characters/vallaki-merchants",
+      "Vallaki Citizens": "/characters/vallaki-citizens"
+    },
+    quote: `The woods recede, revealing a sullen mountain burg surrounded by a wooden palisade. Thick fog presses up against this wall, as though looking for a way inside, hoping to catch the town aslumber.`,
     main: "",
     gallery: [
       {
@@ -453,13 +464,12 @@ let locationsData = [
     name: "Vallaki Vistani Camp",
     img: "https://i.imgur.com/BhKS1uC.png",
     imgCap: "Vallaki Vistani Camp",
+    leader: ["Luvash"],
     characters: ["..."],
     quests: ["..."],
     notes: ["..."],
     localLinks: {},
-    quote: `The woods part to reveal an expansive clearing: a small, grass-covered hill with low houses built into its sides. Fog obscures the details, but you can see that these buildings feature elegantly carved woodwork and have decorative lanterns hanging from their scultped eaves. 
-    
-    Atop the hill, above the fog, is a ring of barrel-topped wagons that surround a large tent with a column of smoke pouring out through a hole in the top. The tent is brightly lit from within. Even at this distance, you can smell the odors of wine and horses that emanate from this central area.`,
+    quote: `Atop the hill, above the fog, is a ring of barrel-topped wagons that surround a large tent with a column of smoke pouring out through a hole in the top. The tent is brightly lit from within. Even at this distance, you can smell the odors of wine and horses that emanate from this central area.`,
     main: "",
     gallery: [
       {
@@ -473,8 +483,11 @@ let locationsData = [
     ],
     sections: [
       {
+        name: "Dusk Elves",
+        content: ""
+      },
+      {
         name: "Rescue Arabelle",
-        img: "",
         content: ""
       }
     ]
@@ -514,9 +527,7 @@ let locationsData = [
     quests: ["Mad Mage in the Mountains"],
     notes: ["..."],
     localLinks: {},
-    quote: `    North of the mountain lake, the trees begin their steady climb up the slopes of Mount Baratok, its monolithic presence oppressive at this distance. The ground here is rocky, uneven, and tiring to navigate. Even the wolves avoid this neck of the woods. Soon, you climb above the blanket of fog that englulfs the valley. Dark thunderclouds roll overhead.
-    
-    You see an elk standing on a rocky spur about sicty feet away. Suddenly, it assumes the form of a man in tattered robes. His hair and beard are long, black, and streaked with gray, and his eyes crackle with eldritch power.`,
+    quote: `North of the mountain lake, the trees begin their steady climb up the slopes of Mount Baratok, its monolithic presence oppressive at this distance. The ground here is rocky, uneven, and tiring to navigate. Even the wolves avoid this neck of the woods.`,
     main: "",
     gallery: [
       {
@@ -537,6 +548,7 @@ let locationsData = [
     name: "Argonvostholt",
     img: "https://i.imgur.com/a7MDVuA.png",
     imgCap: "Argonvostholt",
+    leader: ["Sir Godfrey"],
     characters: ["..."],
     quests: ["..."],
     notes: ["..."],
@@ -623,13 +635,12 @@ let locationsData = [
     name: "Tsolenka Pass",
     img: "https://i.imgur.com/djjBndz.png",
     imgCap: "...",
+    leader: ["Ludmilla"],
     characters: ["..."],
     quests: ["..."],
     notes: ["..."],
     localLinks: {},
-    quote: `The shelf of rock on which the mountain road clings grows narrow. To your left, the icy cliffs rise sharply toward dark, rolling clouds. To your right, the ground fallas away into a sea of fog. Ahead, through the wind and snow, you see a high wall of black stone lined with spikes and topped by statues of crouching stone gargoyles with snarling mouths. Set in the center of the wall is a closed iron portcullis, behind which burns a curtain of green flame. 
-    
-    On the other side of the dark BsWallet, gripping the mountain's edge, is a guard's tower of white stone topped by golden statues of mighty warriors.`,
+    quote: `Ahead, through the wind and snow, you see a high wall of black stone lined with spikes and topped by statues of crouching stone gargoyles with snarling mouths. Set in the center of the wall is a closed iron portcullis, behind which burns a curtain of green flame.`,
     main: "",
     gallery: [
       {

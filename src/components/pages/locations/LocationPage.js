@@ -53,7 +53,16 @@ function LocationPage() {
               <img className="details-box__img" src={locationObj.img} alt={`image of something`}/>
             </div>
           </div>
-          {/* Date */}
+          {/* Leader */}
+          {locationObj.leader && <div className="details-box__section">
+            <div className="details-box__section--left">
+              <b>Leader:</b>
+            </div>
+            <div className="details-box__section--right hyperlink">
+            {locationObj.leader && renderWithLinks(locationObj.leader, locationObj.localLinks)}
+            </div>
+          </div>}
+          {/* Characters */}
           <div className="details-box__section">
             <div className="details-box__section--left">
               <b>Characters:</b>
@@ -62,6 +71,7 @@ function LocationPage() {
             {locationObj.characters && renderWithLinks(locationObj.characters, locationObj.localLinks)}
             </div>
           </div>
+          {/* Quests */}
           <div className="details-box__section">
             <div className="details-box__section--left">
               <b>Quests:</b>
@@ -70,6 +80,7 @@ function LocationPage() {
               {locationObj.quests && renderWithLinks(locationObj.quests, locationObj.localLinks)}
             </div>
           </div>
+          {/* Notes */}
           <div className="details-box__section">
             <div className="details-box__section--left">
               <b>Notes:</b>
@@ -78,7 +89,8 @@ function LocationPage() {
              {locationObj.notes && renderWithLinks(locationObj.notes, locationObj.localLinks)}
             </div>
           </div>
-        </div>
+        </div> {/* Details Box End */}
+        
 
       </div> {/* Flexbox End */}
 

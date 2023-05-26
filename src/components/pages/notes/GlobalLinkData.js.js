@@ -203,6 +203,7 @@ let globalHyperLinks = {
     Ace: "/characters/vallaki-citizens",
     Szoldar: "/characters/vallaki-citizens",
     Yevgeni: "/characters/vallaki-citizens",
+    "Wolf Hunters": "/characters/vallaki-citizens",
 
   // Witches & Cults
     "Priests of Osybus": "/characters/witches-and-cults",
