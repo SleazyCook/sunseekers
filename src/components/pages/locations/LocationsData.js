@@ -42,7 +42,7 @@ let locationsData = [
     It is not uncommon for undead or other horrors to cross the road without warning.`,
     gallery: [
       {
-        cap: "Old Svalich",
+        cap: "Old Svalich Road",
         img: "https://i.imgur.com/B7TIY5w.png"
       }
     ],
@@ -256,7 +256,7 @@ let locationsData = [
     notes: ["..."],
     localLinks: {},
     quote: `At the center of the far west wall, between floor-to-ceiling mirrors, stands a massive organ. Its pipes blare out a thunderous melody that speaks in its tone of greatness and despair. Seated at the organ facing away from you, Strahd pounds the keys in raptured ecstasy. The music softens as he turns gently and smiles to acknoweldge you.`,
-    main: "",
+    main: `Castle Ravenloft is the largest structure in Barovia by an enourmous margin.  It is home to Strahd Von Zarovich and his most loyal companions.  There are tall towers and deep dungeons containing unfathomable mysteries and horrors. The Castle was built upon a large rock overlooking the Village of Barovia. For centuries there have been constant waves of attacks from revenants looking for revenge against the vampire lord while Strahd and his consorts dine in luxory inside the walls. Strahd's flying horse Bucephalus is stabled in one of the tall towers and can be seen like a torch darting through the dark skies.  `,
     gallery: [
       {
         cap: "Strahd's organ",
@@ -306,11 +306,11 @@ let locationsData = [
     sections: [
       {
         name: "Rats in Ravenloft",
-        content: ""
+        content: "The first time the Sunseekers arrived in Castle Ravenloft it wasn't by choice. After being defeated in battle by the witch Morgantha and burning down her home, she used magic to transform the party into rats forced to deliver a letter to Strahd's butler, Cyrus Belview. Upon delivery the spell broke, but they never learned what the contents of that letter were. The layout of Castle Ravenloft is large and confusing leading to confusion as the Sunseekers struggled to make their way out.  They found an old man who had been locked away in the dungeons for years and continued looking for a way out. So close to the front doors, they wandered into a room where Strahd was playing the organ. She taunted them a bit before allowing them to leave, but not before killing the prisoner they had saved from the dungeons below."
       },
       {
         name: "Umnos in Ravenloft",
-        content: ""
+        content: "Umnos hadn't been in Barovia long before he found himself in Castle Ravenloft. After escaping the Vallaki prison, he partied up with Elizana, Freebird, and Ireena and followed them to the Castle to seek out a tarroka prophecy. In their time in the castle, Umnos began to understand the depths of Strahd's obsession with Ireena. They discovered notes and books that uncovered a lot of Strahd Von Zarovich's history in Barovia. They learned that he was in love with his brother's lover Tatyana and due to the reincarnation cycle of Barovia, has has been chasing Tatyana's soul across generations of women leading ultimately to Ireena today. This knowledge came at the cost of a great battle with one of Strahd's brides, Volenta. In the days Umnos and Elizana spent lost in the castle, they lost Ireena and the dog Lancelot, Freebird was killed, the Tome of Strahd was stolen, and their wagon was left behind when they were eventually captured by another bride Ludmilla and teleported across the country."
       }
     ]
   },
@@ -325,7 +325,7 @@ let locationsData = [
     notes: ["..."],
     localLinks: {},
     quote: `The Old Svalich Road transitions here from being a winding path through the Balinok Mountains to a lazy trail that hugs the mountainside as it descends into a fog-filled valley. In the heart of the valley you see a walled town near the shores of a great mountain lake, its waters dark and still. A branch in the raod leads west to a promontory, atop which is perched a dilapidated stone windmill, its warped wooden vanes stripped here.`,
-    main: "The Old Mill was once owned and operated by the Durst family from the Village of Barovia.",
+    main: "The Old Mill was once owned and operated by the Durst family from the Village of Barovia.  In the centuries since Strahd's victory over the dusk elves, the mill fell to ruin, eventually picking up the moniker Old Bonegrinder after a coven of witches used the mill to produce dream pastries made from the bone flour harvested from Barovian children.  Morgantha, the head of the coven, usually takes her cart of pastries around the valley to those who cannot resist the effects of the pastries. In desperate times, pastry addicts have willingly traded children for a quick dose.",
     gallery: [
       {
         cap: "Old Mill",
@@ -351,15 +351,15 @@ let locationsData = [
     sections: [
       {
         name: "Megaliths",
-        content: ""
+        content: "The four ancient stones near the windmill were erected centuries ago by the valley's original inhabitants. Each moss-covered stone bears a crude carving of a city, each of which is associated with a different season.  The city of winter is shown with snow, the city of spring is arrayed with flowers, the city of summer has a sunburst overhead, and the city of autumn is covered with leaves. Several ravens circle overhead, and one peaks at something on top of the stone that depicts the city of autumn. The mysterious stones are said to boost magical ability."
       },
       {
         name: "Dream pastries",
-        content: ""
+        content: "Morgantha's coven has been making dream pastries for years. In order to make dream pastries, they kidnap children and make devious trades with locals in order to receive children in payment. They take the children and keep them in cages until they can be ground into bone powder. The powder has been said to produce euphoria and vivid dreams. Elizana and Safzira ate dream pastries without realizing what they were made of."
       },
       {
         name: "Old Mill Burned Down",
-        content: ""
+        content: "After the Sunseekers were tricked into bringing children from St. Andral's orphanage to the Old Mill, they came to the Mill demanding blood. They rescued all but one of the children, but they took their sweet time holding down Ophelia, a Mill witch, and grinding her face into the large Mill until there was nothing left of it. Morgantha arrived to the fight late and turned the Sunseekers into rats, but not before they had burned down the Old Mill entirely."
       }
     ]
   },
