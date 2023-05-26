@@ -246,105 +246,104 @@ let globalHyperLinks = {
     // Svalich Woods
       "Svalich Woods": "/locations/3",
   
-    // River Ivlis
-      "River Ivlis": "/locations/4",
-  
     // Village of Barovia
-      "Village of Barovia": "/locations/5",
-      "Durst Manor": "/locations/5",
-      "Bildrath's Mercantile": "/locations/5",
-      "Blood of the Vine Tavern": "/locations/5",
-      "Blood of the Vine": "/locations/5",
-      "Blood on the Vine": "/locations/5",
-      "Blood on the Vine Tavern": "/locations/5",
-      "Cobb House": "/locations/5",
+      "Village of Barovia": "/locations/4",
+      "Durst Manor": "/locations/4",
+      "Bildrath's Mercantile": "/locations/4",
+      "Blood of the Vine Tavern": "/locations/4",
+      "Blood of the Vine": "/locations/4",
+      "Blood on the Vine": "/locations/4",
+      "Blood on the Vine Tavern": "/locations/4",
+      "Cobb House": "/locations/4",
       // "Burgomaster's Mansion": "/locations/village-of-barovia",
       // Church: "/locations/village-of-barovia",
       // Cemetary: "/locations/village-of-barovia",
   
     // Tser Pool Encampment
-      "Vistani Tser Pool Encampment": "/locations/6",
-      "Tser Pool Encampment": "/locations/6",
-      "Madame Eva's Tent": "/locations/6",
+      "Vistani Tser Pool Encampment": "/locations/5",
+      "Tser Pool Encampment": "/locations/5",
+      "Madame Eva's Tent": "/locations/5",
   
     // Black Carriage
-      "Black Carriage": "/locations/black-carriage/7",
+      "Black Carriage": "/locations/black-carriage/6",
 
     // Castle Ravenloft
-      "Castle Ravenloft": "/locations/8",
-      "Walls of Ravenloft": "/locations/8",
-      "Front Courtyard": "/locations/8",
-      "Heart of Sorrow": "/locations/8",
-      "Study": "/locations/8",
-      "Hall of Faith": "/locations/8",
-      "High Tower": "/locations/8",
-      "Hall of Bones": "/locations/8",
-      "Hall of Heroes": "/locations/8",
-      "Brazier Room": "/locations/8",
-      "Audience Hall": "/locations/8",
-      "Dining Hall": "/locations/8",
+      "Castle Ravenloft": "/locations/7",
+      "Walls of Ravenloft": "/locations/7",
+      "Front Courtyard": "/locations/7",
+      "Heart of Sorrow": "/locations/7",
+      "Study": "/locations/7",
+      "Hall of Faith": "/locations/7",
+      "High Tower": "/locations/7",
+      "Hall of Bones": "/locations/7",
+      "Hall of Heroes": "/locations/7",
+      "Brazier Room": "/locations/7",
+      "Audience Hall": "/locations/7",
+      "Dining Hall": "/locations/7",
 
     // Old Mill
-      "Old Mill": "/locations/9",
-      Mill: "/locations/9",
-      "Old Bonegrinder": "/locations/9",
-      "Windmill": "/locations/9",
-      "windmill": "/locations/9",
+      "Old Mill": "/locations/8",
+      Mill: "/locations/8",
+      "Old Bonegrinder": "/locations/8",
+      "Windmill": "/locations/8",
+      "windmill": "/locations/8",
 
     // Vallaki
-      "Vallaki": "/locations/10",
-      "10 gates": "/locations/10",
-      "St. Andral's Church": "/locations/10",
-      "St. Andral's Orphanage": "/locations/10",
-      "orphanage": "/locations/10",
-      "Blue Water Inn": "/locations/10",
-      // "Burgomaster's Mansion": "/locations/10",
-      "Wachterhaus": "/locations/10",
-      "Arasek Stockyards": "/locations/10",
-      stockyards: "/locations/10",
-      "Town Square": "/locations/10",
-      // "Coffin Maker's Shop": "/locations/10",
-      "Blinsky's Toys": "/locations/10",
-      "Swift Finish": "/locations/10",
-      // "Vistani Camp": "/locations/10",
+      "Vallaki": "/locations/9",
+      "9 gates": "/locations/9",
+      "St. Andral's Church": "/locations/9",
+      "St. Andral's Orphanage": "/locations/9",
+      "orphanage": "/locations/9",
+      "Blue Water Inn": "/locations/9",
+      // "Burgomaster's Mansion": "/locations/9",
+      "Wachterhaus": "/locations/9",
+      "Arasek Stockyards": "/locations/9",
+      stockyards: "/locations/9",
+      "Town Square": "/locations/9",
+      // "Coffin Maker's Shop": "/locations/9",
+      "Blinsky's Toys": "/locations/9",
+      "Swift Finish": "/locations/9",
+      // "Vistani Camp": "/locations/9",
+
+    // Vallaki Vistani Camp
       "Vallaki Vistani Camp": "/locations/10",
 
     // Lake Zarovich
-      "Lake Zarovich": "/locations/12",
+      "Lake Zarovich": "/locations/11",
 
     // Mount Baratok
-      "Mount Baratok": "/locations/13",
+      "Mount Baratok": "/locations/12",
 
     // Argonvostholt
-      "Argonvostholt": "/locations/14",
+      "Argonvostholt": "/locations/13",
 
     // Village of Krezk
-      "Village of Krezk": "/locations/15",
-      "Krezk": "/locations/15",
+      "Village of Krezk": "/locations/14",
+      "Krezk": "/locations/14",
 
     // Mount Ghakis
-      "Mount Ghakis": "/locations/16",
+      "Mount Ghakis": "/locations/15",
 
     // Tsolenka Pass
-      "Tsolenka Pass": "/locations/17",
+      "Tsolenka Pass": "/locations/16",
 
     // Ruins of Berez
-      "Ruins of Berez": "/locations/18",
+      "Ruins of Berez": "/locations/17",
       "Berez": "/locations/17",
 
     // Van Richten's Tower
-      "Van Richten's Tower": "/locations/19",
+      "Van Richten's Tower": "/locations/18",
 
     // Wizard of Wines
-      "Wizard of Wines": "/locations/20",
-      "Winery": "/locations/20",
-      "winery": "/locations/20",
+      "Wizard of Wines": "/locations/19",
+      "Winery": "/locations/19",
+      "winery": "/locations/19",
 
     // Amber Temple
-      "Amber Temple": "/locations/21",
+      "Amber Temple": "/locations/20",
 
     // Yester Hill
-      "Yester Hill": "/locations/22",
+      "Yester Hill": "/locations/21",
 
     // -------------------------------------------
     // III. QUESTS

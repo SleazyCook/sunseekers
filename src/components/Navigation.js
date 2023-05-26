@@ -7,7 +7,6 @@ function Navigation() {
 
       <div className="navigation--top">
         <Link to="/">Home</Link> |
-        <Link to="/notes/tarroka-reading"> Tarroka</Link> |
         <Link to="/quests"> Quests</Link> |
         <Link to="/locations"> Locations</Link> |
         <Link to="/characters"> Characters</Link> |

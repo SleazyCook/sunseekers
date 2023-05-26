@@ -30,6 +30,8 @@
     padding: 0 3rem;
     background-color: $color-primary;
     display: inline-block;
+
+    font-size: 5rem;
   }
 
   &__title,
@@ -55,6 +57,11 @@
   &__text {
     max-width: 100rem;
     align-self: center;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    background-color: lighten(#1e1e1e, 5);
+    padding: 2rem;
+    border-radius: 1rem;
   }
 
   &__page-buttons {
