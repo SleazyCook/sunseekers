@@ -421,7 +421,8 @@ let globalHyperLinks = {
       "meets the sunseekers": "notes/strahd-notes",
       "in person": "notes/strahd-notes",
 
-      "Ireena Diary": "/notes/ireena-diary"
+      "Ireena Diary": "/notes/ireena-diary",
+      "Safzira Diary": "/notes/safzira-diary"
 }
 
 export default globalHyperLinks;

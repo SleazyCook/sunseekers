@@ -426,6 +426,10 @@ let locationsData = [
     ],
     sections: [
       {
+        name: "The Feast of St. Andral",
+        content: "For years, the Baron nurtured his idea of 'All Will Be Well' in Vallaki. A couple of weeks after the Sunseekers arrived in town, Strahd's bride Anastrasya invaded the town with horde of undead warriors. St. Andral's Church was brutalized in the process. Many people died in the attack, including Anastrasya at Strahd's hand when she attempted to kill Ireena. "
+      },
+      {
         name: "St. Andral's Church",
         content: "This church is dedicated to the Morninglord and named after St. Andral, whose bones once rested under the altar. Father Lucien Petrovich used to oversee the church and did his best to raise spirits. These days, his grandson Franz has taken over for Lucien. The church runs an orphanage next door led by Claudia Belasco."
       },
@@ -478,7 +482,7 @@ let locationsData = [
     notes: ["..."],
     localLinks: {},
     quote: `Atop the hill, above the fog, is a ring of barrel-topped wagons that surround a large tent with a column of smoke pouring out through a hole in the top. The tent is brightly lit from within. Even at this distance, you can smell the odors of wine and horses that emanate from this central area.`,
-    main: "",
+    main: "The Vallaki Vistani Camp was once a prison community for Dusk Elves after the war. The Vistani were responsible for keeping them in line in the early years after the war. Over generations the relationship between the Dusk Elves and Vistani evolved into that of friendly neighbors.",
     gallery: [
       {
         cap: "Vallaki Vistani Camp",
@@ -492,11 +496,11 @@ let locationsData = [
     sections: [
       {
         name: "Dusk Elves",
-        content: ""
+        content: "The few Dusk Elves that survived Strahd's invasion of the valley became prisoners-of-war and allowed only by Strahd's grace to continue living in their traditional homes over the watchful eye of the Vistani.  Kasimir, the leader of the Dusk Elves, worked with the Vistani over generations until the two groups became friendly with each other."
       },
       {
         name: "Rescue Arabelle",
-        content: ""
+        content: "When the Sunseekers first arrived at the Vallaki Vistani Camp, they were tasked by Luvash with finding his daughter Arabelle. With Kasimir's help, they rescued her from her kidnapper Bluto over Lake Zarovich. As a token of their appreciation, the Vistani offered the Sunseekers precious metals and hospitality to the party."
       }
     ]
   },
@@ -510,7 +514,7 @@ let locationsData = [
     notes: ["..."],
     localLinks: {},
     quote: "At the foot of the mountain, nestled in the misty forest, is a large lake. The water is perfectly still and dark, reflecting the black clouds overhead like amonstrous mirror.",
-    main: "",
+    main: "Lake Zarovich is the largest body of water in Barovia, located between Mount Baratok and Vallaki.",
     gallery: [
       {
         cap: "Lake Zarovich",
@@ -522,7 +526,7 @@ let locationsData = [
       {
         name: "Bluto",
         img: "",
-        content: ""
+        content: "Bluto is Vallaki's town drunk. After a long stretch of bad luck casting his line in the Lake, he kidnapped the Vistani child Arabelle as an offering to the gods of fishing."
       }
     ]
   },
@@ -536,7 +540,7 @@ let locationsData = [
     notes: ["..."],
     localLinks: {},
     quote: `North of the mountain lake, the trees begin their steady climb up the slopes of Mount Baratok, its monolithic presence oppressive at this distance. The ground here is rocky, uneven, and tiring to navigate. Even the wolves avoid this neck of the woods.`,
-    main: "",
+    main: "Mount Baratok is the largest peak in Barovia. Due to its incredibly difficult terrain, there is very little life to be found in the area.",
     gallery: [
       {
         cap: "Mount Baratok",
@@ -546,8 +550,7 @@ let locationsData = [
     sections: [
       {
         name: "Mad Mage in the Mountains",
-        img: "",
-        content: ""
+        content: "About a year before the Sunseekers arrived in Barovia, a mysterious mage formed a small militia and fought Strahd in Ravenloft. It was believed by most that the mage was slain in battle, but there were rumors that he lost his mind in the mountains recovering from the fight. The Sunseekers found that the Mad Mage was actually the Baron's son Victor Vallakovich from the future who came back to beat Strahd in this point in time."
       }
     ]
   },
@@ -562,7 +565,7 @@ let locationsData = [
     notes: ["..."],
     localLinks: {},
     quote: "Perched atop a ten-foot-wide, ten-foot-high cube of granite is a moss-covered statue of a dragon, its wings tucked close to its body. The statue looks east, toward the mansion.",
-    main: "",
+    main: "Argonvostholt was built by the Silver Dragon Argonvost for his Order of the Silver Dragon. He lead his knights in their plight to defend the world from the evils of the Amber Temple. During the war, Strahd killed Argonvost and his knights. The knights now assault Castle Ravenloft over and over as revenant knights doomed for all eternity.",
     gallery: [
       {
         cap: "Argonvostholt",
@@ -583,14 +586,8 @@ let locationsData = [
     ],
     sections: [
       {
-        name: "Order of the Silver Dragon",
-        img: "",
-        content: ""
-      },
-      {
         name: "Godfrey's Knights",
-        img: "",
-        content: ""
+        content: "When Argonvost was killed by Strahd, one of his knights Vladimir Horngaard was so consumed by vengeance that he turned all of the knights of the order into revenants.  However another knight Godfrey held on to some of his humanity and those closest to him suffer with him in Argonvostholt."
       }
     ]
   },
@@ -625,12 +622,7 @@ let locationsData = [
     notes: ["..."],
     localLinks: {},
     quote: "Legend says Mount Baratok is home to the mysterious Amber Temple.",
-    main: `   Mount Ghakis defines the Southern border of the valley of Barovia. It is mirrored by Mount Baratok in the North.
-
-    Barovia's coldest and harshest temperatures can be found around Mount Ghakis. Traversing this region is difficult and dangerous. 
-
-    It was once patrolled by the Order of the Silver Dragon along the road leading up to Tsolenka Pass. It is believed that when Strahd and his forces extinguished the Order, he was able to march right into the Amber Temple and whatever he found there changed him forever, turning him into a vampire and separating Barovia from the material plane.
-    `,
+    main: `   Mount Ghakis defines the Southern border of the valley of Barovia. It is mirrored by Mount Baratok in the North. Barovia's coldest and harshest temperatures can be found around Mount Ghakis. Traversing this region is difficult and dangerous. It was once patrolled by the Order of the Silver Dragon along the road leading up to Tsolenka Pass. It is believed that when Strahd and his forces extinguished the Order, he was able to march right into the Amber Temple and whatever he found there changed him forever, turning him into a vampire and separating Barovia from the material plane.`,
     gallery: [
       {
         cap: "Mount Ghakis",

@@ -17,6 +17,7 @@ function LocationPage() {
 
   useEffect(() => {
     setLocationObj(locationsData[locationNumber-1]);
+    window.scroll({top: 0, left: 0});
   }, [locationNumber])
 
   return (
