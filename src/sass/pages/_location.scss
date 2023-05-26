@@ -2,16 +2,47 @@
 
 
   &__quote {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    font-family: $font-tarroka;
+    font-family: $font-clean;
     font-size: 2rem;
     background-color: $color-grey-dark-2;
     border-radius: 1rem;
     padding: 1rem;
-    max-width: 70rem;
+    width: 70rem;
     margin: 0 auto;
     margin-bottom: 3rem;
+    position: relative;
+    padding: 2rem;
+
+    &--actual {
+      margin: auto;
+    }
+
+    &--open {
+      font-family: $font-quote;
+      font-size: 13rem;
+      color: $color-primary-light;
+      position: absolute;
+      
+      top: 0%;
+      left: -3%;
+      line-height: 1rem;
+    }
+
+    &--closed {
+      font-family: $font-quote;
+      font-size: 13rem;
+      color: $color-primary-light;
+      color: green;
+      position: absolute;
+      bottom: 0%;
+      right: -3%;
+     
+      transform: rotate(180deg)
+    }
   }
 
   & p {

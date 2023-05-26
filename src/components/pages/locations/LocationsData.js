@@ -11,7 +11,12 @@ let locationsData = [
     quests: ["Death House"],
     notes: ["None"],
     localLinks: {},
-    quote: "A deadly fog surrounds Barovia and engulfs any creature that tries to leave. Even flying creatures are subject to the fog's effects.",
+    quote: `A deadly fog surrounds Barovia and engulfs any creature that tries to leave. 
+    
+    Even flying creatures are subject to the fog's effects.
+    A deadly fog surrounds Barovia and engulfs any creature that tries to leave. 
+    
+    Even flying creatures are subject to the fog's effects.`,
     main: `   The Mists are a supernatural phenomenon unique to Barovia. The mists create a border through which is seems outlanders are able to enter, but not leave the region. they have a choking, enervating and disorienting effect on those who try to pass through them. The Sunseekers, upon arrival in Barovia, were harried by the motile Mists toward the Village of Barovia and Durst House. 
 
     The Vistani claim to be able to travel through the Mists at will, but other than selling some fake potions which they claim will allow safe passage, they offer no details on how they do so or what is on the other side.
@@ -49,23 +54,13 @@ let locationsData = [
     sections: [
       {
         name: "Wolf attacks",
-        content: `      The wolves of the Svalich Woods often hunt for travelers along the Old Svalich Road. 
-        
-        The Sunseekers have been attacked by wolves several times on their travels. Even their Sunset wagon has done little to protect them from wandering wolf packs.
-        
-        One one occasion three large dire wolves nearly ripped the wagon apart while attacking the party.`
+        content: `      The wolves of the Svalich Woods often hunt for travelers along the Old Svalich Road. The Sunseekers have been attacked by wolves several times on their travels. Even their Sunset wagon has done little to protect them from wandering wolf packs. One one occasion three large dire wolves nearly ripped the wagon apart while attacking the party.`
       },
       {
         name: "First Interaction with Strahd",
         content: `After leaving the Village of Barovia, the Sunseekers encountered Strahd Von Zarovich on the Old Svalich Road. He first appeared as a stranger grooming his horse, but revealed his true identity in his opening monologue:
         
-        "I wanted to welcome you to my kingdom. I chose the name Barovia to honor my father, the great King Barov. Did you know that? Of course not. Well, I conquered this valley in his name. Believe me, it wasn't much to look at before I spruced up the place.
-
-        I wanted to be the first to make amends on behalf of the Vistani. I'm aware of the... misunderstanding between the dearly departed Mr. Lazlo and your...sizable associate. These free spirited people, while they are my most loyal subjects, are anything but foot soldiers. They have a silly saying "Even the Best Men Die.'' They hold no ill will toward any of you, and they will be happy to host your party for the duration of your stay in Barovia.
-
-        Though, Ireena, my dear, you simply must understand that You deserve to be my Queen. In fact, I must insist on this.
-
-        I know you all are absolutely titillated by my surprise visit and believe me I. am. too., but I really must be going. When you are ready to return the favor, there is a black carriage up the road. It will take you to my home without any.. outside interference."`
+        "I wanted to welcome you to my kingdom. I chose the name Barovia to honor my father, the great King Barov. Did you know that? Of course not. Well, I conquered this valley in his name. Believe me, it wasn't much to look at before I spruced up the place. I wanted to be the first to make amends on behalf of the Vistani. I'm aware of the... misunderstanding between the dearly departed Mr. Lazlo and your...sizable associate. These free spirited people, while they are my most loyal subjects, are anything but foot soldiers. They have a silly saying "Even the Best Men Die.'' They hold no ill will toward any of you, and they will be happy to host your party for the duration of your stay in Barovia. Though, Ireena, my dear, you simply must understand that You deserve to be my Queen. In fact, I must insist on this. I know you all are absolutely titillated by my surprise visit and believe me I. am. too., but I really must be going. When you are ready to return the favor, there is a black carriage up the road. It will take you to my home without any.. outside interference."`
       }
     ]
   },
