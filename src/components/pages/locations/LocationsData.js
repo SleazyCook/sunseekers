@@ -255,7 +255,7 @@ let locationsData = [
     imgCap: "Castle Ravenloft",
     leader: ["Strahd Von Zarovich"],
     characters: ["Castle Ravenloft"],
-    quests: ["Letter to Cyrus"],
+    quests: ["A Message for Cyrus Belview"],
     notes: ["Tome of Strahd"],
     localLinks: {},
     quote: `At the center of the far west wall, between floor-to-ceiling mirrors, stands a massive organ. Its pipes blare out a thunderous melody that speaks in its tone of greatness and despair. Seated at the organ facing away from you, Strahd pounds the keys in raptured ecstasy. The music softens as he turns gently and smiles to acknoweldge you.`,
@@ -324,9 +324,9 @@ let locationsData = [
     imgCap: "",
     imgCap: "Old Mill",
     leader: ["Morgantha"],
-    characters: ["..."],
-    quests: ["..."],
-    notes: ["..."],
+    characters: ["Morgantha", "Bella", "Ophelia"],
+    quests: ["Dream Pastries", "Children of Vallaki"],
+    // notes: ["..."],
     localLinks: {},
     quote: `The Old Svalich Road transitions here from being a winding path through the Balinok Mountains to a lazy trail that hugs the mountainside as it descends into a fog-filled valley. In the heart of the valley you see a walled town near the shores of a great mountain lake, its waters dark and still. A branch in the raod leads west to a promontory, atop which is perched a dilapidated stone windmill, its warped wooden vanes stripped here.`,
     main: "The Old Mill was once owned and operated by the Durst family from the Village of Barovia.  In the centuries since Strahd's victory over the dusk elves, the mill fell to ruin, eventually picking up the moniker Old Bonegrinder after a coven of witches used the mill to produce dream pastries made from the bone flour harvested from Barovian children.  Morgantha, the head of the coven, usually takes her cart of pastries around the valley to those who cannot resist the effects of the pastries. In desperate times, pastry addicts have willingly traded children for a quick dose.",
@@ -375,7 +375,7 @@ let locationsData = [
     leader: ["Baron Vallakovich"],
     characters: ["Keepers of the Feather", "St Andrals Church", "The Baron", "Wachterhaus", "Vallaki Merchants", "Vallaki Citizens"],
     quests: ["..."],
-    notes: ["..."],
+    notes: ["Ireena Diary", "Safzira Diary"],
     localLinks: {
       "Keepers of the Feather": "/characters/keepers-of-the-feather",
       "St Andrals Church": "/characters/church-of-the-morninglord",
@@ -385,7 +385,7 @@ let locationsData = [
       "Vallaki Citizens": "/characters/vallaki-citizens"
     },
     quote: `The woods recede, revealing a sullen mountain burg surrounded by a wooden palisade. Thick fog presses up against this wall, as though looking for a way inside, hoping to catch the town aslumber.`,
-    main: "",
+    main: "Located close to the shores of Lake Zarovich, the town of Vallaki seems like a safe haven against the evils of the Svalich Woods, if not Strahd himself. The town lies beyond the sight of Castle Ravenloft and doesn't, at first blush, seem as depressed (or oppressed) as the village of Barovia farther east.  After some time, the Sunseekers see that Vallaki is mostly filled with false hope.",
     gallery: [
       {
         cap: "Sunseekers enter Vallaki",
@@ -427,39 +427,43 @@ let locationsData = [
     sections: [
       {
         name: "St. Andral's Church",
-        content: "include orphange"
+        content: "This church is dedicated to the Morninglord and named after St. Andral, whose bones once rested under the altar. Father Lucien Petrovich used to oversee the church and did his best to raise spirits. These days, his grandson Franz has taken over for Lucien. The church runs an orphanage next door led by Claudia Belasco."
       },
       {
         name: "Blue Water Inn",
-        content: ""
+        content: "The Blue Water Inn is Vallaki's main gathering place for locals, especially at night. The innkeeper, Urwin Martikov, considers the inn a sanctuary from the evils of this land. His wife Danika runs the bar allowing her to keep an ear to the ground. The Sunseekers stayed here during their lengthy time in Vallaki."
+      },
+      {
+        name: "The Swift Finish",
+        content: "Madame Genie is a small lady elderly lady who runs the local brothel on the older, cheaper side of town. Genie's ladies have kept her business going strong.  Genie herself often hosts secret meetings for her patrons such as when Rictavio revealed himself to be Rudlph Van Ricten, famous monster hunter, to the Sunseekers."
       },
       {
         name: "Burgomaster's Mansion",
-        content: ""
+        content: "People come and go from the mansion at all hours during the day.  Guards bring criminals cited for 'malicious unhappiness.' Men and women arrive carrying bundles of supplies for weekly festivals and the Baronness hosts daily prayer circles with the poor. The Baron runs Vallaki from behind his desk with the help of his lieutenant Izek Strazni."
       },
       {
         name: "Wachterhaus",
-        content: ""
+        content: "Wachterhaus is the second largest building in Vallaki as the Wachters come from a long line of nobles from before the war. The house's governess, Fiona Wachter, has been conspiring against the Baron in recent years with the help of her loyal servant Ernst Larnak. Elizana arranged for the Sunseekers to help Fiona take on the Baron before they escaped Barovia after the Feast of St. Andral."
       },
       {
         name: "Arasek Stockyards",
-        content: ""
+        content: "The stockyard is a general store and facility where storage sheds can be rented. It is owned by a middle-aged couple, Gunther and Yelena Arasek. They sell goods for inflated prices. Rictavio and the Sunseekers keep their wagons in this area while they are in Vallaki."
       },
       {
         name: "Coffine Maker's Shop",
-        content: ""
+        content: "Henrik Van Der Root was a mediocre carpenter and a troubled, lonely man. Profiting from the deaths of others and because of the ghastly nature of his handiwork, no one desired his company while he was alive. Anastrasya kept her vampire spawns in his shop and manipulated Henrik into stealing the bones of St. Andral so that her forces could freely attack Vallaki and the church."
       },
       {
         name: "Blinsky's Toys",
-        content: ""
+        content: "Vallaki's macabre toy maker, Gadof Blinksy, calls himself a 'wizard of tiny wonders,' but he has been consumed by despair lately because no one seems to like him or want his toys. His fascination for eerie playthings causes most other locals to avoid him. The burgomaster enables Blinksy to stay in business by giving him a couple of gold pieces a month to make festival decorations."
       },
       {
         name: "Town Square",
-        content: "include vallaki market"
+        content: "Vallai's town square hosts the Baron's weekly festivals, the Vallaki market, and the Baron's display of pillories and stocks for those who upset him. This area is the most populated public space in all of Barovia."
       },
       {
         name: "Vistani Camp",
-        content: ""
+        content: "There is a large Vistani camp outside of Vallaki. Unfortunately for the Vistani, they are not allowed within the walls of the city, but trading is common enough between the two settlements."
       }
     ]
   },

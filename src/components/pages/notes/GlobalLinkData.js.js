@@ -209,6 +209,7 @@ let globalHyperLinks = {
     "Priests of Osybus": "/characters/witches-and-cults",
     "Morgantha": "/characters/witches-and-cults",
     "Bella": "/characters/witches-and-cults",
+    "Ophelia": "/characters/witches-and-cults",
 
   // Creatures
     "wolves": '/characters/creatures',
