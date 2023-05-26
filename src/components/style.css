@@ -1852,6 +1852,9 @@ body {
 .location p {
   margin: 3rem 0; }
 
+.location__button {
+  margin: 0 10rem; }
+
 .gallery {
   border: 1px solid white;
   margin: 0 10rem;

@@ -9,7 +9,7 @@ let locationsData = [
     imgCap: "Mists of Barovia",
     characters: ["Vistani"],
     quests: ["Death House"],
-    notes: ["None"],
+    // notes: ["None"],
     localLinks: {},
     quote: `A deadly fog surrounds Barovia and engulfs any creature that tries to leave. 
     
@@ -36,8 +36,8 @@ let locationsData = [
     img: "https://i.imgur.com/B7TIY5w.png",
     imgCap: "Old Svalich Road",
     characters: ["Strahd", "Vistani"],
-    quests: ["None"],
-    notes: ["None"],
+    // quests: [""],
+    // notes: ["None"],
     localLinks: {},
     quote: "Black pools of water stand like dark mirrors in and around the muddy roadway. Giant trees loom on both sides of the road, their branches clawing at the mist.",
     main: `   The Old Svalich Road winds and twists all the way throught the valley of Barovia.  The Sunseekers first arrived in Barovia on the road followed through the Village of Barovia, the Old Mill, and Vallaki.
@@ -70,8 +70,8 @@ let locationsData = [
     img: "https://i.imgur.com/aN6jACG.png",
     imgCap: "Svalich Woods",
     characters: ["Vistani", "Wolf Hunters"],
-    quests: ["None"],
-    notes: ["None"],
+    // quests: [""],
+    // notes: [""],
     localLinks: {},
     quote: "Towering trees, whose tops are lost in the heavy gray mist, block out all but a death-gray light. The tree trunks are unnaturally close to one another, and the woods have the silence of a forgotten grave, yet exude the feeling of an unvoiced scream.",
     main: `   The Svalich Woods is a name for all the wilds surrounding the various villages and outposts in the valley of Barovia. They are dark and full of terrors, home to wolves, undead, and other monstrous creatures of the night. Most of the creatures in the Svalich Woods are in some way controlled by Strahd von Zarovich, and act as his eyes, ears and fangs against any who are foolish enough to wander there alone.`,
@@ -90,7 +90,7 @@ let locationsData = [
     leader: ["Ismark Indirovich"],
     characters: ["Durst Family", "Ismark", "Ireena", "Cobb Family", "Bildrath", "Parriwimple", "Donavich", "Doru"],
     quests: ["Death House", "Village Plague", "Missing Villagers", "Find Gertruda", "Protect Ireena", "Replacement Priest"],
-    notes: ["Ireena's Diary"],
+    notes: ["Ireena Diary"],
     localLinks: {
       "Durst Family": "/characters/village-of-barovia",
       "Cobb Family": "/characters/village-of-barovia",
@@ -193,8 +193,10 @@ let locationsData = [
     leader: ["Madame Eva"],
     characters: ["Vistani"],
     quests: ["Madame Eva's Tarroka Reading"],
-    notes: ["None"],
-    localLinks: {},
+    notes: ["Tarroka Reading"],
+    localLinks: {
+      "Tarroka Reading": "/notes/tarroka-reading"
+    },
     quote: `The mournful strains of an accordian clash with the singing of several brightly clad figures around a bonfire. A footpath continues beyond this encampment, meandering north between the river and the forest's edge.`,
     main: `   The Vistani Tser Pool Encampment is located just west of the Village of Barovia on a small dirt road that splits off from the Old Svalich Road. The encampment rests along the edge of the Ivlis River, which has been fruitful to the Vistani travelers who find themselves passing through this area. The Vistani are known to celebrate life in contrast to the Barovians whose lives can be mostly summarized by constant suffering. Parties run all night with singing, dancing, and lots of drinking. The Tser Pool Encampment is also where Madame Eva, an elder in the Vistani community, tells fortunes for travelers who first arrive in Barovia.`,
     gallery: [
@@ -232,9 +234,11 @@ let locationsData = [
     img: "https://i.imgur.com/BgyFPCi.png",
     imgCap: "Black Carraige",
     characters: ["Strahd"],
-    quests: ["None"],
-    notes: ["None"],
-    localLinks: {},
+    // quests: ["None"],
+    notes: ["Invitation to Ravenloft"],
+    localLinks: {
+      "Invitation to Ravenloft": "/notes/strahd-notes"
+    },
     quote: `Parked at the fork in the road, pointed east, is a large black carriage drawn by two black horses. The horses snort puffs of steamy breath into the chill mountain air. The side door of the carriage swings open silently.`,
     main: "The Black Carriage is a strange phenomenon. It usually lurks down the road leading up to Castle Ravenloft.  Rumor has it that the unmanned carriage will safely take you to the castle to entertain the vampire lord Strahd Von Zarovich, though the locals are too scared to approach it.",
     gallery: [
@@ -251,8 +255,8 @@ let locationsData = [
     imgCap: "Castle Ravenloft",
     leader: ["Strahd Von Zarovich"],
     characters: ["Castle Ravenloft"],
-    quests: ["..."],
-    notes: ["..."],
+    quests: ["Letter to Cyrus"],
+    notes: ["Tome of Strahd"],
     localLinks: {},
     quote: `At the center of the far west wall, between floor-to-ceiling mirrors, stands a massive organ. Its pipes blare out a thunderous melody that speaks in its tone of greatness and despair. Seated at the organ facing away from you, Strahd pounds the keys in raptured ecstasy. The music softens as he turns gently and smiles to acknoweldge you.`,
     main: `Castle Ravenloft is the largest structure in Barovia by an enourmous margin.  It is home to Strahd Von Zarovich and his most loyal companions.  There are tall towers and deep dungeons containing unfathomable mysteries and horrors. The Castle was built upon a large rock overlooking the Village of Barovia. For centuries there have been constant waves of attacks from revenants looking for revenge against the vampire lord while Strahd and his consorts dine in luxory inside the walls. Strahd's flying horse Bucephalus is stabled in one of the tall towers and can be seen like a torch darting through the dark skies.  `,

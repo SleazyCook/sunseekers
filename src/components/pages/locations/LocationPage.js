@@ -9,9 +9,11 @@ import locationsData from './LocationsData'
 import renderWithLinks from '../notes/HyperlinkFunction';
 
 function LocationPage() {
-  
   const {locationNumber} = useParams();
   const [locationObj, setLocationObj] = useState({});
+
+  let nextNumber = +locationNumber+1;
+  let prevNumber = +locationNumber-1;
 
   useEffect(() => {
     setLocationObj(locationsData[locationNumber-1]);
@@ -63,32 +65,32 @@ function LocationPage() {
             </div>
           </div>}
           {/* Characters */}
-          <div className="details-box__section">
+          {locationObj.characters && <div className="details-box__section">
             <div className="details-box__section--left">
               <b>Characters:</b>
             </div>
             <div className="details-box__section--right hyperlink">
             {locationObj.characters && renderWithLinks(locationObj.characters, locationObj.localLinks)}
             </div>
-          </div>
+          </div> }
           {/* Quests */}
-          <div className="details-box__section">
+          {locationObj.quests && <div className="details-box__section">
             <div className="details-box__section--left">
               <b>Quests:</b>
             </div>
             <div className="details-box__section--right hyperlink">
               {locationObj.quests && renderWithLinks(locationObj.quests, locationObj.localLinks)}
             </div>
-          </div>
+          </div> }
           {/* Notes */}
-          <div className="details-box__section">
+          {locationObj.notes && <div className="details-box__section">
             <div className="details-box__section--left">
               <b>Notes:</b>
             </div>
             <div className="details-box__section--right hyperlink">
              {locationObj.notes && renderWithLinks(locationObj.notes, locationObj.localLinks)}
             </div>
-          </div>
+          </div> }
         </div> {/* Details Box End */}
         
 
@@ -106,6 +108,13 @@ function LocationPage() {
           )
         })}
       {/* </div> */}
+
+      {/* Page Buttons */}
+      <div className="log-entry__page-buttons">
+        {locationNumber === "1" ? <p className="log-entry__page-buttons--placeholder"></p> : <Link className="log-entry__page-buttons--last location__button" to={`/locations/${prevNumber}`}>Previous Location: {locationsData[prevNumber-1].name}</Link>}
+
+        {locationNumber >= locationsData.length ? <></> : <Link className="log-entry__page-buttons--next location__button" to={`/locations/${nextNumber}`}>Next Location: {locationsData[nextNumber-1].name}</Link>}
+      </div>
 
       {/* Gallery */}
       <div className="gallery__header heading-secondary">Image Gallery</div>
