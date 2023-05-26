@@ -16,9 +16,16 @@
     text-align: center;
     display: flex;
 
+
+  
+
     &:not(:first-child) {
-      border-left: 1px solid white;
-      border-right: 1px solid white;
+      // border-left: 1px solid white;
+      // border-right: 1px solid white;
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, .8),
+        rgba($color-primary-dark, .8));
     }
 
 
