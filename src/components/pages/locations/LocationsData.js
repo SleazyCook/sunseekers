@@ -374,7 +374,7 @@ let locationsData = [
     imgCap: "Vallaki Town Square",
     leader: ["Baron Vallakovich"],
     characters: ["Keepers of the Feather", "St Andrals Church", "The Baron", "Wachterhaus", "Vallaki Merchants", "Vallaki Citizens"],
-    quests: ["..."],
+    quests: ["Bones of St Andral", "Strange Lights", "Coup of Vallaki", "Save Stella"],
     notes: ["Ireena Diary", "Safzira Diary"],
     localLinks: {
       "Keepers of the Feather": "/characters/keepers-of-the-feather",
@@ -477,9 +477,9 @@ let locationsData = [
     img: "https://i.imgur.com/BhKS1uC.png",
     imgCap: "Vallaki Vistani Camp",
     leader: ["Luvash"],
-    characters: ["..."],
-    quests: ["..."],
-    notes: ["..."],
+    characters: ["Luvash", "Arrigal", "Alexei", "Arabelle", "Kasimir", "Dusk Elves"],
+    quests: ["Rescue Arabelle"],
+    // notes: ["..."],
     localLinks: {},
     quote: `Atop the hill, above the fog, is a ring of barrel-topped wagons that surround a large tent with a column of smoke pouring out through a hole in the top. The tent is brightly lit from within. Even at this distance, you can smell the odors of wine and horses that emanate from this central area.`,
     main: "The Vallaki Vistani Camp was once a prison community for Dusk Elves after the war. The Vistani were responsible for keeping them in line in the early years after the war. Over generations the relationship between the Dusk Elves and Vistani evolved into that of friendly neighbors.",
@@ -511,7 +511,7 @@ let locationsData = [
     imgCap: "Lake Zarovich",
     characters: ["Bluto", "Arabelle"],
     quests: ["Rescue Arabelle"],
-    notes: ["..."],
+    // notes: ["..."],
     localLinks: {},
     quote: "At the foot of the mountain, nestled in the misty forest, is a large lake. The water is perfectly still and dark, reflecting the black clouds overhead like amonstrous mirror.",
     main: "Lake Zarovich is the largest body of water in Barovia, located between Mount Baratok and Vallaki.",
@@ -537,7 +537,7 @@ let locationsData = [
     imgCap: "Mount Baratok",
     characters: ["Mad Mage"],
     quests: ["Mad Mage in the Mountains"],
-    notes: ["..."],
+    // notes: ["..."],
     localLinks: {},
     quote: `North of the mountain lake, the trees begin their steady climb up the slopes of Mount Baratok, its monolithic presence oppressive at this distance. The ground here is rocky, uneven, and tiring to navigate. Even the wolves avoid this neck of the woods.`,
     main: "Mount Baratok is the largest peak in Barovia. Due to its incredibly difficult terrain, there is very little life to be found in the area.",
@@ -560,9 +560,9 @@ let locationsData = [
     img: "https://i.imgur.com/a7MDVuA.png",
     imgCap: "Argonvostholt",
     leader: ["Sir Godfrey"],
-    characters: ["..."],
-    quests: ["..."],
-    notes: ["..."],
+    characters: ["Sir Godfrey", "Sir Erich", "Sir Damien", "Sir Robern", "Arthund"],
+    quests: ["Unfinished Business"],
+    // notes: ["..."],
     localLinks: {},
     quote: "Perched atop a ten-foot-wide, ten-foot-high cube of granite is a moss-covered statue of a dragon, its wings tucked close to its body. The statue looks east, toward the mansion.",
     main: "Argonvostholt was built by the Silver Dragon Argonvost for his Order of the Silver Dragon. He lead his knights in their plight to defend the world from the evils of the Amber Temple. During the war, Strahd killed Argonvost and his knights. The knights now assault Castle Ravenloft over and over as revenant knights doomed for all eternity.",
@@ -616,10 +616,10 @@ let locationsData = [
     number: 15,
     name: "Mount Ghakis",
     img: "https://i.imgur.com/UOUFifH.png",
-    imgCap: "...",
-    characters: ["..."],
-    quests: ["..."],
-    notes: ["..."],
+    imgCap: "Winding roads of Mount Ghakis",
+    characters: ["Last Hunting Trip"],
+    // quests: ["..."],
+    // notes: ["..."],
     localLinks: {},
     quote: "Legend says Mount Baratok is home to the mysterious Amber Temple.",
     main: `   Mount Ghakis defines the Southern border of the valley of Barovia. It is mirrored by Mount Baratok in the North. Barovia's coldest and harshest temperatures can be found around Mount Ghakis. Traversing this region is difficult and dangerous. It was once patrolled by the Order of the Silver Dragon along the road leading up to Tsolenka Pass. It is believed that when Strahd and his forces extinguished the Order, he was able to march right into the Amber Temple and whatever he found there changed him forever, turning him into a vampire and separating Barovia from the material plane.`,
@@ -636,12 +636,12 @@ let locationsData = [
     img: "https://i.imgur.com/djjBndz.png",
     imgCap: "...",
     leader: ["Ludmilla"],
-    characters: ["..."],
-    quests: ["..."],
-    notes: ["..."],
+    characters: ["Ludmilla", "Sir Erich"],
+    // quests: ["..."],
+    // notes: ["..."],
     localLinks: {},
     quote: `Ahead, through the wind and snow, you see a high wall of black stone lined with spikes and topped by statues of crouching stone gargoyles with snarling mouths. Set in the center of the wall is a closed iron portcullis, behind which burns a curtain of green flame.`,
-    main: "",
+    main: "Tsolenka Pass was constructed by Argonvost and his Order of the Silver Dragon as the final checkpoint on the road leading to the Amber Temple. Tsolenka is a small fortress meant for only a few soldiers to occupy at a time. Centuries after the Order dissipated, Ludmilla uses Tsolenka for her own needs.",
     gallery: [
       {
         cap: "Tsolenka Pass",
@@ -652,13 +652,13 @@ let locationsData = [
         img: "https://i.imgur.com/U80ipYz.png"
       }
     ],
-    sections: [
-      {
-        name: "Ludmilla's Lab",
-        img: "",
-        content: ""
-      }
-    ]
+    // sections: [
+    //   {
+    //     name: "Ludmilla's Lab",
+    //     img: "",
+    //     content: ""
+    //   }
+    // ]
   },
   {
     number: 17,

@@ -633,16 +633,19 @@ body {
   width: 30rem;
   padding: .5rem; }
   .details-box__section {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid #180602;
     width: 100%;
     text-align: center;
-    display: flex; }
+    display: flex;
+    color: #e6e6e6; }
     .details-box__section:not(:first-child) {
-      background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.8), rgba(26, 26, 26, 0.8)); }
+      background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)); }
     .details-box__section--left {
       width: 50%;
       text-align: center;
-      border-right: 1px solid white;
+      border-right: 1px solid #e6e6e6;
+      border-right: 1px solid #180602;
       padding: .5rem 0; }
     .details-box__section--right {
       width: 70%;

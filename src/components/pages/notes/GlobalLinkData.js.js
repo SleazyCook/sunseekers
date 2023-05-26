@@ -116,7 +116,7 @@ let globalHyperLinks = {
     "Godfrey's Knights": "/characters/order-of-the-silver-dragon",
     Revenants: "/characters/order-of-the-silver-dragon",
     revenants: "/characters/order-of-the-silver-dragon",
-    "Ser Erich": "/characters/order-of-the-silver-dragon",
+    "Sir Erich": "/characters/order-of-the-silver-dragon",
     "Sir Damien": "/characters/order-of-the-silver-dragon",
     "Sir Robern": "/characters/order-of-the-silver-dragon",
     Arthund: "/characters/order-of-the-silver-dragon",
@@ -391,7 +391,7 @@ let globalHyperLinks = {
 
       "A Message for Cyrus Belview": "/quests/a-message-for-cyrus-belview",
 
-      "Bones of St. Andral": "/quests/bones-of-st.andral",
+      "Bones of St Andral": "/quests/bones-of-st.andral",
 
       "Rescue Arabelle": "/quests/rescue-arrabelle",
 
@@ -420,9 +420,12 @@ let globalHyperLinks = {
 
       "meets the sunseekers": "notes/strahd-notes",
       "in person": "notes/strahd-notes",
+      "Tome of Strahd": "/notes/strahd-notes",
 
       "Ireena Diary": "/notes/ireena-diary",
       "Safzira Diary": "/notes/safzira-diary"
+
+    
 }
 
 export default globalHyperLinks;
