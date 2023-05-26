@@ -454,7 +454,7 @@ let locationsData = [
         content: "The stockyard is a general store and facility where storage sheds can be rented. It is owned by a middle-aged couple, Gunther and Yelena Arasek. They sell goods for inflated prices. Rictavio and the Sunseekers keep their wagons in this area while they are in Vallaki."
       },
       {
-        name: "Coffine Maker's Shop",
+        name: "Coffin Maker's Shop",
         content: "Henrik Van Der Root was a mediocre carpenter and a troubled, lonely man. Profiting from the deaths of others and because of the ghastly nature of his handiwork, no one desired his company while he was alive. Anastrasya kept her vampire spawns in his shop and manipulated Henrik into stealing the bones of St. Andral so that her forces could freely attack Vallaki and the church."
       },
       {
