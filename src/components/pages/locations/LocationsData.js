@@ -97,7 +97,7 @@ let locationsData = [
     notes: ["Ireena's Diary"],
     localLinks: {},
     quote: "Tall shapes loom out of the dense fog that surrounds everything. The muddy ground underfoot gives way to slick, wet cobblestones. The tall shapes become recognizable as village dwellings. The windows of each house stare out from pools of Blackness. No sound cuts the silence except for mournful sobbing that echoes through the streets from a distance.",
-    main: `  `,
+    main: `  The Village of Barovia unfortunately sits at the base of the rock that Castle Ravenloft was built upon. Living in the gloomy shadow of Castle Ravenloft has been brutal to the village over the centuries since its construction. The village was home to Kolyan Indirovich who raised Ismark and Ireena, the optimistic next generation of Eastern Barovia. In their visit, the Sunseekers encountered zombies, plague, wolf attacks, and a vampire. It remains a cold and dark place for those unfortunate enough to find themselves in the shadow of Castle Ravenloft.`,
     gallery: [
       {
         cap: "View of Castle Ravenloft from the Village of Barovia",
@@ -132,42 +132,57 @@ let locationsData = [
         img: "https://i.imgur.com/ZzFQKI3.png"
       },
       {
-        cap: "Priests of Osybus",
-        img: "https://i.imgur.com/v0UJOI8.png"
-      },
-      {
         cap: "Map of Durst Manor",
         img: "https://i.imgur.com/hiFFkUj.png"
+      },
+      {
+        cap: "Priests of Osybus",
+        img: "https://i.imgur.com/v0UJOI8.png"
       }
+
     ],
     sections: [
       {
         name: "Bildrath's Mercantile",
-        content: ""
+        content: `    "The sparse light form this building spills out from behind drawn heavy curtains. A sign over the door, creaking on its hinges, reads "Bildrath's Mercantile.""
+        
+        Bildrath trades with the Vistani when they pass through. He is also happy to make any profit from any strangers unlucky enough to find themselves here. He serves his own interests and offers no sanctuary. He never bargains since, as he says, "If you want it, you'll pay for it." He has no competition in the village. Bildrath's nephew, Parrwimple, lives in with him and often hangs around the shop. Parriwimple's real name is Parpol Cantemir, but no one in the village calls him that. His muscles rippling beneath his leather tunic should give ample notice of his strength. At the same time, Parriwimple is simple-minded. He is devoted to his uncle, but has a fondness for the Sunseeker Elizana.`
       },
       {
         name: "Blood on the Vine",
-        content: "Vistani owned tavern"
+        content: `    "A single shaft of light thrusts illumination into the main square, its brightness looking like a solid pillar in the heavy fog. Above the gaping doorway, a sign hangs prevariously askew, proclaiming this to be the Blood on the Vine tavern."
+        
+        Close inspection of the tavern sign reveals that it originally read "Blood of the Vine," but an "N" has been scratched over the "F." The tavern appears to be run by three Vistani women named Alenka, Mirabel, and Sorvia. When the Sunseekers first arrive at the tavern, the Vistani women encourage them to visit a nearby fortune teller Madame Eva. The barkeep Arik Lorensk is a pudgy little man with little interest in conversation.  It was Ismark who bought the Sunseekers their first drinks in the Village of Barovia and offered them a place to stay at his mansion.`
       },
       {
         name: "Mad Mary's Townhouse",
-        content: ""
+        content: `    "A moaning sob floats through the still, gray streets, coloring your thoughts with sadness. The sounds flow from a dark, two-story townhouse."
+        
+        When Elizana found the dog Lancelot scratching at a door, she discovered the home of a lady that the locals call "Mad Mary." Her daughter went missing some time ago and Mary seems to be confused about the details of the situation, although she remembers Lancelot clearly. She pleads with the Sunseekers for them to find her daughter Gertruda.`
       },
       {
         name: "Burgomaster's Mansion",
-        content: ""
+        content: `    "A weary-looking mansion squats behind a rusting iron fence. The iron gates are twisted and torn. The right gate lies cast aside, while the left swings lazily in the wind. The stuttering squeal and clang of the gate repeats with mindless precision. Weeds choke the grounds and press with menace upon the house itself. Yet, against the walls, the growth has been tramped down to create a path all about the domain. Heavy claw markings have stripped the once-beautiful finish of the walls. Great black marks tell of the fires that have assailed the mansion. Not a pane nor a shard of glass stands in any window. All the windows are barred with planks, each one marked with stains of evil omen."
+        
+        When the Sunseekers first encounter the Burgomaster's Mansion in the Village of Barovia, they meet Ireena who has been experiencing nightly horrors and creepy romantic advances from Strahd Von Zarovich. She has been taking care of her father's body, who died some days ago, and is in need of a proper burial.`
       },
       {
         name: "Church",
-        content: ""
+        content: `    "Atop a slight rise, against the roots of the pillar stone that supports Castle Ravenloft, stands a gray, sagging edifice of stone and wood. This church has obviously weathered the assaults of evil for centuries on end and is worn and weary. A bell tower rises toward the back, and flickering light shines through holes in the shingled roof. The rafters strain feebly against their load. The heavy wooden doors of the church are covered with claw marks and scarred by fire.
+        
+        The local priest Donavich has done everything he can for the people of the Village of Barovia over the years, but recently he has been secretly bringing the bodies of Barovians into the undercroft to feed his vampire son. His son, Doru, was once studying for priesthood, but was bitten and turned into a vampire by Strahd to torment Donavich.`
       },
       {
         name: "Cemetary",
-        content: ""
+        content: `    "A fence of wrought iron with a rusty gate encloses a rectangular plot of land behind the dilapidated church. Tightly packed gravestones shrouded by fog bear the names of souls long passed. All seems quiet."
+        
+        The cemetary in the village is as old as the village itself. However in recent years due to the constant attacks on the village by horrors day and night, villagers have been too afraid to spend enough time outside to dig any graves. The Sunseekers help Ismark and Ireena bury their father Kolyan in the first proper burial in years.`
       },
       {
         name: "Durst Manor",
-        content: "Who are the Dursts, Adventure in Death House"
+        content: `    "Closer to the door is a toy chest with windmills painted on its sides and a dollhouse that's a perfect replica of the dreary edifice in which you stand. These furnishings are draped in cobwebs. Lying in the middle of the floor are two small skeletons wearing tattered but familiar clothing. The smaller of the two cradles a stuffed doll that you also recognize."
+        
+        Before Strahd's invasion, Durst Manor was a warm home. The Dursts owned the Mill towards Vallaki and helped feed people in need in the valley. After Strahd's arrival, the Durst family home fell into darkness eventually hosting the Priests of Osybus. The neglected souls of Rose and Thorn appealed to the Sunseekers who helped put their family's souls to rest after centuries of suffering.`
       },
     ]
   },

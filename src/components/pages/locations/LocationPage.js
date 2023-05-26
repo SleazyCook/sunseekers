@@ -27,13 +27,15 @@ function LocationPage() {
 
         {/* MAIN TITLE & CONTENT */}
         <div className="log-entry__main">
+        <span className="location__quote" style={{whiteSpace:'break-spaces'}}>
+              "{locationObj.quote}"</span>
+              
           <div className="log-entry__title-box">
-            <span className="log-entry__title heading-tertiary">{locationObj.name}</span>
+          <span className="log-entry__title heading-tertiary">{locationObj.name}</span>
             
             </div>
 
-            <span className="location__quote" style={{whiteSpace:'break-spaces'}}>
-              "{locationObj.quote}"</span>
+            
 
           <p className="log-entry__text hyperlink" style={{whiteSpace:'break-spaces'}}>
             {locationObj.main}
