@@ -112,7 +112,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "locations",
-        element: <Locations />
+        element: <WorldMap />
       },
       {
         path: "locations/:locationNumber",
