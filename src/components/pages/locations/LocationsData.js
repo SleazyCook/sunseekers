@@ -195,12 +195,8 @@ let locationsData = [
     quests: ["Madame Eva's Tarroka Reading"],
     notes: ["None"],
     localLinks: {},
-    quote: `    The road gradually disappears and is replaced by a twisted, muddy path through the trees. Deep ruts in the earth are evidence of the comings and goings of wagons.
-    
-    The canopy of mist and branches suddenly gives way to black clouds boiling far above. There is a clearing here, next to a river that widens to form a small lake several hundred feet across. Five colorful round tents, each ten feet in diameter, are pitched outside a ring of four barrel-topped wagons. A much larger tent stands near the shore of the lake, its saggin form lit from within. Near this tent, eight unbridled horses drink from the river.
-    
-    The mournful strains of an accordian clash with the singing of several brightly clad figures around a bonfire. A footpath continues beyond this encampment, meandering north between the river and the forest's edge.`,
-    main: "",
+    quote: `    The mournful strains of an accordian clash with the singing of several brightly clad figures around a bonfire. A footpath continues beyond this encampment, meandering north between the river and the forest's edge.`,
+    main: `   The Vistani Tser Pool Encampment is located just west of the Village of Barovia on a small dirt road that splits off from the Old Svalich Road. The encampment rests along the edge of the Ivlis River, which has been fruitful to the Vistani travelers who find themselves passing through this area. The Vistani are known to celebrate life in contrast to the Barovians whose lives can be mostly summarized by constant suffering. Parties run all night with singing, dancing, and lots of drinking. The Tser Pool Encampment is also where Madame Eva, an elder in the Vistani community, tells fortunes for travelers who first arrive in Barovia.`,
     gallery: [
       {
         cap: "Tser Pool Encampment",
@@ -226,7 +222,7 @@ let locationsData = [
     sections: [
       {
         name: "Madame Eva",
-        content: ""
+        content: "Madame Eva is an elder in the Vistani community and her age is unknown to all. She can willingly pass through the mists of Barovia and as such possesses an enourmous wealth of knowledge and wisdom. She is famous for her tarroka readings, which she usually conducts without a fee for travelers who are unfortunate enough to arrive in Barovia. From time to time she tells the tales of the adventurers who tried to best Strahd in the past. Her warnings about the dangers of Barovia are not to be taken lightly. When the Sunseekers met Madame Eva, she gave them five prophecies that could be used to defeat Strahd."
       }
     ]
   },
@@ -242,7 +238,7 @@ let locationsData = [
     quote: `Even here, in the mountains, the forest and the fog are inescapable. Ahead, the dirt road splits in two, widening toward the east. There you see patches of cobblestone, suggesting that the eastern branch was once an important thoroughfare. 
     
     Parked at the fork in the road, pointed east, is a large black carriage drawn by two black horses. The horses snort puffs of steamy breath into the chill mountain air. The side door of the carriage swings open silently.`,
-    main: "",
+    main: "The Black Carriage is a strange phenomenon. It usually lurks down the road leading up to Castle Ravenloft.  Rumor has it that the unmanned carriage will safely take you to the castle to entertain the vampire lord Strahd Von Zarovich, though the locals are too scared to approach it.",
     gallery: [
       {
         cap: "Black Carriage",
