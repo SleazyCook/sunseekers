@@ -1,26 +1,16 @@
 .details-box {
-  // border: 2px solid white;
-  // width: 30rem;
   padding:  .5rem;
-  // background-color: red;
-  // transition: all .5s;
-
-  // &:hover {
-  //   transform: scale(1.05);
-  // }
 
   &__section {
     border-bottom: 1px solid $color-white-soft;
     border-bottom: 1px solid $color-primary-dark;
 
     width: 100%;
+    max-width: 45rem;
     text-align: center;
     display: flex;
     color: $color-white-soft;
-
-
-
-  
+    justify-content: center;
 
     &:not(:first-child) {
       // border-left: 1px solid white;
@@ -41,7 +31,6 @@
       border-radius: 0 0 1rem 1rem;
     }
 
-
     &--left {
       width: 50%;
       text-align: center;
@@ -59,9 +48,8 @@
   }
 
   &__img {
-    width: 28rem;
+    width: 90%;
     border-radius: 1rem;
-    box-shadow: 5px 5px 5px $box-shadow-highlight;
 
     &-cap {
       padding: .5rem;

@@ -635,9 +635,11 @@ body {
     border-bottom: 1px solid #e6e6e6;
     border-bottom: 1px solid #180602;
     width: 100%;
+    max-width: 45rem;
     text-align: center;
     display: flex;
-    color: #e6e6e6; }
+    color: #e6e6e6;
+    justify-content: center; }
     .details-box__section:not(:first-child) {
       background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)); }
     .details-box__section:first-child {
@@ -658,9 +660,8 @@ body {
       overflow-wrap: break-word;
       padding: .5rem .25rem; }
   .details-box__img {
-    width: 28rem;
-    border-radius: 1rem;
-    box-shadow: 5px 5px 5px 5px 5px 5px grey; }
+    width: 90%;
+    border-radius: 1rem; }
     .details-box__img-cap {
       padding: .5rem;
       display: block;
