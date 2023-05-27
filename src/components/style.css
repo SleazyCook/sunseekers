@@ -641,6 +641,8 @@ body {
     color: #e6e6e6; }
     .details-box__section:not(:first-child) {
       background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)); }
+    .details-box__section:last-child {
+      border-radius: 0 0 1rem 1rem; }
     .details-box__section--left {
       width: 50%;
       text-align: center;
@@ -1918,6 +1920,16 @@ body {
         background-size: cover;
         background-position: bottom; }
 
+.location__title {
+  padding-bottom: 2rem;
+  color: #e6e6e6;
+  clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+  color: #e6e6e6;
+  padding: 0 3rem;
+  background-color: #771f09;
+  display: inline-block;
+  font-size: 5rem; }
+
 .location__quote {
   display: flex;
   align-items: center;
@@ -1965,7 +1977,6 @@ body {
   display: flex;
   flex-wrap: wrap; }
   .gallery__header {
-    color: white;
     text-align: center;
     font-size: 2rem;
     padding: 1rem 2rem 2rem 2rem; }
@@ -1993,20 +2004,22 @@ body {
     display: flex;
     flex-direction: column;
     padding: 1.5rem; }
-  .log-entry__title {
-    padding-bottom: 2rem;
-    color: #e6e6e6;
-    clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
-    color: #e6e6e6;
-    padding: 0 3rem;
-    background-color: #771f09;
-    display: inline-block;
-    font-size: 5rem; }
   .log-entry__title, .log-entry__date, .log-entry__details {
     max-width: 60rem;
     align-self: center;
     text-align: center;
     margin-bottom: .5rem; }
+  .log-entry__title {
+    font-family: "Cinzel Decorative", cursive;
+    padding: 2rem 10rem;
+    color: #e6e6e6;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+    color: #e6e6e6;
+    padding: 0 3rem;
+    background-color: #771f09;
+    display: inline-block;
+    font-size: 5rem;
+    margin-bottom: 3rem; }
   .log-entry__details {
     margin-bottom: 2rem; }
   .log-entry__subtitle {

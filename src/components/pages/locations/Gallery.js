@@ -8,12 +8,12 @@ function Gallery({locationObj, setGalleryOpen}) {
   const slider = useRef(null);
 
   const slideLeft = (event) => {
-    slider.current.scroll({ left: slider.current.scrollLeft -1000, behavior: 'smooth'}) 
+    slider.current.scroll({ left: slider.current.scrollLeft -800, behavior: 'smooth'}) 
     console.log(slider)
   }
 
   const slideRight = (event) => {
-    slider.current.scroll({ left: slider.current.scrollLeft + 1000, behavior: 'smooth'}) 
+    slider.current.scroll({ left: slider.current.scrollLeft + 800, behavior: 'smooth'}) 
     console.log(slider)
   }
   return (

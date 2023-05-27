@@ -19,7 +19,7 @@ function LogEntry() {
 
   useEffect(() => {
     setEntryObj(logData[entryNumber-1]);
-    // window.scrollTo({top: 0, left: 0});
+    window.scrollTo({top: 0, left: 0});
   }, [entryNumber])
 
   return (
@@ -32,9 +32,9 @@ function LogEntry() {
 
         {/* MAIN TITLE & CONTENT */}
         <div className="log-entry__main">
-          <h4 className="log-entry__title">
+          <div className="log-entry__title">
             {entryObj.title}
-            </h4>
+            </div>
 
           <p className="log-entry__text hyperlink" style={{whiteSpace:'break-spaces'}}>
             {entryObj.entry && renderWithLinks(entryObj.entry, entryObj.localLinks)}

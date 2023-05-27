@@ -30,6 +30,10 @@
         rgba($color-primary-dark, .8));
     }
 
+    &:last-child {
+      border-radius: 0 0 1rem 1rem;
+    }
+
 
     &--left {
       width: 50%;

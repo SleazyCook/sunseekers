@@ -40,7 +40,7 @@ function LocationPage() {
           </div>
 
           <div className="log-entry__title-box">
-          <span className="log-entry__title heading-tertiary">{locationObj.name}</span>
+          <span className="location__title heading-tertiary">{locationObj.name}</span>
             
             </div>
 

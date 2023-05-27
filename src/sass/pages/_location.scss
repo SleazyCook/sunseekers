@@ -1,5 +1,19 @@
 .location {
 
+  &__title {
+    padding-bottom: 2rem;
+    // text-align: start;
+    color: $color-white-soft;
+    clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+    color: $color-white-soft;
+    padding: 0 3rem;
+    background-color: $color-primary;
+    display: inline-block;
+
+
+    font-size: 5rem;
+  }
+
 
   &__quote {
     display: flex;
@@ -61,7 +75,7 @@
   flex-wrap: wrap;
 
   &__header {
-    color: white;
+
     text-align: center;
     font-size: 2rem;
     padding: 1rem 2rem 2rem 2rem;
