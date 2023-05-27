@@ -18,8 +18,6 @@ function Resources() {
   return (
     <div>
 
-      <Header />
-      <Navigation />
 
       <div className="resources">
         <div className="heading-secondary resources__title">Player Resources</div>
@@ -45,9 +43,6 @@ function Resources() {
         })}
         
       </div> {/* Flexbox End */}
-
-      <Footer />
-
 
     </div>
   )

@@ -25,9 +25,6 @@ function LogEntry() {
   return (
     <div>
 
-      <Header />
-      <Navigation />
-
         <div className="log-entry">
 
         {/* MAIN TITLE & CONTENT */}
@@ -116,7 +113,6 @@ function LogEntry() {
         
         </div>
 
-      <Footer />
 
     </div>
   )

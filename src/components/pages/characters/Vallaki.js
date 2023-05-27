@@ -13,8 +13,7 @@ function Vallaki() {
   return (
     <div>
       
-    <Header />
-    <Navigation />
+
 
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
@@ -313,8 +312,6 @@ function Vallaki() {
         </div> {/* Yevgeni End */}
       
       </div> {/* Flexbox End */}
-
-    <Footer />
 
     </div>
   )

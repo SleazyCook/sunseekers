@@ -9,9 +9,6 @@ function WorldMap() {
   return (
     <div>
 
-      <Header />
-      <Navigation />
-
       <div className="world-map__flexbox">
         <div className="world-map">
 

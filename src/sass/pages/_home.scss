@@ -2,9 +2,10 @@
   // border: 3px solid white;
 
   background-color: #1e1e1e;
+  margin-top: 3rem;
 
   display: grid;
-  grid-template-rows: [header-start] 50vh [header-end description-start] 50vh  [description-end most-recent-start] 150vh [most-recent-end tarroka-start] 40vh [tarroka-end death-house-start] 60vh [death-house-end bonus-start] 1fr [bonus-end footer-start] 40vh [footer-end];
+  grid-template-rows: [description-start] 50vh  [description-end most-recent-start] 150vh [most-recent-end tarroka-start] 40vh [tarroka-end death-house-start] 60vh [death-house-end bonus-start] 1fr [bonus-end];
 
   // grid-template-rows: [header-start] 50vh [header-end description-start] 70vh  [description-end most-recent-start] 82vh [most-recent-end tarroka-start] 70vh [tarroka-end death-house-start] 60vh [death-house-end bonus-start] 1fr [bonus-end footer-start] 40vh [footer-end];
 
@@ -13,7 +14,7 @@
   grid-template-columns: [page-horizontal-start] 2rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 2rem [home-horizontal-end];
 
   @include respond(tab-land) {
-    grid-template-rows: [header-start] 50vh [header-end description-start] 70vh  [description-end most-recent-start] 82vh [most-recent-end tarroka-start] 70vh [tarroka-end death-house-start] 60vh [death-house-end bonus-start] 1fr [bonus-end footer-start] 40vh [footer-end];
+    grid-template-rows: [description-start] 70vh  [description-end most-recent-start] 82vh [most-recent-end tarroka-start] 70vh [tarroka-end death-house-start] 60vh [death-house-end bonus-start] 1fr [bonus-end];
 
     grid-template-columns: [page-horizontal-start] 5rem [left-gutter main-content-start] 1fr [main-content-end right-gutter] 5rem [home-horizontal-end];
   }

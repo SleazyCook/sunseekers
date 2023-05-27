@@ -16,9 +16,6 @@ function Locations() {
   return (
     <div>
 
-      <Header />
-      <Navigation />
-
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">Locations Guide</h2>
       </div>
@@ -51,7 +48,6 @@ function Locations() {
 
       </div> {/* Flexbox End */}
 
-      <Footer />
 
     </div>
   )

@@ -20,8 +20,6 @@ function TarrokaReading() {
   return (
     <div>
 
-      <Header />
-      <Navigation />
 
       <div className="tarroka-new">
         

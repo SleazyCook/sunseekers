@@ -8,9 +8,7 @@ function Quests() {
   return (
     <div>
 
-      <Header />
-      <Navigation />
-
+      Page Coming Soon...
     </div>
   )
 }

@@ -20,9 +20,6 @@ function Market() {
 
   return (
     <div>
-
-      <Header />
-      <Navigation />
       
       <h2 className="heading-secondary u-center-text u-margin-bottom-medium">Vallaki Market</h2>
 
@@ -33,9 +30,6 @@ function Market() {
       <WagonRepair />
       <OddsEnds />
       <StraightArrow />
-
-
-      <Footer />
 
     </div>
   )

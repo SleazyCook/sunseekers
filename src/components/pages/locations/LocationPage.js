@@ -26,8 +26,6 @@ function LocationPage() {
   return (
     <div>
 
-      <Header />
-      <Navigation />
 
       <div className="log-entry location">
 
@@ -139,9 +137,6 @@ function LocationPage() {
         {galleryOpen && <Gallery locationObj={locationObj} setGalleryOpen={setGalleryOpen}/>}
 
       </div>  
-
-      <Footer />
-
 
     </div>
   )

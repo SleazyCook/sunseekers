@@ -8,8 +8,7 @@ function Unknown() {
   return (
     <div>
       
-      <Header />
-      <Navigation />
+
       
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
@@ -22,7 +21,7 @@ function Unknown() {
 
       Content coming soon.
 
-      <Footer />
+
 
 
     </div>

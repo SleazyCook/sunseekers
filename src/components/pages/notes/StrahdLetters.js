@@ -8,8 +8,6 @@ function StrahdLetters() {
   return (
     <div>
 
-      <Header />
-      <Navigation />
 
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
@@ -208,9 +206,6 @@ function StrahdLetters() {
         </div>
       </div> {/* End Notes-Box */}
 
-
-
-      <Footer />
 
     </div>
   )

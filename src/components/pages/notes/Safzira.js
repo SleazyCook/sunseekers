@@ -8,9 +8,6 @@ function Safzira() {
   return (
     <div>
 
-      <Header />
-      <Navigation />
-
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
           <span className="heading-secondary--main" id="page-top">
@@ -118,9 +115,6 @@ function Safzira() {
 
       </p>
 
-
-
-      <Footer />
 
     </div>
   )

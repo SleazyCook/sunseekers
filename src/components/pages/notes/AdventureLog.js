@@ -27,9 +27,6 @@ function AdventureLog() {
   return (
     <div>
 
-      <Header />
-      <Navigation />
-
       <div className="heading-secondary adventure__head">Experience every chapter</div>
 
       <div className="adventure__slider-button-box">

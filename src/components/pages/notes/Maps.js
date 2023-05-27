@@ -9,9 +9,6 @@ function Maps() {
   return (
     <div>
 
-      <Header />
-      <Navigation />
-
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
           <span className="heading-secondary--main">
@@ -96,9 +93,6 @@ function Maps() {
             Map of St. Andral's Church</p>
         </div>
       </div> {/* Vallaki End */}
-
-
-      <Footer />
 
     </div>
   )

@@ -13,9 +13,6 @@ function Vistani() {
   return (
     <div>
 
-      <Header />
-      <Navigation />
-
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
           <span className="heading-secondary--main">
@@ -278,7 +275,6 @@ function Vistani() {
 
       </div>
 
-      <Footer />
 
     </div>
   )

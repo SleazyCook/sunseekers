@@ -13,8 +13,6 @@ function Wachterhaus() {
   return (
     <div>
 
-    <Header />
-    <Navigation />
 
     <div className="u-center-text u-margin-bottom-big">
       <h2 className="heading-secondary">
@@ -143,7 +141,6 @@ function Wachterhaus() {
 
     </div> {/* Flexbox End */}
 
-    <Footer />
 
 
     </div>

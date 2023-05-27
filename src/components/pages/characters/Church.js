@@ -14,8 +14,7 @@ function Church() {
   return (
     <div>
       
-      <Header />
-      <Navigation />
+
 
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
@@ -147,7 +146,7 @@ function Church() {
 
       </div> {/* Flexbox End */}
 
-      <Footer />
+
     
     </div> 
   )

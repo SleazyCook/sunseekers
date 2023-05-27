@@ -22,7 +22,7 @@ function Home() {
   return (
     <div className="home">
       
-      <HeaderHome />
+      {/* <HeaderHome /> */}
 
 
 
@@ -32,7 +32,7 @@ function Home() {
 
       <Recently />
 
-      <Footer />
+      {/* <Footer /> */}
 
       {/* <AdventureLog /> */}
 

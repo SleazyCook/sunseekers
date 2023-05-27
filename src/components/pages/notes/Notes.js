@@ -16,9 +16,6 @@ function Notes() {
   return (
     <div>
 
-       <Header />
-       <Navigation />
-
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">Journals</h2>
       </div>
@@ -41,7 +38,7 @@ function Notes() {
       
       </div> {/* Flexbox End */}
 
-      <Footer />
+
       
 
     </div>

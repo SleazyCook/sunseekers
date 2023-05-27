@@ -12,9 +12,6 @@ function Feedback() {
   return (
     <div>
 
-      <Header />
-      <Navigation />
-
       <div className="feedback">
         <div className="heading-secondary feedback--title">
           Post-Session Anonymous Feedback Form
