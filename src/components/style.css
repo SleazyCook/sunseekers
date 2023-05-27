@@ -1199,7 +1199,10 @@ body {
     right: 3%;
     font-size: 32px;
     color: #a62b0d;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: all .5s; }
+    .gallery__close-icon:hover {
+      color: #ed3e12; }
   .gallery__nav-icon {
     display: none; }
     @media (min-width: 37.5em) {
@@ -1226,7 +1229,10 @@ body {
           position: absolute;
           right: 0%; } }
   .gallery__icon {
-    color: #771f09; }
+    color: #771f09;
+    transition: all .5s; }
+    .gallery__icon:hover {
+      color: #ed3e12; }
   .gallery__main {
     width: 100%;
     margin: 0;
@@ -1257,7 +1263,7 @@ body {
     width: 90vw; }
   .gallery__image {
     max-height: 75vh;
-    margin: 0 2rem; }
+    margin: 0 5rem; }
   .gallery__caption {
     display: block;
     text-align: center;

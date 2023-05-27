@@ -65,6 +65,10 @@
     font-size: 32px;
     color: $color-primary-light;
     cursor: pointer;
+    transition: all .5s;
+    &:hover {
+      color: lighten($color-primary-light, 15);
+    };
   }
 
   &__nav-icon {
@@ -104,6 +108,10 @@
 
   &__icon {
     color: $color-primary;
+    transition: all .5s;
+    &:hover {
+      color: lighten($color-primary-light, 15);
+    };
   }
 
   &__main {
@@ -143,7 +151,7 @@
 
   &__image {
     max-height: 75vh;
-    margin: 0 2rem;
+    margin: 0 5rem;
   }
 
   &__caption {
