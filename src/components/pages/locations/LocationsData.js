@@ -51,6 +51,11 @@ let locationsData = [
         number: 1,
         cap: "Old Svalich Road",
         img: "https://i.imgur.com/B7TIY5w.png"
+      },
+      {
+        number: 2,
+        cap: "First Interaction with Strahd",
+        img: "https://i.imgur.com/wW4qxDR.png"
       }
     ],
     sections: [
