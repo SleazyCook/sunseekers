@@ -1376,6 +1376,7 @@ body {
     color: white;
     height: 100%;
     border-top: 2px solid black;
+    border-bottom: 2px solid black;
     box-shadow: 5px 5px 5px black; }
     .navigation--top a,
     .navigation--top a:active,
