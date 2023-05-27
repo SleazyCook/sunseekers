@@ -1,7 +1,46 @@
 .gallery {
+
   // LocationsPage
-  &__img-box {
-    cursor: pointer;
+  border: 2px solid $color-primary-dark;
+  margin: 0 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary-dark, .8),
+    rgba($color-black, .8));
+
+  &__header {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem 2rem 2rem 2rem;
+  }
+
+  &__img {
+    height: 20rem;
+    width: 20rem;
+    margin: auto;
+    border-radius: 1rem;
+
+    &-cap {
+      text-align: center;
+      background-color: red;
+      display: inline-block;
+    }
+    
+    &-box {
+      height: 25rem;
+      width: 25rem;
+      padding: 2.5rem;
+      cursor: pointer;
+
+      // border: 1px solid white;
+    }
   }
   
   // Popup

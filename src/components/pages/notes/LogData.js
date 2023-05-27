@@ -316,7 +316,7 @@ let logData = [
     number: 17,
     title: "Ez and the Tome",
     players: ["Elizana", "Safzira", "Umnos", "Zoro"],
-    npcs: ["Freebird", "Ezmerelda d'Avenir", "Kasimir", "Viktor", "Ser Erich"],
+    npcs: ["Freebird", "Ezmerelda d'Avenir", "Kasimir", "Viktor", "Sir Erich"],
     quests: ["Last Hunting Trip"],
     locations: ["Castle Ravenloft"],
     gameDate: "10th Day of Alturiak",
@@ -332,7 +332,7 @@ let logData = [
     number: 18,
     title: "Cold Deep South",
     players: ["Safzira", "Zoro"],
-    npcs: ["Kasimir", "Viktor", "Ser Erich"],
+    npcs: ["Kasimir", "Viktor", "Sir Erich"],
     quests: ["Last Hunting Trip"],
     locations: ["Mount Ghakis"],
     gameDate: "8th Day of Alturiak",
@@ -397,7 +397,7 @@ let logData = [
     number: 20,
     title: "Gate of Tsolenka",
     players: ["Safzira"],
-    npcs: ["Kasimir", "Viktor", "Ser Erich"],
+    npcs: ["Kasimir", "Viktor", "Sir Erich"],
     quests: ["None"],
     locations: ["Tsolenka Pass"],
     gameDate: "10th Day of Alturiak",
@@ -409,9 +409,9 @@ let logData = [
       monstrosity: "/characters/creatures"
     },
     short: "Safzira and Kasimir encounter a monstrosity at the Gate of Tsolenka Pass",
-    entry: `    After a days of treading through the coldest parts of Barovia the Southern Sunseekers Safzira, Kasimir, ~Ser Erich~, and Victor finally arrive at ~Tsolenka Pass~, the last stop before the ~Amber Temple~.
+    entry: `    After a days of treading through the coldest parts of Barovia the Southern Sunseekers Safzira, Kasimir, ~Sir Erich~, and Victor finally arrive at ~Tsolenka Pass~, the last stop before the ~Amber Temple~.
 
-    They are met by a large archway blocked by an iron portcullis and magical barrier. Safzira uses her Mage Hand to slip through the iron bars and draw back the heavy gate.  ~Ser Erich~, familiar with the former outpost of his once honorable ~Order of the Silver Dragon~, waves his hand across the magical barrier like a soft wave to an old friend. The magic is calmly dispelled allowing the group to continue. Just before crossing through the archway, the group notices a large and unusual shape beyond the snowy mountain wind.  Kasimir is first to recognize the horror of the monstrosity before them and without hesitation leaps in front of Safzira to keep it at bay. With Ser Erich right behind him, Kasimir throws his elven dagger at the beast followed by a fire bolt. 
+    They are met by a large archway blocked by an iron portcullis and magical barrier. Safzira uses her Mage Hand to slip through the iron bars and draw back the heavy gate.  ~Sir Erich~, familiar with the former outpost of his once honorable ~Order of the Silver Dragon~, waves his hand across the magical barrier like a soft wave to an old friend. The magic is calmly dispelled allowing the group to continue. Just before crossing through the archway, the group notices a large and unusual shape beyond the snowy mountain wind.  Kasimir is first to recognize the horror of the monstrosity before them and without hesitation leaps in front of Safzira to keep it at bay. With Sir Erich right behind him, Kasimir throws his elven dagger at the beast followed by a fire bolt. 
 
     As the beast is struck by the flame, the party starts to make out the vaguely wolf-shaped monstrosity and it's unnatural mechanical limbs and alterations sprouting from fresh stich-wounds and open flesh.  There are rows of mismatched bloodshot eyes staring back at them. One wrong move and the amalgamation swings it's elongated spiny tongue at Kasimir striking him in the chest. Without hesitation, Safzira hits the beast with dissonant whispers and the ~Mad Mage~ finishes the monster off with a magic missile.
 

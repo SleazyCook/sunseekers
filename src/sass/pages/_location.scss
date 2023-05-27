@@ -68,34 +68,3 @@
   }
 }
 
-.gallery {
-  border: 1px solid white;
-  margin: 0 10rem;
-  display: flex;
-  flex-wrap: wrap;
-
-  &__header {
-
-    text-align: center;
-    font-size: 2rem;
-    padding: 1rem 2rem 2rem 2rem;
-  }
-
-  &__img {
-    height: 20rem;
-    width: 20rem;
-    margin: auto;
-
-    &-cap {
-      text-align: center;
-      background-color: red;
-    }
-    
-    &-box {
-      height: 25rem;
-      width: 25rem;
-      padding: 2.5rem;
-      border: 1px solid white;
-    }
-  }
-}

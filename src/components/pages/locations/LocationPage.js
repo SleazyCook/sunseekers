@@ -130,7 +130,7 @@ function LocationPage() {
           return (
             <div key={galleryObj.number} onClick={()=>setGalleryOpen(true)} className="gallery__img-box">
               <img className="gallery__img" src={galleryObj.img} alt={`image of ${galleryObj.cap}`}/>
-              <p classname="gallery__img-cap">{galleryObj.cap}</p>
+              {/* <span classname="gallery__img-cap">{galleryObj.cap}</span> */}
             </div>
           )
         })}
