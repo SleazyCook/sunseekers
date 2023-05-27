@@ -1369,7 +1369,6 @@ body {
   grid-column: 1 / 4;
   grid-row: 2 / 3;
   height: 5rem;
-  margin-bottom: 3rem;
   background-image: linear-gradient(to right bottom, rgba(119, 31, 9, 0.8), rgba(0, 0, 0, 0.8)); }
   .navigation--top {
     font-size: 2.5rem;
@@ -2263,6 +2262,7 @@ body {
   position: relative;
   height: 99rem;
   width: 145rem;
+  margin: 3rem;
   background-image: url("https://i.imgur.com/28ypbbJ.jpg");
   background-size: cover;
   background-repeat: no-repeat;
