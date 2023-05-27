@@ -28,6 +28,11 @@ let locationsData = [
         number: 1,
         cap: "Mists of Barovia",
         img: "https://i.imgur.com/bgfcLRA.png"
+      },
+      {
+        number: 2,
+        cap: "Mists of Barovia",
+        img: "https://i.imgur.com/tHxRSUD.png"
       }
     ]
   },
@@ -89,6 +94,11 @@ let locationsData = [
         number: 1,
         cap: "Svalich Woods",
         img: "https://i.imgur.com/aN6jACG.png"
+      },
+      {
+        number: 2,
+        cap: "Ravens in the Svalich Woods",
+        img: "https://i.imgur.com/X8R1kPB.png"
       }
     ]
   },
@@ -279,6 +289,11 @@ let locationsData = [
         number: 1,
         cap: "Black Carriage",
         img: "https://i.imgur.com/BgyFPCi.png"
+      },
+      {
+        number: 2,
+        cap: "Black Carriage",
+        img: "https://i.imgur.com/yQXDM8d.png"
       }
     ]
   },
@@ -601,7 +616,11 @@ let locationsData = [
         number: 1,
         cap: "Lake Zarovich",
         img: "https://i.imgur.com/g5gBgCy.png",
-        content: ""
+      },
+      {
+        number: 2,
+        cap: "Bluto on the lake",
+        img: "https://i.imgur.com/ksgH4ug.png"
       }
     ],
     sections: [
@@ -610,7 +629,7 @@ let locationsData = [
         name: "Bluto",
         img: "",
         content: "Bluto is Vallaki's town drunk. After a long stretch of bad luck casting his line in the Lake, he kidnapped the Vistani child Arabelle as an offering to the gods of fishing."
-      }
+      },
     ]
   },
   {
@@ -718,6 +737,11 @@ let locationsData = [
         number: 1,
         cap: "Mount Ghakis",
         img: "https://i.imgur.com/UOUFifH.png"
+      },
+      {
+        number: 2,
+        cap: "Mount Ghakis",
+        img: "https://i.imgur.com/KLdtZYI.png"
       }
     ]
   },
