@@ -2,7 +2,7 @@ import React from 'react'
 
 function TarrokaTranscript({setTransOpen}) {
   return (
-    <div className="fuckity" onClick={()=>{setTransOpen(false)}}>
+    <div className="modal-box" onClick={()=>{setTransOpen(false)}}>
 
       <div className="tarroka__transcript">
         The following took place inside the fortune teller Madame Eva's tent at the Vistani Tser Pool Encampment on the 14th Evening of Hammer. <br /><br />

@@ -25,6 +25,7 @@ let locationsData = [
     `,
     gallery: [
       {
+        number: 1,
         cap: "Mists of Barovia",
         img: "https://i.imgur.com/bgfcLRA.png"
       }
@@ -47,16 +48,19 @@ let locationsData = [
     It is not uncommon for undead or other horrors to cross the road without warning.`,
     gallery: [
       {
+        number: 1,
         cap: "Old Svalich Road",
         img: "https://i.imgur.com/B7TIY5w.png"
       }
     ],
     sections: [
       {
+        number: 1,
         name: "Wolf attacks",
         content: `      The wolves of the Svalich Woods often hunt for travelers along the Old Svalich Road. The Sunseekers have been attacked by wolves several times on their travels. Even their Sunset wagon has done little to protect them from wandering wolf packs. One one occasion three large dire wolves nearly ripped the wagon apart while attacking the party.`
       },
       {
+        number: 2,
         name: "First Interaction with Strahd",
         content: `After leaving the Village of Barovia, the Sunseekers encountered Strahd Von Zarovich on the Old Svalich Road. He first appeared as a stranger grooming his horse, but revealed his true identity in his opening monologue:
         
@@ -77,6 +81,7 @@ let locationsData = [
     main: `   The Svalich Woods is a name for all the wilds surrounding the various villages and outposts in the valley of Barovia. They are dark and full of terrors, home to wolves, undead, and other monstrous creatures of the night. Most of the creatures in the Svalich Woods are in some way controlled by Strahd von Zarovich, and act as his eyes, ears and fangs against any who are foolish enough to wander there alone.`,
     gallery: [
       {
+        number: 1,
         cap: "Svalich Woods",
         img: "https://i.imgur.com/aN6jACG.png"
       }
@@ -99,42 +104,52 @@ let locationsData = [
     main: `  The Village of Barovia unfortunately sits at the base of the rock that Castle Ravenloft was built upon. Living in the gloomy shadow of Castle Ravenloft has been brutal to the village over the centuries since its construction. The village was home to Kolyan Indirovich who raised Ismark and Ireena, the optimistic next generation of Eastern Barovia. In their visit, the Sunseekers encountered zombies, plague, wolf attacks, and a vampire. It remains a cold and dark place for those unfortunate enough to find themselves in the shadow of Castle Ravenloft.`,
     gallery: [
       {
+        number: 1,
         cap: "View of Castle Ravenloft from the Village of Barovia",
         img: "https://i.imgur.com/yxCPjUN.png"
       },
       {
+        number: 2,
         cap: "Map of Village of Barovia",
         img: "https://i.imgur.com/zxl3W65.png"
       },
       {
+        number: 3,
         cap: "Map of Church in Village of Barovia",
         img: "https://i.imgur.com/fxgQqfY.jpg"
       },
       {
+        number: 4,
         cap: "Blood on the Vine Tavern sign",
         img: "https://i.imgur.com/HU0bX4P.jpg"
       },
       {
+        number: 5,
         cap: "Blood on the Vine Tavern exterior",
         img: "https://i.imgur.com/fZlkLtN.png"
       },
       {
+        number: 6,
         cap: "Downtown Village of Barovia",
         img: "https://i.imgur.com/n5ktd93.png"
       },
       {
+        number: 7,
         cap: "Zombies in the Village Well",
         img: "https://i.imgur.com/V6fdcx7.png"
       },
       {
+        number: 8,
         cap: "Durst Manor",
         img: "https://i.imgur.com/ZzFQKI3.png"
       },
       {
+        number: 9,
         cap: "Map of Durst Manor",
         img: "https://i.imgur.com/hiFFkUj.png"
       },
       {
+        nuber: 10,
         cap: "Priests of Osybus",
         img: "https://i.imgur.com/v0UJOI8.png"
       }
@@ -142,42 +157,49 @@ let locationsData = [
     ],
     sections: [
       {
+        number: 1,
         name: "Bildrath's Mercantile",
         content: `    "The sparse light form this building spills out from behind drawn heavy curtains. A sign over the door, creaking on its hinges, reads "Bildrath's Mercantile.""
         
         Bildrath trades with the Vistani when they pass through. He is also happy to make any profit from any strangers unlucky enough to find themselves here. He serves his own interests and offers no sanctuary. He never bargains since, as he says, "If you want it, you'll pay for it." He has no competition in the village. Bildrath's nephew, Parrwimple, lives in with him and often hangs around the shop. Parriwimple's real name is Parpol Cantemir, but no one in the village calls him that. His muscles rippling beneath his leather tunic should give ample notice of his strength. At the same time, Parriwimple is simple-minded. He is devoted to his uncle, but has a fondness for the Sunseeker Elizana.`
       },
       {
+        number: 2,
         name: "Blood on the Vine",
         content: `    "A single shaft of light thrusts illumination into the main square, its brightness looking like a solid pillar in the heavy fog. Above the gaping doorway, a sign hangs prevariously askew, proclaiming this to be the Blood on the Vine tavern."
         
         Close inspection of the tavern sign reveals that it originally read "Blood of the Vine," but an "N" has been scratched over the "F." The tavern appears to be run by three Vistani women named Alenka, Mirabel, and Sorvia. When the Sunseekers first arrive at the tavern, the Vistani women encourage them to visit a nearby fortune teller Madame Eva. The barkeep Arik Lorensk is a pudgy little man with little interest in conversation.  It was Ismark who bought the Sunseekers their first drinks in the Village of Barovia and offered them a place to stay at his mansion.`
       },
       {
+        number: 3,
         name: "Mad Mary's Townhouse",
         content: `    "A moaning sob floats through the still, gray streets, coloring your thoughts with sadness. The sounds flow from a dark, two-story townhouse."
         
         When Elizana found the dog Lancelot scratching at a door, she discovered the home of a lady that the locals call "Mad Mary." Her daughter went missing some time ago and Mary seems to be confused about the details of the situation, although she remembers Lancelot clearly. She pleads with the Sunseekers for them to find her daughter Gertruda.`
       },
       {
+        number: 4,
         name: "Burgomaster's Mansion",
         content: `    "A weary-looking mansion squats behind a rusting iron fence. The iron gates are twisted and torn. The right gate lies cast aside, while the left swings lazily in the wind. The stuttering squeal and clang of the gate repeats with mindless precision. Weeds choke the grounds and press with menace upon the house itself. Yet, against the walls, the growth has been tramped down to create a path all about the domain. Heavy claw markings have stripped the once-beautiful finish of the walls. Great black marks tell of the fires that have assailed the mansion. Not a pane nor a shard of glass stands in any window. All the windows are barred with planks, each one marked with stains of evil omen."
         
         When the Sunseekers first encounter the Burgomaster's Mansion in the Village of Barovia, they meet Ireena who has been experiencing nightly horrors and creepy romantic advances from Strahd Von Zarovich. She has been taking care of her father's body, who died some days ago, and is in need of a proper burial.`
       },
       {
+        number: 5,
         name: "Church",
         content: `    "Atop a slight rise, against the roots of the pillar stone that supports Castle Ravenloft, stands a gray, sagging edifice of stone and wood. This church has obviously weathered the assaults of evil for centuries on end and is worn and weary. A bell tower rises toward the back, and flickering light shines through holes in the shingled roof. The rafters strain feebly against their load. The heavy wooden doors of the church are covered with claw marks and scarred by fire.
         
         The local priest Donavich has done everything he can for the people of the Village of Barovia over the years, but recently he has been secretly bringing the bodies of Barovians into the undercroft to feed his vampire son. His son, Doru, was once studying for priesthood, but was bitten and turned into a vampire by Strahd to torment Donavich.`
       },
       {
+        number: 6,
         name: "Cemetary",
         content: `    "A fence of wrought iron with a rusty gate encloses a rectangular plot of land behind the dilapidated church. Tightly packed gravestones shrouded by fog bear the names of souls long passed. All seems quiet."
         
         The cemetary in the village is as old as the village itself. However in recent years due to the constant attacks on the village by horrors day and night, villagers have been too afraid to spend enough time outside to dig any graves. The Sunseekers help Ismark and Ireena bury their father Kolyan in the first proper burial in years.`
       },
       {
+        number: 7,
         name: "Durst Manor",
         content: `    "Closer to the door is a toy chest with windmills painted on its sides and a dollhouse that's a perfect replica of the dreary edifice in which you stand. These furnishings are draped in cobwebs. Lying in the middle of the floor are two small skeletons wearing tattered but familiar clothing. The smaller of the two cradles a stuffed doll that you also recognize."
         
@@ -201,28 +223,34 @@ let locationsData = [
     main: `   The Vistani Tser Pool Encampment is located just west of the Village of Barovia on a small dirt road that splits off from the Old Svalich Road. The encampment rests along the edge of the Ivlis River, which has been fruitful to the Vistani travelers who find themselves passing through this area. The Vistani are known to celebrate life in contrast to the Barovians whose lives can be mostly summarized by constant suffering. Parties run all night with singing, dancing, and lots of drinking. The Tser Pool Encampment is also where Madame Eva, an elder in the Vistani community, tells fortunes for travelers who first arrive in Barovia.`,
     gallery: [
       {
+        number: 1,
         cap: "Tser Pool Encampment",
         img: "https://i.imgur.com/4ESFX6g.png"
       },
       {
+        number: 2,
         cap: "Map of Tser Pool Encampment",
         img: "https://i.imgur.com/90YbfjU.png"
       },
       {
+        number: 3,
         cap: "Dancing Vistani",
         img: "https://i.imgur.com/THM9GkI.png"
       },
       {
+        number: 4,
         cap: "Madame Eva",
         img: "https://i.imgur.com/4TAGQ2R.jpg"
       },
       {
+        number: 5,
         cap: "Madame Eva's Table",
         img: "https://i.imgur.com/Ene9b1B.jpg"
       }
     ],
     sections: [
       {
+        number: 1,
         name: "Madame Eva",
         content: "Madame Eva is an elder in the Vistani community and her age is unknown to all. She can willingly pass through the mists of Barovia and as such possesses an enourmous wealth of knowledge and wisdom. She is famous for her tarroka readings, which she usually conducts without a fee for travelers who are unfortunate enough to arrive in Barovia. From time to time she tells the tales of the adventurers who tried to best Strahd in the past. Her warnings about the dangers of Barovia are not to be taken lightly. When the Sunseekers met Madame Eva, she gave them five prophecies that could be used to defeat Strahd."
       }
@@ -243,6 +271,7 @@ let locationsData = [
     main: "The Black Carriage is a strange phenomenon. It usually lurks down the road leading up to Castle Ravenloft.  Rumor has it that the unmanned carriage will safely take you to the castle to entertain the vampire lord Strahd Von Zarovich, though the locals are too scared to approach it.",
     gallery: [
       {
+        number: 1,
         cap: "Black Carriage",
         img: "https://i.imgur.com/BgyFPCi.png"
       }
@@ -262,56 +291,69 @@ let locationsData = [
     main: `Castle Ravenloft is the largest structure in Barovia by an enourmous margin.  It is home to Strahd Von Zarovich and his most loyal companions.  There are tall towers and deep dungeons containing unfathomable mysteries and horrors. The Castle was built upon a large rock overlooking the Village of Barovia. For centuries there have been constant waves of attacks from revenants looking for revenge against the vampire lord while Strahd and his consorts dine in luxory inside the walls. Strahd's flying horse Bucephalus is stabled in one of the tall towers and can be seen like a torch darting through the dark skies.  `,
     gallery: [
       {
+        number: 1,
         cap: "Strahd's organ",
         img: "https://i.imgur.com/4iLw0nC.png"
       },
       {
+        number: 2,
         cap: "Ravenloft chapel",
         img: "https://i.imgur.com/evHCMah.png"
       },
       {
+        number: 3,
         cap: "Ba'al Verzi dagger",
         img: "https://i.imgur.com/nngoYtw.png"
       },
       {
+        number: 4,
         cap: "Strahd's study",
         img: "https://i.imgur.com/RztDbSi.png"
       },
       {
+        number: 5,
         cap: "Strahd portrait",
         img: "https://i.imgur.com/udpvjxn.png"
       },
       {
+        number: 6,
         cap: "Von Zarovich family crest",
         img: "https://i.imgur.com/6SASbnM.png"
       },
       {
+        number: 7,
         cap: "Heart of Sorrow",
         img: "https://i.imgur.com/qIbqsK8.png"
       },
       {
+        number: 8,
         cap: "Volenta", 
         img: "https://i.imgur.com/2tsTehi.png"
       },
       {
+        number: 9,
         cap: "Bucephalus",
         img: "https://i.imgur.com/ncyiGNK.png"
       },
       {
+        number: 10,
         cap: "Tome of Strahd",
         img: "https://i.imgur.com/zciYECT.png"
       },
       {
+        number: 11,
         cap: "Brazier Room",
         img: "https://i.imgur.com/Bev2dep.png"
       }
     ],
     sections: [
       {
+        number: 1,
         name: "Rats in Ravenloft",
         content: "The first time the Sunseekers arrived in Castle Ravenloft it wasn't by choice. After being defeated in battle by the witch Morgantha and burning down her home, she used magic to transform the party into rats forced to deliver a letter to Strahd's butler, Cyrus Belview. Upon delivery the spell broke, but they never learned what the contents of that letter were. The layout of Castle Ravenloft is large and confusing leading to confusion as the Sunseekers struggled to make their way out.  They found an old man who had been locked away in the dungeons for years and continued looking for a way out. So close to the front doors, they wandered into a room where Strahd was playing the organ. She taunted them a bit before allowing them to leave, but not before killing the prisoner they had saved from the dungeons below."
       },
       {
+        number: 2,
         name: "Umnos in Ravenloft",
         content: "Umnos hadn't been in Barovia long before he found himself in Castle Ravenloft. After escaping the Vallaki prison, he partied up with Elizana, Freebird, and Ireena and followed them to the Castle to seek out a tarroka prophecy. In their time in the castle, Umnos began to understand the depths of Strahd's obsession with Ireena. They discovered notes and books that uncovered a lot of Strahd Von Zarovich's history in Barovia. They learned that he was in love with his brother's lover Tatyana and due to the reincarnation cycle of Barovia, has has been chasing Tatyana's soul across generations of women leading ultimately to Ireena today. This knowledge came at the cost of a great battle with one of Strahd's brides, Volenta. In the days Umnos and Elizana spent lost in the castle, they lost Ireena and the dog Lancelot, Freebird was killed, the Tome of Strahd was stolen, and their wagon was left behind when they were eventually captured by another bride Ludmilla and teleported across the country."
       }
@@ -332,36 +374,44 @@ let locationsData = [
     main: "The Old Mill was once owned and operated by the Durst family from the Village of Barovia.  In the centuries since Strahd's victory over the dusk elves, the mill fell to ruin, eventually picking up the moniker Old Bonegrinder after a coven of witches used the mill to produce dream pastries made from the bone flour harvested from Barovian children.  Morgantha, the head of the coven, usually takes her cart of pastries around the valley to those who cannot resist the effects of the pastries. In desperate times, pastry addicts have willingly traded children for a quick dose.",
     gallery: [
       {
+        number: 1,
         cap: "Old Mill",
         img: "https://i.imgur.com/OVBsusR.png"
       },
       {
+        number: 2,
         cap: "Bella's Bakery",
         img: "https://i.imgur.com/Z3CS9zj.png"
       },
       {
+        number: 3,
         cap: "Dream Pastries",
         img: "https://i.imgur.com/eLxD2MB.png"
       },
       {
+        number: 4,
         cap: "Morgantha's Pastry Cart",
         img: "https://i.imgur.com/p7NId0c.png"
       },
       {
+        number: 5,
         cap: "Mill Witches",
         img: "https://i.imgur.com/RXoVXmW.png"
       }
     ],
     sections: [
       {
+        number: 1,
         name: "Megaliths",
         content: "The four ancient stones near the windmill were erected centuries ago by the valley's original inhabitants. Each moss-covered stone bears a crude carving of a city, each of which is associated with a different season.  The city of winter is shown with snow, the city of spring is arrayed with flowers, the city of summer has a sunburst overhead, and the city of autumn is covered with leaves. Several ravens circle overhead, and one peaks at something on top of the stone that depicts the city of autumn. The mysterious stones are said to boost magical ability."
       },
       {
+        number: 2,
         name: "Dream pastries",
         content: "Morgantha's coven has been making dream pastries for years. In order to make dream pastries, they kidnap children and make devious trades with locals in order to receive children in payment. They take the children and keep them in cages until they can be ground into bone powder. The powder has been said to produce euphoria and vivid dreams. Elizana and Safzira ate dream pastries without realizing what they were made of."
       },
       {
+        number: 3,
         name: "Old Mill Burned Down",
         content: "After the Sunseekers were tricked into bringing children from St. Andral's orphanage to the Old Mill, they came to the Mill demanding blood. They rescued all but one of the children, but they took their sweet time holding down Ophelia, a Mill witch, and grinding her face into the large Mill until there was nothing left of it. Morgantha arrived to the fight late and turned the Sunseekers into rats, but not before they had burned down the Old Mill entirely."
       }
@@ -388,84 +438,104 @@ let locationsData = [
     main: "Located close to the shores of Lake Zarovich, the town of Vallaki seems like a safe haven against the evils of the Svalich Woods, if not Strahd himself. The town lies beyond the sight of Castle Ravenloft and doesn't, at first blush, seem as depressed (or oppressed) as the village of Barovia farther east.  After some time, the Sunseekers see that Vallaki is mostly filled with false hope.",
     gallery: [
       {
+        number: 1,
         cap: "Sunseekers enter Vallaki",
         img: "https://i.imgur.com/fgPPAfM.png"
       },
       {
+        number: 2,
         cap: "Vallaki from a distance",
         img: "https://i.imgur.com/AWH6Imb.png"
       },
       {
+        number: 3,
         cap: "Map of Vallaki",
         img: "https://i.imgur.com/LOLy8XV.png"
       },
       {
+        number: 4,
         cap: "Map of Church of St. Andral",
         img: "https://i.imgur.com/Oia2nrv.jpg"
       },
       {
+        number: 5,
         cap: "Rictavio's Wagon",
         img: "https://i.imgur.com/9hhPNLe.png"
       },
       {
+        number: 6,
         cap: "Downtown Vallaki",
         img: "https://i.imgur.com/coz37xw.png"
       },
       {
+        number: 7,
         cap: "Blue Water Inn interior",
         img: "https://i.imgur.com/t3qHoMg.png"
       },
       {
+        number: 8,
         cap: "Wachterhaus exterior",
         img: "https://i.imgur.com/mfeP7a9.png"
       },
       {
+        number: 9,
         cap: "Festival of the Blazing Sun flyer",
         img: "https://i.imgur.com/G2pd6iZ.jpg"
       }
     ],
     sections: [
       {
+        number: 1,
         name: "The Feast of St. Andral",
         content: "For years, the Baron nurtured his idea of 'All Will Be Well' in Vallaki. A couple of weeks after the Sunseekers arrived in town, Strahd's bride Anastrasya invaded the town with horde of undead warriors. St. Andral's Church was brutalized in the process. Many people died in the attack, including Anastrasya at Strahd's hand when she attempted to kill Ireena. "
       },
       {
+        number: 2,
         name: "St. Andral's Church",
         content: "This church is dedicated to the Morninglord and named after St. Andral, whose bones once rested under the altar. Father Lucien Petrovich used to oversee the church and did his best to raise spirits. These days, his grandson Franz has taken over for Lucien. The church runs an orphanage next door led by Claudia Belasco."
       },
       {
+        number: 3,
         name: "Blue Water Inn",
         content: "The Blue Water Inn is Vallaki's main gathering place for locals, especially at night. The innkeeper, Urwin Martikov, considers the inn a sanctuary from the evils of this land. His wife Danika runs the bar allowing her to keep an ear to the ground. The Sunseekers stayed here during their lengthy time in Vallaki."
       },
       {
+        number: 4,
         name: "The Swift Finish",
         content: "Madame Genie is a small lady elderly lady who runs the local brothel on the older, cheaper side of town. Genie's ladies have kept her business going strong.  Genie herself often hosts secret meetings for her patrons such as when Rictavio revealed himself to be Rudlph Van Ricten, famous monster hunter, to the Sunseekers."
       },
       {
+        number: 5,
         name: "Burgomaster's Mansion",
         content: "People come and go from the mansion at all hours during the day.  Guards bring criminals cited for 'malicious unhappiness.' Men and women arrive carrying bundles of supplies for weekly festivals and the Baronness hosts daily prayer circles with the poor. The Baron runs Vallaki from behind his desk with the help of his lieutenant Izek Strazni."
       },
       {
+        number: 6,
         name: "Wachterhaus",
         content: "Wachterhaus is the second largest building in Vallaki as the Wachters come from a long line of nobles from before the war. The house's governess, Fiona Wachter, has been conspiring against the Baron in recent years with the help of her loyal servant Ernst Larnak. Elizana arranged for the Sunseekers to help Fiona take on the Baron before they escaped Barovia after the Feast of St. Andral."
       },
       {
+        number: 7,
         name: "Arasek Stockyards",
         content: "The stockyard is a general store and facility where storage sheds can be rented. It is owned by a middle-aged couple, Gunther and Yelena Arasek. They sell goods for inflated prices. Rictavio and the Sunseekers keep their wagons in this area while they are in Vallaki."
       },
       {
+        number: 8,
         name: "Coffin Maker's Shop",
         content: "Henrik Van Der Root was a mediocre carpenter and a troubled, lonely man. Profiting from the deaths of others and because of the ghastly nature of his handiwork, no one desired his company while he was alive. Anastrasya kept her vampire spawns in his shop and manipulated Henrik into stealing the bones of St. Andral so that her forces could freely attack Vallaki and the church."
       },
       {
+        number: 9,
         name: "Blinsky's Toys",
         content: "Vallaki's macabre toy maker, Gadof Blinksy, calls himself a 'wizard of tiny wonders,' but he has been consumed by despair lately because no one seems to like him or want his toys. His fascination for eerie playthings causes most other locals to avoid him. The burgomaster enables Blinksy to stay in business by giving him a couple of gold pieces a month to make festival decorations."
       },
       {
+        number: 10,
         name: "Town Square",
         content: "Vallai's town square hosts the Baron's weekly festivals, the Vallaki market, and the Baron's display of pillories and stocks for those who upset him. This area is the most populated public space in all of Barovia."
       },
       {
+        number: 11,
         name: "Vistani Camp",
         content: "There is a large Vistani camp outside of Vallaki. Unfortunately for the Vistani, they are not allowed within the walls of the city, but trading is common enough between the two settlements."
       }
@@ -485,20 +555,24 @@ let locationsData = [
     main: "The Vallaki Vistani Camp was once a prison community for Dusk Elves after the war. The Vistani were responsible for keeping them in line in the early years after the war. Over generations the relationship between the Dusk Elves and Vistani evolved into that of friendly neighbors.",
     gallery: [
       {
+        number: 1,
         cap: "Vallaki Vistani Camp",
         img: "https://i.imgur.com/BhKS1uC.png"
       },
       {
+        number: 2,
         cap: "Map of Vallaki Vistani Camp",
         img: "https://i.imgur.com/HflDsfo.png"
       }
     ],
     sections: [
       {
+        number: 1,
         name: "Dusk Elves",
         content: "The few Dusk Elves that survived Strahd's invasion of the valley became prisoners-of-war and allowed only by Strahd's grace to continue living in their traditional homes over the watchful eye of the Vistani.  Kasimir, the leader of the Dusk Elves, worked with the Vistani over generations until the two groups became friendly with each other."
       },
       {
+        number: 2,
         name: "Rescue Arabelle",
         content: "When the Sunseekers first arrived at the Vallaki Vistani Camp, they were tasked by Luvash with finding his daughter Arabelle. With Kasimir's help, they rescued her from her kidnapper Bluto over Lake Zarovich. As a token of their appreciation, the Vistani offered the Sunseekers precious metals and hospitality to the party."
       }
@@ -517,6 +591,7 @@ let locationsData = [
     main: "Lake Zarovich is the largest body of water in Barovia, located between Mount Baratok and Vallaki.",
     gallery: [
       {
+        number: 1,
         cap: "Lake Zarovich",
         img: "https://i.imgur.com/g5gBgCy.png",
         content: ""
@@ -524,6 +599,7 @@ let locationsData = [
     ],
     sections: [
       {
+        number: 1,
         name: "Bluto",
         img: "",
         content: "Bluto is Vallaki's town drunk. After a long stretch of bad luck casting his line in the Lake, he kidnapped the Vistani child Arabelle as an offering to the gods of fishing."
@@ -543,12 +619,14 @@ let locationsData = [
     main: "Mount Baratok is the largest peak in Barovia. Due to its incredibly difficult terrain, there is very little life to be found in the area.",
     gallery: [
       {
+        number: 1,
         cap: "Mount Baratok",
         img: "https://i.imgur.com/YeJikRd.png"
       }
     ],
     sections: [
       {
+        number: 1,
         name: "Mad Mage in the Mountains",
         content: "About a year before the Sunseekers arrived in Barovia, a mysterious mage formed a small militia and fought Strahd in Ravenloft. It was believed by most that the mage was slain in battle, but there were rumors that he lost his mind in the mountains recovering from the fight. The Sunseekers found that the Mad Mage was actually the Baron's son Victor Vallakovich from the future who came back to beat Strahd in this point in time."
       }
@@ -568,24 +646,29 @@ let locationsData = [
     main: "Argonvostholt was built by the Silver Dragon Argonvost for his Order of the Silver Dragon. He lead his knights in their plight to defend the world from the evils of the Amber Temple. During the war, Strahd killed Argonvost and his knights. The knights now assault Castle Ravenloft over and over as revenant knights doomed for all eternity.",
     gallery: [
       {
+        number: 1,
         cap: "Argonvostholt",
         img: "https://i.imgur.com/a7MDVuA.png"
       },
       {
+        number: 2,
         cap: "Argonvost statue",
         img: "https://i.imgur.com/udW0ilM.png"
       },
       {
+        number: 3,
         cap: "Argonvost portrait",
         img: "https://i.imgur.com/gMBEsmH.png"
       },
       {
+        number: 4,
         cap: "Argonvost",
         img: "https://i.imgur.com/Phx9MiB.png"
       }
     ],
     sections: [
       {
+        number: 1,
         name: "Godfrey's Knights",
         content: "When Argonvost was killed by Strahd, one of his knights Vladimir Horngaard was so consumed by vengeance that he turned all of the knights of the order into revenants.  However another knight Godfrey held on to some of his humanity and those closest to him suffer with him in Argonvostholt."
       }
@@ -625,6 +708,7 @@ let locationsData = [
     main: `   Mount Ghakis defines the Southern border of the valley of Barovia. It is mirrored by Mount Baratok in the North. Barovia's coldest and harshest temperatures can be found around Mount Ghakis. Traversing this region is difficult and dangerous. It was once patrolled by the Order of the Silver Dragon along the road leading up to Tsolenka Pass. It is believed that when Strahd and his forces extinguished the Order, he was able to march right into the Amber Temple and whatever he found there changed him forever, turning him into a vampire and separating Barovia from the material plane.`,
     gallery: [
       {
+        number: 1,
         cap: "Mount Ghakis",
         img: "https://i.imgur.com/UOUFifH.png"
       }
@@ -644,10 +728,12 @@ let locationsData = [
     main: "Tsolenka Pass was constructed by Argonvost and his Order of the Silver Dragon as the final checkpoint on the road leading to the Amber Temple. Tsolenka is a small fortress meant for only a few soldiers to occupy at a time. Centuries after the Order dissipated, Ludmilla uses Tsolenka for her own needs.",
     gallery: [
       {
+        number: 1,
         cap: "Tsolenka Pass",
         img: "https://i.imgur.com/G32pbKr.png"
       },
       {
+        number: 2,
         cap: "Wolfie",
         img: "https://i.imgur.com/U80ipYz.png"
       }

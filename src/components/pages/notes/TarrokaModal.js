@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 function TarrokaModal({cardObj, setCardOpen}) {
   return (
-    <div className="fuckity" id="detailed-media-parent" onClick={()=>{setCardOpen(false)}} >
+    <div className="modal-box" id="detailed-media-parent" onClick={()=>{setCardOpen(false)}} >
 
       <div className="tarroka-new__table--popup tarroka-pop" > 
 

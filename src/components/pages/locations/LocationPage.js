@@ -5,12 +5,15 @@ import Header from '../../Header';
 import Navigation from '../../Navigation';
 import Footer from '../../Footer';
 
+import Gallery from './Gallery';
+
 import locationsData from './LocationsData'
 import renderWithLinks from '../notes/HyperlinkFunction';
 
 function LocationPage() {
   const {locationNumber} = useParams();
   const [locationObj, setLocationObj] = useState({});
+  const [galleryOpen, setGalleryOpen] = useState(false);
 
   let nextNumber = +locationNumber+1;
   let prevNumber = +locationNumber-1;
@@ -100,7 +103,7 @@ function LocationPage() {
       {/* <div className="page-section"> */}
         {locationObj?.sections?.map((sectionObj) => {
           return (
-            <div className="page-section">
+            <div key={sectionObj.number} className="page-section">
               <span className="page-section__title heading-tertiary">{sectionObj.name}</span>
               <p style={{whiteSpace:'break-spaces'}}>
                 {sectionObj.content}
@@ -125,16 +128,15 @@ function LocationPage() {
 
         {locationObj?.gallery?.map((galleryObj) => {
           return (
-            <>
-            <div className="gallery__img-box">
+            <div key={galleryObj.number} onClick={()=>setGalleryOpen(true)} className="gallery__img-box">
               <img className="gallery__img" src={galleryObj.img} alt={`image of ${galleryObj.cap}`}/>
               <p classname="gallery__img-cap">{galleryObj.cap}</p>
             </div>
-
-            {/* Pop Up */}
-            </>
           )
         })}
+
+        {/* Gallery Pop Up */}
+        {galleryOpen && <Gallery locationObj={locationObj} setGalleryOpen={setGalleryOpen}/>}
 
       </div>  
 
