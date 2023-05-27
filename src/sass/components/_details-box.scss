@@ -1,7 +1,7 @@
 .details-box {
   // border: 2px solid white;
-  width: 30rem;
-  padding: .5rem;
+  // width: 30rem;
+  padding:  .5rem;
   // background-color: red;
   // transition: all .5s;
 
@@ -19,6 +19,7 @@
     color: $color-white-soft;
 
 
+
   
 
     &:not(:first-child) {
@@ -28,6 +29,12 @@
         to right bottom,
         rgba($color-primary-light, .8),
         rgba($color-primary-dark, .8));
+    }
+
+    &:first-child {
+      border-radius: 1rem 1rem 0 0;
+      padding: 1rem;
+      background-color: #0d0d0d;
     }
 
     &:last-child {
@@ -53,12 +60,13 @@
 
   &__img {
     width: 28rem;
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 1rem;
     box-shadow: 5px 5px 5px $box-shadow-highlight;
 
     &-cap {
       padding: .5rem;
       display: block;
+      margin-bottom: .5rem;
     }
   }
 }
