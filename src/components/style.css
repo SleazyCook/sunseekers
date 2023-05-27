@@ -1155,7 +1155,7 @@ body {
   flex-wrap: wrap;
   border-radius: 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-image: linear-gradient(to right bottom, rgba(24, 6, 2, 0.8), rgba(0, 0, 0, 0.8)); }
   .gallery__header {
     color: white;

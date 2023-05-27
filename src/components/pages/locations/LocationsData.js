@@ -718,7 +718,7 @@ let locationsData = [
     number: 16,
     name: "Tsolenka Pass",
     img: "https://i.imgur.com/djjBndz.png",
-    imgCap: "...",
+    imgCap: "Gate of Tsolenka",
     leader: ["Ludmilla"],
     characters: ["Ludmilla", "Sir Erich"],
     // quests: ["..."],
