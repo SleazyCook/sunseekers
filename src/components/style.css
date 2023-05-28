@@ -630,7 +630,8 @@ body {
     background-blend-mode: hue; }
 
 .details-box {
-  padding: .5rem; }
+  padding: .5rem;
+  margin-bottom: 7rem; }
   .details-box--actual {
     display: inline-block;
     position: sticky;
