@@ -316,7 +316,7 @@ let logData = [
     number: 17,
     title: "Ez and the Tome",
     players: ["Elizana", "Safzira", "Umnos", "Zoro"],
-    npcs: ["Freebird", "Ezmerelda d'Avenir", "Kasimir", "Viktor", "Sir Erich"],
+    npcs: ["Freebird", "Ezmerelda d'Avenir", "Kasimir", "Victor", "Sir Erich"],
     quests: ["Last Hunting Trip"],
     locations: ["Castle Ravenloft"],
     gameDate: "10th Day of Alturiak",
@@ -326,7 +326,15 @@ let logData = [
     imgCap: "Tome of Strahd",
     localLinks: {},
     short: "Ez and the Sunseekers fight over the Tome of Strahd",
-    entry: ""
+    entry: `    On one side of Barovia, Safzira and Zoro have agreed to travel with Sir Erich of the Order of the Silver Dragon at Sir Godfrey's request. Their journey towards the Amber Temple is only briefly interrupted when they encounter a wild druid on all fours who seems to be controlling several twig blights. As Safzira's attempt to reason with the druid fall on deaf ears, they find themselves engaged in combat. 
+    
+    On the other side of Barovia, within Castle Ravenloft's Heart of Sorrow, Elizana, Freebird, Umnos, and the mysterious Ez are now in possession of the Tome of Strahd, a detailed history of Strahd's time in Barovia written by the vampie lord himself.  The problem is that they appear to be in some sort of stable riddled with scorchmarks and in the distance, through a pair of open double doors, they see a flaming horse riding straight towards them. They run back to room that was once occupied by the witches and they proceed to rest up and tend to their wounds from their fight with Volenta.
+    
+    When they wake, Ez tells the party about how she has spent most of her time in Barovia researching her enemy in a tower just west of Vallaki.  The tower is filled with resources - books, notes, and tools, to take on Strahd.  She offers them refuge at the tower, but warns them that the structure is very dangerous. She will leave instructions for entry under a distinctive cairn on the road leading to it.  In return she asks to make a copy of the Tome so she can continue her work on her own for the time being. Elizana refuses to waste time on a copy, so out of desperation Ez snatches the Tome and uses invisibility to disappear.
+    
+    Now that the party is missing not just the Tome but also Ireena and Lancelot, they decide to focus on searching the castle for their friends. Moving from one room to the next, they eventually encounter Escher, Strahd's only male consort at the moment. Unlike Anastrasya and Volenta, Escher seems uninterested in the Sunseekers entirely. He tells them that he was once an adventurer from a far away place just like them and he watched all of his friends die. He has seen countless adventuring parties come to this place only to meet horrible fates over the years. He advises them to make themselves useful to Strahd when he eventually grows bored of them.
+    
+    Continuing through the Castle, Elizana and Umnos find two highbacked chairs overlooking the chapel from the second floor balcony.  There are vague figures occupying each one. They draw their weapons to slowly move in to see the figures up close.`
   },
   {
     number: 18,
