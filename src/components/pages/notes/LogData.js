@@ -104,17 +104,18 @@ let logData = [
     imgUrl: "https://i.imgur.com/Z3CS9zj.png",
     imgCap: "Bella's Bakery at the Old Mill",
     localLinks: {
-      orientation: "/quests/all-will-be-well"
+      orientation: "/quests/all-will-be-well",
+      forest: "/locations/3",
+      "old mill": "/locations/8"
     },
     short: "",
-    entry: `    Strahd zombies cross the road 
-    Party finds the ~Black Carriage~ that leads to ~Castle Ravenloft~, they continue to walk by, ignoring it. 
-    ~Dire wolves~ attack the Sunset wagon 
-    Sunseekers find the ~Old Mill~, surrounded by small wooden effigies 
-    Young, beautiful Bella from the Old Mill invites the party in for ~Dream Pastries~, which turn out to be hallucinogenic and pleasant 
-    Upon leaving the ~Old Mill~, Bella requests that the Sunseekers try to rescue the children from the orphanage in town and bring them back to the ~Old Mill~.
-    More wolves attack on the way to Vallaki, as does Viktor Lazlo as a revenant.
-    The Sunseekers make it to the ~Vallaki gates~ where they are given orientation and meet the Baron.`
+    entry: `    Shortly after fighting off large dire wolves and an attack of zombies on the ~Old Svalich Road~, the forest around them begins to clear.  In fact, all plant animal life seem to disappear completely around them as the road around them is surrounded by dead plants and boulders with small wooden effigies scattered about.  In the distance, the Sunseekers see an ~old mill~ that appears to be the mill referenced repeatedly in ~Durst Manor~. 
+    
+    As they approach the old Mill, there are wagon tracks and footprints leading to and from the door. There is an eerie quiet. With hesitation, they knock on the door and are surprised to see the young and beautiful woman Bella who seems to have turned the first floor of the mill into a lovely bakery. Bella, happy to have guests invites the group in and offers them her special Dream Pastries.  She asks them to hang around for a while and set up camp outside the Mill, which they are happy to accept.  Around a campfire, Elizana, Freebird, Ireena, and Safzira enjoy Dream Pastries which bring warm visions of their pasts and desires. After a long night of hallucinating together, they peacefully fall asleep in camp.
+    
+    The next morning Bella opens up about how she was taken in by the current owner of the mill, Morgantha.  She talks about how she was once an orphan at the terrible ~St Andrals Orphanage~ in Vallaki.  She begs the Sunseekers to rescue any poor children from that evil place so that they can join Bella and her adoptive mother Morgantha at the mill and live a happier life. The party is happy to accept this quest as they continue on towards Vallaki.
+    
+    At the tall wooden gates of Vallaki, the party is greeted by guards who escort them to the Burgomaster's mansion late at night for orientation.  They are welcome in town as long as they abide by the Baron's rules. They are offered free room and board for the first night at the Blue Water Inn.`
   },
   {
     number: 5,
@@ -128,13 +129,17 @@ let logData = [
     numDate: "6/26/2022",
     imgUrl: "https://i.imgur.com/fgPPAfM.png",
     imgCap: "Sunseekers arrive at Vallaki",
-    localLinks: {},
+    localLinks: {
+      innkeepers: "/characters/keepers-of-the-feather"
+    },
     short: "",
-    entry: `    Breakfast at the ~Blue Water Inn~.
-    First visit to Town Square (Lukresh Tannery, Odds N Ends, Stefanovich Apothecary, Endless Delights) 
-    ~Blinksy's Toys~ is filled with terror and Ireena dolls.
-    ~Madame Genie~ offers relief for the party at the ~Swift Finish~ 
-    Return to the ~Blue Water Inn~ to meet Rictavio the Bard - Satisfying the Tarroka reading 'look for an entertaining man with a monkey'`
+    entry: `    Waking up at the Blue Water Inn is a pleasant surprise.  The innkeepers offer a full breakfast for their guests and the people in Vallaki seem happy and unintered, or unaware, of the horrors outside of town. The town square is busy with foot traffic and full of different shops and vendors. The Sunseekers find themselves on a bit of a shopping spree as they enjoy the rich life in Vallaki. Elizana, German, and Safzira, fresh off their shopping trip, begin to think more seriously about Madame Eva's tarroka prophecy: 
+    
+    "Look for an entertaining man with a monkey. This man is more than he seems."
+    
+    Vallaki seems to be just the place to find such as person, so they head to the local toy shop and lucky enough immediately find the toymaker with a monkey on his shoulder.  However despite his slogan "Is no fun, is no Blinsky!", this toymaker is not that entertaining. His creations are quite macabre - a model of a guillotine, zombie dolls, eyeball marbles, and many variations of skulls and corpses.  Blinsky himself is pretty timid and nervous that the group has come to collect on a demanding order of dolls that bear a shocking resemblance to Ireena.  Blinsky relents that the monkey was a gift from a traveling bard who is staying at the Blue Water Inn.
+    
+    Before investigating the Inn, the Sunseekers take a bit of time for themselves on the shady side of town at the brothel the Swift Finish, where they have their desires and fantasies fulfilled before spending some time with the proprietor Madame Genie.  Genie is happy to take in travelers from faraway lands as she is old enough to remember when Vallaki was more involved in matters in Barovia. She knows that they will eventually have to fight Strahd or some other dark horror and she is happy to provide a happy and safe place for them while they are in town. Back at the Inn, they encounter Rictavio the half-elf bard, who is interested in talking with them. They arrange to meet at the Swift Finish the following day.`
   },
   {
     number: 6,
