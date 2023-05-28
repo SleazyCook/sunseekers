@@ -43,7 +43,7 @@ function LocationPage() {
             </div>
 
           <p className="log-entry__text hyperlink" style={{whiteSpace:'break-spaces'}}>
-            {locationObj.main}
+            {locationObj.main && renderWithLinks(locationObj.main, locationObj.localLinks)}
           </p>
 
         </div>
@@ -103,8 +103,8 @@ function LocationPage() {
           return (
             <div key={sectionObj.number} className="page-section">
               <span className="page-section__title heading-tertiary">{sectionObj.name}</span>
-              <p style={{whiteSpace:'break-spaces'}}>
-                {sectionObj.content}
+              <p className="hyperlink" style={{whiteSpace:'break-spaces'}}>
+                {sectionObj.content && renderWithLinks(sectionObj.content, sectionObj.localLinks)}
               </p>
             </div>
           )

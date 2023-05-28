@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 
 import Header from '../../Header';
@@ -6,6 +7,11 @@ import Navigation from '../../Navigation';
 import locationsData from './LocationsData';
 
 function WorldMap() {
+
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0});
+  }, [])
+
   return (
     <div>
 
