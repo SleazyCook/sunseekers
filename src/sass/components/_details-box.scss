@@ -1,6 +1,14 @@
 .details-box {
   padding:  .5rem;
 
+
+  &--actual {
+    display: inline-block;
+    position: sticky;
+    top: 3%;
+  }
+
+
   &__section {
     border-bottom: 1px solid $color-white-soft;
     border-bottom: 1px solid $color-primary-dark;

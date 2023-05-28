@@ -631,6 +631,10 @@ body {
 
 .details-box {
   padding: .5rem; }
+  .details-box--actual {
+    display: inline-block;
+    position: sticky;
+    top: 3%; }
   .details-box__section {
     border-bottom: 1px solid #e6e6e6;
     border-bottom: 1px solid #180602;

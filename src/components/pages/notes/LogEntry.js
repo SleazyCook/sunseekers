@@ -52,6 +52,9 @@ function LogEntry() {
 
         {/* DETAILS BOX */}
         <div className="details-box">
+          <div className="details-box--actual">
+            {/* details-box--actual is just the sticky component */}
+          
             {/* Image */}
             <div className="details-box__section">
               <div>
@@ -60,6 +63,14 @@ function LogEntry() {
               </div>
             </div>
             {/* Date */}
+            <div className="details-box__section">
+              <div className="details-box__section--left">
+                <b>Session Number:</b>
+              </div>
+              <div className="details-box__section--right">
+                {entryObj.number}
+              </div>
+            </div>
             <div className="details-box__section">
               <div className="details-box__section--left">
                 <b>In Game Date:</b>
@@ -109,9 +120,12 @@ function LogEntry() {
                 {entryObj.locations && renderWithLinks(entryObj.locations, entryObj.localLinks)}
               </div>
             </div>
+            
+            </div> {/* end box--actual */}
+            {/* <span>.</span> */}
 
 
-          </div>
+          </div> {/* end box */}
         
         </div>
 
