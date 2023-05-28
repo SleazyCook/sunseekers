@@ -17,7 +17,7 @@ let locationsData = [
     A deadly fog surrounds Barovia and engulfs any creature that tries to leave. 
     
     Even flying creatures are subject to the fog's effects.`,
-    main: `   The Mists are a supernatural phenomenon unique to Barovia. The mists create a border through which is seems outlanders are able to enter, but not leave the region. they have a choking, enervating and disorienting effect on those who try to pass through them. The Sunseekers, upon arrival in Barovia, were harried by the motile Mists toward the Village of Barovia and Durst House. 
+    main: `   The Mists are a supernatural phenomenon unique to Barovia. The mists create a border through which is seems outlanders are able to enter, but not leave the region. they have a choking, enervating and disorienting effect on those who try to pass through them. The Sunseekers, upon arrival in Barovia, were harried by the motile Mists toward the ~Village of Barovia~ and ~Durst Manor~. 
 
     The Vistani claim to be able to travel through the Mists at will, but other than selling some fake potions which they claim will allow safe passage, they offer no details on how they do so or what is on the other side.
 
@@ -118,7 +118,7 @@ let locationsData = [
       "Cobb Family": "/characters/village-of-barovia",
     },
     quote: "Tall shapes loom out of the dense fog that surrounds everything. The muddy ground underfoot gives way to slick, wet cobblestones. The tall shapes become recognizable as village dwellings. The windows of each house stare out from pools of Blackness. No sound cuts the silence except for mournful sobbing that echoes through the streets from a distance.",
-    main: `  The Village of Barovia unfortunately sits at the base of the rock that Castle Ravenloft was built upon. Living in the gloomy shadow of Castle Ravenloft has been brutal to the village over the centuries since its construction. The village was home to Kolyan Indirovich who raised Ismark and Ireena, the optimistic next generation of Eastern Barovia. In their visit, the Sunseekers encountered zombies, plague, wolf attacks, and a vampire. It remains a cold and dark place for those unfortunate enough to find themselves in the shadow of Castle Ravenloft.`,
+    main: `  The ~Village of Barovia~ unfortunately sits at the base of the rock that ~Castle Ravenloft~ was built upon. Living in the gloomy shadow of Castle Ravenloft has been brutal to the village over the centuries since its construction. The village was home to ~Kolyan Indirovich~ who raised Ismark and Ireena, the optimistic next generation of Eastern Barovia. In their visit, the Sunseekers encountered zombies, plague, wolf attacks, and a vampire. It remains a cold and dark place for those unfortunate enough to find themselves in the shadow of ~Castle Ravenloft~.`,
     gallery: [
       {
         number: 1,

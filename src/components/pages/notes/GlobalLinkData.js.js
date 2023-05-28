@@ -236,9 +236,6 @@ let globalHyperLinks = {
 
     // NOTE THAT SOME LINK TERMS ARE COMMENTED OUT DUE TO TERM LENGTH. USE LOCAL SEARCH TERMS WHERE POSSIBLE IN THESE CASES. 
 
-    // Barovia
-      "Barovia": "/locations/1",
-
     // Mists of Barovia
       "mists": "/locations/1",
 
