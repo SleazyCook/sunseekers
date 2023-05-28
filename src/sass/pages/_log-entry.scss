@@ -78,8 +78,12 @@
 
     &--last {
       padding: 1rem 2rem 1rem 3rem;
-      text-decoration: none;
       clip-path: polygon(100% 0, 10% 0, 0 50%, 10% 100%, 100% 100%);
+    }
+
+    &--mid {
+      padding: 1rem 2rem;
+      clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
     }
 
     &--next {
