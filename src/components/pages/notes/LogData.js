@@ -310,7 +310,19 @@ let logData = [
     imgCap: "Heart of Sorrow Tower Interior",
     localLinks: {},
     short: "",
-    entry: ""
+    entry: `    Elizana, Freebird, and Umnos stand on the roof of Castle Ravenloft. Across a short bridge is an opening to the second tallest tower. There is an ominous red and yellow glow eminating from the doorway and they can feel a heavy heartbeat that doesn't belong to any of them. It is as if the tower itself is alive.  Elizana remembers the Tarroka reading in Madame Eva's tent:
+    
+    "Go to a place of dizzying heights, where the stone itself is alive!"
+
+    They cautiously approach the tower entrance and find that the tower is almost completely hollowed out except for a spiral staircase that hugs the walls tightly.  The tower interios is bathed in the flickering glow of a thousand candles. set into irregularly spaced alcoves along the spiral staircase that hugs the outer wall, each candle stands above a brass name plate - some faded with the centuries and others gleaming as if installed yesterday. The name plates appear to bear the names and descriptions of foreign adventurers who died in Barovia.
+    
+    As the Sunseekers set foot onto the stairs, the entire tower plunges into darkness as the candles in the wall each go out at once. Their adjust moments later; the only light left in the tower is the dull red glow of large, myserious heart magically suspended in the center of the room, and a faint flicker right next to you. As Umnos turns to read the name plate, he sees the description "Umnos Runbalo - Cleric". The candle burns, but its flame is feeble, and seems ready to flicker out at any moment.
+    
+    Almost a second too late, Umnos sees a dark shape lash out at him quickly. Just as quickly as it appeared, the shape disappears off the ledge the party is standing on.  The shape continues to dart through the darkness leaving traps in its wake and spider-climbing its way under the sone stairway. Eventually it gets close enough for the party to see the shape is actually a masked woman. She willingly admits that she is Volenta Popofsky, bride of Strahd and keeper of the Heart of Sorrow.
+    
+    They take turns dealing blows back and forth until Umnos is knocked off the stairway from the third floor. Freebird casts featherfall on Umnos and himself as they continue the fight at the base of the tower while Elizana continues up the staircase towards a locked room. Elizana picks the lock as Freebird is knocked unconscious and Umnos is not far behind him. Elizana proceeds to a desk with a loose drawer, pulling it open she finds a heavy leatherbound book with a dark raven crest on its cover. 
+    
+    Downstairs Umnos is beyond bloodied, but he is willingly to fight until his dying death. The door swings open and a Vistani woman with a prosthetic leg and dual-wielding scimitars immediately locks weapons against the vampire bride, shouting "Cleric, we're on the same side!" Umnos uses the chance to pull Freebird back up and the three of them throw everything they have at Volenta.  The vampire finally goes down as the three adventurers look at each other with relief and then above to the room Elizana slipped into.`
   },
   {
     number: 17,
