@@ -113,9 +113,11 @@ function LocationPage() {
 
       {/* Page Buttons */}
       <div className="log-entry__page-buttons">
-        {locationNumber === "1" ? <p className="log-entry__page-buttons--placeholder"></p> : <Link className="log-entry__page-buttons--last location__button" to={`/locations/${prevNumber}`}>Previous Location: {locationsData[prevNumber-1].name}</Link>}
+        {locationNumber === "1" ? <span className="log-entry__page-buttons--placeholder"></span> : <Link className="log-entry__page-buttons--last location__button" to={`/locations/${prevNumber}`}>Previous Location: {locationsData[prevNumber-1].name}</Link>}
 
-        {locationNumber >= locationsData.length ? <></> : <Link className="log-entry__page-buttons--next location__button" to={`/locations/${nextNumber}`}>Next Location: {locationsData[nextNumber-1].name}</Link>}
+        <Link className="log-entry__page-buttons--mid" to="/locations">World Map</Link>
+
+        {locationNumber >= locationsData.length ? <span className="log-entry__page-buttons--placeholder"></span> : <Link className="log-entry__page-buttons--next location__button" to={`/locations/${nextNumber}`}>Next Location: {locationsData[nextNumber-1].name}</Link>}
       </div>
 
       {/* Gallery */}

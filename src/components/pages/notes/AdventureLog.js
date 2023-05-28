@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 import Header from '../../Header'
@@ -11,6 +11,11 @@ import { FaChevronCircleLeft } from 'react-icons/fa'
 import logData from './LogData'
 
 function AdventureLog() {
+
+  useEffect(() => {
+    window.scroll({top: 0, left: 0});
+  }, [])
+
   const slider = useRef(null);
 
   const slideLeft = (event) => {
