@@ -90,5 +90,10 @@
       padding: 1rem 3rem 1rem 2rem;
       clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 0 0);
     }
+
+    &--placeholder {
+      display: inline-block;
+      width: 15rem;
+    }
   }
 }

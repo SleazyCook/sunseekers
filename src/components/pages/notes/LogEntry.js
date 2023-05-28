@@ -40,11 +40,11 @@ function LogEntry() {
 
           <div className="log-entry__page-buttons">
 
-            {entryNumber === "1" ? <p className="log-entry__page-buttons--placeholder"></p> : <Link className="log-entry__page-buttons--last" to={`/notes/adventure-log/${prevNumber}`}>Previous Session: {logData[prevNumber-1].title}</Link>}
+            {entryNumber === "1" ? <span className="log-entry__page-buttons--placeholder"></span> : <Link className="log-entry__page-buttons--last" to={`/notes/adventure-log/${prevNumber}`}>Previous Session: {logData[prevNumber-1].title}</Link>}
 
-            <Link className="log-entry__page-buttons--mid" to="/notes/adventure-log">All Entries</Link>
+            <Link className="log-entry__page-buttons--mid" to="/notes/adventure-log">All Sessions</Link>
 
-            {entryNumber >= logData.length ? <></> : <Link className="log-entry__page-buttons--next" to={`/notes/adventure-log/${nextNumber}`}>Next Session: {logData[nextNumber-1].title}</Link>}
+            {entryNumber >= logData.length ? <span className="log-entry__page-buttons--placeholder"></span> : <Link className="log-entry__page-buttons--next" to={`/notes/adventure-log/${nextNumber}`}>Next Session: {logData[nextNumber-1].title}</Link>}
 
           </div>
         
