@@ -529,6 +529,12 @@ let locationsData = [
       },
       {
         number: 2,
+        name: "Weekly Festivals",
+        localLinks: {},
+        content: `For the last few years, the Baron has mandated attendance from the entire town at weekly uplifting festivals.  He believes that these festivals are instrumental in his on-going campaigns such as "Don't Say Strahd" and "Pray the Fear Away." Everyone in Vallaki, including visitors is required by law to assist with the festivals in some way and have a good attitude about it.  The Sunseekers were present at the Festival of the Blazing Sun, where a massive wooden ball was intended to be set ablaze like the sun until it started raining. The guard ~Lars Kjurls~ let out a laugh and was dragged in the street by the Baron on his horse and later imprisoned.`
+      },
+      {
+        number: 2,
         name: "St. Andral's Church",
         localLinks: {},
         content: "This church is dedicated to the Morninglord and named after St. Andral, whose bones once rested under the altar. Father Lucien Petrovich used to oversee the church and did his best to raise spirits. These days, his grandson Franz has taken over for Lucien. The church runs an orphanage next door led by Claudia Belasco."
