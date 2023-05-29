@@ -187,7 +187,11 @@ let logData = [
     imgCap: "Witch of the Old Mill",
     localLinks: {},
     short: "",
-    entry: "",
+    entry: `    The Witches of Old Bonegrinder have tricked the Sunseekers into kidnapping orphans from Vallaki and delivering them to the mill to be crushed up into bone powder for Dream Pastries.  They waste no time getting back to the mill with their full party to rescue the children and put an end to the production of Dream Pastries.  Elizana makes her way up the exterior of the Mill and finds the children in cages, although one child has already been killed and is currently being harvested for ingredients.  Elizana gets the children down to the wagon easily to head back to St. Andral's Orphanage in Vallaki. 
+    
+    Now the Sunseekers are ready for revenge. Safzira casts dissonant whispers on Bella who is thrust out of the Mill so they can take their time with her witch sister Ophelia. German and Elizana hold the witch firmly as they put her face into the mill's large grinder that has been used to harvest bone powder from children over the years. Ophelia's face slowly tears apart until there is nothing left above her shoulders. 
+    
+    As Ophelia's lifeless body drops to the floor, Morgantha, the leader of the Old Bonegrinder coven takes Bella out into the ~Svalich Woods~ to get away from the fight. Freebird sets the mill ablaze as he takes the children back to Vallaki on the Sunset wagon, while the rest of the Sunseekers follow the witches into the woods.  Safzira sends her owl familiar into the woods to follow the witches until they can catch up.  The Sunseekers may have been able to take out one witch at a time at the mill, but they are no match for Morgantha and Bella together.  As they are brought down in battle, Morgantha turns them into rats and magically compels them to take a letter to Cyrus Belview at Castle Ravenloft.  Unable to resist their magical orders, the rats scurry towards Strahd's castle.`,
   },
   {
     number: 8, 

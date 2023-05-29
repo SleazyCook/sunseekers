@@ -376,6 +376,16 @@ let locationsData = [
         number: 11,
         cap: "Brazier Room",
         img: "https://i.imgur.com/Bev2dep.png"
+      },
+      {
+        number: 12,
+        cap: "Ravenloft exterior map",
+        img: "https://i.imgur.com/JyAeRyo.png"
+      },
+      {
+        number: 13,
+        cap: "Cyrus Belview",
+        img: "https://i.imgur.com/3wcInwz.png"
       }
     ],
     sections: [
@@ -518,6 +528,11 @@ let locationsData = [
         number: 9,
         cap: "Festival of the Blazing Sun flyer",
         img: "https://i.imgur.com/G2pd6iZ.jpg"
+      },
+      {
+        number: 10,
+        cap: "Blinsky's Toys",
+        img: "https://i.imgur.com/mE6WbL7.png"
       }
     ],
     sections: [
