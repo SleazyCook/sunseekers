@@ -400,6 +400,48 @@ let locationsData = [
         name: "Umnos in Ravenloft",
         localLinks: {},
         content: "Umnos hadn't been in Barovia long before he found himself in Castle Ravenloft. After escaping the Vallaki prison, he partied up with Elizana, Freebird, and Ireena and followed them to the Castle to seek out a tarroka prophecy. In their time in the castle, Umnos began to understand the depths of Strahd's obsession with Ireena. They discovered notes and books that uncovered a lot of Strahd Von Zarovich's history in Barovia. They learned that he was in love with his brother's lover Tatyana and due to the reincarnation cycle of Barovia, has has been chasing Tatyana's soul across generations of women leading ultimately to Ireena today. This knowledge came at the cost of a great battle with one of Strahd's brides, Volenta. In the days Umnos and Elizana spent lost in the castle, they lost Ireena and the dog Lancelot, Freebird was killed, the Tome of Strahd was stolen, and their wagon was left behind when they were eventually captured by another bride Ludmilla and teleported across the country."
+      },
+      {
+        number: 3, 
+        name: "Dining Hall",
+        localLinks: {},
+        content: "The dining hall is a large and magnificient. It is located on the first floor near the grand entry.  Three enormous crystal chandeliers brilliantly illuminate this magnificient chamber. Pillars of stone stand against the dull white marble walls, supporting the ceiling. In the center of the room, a long, heavy table is covered with a fine white sating cloth.  The table is often laden with many delectable foods. At the center of the far west wall, between floor-to-ceiling mirrors, stands a massive organ."
+      },
+      {
+        number: 4,
+        name: "Hall of Faith",
+        localLinks: {},
+        content: "The Hall of Faith is a wide hall leading to the chapel on the first floor of the castle. This grand hall is choked with dust and stretches into darkness ahead. Webs hang from the arched ceiling like drapes, and life-sized statues of knights line the hallway on both sides, their eyes seeeming to watch you. It is rumored that spirits of these knights will occasionally bless and inspire those who walk this hall."
+      },
+      {
+        number: 5,
+        name: "Chapel",
+        localLinks: {},
+        content: "Dim, colored light filters through tall, broken, and boarded-up windows of stained glass, illuminating the ancient chapel.  A few bats flutter about near the top of the ninety-foot-high domed ceiling. A balcony runs the length of the west wall, fifty feet above the floor. Benches coated with centuries of dust lie about the floor in jumbled disarray. Beyond this debris, lit by a piercing shaft of light, an alter stands upon a stone platform."
+      },
+      {
+        number: 6,
+        name: "Heart of Sorrow",
+        localLinks: {},
+        content: "A mosiac floor adds a touch of color to the otherwise dark, cold, empty tower that rises above. A spiral staircase rises slowly into darkness, hugging the outer wall. High above, there is a large and mysterious heart glowing red gently illuminating the top half of the tower. In the center of the room, another set of stairs leads down. Volenta Popofsky, one of Strahd's brides, once patrolled this tower until she was slain by Umnos, Freebird, and Ez."
+      },
+      {
+        number: 7,
+        name: "Audience Hall",
+        localLinks: {},
+        content: "Dim light from the courtyard falls into the great hall through the broken glass and iron latticework of a large window in the west wall. Empty iron sconces dot the walls. At the far southern end of the hall, a large wooden throne stands atop a marble dais. The high-backed throne faces south, away from most of the room."
+      },
+      {
+        number: 8,
+        name: "Study",
+        localLinks: {},
+        content: "A blazing hearth fire fills this room with rolling waves of red and amber light. The walls are lined with ancient books and tomes, their leather covers well oiled and preserved through careful use. All is in order here. The stone floor is concealed by beneath a thick, luxurious rug. The rolling firelight illuminates the carefully rendered portrait. It is an exact likeness of Ireena Kolyana."
+      },
+      {
+        number: 9,
+        name: "Brazier Room",
+        localLinks: {},
+        content: "A stone brazier burns fiercely in the center of the room, but its tall white flame produces no heat. The rim of the brazier is carved with seven cup-shaped indentations spaced evenly around the circumference. Within each indentation is a spherical stone, twice the diameter of a human eyeball and made of a colored crystal. No two stones are the same color. Overhead, a wood-framed hourglass as hall and wide as a dwarf hangs ten feet above the brazier, suspended by iron chains. Two nine-foot-tall iron statues of knights on horseback, poised to charge with swords drawn, stand in deep alcoves facing each other. The brazier sits between them."
       }
     ]
   },

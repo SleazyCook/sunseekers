@@ -207,7 +207,13 @@ let logData = [
     imgCap: "Strahd at the Ravenloft organ",
     localLinks: {},
     short: "",
-    entry: ""
+    entry: `    ~Cyrus Belview~ leans over to take the letter delviered by the rats in front of him on some dark level of ~Castle Ravenloft~.  As he finishes reading the letter, he places it in his pocket and walks away. The rats transform back into Elizana, German, and Safzira.  This sort of thing seems to be common enough in these halls because Cryus definitely noticed the change, but offered no reaction.
+    
+    Unaware of the way out, the Sunseekers begin to open doors around them at random.  They discover a hall of bones, an empty wine storage room, and a kitchen. Elizana gets a little too close to a large cooking pot in the kitchen which turns out to be mimic. She runs out of the room and closes the door behind her.  Uninterested in dealing with this monster, the party continues on away from the kitchen until they reach a dark flooded dungeon where they find an old man chained to a wall. They rescue him, but get very little out of him. It seems he doesn't even remember his own name. 
+    
+    Eventually they find an upwards spiral staircase until they hear loud organ music coming from a nearby room. They encounter Strahd playing the organ in a dining hall who asks them to stay a while. Elizana demands to know where the exit is and he doesn't hesitate to give them directions, but he does behead the old prisoner before they have a chance to leave. 
+    
+    On the way out, German finds a set of red plate armor and places it in his bag of holding. Before leaving completely, they decide to look around for some more loot. Walking through the Hall of Faith, they feel the spirits in this room bless them with inspiration. Through the hall, they reach the chapel and find an old rusty black mace. Upon picking up the mace, the Sunseekers are possessed by an evil spirit and take turns fighting each other until the mace is destroyed. Suspecting that further exploration might be too dangerous. They head back to Vallaki on foot.`
   },
   {
     number: 9,
