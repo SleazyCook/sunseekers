@@ -16,13 +16,18 @@ let resourcesData = [
   },
   {
     number: 4,
-    name: "Death House Game",
-    link: "https://death-house.netlify.app/"
+    name: "D&D Beyond",
+    link: "https://www.dndbeyond.com/campaigns/join/4158329231684340 "
   },
   {
     number: 5,
+    name: "Death House Game",
+    link: "https://death-house.drewford.dev/"
+  },
+  {
+    number: 6,
     name: "Drewford",
-    link: "https://developedbydrewford.netlify.app/"
+    link: "https://drewford.dev/"
   }
 ]
 

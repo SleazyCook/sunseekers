@@ -585,13 +585,24 @@
       to right bottom, 
       rgba($color-primary-light, 0.8),  
       rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/udyzWSd.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+  }
+
+  &--resources-5 {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-light, 0.8),  
+      rgba($color-primary-dark, 0.8)), 
       url("https://i.imgur.com/ZzFQKI3.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: hue;
   }
 
-  &--resources-5 {
+  &--resources-6 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  

@@ -23,11 +23,11 @@ function Footer() {
                 Roll20 Campaign</a></li>
 
               <li className="footer__item"><a href="
-              https://death-house.netlify.app" className="footer__link" target="_blank">
+              https://death-house.drewford.dev" className="footer__link" target="_blank">
                 Death House Game</a></li>
 
               <li className="footer__item"><a href="
-              https://developedbydrewford.netlify.app" className="footer__link" target="_blank">
+              https://drewford.dev" className="footer__link" target="_blank">
                 Developed by Drewford</a></li>
 
             </ul>

@@ -619,11 +619,16 @@ body {
     background-position: center;
     background-blend-mode: hue; }
   .cat-card--resources-4 {
+    background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/udyzWSd.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply; }
+  .cat-card--resources-5 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/ZzFQKI3.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: hue; }
-  .cat-card--resources-5 {
+  .cat-card--resources-6 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/BiISWmu.png");
     background-size: cover;
     background-position: center;

@@ -229,7 +229,9 @@ let logData = [
     imgCap: "Rictavio's Wagon",
     localLinks: {},
     short: "",
-    entry: ""
+    entry: `    The walk back to Vallaki from Castle Ravenloft is long and dangerous, but the gates of the town are reached without major incident. The Sunseekers find themselves rewarded with various trinkets and items durin their travels. German with his red plate armor form the castle, Elizana with her books, and Safzira with a magical cloak that seems to change its appearance based on her mood. 
+
+    Safely back inside the town, they are reunited with Freebird, Ireena, and Vasili at the Blue Water Inn. The orphans from the Mill that managed to escape with Freebird made it back to the orphanage safely. Danika reports to Safzira that the young priest Franz has been by the Inn looking for her and the Sunseekers.`
   },
   {
     number: 10,

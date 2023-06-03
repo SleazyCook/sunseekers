@@ -31,7 +31,7 @@ function Resources() {
         {resourcesData.map((resourcesObj) => {
           return (
             <div className="flex__item">
-              <Link to={`${resourcesObj.link}`}>
+              <Link target="_blank" to={`${resourcesObj.link}`}>
                 <div className={`cat-card cat-card--resources-${resourcesObj.number}`}>
                   <div className="cat-card__text-box">
                     <h3 className="cat-card__title">{resourcesObj.name}</h3>
