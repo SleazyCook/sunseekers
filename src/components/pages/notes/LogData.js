@@ -317,7 +317,11 @@ let logData = [
     imgCap: "Umnos Runbalo",
     localLinks: {},
     short: "",
-    entry: ""
+    entry: `    The entire town of Vallaki is silent in the wake of what is now known as the Feast of St. Andral. The Sunseekers do what they can to clean up the mess, but as soon as the silvered weapons are ready from the blacksmith German grabs his gear and leaves town without saying a word. Safzira slips a note to Elizana and leaves by herself as well. The next morning the Baron has declared the Sunseekers enemies of Vallaki. Propaganda posters are posted all around the city before sunrise. The Blue Water Inn is surrounded by vallaki guards and Izek happily takes Elizana and Freebird into custody.  
+
+    Elizana meets Umnos Runbalo, a cleric, and Lars Kjurls, the guard who was tortured by the Baron at the Festival of the Blazing Sun. Umnos has completely healed Lars' many injuries and become quite friendly. They agree to try to escape the prison with Elizana and Freebird. Elizana mostly talks their way out of prison with their gear. Lars is grateful, but hurries homee to see his family. Elizana and Freebird take Umnos to the Swift Finish to brainstorm their next move. They decide to start looking for Ireena at the burgomaster's mansion. Elizana sneaks in and overhears some guards talking about how they will be increasing checkpoints to search for the Sunseekers, but in the meantime Izek has taken Ireena up north out of the city.
+
+    Elizana, Umnos, and Freebird head north, stopping at Wachterhaus to get information from Ernst about Izek ahead of time. He says that he left town with Ireena over an hour ago and catching up to them might be difficult. So they head over the Sunset wagon, which Rictavio had painted and disguised as an entirely new wagon called the Sunrise so they could move around Vallaki easier without being recognized. Umnos, currently unafiliated with the Sunseekers is easily able to drive the wagon out and town and pick up speed on the road north. Ireena screaming for her life tied to a tree. There are wolves approaching her. Freebird and Elizana are able to take out the wolves while Umnos unties Ireena and puts her in the wagon. Umno Runbalo is officially welcomed to the Sunseekers.`
   },
   {
     number: 14,
