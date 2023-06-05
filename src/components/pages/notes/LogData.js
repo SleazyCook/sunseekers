@@ -238,7 +238,7 @@ let logData = [
     title: "Vallaki Vistani Camp",
     players: ["Elizana", "German", "Safzira"],
     npcs: ["Freebird", "Ireena", "Kasimir", "Van Richten", "Vasili"],
-    quests: ["All Will Be Well", "Coup of Vallaki", "Rescue Arabelle", "Bones of St. Andral"],
+    quests: ["All Will Be Well", "Coup of Vallaki", "Rescue Arabelle", "Bones of St Andral"],
     locations: ["Vallaki", "Vallaki Vistani Camp"],
     gameDate: "28th and 29th Day of Hammer",
     realDate: "August 21st, 2022",
@@ -271,7 +271,11 @@ let logData = [
     imgCap: "Missing Bones of St. Andral",
     localLinks: {},
     short: "",
-    entry: ""
+    entry: `    Elizana and Safzira seek out a healer for the catatonic orphan Milivoj so that they can ask him about the missing bones of St Andral. The priests offer their best prayers without any immediate effect.  Luvash at the ~Villaki Vistani Camp~ suggests that his daughter Arabelle may be of use, but will need at least another day of rest first as she is still recovering from her assault on ~Lake Zarovich~.  Vasili can tell that they are frustrated and offers to take the Sunseekers out for ice cream to unwind before they relocate to the Swift Finish to speak privately about their affairs.  Ireena and Vasili have been talking to Lady Wachter and they are confident that they have convinced her to allow Vistani in the town of Vallaki for the first time in hundreds of years once the Baron's reign is over.  Safzira tells Ireena that the rumors about the Keepers of the Feather are true and they may be helpful when the time comes to take on Strahd and she shares that Kasimir the dusk elf might have some information about one of Madame Eva's tarroka prophecies.  She believes that the ~Amber Temple~ towards ~Mount Ghakis~ might be important to solving it. 
+
+    Later that night, strange lights are seen from the Burgomaster's attic.  Saf uses her familiar to fly up and tap on the window to investigate.  The person on the other side taps back in morse code until they seem friendly enough to each other and the Sunseekers are secretly invited up.  The person in the attic is young ~Victor Vallakovich~, the Baron's son.  Victor and his father cannot stand each other and he has decided to lock himself up in the attic away from his crazy family to practice his magic until he can use it to escape from Barovia. Victor is interested in mastering a Greater Restoration Spell and Teleportation Circle. He believes the restoration spell should be useful for waking the catatonic orphan Milivoj, but he isn't confident he can control the spell yet.  However, he has heard rumors of a powerful mage in the mountains north of the lake.
+    
+    The next day the Sunseekers need to find a way to get Milivoj out of Vallaki discreetly.  They team up with Rictavio to put on a show for the people of Vallaki and use Milivoj for their human cannonball trick. The young boy is shot into the sky above the town and softly brought down into the ~Vallaki Vistani Camp~ with Freebird's featherfall spell. Arabelle, still recovering her strength, attempts to use restoration on him with no success. The Sunseekers turn their attention towards the possible mage in the mountains up north as a last resort.`
   },
   {
     number: 12,
@@ -285,9 +289,19 @@ let logData = [
     numDate: "9/4/2022",
     imgUrl: "https://i.imgur.com/MPP8A9i.png",
     imgCap: "Vampire Horde",
-    localLinks: {},
+    localLinks: {
+      "Henrik Van Der Root": "/characters/vallaki-citizens"
+    },
     short: "",
-    entry: ""
+    entry: `    In search of a rumored mad mage in the mountains who might be able to help the orphan Milivoj, the Sunseekers make their way up the terribly difficult terrain of Mount Baratok. Everntually they see a cloaked figure in the distance casting lightning magic. Safzira sends her owl familiar to investigate the figure, an old man with a long white beard.  The old man greets the owl like an old friend, tapping his staff to communicate "I remember it like it was yesterday, but for you it was!" The old man bears a striking resemblance to Victor Vallakovich. He approaches the party without conflict and happily tells his story about how he escaped Barovia as a young man and worked hard to become a very powerful wizard. He eventually realized that he had to go back in time to fight Strahd himself, which he did a year ago but barely made it out of Castle Ravenloft alive.  He has been waiting for the Sunseekers to arrive ever since. He claims that he remembers how Elizana, Safzira, German, and Freebird famously fought Strahd but were all violently defeated, tortured, and eventually killed by the vampire lord. He hopes that things can be different this time around. He agrees to travel down to the ~Vallaki Vistani Camp~ to use his magic on the orphan Milivoj.
+
+    Down at the camp, Victor easily awakens Milivoj. He is consumed with guilt and immediately admits that he stole the bones for the coffin maker ~Henrik Van Der Root~. He was hoping to steal the bones back for the church after getting paid by the coffin maker, but went to sleep one night and stayed in a deep catatonic sleep until just now. He fears it could be too late - the bones were never supposed to be away from the church for that long and the town could be vulernable to attack. Exhausted from this episode, Milivoj falls back asleep. The mage Victor is exhausted from the trip as well. He tells the party that he will need a couple of days to rest at the camp and suggest they get some rest as well before confronting the coffin maker. 
+
+    No time is wasted as they head into town before daylight. With Milivoj in tow, the Sunseekers approach the shop and pound on the front door. Henrik lacks manners, but doesn't hesitate to explain himself. Vampires have infested his shop and threatened his life for the bones. He handed the bones over days ago and are no longer in the city. He begs the party for forgiveness, but warns them about the monsters inside his shop. As they poke through the shop they discover several vampires who put up a tough fight. German broke a window and grappled them one at a time into the dim rising daylight, but the Sunseekers are outnumbered. German and Freebird are knocked out in the fight leaving Safzira and Elizana to try to hide from the vicious vampires. However, the morning light is almost immediately replaced by an ominous darkness and the remaining vampires escape through the broken windows.  After picking up German and Freebird, they find Milivoj and the coffin maker have been ripped apart right outside the shop. There are screams of terror from the west.
+
+    Halfway to the church Vasili runs into the party begging them to take Ireena out of town as soon as possible. A horde of skeletons, vampires, and undead soldiers slaughter guards and commoners throughout the streets eventually surrounding the party.  The undead monsters stare at the Sunseekers with their weapons drawn, but hold their position.  From the west, the horde parts allowing a lone woman walk to pass through. She is horrifying and beautiful as she walks towards Ireena and the party.  "I'm tired of this bitch!" she shouts to Vasili. "You look ridiculous, Strahd."
+
+    Vasili transforms into ~Strahd Von Zarovich~ and grabs the woman by the neck. "You've ruined a good thing, Anastrasya. Was it worth it?" He rips her head from her shoulders and directs his attention to the undead horde. There is a flurry of violent thrashing, elemental magic sparks, burns and freezes all around the party. Undead bodies collapse until only Strahd is left standing. He wipes the blood and flesh from his face and fixes his hair. "Sorry for misunderstanding, my love. I know this wasn't what you were expecting, but Vasili and I really do have a lot in common." Ireena is consumed with fear. The Sunseekers grab her and take off down the street. Strahd transforms into a dark mist and disappears behind them. As they return to the Blue Water Inn, Danika is with her husband tending to wounded townsfolk and picking up dead bodies - including their youngest son Bray, who was only ten years old. Safzira starts to clean the blood off the floor and Freebird gives one of his feathers to Danika, before embracing her.`
   },
   {
     number: 13,
