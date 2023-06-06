@@ -366,7 +366,10 @@ let logData = [
     imgCap: "Sir Godfrey Gilwyn",
     localLinks: {},
     short: "",
-    entry: ""
+    entry: `    "Why do the living always disturb the dead?" asks the ancient revenant ~Sir Godfrey Gilwyn~. "No cause for alarm, unlike most revenants of Barovia we aren't lusting for your blood." ~Sir Godfrey~ explains a brief history of the ~Order of the Silver Dragon~ and how after the dragon Argonvost was slain by Strahd, ~Sir Vladimir~ was so consumed with rage and vengeance that he brought the entire order back as revenants. While some have lost all of their humanity in an hopeless and endless fight against ~Castle Ravenloft~, ~Sir Godfrey~ and his closest knights hold a loose grip on what humanity they have left and reside within Argonvostholt wasting away over centuries. However, he believes that it is possible to ease their suffering. He believes that if a knight can be restored enough of their humanity, their individual curse may be lifted and eventually, maybe all of the knights of the order may be able to truly rest in peace. ~Sir Godfrey~ asks that the Sunseekers take ~Sir Erich~ with them on their journey to the Amber Temple so that he may have a chance to resolve some unfinished business from his mortal life. He was once a great beast hunter.
+
+    Meanwhile at ~Castle Ravenloft~ the Sunseekers of Eastern Barovia awake tied up in a cauldron room filled with frantic witches. Lancelot isn't with them. They are able to slowly free their hands from their bounds.  They try to talk their way out, but quickly find themselves locked in combat, chasing the witches from room to room. When they realize who Ireena is, two of the witches retreat successfully. They make their way to the roof of Castle Ravenloft without incident. They take another long rest and awake to find that Ireena is missing. However, across a bridge to one of the towers, there is an ominous red and yellow glow eminating from the doorway and they can feel a heartbeat that doesn't belong to any of them.
+    `
   },
   {
     number: 16,
