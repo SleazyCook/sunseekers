@@ -335,9 +335,22 @@ let logData = [
     numDate: "9/26/2022",
     imgUrl: "https://i.imgur.com/RztDbSi.png",
     imgCap: "Strahd's Study",
-    localLinks: {},
+    localLinks: {
+      note: "/notes/strahd-notes"
+    },
     short: "",
-    entry: ""
+    entry: `    Elizana, Umnos, Ireena, and Freebird find themselves outside of Vallaki, unwelcome and unsafe in Vallaki, they set their sights on solving one of the Tarroka prophecies.  ~Van Richten~ seemed to believe that a prophecy about "a place of dizzying heights where the stone itself is alive" referred to one of the towers of Castle Ravenloft.  So they make their way to Strahd's castle, passing the revenant of ~Viktor Lazlo~ and other horrors along the way. They eventually ever the castle and make their way up a wide staircase leading to the second floor. They find themselves in a large open audience hall with a throne on the other side of the room.  As they approac the empty throne, they find an elegant dagger stuck in the arm of the chair pinning a note to it. The note reads: 
+
+    "My dearest brother!
+
+    We have heard the terrible news about the attempt at your life - my shock and concern could not be greater! I cannot wait to finally visit you in Castle Ravenloft. Please let me know if there is anything we can do for you in the meantime. I will keep you in my prayers, Strahd, as always!
+
+    Your devoted brother,
+    Sergei"
+
+    The Sunseekers continue to make their way through the castle until they find a man scribbling ceaselessly.  He is by the mountains of paperwork on his desk, but takes a second to acknoweldge Elizana. He tells her that there is a lost holy relic last seen on the western side of Barovia. The continues and finds an old dining room which briefly inspires a vision of the room from hundreds of years ago, in happier times. The bright vision fades as they see layers of dust and cobwebs over an untouched dining set. One room over, they find Strahd's study. The study is the only room in the castle so far that has been maintained. A fire roars on one side of the room and there isn't a spec of dust to be found. Lancelot starts to scratch at a door, but is ignored as Elizana snatches books off the shelf to stuff into her bag of holding. Umnos and Ireena spy the large portrait of a woman who looks exactly like Ireena. There is a lever beneath the portrait, which they can't help but pull. The fireplace cools to reveal a secret room behind it. As Lancelot continues to scratch violently at the door on the other side of the room, the party moves into the secret room beyond the fire place and find a large chest. When they open it they find 108 gold pieces to split between them, but mysteriously fall asleep.
+
+    An the other side of Barovia, Safzira is traveling south towards the Amber Temple with Kasimir and Victor. They meet a fighter Zoro who is plagued by amnesia who decides to travel with them. They find a dead body with a couple of gold pieces and a healing potion. Kasimir takes the time to give the corpse a proper grave. Down the road they find an old abandoned castle, "Argonvostholt" is carved in stone nearby. There is a large statue of a dragon facing the doors of the castle. As Victor takes a nap on the first floor, Safzira, Kasimir, and Zoro explore the castle which is filled with traps and angry spirits. Eventually they are chased into a room filled with revenants sitting at a long table.  One of the revenants stands saying "Why do the living always disturb the dead?"`
   },
   {
     number: 15,
