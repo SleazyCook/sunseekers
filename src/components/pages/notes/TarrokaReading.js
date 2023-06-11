@@ -20,7 +20,6 @@ function TarrokaReading() {
   return (
     <div>
 
-
       <div className="tarroka-new">
         
         <div className="tarroka-new__table">
