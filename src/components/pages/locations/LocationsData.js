@@ -916,7 +916,7 @@ let locationsData = [
     number: 20,
     name: "Amber Temple",
     img: "https://i.imgur.com/BGevuw0.png",
-    imgCap: "...",
+    imgCap: "Amber Temple entrance",
     characters: ["Vilnius"],
     quests: ["Tarroka Reading"],
     notes: ["None"],
@@ -936,11 +936,16 @@ let locationsData = [
       },
       {
         number: 3,
+        cap: "Amber Temple entrance",
+        img: "https://i.imgur.com/BGevuw0.png"
+      },
+      {
+        number: 4,
         cap: "Vilnius",
         img: "https://i.imgur.com/zQMHF9Q.png"
       },
       {
-        number: 4,
+        number: 5,
         cap: "Amber Golem",
         img: "https://i.imgur.com/koRNfiJ.png"
       }
