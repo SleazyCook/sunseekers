@@ -40,7 +40,7 @@ let tarrokaData = [
     cardFront: "https://i.imgur.com/KuAj40b.png",
     reading: "This is a card of power and strength. It tells of a weapon of vengeance; a sword of sunlight.",
     tip: "I see a faceless god. He awaits you at the end of a long and winding road, deep in the mountains.",
-    update: "Safzira is headed to the Amber Temple at the end of a long a winding road, deep in the mountains.",
+    update: "Safzira and Umnos are in the Ambert Temple, which features faceless statues at the end of a long and winding road, deep in Mount Ghakis",
     found: false,
     reward: "Sunsword",
     img: "",

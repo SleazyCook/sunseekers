@@ -511,6 +511,41 @@ let logData = [
     As the beast is struck by the flame, the party starts to make out the vaguely wolf-shaped monstrosity and it's unnatural mechanical limbs and alterations sprouting from fresh stich-wounds and open flesh.  There are rows of mismatched bloodshot eyes staring back at them. One wrong move and the amalgamation swings it's elongated spiny tongue at Kasimir striking him in the chest. Without hesitation, Safzira hits the beast with dissonant whispers and the ~Mad Mage~ finishes the monster off with a magic missile.
 
     As Safzira rushes to Kasimir's aid, a voice is heard shrieking 'Wolfie!' The party looks up to see a woman swallowing her anger. Disgusted by the revenant, the woman orders everyone else into a nearby tower to escape the cold.`
+  },
+  {
+    number: 21,
+    title: "The Amber Temple",
+    players: ["Safzira", "Umnos"],
+    npcs: ["Freebird", "Kasimir", "Viktor", "Sir Erich"],
+    quests: ["None"],
+    locations: ["Tsolenka Pass"],
+    gameDate: "10th evening of Alturiak",
+    realDate: "June 11th, 2023",
+    numDate: "6/11/23",
+    imgUrl: "https://i.imgur.com/FyaVFjS.png",
+    imgCap: "Amber Temple facade",
+    localLinks: {
+      "Brazier Room": "/locations/7",
+      "Mad Mage": "/characters/sunseekers"
+    },
+    short: "Safzira and Umnos meet at Tsolenka Pass and finally arrive at the Amber Temple",
+    entry: `    Umnos finds himself chained to the wall of a cold unfamiliar place.  He has been so distracted by Freebird, that he only now realizes that Elizana must have been teleported somewhere else entirely. He checks for the gem she stole from the ~Brazier Room~ before leaving Ravenloft. The large blue stone is still by his side and he contemplates when to use it to revive Freebird. Safzira, Kasimir, and the ~Mad Mage~ are escorted into the room with Umnos and chained along the walls in the same fashion.  There are large gargoyles patrolling each floor in this small tower as Ludmilla leaves the tower to look for an escaped prisoner. Safzira is devastated and confused to see her best friend's lifeless body in a stranger's lap. Umnos consoles her and introduces himself in elvish.  He explains how he came to know Elizana, Freebird, Ireena, and Lancelot in Vallaki and how he lost each of them one by one in ~Castle Ravenloft~. He tells her that he is hoping to revive their mutual friend as soon as he can get away from the gargoyles. Viktor, chained on the other side of the room offers a friendly wink to Saf and offers to distract the guards while the others pick their locks and escape. The Mage disappears and reappears in different corners of the room using prestidigitation to create loud and bright distractions throughout the tower while his friends jump out of the nearest window. 
+    
+    As they travel a safe distance from Tsolenka Pass towards the ~Amber Temple~, Umnos attempts to revive Freebird but the spell isn't working.  Kasimir believes the spell failed because Freebird's soul has been attached to a Barovian.  Van Richten told the Sunseekers something similar during their first week in Vallaki. He had said that Barovia had become a dread domain where souls cannot come and go as they please resulting in an infinite loop of reincarnation. Safzira, in tears, demands that they try to revive him once more in the ~Amber Temple~ ahead. Umnos and Kasimir support Safzira physically and emotionally as they place Freebird in a bag of holding and continue to the temple.
+    
+    As they approach the end of the road, the see a temple facade carved into the side of ~Mount Ghakis~. There are large amber statues of faceless cloaked figures. They go inside to see a skeleton in apprentice robes who carved a message, in every language, all over the walls: 
+    
+    "If you seek honor or power, turn back
+    for these walls hold naught but doom. 
+    In many vessels below, the darkness 
+    shelters a timeless evil. 
+    The danger is an infection of malevolent divinity. 
+    Our arrogance and folly forged 
+    this place into our prison. 
+    Leave now, before our damnation becomes yours"
+    
+    As they navigate the dark, labyrinthian temple Kasimir loses himself in a false reflection of himself in the amber walls. They all see themselves as old and weak, but Kasimir begins to lose his strength and hobble behind. In a lecture hall, they discover a commoner called Vilnius. His body is covered in lesions and sores and he is coughing violently. He came to the temple to try to heal himself, but he is terrified of the monsters that lurk in the halls of this place. He begs to travel with them so he can be protected. Not long after leaving the lecture hall with Vilnius, the Sunseekers come across a large amber golem with the head of a jackal.  He immediately knocks down Umnos as the remaining Sunseekers scatter and try to defend themselves from the shadows. Kasimir and Vilnius move farther into the temple leading the golem away from Umnos long enough for Safzira to give him a healing potion and run the other way with him. Umnos, in a fit of rage, casts a guiding bolt which explodes with radiant energy into the construct's back. As he turns around to finish off Umnos he is defeated by Safzira's booming blade. They regroup and bar themselves in the lecture hall, taking shifts so that they can all rest up before exploring the temple further.
+    `
   }
 ]
 
