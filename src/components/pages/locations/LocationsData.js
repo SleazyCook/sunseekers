@@ -917,13 +917,34 @@ let locationsData = [
     name: "Amber Temple",
     img: "https://i.imgur.com/BGevuw0.png",
     imgCap: "...",
-    characters: ["..."],
-    quests: ["..."],
-    notes: ["..."],
+    characters: ["Vilnius"],
+    quests: ["Tarroka Reading"],
+    notes: ["None"],
     localLinks: {},
-    // quote: "Black marble starcases at each end of the balcony descend thirty feet to the temple floor. The vaulted ceilings are covered in an amber glaze, lending the gloom a golden sheen.",
-    quote: "UNDISCOVERED",
-    main: ""
+    quote: "The road fades away under a covering of snow, but it takes you far enough to see the facade carved into the sheer mountainside ahead.",
+    main: "The Amber Temple is carved into ~Mount Ghakis~.  It was once protected by the ~Order of the Silver Dragon~ at ~Tsolenka Pass~. The origins of the temple are unknown, but it is rumored that Strahd enountered an ancient evil that cursed him with vampirism and separated Barovia from the material plane.",
+    gallery: [
+      {
+        number: 1,
+        cap: "Amber Temple exterior",
+        img: "https://i.imgur.com/FyaVFjS.png"
+      },
+      {
+        number: 2,
+        cap: "Amber Statues",
+        img: "https://i.imgur.com/Jr2Mdip.png"
+      },
+      {
+        number: 3,
+        cap: "Vilnius",
+        img: "https://i.imgur.com/zQMHF9Q.png"
+      },
+      {
+        number: 4,
+        cap: "Amber Golem",
+        img: "https://i.imgur.com/koRNfiJ.png"
+      }
+    ],
   },
   {
     number: 21,
