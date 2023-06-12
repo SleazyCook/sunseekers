@@ -945,6 +945,7 @@ let locationsData = [
         img: "https://i.imgur.com/koRNfiJ.png"
       }
     ],
+    // add Vilnius to cults page eventually.
   },
   {
     number: 21,

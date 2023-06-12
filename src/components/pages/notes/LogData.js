@@ -518,7 +518,7 @@ let logData = [
     players: ["Safzira", "Umnos"],
     npcs: ["Freebird", "Kasimir", "Viktor", "Sir Erich"],
     quests: ["None"],
-    locations: ["Tsolenka Pass"],
+    locations: ["Tsolenka Pass", "Amber Temple"],
     gameDate: "10th evening of Alturiak",
     realDate: "June 11th, 2023",
     numDate: "6/11/23",
