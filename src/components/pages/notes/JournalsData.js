@@ -7,7 +7,7 @@ let journalsData = [
   {
     number: 2,
     name: "Treasures",
-    link: "/treasures"
+    link: "/notes/treasures"
   },
   {
     number: 3,
@@ -27,7 +27,7 @@ let journalsData = [
   {
     number: 6,
     name: "Safzira's Diary",
-    link: "/safzira-diary"
+    link: "/notes/safzira-diary"
   },
   {
     number: 7,

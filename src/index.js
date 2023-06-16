@@ -69,7 +69,7 @@ export const router = createBrowserRouter([
         element: <Resources />
       },
       {
-        path: "treasures",
+        path: "notes/treasures",
         element: <Treasures />
       },
       {
