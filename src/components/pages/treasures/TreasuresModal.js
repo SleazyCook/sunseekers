@@ -33,9 +33,16 @@ function TreasuresModal({itemObj, setCardOpen, selected, setSelected}) {
             {/* Page Buttons */}
             <div className="popup__page-button--flexbox">
 
-              {selected != treasuresData.length-1 ? <span onClick={()=> setSelected(selected++)}className="popup__page-button popup__page-button--previous">{treasuresData[selected+1].name}</span> : <span className="popup__page-button--placeholder">Placeholder</span>}
+              {selected != treasuresData.length-1 ? <span onClick={(event)=> {
+                event.stopPropagation()
+                setSelected(selected+1)}}
+                className="popup__page-button popup__page-button--previous">{treasuresData[selected+1].name}</span> : <span className="popup__page-button--placeholder">Placeholder</span>}
 
-              {selected != 0 ? <span onClick={()=> setSelected(selected--)}className="popup__page-button popup__page-button--next">{treasuresData[selected-1].name}</span> : <span className="popup__page-button--placeholder">Placeholder</span>}
+              {selected != 0 ? <span onClick={(event)=> {
+                console.log('click')
+                event.stopPropagation()
+                setSelected(selected-1)}}
+                className="popup__page-button popup__page-button--next">{treasuresData[selected-1].name}</span> : <span className="popup__page-button--placeholder">Placeholder</span>}
             </div>
 
           </div>

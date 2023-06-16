@@ -6,11 +6,7 @@ import treasuresData from './TreasuresData'
 function Treasures() {
   const [cardOpen, setCardOpen] = useState(false);
   const [itemObj, setItemObj] = useState({});
-  // const [treasuresByNew, SetTreasuresByNew] = useState(treasuresData.reverse());
   const [selected, setSelected] = useState(0)
-  
-  console.log(selected, "!!!!!")
-  // console.log(treasuresByNew)
 
   let treasuresByNew = [...treasuresData].reverse();
 
