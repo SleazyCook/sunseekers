@@ -64,7 +64,7 @@ let treasuresData = [
   },
   {
     id: 8,
-    name: "Cloak",
+    name: "Magical Cloak",
     image: "https://i.imgur.com/xOJzRl9.png",
     found: "Old Svalich Road",
     possession: "Safzira",
@@ -81,7 +81,7 @@ let treasuresData = [
   },
   {
     id: 10,
-    name: "Locket",
+    name: "Demonic Locket",
     image: "https://i.imgur.com/noO3U9t.png", 
     found: "St. Andral's Orphanage",
     possession: "German",
