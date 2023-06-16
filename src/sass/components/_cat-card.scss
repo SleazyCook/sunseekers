@@ -211,13 +211,24 @@
       to right bottom, 
       rgba($color-grey-light-2, 0.8),  
       rgba($color-primary-dark, 0.8)), 
-      url("https://i.imgur.com/4TAGQ2R.jpg");
+      url("https://i.imgur.com/4PDRjL6.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
   }
 
   &--journal-3 {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-grey-light-2, 0.8),  
+      rgba($color-primary-dark, 0.8)), 
+      url("https://i.imgur.com/4TAGQ2R.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+  }
+
+  &--journal-4 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -228,7 +239,7 @@
     background-blend-mode:hue;
   }
 
-  &--journal-4 {
+  &--journal-5 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -239,7 +250,7 @@
     background-blend-mode: hue;
   }
 
-  &--journal-5 {
+  &--journal-6 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  
@@ -250,7 +261,7 @@
     background-blend-mode: lighten;
   }
 
-  &--journal-6 {
+  &--journal-7 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-grey-light-2, 0.8),   
@@ -261,7 +272,7 @@
     background-blend-mode: darken;
   }
 
-  &--journal-7 {
+  &--journal-8 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-grey-dark-1, 0.8),  
@@ -272,7 +283,7 @@
     background-blend-mode: lighten;
   }
 
-  &--journal-8 {
+  &--journal-9 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),  

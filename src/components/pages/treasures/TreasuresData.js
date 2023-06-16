@@ -91,6 +91,13 @@ let treasuresData = [
   },
   {
     id: 12,
+    name: "Silver Bars",
+    image: "https://i.imgur.com/4PDRjL6.png",
+    possession: "Sunseekers",
+    description: ""
+  },
+  {
+    id: 13,
     name: "Ba'al Verzi Dagger",
     shortName: "Dagger",
     image: "https://i.imgur.com/nngoYtw.png",
@@ -99,7 +106,7 @@ let treasuresData = [
     description: "",
   },
   {
-    id: 13,
+    id: 14,
     name: "Tome of Strahd",
     image: "https://i.imgur.com/zciYECT.png",
     found: "Castle Ravenloft",
@@ -107,7 +114,7 @@ let treasuresData = [
     description: "",
   },
   {
-    id: 14,
+    id: 15,
     name: "Ravenloft Brazier",
     image: "https://i.imgur.com/Bev2dep.png",
     location: "Castle Ravenloft",

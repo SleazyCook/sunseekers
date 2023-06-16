@@ -460,36 +460,41 @@ body {
     background-position: center;
     background-blend-mode: lighten; }
   .cat-card--journal-2 {
-    background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/4TAGQ2R.jpg");
+    background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/4PDRjL6.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply; }
   .cat-card--journal-3 {
+    background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/4TAGQ2R.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply; }
+  .cat-card--journal-4 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/AWQB28r.png");
     background-size: cover;
     background-position: top;
     background-blend-mode: hue; }
-  .cat-card--journal-4 {
+  .cat-card--journal-5 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/fgPPAfM.png");
     background-size: cover;
     background-position: bottom;
     background-blend-mode: hue; }
-  .cat-card--journal-5 {
+  .cat-card--journal-6 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/pG4NWum.png");
     background-size: cover;
     background-position: top;
     background-blend-mode: lighten; }
-  .cat-card--journal-6 {
+  .cat-card--journal-7 {
     background-image: linear-gradient(to right bottom, rgba(166, 166, 166, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/5iWx4Sl.png");
     background-size: cover;
     background-position: top;
     background-blend-mode: darken; }
-  .cat-card--journal-7 {
+  .cat-card--journal-8 {
     background-image: linear-gradient(to right bottom, rgba(26, 26, 26, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/9VKC5vb.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten; }
-  .cat-card--journal-8 {
+  .cat-card--journal-9 {
     background-image: linear-gradient(to right bottom, rgba(166, 43, 13, 0.8), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/r17tnaC.png");
     background-size: cover;
     background-position: center;
@@ -751,12 +756,15 @@ body {
       background-image: url("https://i.imgur.com/pb4SaMI.png");
       background-position: center; }
     .item-card__img--12 {
-      background-image: url("https://i.imgur.com/XdxUY3y.jpg");
+      background-image: url("https://i.imgur.com/4PDRjL6.png");
       background-position: center; }
     .item-card__img--13 {
-      background-image: url("https://i.imgur.com/zciYECT.png");
+      background-image: url("https://i.imgur.com/XdxUY3y.jpg");
       background-position: center; }
     .item-card__img--14 {
+      background-image: url("https://i.imgur.com/zciYECT.png");
+      background-position: center; }
+    .item-card__img--15 {
       background-image: url("https://i.imgur.com/Bev2dep.png");
       background-position: center; }
 

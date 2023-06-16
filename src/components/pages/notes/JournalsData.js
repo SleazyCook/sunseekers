@@ -6,36 +6,41 @@ let journalsData = [
   },
   {
     number: 2,
+    name: "Treasures",
+    link: "/treasures"
+  },
+  {
+    number: 3,
     name: "Tarroka Reading",
     link: "/notes/tarroka-reading"
   },
   {
-    number: 3,
+    number: 4,
     name: "Strahd Notes",
     link: "/notes/strahd-notes"
   },
   {
-    number: 4,
+    number: 5,
     name: "Vallaki Laws",
     link: "/notes/vallaki-laws"
   },
   {
-    number: 5,
+    number: 6,
     name: "Safzira's Diary",
     link: "/safzira-diary"
   },
   {
-    number: 6,
+    number: 7,
     name: "Ireena's Diary",
     link: "/notes/ireena-diary"
   },
   {
-    number: 7,
+    number: 8,
     name: "Maps",
     link: "/notes/maps"
   },
   {
-    number: 8,
+    number: 9,
     name: "Miscellaneous",
     link: "/notes/miscellaneous"
   }
