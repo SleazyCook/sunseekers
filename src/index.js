@@ -25,6 +25,8 @@ import LocationPage from './components/pages/locations/LocationPage'
 
 import WorldMap from './components/pages/locations/WorldMap'
 
+import Treasures from './components/pages/treasures/Treasures'
+
 import Players from './components/pages/characters/sunseekers/Players'
 import Characters from './components/pages/characters/Characters'
 import Baron from './components/pages/characters/Baron'
@@ -65,6 +67,10 @@ export const router = createBrowserRouter([
       {
         path: "resources",
         element: <Resources />
+      },
+      {
+        path: "treasures",
+        element: <Treasures />
       },
       {
         path: "feedback",

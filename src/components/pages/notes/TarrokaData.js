@@ -43,10 +43,13 @@ let tarrokaData = [
     update: "Safzira and Umnos are in the Ambert Temple, which features faceless statues at the end of a long and winding road, deep in Mount Ghakis",
     found: false,
     reward: "Sunsword",
-    img: "",
-    imgAlt: "Drawing of Sunsword",
+    img: "https://i.imgur.com/Ipg1ycR.png",
+    imgAlt: "Sunsword",
     imgLink: "/notes/strahd-notes"
   },
+    // found: true,
+    // reward: "Sunsword",
+
 
 
   // artifact

@@ -1,8 +1,4 @@
-import {useState, useEffect} from 'react'
-
-import Header from '../../Header'
-import Navigation from '../../Navigation'
-import Footer from '../../Footer'
+import { useState, useEffect } from 'react'
 import TarrokaModal from './TarrokaModal'
 
 import tarrokaData from './TarrokaData'
@@ -37,7 +33,6 @@ function TarrokaReading() {
                 <div onClick={()=>{
                   setCardOpen(true)
                   setCardObj(tarrokaData[tarrokaObj.number-1])
-                  console.log(event.target.value)
                 }} key={tarrokaObj.number} value={tarrokaObj.number} className={`tarroka-new__card--small tarroka-new__card--small-${tarrokaObj.number}`}></div>
               )
             })}

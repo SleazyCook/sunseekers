@@ -1,0 +1,71 @@
+.treasures {
+  position: relative;
+  color: white;
+
+  &-pop{
+    height: 55rem;
+    width: 80rem;
+    background-color: black;
+    border-radius: 1rem;
+    z-index: 10;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    &__header {
+      color: white;
+      // padding: .25rem;
+      text-align: center;
+      background-color: $color-primary;
+      clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+    }
+
+    // &__flexbox {
+    //   display: flex;
+    //   // border: 2px solid white;
+    //   padding: 2rem;
+    //   flex-direction: column;
+
+    //   @include respond(tab-port) {
+    //     flex-direction: row;
+    //   }
+    // }
+
+    // &__details-box {
+    //   padding: 0 3rem 3rem 3rem;
+    //   max-width: 50%;
+    //   margin-left: 5rem;
+    //   // border: 3px solid red;
+    // }
+  }
+
+  &__table {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all .5s;
+
+    &--popup {
+      animation: flipIn .25s ease 0s 1 normal forwards;
+    }
+
+    &--center {
+      width: 40rem;
+      height: 40rem;
+      // display: grid;
+      // grid-template-columns: repeat(3, 10rem);
+      // grid-template-rows: repeat(3, 12rem);
+      // row-gap: 3rem;
+      // column-gap: 3rem;
+
+    }
+
+  }
+}

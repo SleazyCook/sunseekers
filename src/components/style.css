@@ -677,6 +677,89 @@ body {
       display: block;
       margin-bottom: .5rem; }
 
+.item-card {
+  background-color: #1a1a1a;
+  border-radius: 3px;
+  transition: all .4s;
+  height: 50rem;
+  width: 40rem;
+  cursor: pointer; }
+  @media (min-width: 56.25em) {
+    .item-card {
+      height: 60rem; } }
+  @media (min-width: 75em) {
+    .item-card {
+      height: 35rem;
+      width: 33rem; } }
+  .item-card:hover {
+    transform: scale(0.97); }
+  .item-card__heading {
+    font-size: 5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 1rem;
+    font-family: "Bebas Neue", cursive;
+    color: #a62b0d; }
+  .item-card__possess {
+    text-align: right;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    color: #e6e6e6; }
+    .item-card__possess--name {
+      font-family: "Bebas Neue", cursive;
+      font-size: 2.5rem; }
+  .item-card__img {
+    background-size: cover;
+    height: 25rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%); }
+    .item-card__img--1 {
+      background-image: url("https://i.imgur.com/XdxUY3y.jpg");
+      background-position: center; }
+    .item-card__img--2 {
+      background-image: url("https://i.imgur.com/QQiDvfn.png");
+      background-position: center; }
+    .item-card__img--3 {
+      background-image: url("https://i.imgur.com/UkrmWrI.png");
+      background-position: center; }
+    .item-card__img--4 {
+      background-image: url("https://i.imgur.com/D1qKMxO.png");
+      background-position: bottom; }
+    .item-card__img--5 {
+      background-image: url("https://i.imgur.com/22sOApZ.png");
+      background-position: top; }
+    .item-card__img--6 {
+      background-image: url("https://i.imgur.com/D9Vguzb.png");
+      background-position: center; }
+    .item-card__img--7 {
+      background-image: url("https://i.imgur.com/yTvcm6T.png");
+      background-position: center; }
+    .item-card__img--8 {
+      background-image: url("https://i.imgur.com/xOJzRl9.png");
+      background-position: top; }
+    .item-card__img--9 {
+      background-image: url("https://i.imgur.com/wVXQXnR.png");
+      background-position: center; }
+    .item-card__img--10 {
+      background-image: url("https://i.imgur.com/noO3U9t.png");
+      background-position: center; }
+    .item-card__img--11 {
+      background-image: url("https://i.imgur.com/pb4SaMI.png");
+      background-position: center; }
+    .item-card__img--12 {
+      background-image: url("https://i.imgur.com/XdxUY3y.jpg");
+      background-position: center; }
+    .item-card__img--13 {
+      background-image: url("https://i.imgur.com/zciYECT.png");
+      background-position: center; }
+    .item-card__img--14 {
+      background-image: url("https://i.imgur.com/Bev2dep.png");
+      background-position: center; }
+
 .maps-box {
   text-align: center;
   width: 100%; }
@@ -2277,6 +2360,40 @@ body {
       grid-row: 2 / 3;
       background-image: linear-gradient(to right bottom, rgba(24, 6, 2, 0.5), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/PeIzBFy.png");
       background-size: cover; }
+
+.treasures {
+  position: relative;
+  color: white; }
+  .treasures-pop {
+    height: 55rem;
+    width: 80rem;
+    background-color: black;
+    border-radius: 1rem;
+    z-index: 10;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */ }
+    .treasures-pop::-webkit-scrollbar {
+      display: none; }
+    .treasures-pop__header {
+      color: white;
+      text-align: center;
+      background-color: #771f09;
+      clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%); }
+  .treasures__table {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all .5s; }
+    .treasures__table--popup {
+      animation: flipIn .25s ease 0s 1 normal forwards; }
+    .treasures__table--center {
+      width: 40rem;
+      height: 40rem; }
 
 .vallaki-laws {
   font-family: "Yatra One", cursive;
