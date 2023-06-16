@@ -742,7 +742,7 @@ body {
       background-position: center; }
     .item-card__img--7 {
       background-image: url("https://i.imgur.com/yTvcm6T.png");
-      background-position: center; }
+      background-position-y: 20%; }
     .item-card__img--8 {
       background-image: url("https://i.imgur.com/xOJzRl9.png");
       background-position: top; }
