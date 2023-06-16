@@ -1,13 +1,48 @@
 import React from 'react'
 
-function TreasuresModal(itemObj, setCardOpen) {
+import treasuresData from "./TreasuresData"
+
+function TreasuresModal({itemObj, setCardOpen, selected, setSelected}) {
+
+
   return (
-    <div className='modal-box' id='detailed-media-parent' onClick={()=>{setCardOpen(false)}} >
+    <div className='modal-box modal-box--fixed' id='detailed-media-parent' onClick={()=>{setCardOpen(false)}} >
 
-      <div className="treasures-pop treasures__table--popup">
+      <div className="treasures__table--popup treasures-pop popup">
 
-        <div className="heading-secondary treasures-pop__header">{itemObj.name}</div>
-      </div>
+        <div className="heading-secondary treasures-pop__header">{treasuresData[selected].name}</div>
+
+
+        <div className="treasures-pop__flexbox">
+
+          <div className="treasures-pop__img-box">
+            <img className="treasures-pop__img" src={treasuresData[selected].image} />
+          </div>
+          {/* Details */}
+          <div className="treasures-pop__details-box">
+
+            <span className="treasures-pop__text">In the Possession of &nbsp;
+              <span className="item-card__possess--name">
+                {treasuresData[selected].pLong ? treasuresData[selected].pLong : treasuresData[selected].possession}</span></span>
+            {treasuresData[selected].found && <span className="treasures-pop__text">Found at &nbsp;
+              <span className="item-card__possess--name">{treasuresData[selected].found}</span></span>}
+            {treasuresData[selected].location && <span className="treasures-pop__text">Last Known Location &nbsp;
+              <span className="item-card__possess--name">{treasuresData[selected].location}</span></span>}
+            <span className="treasures-pop__text treasures-pop__text--description">{treasuresData[selected].description}</span>
+
+            {/* Page Buttons */}
+            <div className="popup__page-button--flexbox">
+
+              {selected != treasuresData.length-1 ? <span onClick={()=> setSelected(selected++)}className="popup__page-button popup__page-button--previous">{treasuresData[selected+1].name}</span> : <span className="popup__page-button--placeholder">Placeholder</span>}
+
+              {selected != 0 ? <span onClick={()=> setSelected(selected--)}className="popup__page-button popup__page-button--next">{treasuresData[selected-1].name}</span> : <span className="popup__page-button--placeholder">Placeholder</span>}
+            </div>
+
+          </div>
+
+        </div> {/* Flexbox End */}
+        
+      </div> {/* Pop-Up End */}
 
     </div>
   )

@@ -1,6 +1,5 @@
 .treasures {
   position: relative;
-  color: white;
 
   &-pop{
     height: 55rem;
@@ -12,6 +11,17 @@
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 
+
+    &__text {
+      display: block;
+      text-align: right;
+      padding-right: 5rem;
+
+      &--description {
+        text-align: justify;
+        margin-top: 1rem;
+      }
+    }
 
     &::-webkit-scrollbar {
       display: none;
@@ -25,23 +35,38 @@
       clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
     }
 
-    // &__flexbox {
-    //   display: flex;
-    //   // border: 2px solid white;
-    //   padding: 2rem;
-    //   flex-direction: column;
+    &__flexbox {
+      display: flex;
+      // border: 2px solid white;
+      padding: 2rem;
+      flex-direction: column;
+      height: 80%;
+      margin-top: 1rem;
 
-    //   @include respond(tab-port) {
-    //     flex-direction: row;
-    //   }
-    // }
+      @include respond(tab-port) {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
 
-    // &__details-box {
-    //   padding: 0 3rem 3rem 3rem;
-    //   max-width: 50%;
-    //   margin-left: 5rem;
-    //   // border: 3px solid red;
-    // }
+    &__img {
+      width: 80%;
+      border-radius: 3px;
+
+      &-box {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    &__details-box {
+      width: 50%;;
+      padding-top: 6rem;
+    }
+
   }
 
   &__table {
@@ -64,7 +89,6 @@
       // grid-template-rows: repeat(3, 12rem);
       // row-gap: 3rem;
       // column-gap: 3rem;
-
     }
 
   }

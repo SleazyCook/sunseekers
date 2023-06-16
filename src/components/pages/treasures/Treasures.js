@@ -6,12 +6,17 @@ import treasuresData from './TreasuresData'
 function Treasures() {
   const [cardOpen, setCardOpen] = useState(false);
   const [itemObj, setItemObj] = useState({});
+  // const [treasuresByNew, SetTreasuresByNew] = useState(treasuresData.reverse());
+  const [selected, setSelected] = useState(0)
+  
+  console.log(selected, "!!!!!")
+  // console.log(treasuresByNew)
 
-  let treasuresByNew = treasuresData.reverse();
-  console.log(treasuresByNew)
+  let treasuresByNew = [...treasuresData].reverse();
 
   useEffect(() => {
     window.scrollTo({top: 0, left: 0})
+    
   }, [])
 
   return (
@@ -24,7 +29,7 @@ function Treasures() {
           </h2>
       </div>
 
-      {/* {cardOpen && <TreasuresModal itemObj={itemObj} setCardOpen={setCardOpen} />} */}
+      {cardOpen && <TreasuresModal itemObj={itemObj} setCardOpen={setCardOpen} selected={selected} setSelected={setSelected} />}
 
       <div className="flexbox flexbox--npc">
 
@@ -33,7 +38,8 @@ function Treasures() {
           return (
             <div onClick={()=>{
               setCardOpen(true)
-              setItemObj(treasuresByNew[treasuresObj.id-1])
+              setSelected(treasuresObj.id-1)
+              setItemObj(treasuresData[treasuresObj.id-1])
             }} className="flexbox__item--npc" key={treasuresObj.id} value={treasuresObj.id}>
               <div className="item-card" >
                 <div className="item-card__heading">

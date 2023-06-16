@@ -6,4 +6,44 @@
   z-index: 5;
   align-items: center;
   justify-content: center;
+
+  &--fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
+.popup {
+  z-index: 10;
+
+  &__page-button {
+    padding: 1rem 2rem;
+    background-color: #333333;
+    cursor: pointer;
+
+    &--previous {
+      padding-left: 3rem;
+      clip-path: polygon(20% 0, 100% 0, 100% 100%, 20% 100%, 0 50%);
+    }
+
+    &--next {
+      padding-right: 3rem;
+      clip-path: polygon(80% 0, 100% 50%, 80% 100%, 0 100%, 0 0);
+    }
+
+    &--placeholder {
+      opacity: 0;
+    }
+
+    &--flexbox {
+      display: flex;
+      padding: 1rem;
+      margin-top: 2rem;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    
+  }
 }

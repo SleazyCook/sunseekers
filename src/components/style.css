@@ -793,6 +793,31 @@ body {
   z-index: 5;
   align-items: center;
   justify-content: center; }
+  .modal-box--fixed {
+    position: fixed;
+    top: 0;
+    left: 0; }
+
+.popup {
+  z-index: 10; }
+  .popup__page-button {
+    padding: 1rem 2rem;
+    background-color: #333333;
+    cursor: pointer; }
+    .popup__page-button--previous {
+      padding-left: 3rem;
+      clip-path: polygon(20% 0, 100% 0, 100% 100%, 20% 100%, 0 50%); }
+    .popup__page-button--next {
+      padding-right: 3rem;
+      clip-path: polygon(80% 0, 100% 50%, 80% 100%, 0 100%, 0 0); }
+    .popup__page-button--placeholder {
+      opacity: 0; }
+    .popup__page-button--flexbox {
+      display: flex;
+      padding: 1rem;
+      margin-top: 2rem;
+      justify-content: space-between;
+      width: 100%; }
 
 .notes-nav ul {
   text-align: center;
@@ -2370,8 +2395,7 @@ body {
       background-size: cover; }
 
 .treasures {
-  position: relative;
-  color: white; }
+  position: relative; }
   .treasures-pop {
     height: 55rem;
     width: 80rem;
@@ -2383,6 +2407,13 @@ body {
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */ }
+    .treasures-pop__text {
+      display: block;
+      text-align: right;
+      padding-right: 5rem; }
+      .treasures-pop__text--description {
+        text-align: justify;
+        margin-top: 1rem; }
     .treasures-pop::-webkit-scrollbar {
       display: none; }
     .treasures-pop__header {
@@ -2390,6 +2421,28 @@ body {
       text-align: center;
       background-color: #771f09;
       clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%); }
+    .treasures-pop__flexbox {
+      display: flex;
+      padding: 2rem;
+      flex-direction: column;
+      height: 80%;
+      margin-top: 1rem; }
+      @media (min-width: 37.5em) {
+        .treasures-pop__flexbox {
+          flex-direction: row;
+          justify-content: space-between; } }
+    .treasures-pop__img {
+      width: 80%;
+      border-radius: 3px; }
+      .treasures-pop__img-box {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+    .treasures-pop__details-box {
+      width: 50%;
+      padding-top: 6rem; }
   .treasures__table {
     height: 100vh;
     display: flex;
