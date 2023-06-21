@@ -142,6 +142,11 @@ let treasuresData = [
   // image: [],
   //   description: "",
   // },
+    // {
+    //   name: "Pox Pendant", see Stakes p. 82 vilnius
+    //   image: "",
+    //   description: ""
+    // }
   // {
   //   name: "Omoyan Armor",
   // image: [],
