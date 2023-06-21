@@ -12,7 +12,7 @@ let tarrokaData = [
     reward: "Tome of Strahd",
     img: "https://i.imgur.com/zciYECT.png",
     imgAlt: "tome of Strahd",
-    imgLink: "/notes/strahd-notes"
+    imgLink: "/notes/treasures"
   },
 
 
@@ -29,7 +29,7 @@ let tarrokaData = [
     reward: "Holy Symbol of Ravenkind",
     img: "",
     imgAlt: "holy symbol of ravenkind",
-    imgLink: "/notes/strahd-notes"
+    imgLink: "/notes/treasures"
   },
 
   // hooded one
@@ -45,7 +45,7 @@ let tarrokaData = [
     reward: "Sunsword",
     img: "https://i.imgur.com/Ipg1ycR.png",
     imgAlt: "Sunsword",
-    imgLink: "/notes/strahd-notes"
+    imgLink: "/notes/treasures"
   },
     // found: true,
     // reward: "Sunsword",

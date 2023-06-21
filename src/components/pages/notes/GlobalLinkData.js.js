@@ -5,6 +5,7 @@ let globalHyperLinks = {
   // II. Locations
   // III. Quests
   // IV. Journals/Maps & Handouts
+  // V. Items
 
   // -------------------------------------------
   // I. CHARACTERS
@@ -18,6 +19,8 @@ let globalHyperLinks = {
     Safzira: "/characters/sunseekers",
     Umnos: "/characters/sunseekers",
     Zoro: "/characters/sunseekers",
+    Alina: "/characters/sunseekers",
+    "Countess Alina": "/characters/characters",
 
     Freebird: "characters/sunseekers",
 
@@ -205,6 +208,12 @@ let globalHyperLinks = {
     Yevgeni: "/characters/vallaki-citizens",
     "Wolf Hunters": "/characters/vallaki-citizens",
 
+  // Kavani
+    "Kavani": "/characters/kavani",
+    "Echo": "/characters/kavani",
+    "Gaine": "/characters/kavani",
+    "Salali": "/characters/kavani",
+
   // Witches & Cults
     "Priests of Osybus": "/characters/witches-and-cults",
     "Morgantha": "/characters/witches-and-cults",
@@ -237,6 +246,7 @@ let globalHyperLinks = {
     // NOTE THAT SOME LINK TERMS ARE COMMENTED OUT DUE TO TERM LENGTH. USE LOCAL SEARCH TERMS WHERE POSSIBLE IN THESE CASES. 
 
     // Mists of Barovia
+      "Mists of Barovia": "/locations/1",
       "mists": "/locations/1",
 
     // Old Svalich Road
@@ -420,7 +430,25 @@ let globalHyperLinks = {
       "Tome of Strahd": "/notes/strahd-notes",
 
       "Ireena Diary": "/notes/ireena-diary",
-      "Safzira Diary": "/notes/safzira-diary"
+      "Safzira Diary": "/notes/safzira-diary",
+
+    // -------------------------------------------
+    // IV. ITEMS
+    // -------------------------------------------
+
+      "Ravenloft Brazier": "/notes/treasures",
+      "Ba'al Verzi dagger": "/notes/treasures",
+      "silver bars": "/notes/treasures",
+      "locket": "/notes/treasures",
+      "Dark Gift": "/notes/treasures",
+      "Dark Gifts": "/notes/treasures",
+      "Sunsword": "/notes/treasures",
+      "Blood Spear": "/notes/treasures",
+      "Gulthias Staff": "/notes/treasures",
+
+
+
+
 
     
 }

@@ -26,6 +26,30 @@ function Players() {
 
       <div className="flexbox">
 
+        <div className="flexbox__item"> {/* Alina Start */}
+          <div className="card">
+            <div className="card__side card__side--front">
+              <div className="card__picture card__picture--alina">&nbsp;</div>
+              <div className="card__heading">Alina &nbsp;</div>
+            </div> {/* card__side End */}
+            <div className="card__side card__side--back">
+              <div className="card__description">
+                <div className="card__description--top">
+                  Druid Lvl 6
+                  <span>Circle of Stars</span>
+                </div> {/* card__description--top End */}
+                <div className="card__description--bottom">
+                <i>Air Genasi, active</i>
+                  <br />
+                  <br />
+                Found investigating the Amber Temple with a group of druids.
+                </div> {/* card__description--bottom End */}
+              </div> {/* card__description End */}
+              <div className="card__heading">Alina &nbsp;</div>
+            </div> {/* card__side--back End */}
+          </div> {/* card End */}
+        </div> {/* Alina End */}
+
         <div className="flexbox__item"> {/* Safzira Start */}
           <div className="card">
             <div className="card__side card__side--front">
@@ -49,6 +73,30 @@ function Players() {
             </div> {/* card__side--back End */}
           </div> {/* card End */}
         </div> {/* Safzira End */}
+
+        <div className="flexbox__item"> {/* Damani Start */}
+          <div className="card">
+            <div className="card__side card__side--front">
+              <div className="card__picture card__picture--4">&nbsp;</div>
+              <div className="card__heading">Umnos &nbsp;</div>
+            </div> {/* card__side End */}
+            <div className="card__side card__side--back">
+              <div className="card__description">
+                <div className="card__description--top">
+                  Cleric Lvl 5
+                  <span>Forge Domain</span>
+                </div> {/* card__description--top End */}
+                <div className="card__description--bottom">
+                <i>Half-Elf, active</i>
+                  <br />
+                  <br />
+                Discovered in a Vallaki prison healing Lars Kjurls, Umnos soon joined the Sunseekers after Ireena was saved from the wolves.
+                </div> {/* card__description--bottom End */}
+              </div> {/* card__description End */}
+              <div className="card__heading">Umnos &nbsp;</div>
+            </div> {/* card__side--back End */}
+          </div> {/* card End */}
+        </div> {/* Damani End */}
 
         <div className="flexbox__item"> {/* Elizana Start */}
           <div className="card">
@@ -98,29 +146,7 @@ function Players() {
           </div> {/* card End */}
         </div> {/* German End */}
 
-        <div className="flexbox__item"> {/* Damani Start */}
-          <div className="card">
-            <div className="card__side card__side--front">
-              <div className="card__picture card__picture--4">&nbsp;</div>
-              <div className="card__heading">Umnos &nbsp;</div>
-            </div> {/* card__side End */}
-            <div className="card__side card__side--back">
-              <div className="card__description">
-                <div className="card__description--top">
-                  Cleric Lvl 5
-                  <span>Forge Domain</span>
-                </div> {/* card__description--top End */}
-                <div className="card__description--bottom">
-                <i>Half-Elf, active</i>
-                  <br />
-                  <br />
-                Discovered in a Vallaki prison healing Lars Kjurls, Umnos soon joined the Sunseekers after Ireena was saved from the wolves.
-                </div> {/* card__description--bottom End */}
-              </div> {/* card__description End */}
-              <div className="card__heading">Umnos &nbsp;</div>
-            </div> {/* card__side--back End */}
-          </div> {/* card End */}
-        </div> {/* Damani End */}
+
 
         <div className="flexbox__item"> {/* Margarito Start */}
           <div className="card">

@@ -293,6 +293,8 @@ body {
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
     clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%); }
+    .card__picture--alina {
+      background-image: url("https://i.imgur.com/B0eXKe3.png"); }
     .card__picture--1 {
       background-image: url("https://i.imgur.com/pG4NWum.png"); }
     .card__picture--2 {
@@ -767,6 +769,18 @@ body {
     .item-card__img--15 {
       background-image: url("https://i.imgur.com/Bev2dep.png");
       background-position: center; }
+    .item-card__img--16 {
+      background-image: url("https://i.imgur.com/xnoov70.png");
+      background-position: center; }
+    .item-card__img--17 {
+      background-image: url("https://i.imgur.com/Ipg1ycR.png");
+      background-position-y: 80%; }
+    .item-card__img--18 {
+      background-image: url("https://i.imgur.com/WupiFPn.png");
+      background-position: top; }
+    .item-card__img--19 {
+      background-image: url("https://i.imgur.com/7xBLd0E.png");
+      background-position: top; }
 
 .maps-box {
   text-align: center;
@@ -1768,6 +1782,10 @@ body {
     background-image: url("https://i.imgur.com/FyaVFjS.png");
     background-position: center;
     background-size: cover; }
+  .adventure__card--22 {
+    background-image: url("https://i.imgur.com/YBBNCMG.png");
+    background-position: center;
+    background-size: cover; }
 
 .feedback {
   background-color: red;
@@ -2272,6 +2290,19 @@ body {
         .tarroka-pop__reward-img-1 {
           height: 20rem;
           margin-left: 3rem; } }
+    .tarroka-pop__reward-img-3 {
+      height: 15rem;
+      margin-left: 5rem;
+      margin-top: 1rem;
+      border-radius: 1rem;
+      transition: all .5s; }
+      .tarroka-pop__reward-img-3:hover {
+        transform: scale(1.05);
+        box-shadow: 5px 5px 5px rgba(119, 31, 9, 0.8); }
+      @media (min-width: 112.5em) {
+        .tarroka-pop__reward-img-3 {
+          height: 20rem;
+          margin-left: 3rem; } }
     .tarroka-pop__reward-img-4 {
       height: 15rem;
       margin-left: 5rem;
@@ -2381,7 +2412,7 @@ body {
     .tarroka-new__card--small-3 {
       grid-column: 3 / 4;
       grid-row: 2 / 3;
-      background-image: linear-gradient(to right bottom, rgba(24, 6, 2, 0.5), rgba(24, 6, 2, 0.8)), url("https://i.imgur.com/PeIzBFy.png");
+      background-image: url("https://i.imgur.com/Ipg1ycR.png");
       background-size: cover; }
     .tarroka-new__card--small-4 {
       grid-column: 2 / 3;

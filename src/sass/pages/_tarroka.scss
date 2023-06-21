@@ -93,7 +93,21 @@
       }
 
       &-3 {
+        height: 15rem;
+        margin-left: 5rem;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        transition: all .5s;
 
+        &:hover {
+          transform: scale(1.05);
+          box-shadow: 5px 5px 5px rgba($color-primary,.8);
+        }
+
+        @include respond(desktop-big) {
+          height: 20rem;
+          margin-left: 3rem;
+        }
       }
 
       &-4 {
@@ -254,11 +268,8 @@
     &-3 {
       grid-column: 3 / 4;
       grid-row: 2 / 3;
-      background-image:  linear-gradient(
-        to right bottom, 
-        rgba($color-primary-dark, 0.5), 
-        rgba($color-primary-dark, 0.8)),
-        url("https://i.imgur.com/PeIzBFy.png");
+      background-image:  
+        url("https://i.imgur.com/Ipg1ycR.png");
       background-size: cover;
     }
 

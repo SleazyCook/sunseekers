@@ -136,6 +136,41 @@ let treasuresData = [
     pLong: "Strahd Von Zarovich",
     description: "Deep underneath Castle Ravenloft, somewhere in the maze of its dungeons, lies the Brazier Room.  In the center of the room, there is a unique brazier with a special ability to teleport individuals across Barovia to various locations. Those who can figure out its riddles can choose their destination easily.",
   },
+  {
+    id: 16, 
+    name: "Dark Gifts",
+    image: "https://i.imgur.com/xnoov70.png",
+    found: "Amber Temple",
+    possession: "Alina",
+    pLong: "Countess Alina",
+    description: "There are many Dark Gifts offered by various Elder Ones from the amber sarophagi within the Amber Temple. It is believed that Strahd himself become a vampire from one of these dark gifts. The Kavani Echo and Salali were gifted with Bear Climbing abilities (with mixed results) and Echo was offered a lesser vampire gift. Alina gained the power of Lightning from the Elder One Zrin-Hala"
+  },
+  {
+    id: 17,
+    name: "Sunsword",
+    image: "https://i.imgur.com/Ipg1ycR.png",
+    found: "Amber Temple",
+    possession: "Umnos",
+    pLong: "Umnos Runbalo",
+    description: "The Sunsword was once a platinum and crystal sword belonging to Strahd's brother Sergei. Strahd killed his brother and order to have the sword destroyed, but it was long rumored that the hilt was preserved and lost to time. The Sunseekers fulfilled a Tarroka prophecy that led them to a secret compartment within a large statue in the Amber Temple.  The sword was hidden in an old Robe of Useful Items"
+  },
+  {
+    id: 18,
+    name: "Gulthias Staff",
+    image: "https://i.imgur.com/WupiFPn.png",
+    location: "Unknown",
+    possession: "Unknown",
+    description: "There is a powerful Kavani staff with unique abilities somewhere within the Kavani population."
+  },
+  {
+    id: 19,
+    name: "Blood Spear",
+    image: "https://i.imgur.com/7xBLd0E.png",
+    location: "Unknown",
+    possession: "Unknown",
+    description: "There is an ancient Kavani spear with unique abilities somewhere within the Kavani population."
+  },
+
   // undiscovered
   // {
   //   name: "Sunsword",

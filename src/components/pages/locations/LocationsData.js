@@ -922,7 +922,7 @@ let locationsData = [
     notes: ["None"],
     localLinks: {},
     quote: "The road fades away under a covering of snow, but it takes you far enough to see the facade carved into the sheer mountainside ahead.",
-    main: "The Amber Temple is carved into ~Mount Ghakis~.  It was once protected by the ~Order of the Silver Dragon~ at ~Tsolenka Pass~. The origins of the temple are unknown, but it is rumored that Strahd enountered an ancient evil that cursed him with vampirism and separated Barovia from the material plane.",
+    main: `The Amber Temple is carved into ~Mount Ghakis~.  It was once protected by the ~Order of the Silver Dragon~ at ~Tsolenka Pass~. The origins of the temple are unknown, but it is rumored that Strahd enountered an ancient evil that cursed him with vampirism and separated Barovia from the material plane.`,
     gallery: [
       {
         number: 1,
@@ -948,8 +948,32 @@ let locationsData = [
         number: 5,
         cap: "Amber Golem",
         img: "https://i.imgur.com/koRNfiJ.png"
+      },
+      {
+        number: 6,
+        cap: "Amber Temple Upper Level",
+        img: "https://i.imgur.com/jrT23g5.jpg"
+      },
+      {
+        number: 7,
+        cap: "Amber Temple Lower Level",
+        img: "https://i.imgur.com/6RrKnZf.jpg"
       }
     ],
+    sections: [
+      {
+        "number": 1,
+        name: "Dark Gifts",
+        localLinks: {},
+        content: "The Amber Temple is the resting place for many of the universe's Elder Ones. Those who reside in the Amber Temple do so in blocks of amber. Those who make physical contact with an amber sarcophagus are offered a ~Dark Gift~ of enormous power, but often at a high price."
+      },
+      {
+        number: 2,
+        name: "Kavani Traditions",
+        localLinks: {},
+        content: "The Kavani druids of Barovia have practiced a coming-of-age ritual for generations. In order to be respected as an adult in their community, teenage druids must spend a week in the Amber Temple. It is well known that many do not survive this experience and those that do often come back with a weakened mental state. The few that come back stronger are welcomed into the highest order of the Kavani and given special privileges and responsibilities."
+      }
+    ]
     // add Vilnius to cults page eventually.
   },
   {
