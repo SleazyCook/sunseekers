@@ -147,6 +147,16 @@ let treasuresData = [
   },
   {
     id: 17,
+    name: "Robe of Useful Items",
+    shortName: "Robe",
+    image: "https://i.imgur.com/MhCak35.png",
+    found: "Amber Temple",
+    possession: "Umnos",
+    pLong: "Umnos Runbalo",
+    description: "This dusty old robe was found in a secret area within a large statue in the Amber Temple. It contained the infamous Sunsword of Sergei."
+  },
+  {
+    id: 18,
     name: "Sunsword",
     image: "https://i.imgur.com/Ipg1ycR.png",
     found: "Amber Temple",
@@ -155,7 +165,7 @@ let treasuresData = [
     description: "The Sunsword was once a platinum and crystal sword belonging to Strahd's brother Sergei. Strahd killed his brother and order to have the sword destroyed, but it was long rumored that the hilt was preserved and lost to time. The Sunseekers fulfilled a Tarroka prophecy that led them to a secret compartment within a large statue in the Amber Temple.  The sword was hidden in an old Robe of Useful Items"
   },
   {
-    id: 18,
+    id: 19,
     name: "Gulthias Staff",
     image: "https://i.imgur.com/WupiFPn.png",
     location: "Unknown",
@@ -163,7 +173,7 @@ let treasuresData = [
     description: "There is a powerful Kavani staff with unique abilities somewhere within the Kavani population."
   },
   {
-    id: 19,
+    id: 20,
     name: "Blood Spear",
     image: "https://i.imgur.com/7xBLd0E.png",
     location: "Unknown",
