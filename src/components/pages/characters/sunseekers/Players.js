@@ -59,7 +59,7 @@ function Players() {
             <div className="card__side card__side--back">
               <div className="card__description">
                 <div className="card__description--top">
-                  Rogue Lvl 4
+                  Rogue Lvl 6
                   <span>Arcane Trickster</span>
                 </div> {/* card__description--top End */}
                 <div className="card__description--bottom">
@@ -83,7 +83,7 @@ function Players() {
             <div className="card__side card__side--back">
               <div className="card__description">
                 <div className="card__description--top">
-                  Cleric Lvl 5
+                  Cleric Lvl 6
                   <span>Forge Domain</span>
                 </div> {/* card__description--top End */}
                 <div className="card__description--bottom">
@@ -97,6 +97,31 @@ function Players() {
             </div> {/* card__side--back End */}
           </div> {/* card End */}
         </div> {/* Damani End */}
+
+
+        <div className="flexbox__item"> {/* German Start */}
+          <div className="card">
+            <div className="card__side card__side--front">
+              <div className="card__picture card__picture--3">&nbsp;</div>
+              <div className="card__heading">German &nbsp;</div>
+            </div> {/* card__side End */}
+            <div className="card__side card__side--back">
+              <div className="card__description">
+                <div className="card__description--top">
+                  Barbarian Lvl 4
+                  <span>Zealot</span>
+                </div> {/* card__description--top End */}
+                <div className="card__description--bottom">
+                <i>Human, inactive</i>
+                  <br />
+                  <br />
+                German the Barbarian, a man of few words, lives for battle. He will protect his fellow Sunseekers to the death just for the thrill of a fight.
+                </div> {/* card__description--bottom End */}
+              </div> {/* card__description End */}
+              <div className="card__heading">German &nbsp;</div>
+            </div> {/* card__side--back End */}
+          </div> {/* card End */}
+        </div> {/* German End */}
 
         <div className="flexbox__item"> {/* Elizana Start */}
           <div className="card">
@@ -122,29 +147,7 @@ function Players() {
           </div> {/* card End */}
         </div> {/* Elizana End */}
 
-        <div className="flexbox__item"> {/* German Start */}
-          <div className="card">
-            <div className="card__side card__side--front">
-              <div className="card__picture card__picture--3">&nbsp;</div>
-              <div className="card__heading">German &nbsp;</div>
-            </div> {/* card__side End */}
-            <div className="card__side card__side--back">
-              <div className="card__description">
-                <div className="card__description--top">
-                  Barbarian Lvl 4
-                  <span>Zealot</span>
-                </div> {/* card__description--top End */}
-                <div className="card__description--bottom">
-                <i>Human, inactive</i>
-                  <br />
-                  <br />
-                German the Barbarian, a man of few words, lives for battle. He will protect his fellow Sunseekers to the death just for the thrill of a fight.
-                </div> {/* card__description--bottom End */}
-              </div> {/* card__description End */}
-              <div className="card__heading">German &nbsp;</div>
-            </div> {/* card__side--back End */}
-          </div> {/* card End */}
-        </div> {/* German End */}
+
 
 
 
