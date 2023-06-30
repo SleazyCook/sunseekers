@@ -903,14 +903,49 @@ let locationsData = [
     number: 19,
     name: "Wizard of Wines",
     img: "https://i.imgur.com/GlOt2XL.png",
-    imgCap: "...",
-    characters: ["..."],
-    quests: ["..."],
-    notes: ["..."],
+    imgCap: "Wizard of Wines store room",
+    characters: ["Davian", "Adrian", "Elvir", "Stefania", "Dag"],
+    quests: ["None"],
+    notes: ["None"],
     localLinks: {},
-    // quote: `After a half mile, the road becomes a muddy trail that meanders through the woods, descending gradually until the trees part, revealing a mist-shrouded meadow. The trail splits. One branch heads west into the valley, and the other leads south into dark woods. A wooden signpost at the intersection points west and reads 'Vineyard.'`,
-    quote: "UNDISCOVERED",
-    main: ""
+    quote: `The road becomes a muddy trail that meanders through the woods, descending gradually until the tress part, revealing a mist-shrouded meadow. A wooden signpost at the intersection points west and reads "Vineyard"`,
+    main: "Wizard of Wines is the only winery, or alcohol production area of any kind, in the valley of Barovia.  The winery is owned and operated by Davian Martikov and his family. The Martikovs also run the very popular Blue Water Inn in the town of Vallaki.",
+    sections: [
+      {
+        number: 1,
+        name: "Keepers of the Feather",
+        localLinks: {},
+        content: "The Martikov family is full of secrets.  Not only are they all wereravens, but they run a secret spy organization known as the Keepers of the Feather. Their wereravens can be seen throughout Barovia keeping tabs on goings-on and plotting against Strahd."
+      },
+      {
+        number: 2,
+        name: "Kavani Takeover",
+        localLinks: {},
+        content: `After the wereravens refused to share their lycanthropy with the Kavani druids, they made a deal with an army from Berez to take the winery for themselves. They captured Davian and shot down any birds in the area, forcing the Martikovs out of their family home. The Sunseekers teamed up with the wereravens to reclaim the winery from the druids and halted an attempt to poison the wine that was set for distribution across the valley.`
+      }
+    ],
+    gallery: [
+      {
+        number: 1,
+        cap: "Wizard of Wines exterior",
+        img: "https://i.imgur.com/3YlwJzY.png"
+      },
+      {
+        number: 2,
+        cap: "Wizard of Wines store room",
+        img: "https://i.imgur.com/GlOt2XL.png"
+      },
+      {
+        number: 3,
+        cap: "Wizard of Wines vats",
+        img: "https://i.imgur.com/9CXQb4t.png"
+      },
+      {
+        number: 4,
+        cap: "Wizard of Wines map",
+        img: "https://i.imgur.com/QRKRdx9.png"
+      }
+    ]
   },
   {
     number: 20,
