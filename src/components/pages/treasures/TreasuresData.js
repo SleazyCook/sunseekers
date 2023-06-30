@@ -204,6 +204,15 @@ let treasuresData = [
     found: "Gift from Kasimir",
     possession: "Safzira & Kasimir",
     description: "Sending stones, like the lovers who often use them, come in pairs. Each smooth stone carved to match the other so the pairing is easily recognized. While a stone is touched, its bearer can send a message to the other stone once a day."
+  },
+  {
+    id: 24,
+    name: "Lazlo Lantern",
+    image: "https://i.imgur.com/7ywr2ov.png",
+    found: "Gift from Bafan",
+    possession: "German",
+    pLong: "German the Barbarian",
+    description: "The head of Viktor Lazlo was chopped off by German the Barbarian in the catacombs of Durst Manor. Viktor's vengeance turned him into a revenant leading his to forever chase after German usually throwing his head at the barbarian. Bafan's curiousity and innovation led to the creation of the lantern which controlled the revenant's curse in German's favor."
   }
 
   // undiscovered

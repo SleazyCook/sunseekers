@@ -793,6 +793,9 @@ body {
     .item-card__img--23 {
       background-image: url("https://i.imgur.com/FaVqPpp.png");
       background-position-y: 70%; }
+    .item-card__img--24 {
+      background-image: url("https://i.imgur.com/7ywr2ov.png");
+      background-position: center; }
 
 .maps-box {
   text-align: center;
