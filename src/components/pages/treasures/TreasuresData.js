@@ -137,7 +137,15 @@ let treasuresData = [
     description: "Deep underneath Castle Ravenloft, somewhere in the maze of its dungeons, lies the Brazier Room.  In the center of the room, there is a unique brazier with a special ability to teleport individuals across Barovia to various locations. Those who can figure out its riddles can choose their destination easily.",
   },
   {
-    id: 16, 
+    id: 16,
+    name: "Ring of Warmth",
+    image: "https://i.imgur.com/JPsoTgH.png",
+    found: "Gift from Kasimir",
+    possession: "Safzira",
+    description: ""
+  },
+  {
+    id: 17, 
     name: "Dark Gifts",
     image: "https://i.imgur.com/xnoov70.png",
     found: "Amber Temple",
@@ -146,7 +154,7 @@ let treasuresData = [
     description: "There are many Dark Gifts offered by various Elder Ones from the amber sarophagi within the Amber Temple. It is believed that Strahd himself become a vampire from one of these dark gifts. The Kavani Echo and Salali were gifted with Bear Climbing abilities (with mixed results) and Echo was offered a lesser vampire gift. Alina gained the power of Lightning from the Elder One Zrin-Hala"
   },
   {
-    id: 17,
+    id: 18,
     name: "Robe of Useful Items",
     shortName: "Robe",
     image: "https://i.imgur.com/MhCak35.png",
@@ -156,7 +164,7 @@ let treasuresData = [
     description: "This dusty old robe was found in a secret area within a large statue in the Amber Temple. It contained the infamous Sunsword of Sergei."
   },
   {
-    id: 18,
+    id: 19,
     name: "Sunsword",
     image: "https://i.imgur.com/Ipg1ycR.png",
     found: "Amber Temple",
@@ -165,21 +173,38 @@ let treasuresData = [
     description: "The Sunsword was once a platinum and crystal sword belonging to Strahd's brother Sergei. Strahd killed his brother and order to have the sword destroyed, but it was long rumored that the hilt was preserved and lost to time. The Sunseekers fulfilled a Tarroka prophecy that led them to a secret compartment within a large statue in the Amber Temple.  The sword was hidden in an old Robe of Useful Items"
   },
   {
-    id: 19,
+    id: 20,
     name: "Gulthias Staff",
     image: "https://i.imgur.com/WupiFPn.png",
-    location: "Unknown",
-    possession: "Unknown",
+    found: "Wizard of Wines",
+    possession: "Alina",
+    pLong: "Countess Alina",
     description: "There is a powerful Kavani staff with unique abilities somewhere within the Kavani population."
   },
   {
-    id: 20,
+    id: 21,
     name: "Blood Spear",
     image: "https://i.imgur.com/7xBLd0E.png",
     location: "Unknown",
     possession: "Unknown",
     description: "There is an ancient Kavani spear with unique abilities somewhere within the Kavani population."
   },
+  {
+    id: 22,
+    name: "Pox Pendant",
+    image: "https://i.imgur.com/QWj2IR9.png",
+    location: "Depths of Mount Ghakis",
+    possession: "No One",
+    description: "This decorative pendant harbors a piece of a dark god's essence. Eons ago, Fekre, Queen of Poxes, placed part of her being within it as a safeguard. It infect's the wearer's body with terrible diseases and compels the wearer to bring it to the sarcophagus inside the Amber Temple. Umnos casted the pendant below Tsolenka Pass."
+  },
+  {
+    id: 23,
+    name: "Sending Stones",
+    image: "https://i.imgur.com/FaVqPpp.png",
+    found: "Gift from Kasimir",
+    possession: "Safzira & Kasimir",
+    description: "Sending stones, like the lovers who often use them, come in pairs. Each smooth stone carved to match the other so the pairing is easily recognized. While a stone is touched, its bearer can send a message to the other stone once a day."
+  }
 
   // undiscovered
   // {

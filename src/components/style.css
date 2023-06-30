@@ -770,20 +770,29 @@ body {
       background-image: url("https://i.imgur.com/Bev2dep.png");
       background-position: center; }
     .item-card__img--16 {
-      background-image: url("https://i.imgur.com/xnoov70.png");
+      background-image: url("https://i.imgur.com/JPsoTgH.png");
       background-position: center; }
     .item-card__img--17 {
+      background-image: url("https://i.imgur.com/xnoov70.png");
+      background-position: center; }
+    .item-card__img--18 {
       background-image: url("https://i.imgur.com/MhCak35.png");
       background-position: top; }
-    .item-card__img--18 {
+    .item-card__img--19 {
       background-image: url("https://i.imgur.com/Ipg1ycR.png");
       background-position-y: 80%; }
-    .item-card__img--19 {
+    .item-card__img--20 {
       background-image: url("https://i.imgur.com/WupiFPn.png");
       background-position: top; }
-    .item-card__img--20 {
+    .item-card__img--21 {
       background-image: url("https://i.imgur.com/7xBLd0E.png");
       background-position: top; }
+    .item-card__img--22 {
+      background-image: url("https://i.imgur.com/QWj2IR9.png");
+      background-position: center; }
+    .item-card__img--23 {
+      background-image: url("https://i.imgur.com/FaVqPpp.png");
+      background-position-y: 70%; }
 
 .maps-box {
   text-align: center;
