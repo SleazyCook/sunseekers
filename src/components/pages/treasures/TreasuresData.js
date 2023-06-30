@@ -142,7 +142,7 @@ let treasuresData = [
     image: "https://i.imgur.com/JPsoTgH.png",
     found: "Gift from Kasimir",
     possession: "Safzira",
-    description: ""
+    description: "This magical ring keeps its wearer warm no matter how cold the environment around them is. This item proved to be very useful for Safzira when it was gifted to her from Kasimir on their way to the Amber Temple."
   },
   {
     id: 17, 
