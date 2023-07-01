@@ -29,6 +29,7 @@ import Treasures from './components/pages/treasures/Treasures'
 
 import Players from './components/pages/characters/sunseekers/Players'
 import Characters from './components/pages/characters/Characters'
+import CharsByCat from './components/pages/characters/CharsByCat'
 import Baron from './components/pages/characters/Baron'
 import Barovia from './components/pages/characters/Barovia'
 import Church from './components/pages/characters/Church'
@@ -131,6 +132,10 @@ export const router = createBrowserRouter([
       {
         path: "characters",
         element: <Characters />
+      },
+      {
+        path: "characters/:catNumber",
+        element: <CharsByCat />
       },
       {
         path: "characters/sunseekers",

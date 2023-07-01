@@ -13,7 +13,6 @@ function Characters() {
     window.scrollTo({top: 0, left: 0})
   }, [])
 
-
   return (
     <div>
 
@@ -27,7 +26,7 @@ function Characters() {
 
         {charactersData.map((charactersObj) => {
           return (
-            <div className="flex__item">
+            <div className="flex__item" key={charactersObj.number}>
               <Link to={`${charactersObj.link}`}>
                 <div className={`cat-card cat-card--characters-${charactersObj.number}`}>
                   <div className="cat-card__text-box">

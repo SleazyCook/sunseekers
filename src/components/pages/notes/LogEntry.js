@@ -1,10 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 
-import Header from '../../Header'
-import Navigation from '../../Navigation'
-import Footer from '../../Footer'
-
 import logData from './LogData'
 
 import renderWithLinks from './HyperlinkFunction';

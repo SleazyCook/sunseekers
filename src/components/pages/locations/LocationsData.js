@@ -483,6 +483,11 @@ let locationsData = [
         number: 5,
         cap: "Mill Witches",
         img: "https://i.imgur.com/RXoVXmW.png"
+      },
+      {
+        number: 6,
+        cap: "Old Bonegrinder map",
+        img: "https://i.imgur.com/AOaw7x6.png"
       }
     ],
     sections: [
@@ -861,6 +866,16 @@ let locationsData = [
         number: 2,
         cap: "Wolfie",
         img: "https://i.imgur.com/U80ipYz.png"
+      },
+      {
+        number: 3,
+        cap: "Roc attack at Tsolenka Pass",
+        img: "https://i.imgur.com/nNfX6Mw.png"
+      },
+      {
+        number: 4,
+        cap: "Tsolenka Pass map",
+        img: "https://i.imgur.com/zca9YEy.jpg"
       }
     ],
     // sections: [
