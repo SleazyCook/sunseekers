@@ -2,15 +2,16 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
 import charactersData from './CharactersData'
+import CharacterModal from './sunseekers/CharacterModal'
 
 
 function CharsByCat() {
 
   const {catNumber} = useParams()
   const [charsObj, setCharsObj] = useState({})
-
   const [cardOpen, setCardOpen] = useState(false)
   const [selected, setSelected] = useState(0)
+  const [selectedObj, setSelectedObj] = useState({})
 
   let nextCat = +catNumber+1
   let prevCat = +catNumber-1
@@ -32,13 +33,19 @@ function CharsByCat() {
           </h2>
       </div>
 
+      {cardOpen && <CharacterModal charsObj={charsObj} selectedObj={selectedObj} setSelectedObj={setSelectedObj} setCardOpen={setCardOpen} selected={selected} setSelected={setSelected} />}
+
       <div className="flexbox flexbox--npc">
 
         { charsObj.characters && 
         <>
         {charsObj.characters.map((catObj) => {
           return (
-            <div className="flexbox__item--npc" key={catObj.id} value={catObj.id}>
+            <div onClick={()=> {
+              setCardOpen(true)
+              setSelected(catObj.id-1)
+              setSelectedObj(charsObj.characters[catObj.id-1])
+            }} className="flexbox__item--npc" key={catObj.id} value={catObj.id}>
               <div className="item-card">
                 <div className="item-card__heading">
                   {catObj.name}
