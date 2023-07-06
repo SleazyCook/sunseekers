@@ -5,10 +5,148 @@ let charactersData = [
     link: "/characters/sunseekers",
     characters: [
       {
+        id: 1,
+        name: "Safzira",
+        status: "Active",
+        img: "https://i.imgur.com/pG4NWum.png",
+        firstAppearance: "Session 1",
+        class: "Rogue",
+        subclass: "Arcane Trickster",
+        race: "Half elf/human",
+        description: "",
+        sections: [
+          {
+            id: 1,
+            name: "Journals",
+            description: ""
+          },
+          {
+            id: 2,
+            name: "Black Book",
+            description: ""
+          },
+          {
+            id: 3,
+            name: "Relationship with Kasimir",
+            description: ""
+          }
+        ],
+        items: [
+          {
+            id: 1,
+            name: "Magical Cloak",
+            description: ""
+          },
+          {
+            id: 2,
+            name: "Ring of Warmth"
+          },
+          {
+            id: 3,
+            name: "Sending Stones",
+            description: ""
+          }
+        ]
+      },
+      {
+        id: 2,
         name: "Alina",
-        img: "",
-
-      }
+        long: "Countess Alina Bilquis Bin Zaman A'ida De Lancret Durmont III",
+        status: "Active",
+        img: "https://i.imgur.com/B0eXKe3.png",
+        firstAppearance: "Session 22",
+        class: "Druid",
+        subclass: "Circle of Stars",
+        level: 6,
+        race: "Air Genasi",
+        description: "",
+        sections: [
+          {
+            id: 1,
+            name: "Spell Gone Wrong",
+            description: ""
+          },
+          {
+            id: 2,
+            name: "Dark Gift",
+            description: ""
+          }
+        ],
+        items: [
+          {
+            id: 1,
+            name: "Dark Gift",
+            description: ""
+          },
+          {
+            id: 2,
+            name: "Gulthias Staff",
+            description: ""
+          }
+        ]
+      },
+      {
+        id: 3,
+        name: "Bafan",
+        long: "Bafan Inko",
+        status: "Active",
+        img: "https://i.imgur.com/WFYABQT.png",
+        firstAppearance: "Session 23",
+        class: "Artificer / Wizard",
+        subclass: "Battle Smith / School of Necromancy",
+        level: 6,
+        race: "Reborn",
+        description: "",
+      },
+      {
+        id: 4,
+        name: "German",
+        long: "German the Barbarian",
+        status: "Active",
+        img: "https://i.imgur.com/2XF3c41.jpg",
+        firstAppearance: "Session 1",
+        class: "Barbarian/Fighter",
+        subclass: "Path of the Zealot",
+        race: "Human",
+        description: ""
+      },
+      {
+        id: 5,
+        name: "Umnos",
+        long: "Umnos Runbalo",
+        status: "Inactive",
+        img: "https://i.imgur.com/KeeYsZy.jpg",
+        firstAppearance: "Session 13",
+        class: "Cleric",
+        subclass: "Forge Domain",
+        race: "Half elf/human",
+        description: ""
+      },
+      {
+        id: 6,
+        name: "Elizana",
+        long: "Elizana the Halfling",
+        status: "Inactive",
+        img: "https://i.imgur.com/UNhjy3p.jpg",
+        firstAppearance: "Session 1",
+        class: "Rogue",
+        subclass: "Thief",
+        level: 5,
+        race: "Halfling",
+        description: ""
+      },
+      {
+        id: 7,
+        name: "Zoro",
+        status: "Inactive",
+        img: "https://i.imgur.com/ZZPFbGZ.png",
+        firstAppearance: "Session 14",
+        class: "Fighter",
+        subclass: "Samurai",
+        level: 4,
+        race: "Human",
+        description: "",
+      },
     ]
   },
   {

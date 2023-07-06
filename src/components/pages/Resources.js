@@ -18,19 +18,15 @@ function Resources() {
   return (
     <div>
 
-
       <div className="resources">
         <div className="heading-secondary resources__title">Player Resources</div>
       </div>
 
-
-      
-      
       <div className="flexbox">
 
         {resourcesData.map((resourcesObj) => {
           return (
-            <div className="flex__item">
+            <div className="flex__item" key={resourcesObj.number} value={resourcesObj.number}>
               <Link target="_blank" to={`${resourcesObj.link}`}>
                 <div className={`cat-card cat-card--resources-${resourcesObj.number}`}>
                   <div className="cat-card__text-box">

@@ -39,7 +39,6 @@ function TreasuresModal({itemObj, setCardOpen, selected, setSelected}) {
                 className="popup__page-button popup__page-button--previous">{treasuresData[selected+1].name}</span> : <span className="popup__page-button--placeholder">Placeholder</span>}
 
               {selected != 0 ? <span onClick={(event)=> {
-                console.log('click')
                 event.stopPropagation()
                 setSelected(selected-1)}}
                 className="popup__page-button popup__page-button--next">{treasuresData[selected-1].name}</span> : <span className="popup__page-button--placeholder">Placeholder</span>}

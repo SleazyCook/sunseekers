@@ -168,9 +168,9 @@ let treasuresData = [
     name: "Sunsword",
     image: "https://i.imgur.com/Ipg1ycR.png",
     found: "Amber Temple",
-    possession: "Umnos",
-    pLong: "Umnos Runbalo",
-    description: "The Sunsword was once a platinum and crystal sword belonging to Strahd's brother Sergei. Strahd killed his brother and order to have the sword destroyed, but it was long rumored that the hilt was preserved and lost to time. The Sunseekers fulfilled a Tarroka prophecy that led them to a secret compartment within a large statue in the Amber Temple.  The sword was hidden in an old Robe of Useful Items"
+    possession: "Bafan",
+    pLong: "Bafan Inko",
+    description: "The Sunsword was once a platinum and crystal sword belonging to Strahd's brother Sergei. Strahd killed his brother and order to have the sword destroyed, but it was long rumored that the hilt was preserved and lost to time. The Sunseekers fulfilled a Tarroka prophecy that led them to a secret compartment within a large statue in the Amber Temple.  The sword was hidden in an old Robe of Useful Items and passed from Umnos to Bafan."
   },
   {
     id: 20,

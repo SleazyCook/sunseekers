@@ -44,7 +44,7 @@ function AdventureLog() {
 
           {logData.map((entryObj) => {
             return (
-              <Link to={`/notes/adventure-log/${entryObj.number}`} className="adventure__link">
+              <Link to={`/notes/adventure-log/${entryObj.number}`} key={entryObj.number} value={entryObj.number} className="adventure__link">
               <div className={`adventure__card adventure__card--${entryObj.number}`} >
                 <div className="adventure__card-text-box">
                   <span className="adventure__card-text-box--main">

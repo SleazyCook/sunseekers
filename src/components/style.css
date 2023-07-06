@@ -971,6 +971,27 @@ body {
     .npc-card__img--tavern-owners {
       background-image: url("https://i.imgur.com/HU0bX4P.jpg");
       background-position: top; }
+    .npc-card__img--1-1 {
+      background-image: url("https://i.imgur.com/pG4NWum.png");
+      background-position: top; }
+    .npc-card__img--1-2 {
+      background-image: url("https://i.imgur.com/B0eXKe3.png");
+      background-position-y: 15%; }
+    .npc-card__img--1-3 {
+      background-image: url("https://i.imgur.com/WFYABQT.png");
+      background-position: top; }
+    .npc-card__img--1-4 {
+      background-image: url("https://i.imgur.com/2XF3c41.jpg");
+      background-position: top; }
+    .npc-card__img--1-5 {
+      background-image: url("https://i.imgur.com/KeeYsZy.jpg");
+      background-position-y: 85%; }
+    .npc-card__img--1-6 {
+      background-image: url("https://i.imgur.com/UNhjy3p.jpg");
+      background-position-y: 10%; }
+    .npc-card__img--1-7 {
+      background-image: url("https://i.imgur.com/ZZPFbGZ.png");
+      background-position-y: 30%; }
     .npc-card__img--2-1 {
       background-image: url("https://i.imgur.com/LTsLbQk.png");
       background-position: center; }

@@ -53,7 +53,7 @@ function ContentLinks() {
 
         {contentData.map((contentObj) => {
           return (
-            <Link to={`/${contentObj.link}`} className={`content-links__card content-links__card--${contentObj.number}`}>
+            <Link to={`/${contentObj.link}`} key={contentObj.number} value={contentObj.number} className={`content-links__card content-links__card--${contentObj.number}`}>
               <span className="content-links__card--name">{contentObj.title}</span>
               <div className={`content-links__card--img content-links__card--img-${contentObj.number}`}>&nbsp;</div>
             </Link>

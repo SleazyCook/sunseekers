@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
 import charactersData from './CharactersData'
-import CharacterModal from './sunseekers/CharacterModal'
+import CharacterModal from './CharacterModal'
 
 
 function CharsByCat() {
