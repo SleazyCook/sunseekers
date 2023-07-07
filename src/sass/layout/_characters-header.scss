@@ -1,0 +1,139 @@
+.characters-header {
+  background-color: green;
+  height: 400px;
+  width: 100vw;
+  position: relative;
+  margin-bottom: 3rem;
+
+  &__textbox {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    font-family: $font-header-2;
+    font-size: 6rem;
+    color: $color-primary-light;
+
+    &--main {
+
+    }
+
+    &--sub {
+      display: block;
+      font-family: $font-nav;
+    }
+  }
+
+  &--1 {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-black, 0.8), 
+      rgba(brown, 0.8)), 
+      url("https://i.imgur.com/1i4TXxO.png");
+    background-size: cover;
+    background-position-y: 80%;
+  }
+
+  &--2 {
+    background-image: url("https://i.imgur.com/a2HyvWE.png");
+    background-size: cover;
+    background-position-y: 80%;
+  }
+
+  &--3 {
+    background-image:  linear-gradient(
+      to right bottom, 
+      rgba($color-black, 0.8), 
+      rgba(blue, 0.4)), 
+      url("https://i.imgur.com/AI3WQy2.png");
+    background-size: cover;
+    background-position-y: 80%;
+  }
+
+  &--4 {
+    background-image:   linear-gradient(
+      to right bottom, 
+      rgba($color-black, 0.8), 
+      rgba(blue, 0.4)), 
+      url("https://i.imgur.com/MP7t9MN.jpg");
+    background-size: cover;
+    background-position-y: 70%;
+  }
+
+  &--5 {
+    background-image:   linear-gradient(
+      to right bottom, 
+      rgba($color-black, 0.8), 
+      rgba(blue, 0.4)), 
+      url("https://i.imgur.com/sgHpAjH.png");
+    background-size: cover;
+    background-position-y: 15%;
+  }
+
+  &--6 {
+    background-image:   
+      url("https://i.imgur.com/BdWhZ1x.png");
+    background-size: cover;
+    background-position-y: 28%;
+  }
+
+  &--7 {
+    background-image:   
+      url("https://i.imgur.com/8A8u4gR.png");
+    background-size: cover;
+    background-position-y: top;
+  }
+  
+  &--8 {
+    background-image:   
+      url("https://i.imgur.com/DSebl5S.png");
+    background-size: cover;
+    background-position-y: 30%;
+  }
+
+  &--9 {
+    background-image:   
+      url("https://i.imgur.com/cy3XEDi.png");
+    background-size: cover;
+    background-position-y: 40%;
+  }
+
+  &--10 {
+    background-image:   
+      url("https://i.imgur.com/yZeW8Ar.png");
+    background-size: cover;
+    background-position-y: 50%;
+  }
+
+  &--11 {
+    background-image:   
+      url("https://i.imgur.com/U5otWmP.png");
+    background-size: cover;
+    background-position-y: 50%;
+  }
+
+  &--12 {
+    background-image:   
+      url("https://i.imgur.com/AJ3pwmx.jpg");
+    background-size: cover;
+    background-position-y: 20%;
+  }
+
+  &--13 {
+    background-image:   
+      url("https://i.imgur.com/XqiZzw3.png");
+    background-size: cover;
+    background-position-y: 50%;
+  }
+
+  &--14 {
+    background-image:   
+      url("https://i.imgur.com/XqiZzw3.png");
+    background-size: cover;
+    background-position-y: 50%;
+  }
+
+
+
+  
+  
+}

@@ -16,8 +16,6 @@ function Characters() {
   return (
     <div>
 
-
-
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">Character Guide</h2>
       </div>
@@ -39,8 +37,6 @@ function Characters() {
         })}
         
       </div> {/* Flexbox End */}
-
-
       
     </div>
   )

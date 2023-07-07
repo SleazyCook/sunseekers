@@ -24,7 +24,7 @@ function Notes() {
 
         {journalsData.map((journalsObj) => {
           return (
-            <div className="flex__item">
+            <div className="flex__item" key={journalsObj.number} value={journalsObj.number}>
             <Link to={`${journalsObj.link}`}>
               <div className={`cat-card cat-card--journal-${journalsObj.number}`}>
                 <div className="cat-card__text-box">

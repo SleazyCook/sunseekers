@@ -1326,6 +1326,79 @@ body {
   .tarroka-card:hover .tarroka-card__side--back {
     transform: rotateY(0); }
 
+.characters-header {
+  background-color: green;
+  height: 400px;
+  width: 100vw;
+  position: relative;
+  margin-bottom: 3rem; }
+  .characters-header__textbox {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    font-family: "Bebas Neue", cursive;
+    font-size: 6rem;
+    color: #a62b0d; }
+    .characters-header__textbox--sub {
+      display: block;
+      font-family: "Yatra One", cursive; }
+  .characters-header--1 {
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(165, 42, 42, 0.8)), url("https://i.imgur.com/1i4TXxO.png");
+    background-size: cover;
+    background-position-y: 80%; }
+  .characters-header--2 {
+    background-image: url("https://i.imgur.com/a2HyvWE.png");
+    background-size: cover;
+    background-position-y: 80%; }
+  .characters-header--3 {
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 255, 0.4)), url("https://i.imgur.com/AI3WQy2.png");
+    background-size: cover;
+    background-position-y: 80%; }
+  .characters-header--4 {
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 255, 0.4)), url("https://i.imgur.com/MP7t9MN.jpg");
+    background-size: cover;
+    background-position-y: 70%; }
+  .characters-header--5 {
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 255, 0.4)), url("https://i.imgur.com/sgHpAjH.png");
+    background-size: cover;
+    background-position-y: 15%; }
+  .characters-header--6 {
+    background-image: url("https://i.imgur.com/BdWhZ1x.png");
+    background-size: cover;
+    background-position-y: 28%; }
+  .characters-header--7 {
+    background-image: url("https://i.imgur.com/8A8u4gR.png");
+    background-size: cover;
+    background-position-y: top; }
+  .characters-header--8 {
+    background-image: url("https://i.imgur.com/DSebl5S.png");
+    background-size: cover;
+    background-position-y: 30%; }
+  .characters-header--9 {
+    background-image: url("https://i.imgur.com/cy3XEDi.png");
+    background-size: cover;
+    background-position-y: 40%; }
+  .characters-header--10 {
+    background-image: url("https://i.imgur.com/yZeW8Ar.png");
+    background-size: cover;
+    background-position-y: 50%; }
+  .characters-header--11 {
+    background-image: url("https://i.imgur.com/U5otWmP.png");
+    background-size: cover;
+    background-position-y: 50%; }
+  .characters-header--12 {
+    background-image: url("https://i.imgur.com/AJ3pwmx.jpg");
+    background-size: cover;
+    background-position-y: 20%; }
+  .characters-header--13 {
+    background-image: url("https://i.imgur.com/XqiZzw3.png");
+    background-size: cover;
+    background-position-y: 50%; }
+  .characters-header--14 {
+    background-image: url("https://i.imgur.com/XqiZzw3.png");
+    background-size: cover;
+    background-position-y: 50%; }
+
 .gallery {
   border: 2px solid #180602;
   margin: 0 10rem;

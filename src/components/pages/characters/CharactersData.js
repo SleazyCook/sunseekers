@@ -2,7 +2,7 @@ let charactersData = [
   {
     number: 1,
     name: "Sunseekers",
-    link: "/characters/sunseekers",
+    link: "sunseekers",
     characters: [
       {
         id: 1,

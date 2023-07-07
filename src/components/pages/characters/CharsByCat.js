@@ -24,13 +24,13 @@ function CharsByCat() {
   return (
     <div>
 
-      <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">
-          <span className="heading-secondary--main">
+      <div className={`characters-header characters-header--${charsObj.number}`}>
+        <div className="characters-header__textbox">
+          <span className="characters-header__textbox--main">
             Character Guide</span>
-          <span className="heading-secondary--sub">
+          <span className="characters-header__textbox--sub">
             {charsObj.name}</span>
-          </h2>
+        </div>
       </div>
 
       {cardOpen && <CharacterModal charsObj={charsObj} selectedObj={selectedObj} setSelectedObj={setSelectedObj} setCardOpen={setCardOpen} selected={selected} setSelected={setSelected} />}
