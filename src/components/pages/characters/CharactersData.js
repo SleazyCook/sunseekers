@@ -436,7 +436,69 @@ let charactersData = [
     number: 5,
     name: "Keepers of the Feather",
     link: "/characters/keepers-of-the-feather",
-    description: "The Keepers of the Feather are a secret spy organization that works to defend the people of Barovia from the Devil Strahd.  Nearly all members of the organization are powerful wereravens who can easily fly from one location to another. They have two outposts: The Blue Water Inn in Vallaki and the Wizard of Wines winery south of Krezk."
+    description: "The Keepers of the Feather are a secret spy organization that works to defend the people of Barovia from the Devil Strahd.  Nearly all members of the organization are powerful wereravens who can easily fly from one location to another. They have two outposts: The Blue Water Inn in Vallaki and the Wizard of Wines winery south of Krezk.",
+    characters: [
+      {
+        id: 1,
+        name: "Danika Dorkova",
+        status: "Alive",
+        img: "https://i.imgur.com/t76siZc.png"
+      },
+      {
+        id: 2,
+        name: "Urwin Martikov",
+        status: "Alive",
+        img: "https://i.imgur.com/se3nVYA.png"
+      },
+      {
+        id: 3,
+        name: "Brom Martikov",
+        status: "Alive",
+        img: "https://i.imgur.com/BkKm4Az.png"
+      },
+      {
+        id: 4,
+        name: "Bray Martikov",
+        status: "Dead",
+        img: "https://i.imgur.com/zHZCDfN.png"
+      },
+      {
+        id: 5,
+        name: "Adrian Martikov",
+        status: "Alive",
+        img: "https://i.imgur.com/difX7Fx.png"
+      },
+      {
+        id: 6,
+        name: "Davian Martikov",
+        status: "Alive",
+        img: "https://i.imgur.com/07MZIud.png"
+      },
+      {
+        id: 7,
+        name: "Elvir Martikov",
+        status: "Alive",
+        img: "https://i.imgur.com/XKjOKyS.png"
+      },
+      {
+        id: 8,
+        name: "Stefania Martikov",
+        status: "Alive",
+        img: "https://i.imgur.com/8Ipfxo5.png"
+      },
+      {
+        id: 9,
+        name: "Dag Tomescu",
+        status: "Alive",
+        img: "https://i.imgur.com/h4eOBpz.png"
+      },
+      {
+        id: 10,
+        name: "Winery Children",
+        status: "Alive",
+        img: "https://i.imgur.com/QaO9vpj.png"
+      }
+    ]
   },
   {
     number: 6,
