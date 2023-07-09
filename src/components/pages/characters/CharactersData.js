@@ -572,45 +572,302 @@ let charactersData = [
     number: 7,
     name: "Church of the Morning Lord",
     link: "/characters/church-of-the-morninglord",
-    description: "The Church of the Morning Lord preaches the dominant faith among those who consider themselves Barovian.  There is a church dedicated to the Morning Lord in every major settlement and there is also an orphange in Vallaki.  There are fewer and fewer respresentatives of the faith in the last few years as priests have been corrupted or killed by the horrors around them.",
+    description: "The Church of the Morning Lord preaches the dominant faith among those who consider themselves Barovian.  There is a church dedicated to the Morning Lord in every major settlement and there is also an orphange in Vallaki.  There are fewer and fewer respresentatives of the faith in the last few years as priests have ben corrupted or killed by the horrors around them.",
     characters: [
       {
         id: 1,
-        name: "Donavich",
+        name: "Father Donavich",
         status: "Alive",
         img: ""
       },
       {
         id: 2,
-        name: "Lucien Petrovich",
+        name: "Feather Lucien",
+        long: "Father Lucien Petrovich",
         status: "Dead",
         img: ""
-      }
+      },
+      {
+        id: 3,
+        name: "Father Franz",
+        long: "Father Franz Petrovich",
+        status: "Alive",
+        img: ""
+      },
+      {
+        id: 4,
+        name: "Claudia Belasco",
+        status: "Alive",
+        img: "https://i.imgur.com/Ry4ksDE.png"
+      },
+      {
+        id: 5,
+        name: "Milivoj",
+        status: "Dead",
+        img: "https://i.imgur.com/nYQC8VY.jpg"
+      },
     ]
   },
   {
     number: 8,
     name: "The Baron",
     link: "/characters/the-baron",
-    description: "Baron Vargas Vallakovich comes from a long line of rulers in the town of Vallaki. He holds weekly festivals promoting life and prosperity while outlawing even the mention of Strahd or vampires within the town's walls. His laws of Malicious Unhappiness have created a lot of problems for the townsfolk.  The Baron and his family are protected by the watchful Vallaki Guard, led by the Baron's right hand man Izek Strazni."
+    description: "Baron Vargas Vallakovich comes from a long line of rulers in the town of Vallaki. He holds weekly festivals promoting life and prosperity while outlawing even the mention of Strahd or vampires within the town's walls. His laws of Malicious Unhappiness have created a lot of problems for the townsfolk.  The Baron and his family are protected by the watchful Vallaki Guard, led by the Baron's right hand man Izek Strazni.",
+    characters: [
+      {
+        id: 1,
+        name: "The Baron",
+        status: "Alive",
+        img: "https://i.imgur.com/hHguveo.png"
+      },
+      {
+        id: 2,
+        name: "The Baroness",
+        status: "Alive",
+        img: "https://i.imgur.com/Uu6FNg4.png"
+      },
+      {
+        id: 3,
+        name: "Izek Strazni",
+        status: "Alive",
+        img: "https://i.imgur.com/zwYIqcJ.png"
+      },
+      {
+        id: 4,
+        name: "Victor Vallakovich",
+        status: "Alive",
+        img: "https://i.imgur.com/TZlpDIH.png"
+      },
+      {
+        id: 5,
+        name: "Vallaki Guards",
+        status: "Alive",
+        img: "https://i.imgur.com/mYrMJos.png"
+      },
+      {
+        id: 6,
+        name: "The Butler",
+        status: "Alive",
+        img: "https://i.imgur.com/6vkrtpj.png"
+      }
+    ]
   },
   {
     number: 9,
     name: "Wachterhaus",
     link:"/characters/wachterhaus",
-    description: "Wachterhaus is the Vallaki family home of the richest family in Barovia, the Wachters.  Lord Nikolai Wachter and Lady Fiona Wachter control a great deal of influence over the town of Vallaki and are opposed politically to Baron Vargas Vallakovich.  Their sons Nikolai and Karl frequen the Blue Water Inn for drinks while their daughter Stella has not left their family home in several weeks."
+    description: "Wachterhaus is the Vallaki family home of the richest family in Barovia, the Wachters.  Lord Nikolai Wachter and Lady Fiona Wachter control a great deal of influence over the town of Vallaki and are opposed politically to Baron Vargas Vallakovich.  Their sons Nikolai and Karl frequen the Blue Water Inn for drinks while their daughter Stella has not left their family home in several weeks.",
+    characters: [
+      {
+        id: 1,
+        name: "Lady Wachter",
+        long: "Lady Fiona Wachter",
+        status: "Alive",
+        img: "https://i.imgur.com/qLO3OuR.png"
+      },
+      {
+        id: 2,
+        name: "Lord Wachter",
+        long: "Lord Nikolai Wachter",
+        status: "Alive",
+        img: "https://i.imgur.com/jo9RNTW.png"
+      },
+      {
+        id: 3,
+        name: "Ernst Larnak",
+        status: "Alive",
+        img: "https://i.imgur.com/VTYepBN.png"
+      },
+      {
+        id: 4,
+        name: "Stella Wachter",
+        status: "Alive",
+        img: "https://i.imgur.com/jLxQzr1.png"
+      },
+      {
+        id: 5,
+        name: "Nikolai Wachter",
+        status: "Alive",
+        img: "https://i.imgur.com/xd7dn5q.png"
+      },
+      {
+        id: 6,
+        name: "Karl Wachter",
+        status: "Alive",
+        img: "https://i.imgur.com/PcJwUpU.png"
+      }
+    ]
   },
   {
     number: 10,
     name: "Vallaki Merchants",
     link: "/characters/vallaki-merchants",
-    description: "In addition to the Baron's weekly festivals, Vallaki's town square hosts a variety of goods and services. This shopping district is the premier shopping district in the entire valley of Barovia. Dragomir Valisov at the Cracked Anvil once silvered weapons for the Sunseekers and Harkus Stefanovich is known for his questionable potions and salves at the local apotheocary. "
+    description: "In addition to the Baron's weekly festivals, Vallaki's town square hosts a variety of goods and services. This shopping district is the premier shopping district in the entire valley of Barovia. Dragomir Valisov at the Cracked Anvil once silvered weapons for the Sunseekers and Harkus Stefanovich is known for his questionable potions and salves at the local apotheocary. ",
+    characters: [
+      {
+        id: 1,
+        name: "Dragomir",
+        long: "Dragomir Valisov",
+        status: "Alive",
+        img: "https://i.imgur.com/9xMXn7l.png"
+      },
+      {
+        id: 2,
+        name: "Alek",
+        long: "Alek Alastroi",
+        status: "Alive",
+        img: "https://i.imgur.com/ezgNkJR.png"
+      },
+      {
+        id: 3,
+        name: "Andrej",
+        long: "Andrej Alastroi",
+        status: "Alive",
+        img: "https://i.imgur.com/GkLBY9s.png"
+      },
+      {
+        id: 4,
+        name: "Alana",
+        long: "Alana Alastroi",
+        status: "Alive",
+        img: "https://i.imgur.com/qM3iqDT.png"
+      },
+      {
+        id: 5,
+        name: "Harkus",
+        long: "Harkus Stefanovich",
+        status: "Alive",
+        img: "https://i.imgur.com/CiucFK9.jpg"
+      },
+      {
+        id: 6,
+        name: "Fatima",
+        long: "Fatima Lukresh",
+        status: "Alive",
+        img: "https://i.imgur.com/6M5oCvn.jpg"
+      },
+      {
+        id: 7,
+        name: "Tural",
+        status: "Alive",
+        img: "https://i.imgur.com/LoWGZUj.jpg"
+      },
+      {
+        id: 8,
+        name: "Bilbo",
+        status: "Alive",
+        img: "https://i.imgur.com/5nEcuuL.png"
+      },
+      {
+        id: 9,
+        name: "Ana",
+        long: "Ana Krogarov",
+        status: "Alive",
+        img: "https://i.imgur.com/5nEcuuL.png"
+      }
+    ]
   },
   {
     number: 11,
     name: "Vallaki Citizens",
     link: "/characters/vallaki-citizens",
-    description: "As the most populated settlement in Vallaki, this town offers the widest variety of townsfolk and visitors. From established noble families to poor orphans and eccentric traveling bards, Vallaki is full of characters and bustling with activity. Many of these characters can be found coming and going to the Blue Water Inn, town square, or the local brothel."
+    description: "As the most populated settlement in Vallaki, this town offers the widest variety of townsfolk and visitors. From established noble families to poor orphans and eccentric traveling bards, Vallaki is full of characters and bustling with activity. Many of these characters can be found coming and going to the Blue Water Inn, town square, or the local brothel.",
+    characters: [
+      {
+        id: 1,
+        name: "Rictavio",
+        long: "Rictavio / Rudloph Van Richten",
+        status: "Alive",
+        img: "https://i.imgur.com/tYEzwNQ.png"
+      },
+      {
+        id: 2,
+        name: "Blinsky",
+        long: "Gadof Blinsky",
+        status: "Alive",
+        img: "https://i.imgur.com/QefdavN.png"
+      },
+      {
+        id: 3,
+        name: "Madame Genie",
+        status: "Alive",
+        img: "https://i.imgur.com/W1VrGtT.png"
+      },
+      {
+        id: 4,
+        name: "Genie's Ladies",
+        status: "Alive",
+        img: "https://i.imgur.com/OqbzSGS.png"
+      },
+      {
+        id: 5,
+        name: "Vasili",
+        status: "Alive",
+        img: "https://i.imgur.com/3tdnSi9.png"
+      },
+      {
+        id: 6,
+        name: "Henrik",
+        long: "Henrik Van Der Root",
+        status: "Dead",
+        img: "https://i.imgur.com/YBZxjjh.png"
+      },
+      {
+        id: 7,
+        name: "Bluto",
+        status: "Alive",
+        img: "https://i.imgur.com/RVBXqGV.png"
+      },
+      {
+        id: 8,
+        name: "Lars Kjurls",
+        status: "Alive",
+        img: "https://i.imgur.com/iNCA7ea.jpg"
+      },
+      {
+        id: 9,
+        name: "Orphans",
+        status: "Active",
+        img: ",https://i.imgur.com/rMeg8Jx.png"
+      },
+      {
+        id: 10,
+        name: "Felix",
+        status: "Alive",
+        img: "https://i.imgur.com/EpTyfoZ.png"
+      },
+      {
+        id: 11,
+        name: "Hair Puller",
+        long: "Hair Pulling Girl",
+        status: "Alive",
+        img: "https://i.imgur.com/3V86wmr.png"
+      },
+      {
+        id: 12,
+        name: "Lizard Boy",
+        status: "Alive",
+        img: "https://i.imgur.com/2n73COe.jpg"
+      },
+      {
+        id: 13,
+        name: "Ace",
+        status: "Alive",
+        img: "https://i.imgur.com/OpBoXpH.jpg"
+      },
+      {
+        id: 14,
+        name: "Szoldar",
+        status: "Alive",
+        img: "https://i.imgur.com/J3BbMEv.png"
+      },
+      {
+        id: 15,
+        name: "Yevgeni",
+        status: "Alive",
+        img: "https://i.imgur.com/ikZfS2x.png"
+      }
+    ]
   },
   {
     number: 12,
