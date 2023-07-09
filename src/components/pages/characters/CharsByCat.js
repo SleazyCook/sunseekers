@@ -46,6 +46,8 @@ function CharsByCat() {
 
       {/* {charsObj.name == "Creatures" && <>Hello</>} */}
 
+      {charactersData[catNumber-1].characters ? <></> : <>Content Coming Soon...</>}
+
         { charsObj.characters && 
         <>
         {charsObj.characters.map((catObj) => {

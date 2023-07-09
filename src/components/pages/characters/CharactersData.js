@@ -113,6 +113,14 @@ let charactersData = [
       },
       {
         id: 5,
+        name: "Freebird",
+        status: "Dead",
+        img: "",
+        firstAppearance: "Session 1",
+        class: "Wizard",
+      },
+      {
+        id: 6,
         name: "Umnos",
         long: "Umnos Runbalo",
         status: "Inactive",
@@ -124,7 +132,7 @@ let charactersData = [
         description: ""
       },
       {
-        id: 6,
+        id: 7,
         name: "Elizana",
         long: "Elizana the Halfling",
         status: "Inactive",
@@ -137,7 +145,7 @@ let charactersData = [
         description: ""
       },
       {
-        id: 7,
+        id: 8,
         name: "Zoro",
         status: "Inactive",
         img: "https://i.imgur.com/ZZPFbGZ.png",
@@ -873,7 +881,93 @@ let charactersData = [
     number: 12,
     name: "Witches & Cults",
     link: "/characters/witches-and-cults",
-    description: "In the deepest and darkest corners of Barovia, there are those who conspire against all light and goodness.  There are dark sacrificial rituals in hidden basements and secret societies with questionable intentions.  Missing children in the valley are never found and yet dream pastries are always easy enough to find."
+    description: "In the deepest and darkest corners of Barovia, there are those who conspire against all light and goodness.  There are dark sacrificial rituals in hidden basements and secret societies with questionable intentions.  Missing children in the valley are never found and yet dream pastries are always easy enough to find.",
+    characters: [
+      {
+        id: 1,
+        name: "Priests of Osybus",
+        status: "Unknown",
+        img: ""
+      },
+      {
+        id: 2,
+        name: "Gustav Durst",
+        status: "Dead",
+        img: ""
+      },
+      {
+        id: 3,
+        name: "Elizabeth Durst",
+        status: "Dead",
+        img: ""
+      },
+      {
+        id: 4,
+        name: "Mill Witches",
+        status: "Inactive",
+        img: ""
+      },
+      {
+        id: 5,
+        name: "Bella",
+        status: "Alive",
+        img: ""
+      },
+      {
+        id: 6,
+        name: "Ophelia",
+        status: "Dead",
+        img: ""
+      },
+      {
+        id: 7,
+        name: "Morgantha",
+        status: "Alive",
+        img: ""
+      },
+      {
+        id: 8,
+        name: "Barovian Witches",
+        status: "Active",
+        img: ""
+      },
+      {
+        id: 9,
+        name: "Kavani Druids",
+        status: "Active",
+        img: ""
+      },
+      {
+        id: 10,
+        name: "Gaine",
+        status: "Dead",
+        img: ""
+      },
+      {
+        id: 11,
+        name: "Salali",
+        status: "Dead",
+        img: ""
+      },
+      {
+        id: 12,
+        name: "Echo",
+        status: "Dead",
+        img: ""
+      },
+      {
+        id: 13,
+        name: "Winery Druids",
+        status: "Dead",
+        img: ""
+      },
+      {
+        id: 14,
+        name: "Gulthias Holder",
+        status: "Dead",
+        img: ""
+      }
+    ]
   },
   {
     number: 13,
