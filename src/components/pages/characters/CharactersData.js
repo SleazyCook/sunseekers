@@ -504,7 +504,69 @@ let charactersData = [
     number: 6,
     name: "Order of the Silver Dragon",
     link: "/characters/order-of-the-silver-dragon",
-    description: "The Order of the Silver Dragon was founded by the silver dragon Argonvost.  The knights constructed the castle Argonvostholt in his name and the outpost Tsolenka Pass on the road to the Amber Temple.  Argonvost and his knights successfully kept the horrors of the Amber Temple away from the living for many years until Strahd and his invading army killed every member of the Order."
+    description: "The Order of the Silver Dragon was founded by the silver dragon Argonvost.  The knights constructed the castle Argonvostholt in his name and the outpost Tsolenka Pass on the road to the Amber Temple.  Argonvost and his knights successfully kept the horrors of the Amber Temple away from the living for many years until Strahd and his invading army killed every member of the Order.",
+    characters: [
+      {
+        id: 1,
+        name: "Argonvost",
+        status: "Dead",
+        img: "https://i.imgur.com/gMBEsmH.png"
+      },
+      {
+        id: 2,
+        name: "Sir Vladimir",
+        long: "Sir Vladimir Horngaard",
+        status: "Undead",
+        img: "https://i.imgur.com/8s2uE3q.png"
+      },
+      {
+        id: 3,
+        name: "Sir Godfrey",
+        long: "Sir Godfrey Gilwyn",
+        status: "Undead",
+        img: "https://i.imgur.com/I3Gc3uT.png"
+      },
+      {
+        id: 4,
+        name: "Revenants",
+        status: "Active",
+        img: "https://i.imgur.com/0IVdyxP.png"
+      },
+      {
+        id: 5,
+        name: "Gofrey's Knights",
+        status: "Active",
+        img: "https://i.imgur.com/ESpelam.png"
+      },
+      {
+        id: 6,
+        name: "Sir Erich",
+        long: "Sir Erich Norinthaal",
+        status: "Dead",
+        img: "https://i.imgur.com/akPmTiU.png"
+      },
+      {
+        id: 7,
+        name: "Sir Damien",
+        long: "Sir Damien Hargrove",
+        status: "Undead",
+        img: "https://i.imgur.com/lslqYhu.png"
+      },
+      {
+        id: 8,
+        name: "Sir Robern",
+        long: "Sir Robern Boarwin",
+        status: "Undead",
+        img: "https://i.imgur.com/oicL9Ap.png"
+      },
+      {
+        id: 9,
+        name: "Arthund",
+        long: "Arthund Boarwin",
+        status: "Undead",
+        img: "https://i.imgur.com/TEMI1tp.png"
+      }
+    ]
   },
   {
     number: 7,
