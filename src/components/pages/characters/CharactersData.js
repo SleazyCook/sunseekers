@@ -887,85 +887,85 @@ let charactersData = [
         id: 1,
         name: "Priests of Osybus",
         status: "Unknown",
-        img: ""
+        img: "https://i.imgur.com/v0UJOI8.png"
       },
       {
         id: 2,
         name: "Gustav Durst",
         status: "Dead",
-        img: ""
+        img: "https://i.imgur.com/c5F4D19.jpg"
       },
       {
         id: 3,
         name: "Elizabeth Durst",
         status: "Dead",
-        img: ""
+        img: "https://i.imgur.com/otQXN1s.jpg"
       },
       {
         id: 4,
         name: "Mill Witches",
         status: "Inactive",
-        img: ""
+        img: "https://i.imgur.com/OVBsusR.png"
       },
       {
         id: 5,
         name: "Bella",
         status: "Alive",
-        img: ""
+        img: "https://i.imgur.com/8KHprnt.png"
       },
       {
         id: 6,
         name: "Ophelia",
         status: "Dead",
-        img: ""
+        img: "https://i.imgur.com/RXoVXmW.png"
       },
       {
         id: 7,
         name: "Morgantha",
         status: "Alive",
-        img: ""
+        img: "https://i.imgur.com/p7NId0c.png"
       },
       {
         id: 8,
         name: "Barovian Witches",
         status: "Active",
-        img: ""
+        img: "https://i.imgur.com/yZG0VQI.png"
       },
       {
         id: 9,
         name: "Kavani Druids",
         status: "Active",
-        img: ""
+        img: "https://i.imgur.com/KSYMOqH.png"
       },
       {
         id: 10,
         name: "Gaine",
         status: "Dead",
-        img: ""
+        img: "https://i.imgur.com/VoYlJs4.png"
       },
       {
         id: 11,
         name: "Salali",
         status: "Dead",
-        img: ""
+        img: "https://i.imgur.com/zFeuyQZ.png"
       },
       {
         id: 12,
         name: "Echo",
         status: "Dead",
-        img: ""
+        img: "https://i.imgur.com/YkfPLBR.png"
       },
       {
         id: 13,
         name: "Winery Druids",
         status: "Dead",
-        img: ""
+        img: "https://i.imgur.com/2DdxjJp.png"
       },
       {
         id: 14,
         name: "Gulthias Holder",
         status: "Dead",
-        img: ""
+        img: "https://i.imgur.com/0w6Wqx2.png"
       }
     ]
   },
