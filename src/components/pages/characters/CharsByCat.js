@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 
 import charactersData from './CharactersData'
 import CharacterModal from './CharacterModal'
+import PageButtons from './PageButtons'
 
 
 function CharsByCat() {
@@ -19,7 +20,7 @@ function CharsByCat() {
   useEffect(() => {
     setCharsObj(charactersData[catNumber-1])
     window.scrollTo({top: 0, left: 0})
-  }, [])
+  }, [catNumber])
 
   return (
     <div>
@@ -33,9 +34,17 @@ function CharsByCat() {
         </div>
       </div>
 
+      <div className="characters-header__description">{charsObj.description}</div>
+
+      <PageButtons catNumber={catNumber} prevCat={prevCat} nextCat={nextCat} className="u-margin-bottom-medium"/>
+
+      <br />
+
       {cardOpen && <CharacterModal charsObj={charsObj} selectedObj={selectedObj} setSelectedObj={setSelectedObj} setCardOpen={setCardOpen} selected={selected} setSelected={setSelected} />}
 
       <div className="flexbox flexbox--npc">
+
+      {/* {charsObj.name == "Creatures" && <>Hello</>} */}
 
         { charsObj.characters && 
         <>
@@ -51,10 +60,10 @@ function CharsByCat() {
                   {catObj.name}
                 </div>
                 <div className={`npc-card__img npc-card__img--${charsObj.number}-${catObj.id}`}>&nbsp;</div>
-                <div className="item-card__possess">
+                {catObj.status && <div className="item-card__possess">
                   Status: &nbsp;
                   <span className="item-card__possess--name">{catObj.status}</span>
-                </div>
+                </div> }
               </div>
             </div>
           )
@@ -64,6 +73,9 @@ function CharsByCat() {
       </div>
 
       <br />
+
+      <PageButtons catNumber={catNumber} prevCat={prevCat} nextCat={nextCat} className="u-margin-medium"/>
+
 
     </div>
   )

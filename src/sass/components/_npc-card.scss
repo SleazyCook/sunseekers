@@ -62,99 +62,8 @@
     -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
 
-    // village of barovia
-
-    &--rose {
-      background-image: url("https://i.imgur.com/IrTKHqP.jpg");
-      background-position: center;
-    }
-
-    &--thorn {
-      background-image: url("https://i.imgur.com/zvK212S.jpg");
-      background-position: center;
-    }
-
-    &--gustav {
-      background-image: url("https://i.imgur.com/c5F4D19.jpg");
-      background-position: center;
-    }
-
-    &--elizabeth {
-      background-image: url("https://i.imgur.com/otQXN1s.jpg");
-      background-position: center;
-    }
-
-    &--walter {
-      background-image: url("https://i.imgur.com/l2cD0Wh.jpg");
-      background-position: center;
-    }
-
-    &--nursemaid {
-      background-image: url("https://i.imgur.com/TPaXcpo.png");
-      background-position: center;
-    }
-
-    &--mrs-cobb {
-      background-image: url("https://i.imgur.com/Gd7Sfuw.jpg");
-      background-position: top;
-    }
-
-    &--mr-cobb {
-      background-image: url("https://i.imgur.com/WMynXM9.jpg");
-      background-position: top;
-    }
-
-    &--kolyan-indirovich {
-      background-image: url("https://i.imgur.com/tAjmnfI.jpg");
-      background-position: top;
-    }
     
-    &--ismark-indirovich {
-      background-image: url("https://i.imgur.com/R0aJebI.jpg");
-      background-position: center;
-    }
-
-    &--ireena-kolyana {
-      background-image: url("https://i.imgur.com/5iWx4Sl.png");
-      background-position: top;
-    }
-
-    &--parriwimple {
-      background-image: url("https://i.imgur.com/FBIPhZK.png");
-      background-position: top;
-    }
-
-    &--bildrath {
-      background-image: url("https://i.imgur.com/XVWw2G1.png");
-      background-position: top;
-    }
-
-    &--father-donavich {
-      background-image: url("https://i.imgur.com/jr6osuv.jpg");
-      background-position: top;
-    }
-
-    &--doru {
-      background-image: url("https://i.imgur.com/AprGNcu.png");
-      background-position: center;
-    }
-
-    &--mad-mary {
-      background-image: url("https://i.imgur.com/96kr5JK.jpg");
-      background-position: center;
-    }
-
-    &--lancelot {
-      background-image: url("https://i.imgur.com/BNcaXW9.jpg");
-      background-position: top;
-    }
-
-    &--tavern-owners {
-      background-image: url("https://i.imgur.com/HU0bX4P.jpg");
-      background-position: top;
-    }
-
-    // Sunseekers - 1
+    // 1. Sunseekers 
 
     // Safzira
     &--1-1 {
@@ -247,347 +156,668 @@
       background-position: top;
     }
 
-    // Vistani
 
-    &--viktor-lazlo {
+    // 3. village of barovia
+
+    // Rose
+    &--3-1 {
+      background-image: url("https://i.imgur.com/IrTKHqP.jpg");
+      background-position: center;
+    }
+
+    // Thorn
+    &--3-2 {
+      background-image: url("https://i.imgur.com/zvK212S.jpg");
+      background-position: center;
+    }
+
+    // Gustav
+    &--3-3 {
+      background-image: url("https://i.imgur.com/c5F4D19.jpg");
+      background-position: center;
+    }
+
+    // Elizabeth
+    &--3-4 {
+      background-image: url("https://i.imgur.com/otQXN1s.jpg");
+      background-position: center;
+    }
+
+    // Walter
+    &--3-5 {
+      background-image: url("https://i.imgur.com/l2cD0Wh.jpg");
+      background-position: center;
+    }
+
+    // Nursemaid
+    &--3-6 {
+      background-image: url("https://i.imgur.com/TPaXcpo.png");
+      background-position: center;
+    }
+
+    // Mrs Cobb
+    &--3-7 {
+      background-image: url("https://i.imgur.com/Gd7Sfuw.jpg");
+      background-position: top;
+    }
+
+    // Mr Cobb
+    &--3-8 {
+      background-image: url("https://i.imgur.com/WMynXM9.jpg");
+      background-position: top;
+    }
+
+    // Kolyan
+    &--3-9 {
+      background-image: url("https://i.imgur.com/tAjmnfI.jpg");
+      background-position: top;
+    }
+    
+    // Ismark
+    &--3-10 {
+      background-image: url("https://i.imgur.com/R0aJebI.jpg");
+      background-position: center;
+    }
+
+    // Ireena
+    &--3-11 {
+      background-image: url("https://i.imgur.com/5iWx4Sl.png");
+      background-position: top;
+    }
+
+    // Parriwimple
+    &--3-12 {
+      background-image: url("https://i.imgur.com/FBIPhZK.png");
+      background-position: top;
+    }
+
+    // Bildrath
+    &--3-13 {
+      background-image: url("https://i.imgur.com/XVWw2G1.png");
+      background-position: top;
+    }
+
+    // Donavich
+    &--3-14,
+    &--7-1 {
+      background-image: url("https://i.imgur.com/jr6osuv.jpg");
+      background-position: top;
+    }
+
+    // Doru
+    &--3-15 {
+      background-image: url("https://i.imgur.com/AprGNcu.png");
+      background-position: center;
+    }
+
+    // mad Mary
+    &--3-16 {
+      background-image: url("https://i.imgur.com/96kr5JK.jpg");
+      background-position: center;
+    }
+
+    // lancelot
+    &--3-17 {
+      background-image: url("https://i.imgur.com/BNcaXW9.jpg");
+      background-position: top;
+    }
+
+      // gertruda
+    &--3-18 {
+      background-image: url("https://i.imgur.com/vxbkllB.png");
+      background-position: top;
+    }
+
+    // tavern owners
+    &--3-19,
+    &--4-13 {
+      background-image: url("https://i.imgur.com/HU0bX4P.jpg");
+      background-position: top;
+    }
+
+    // 4. Vistani
+
+    // viktor lazlo
+    &--4-1 {
       background-image: url("https://i.imgur.com/DUF2lfE.png");
       background-position: top;
     }
 
-    &--madame-eva {
+    // madame eva
+    &--4-2 {
       background-image: url("https://i.imgur.com/4TAGQ2R.jpg");
       background-position: top;
     }
 
-    &--tser-pool {
+    // tser pool
+    &--4-3 {
       background-image: url("https://i.imgur.com/4ESFX6g.png");
       background-position: center;
     }
 
-    &--vallaki-camp {
+    // vallaki camp
+    &--4-4 {
       background-image: url("https://i.imgur.com/BhKS1uC.png");
       background-position: top;
     }
 
-    &--luvash {
+    // luvash
+    &--4-5 {
       background-image: url("https://i.imgur.com/zPDSJWv.png");
       background-position: top;
     }
 
-    &--arrigal {
+    // arrigal
+    &--4-6 {
       background-image: url("https://i.imgur.com/cJuJgQy.png");
       background-position: top;
     }
 
-    &--arabelle {
+    // arabelle
+    &--4-7 {
       background-image: url("https://i.imgur.com/mUPMdul.png");
       background-position: center;
     }
 
-    &--alexei {
+    // alexei
+    &--4-8 {
       background-image: url("https://i.imgur.com/kJkTaka.png");
       background-position: center;
     }
 
-    &--kasimir {
+    // kasimir
+    &--4-9 {
       background-image: url("https://i.imgur.com/VbVKHji.png");
       background-position: top;
     }
 
-    &--dusk-elves {
+    // dusk elves
+    &--4-10 {
       background-image: url("https://i.imgur.com/q3lsE1z.png");
       background-position: center;
     }
 
-    &--vistani-nomads {
+    // vistani nomads
+    &--4-11 {
       background-image: url("https://i.imgur.com/tyNOTjk.png");
       background-position: top;
     }
 
-    &--ezmerelda {
+    // ez
+    &--4-12 {
       background-image: url("https://i.imgur.com/Zs0iM18.png");
       background-position: top;
     }
 
-    // Keepers of the Feather
+    // 5. Keepers of the Feather
 
-    &--danika-dorakova {
+    // danika
+    &--5-1 {
       background-image: url("https://i.imgur.com/t76siZc.png");
       background-position: top;
     }
 
-    &--urwin-martikov {
+    // urwin
+    &--5-2 {
       background-image: url("https://i.imgur.com/se3nVYA.png");
       background-position: top;
     }
 
-    &--brom-martikov {
+    // brom
+    &--5-3 {
       background-image: url("https://i.imgur.com/BkKm4Az.png");
       background-position: center;
     }
 
-    &--bray-martikov {
+    // bray
+    &--5-4 {
       background-image: url("https://i.imgur.com/zHZCDfN.png");
       background-position: center;
     }
 
-    // Order of the Silver Dragon
+    // adrian
 
-    &--argynvost {
+    // davian
+
+    // elvir
+
+    // stefania
+
+    // dag
+
+    // four children. including baby
+
+    // 6. Order of the Silver Dragon
+
+    // argonvost
+    &--6-1 {
       background-image: url("https://i.imgur.com/gMBEsmH.png");
       background-position: center;
     }
 
-    &--vladimir-horngaard {
+    // vladimir
+    &--6-2 {
       background-image: url("https://i.imgur.com/8s2uE3q.png");
       background-position: center;
     }
 
-    &--godfrey-gilwyn {
+    // godfrey
+    &--6-3 {
       background-image: url("https://i.imgur.com/I3Gc3uT.png");
       background-position: center;
     }
 
-    &--vladimirs-revenants {
+    // vlad revs
+    &--6-4 {
       background-image: url("https://i.imgur.com/0IVdyxP.png");
       background-position: center;
     }
 
-    &--godfreys-revenants {
+    // godfreys revs
+    &--6-5 {
       background-image: url("https://i.imgur.com/ESpelam.png");
       background-position: center;
     }
 
-    &--erich-norinthaal {
+    // erich
+    &--6-6 {
       background-image: url("https://i.imgur.com/akPmTiU.png");
       background-position: center;
     }
 
-    &--damien-hargrove {
+    // damien
+    &--6-7 {
       background-image: url("https://i.imgur.com/lslqYhu.png");
       background-position: top;
     }
 
-    &--arthund-boarwin {
+    // arthund
+    &--6-8 {
       background-image: url("https://i.imgur.com/TEMI1tp.png");
       background-position: center;
     }
 
-    &--robern-teray {
+    // robern
+    &--6-9 {
       background-image: url("https://i.imgur.com/oicL9Ap.png");
       background-position: center;
     }
 
-    // Church of the Morning Lord
+    // 7. Church of the Morning Lord
 
     // father donavich above in barovia section
 
-    &--lucien-petrovich {
+    // lucien
+    &--7-2 {
       background-image: url("https://i.imgur.com/rgYIjKd.png");
-      background-position: top;
+      background-position-y: 20%;
     }
 
-    &--franz-petrovich {
+    // franz
+    &--7-3 {
       background-image: url("https://i.imgur.com/jT8iGgN.png");
       background-position: top;
     }
 
-    &--claudia-belasco {
+    // claudia
+    &--7-4 {
       background-image: url("https://i.imgur.com/Ry4ksDE.png");
       background-position: center;
     }
 
-    &--milivoj {
+    // milivoj
+    &--7-5 {
       background-image: url("https://i.imgur.com/nYQC8VY.jpg");
       background-position: center;
     }
 
-    // Baron - Vallaki
+    // 8. Baron - Vallaki
 
-    &--baron-vallakovich {
+    // baron
+    &--8-1 {
       background-image: url("https://i.imgur.com/hHguveo.png");
       background-position: top;
     }
 
-    &--baroness {
+    // baroness
+    &--8-2 {
       background-image: url("https://i.imgur.com/Uu6FNg4.png");
       background-position: top;
     }
 
-    &--izek-strazni {
+    // izek
+    &--8-3 {
       background-image: url("https://i.imgur.com/zwYIqcJ.png");
       background-position: center;
     }
 
-    &--victor-vallakovich {
+    // victor
+    &--8-4 {
       background-image: url("https://i.imgur.com/TZlpDIH.png");
       background-position: center;
     }
 
-    &--vallaki-guards {
+    // guards
+    &--8-5 {
       background-image: url("https://i.imgur.com/mYrMJos.png");
       background-position: center;
     }
 
-    &--butler {
+    // butler
+    &--8-6 {
       background-image: url("https://i.imgur.com/6vkrtpj.png");
       background-position: top;
     }
 
-    // Vallaki Merchants
+    // 9. Wachterhaus
 
-    &--dragomir-valisov {
-      background-image: url("https://i.imgur.com/9xMXn7l.png");
-      background-position: top;
-    }
-
-    &--alek-alastroi {
-      background-image: url("https://i.imgur.com/ezgNkJR.png");
-      background-position: top;
-    }
-
-    &--andrej-alastroi {
-      background-image: url("https://i.imgur.com/GkLBY9s.pngg");
-      background-position: top;
-    }
-
-    &--alana-alastroi {
-      background-image: url("https://i.imgur.com/qM3iqDT.png");
-      background-position: top;
-    }
-
-    &--harkus-stefanovich {
-      background-image: url("https://i.imgur.com/CiucFK9.jpg");
-      background-position: top;
-    }
-
-    &--fatima-lukresh {
-      background-image: url("https://i.imgur.com/6M5oCvn.jpg");
-      background-position: top;
-    }
-
-    &--tural {
-      background-image: url("https://i.imgur.com/LoWGZUj.jpg");
-      background-position: center;
-    }
-
-    &--bilbo {
-      background-image: url("https://i.imgur.com/SrppwD9.jpg");
-      background-position: center;
-    }
-
-    &--ana-krogarov {
-      background-image: url("https://i.imgur.com/5nEcuuL.png");
-      background-position: top;
-    }
-
-    // Vallaki Citizens
-
-    &--rictavio {
-      background-image: url("https://i.imgur.com/tYEzwNQ.png");
-      background-position: center;
-    }
-
-    &--gadof-blinsky {
-      background-image: url("https://i.imgur.com/QefdavN.png");
-      background-position: top;
-    }
-
-    &--madame-genie {
-      background-image: url("https://i.imgur.com/W1VrGtT.png");
-      background-position: center;
-    }
-
-    &--genies-ladies {
-      background-image: url("https://i.imgur.com/OqbzSGS.png");
-      background-position: top;
-    }
-
-    &--vasili {
-      background-image: url("https://i.imgur.com/3tdnSi9.png");
-      background-position: top;
-    }
-
-    &--henrik-van-der-root {
-      background-image: url("https://i.imgur.com/YBZxjjh.png");
-      background-position: top;
-    }
-
-    &--bluto {
-      background-image: url("https://i.imgur.com/RVBXqGV.png");
-      background-position: top;
-    }
-
-    &--lars-kjurls {
-      background-image: url("https://i.imgur.com/iNCA7ea.jpg");
-      background-position: top;
-    }
-
-    &--orphans {
-      background-image: url("https://i.imgur.com/rMeg8Jx.png");
-      background-position: top;
-    }
-
-    &--felix {
-      background-image: url("https://i.imgur.com/EpTyfoZ.png");
-      background-position: top;
-    }
-
-    &--hair-puller {
-      background-image: url("https://i.imgur.com/3V86wmr.png");
-      background-position: top;
-    }
-
-    &--lizard-boy {
-      background-image: url("https://i.imgur.com/2n73COe.jpg");
-      background-position: top;
-    }
-
-    &--ace {
-      background-image: url("https://i.imgur.com/OpBoXpH.jpg");
-      background-position: center;
-    }
-
-    &--szoldar-szoldarovich {
-      background-image: url("https://i.imgur.com/J3BbMEv.png");
-      background-position: top;
-    }
-
-    &--yevgeni-krushkin {
-      background-image: url("https://i.imgur.com/ikZfS2x.png");
-      background-position: top;
-    }
-
-    // Wachterhaus
-
-    &--fiona-wachter {
+    // fiona
+    &--9-1 {
       background-image: url("https://i.imgur.com/qLO3OuR.png");
       background-position: top;
     }
 
-    &--nikolai-wachter {
+    // nikolai sr
+    &--9-2 {
       background-image: url("https://i.imgur.com/jo9RNTW.png");
       background-position: top;
     }
 
-    &--ernst-larnak {
+    // ernst
+    &--9-3 {
       background-image: url("https://i.imgur.com/VTYepBN.png");
       background-position: top;
     }
 
-    &--stella-wachter {
+    // stella
+    &--9-4 {
       background-image: url("https://i.imgur.com/jLxQzr1.png");
       background-position: top;
     }
 
-    &--nikolai-jr {
+    // nikolai jr
+    &--9-5 {
       background-image: url("https://i.imgur.com/xd7dn5q.png");
       background-position: top;
     }
 
-    &--karl-wachter {
+    // karl
+    &--9-6 {
       background-image: url("https://i.imgur.com/PcJwUpU.png");
       background-position: top;
     }    
+
+    //  10. Vallaki Merchants
+
+    // dargomir
+    &--10-1 {
+      background-image: url("https://i.imgur.com/9xMXn7l.png");
+      background-position: top;
+    }
+
+    // alek
+    &--10-2 {
+      background-image: url("https://i.imgur.com/ezgNkJR.png");
+      background-position: top;
+    }
+
+    // andrej
+    &--10-3 {
+      background-image: url("https://i.imgur.com/GkLBY9s.pngg");
+      background-position: top;
+    }
+
+    // alana
+    &--10-4 {
+      background-image: url("https://i.imgur.com/qM3iqDT.png");
+      background-position: top;
+    }
+
+    // harkus
+    &--10-5 {
+      background-image: url("https://i.imgur.com/CiucFK9.jpg");
+      background-position: top;
+    }
+
+    // fatima
+    &--10-6 {
+      background-image: url("https://i.imgur.com/6M5oCvn.jpg");
+      background-position: top;
+    }
+
+    // tural
+    &--10-7 {
+      background-image: url("https://i.imgur.com/LoWGZUj.jpg");
+      background-position: center;
+    }
+
+    // bilbo
+    &--10-8 {
+      background-image: url("https://i.imgur.com/SrppwD9.jpg");
+      background-position: center;
+    }
+
+    // ana
+    &--10-9 {
+      background-image: url("https://i.imgur.com/5nEcuuL.png");
+      background-position: top;
+    }
+
+    // 11. Vallaki Citizens
+
+    // rictavio
+    &--11-1 {
+      background-image: url("https://i.imgur.com/tYEzwNQ.png");
+      background-position: center;
+    }
+
+    // blinsky
+    &--11-2 {
+      background-image: url("https://i.imgur.com/QefdavN.png");
+      background-position: top;
+    }
+
+    // genie
+    &--11-3 {
+      background-image: url("https://i.imgur.com/W1VrGtT.png");
+      background-position: center;
+    }
+
+    // ladies
+    &--11-4 {
+      background-image: url("https://i.imgur.com/OqbzSGS.png");
+      background-position: top;
+    }
+
+    // vasili
+    &--11-5 {
+      background-image: url("https://i.imgur.com/3tdnSi9.png");
+      background-position: top;
+    }
+
+    // henrik
+    &--11-6 {
+      background-image: url("https://i.imgur.com/YBZxjjh.png");
+      background-position: top;
+    }
+
+    // bluto
+    &--11-7 {
+      background-image: url("https://i.imgur.com/RVBXqGV.png");
+      background-position: top;
+    }
+
+    // lars
+    &--11-8 {
+      background-image: url("https://i.imgur.com/iNCA7ea.jpg");
+      background-position: top;
+    }
+
+    // orphans
+    &--11-9 {
+      background-image: url("https://i.imgur.com/rMeg8Jx.png");
+      background-position: top;
+    }
+
+    // felix
+    &--11-10 {
+      background-image: url("https://i.imgur.com/EpTyfoZ.png");
+      background-position: top;
+    }
+
+    // hair puller
+    &--11-11 {
+      background-image: url("https://i.imgur.com/3V86wmr.png");
+      background-position: top;
+    }
+
+    // lizard boy
+    &--11-12 {
+      background-image: url("https://i.imgur.com/2n73COe.jpg");
+      background-position: top;
+    }
+
+    // ace
+    &--11-13 {
+      background-image: url("https://i.imgur.com/OpBoXpH.jpg");
+      background-position: center;
+    }
+
+    // szoldar
+    &--11-14 {
+      background-image: url("https://i.imgur.com/J3BbMEv.png");
+      background-position: top;
+    }
+
+    // yevgeni
+    &--11-15 {
+      background-image: url("https://i.imgur.com/ikZfS2x.png");
+      background-position: top;
+    }
+
+    
+
+    // 14 - Creatures 
+
+    // Wolf
+    &--14-1 {
+      background-image: url("https://i.imgur.com/FchATzr.png");
+      background-position: top;
+    }
+    // Ghost
+    &--14-2 {
+      background-image: url("https://i.imgur.com/BSf0lL6.png");
+      background-position: top;
+    }
+    // Animated Armor
+    &--14-3 {
+      background-image: url("https://i.imgur.com/TeqirPq.png");
+      background-position: top;
+    }
+    // Animated Broom
+    &--14-4 {
+      background-image: url("https://i.imgur.com/qIFem41.png");
+      background-position: bottom;
+    }
+    // Flesh Mound
+    &--14-5 {
+      background-image: url("https://i.imgur.com/inlnQP8.png");
+      background-position: top;
+    }
+    // Dire Wolf
+    &--14-6 {
+      background-image: url("https://i.imgur.com/Un8MIPO.pngg");
+      background-position-y: 20%;
+    }
+    // Revenant
+    &--14-7 {
+      background-image: url("https://i.imgur.com/MRV3Uvp.png");
+      background-position: top;
+    }
+    // Skeleton
+    &--14-8 {
+      background-image: url("https://i.imgur.com/MbQkuxZ.png");
+      background-position-y: 20%;
+    }
+    // Zombie
+    &--14-9 {
+      background-image: url("https://i.imgur.com/uRYQa0I.png");
+      background-position: top;
+    }
+    // Vampire Spawn
+    &--14-10 {
+      background-image: url("https://i.imgur.com/EK3IakO.png");
+      background-position: top;
+    }
+    // Bat
+    &--14-11 {
+      background-image: url("https://i.imgur.com/o8uk0mv.png");
+      background-position: bottom;
+    }
+    // Mimic
+    &--14-12 {
+      background-image: url("https://i.imgur.com/uHvJOv1.png");
+      background-position: top;
+    }
+    // Smoke Mephit
+    &--14-13 {
+      background-image: url("https://i.imgur.com/mId5MjR.png");
+      background-position-y: 80%;
+    }
+    // Phantom Warrior
+    &--14-14 {
+      background-image: url("https://i.imgur.com/GKocPLC.png");
+      background-position-y: 30%;
+    }
+    // Scarecrow
+    &--14-15 {
+      background-image: url("https://i.imgur.com/r2Tqbat.png");
+      background-position: top;
+    }
+    // Red Dragon Wyrmling
+    &--14-16 {
+      background-image: url("https://i.imgur.com/eTV0kyQ.png");
+      background-position: top;
+    }
+    // Gargoyle
+    &--14-17 {
+      background-image: url("https://i.imgur.com/WbNjTLi.png");
+      background-position: top;
+    }
+    // Twig Blights
+    &--14-18 {
+      background-image: url("https://i.imgur.com/gwflAR2.png");
+      background-position: top;
+    }
+    // Needle Blights
+    &--14-19 {
+      background-image: url("https://i.imgur.com/c1FQ3g3.png");
+      background-position: top;
+    }
+    // Vine Blight
+    &--14-20 {
+      background-image: url("https://i.imgur.com/LusaZ0u.png");
+      background-position-y: 30%;
+    }
+    // Flameskull
+    &--14-21 {
+      background-image: url("https://i.imgur.com/X7kl2pr.png");
+      background-position-y: 70%;
+    }
+    // Amber Golem
+    &--14-22 {
+      background-image: url("https://i.imgur.com/koRNfiJ.png");
+      background-position: top;
+    }
+    // Roc
+    &--14-23 {
+      background-image: url("https://i.imgur.com/nNfX6Mw.png");
+      background-position: top;
+    }
+    // Tree Blight
+    &--14-24 {
+      background-image: url("https://i.imgur.com/JYG1BK9.png");
+      background-position: top;
+    }
   }
 }

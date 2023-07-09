@@ -1,5 +1,4 @@
 .characters-header {
-  background-color: green;
   height: 400px;
   width: 100vw;
   position: relative;
@@ -23,11 +22,24 @@
     }
   }
 
+  &__description {
+    height: fit-content;
+    width: 90%;
+    background-color: $color-grey-dark-1;
+    border-radius: 1rem;
+    margin: 0px auto;
+    margin-bottom: 3rem;
+    padding: 3rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: $color-white-soft;
+  }
+
   &--1 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-black, 0.8), 
-      rgba(brown, 0.8)), 
+      rgba(brown, 0.4)), 
       url("https://i.imgur.com/1i4TXxO.png");
     background-size: cover;
     background-position-y: 80%;
@@ -42,8 +54,8 @@
   &--3 {
     background-image:  linear-gradient(
       to right bottom, 
-      rgba($color-black, 0.8), 
-      rgba(blue, 0.4)), 
+      rgba($color-black, 0.9), 
+      rgba(blue, 0.1)), 
       url("https://i.imgur.com/AI3WQy2.png");
     background-size: cover;
     background-position-y: 80%;
@@ -53,31 +65,38 @@
     background-image:   linear-gradient(
       to right bottom, 
       rgba($color-black, 0.8), 
-      rgba(blue, 0.4)), 
+      rgba(green, 0.1)), 
       url("https://i.imgur.com/MP7t9MN.jpg");
     background-size: cover;
     background-position-y: 70%;
   }
 
+  // keepers of the feather
   &--5 {
     background-image:   linear-gradient(
       to right bottom, 
-      rgba($color-black, 0.8), 
-      rgba(blue, 0.4)), 
+      rgba($color-black, .9), 
+      rgba($color-black, 0.7)), 
       url("https://i.imgur.com/sgHpAjH.png");
     background-size: cover;
     background-position-y: 15%;
   }
 
   &--6 {
-    background-image:   
+    background-image:   linear-gradient(
+      to right bottom, 
+      rgba($color-black, .4), 
+      rgba($color-black, 0.2)), 
       url("https://i.imgur.com/BdWhZ1x.png");
     background-size: cover;
     background-position-y: 28%;
   }
 
   &--7 {
-    background-image:   
+    background-image:   linear-gradient(
+      to right bottom, 
+      rgba($color-black, .8), 
+      rgba(brown, 0.2)), 
       url("https://i.imgur.com/8A8u4gR.png");
     background-size: cover;
     background-position-y: top;
@@ -91,36 +110,51 @@
   }
 
   &--9 {
-    background-image:   
+    background-image:   linear-gradient(
+      to right bottom, 
+      rgba($color-primary-dark, .6), 
+      rgba(gold, 0.1)), 
       url("https://i.imgur.com/cy3XEDi.png");
     background-size: cover;
     background-position-y: 40%;
   }
 
   &--10 {
-    background-image:   
+    background-image:   linear-gradient(
+      to right bottom, 
+      rgba($color-black, .8), 
+      rgba(purple, 0.4)), 
       url("https://i.imgur.com/yZeW8Ar.png");
     background-size: cover;
     background-position-y: 50%;
   }
 
   &--11 {
-    background-image:   
+    background-image:   linear-gradient(
+      to right bottom, 
+      rgba($color-black, .6), 
+      rgba($color-black, 0.5)), 
       url("https://i.imgur.com/U5otWmP.png");
     background-size: cover;
     background-position-y: 50%;
   }
 
   &--12 {
-    background-image:   
+    background-image:   linear-gradient(
+      to right bottom, 
+      rgba($color-black, .5), 
+      rgba($color-black, 0.7)), 
       url("https://i.imgur.com/AJ3pwmx.jpg");
     background-size: cover;
     background-position-y: 20%;
   }
 
   &--13 {
-    background-image:   
-      url("https://i.imgur.com/XqiZzw3.png");
+    background-image:   linear-gradient(
+      to right bottom, 
+      rgba($color-black, .6), 
+      rgba($color-black, 0.2)), 
+      url("https://i.imgur.com/616cC9W.png");
     background-size: cover;
     background-position-y: 50%;
   }
@@ -132,8 +166,4 @@
     background-position-y: 50%;
   }
 
-
-
-  
-  
 }

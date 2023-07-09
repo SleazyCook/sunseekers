@@ -25,7 +25,7 @@ function Characters() {
         {charactersData.map((charactersObj) => {
           return (
             <div className="flex__item" key={charactersObj.number}>
-              <Link to={`${charactersObj.link}`}>
+              <Link to={`./${charactersObj.number}`}>
                 <div className={`cat-card cat-card--characters-${charactersObj.number}`}>
                   <div className="cat-card__text-box">
                     <h3 className="cat-card__title">{charactersObj.name}</h3>

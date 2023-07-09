@@ -3,6 +3,7 @@ let charactersData = [
     number: 1,
     name: "Sunseekers",
     link: "sunseekers",
+    description: "The original Sunseekers, Elizana, German, and Safzira, were misled by Viktor Lazlo with false promises of work in a traveling show traveling to the valley of Barovia.  Over time the group has encountered many set backs in their plight against the darkness of the valley.  Several adventurers have come and gone, but there is always at least one group of Sunseekers entertaining the Devil Strahd.",
     characters: [
       {
         id: 1,
@@ -153,6 +154,7 @@ let charactersData = [
     number: 2,
     name: "Castle Ravenloft",
     link: "/characters/castle-ravenloft",
+    description: "Castle Ravenloft is home to Count Strahd Von Zarovich.  While his right hand man, the dusk elf Rahadin, and Cyrus Belview are the castle's caretakers, Strahd has filled his castle with romantic escorts and strange horrors around every corner to entertain him.",
     characters: [
       {
         id: 1,
@@ -222,62 +224,435 @@ let charactersData = [
   {
     number: 3,
     name: "Village of Barovia",
-    link: "/characters/village-of-barovia"
+    link: "/characters/village-of-barovia",
+    description: "The citizens of Barovia live in the fearful shadow of Castle Ravenloft above. They have experienced every horror imaginable, leaving the people in this area extremely vulnerable.  Ismark has stepped up as burgomaster after his father died, but struggles every day to protect the surviving townsfolk.",
+    characters: [
+      {
+        id: 1,
+        name: "Rose Durst",
+        status: "Dead",
+        img: "https://i.imgur.com/IrTKHqP.jpg"
+      },
+      {
+        id: 2,
+        name: "Thorn Durst",
+        status: "Dead",
+        img: "https://i.imgur.com/zvK212S.jpg"
+      },
+      {
+        id: 3,
+        name: "Gustav Durst",
+        status: "Dead",
+        img: "https://i.imgur.com/c5F4D19.jpg"
+      },
+      {
+        id: 4,
+        name: "Elizabeth Durst",
+        status: "Dead",
+        img: "https://i.imgur.com/otQXN1s.jpg"
+      },
+      {
+        id: 5,
+        name: "Walter Durst",
+        status: "Dead",
+        img: "https://i.imgur.com/l2cD0Wh.jpg"
+      },
+      {
+        id: 6,
+        name: "Durst Nursemaid",
+        status: "Dead",
+        img: "https://i.imgur.com/TPaXcpo.png"
+      },
+      {
+        id: 7,
+        name: "Mrs. Cobb",
+        status: "Dead",
+        img: "https://i.imgur.com/Gd7Sfuw.jpg"
+      },
+      {
+        id: 8,
+        name: "Mr. Cobb",
+        status: "Dead",
+        img: "https://i.imgur.com/WMynXM9.jpg"
+      },
+      {
+        id: 9,
+        name: "Kolyan Indirovich",
+        status: "Dead",
+        img: "https://i.imgur.com/tAjmnfI.jpg"
+      },
+      {
+        id: 10,
+        name: "Ismark Indirovich",
+        status: "Alive",
+        img: "https://i.imgur.com/R0aJebI.jpg"
+      },
+      {
+        id: 11,
+        name: "Ireena Kolyana",
+        status: "Alive",
+        img: "https://i.imgur.com/5iWx4Sl.png"
+      },
+      {
+        id: 12,
+        name: "Parriwimple",
+        status: "Alive",
+        img: "https://i.imgur.com/FBIPhZK.png"
+      },
+      {
+        id: 13,
+        name: "Bildrath",
+        status: "Alive",
+        img: "https://i.imgur.com/XVWw2G1.png"
+      },
+      {
+        id: 14,
+        name: "Father Donavich",
+        status: "Alive",
+        img: "https://i.imgur.com/jr6osuv.jpg"
+      },
+      {
+        id: 15,
+        name: "Doru",
+        status: "Dead",
+        img: "https://i.imgur.com/AprGNcu.png"
+      },
+      {
+        id: 16,
+        name: "Mad Mary",
+        status: "Alive",
+        img: "https://i.imgur.com/96kr5JK.jpg"
+      },
+      {
+        id: 17,
+        name: "Lancelot",
+        status: "Alive",
+        img: "https://i.imgur.com/BNcaXW9.jpg"
+      },
+      {
+        id: 18,
+        name: "Gertruda",
+        status: "Unknown",
+        img: "https://i.imgur.com/vxbkllB.png"
+      },
+      {
+        id: 19,
+        name: "Tavern Owners",
+        status: "Alive",
+        img: "https://i.imgur.com/HU0bX4P.jpg"
+      }
+    ]
   },
   {
     number: 4,
     name: "Vistani",
-    link: "/characters/vistani"
+    link: "/characters/vistani",
+    description: "The Vistani people are known for their nomadic lifestyle.  Although there are some permanant camps outside of Vallaki and the Village of Barovia, most Vistani spend their time traveling throughout the valley.  This has led to rumors that they are portected by Strahd and the only beings allowed to pass through the surrounding mists.",
+    characters: [
+      {
+        id: 1,
+        name: "Viktor Lazlo",
+        status: "Undead",
+        img: "https://i.imgur.com/DUF2lfE.png"
+      },
+      {
+        id: 2,
+        name: "Madame Eva",
+        status: "Alive",
+        img: "https://i.imgur.com/4TAGQ2R.jpg"
+      },
+      {
+        id: 13,
+        name: "Tavern Owners",
+        status: "Alive",
+        img: "https://i.imgur.com/HU0bX4P.jpg"
+      },
+      {
+        id: 3,
+        name: "Tser Pool Camp",
+        long: "Tser Pool Encampment",
+        status: "Active",
+        img: "https://i.imgur.com/4ESFX6g.png"
+      },
+      {
+        id: 4,
+        name: "Vallaki Camp",
+        long: "Vallaki Vistani Camp",
+        status: "Active",
+        img: "https://i.imgur.com/BhKS1uC.png"
+      },
+      {
+        id: 5,
+        name: "Luvash",
+        status: "Alive",
+        img: "https://i.imgur.com/zPDSJWv.png"
+      },
+      {
+        id: 6,
+        name: "Arrigal",
+        status: "Alive",
+        img: "https://i.imgur.com/cJuJgQy.png"
+      },
+      {
+        id: 7,
+        name: "Arabelle",
+        status: "Alive",
+        img: "https://i.imgur.com/mUPMdul.png"
+      },
+      {
+        id: 8,
+        name: "Alexei",
+        status: "Alive",
+        img: "https://i.imgur.com/kJkTaka.png"
+      },
+      {
+        id: 9,
+        name: "Kasimir",
+        long: "Kasimir Velikov",
+        status: "Alive",
+        img: "https://i.imgur.com/VbVKHji.png"
+      },
+      {
+        id: 10,
+        name: "Dusk Elves",
+        status: "Active",
+        img: "https://i.imgur.com/q3lsE1z.png"
+      },
+      {
+        id: 11,
+        name: "Vistani Nomads",
+        status: "Active",
+        img: "https://i.imgur.com/tyNOTjk.png"
+      },
+      {
+        id: 12,
+        name: "Ez d'Avenir",
+        status: "Alive",
+        img: "https://i.imgur.com/Zs0iM18.png"
+      }
+    ]
   },
   {
     number: 5,
     name: "Keepers of the Feather",
-    link: "/characters/keepers-of-the-feather"
+    link: "/characters/keepers-of-the-feather",
+    description: "The Keepers of the Feather are a secret spy organization that works to defend the people of Barovia from the Devil Strahd.  Nearly all members of the organization are powerful wereravens who can easily fly from one location to another. They have two outposts: The Blue Water Inn in Vallaki and the Wizard of Wines winery south of Krezk."
   },
   {
     number: 6,
     name: "Order of the Silver Dragon",
-    link: "/characters/order-of-the-silver-dragon"
+    link: "/characters/order-of-the-silver-dragon",
+    description: "The Order of the Silver Dragon was founded by the silver dragon Argonvost.  The knights constructed the castle Argonvostholt in his name and the outpost Tsolenka Pass on the road to the Amber Temple.  Argonvost and his knights successfully kept the horrors of the Amber Temple away from the living for many years until Strahd and his invading army killed every member of the Order."
   },
   {
     number: 7,
     name: "Church of the Morning Lord",
-    link: "/characters/church-of-the-morninglord"
+    link: "/characters/church-of-the-morninglord",
+    description: "The Church of the Morning Lord preaches the dominant faith among those who consider themselves Barovian.  There is a church dedicated to the Morning Lord in every major settlement and there is also an orphange in Vallaki.  There are fewer and fewer respresentatives of the faith in the last few years as priests have been corrupted or killed by the horrors around them.",
+    characters: [
+      {
+        id: 1,
+        name: "Donavich",
+        status: "Alive",
+        img: ""
+      },
+      {
+        id: 2,
+        name: "Lucien Petrovich",
+        status: "Dead",
+        img: ""
+      }
+    ]
   },
   {
     number: 8,
     name: "The Baron",
-    link: "/characters/the-baron"
+    link: "/characters/the-baron",
+    description: "Baron Vargas Vallakovich comes from a long line of rulers in the town of Vallaki. He holds weekly festivals promoting life and prosperity while outlawing even the mention of Strahd or vampires within the town's walls. His laws of Malicious Unhappiness have created a lot of problems for the townsfolk.  The Baron and his family are protected by the watchful Vallaki Guard, led by the Baron's right hand man Izek Strazni."
   },
   {
     number: 9,
     name: "Wachterhaus",
-    link:"/characters/wachterhaus"
+    link:"/characters/wachterhaus",
+    description: "Wachterhaus is the Vallaki family home of the richest family in Barovia, the Wachters.  Lord Nikolai Wachter and Lady Fiona Wachter control a great deal of influence over the town of Vallaki and are opposed politically to Baron Vargas Vallakovich.  Their sons Nikolai and Karl frequen the Blue Water Inn for drinks while their daughter Stella has not left their family home in several weeks."
   },
   {
     number: 10,
     name: "Vallaki Merchants",
-    link: "/characters/vallaki-merchants"
+    link: "/characters/vallaki-merchants",
+    description: "In addition to the Baron's weekly festivals, Vallaki's town square hosts a variety of goods and services. This shopping district is the premier shopping district in the entire valley of Barovia. Dragomir Valisov at the Cracked Anvil once silvered weapons for the Sunseekers and Harkus Stefanovich is known for his questionable potions and salves at the local apotheocary. "
   },
   {
     number: 11,
     name: "Vallaki Citizens",
-    link: "/characters/vallaki-citizens"
+    link: "/characters/vallaki-citizens",
+    description: "As the most populated settlement in Vallaki, this town offers the widest variety of townsfolk and visitors. From established noble families to poor orphans and eccentric traveling bards, Vallaki is full of characters and bustling with activity. Many of these characters can be found coming and going to the Blue Water Inn, town square, or the local brothel."
   },
   {
     number: 12,
     name: "Witches & Cults",
-    link: "/characters/witches-and-cults"
+    link: "/characters/witches-and-cults",
+    description: "In the deepest and darkest corners of Barovia, there are those who conspire against all light and goodness.  There are dark sacrificial rituals in hidden basements and secret societies with questionable intentions.  Missing children in the valley are never found and yet dream pastries are always easy enough to find."
   },
   {
     number: 13,
     name: "Unknown Alliance",
-    link: "/characters/unknown-alliance"
+    link: "/characters/unknown-alliance",
+    description: "Barovia is a dangerous place filled with questionable characters with unknown motivations.  Some people aren't honest about who they are or who they are allied with. It is ultimately up to the Sunseekers to decide for themselves who is trusworthy and who isn't. One can only hope that they make the best decisions."
   },
   {
     number: 14,
     name: "Creatures",
-    link: "/characters/creatures"
+    link: "/characters/creatures",
+    description: "The Old Svalich Road and surrounding Svalich Woods are not safe to travel without an experienced guide.  There are vicious wolves ready to attack unsuspecting travelers at every possible moment and undead march through the valley without limitation.  One can never expect which horror or monstrosity they may encounter on their adventures.",
+    characters: [
+      {
+        id: 1,
+        name: "Wolf",
+        img: "https://i.imgur.com/FchATzr.png",
+        description: ""
+      },
+      {
+        id: 2,
+        name: "Ghost",
+        img: "https://i.imgur.com/BSf0lL6.png",
+        description: ""
+      },
+      {
+        id: 3,
+        name: "Animated Armor",
+        img: "https://i.imgur.com/TeqirPq.png",
+        description: ""
+      },
+      {
+        id: 4,
+        name: "Animated Broom",
+        long: "Broom of Animated Attack",
+        img: "https://i.imgur.com/qIFem41.png",
+        description: ""
+      },
+      {
+        id: 5,
+        name: "Flesh Mound",
+        img: "https://i.imgur.com/inlnQP8.png",
+        description: ""
+      },
+      {
+        id: 6,
+        name: "Dire Wolf",
+        img: "https://i.imgur.com/Un8MIPO.png",
+        description: "",
+      },
+      {
+        id: 7, 
+        name: "Revenant",
+        img: "https://i.imgur.com/MRV3Uvp.png",
+        description: "",
+      },
+      {
+        id: 8,
+        name: "Skeleton",
+        img: "https://i.imgur.com/MbQkuxZ.png",
+        description: ""
+      },
+      {
+        id: 9,
+        name: "Zombie",
+        img: "https://i.imgur.com/uRYQa0I.png",
+        description: ""
+      },
+      {
+        id: 10,
+        name: "Vampire Spawn",
+        img: "https://i.imgur.com/EK3IakO.png",
+        description: ""
+      },
+      {
+        id: 11,
+        name: "Bat",
+        img: "https://i.imgur.com/o8uk0mv.png",
+        description: ""
+      },
+      {
+        id: 12,
+        name: "Mimic",
+        img: "https://i.imgur.com/uHvJOv1.png",
+        description: ""
+      },
+      {
+        id: 13,
+        name: "Smoke Mephit",
+        img: "https://i.imgur.com/mId5MjR.png",
+        description: ""
+      },
+      {
+        id: 14,
+        name: "Phantom Warrior",
+        img: "https://i.imgur.com/GKocPLC.png",
+        description: ""
+      },
+      {
+        id: 15,
+        name: "Scarecrow",
+        img: "https://i.imgur.com/r2Tqbat.png",
+        description: ""
+      },
+      {
+        id: 16,
+        name: "Red Wyrmling",
+        long: "Red Dragon Wyrmling",
+        img: "https://i.imgur.com/eTV0kyQ.png",
+        description: ""
+      },
+      {
+        id: 17,
+        name: "Gargoyle",
+        img: "https://i.imgur.com/WbNjTLi.png",
+        description: ""
+      },
+      {
+        id: 18,
+        name: "Twig Blight",
+        img: "https://i.imgur.com/gwflAR2.png",
+        description: ""
+      },
+      {
+        id: 19,
+        name: "Needle Blight",
+        img: "https://i.imgur.com/c1FQ3g3.png",
+        description: ""
+      },
+      {
+        id: 20,
+        name: "Vine Blight",
+        img: "https://i.imgur.com/LusaZ0u.png",
+        description: ""
+      },
+      {
+        id: 21,
+        name: "Flameskull",
+        img: "https://i.imgur.com/X7kl2pr.png",
+        description: ""
+      },
+      {
+        id: 22,
+        name: "Amber Golem",
+        img: "https://i.imgur.com/koRNfiJ.png",
+        description: ""
+      },
+      {
+        id: 23,
+        name: "Roc",
+        img: "https://i.imgur.com/nNfX6Mw.png",
+        description: ""
+      },
+      {
+        id: 24,
+        name: "Tree Blight",
+        img: "https://i.imgur.com/JYG1BK9.png",
+        description: ""
+      }
+    ]
   }
 ]
 
