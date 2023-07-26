@@ -15,6 +15,11 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
         
         <div className="item-card__heading">{selectedObj.long ? selectedObj.long : selectedObj.name}</div>
 
+        <div className="flexbox">
+          <div>1</div>
+          <div>2</div>
+        </div>
+
         <div className="popup__page-button--flexbox">
           {selected != 0 ? <span onClick={(event) => {
             event.stopPropagation()
