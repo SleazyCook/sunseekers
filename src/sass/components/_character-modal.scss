@@ -1,0 +1,31 @@
+.character-modal {
+
+  &__image {
+    max-height: 700px;
+    max-width: 350px;
+  }
+
+  &__flex {
+    display: flex;
+    padding: 2rem;
+
+    &--right {
+      padding-left: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-content: space-around;
+      justify-content: space-around;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+  }
+
+  &__description {
+    font-family: $font-clean;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+
+
+}

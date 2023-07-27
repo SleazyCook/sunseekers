@@ -15,7 +15,7 @@ let charactersData = [
         class: "Rogue",
         subclass: "Arcane Trickster",
         race: "Half elf/human",
-        description: "Safzira is known for her ",
+        description: "Safzira is known for her charm and trickery. Arriving in Barovia with Freebird, she spent the first few weeks of her time in the valley filling up her black book. ",
         sections: [
           {
             id: 1,
@@ -40,16 +40,19 @@ let charactersData = [
           {
             id: 1,
             name: "Magical Cloak",
-            description: ""
+            description: "",
+            localLinks: {}
           },
           {
             id: 2,
-            name: "Ring of Warmth"
+            name: "Ring of Warmth",
+            localLinks: {}
           },
           {
             id: 3,
             name: "Sending Stones",
-            description: ""
+            description: "",
+            localLinks: {}
           }
         ]
       },
@@ -81,12 +84,14 @@ let charactersData = [
           {
             id: 1,
             name: "Dark Gift",
-            description: ""
+            description: "",
+            localLinks: {}
           },
           {
             id: 2,
             name: "Gulthias Staff",
-            description: ""
+            description: "",
+            localLinks: {}
           }
         ]
       },

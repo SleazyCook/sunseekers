@@ -18,41 +18,55 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
 
 
 
-        <div className="flexbox">
-          <div><img src={selectedObj.img} /></div>
+        <div className="character-modal__flex">
+          <div><img className="character-modal__image" src={selectedObj.img} /></div>
 
           {/* Details Box Start */}
-          <div className="details-box">
+          <div className="character-modal__flex--right">
+            <div className="character-modal__description">{selectedObj.description}</div>
+              <div className="details-box">
 
-            <div>{selectedObj.description}</div>
+              {/* Player Character Top */}
+              {selectedObj.class && <>
+                <div className="details-box__section">
+                  <div className="details-box__section--left">Level {selectedObj.level}</div>
+                  <div className="details-box__section--right">{selectedObj.class}, {selectedObj.subclass}</div>
+                </div>
+                
 
-            {/* Player Character Top */}
-            {selectedObj.class && <div className="details-box__section">
-              <div className="details-box__section--left">Level {selectedObj.level}</div>
-              <div className="details-box__section--right">{selectedObj.class}</div>
+                <div className="details-box__section">
+                  <div className="details-box__section--left"><b>Race</b></div>
+                  <div className="details-box__section--right">{selectedObj.race}</div>
+                </div>
+
+                {selectedObj.items && <div className="details-box__section">
+                  <div className="details-box__section--left"><b>Special Items</b></div>
+                  <div className="details-box__section--right">
+                    {selectedObj.items.map((itemsObj) => {
+                    return (
+                      <span key={itemsObj.id} value={itemsObj.id} className="hyperlink" style={{whiteSpace:'break-spaces'}}>
+                        {itemsObj.name && renderWithLinks(itemsObj.name, itemsObj.localLinks)},&nbsp;
+                      </span>
+                      )
+                    })}
+                  </div>
+                </div> }
+
+
+
+              </> }
 
               <div className="details-box__section">
-                <div className="details-box__section--left"><b>Race</b></div>
-                <div className="details-box__section--right">{selectedObj.race}</div>
+                <div className="details-box__section--left"><b>First Appearance</b></div>
+                <div className="details-box__section--right">{selectedObj.firstAppearance}</div>
               </div>
 
-              {selectedObj.items && <div className="details-box__section">
-                <div className="details-box__section--left"><b>Special Items</b></div>
-                <div className="details-box__section--right">{selectedObj.firstAppearance}</div>
-              </div> }
+              <div className="details-box__section">
+                <div className="details-box__section--left"><b>Status</b></div>
+                <div className="details-box__section--right">{selectedObj.status}</div>
+              </div>
 
-            </div> }
-
-            <div className="details-box__section">
-              <div className="details-box__section--left"><b>First Appearance</b></div>
-              <div className="details-box__section--right">{selectedObj.firstAppearance}</div>
             </div>
-
-            <div className="details-box__section">
-              <div className="details-box__section--left"><b>Status</b></div>
-              <div className="details-box__section--right">{selectedObj.status}</div>
-            </div>
-
           </div>
           {/* Details Box End */}
         </div>

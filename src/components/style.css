@@ -641,6 +641,28 @@ body {
     background-position: center;
     background-blend-mode: hue; }
 
+.character-modal__image {
+  max-height: 700px;
+  max-width: 350px; }
+
+.character-modal__flex {
+  display: flex;
+  padding: 2rem; }
+  .character-modal__flex--right {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 4rem; }
+
+.character-modal__description {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 0 auto; }
+
 .details-box {
   padding: .5rem;
   margin-bottom: 7rem; }
