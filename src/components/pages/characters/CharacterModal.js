@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 
 import charactersData from './CharactersData'
+import renderWithLinks from '../notes/HyperlinkFunction'
 
 function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, selected, setSelected}) { 
 
@@ -12,13 +13,60 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
     <div className="modal-box modal-box--fixed" id="detailed-media-parent" onClick={()=> {setCardOpen(false)}}>
 
       <div className="treasures__table--popup treasures-pop popup">
-        
+
         <div className="item-card__heading">{selectedObj.long ? selectedObj.long : selectedObj.name}</div>
 
+
+
         <div className="flexbox">
-          <div>1</div>
-          <div>2</div>
+          <div><img src={selectedObj.img} /></div>
+
+          {/* Details Box Start */}
+          <div className="details-box">
+
+            <div>{selectedObj.description}</div>
+
+            {/* Player Character Top */}
+            {selectedObj.class && <div className="details-box__section">
+              <div className="details-box__section--left">Level {selectedObj.level}</div>
+              <div className="details-box__section--right">{selectedObj.class}</div>
+
+              <div className="details-box__section">
+                <div className="details-box__section--left"><b>Race</b></div>
+                <div className="details-box__section--right">{selectedObj.race}</div>
+              </div>
+
+              {selectedObj.items && <div className="details-box__section">
+                <div className="details-box__section--left"><b>Special Items</b></div>
+                <div className="details-box__section--right">{selectedObj.firstAppearance}</div>
+              </div> }
+
+            </div> }
+
+            <div className="details-box__section">
+              <div className="details-box__section--left"><b>First Appearance</b></div>
+              <div className="details-box__section--right">{selectedObj.firstAppearance}</div>
+            </div>
+
+            <div className="details-box__section">
+              <div className="details-box__section--left"><b>Status</b></div>
+              <div className="details-box__section--right">{selectedObj.status}</div>
+            </div>
+
+          </div>
+          {/* Details Box End */}
         </div>
+
+        {selectedObj.sections && selectedObj.sections.map((sectionsObj) => {
+          return (
+            <div key={sectionsObj.id} value={sectionsObj.id} className="page-section">
+              <span className="page-section__title heading-tertiary">{sectionsObj.name}</span>
+              <p className="hyperlink" style={{whiteSpace:'break-spaces'}}>
+                {sectionsObj.description && renderWithLinks(sectionsObj.description, sectionsObj.localLinks)}
+              </p>
+            </div>
+          )
+        })}
 
         <div className="popup__page-button--flexbox">
           {selected != 0 ? <span onClick={(event) => {

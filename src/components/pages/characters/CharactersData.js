@@ -11,25 +11,29 @@ let charactersData = [
         status: "Active",
         img: "https://i.imgur.com/pG4NWum.png",
         firstAppearance: "Session 1",
+        level: 7,
         class: "Rogue",
         subclass: "Arcane Trickster",
         race: "Half elf/human",
-        description: "",
+        description: "Safzira is known for her ",
         sections: [
           {
             id: 1,
             name: "Journals",
-            description: ""
+            description: "Safzira keeps her journal",
+            localLinks: {}
           },
           {
             id: 2,
             name: "Black Book",
-            description: ""
+            description: "",
+            localLinks: {}
           },
           {
             id: 3,
             name: "Relationship with Kasimir",
-            description: ""
+            description: "",
+            localLinks: {}
           }
         ],
         items: [
