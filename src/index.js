@@ -38,7 +38,6 @@ import Church from './components/pages/characters/Church'
 import Dragon from './components/pages/characters/Dragon'
 import Feather from './components/pages/characters/Feather'
 import Merchants from './components/pages/characters/Merchants'
-import Ravenloft from './components/pages/characters/Ravenloft'
 import Unknown from './components/pages/characters/Unknown'
 import Vallaki from './components/pages/characters/Vallaki'
 import Vistani from './components/pages/characters/Vistani'
@@ -170,10 +169,6 @@ export const router = createBrowserRouter([
       {
         path: "characters/vallaki-merchants",
         element: <Merchants />
-      },
-      {
-        path: "characters/castle-ravenloft",
-        element: <Ravenloft />
       },
       {
         path: "characters/unknown-alliance",
