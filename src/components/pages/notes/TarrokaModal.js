@@ -1,8 +1,15 @@
 import { Link } from 'react-router-dom'
 
 function TarrokaModal({cardObj, setCardOpen}) {
+
+  function handleCloseModal(event) {
+    if (event.target.id === 'detailed-media-parent') {
+      setCardOpen(false)
+    }
+  }
+
   return (
-    <div className="modal-box" id="detailed-media-parent" onClick={()=>{setCardOpen(false)}} >
+    <div className="modal-box" id="detailed-media-parent" onClick={handleCloseModal} >
 
       <div className="tarroka-new__table--popup tarroka-pop" > 
 

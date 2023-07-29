@@ -4,9 +4,14 @@ import treasuresData from "./TreasuresData"
 
 function TreasuresModal({itemObj, setCardOpen, selected, setSelected}) {
 
+  function handleCloseModal(event) {
+    if (event.target.id === 'detailed-media-parent') {
+      setCardOpen(false)
+    }
+  }
 
   return (
-    <div className='modal-box modal-box--fixed' id='detailed-media-parent' onClick={()=>{setCardOpen(false)}} >
+    <div className='modal-box modal-box--fixed' id='detailed-media-parent' onClick={handleCloseModal} >
 
       <div className="treasures__table--popup treasures-pop popup">
 
