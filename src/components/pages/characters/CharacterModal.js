@@ -94,13 +94,13 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
             setSelected(selected-1)
             setSelectedObj(charsObj.characters[selected-1])
             }}
-            className="popup__page-button popup__page-button--previous">{charsObj.characters[selected-1].name}</span> : <span>No Prev</span>}
+            className="popup__page-button popup__page-button--previous">{charsObj.characters[selected-1].name}</span> : <span className="hidden">No Prev</span>}
 
           {selected != charsObj.characters.length-1 ? <span onClick={(event) => {
             event.stopPropagation()
             setSelected(selected+1)
             setSelectedObj(charsObj.characters[selected+1])
-          }} className="popup__page-button popup__page-button--next">{charsObj.characters[selected+1].name}</span> : <span> No Next </span>}
+          }} className="popup__page-button popup__page-button--next">{charsObj.characters[selected+1].name}</span> : <span className="hidden"> No Next </span>}
         </div>
 
         <br />

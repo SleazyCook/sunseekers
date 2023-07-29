@@ -214,6 +214,9 @@ body {
 .u-padding-medium {
   padding: 4rem !important; }
 
+.hidden {
+  opacity: 0 !important; }
+
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
