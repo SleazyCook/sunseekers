@@ -667,6 +667,8 @@ body {
 
 .character-modal__description {
   font-family: "Lato", sans-serif;
+  color: #e6e6e6;
+  text-align: justify;
   font-size: 2rem;
   padding: 1rem;
   padding-bottom: 2rem;
