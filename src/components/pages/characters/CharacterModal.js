@@ -19,12 +19,12 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
 
 
         <div className="character-modal__flex">
-          <div><img className="character-modal__image" src={selectedObj.img} /></div>
+          <div className="character-modal__image-box"><img className="character-modal__image" src={selectedObj.img} /></div>
 
           {/* Details Box Start */}
           <div className="character-modal__flex--right">
             <div className="character-modal__description">{selectedObj.description}</div>
-              <div className="details-box">
+              <div className="details-box character-modal__details-box">
 
               {/* Player Character Top */}
               {selectedObj.class && <>
@@ -51,10 +51,16 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
                     })}
                   </div>
                 </div> }
-
-
-
               </> }
+
+              {/* NPC Top */}
+              {selectedObj.title && <>
+                <div className="details-box__section">
+                  {/* <div className="details-box__section--left"></div>
+                  <div className="details-box__section--right">{selectedObj.class}, {selectedObj.subclass}</div> */}
+                  {selectedObj.title}
+                </div>
+              </>}
 
               <div className="details-box__section">
                 <div className="details-box__section--left"><b>First Appearance</b></div>
@@ -96,6 +102,9 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
             setSelectedObj(charsObj.characters[selected+1])
           }} className="popup__page-button popup__page-button--next">{charsObj.characters[selected+1].name}</span> : <span> No Next </span>}
         </div>
+
+        <br />
+
       </div>
 
     </div>

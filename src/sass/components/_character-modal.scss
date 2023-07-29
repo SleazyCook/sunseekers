@@ -1,22 +1,28 @@
 .character-modal {
 
+  &__image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__image {
     max-height: 700px;
     max-width: 350px;
+    border-radius: 1rem;
   }
 
   &__flex {
     display: flex;
     padding: 2rem;
+    justify-content: space-around;
 
     &--right {
-      padding-left: 2rem;
       display: flex;
       flex-direction: column;
-      align-content: space-around;
-      justify-content: space-around;
       padding-top: 4rem;
       padding-bottom: 4rem;
+      margin-left: 2rem;
     }
   }
 
@@ -24,8 +30,13 @@
     font-family: $font-clean;
     font-size: 2rem;
     padding: 1rem;
+    padding-bottom: 2rem;
     margin: 0 auto;
   }
 
+  &__details-box {
+    min-width: 40rem;
+    margin: 0 auto;
+  }
 
 }

@@ -641,26 +641,36 @@ body {
     background-position: center;
     background-blend-mode: hue; }
 
+.character-modal__image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .character-modal__image {
   max-height: 700px;
-  max-width: 350px; }
+  max-width: 350px;
+  border-radius: 1rem; }
 
 .character-modal__flex {
   display: flex;
-  padding: 2rem; }
+  padding: 2rem;
+  justify-content: space-around; }
   .character-modal__flex--right {
-    padding-left: 2rem;
     display: flex;
     flex-direction: column;
-    align-content: space-around;
-    justify-content: space-around;
     padding-top: 4rem;
-    padding-bottom: 4rem; }
+    padding-bottom: 4rem;
+    margin-left: 2rem; }
 
 .character-modal__description {
   font-family: "Lato", sans-serif;
   font-size: 2rem;
   padding: 1rem;
+  padding-bottom: 2rem;
+  margin: 0 auto; }
+
+.character-modal__details-box {
+  min-width: 40rem;
   margin: 0 auto; }
 
 .details-box {
@@ -952,15 +962,18 @@ body {
       background-image: url("https://i.imgur.com/2XF3c41.jpg");
       background-position: top; }
     .npc-card__img--1-5 {
-      background-image: url("https://i.imgur.com/HsG0mx0.jpg");
+      background-image: url("https://i.imgur.com/ELVEtOF.png");
       background-position-y: 20%; }
     .npc-card__img--1-6 {
+      background-image: url("https://i.imgur.com/HsG0mx0.jpg");
+      background-position-y: 20%; }
+    .npc-card__img--1-7 {
       background-image: url("https://i.imgur.com/KeeYsZy.jpg");
       background-position-y: 85%; }
-    .npc-card__img--1-7 {
+    .npc-card__img--1-8 {
       background-image: url("https://i.imgur.com/UNhjy3p.jpg");
       background-position-y: 10%; }
-    .npc-card__img--1-8 {
+    .npc-card__img--1-9 {
       background-image: url("https://i.imgur.com/ZZPFbGZ.png");
       background-position-y: 30%; }
     .npc-card__img--2-1 {

@@ -122,14 +122,27 @@ let charactersData = [
       },
       {
         id: 5,
-        name: "Freebird",
-        status: "Dead",
-        img: "",
-        firstAppearance: "Session 1",
-        class: "Wizard",
+        name: "Rydas",
+        long: "Rydas Sunbraid",
+        status: "Active",
+        img: "https://i.imgur.com/ELVEtOF.png",
+        firstAppearance: "Session 24",
+        class: "Druid",
+        subclass: "Circle of Wildfire",
+        race: "Centaur",
+        description: ""
       },
       {
         id: 6,
+        name: "Freebird",
+        status: "Dead",
+        img: "https://i.imgur.com/HsG0mx0.jpg",
+        firstAppearance: "Session 1",
+        class: "Wizard",
+        race: "Kenku"
+      },
+      {
+        id: 7,
         name: "Umnos",
         long: "Umnos Runbalo",
         status: "Inactive",
@@ -141,7 +154,7 @@ let charactersData = [
         description: ""
       },
       {
-        id: 7,
+        id: 8,
         name: "Elizana",
         long: "Elizana the Halfling",
         status: "Inactive",
@@ -154,7 +167,7 @@ let charactersData = [
         description: ""
       },
       {
-        id: 8,
+        id: 9,
         name: "Zoro",
         status: "Inactive",
         img: "https://i.imgur.com/ZZPFbGZ.png",
@@ -178,63 +191,88 @@ let charactersData = [
         name: "Strahd",
         long: "Count Strahd Von Zarovich",
         status: "Undead",
-        img: "https://i.imgur.com/LTsLbQk.png",
-        description: ""
+        img: "https://i.imgur.com/AWQB28r.png",
+        title: "Vampire Lord",
+        firstAppearance: "Session 3",
+        description: "Count Strahd von Zarovich is a vampire with immense power that has lorded over all of Barovia for centuries. He is resides at Castle Ravenloft but his watchful gaze can be felt all throughout the valley"
       },
       {
         id: 2,
         name: "Bucephalus",
         status: "Undead",
-        img: "https://i.imgur.com/ncyiGNK.png"
-
+        img: "https://i.imgur.com/0xEadjh.png",
+        title: "Strahd's Mount",
+        firstAppeance: "Session 16",
+        description: "Strahd's loyal steed. Little is known of this incredible nightmare of a creature, save that he can fly and seems magically enrobbed in flame"
       },
       {
         id: 3, 
         name: "Anastrasya",
         long: "Anastrasya Korelova",
         status: "Dead",
-        img: "https://i.imgur.com/oPDH0ls.jpg"
+        img: "https://i.imgur.com/oPDH0ls.jpg",
+        title: "Bride of Strahd",
+        firstAppeance: "Session 12",
+        description: "Anastrasya Karelova was a bride of Strahd and dominated on the battlefield. After a week of the bones of St. Andral missing from the St. Andral's Church, Anastrasya led a horde of the undead to attack Vallaki against Strahd's wishes"
       },
       {
         id: 4,
         name: "Volenta",
         long: "Volenta Popofsky",
         status: "Dead",
-        img: "https://i.imgur.com/m1q8zC7.png"
+        img: "https://i.imgur.com/m1q8zC7.png",
+        title: "Bride of Strahd",
+        firstAppeance: "Session 16",
+        description: "Volenta Popofsky was a bride of Strahd and protected Castle Ravenloft from the shadows of the Heart of Sorrow"
       },
       {
         id: 5,
         name: "Ludmilla",
         long: "Ludmilla Vilisevic",
         status: "Undead",
-        img: "https://i.imgur.com/YoAb0kL.png"
+        img: "https://i.imgur.com/YoAb0kL.png",
+        title: "Bride of Strahd",
+        firstAppeance: "Session 19",
+        description: "Ludmilla Vilisevic is a bride of Strahd.  Unlike the other brides, Ludmilla enjoys her freedom leaning into her curiousity by exploring Barovia in search of her next big discovery"
       },
       {
         id: 6,
         name: "Escher",
         long: "Escher Belasco",
         status: "Undead",
-        img: "https://i.imgur.com/naoNg7C.png"
+        img: "https://i.imgur.com/LMWd8UB.png",
+        title: "Strahd's Consort",
+        firstAppeance: "Session 17",
+        description: "Escher Belasco, Strahd's latest consort, was once an adventurer in a group much like the Sunseekers.  Strahd murdered the group when he grew bored of them, but kept Escher around for his musical ability"
       },
       {
         id: 7,
         name: "Rahadin",
         status: "Alive",
-        img: "https://i.imgur.com/CEgKJ5p.png"
+        img: "https://i.imgur.com/CEgKJ5p.png",
+        title: "Chamberlain of Castle Ravenloft",
+        firstAppearance: "Session 19",
+        description: "Rahadin is Strahd's chamberlain and right-hand man. As a dusk elf, he turned on his own people and swore loyalty to Strahd.  He has been responsible for most of the torment on the other dusk elves for their transgressions against Strahd"
       },
       {
         id: 8, 
         name: "Lief",
         long: "Lief Lipseige",
         status: "Alive",
-        img: "https://i.imgur.com/iJl2lQb.png"
+        img: "https://i.imgur.com/iJl2lQb.png",
+        title: "Accountant of Castle Ravenloft",
+        firstAppeance: "Session 14",
+        description: "Lief Lipsiege is Strahd's exhausted accountant.  Working all hours in Castle Ravenloft, Lief is usually consumed by his accountant duties although he can occasionally be helpful"
       },
       {
         id: 9,
         name: "Cyrus",
         long: "Cyrus Belview",
         status: "Alive",
-        img: "https://i.imgur.com/3wcInwz.png"
+        img: "https://i.imgur.com/3wcInwz.png",
+        title: "Servant of Castle Ravenloft",
+        firstAppeance: "Session 8",
+        description: "An amalgamation of beastly body parts, Cyrus Belview for works in Castle Ravenloft as a servant of Strahd. He mostly dwells below the first floor"
       }
     ]
   },
