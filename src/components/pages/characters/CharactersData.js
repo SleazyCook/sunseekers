@@ -195,7 +195,27 @@ let charactersData = [
         title: "Vampire Lord",
         race: "Vampire",
         firstAppearance: "Session 3",
-        description: "Count Strahd von Zarovich is a vampire with immense power that has lorded over all of Barovia for centuries. He is resides at Castle Ravenloft but his watchful gaze can be felt all throughout the valley"
+        description: "Count Strahd von Zarovich is a vampire with immense power that has lorded over all of Barovia for centuries. He is resides at Castle Ravenloft but his watchful gaze can be felt all throughout the valley",
+        sections: [
+          {
+            id: 1,
+            name: "Death House",
+            description: "While in the depths of ~Durst Manor~, the sunseekers came across a cloaked statue holding a ~crystal ball~. Despite being alone in the room, they felt like they were being watched. When they escaped the house, they found a large fruit basket with a card from Strahd welcoming them to Barovia",
+            localLinks: {}
+          },
+          {
+            id: 2,
+            name: "Old Svalich Road",
+            description: "Just west of the ~Village of Barovia~, the Sunseekers were met by a mysterious stranger on the road tending to his horse. The mysterious stranger introduced himself as the lord of Barovia and invited them to his home of ~Castle Ravenloft~.",
+            localLinks: {}
+          },
+          {
+            id: 3,
+            name: "Organ Music in the Dining Hall",
+            description: "",
+            localLinks: {}
+          }
+        ]
       },
       {
         id: 2,
