@@ -582,6 +582,22 @@ let logData = [
     Alive, we are one.
     
     For a second it seems that Alina is beside herself at her decision to take the life of a child with such an obvious yearning for life. But the second passes. She crumples up the bloody poem and kicks it across the room and joins the rest of the Sunseekers as they get ready to leave the Amber Temple for good.`
+  },
+  {
+    number: 23,
+    title: "Sunseekers Reassembled",
+    players: ["Alina", "Safzira", "Umnos", "German", "Bafan"],
+    npcs: ["Davian Martikov"],
+    quests: [""],
+    locations: ["Tsolenka Pass", "Winery"],
+    gameDate: "13th Morning of Alturiak",
+    realDate: "June 28th, 2023",
+    numDate: "6/28/23",
+    imgUrl: "https://i.imgur.com/nNfX6Mw.png",
+    imgCap: "Roc attacks over Tsolenka Pass",
+    localLinks: {},
+    short: "Sunseekers reassemble with old and new members at Tsolenka Pass",
+    entry: ``
   }
 ]
 

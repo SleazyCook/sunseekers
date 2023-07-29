@@ -2074,6 +2074,11 @@ body {
     background-image: url("https://i.imgur.com/YBBNCMG.png");
     background-position: center;
     background-size: cover; }
+  .adventure__card--23 {
+    background-image: url("https://i.imgur.com/nNfX6Mw.png");
+    background-position-y: 20%;
+    background-position-x: 10%;
+    background-size: cover; }
 
 .feedback {
   background-color: red;
