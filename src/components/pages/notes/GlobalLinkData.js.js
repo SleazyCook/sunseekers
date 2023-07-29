@@ -21,11 +21,11 @@ let globalHyperLinks = {
     Bafan: "/characters/1",
     Zoro: "/characters/1",
     Alina: "/characters/1",
-    Rydas: "characters/1",
-    "Rydas Sunbraid": "characters/1",
+    Rydas: "/characters/1",
+    "Rydas Sunbraid": "/characters/1",
     "Countess Alina": "/characters/characters",
 
-    Freebird: "characters/1",
+    Freebird: "/characters/1",
 
   // Castle Ravenloft
     Strahd: "/characters/2",

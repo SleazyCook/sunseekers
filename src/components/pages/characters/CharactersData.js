@@ -218,9 +218,22 @@ let charactersData = [
           {
             id: 3,
             name: "Organ Music in the Dining Hall",
-            description: "",
+            description: "During their first adventure in Castle Ravenloft, the Sunseekers found themselves face to face with Strahd after following the sounds of organ music to the great dining hall.  He decapitated a nameless prisoner they were hoping to rescue before giving them directions to the front door.",
             localLinks: {}
-          }
+          },
+          {
+            id: 4,
+            name: "Vasili in Vallaki",
+            description: "Ireena had been courting the accountant of Vallaki for weeks before it was revealed that he was actually Strahd in disguise. The ruse was revealed by his wife Anastrasya during the ~Feast of St Andral~.",
+            localLinks: {}
+          },
+          {
+            id: 5,
+            name: "Back for Blood",
+            description: "After the deaths of two of his brides, Strahd demanded repayment from the Sunseekers in blood. Freebird was slain in front of Umnos and Elizana as they were trying to flee Castle Ravenloft.",
+            localLinks: {}
+          },
+    
         ]
       },
       {
@@ -231,7 +244,15 @@ let charactersData = [
         title: "Strahd's Mount",
         race: "Nightmare",
         firstAppearance: "Session 16",
-        description: "Strahd's loyal steed. Little is known of this incredible nightmare of a creature, save that he can fly and seems magically enrobbed in flame"
+        description: "Strahd's loyal steed. Little is known of this incredible nightmare of a creature, save that he can fly and seems magically enrobbed in flame",
+        sections: [
+          {
+            id: 1,
+            name: "Stable of the High Tower",
+            description: "In one of the highest rooms of Castle Ravenloft and just above the ~Heart of Sorrow~, there is a stable filled with burned straw and wide double doors for Bucephalus to fly in and out of. The ~Tome of Strahd~ was once hidden there.",
+            localLinks: {}
+          }
+        ]
       },
       {
         id: 3, 
@@ -242,7 +263,15 @@ let charactersData = [
         title: "Bride of Strahd",
         race: "Vampire",
         firstAppearance: "Session 12",
-        description: "Anastrasya Karelova was a bride of Strahd and dominated on the battlefield. After a week of the bones of St. Andral missing from the St. Andral's Church, Anastrasya led a horde of the undead to attack Vallaki against Strahd's wishes"
+        description: "Anastrasya Karelova was a bride of Strahd and dominated on the battlefield. After a week of the bones of St. Andral missing from the St. Andral's Church, Anastrasya led a horde of the undead to attack Vallaki against Strahd's wishes",
+        sections: [
+          {
+            id: 1,
+            name: "Feast of St. Andral",
+            description: "Anastrasya and her undead army clawed their way into Vallaki to kill Ireena out of jealousy. When she revealed that he was posing as Vasili the accountant, he was so furious that he ended the attack himself by beheading his bride.",
+            localLinks: {}
+          }
+        ]
       },
       {
         id: 4,
@@ -253,7 +282,15 @@ let charactersData = [
         title: "Bride of Strahd",
         race: "Vampire",
         firstAppearance: "Session 16",
-        description: "Volenta Popofsky was a bride of Strahd and protected Castle Ravenloft from the shadows of the Heart of Sorrow"
+        description: "Volenta Popofsky was a bride of Strahd and protected Castle Ravenloft from the shadows of the Heart of Sorrow",
+        sections: [
+          {
+            id: 1,
+            name: "Protector of Ravenloft",
+            description: "Volenta was head of security at Castle Ravenloft. She fought the Sunseekers from the shadows of the ~Heart of Sorrow~ and would have been victorious if it hadn't been for the last minute efforts of ~Ez D'Avenir~.",
+            localLinks: {}
+          }
+        ]
       },
       {
         id: 5,
@@ -264,7 +301,15 @@ let charactersData = [
         title: "Bride of Strahd",
         race: "Vampire",
         firstAppearance: "Session 19",
-        description: "Ludmilla Vilisevic is a bride of Strahd.  Unlike the other brides, Ludmilla enjoys her freedom leaning into her curiousity by exploring Barovia in search of her next big discovery"
+        description: "Ludmilla Vilisevic is a bride of Strahd.  Unlike the other brides, Ludmilla enjoys her freedom leaning into her curiousity by exploring Barovia in search of her next big discovery",
+        sections: [
+          {
+            id: 1,
+            name: "Post at Tsolenka Pass",
+            localLinks: {},
+            description: "Unlike her sister wives, Ludmilla is less interested in fighting Strahd's battles and more so in conducting secretive experiments in the most remote places in the valley.",
+          }
+        ]
       },
       {
         id: 6,
@@ -275,7 +320,15 @@ let charactersData = [
         title: "Strahd's Consort",
         race: "Vampire",
         firstAppearance: "Session 17",
-        description: "Escher Belasco, Strahd's latest consort, was once an adventurer in a group much like the Sunseekers.  Strahd murdered the group when he grew bored of them, but kept Escher around for his musical ability"
+        description: "Escher Belasco, Strahd's latest consort, was once an adventurer in a group much like the Sunseekers.  Strahd murdered the group when he grew bored of them, but kept Escher around for his musical ability",
+        sections: [
+          {
+            id: 1,
+            name: "Strahd's Musical Consort",
+            localLinks: {},
+            description: "Elizana and Umnos found the indifferent Escher drinking wine in Castle Ravenloft. He casually warned them that resisting death in Barovia is pointless."
+          }
+        ]
       },
       {
         id: 7,
@@ -285,7 +338,8 @@ let charactersData = [
         title: "Chamberlain of Castle Ravenloft",
         race: "Dusk Elf",
         firstAppearance: "Session 19",
-        description: "Rahadin is Strahd's chamberlain and right-hand man. As a dusk elf, he turned on his own people and swore loyalty to Strahd.  He has been responsible for most of the torment on the other dusk elves for their transgressions against Strahd"
+        description: "Rahadin is Strahd's chamberlain and right-hand man. As a dusk elf, he turned on his own people and swore loyalty to Strahd.  He has been responsible for most of the torment on the other dusk elves for their transgressions against Strahd",
+        sections: []
       },
       {
         id: 8, 
@@ -296,7 +350,15 @@ let charactersData = [
         title: "Accountant of Castle Ravenloft",
         race: "Barovian",
         firstAppearance: "Session 14",
-        description: "Lief Lipsiege is Strahd's exhausted accountant.  Working all hours in Castle Ravenloft, Lief is usually consumed by his accountant duties although he can occasionally be helpful"
+        description: "Lief Lipsiege is Strahd's exhausted accountant.  Working all hours in Castle Ravenloft, Lief is usually consumed by his accountant duties although he can occasionally be helpful",
+        sections: [
+          {
+            id: 1,
+            name: "Helpful Hints",
+            localLinks: {},
+            description: "Upon building the slightest bond with Elizana at ~Castle Ravenloft~, Lief suggested looking for a holy relic in the far east of the valley."
+          }
+        ]
       },
       {
         id: 9,
@@ -307,7 +369,7 @@ let charactersData = [
         title: "Servant of Castle Ravenloft",
         race: "Mongrelfolk",
         firstAppearance: "Session 8",
-        description: "An amalgamation of beastly body parts, Cyrus Belview for works in Castle Ravenloft as a servant of Strahd. He mostly dwells below the first floor"
+        description: "An amalgamation of beastly body parts, Cyrus Belview for works in Castle Ravenloft as a servant of Strahd. He mostly dwells below the first floor",
       }
     ]
   },
