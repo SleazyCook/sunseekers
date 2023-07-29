@@ -598,6 +598,22 @@ let logData = [
     localLinks: {},
     short: "Sunseekers reassemble with old and new members at Tsolenka Pass",
     entry: ``
+  },
+  {
+    number: 24,
+    title: "Keepers of the Feather",
+    players: ["Alina", "Safzira", "German", "Bafan"],
+    npcs: ["Davian Martikov"],
+    quests: [""],
+    locations: ["Winery"],
+    gameDate: "15th Morning of Alturiak",
+    realDate: "July 9th, 2023",
+    numDate: "7/9/23",
+    imgUrl: "https://i.imgur.com/JYG1BK9.png",
+    imgCap: "Wintersplinter cuts its way towards the winery",
+    localLinks: {},
+    short: "The Sunseekers save the winery from waves of attacks",
+    entry: ``
   }
 ]
 

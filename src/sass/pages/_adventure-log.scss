@@ -342,11 +342,18 @@
     &--23 {
       background-image: 
         url("https://i.imgur.com/nNfX6Mw.png");
-        // background-position: center;
         background-position-y: 20%;
-        background-position-x: 10%;
+        background-position-x: 20%;
         background-size: cover;
     }
+
+    &--24 {
+      background-image: 
+        url("https://i.imgur.com/9CXQb4t.png");
+      background-position: center;
+      background-size: cover;
+    }
   }
+
 
 }

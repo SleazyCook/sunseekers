@@ -18,6 +18,7 @@ let globalHyperLinks = {
     Halfling: "/characters/1",
     Safzira: "/characters/1",
     Umnos: "/characters/1",
+    Bafan: "/characters/1",
     Zoro: "/characters/1",
     Alina: "/characters/1",
     Rydas: "characters/1",
