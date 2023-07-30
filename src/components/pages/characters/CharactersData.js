@@ -10,7 +10,7 @@ let charactersData = [
         name: "Safzira",
         status: "Active",
         img: "https://i.imgur.com/pG4NWum.png",
-        firstAppearance: "Session 1",
+        firstAppearance: 1,
         level: 7,
         class: "Rogue",
         subclass: "Arcane Trickster",
@@ -62,7 +62,7 @@ let charactersData = [
         long: "Countess Alina Bilquis Bin Zaman A'ida De Lancret Durmont III",
         status: "Active",
         img: "https://i.imgur.com/B0eXKe3.png",
-        firstAppearance: "Session 22",
+        firstAppearance: 22,
         level: 7,
         class: "Druid",
         subclass: "Circle of Stars",
@@ -101,7 +101,7 @@ let charactersData = [
         long: "Bafan Inko",
         status: "Active",
         img: "https://i.imgur.com/WFYABQT.png",
-        firstAppearance: "Session 23",
+        firstAppearance: 23,
         level: 7,
         class: "Artificer / Wizard",
         subclass: "Battle Smith / School of Necromancy",
@@ -114,7 +114,7 @@ let charactersData = [
         long: "German the Barbarian",
         status: "Active",
         img: "https://i.imgur.com/2XF3c41.jpg",
-        firstAppearance: "Session 1",
+        firstAppearance: 1,
         level: 7,
         class: "Barbarian/Fighter",
         subclass: "Path of the Zealot",
@@ -127,7 +127,7 @@ let charactersData = [
         long: "Rydas Sunbraid",
         status: "Active",
         img: "https://i.imgur.com/ELVEtOF.png",
-        firstAppearance: "Session 24",
+        firstAppearance: 24,
         level: 7,
         class: "Druid",
         subclass: "Circle of Wildfire",
@@ -140,7 +140,7 @@ let charactersData = [
         status: "Dead",
         img: "https://i.imgur.com/HsG0mx0.jpg",
         level: 5,
-        firstAppearance: "Session 1",
+        firstAppearance: 1,
         class: "Wizard",
         race: "Kenku"
       },
@@ -150,7 +150,7 @@ let charactersData = [
         long: "Umnos Runbalo",
         status: "Inactive",
         img: "https://i.imgur.com/KeeYsZy.jpg",
-        firstAppearance: "Session 13",
+        firstAppearance: 13,
         level: 7,
         class: "Cleric",
         subclass: "Forge Domain",
@@ -163,7 +163,7 @@ let charactersData = [
         long: "Elizana the Halfling",
         status: "Inactive",
         img: "https://i.imgur.com/UNhjy3p.jpg",
-        firstAppearance: "Session 1",
+        firstAppearance: 14,
         level: 5,
         class: "Rogue",
         subclass: "Thief",
@@ -176,7 +176,7 @@ let charactersData = [
         name: "Zoro",
         status: "Inactive",
         img: "https://i.imgur.com/ZZPFbGZ.png",
-        firstAppearance: "Session 14",
+        firstAppearance: 14,
         level: 4,
         class: "Fighter",
         subclass: "Samurai",
@@ -200,7 +200,7 @@ let charactersData = [
         img: "https://i.imgur.com/AWQB28r.png",
         title: "Vampire Lord",
         race: "Vampire",
-        firstAppearance: "Session 3",
+        firstAppearance: 3,
         description: "Count Strahd von Zarovich is a vampire with immense power that has lorded over all of Barovia for centuries. He is resides at Castle Ravenloft but his watchful gaze can be felt all throughout the valley",
         sections: [
           {
@@ -243,7 +243,7 @@ let charactersData = [
         img: "https://i.imgur.com/0xEadjh.png",
         title: "Strahd's Mount",
         race: "Nightmare",
-        firstAppearance: "Session 16",
+        firstAppearance: 16,
         description: "Strahd's loyal steed. Little is known of this incredible nightmare of a creature, save that he can fly and seems magically enrobbed in flame",
         sections: [
           {
@@ -262,7 +262,7 @@ let charactersData = [
         img: "https://i.imgur.com/oPDH0ls.jpg",
         title: "Bride of Strahd",
         race: "Vampire",
-        firstAppearance: "Session 12",
+        firstAppearance: 12,
         description: "Anastrasya Karelova was a bride of Strahd and dominated on the battlefield. After a week of the bones of St. Andral missing from the St. Andral's Church, Anastrasya led a horde of the undead to attack Vallaki against Strahd's wishes",
         sections: [
           {
@@ -281,7 +281,7 @@ let charactersData = [
         img: "https://i.imgur.com/m1q8zC7.png",
         title: "Bride of Strahd",
         race: "Vampire",
-        firstAppearance: "Session 16",
+        firstAppearance: 16,
         description: "Volenta Popofsky was a bride of Strahd and protected Castle Ravenloft from the shadows of the Heart of Sorrow",
         sections: [
           {
@@ -300,7 +300,7 @@ let charactersData = [
         img: "https://i.imgur.com/YoAb0kL.png",
         title: "Bride of Strahd",
         race: "Vampire",
-        firstAppearance: "Session 19",
+        firstAppearance: 19,
         description: "Ludmilla Vilisevic is a bride of Strahd.  Unlike the other brides, Ludmilla enjoys her freedom leaning into her curiousity by exploring Barovia in search of her next big discovery",
         sections: [
           {
@@ -319,7 +319,7 @@ let charactersData = [
         img: "https://i.imgur.com/LMWd8UB.png",
         title: "Strahd's Consort",
         race: "Vampire",
-        firstAppearance: "Session 17",
+        firstAppearance: 17,
         description: "Escher Belasco, Strahd's latest consort, was once an adventurer in a group much like the Sunseekers.  Strahd murdered the group when he grew bored of them, but kept Escher around for his musical ability",
         sections: [
           {
@@ -337,7 +337,7 @@ let charactersData = [
         img: "https://i.imgur.com/CEgKJ5p.png",
         title: "Chamberlain of Castle Ravenloft",
         race: "Dusk Elf",
-        firstAppearance: "Session 19",
+        firstAppearance: 19,
         description: "Rahadin is Strahd's chamberlain and right-hand man. As a dusk elf, he turned on his own people and swore loyalty to Strahd.  He has been responsible for most of the torment on the other dusk elves for their transgressions against Strahd",
         sections: []
       },
@@ -349,7 +349,7 @@ let charactersData = [
         img: "https://i.imgur.com/iJl2lQb.png",
         title: "Accountant of Castle Ravenloft",
         race: "Barovian",
-        firstAppearance: "Session 14",
+        firstAppearance: 14,
         description: "Lief Lipsiege is Strahd's exhausted accountant.  Working all hours in Castle Ravenloft, Lief is usually consumed by his accountant duties although he can occasionally be helpful",
         sections: [
           {
@@ -368,7 +368,7 @@ let charactersData = [
         img: "https://i.imgur.com/3wcInwz.png",
         title: "Servant of Castle Ravenloft",
         race: "Mongrelfolk",
-        firstAppearance: "Session 8",
+        firstAppearance: 8,
         description: "An amalgamation of beastly body parts, Cyrus Belview for works in Castle Ravenloft as a servant of Strahd. He mostly dwells below the first floor",
       }
     ]
@@ -381,39 +381,69 @@ let charactersData = [
     characters: [
       {
         id: 1,
-        name: "Rose Durst",
+        name: "Rose",
+        long: "Rosavalda Durst (Rose)",
         status: "Dead",
-        img: "https://i.imgur.com/IrTKHqP.jpg"
+        img: "https://i.imgur.com/IrTKHqP.jpg",
+        title: "Durst Family",
+        race: "Barovian",
+        firstAppearance: 1,
+        description: ""
       },
       {
         id: 2,
-        name: "Thorn Durst",
+        name: "Thorn",
+        long: "Thornboldt Durst (Thorn)",
         status: "Dead",
-        img: "https://i.imgur.com/zvK212S.jpg"
+        img: "https://i.imgur.com/zvK212S.jpg",
+        title: "Durst Family",
+        race: "Barovian",
+        firstAppearance: 1,
+        description: ""
       },
       {
         id: 3,
-        name: "Gustav Durst",
+        name: "Gustav",
+        long: "Gustav Durst",
         status: "Dead",
-        img: "https://i.imgur.com/c5F4D19.jpg"
+        img: "https://i.imgur.com/c5F4D19.jpg",
+        title: "Durst Family",
+        race: "Barovian",
+        firstAppearance: 1,
+        description: ""
       },
       {
         id: 4,
-        name: "Elizabeth Durst",
+        name: "Elizabeth",
+        long: "Elizabeth Durst",
         status: "Dead",
-        img: "https://i.imgur.com/otQXN1s.jpg"
+        img: "https://i.imgur.com/otQXN1s.jpg",
+        title: "Durst Family",
+        race: "Barovian",
+        firstAppearance: 1,
+        description: ""
       },
       {
         id: 5,
-        name: "Walter Durst",
+        name: "Baby Walter",
+        long: "Walter Durst",
         status: "Dead",
-        img: "https://i.imgur.com/l2cD0Wh.jpg"
+        img: "https://i.imgur.com/l2cD0Wh.jpg",
+        title: "Durst Family",
+        race: "Barovian",
+        firstAppearance: 1,
+        description: ""
       },
       {
         id: 6,
-        name: "Durst Nursemaid",
+        name: "Nursemaid",
+        long: "Durst Nursemaid Ysolda",
         status: "Dead",
-        img: "https://i.imgur.com/TPaXcpo.png"
+        img: "https://i.imgur.com/TPaXcpo.png",
+        title: "Durst Family",
+        race: "Barovian",
+        firstAppearance: 1,
+        description: ""
       },
       {
         id: 7,

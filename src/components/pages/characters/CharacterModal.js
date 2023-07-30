@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 import charactersData from './CharactersData'
 import renderWithLinks from '../notes/HyperlinkFunction'
@@ -33,35 +34,38 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
               {/* Player Character Top */}
               {selectedObj.class && <>
                 <div className="details-box__section">
-                  <div className="details-box__section--left">Level {selectedObj.level}</div>
-                  <div className="details-box__section--right">{selectedObj.class}, {selectedObj.subclass}</div>
+                  Level {selectedObj.level} {selectedObj.class}
+                  <br />
+                  {selectedObj.subclass}
                 </div>
               </> }
 
               {/* NPC Top */}
               {selectedObj.title && <>
                 <div className="details-box__section">
-                  {/* <div className="details-box__section--left"></div>
-                  <div className="details-box__section--right">{selectedObj.class}, {selectedObj.subclass}</div> */}
                   {selectedObj.title}
                 </div>
               </>}
 
+              {/* Status */}
               <div className="details-box__section">
                 <div className="details-box__section--left"><b>Status</b></div>
                 <div className="details-box__section--right">{selectedObj.status}</div>
               </div>
 
+              {/* Race */}
               <div className="details-box__section">
                 <div className="details-box__section--left"><b>Race</b></div>
                 <div className="details-box__section--right">{selectedObj.race}</div>
               </div>
 
+              {/* First Appearance */}
               <div className="details-box__section">
                 <div className="details-box__section--left"><b>First Appearance</b></div>
-                <div className="details-box__section--right">{selectedObj.firstAppearance}</div>
+                <Link to={`/notes/adventure-log/${selectedObj.firstAppearance}`} className="details-box__section--right hyperlink-a">Session {selectedObj.firstAppearance}</Link>
               </div>
 
+              {/* Special Items */}
               {selectedObj.items && <div className="details-box__section">
                 <div className="details-box__section--left"><b>Special Items</b></div>
                 <div className="details-box__section--right">

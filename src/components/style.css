@@ -163,7 +163,8 @@ body {
   width: 100%;
   padding: 10rem; }
 
-.hyperlink a {
+.hyperlink a,
+.hyperlink-a {
   color: #a62b0d;
   color: peru;
   text-decoration: none; }
