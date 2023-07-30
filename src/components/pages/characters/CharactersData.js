@@ -388,7 +388,7 @@ let charactersData = [
         title: "Durst Family",
         race: "Barovian",
         firstAppearance: 1,
-        description: ""
+        description: "After asking for help for their baby brother Walter, it was revealed that Rose and Thorn are ghosts. Their bodies were locked in their room leaving them to starve to death while their parents led a cult in the basement. Their bones were buried finally giving them peace"
       },
       {
         id: 2,
@@ -399,7 +399,7 @@ let charactersData = [
         title: "Durst Family",
         race: "Barovian",
         firstAppearance: 1,
-        description: ""
+        description: "After asking for help for their baby brother Walter, it was revealed that Rose and Thorn are ghosts. Their bodies were locked in their room leaving them to starve to death while their parents led a cult in the basement. Their bones were buried finally giving them peace"
       },
       {
         id: 3,
@@ -410,7 +410,7 @@ let charactersData = [
         title: "Durst Family",
         race: "Barovian",
         firstAppearance: 1,
-        description: ""
+        description: "Gustav Durst, once a wealthy land owner before Strahd arrived in Barovia, was left in ruin and joined the Priests of Osybus. He had an affair with the nursemaid and commited suicide"
       },
       {
         id: 4,
@@ -421,7 +421,7 @@ let charactersData = [
         title: "Durst Family",
         race: "Barovian",
         firstAppearance: 1,
-        description: ""
+        description: "Elizabeth Durst, once a wealthy land owner before Strahd arrived in Barovia, was left in ruin and joined the Priests of Osybus. He had an affair with the nursemaid and commited suicide"
       },
       {
         id: 5,
@@ -432,7 +432,7 @@ let charactersData = [
         title: "Durst Family",
         race: "Barovian",
         firstAppearance: 1,
-        description: ""
+        description: "Sacrified by Elizabeth Durst, baby Walter became the life force of a flesh mound that killed the Durst Manor cultists. The Sunseekers killed the flesh mound  and buried his remains"
       },
       {
         id: 6,
@@ -443,85 +443,145 @@ let charactersData = [
         title: "Durst Family",
         race: "Barovian",
         firstAppearance: 1,
-        description: ""
+        description: "Birth mother of Baby Walter. Murdered by the jealous and hateful Elizabeth Durst"
       },
       {
         id: 7,
         name: "Mrs. Cobb",
         status: "Dead",
-        img: "https://i.imgur.com/Gd7Sfuw.jpg"
+        img: "https://i.imgur.com/Gd7Sfuw.jpg",
+        title: "Cobb Family",
+        race: "Barovian",
+        firstAppearance: 2,
+        description: "Elizana encounters Mrs. Cobb while investigating some scratches on villagers homes. Gets eaten by dying husband that turns into a zombie"
       },
       {
         id: 8,
         name: "Mr. Cobb",
         status: "Dead",
-        img: "https://i.imgur.com/WMynXM9.jpg"
+        img: "https://i.imgur.com/WMynXM9.jpg",
+        title: "Cobb Family",
+        race: "Barovian",
+        firstAppearance: 2,
+        description: "Elizana encounters Mrs. Cobb while investigating some scratches on villagers homes. Is terminally ill due to consuming well water. Dies and turns into a zombie, eats his wife, then chases after Elizana. Is killed by Elizana and Freebird outside his home"
       },
       {
         id: 9,
         name: "Kolyan Indirovich",
         status: "Dead",
-        img: "https://i.imgur.com/tAjmnfI.jpg"
+        img: "https://i.imgur.com/tAjmnfI.jpg",
+        title: "Barovian Noble",
+        race: "Barovian",
+        firstAppearance: 2,
+        description: "Kolyan was the Burgomaster of the Village of Barovia, but passed away shortly before the Sunseekers arrived in the valley. He was beloved by the villagers around him",
+        sections: [
+          {
+            id: 1,
+            name: "Burgomaster's Funeral",
+            localLinks: {},
+            description: ""
+          }
+        ]
       },
       {
         id: 10,
         name: "Ismark Indirovich",
         status: "Alive",
-        img: "https://i.imgur.com/R0aJebI.jpg"
+        img: "https://i.imgur.com/R0aJebI.jpg",
+        title: "Barovian Noble",
+        race: "Barovian",
+        firstAppearance: 2,
+        description: ""
       },
       {
         id: 11,
         name: "Ireena Kolyana",
         status: "Alive",
-        img: "https://i.imgur.com/5iWx4Sl.png"
+        img: "https://i.imgur.com/5iWx4Sl.png",
+        title: "Barovian Noble",
+        race: "Barovian",
+        firstAppearance: 2,
+        descripton: ""
       },
       {
         id: 12,
         name: "Parriwimple",
         status: "Alive",
-        img: "https://i.imgur.com/FBIPhZK.png"
+        img: "https://i.imgur.com/FBIPhZK.png",
+        title: "",
+        race: "Barovian",
+        firstAppearance: 2,
+        description: ""
       },
       {
         id: 13,
         name: "Bildrath",
         status: "Alive",
-        img: "https://i.imgur.com/XVWw2G1.png"
+        img: "https://i.imgur.com/XVWw2G1.png",
+        title: "Merchant",
+        race: "Barovian",
+        firstAppearance: 2,
+        description: ""
       },
       {
         id: 14,
         name: "Father Donavich",
         status: "Alive",
-        img: "https://i.imgur.com/jr6osuv.jpg"
+        img: "https://i.imgur.com/jr6osuv.jpg",
+        title: "Priest of Lathander",
+        race: "Barovian",
+        firstAppearance: 2,
+        description: ""
       },
       {
         id: 15,
         name: "Doru",
         status: "Dead",
-        img: "https://i.imgur.com/AprGNcu.png"
+        img: "https://i.imgur.com/AprGNcu.png",
+        title: "",
+        race: "Vampire",
+        firstAppearance: 2,
+        description: ""
       },
       {
         id: 16,
         name: "Mad Mary",
         status: "Alive",
-        img: "https://i.imgur.com/96kr5JK.jpg"
+        img: "https://i.imgur.com/96kr5JK.jpg",
+        title: "",
+        race: "Commoner",
+        firstAppearance: 2,
+        description: ""
       },
       {
         id: 17,
         name: "Lancelot",
         status: "Alive",
-        img: "https://i.imgur.com/BNcaXW9.jpg"
+        img: "https://i.imgur.com/BNcaXW9.jpg",
+        title: "Dog",
+        race: "Dog",
+        firstAppearance: 2,
+        description: ""
       },
       {
         id: 18,
         name: "Gertruda",
         status: "Unknown",
-        img: "https://i.imgur.com/vxbkllB.png"
+        img: "https://i.imgur.com/vxbkllB.png",
+        title: "Commoner",
+        race: "Barovian",
+        firstAppearance: 2,
+        description: ""
       },
       {
         id: 19,
         name: "Tavern Owners",
         status: "Alive",
-        img: "https://i.imgur.com/HU0bX4P.jpg"
+        img: "https://i.imgur.com/HU0bX4P.jpg",
+        title: "Vistani Bar Owners",
+        race: "Vistani",
+        firstAppearance: 2,
+        description: ""
       }
     ]
   },
@@ -679,6 +739,12 @@ let charactersData = [
         name: "Winery Children",
         status: "Alive",
         img: "https://i.imgur.com/QaO9vpj.png"
+      },
+      {
+        id: 11,
+        name: "Paint Drop",
+        status: "Alive",
+        img: "https://i.imgur.com/rNRl0Yz.png"
       }
     ]
   },

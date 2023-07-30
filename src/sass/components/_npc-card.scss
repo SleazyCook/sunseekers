@@ -43,8 +43,6 @@
     &::-webkit-scrollbar {
       display: none;
     }
-
-
   }
 
   &__bonds {
@@ -422,6 +420,12 @@
     // four children. including baby
     &--5-10 {
       background-image: url("https://i.imgur.com/QaO9vpj.png");
+      background-position: center;
+    }
+
+    // paint drop
+    &--5-11 {
+      background-image: url("https://i.imgur.com/rNRl0Yz.png");
       background-position: center;
     }
 
