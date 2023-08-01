@@ -595,9 +595,15 @@ let logData = [
     numDate: "6/28/23",
     imgUrl: "https://i.imgur.com/nNfX6Mw.png",
     imgCap: "Roc attacks over Tsolenka Pass",
-    localLinks: {},
+    localLinks: {
+      Temple: "/notes/treasures"
+    },
     short: "Sunseekers reassemble with old and new members at Tsolenka Pass",
-    entry: ``
+    entry: `    With the ~Amber Temple~ behind them, the Sunseekers approach ~Tsolenka Pass~ once again. ~Sir Erich~ is waiting for them by the bridge as a gigantic roc flies overhead. Sir Erich assures them that the bird willl not be hostile to anyone unless a ~dark gift~ was accepted from the temple. Unfortunately, Alina did accept the dark gift of lightning from an ancient evil and the roc swoops down to down to attack the party on the ground. The roc's beak nearly took off Alina's pretty face in a close call before a small group of monster hunters emerged from the Tsolenka bridge demanding the kill for themselves. 
+    
+    The leader of the monster hunters is revealed to be ~German the Barbarian~ with his new ally Bafan. As he reunites with his former team they are able to take down the bird and claim its feathers and bones as trophies. With the roc defeated, Sir Erich meets the requirement for his unfinished mortal business is able to finally pass peacefully with Umnos holding onto him. Umnos is reminded of his true place in Barovia as a cleric and leaves the sunsword behind as he decides to go straight to the people of Barovia to help them.  With Umnos gone, German embraces Safzira after several terrible weeks apart. He and Bafan are welcomed into the group. Bafan even uses the bones of the roc to create a new wagon for the group while the others take a chance to rest up after the fight. In the morning the Sunseekers will follow Alina to the winery in search of the ~Gulthias Staff~.
+    
+    At the winery, the party encounters a group of wereravens led by ~Adrian Martikov~, brother of ~Urwin Martikov~ from the ~Blue Water Inn~.  His familiy's winery has been overtaken by Kavani druids who are holding the Martikov patriarch Davian captive within. The group splits up and works to take out the existing Kavani inside and out. German and Bafan start a friendly competition to see how many kills they can each get on the battlefield. The ~Gulthias Staff~ is found in the hands of a druid talking into a ~sending stone~.  The staff is retreived, any poisoned wine is purified, and the the winery is taken back by the Sunseekers for the Martikovs. Just as they are preparing to celebrate their victory, a massive animated tree is marching towards the winery with a bloody spear stuck in its trunk.`
   },
   {
     number: 24,
