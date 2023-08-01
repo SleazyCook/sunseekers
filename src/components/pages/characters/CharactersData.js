@@ -8,6 +8,7 @@ let charactersData = [
       {
         id: 1,
         name: "Safzira",
+        long: "Safzira Grirnaz",
         status: "Active",
         img: "https://i.imgur.com/pG4NWum.png",
         firstAppearance: 1,
@@ -15,7 +16,7 @@ let charactersData = [
         class: "Rogue",
         subclass: "Arcane Trickster",
         race: "Half elf/human",
-        description: "Safzira is known for her charm and trickery. Arriving in Barovia with Freebird, she spent the first few weeks of her time in the valley filling up her black book. ",
+        description: "Safzira, hailing from the forest village of Hansari, is renowned for her beguiling charm and cunning tricks. With striking features that captivate admirers, she is often adorned with priceless golden jewelry. Her confident demeanor only adds to her enigmatic allure",
         sections: [
           {
             id: 1,
