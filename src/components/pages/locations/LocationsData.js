@@ -758,35 +758,35 @@ let locationsData = [
   },
   {
     number: 13,
-    name: "Argonvostholt",
+    name: "Argynvostholt",
     img: "https://i.imgur.com/a7MDVuA.png",
-    imgCap: "Argonvostholt",
+    imgCap: "Argynvostholt",
     leader: ["Sir Godfrey"],
     characters: ["Sir Godfrey", "Sir Erich", "Sir Damien", "Sir Robern", "Arthund"],
     quests: ["Unfinished Business"],
     // notes: ["..."],
     localLinks: {},
     quote: "Perched atop a ten-foot-wide, ten-foot-high cube of granite is a moss-covered statue of a dragon, its wings tucked close to its body. The statue looks east, toward the mansion.",
-    main: "Argonvostholt was built by the Silver Dragon Argonvost for his Order of the Silver Dragon. He lead his knights in their plight to defend the world from the evils of the Amber Temple. During the war, Strahd killed Argonvost and his knights. The knights now assault Castle Ravenloft over and over as revenant knights doomed for all eternity.",
+    main: "Argynvostholt was built by the Silver Dragon Argynvost for his Order of the Silver Dragon. He lead his knights in their plight to defend the world from the evils of the Amber Temple. During the war, Strahd killed Argynvost and his knights. The knights now assault Castle Ravenloft over and over as revenant knights doomed for all eternity.",
     gallery: [
       {
         number: 1,
-        cap: "Argonvostholt",
+        cap: "Argynvostholt",
         img: "https://i.imgur.com/a7MDVuA.png"
       },
       {
         number: 2,
-        cap: "Argonvost statue",
+        cap: "Argynvost statue",
         img: "https://i.imgur.com/udW0ilM.png"
       },
       {
         number: 3,
-        cap: "Argonvost portrait",
+        cap: "Argynvost portrait",
         img: "https://i.imgur.com/gMBEsmH.png"
       },
       {
         number: 4,
-        cap: "Argonvost",
+        cap: "Argynvost",
         img: "https://i.imgur.com/Phx9MiB.png"
       }
     ],
@@ -795,7 +795,7 @@ let locationsData = [
         number: 1,
         name: "Godfrey's Knights",
         localLinks: {},
-        content: "When Argonvost was killed by Strahd, one of his knights Vladimir Horngaard was so consumed by vengeance that he turned all of the knights of the order into revenants.  However another knight Godfrey held on to some of his humanity and those closest to him suffer with him in Argonvostholt."
+        content: "When Argynvost was killed by Strahd, one of his knights Vladimir Horngaard was so consumed by vengeance that he turned all of the knights of the order into revenants.  However another knight Godfrey held on to some of his humanity and those closest to him suffer with him in Argynvostholt."
       }
     ]
   },

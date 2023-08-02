@@ -753,11 +753,11 @@ let charactersData = [
     number: 6,
     name: "Order of the Silver Dragon",
     link: "/characters/order-of-the-silver-dragon",
-    description: "The Order of the Silver Dragon was founded by the silver dragon Argonvost.  The knights constructed the castle Argonvostholt in his name and the outpost Tsolenka Pass on the road to the Amber Temple.  Argonvost and his knights successfully kept the horrors of the Amber Temple away from the living for many years until Strahd and his invading army killed every member of the Order.",
+    description: "The Order of the Silver Dragon was founded by the silver dragon Argynvost.  The knights constructed the castle Argynvostholt in his name and the outpost Tsolenka Pass on the road to the Amber Temple.  Argynvost and his knights successfully kept the horrors of the Amber Temple away from the living for many years until Strahd and his invading army killed every member of the Order.",
     characters: [
       {
         id: 1,
-        name: "Argonvost",
+        name: "Argynvost",
         status: "Dead",
         img: "https://i.imgur.com/gMBEsmH.png"
       },

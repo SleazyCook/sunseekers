@@ -385,7 +385,7 @@ let logData = [
     imgCap: "Heart of Sorrow Tower Interior",
     localLinks: {},
     short: "",
-    entry: `    Elizana, Freebird, and Umnos stand on the roof of Castle Ravenloft. Across a short bridge is an opening to the second tallest tower. There is an ominous red and yellow glow eminating from the doorway and they can feel a heavy heartbeat that doesn't belong to any of them. It is as if the tower itself is alive.  Elizana remembers the Tarroka reading in Madame Eva's tent:
+    entry: `    Elizana, Freebird, and Umnos stand on the roof of ~Castle Ravenloft~. Across a short bridge is an opening to the second tallest tower. There is an ominous red and yellow glow eminating from the doorway and they can feel a heavy heartbeat that doesn't belong to any of them. It is as if the tower itself is alive.  Elizana remembers the Tarroka reading in Madame Eva's tent:
     
     "Go to a place of dizzying heights, where the stone itself is alive!"
 
@@ -393,7 +393,7 @@ let logData = [
     
     As the Sunseekers set foot onto the stairs, the entire tower plunges into darkness as the candles in the wall each go out at once. Their adjust moments later; the only light left in the tower is the dull red glow of large, myserious heart magically suspended in the center of the room, and a faint flicker right next to you. As Umnos turns to read the name plate, he sees the description "Umnos Runbalo - Cleric". The candle burns, but its flame is feeble, and seems ready to flicker out at any moment.
     
-    Almost a second too late, Umnos sees a dark shape lash out at him quickly. Just as quickly as it appeared, the shape disappears off the ledge the party is standing on.  The shape continues to dart through the darkness leaving traps in its wake and spider-climbing its way under the sone stairway. Eventually it gets close enough for the party to see the shape is actually a masked woman. She willingly admits that she is Volenta Popofsky, bride of Strahd and keeper of the Heart of Sorrow.
+    Almost a second too late, Umnos sees a dark shape lash out at him quickly. Just as quickly as it appeared, the shape disappears off the ledge the party is standing on.  The shape continues to dart through the darkness leaving traps in its wake and spider-climbing its way under the sone stairway. Eventually it gets close enough for the party to see the shape is actually a masked woman. She willingly admits that she is ~Volenta Popofsky~, bride of Strahd and keeper of the Heart of Sorrow.
     
     They take turns dealing blows back and forth until Umnos is knocked off the stairway from the third floor. Freebird casts featherfall on Umnos and himself as they continue the fight at the base of the tower while Elizana continues up the staircase towards a locked room. Elizana picks the lock as Freebird is knocked unconscious and Umnos is not far behind him. Elizana proceeds to a desk with a loose drawer, pulling it open she finds a heavy leatherbound book with a dark raven crest on its cover. 
     
@@ -413,9 +413,9 @@ let logData = [
     imgCap: "Tome of Strahd",
     localLinks: {},
     short: "Ez and the Sunseekers fight over the Tome of Strahd",
-    entry: `    On one side of Barovia, Safzira and Zoro have agreed to travel with Sir Erich of the Order of the Silver Dragon at Sir Godfrey's request. Their journey towards the Amber Temple is only briefly interrupted when they encounter a wild druid on all fours who seems to be controlling several twig blights. As Safzira's attempt to reason with the druid fall on deaf ears, they find themselves engaged in combat. 
+    entry: `    On one side of Barovia, Safzira and Zoro have agreed to travel with ~Sir Erich~ of the ~Order of the Silver Dragon~ at ~Sir Godfrey~'s request. Their journey towards the ~Amber Temple~ is only briefly interrupted when they encounter a wild druid on all fours who seems to be controlling several twig blights. As Safzira's attempt to reason with the druid fall on deaf ears, they find themselves engaged in combat. 
     
-    On the other side of Barovia, within Castle Ravenloft's Heart of Sorrow, Elizana, Freebird, Umnos, and the mysterious Ez are now in possession of the Tome of Strahd, a detailed history of Strahd's time in Barovia written by the vampie lord himself.  The problem is that they appear to be in some sort of stable riddled with scorchmarks and in the distance, through a pair of open double doors, they see a flaming horse riding straight towards them. They run back to room that was once occupied by the witches and they proceed to rest up and tend to their wounds from their fight with Volenta.
+    On the other side of Barovia, within Castle Ravenloft's ~Heart of Sorrow~, Elizana, Freebird, Umnos, and the mysterious Ez are now in possession of the Tome of Strahd, a detailed history of Strahd's time in Barovia written by the vampie lord himself.  The problem is that they appear to be in some sort of stable riddled with scorchmarks and in the distance, through a pair of open double doors, they see a flaming horse riding straight towards them. They run back to room that was once occupied by the witches and they proceed to rest up and tend to their wounds from their fight with Volenta.
     
     When they wake, Ez tells the party about how she has spent most of her time in Barovia researching her enemy in a tower just west of Vallaki.  The tower is filled with resources - books, notes, and tools, to take on Strahd.  She offers them refuge at the tower, but warns them that the structure is very dangerous. She will leave instructions for entry under a distinctive cairn on the road leading to it.  In return she asks to make a copy of the Tome so she can continue her work on her own for the time being. Elizana refuses to waste time on a copy, so out of desperation Ez snatches the Tome and uses invisibility to disappear.
     
@@ -437,15 +437,15 @@ let logData = [
     imgCap: "Cold Depths of Mount Ghakis",
     localLinks: {},
     short: "Safzira and Kasimir continue their journey to the Amber Temple in the bitter cold",
-    entry: `  Safzira and Kasimir continue their journey south towards the Amber Temple. Barovia is brutally cold the closer you get to Mount Ghakis. The bitter winds begin to beat down on them. Sir Erich, who hasn't felt much of anything in a very long time, begins to tell his tale about his last hunting trip. "Maybe a story might give them something else to think about at a time like this" he mutters under his breath before slowing his walk to match their pace.
+    entry: `  Safzira and Kasimir continue their journey south towards the ~Amber Temple~. Barovia is brutally cold the closer you get to Mount Ghakis. The bitter winds begin to beat down on them. Sir Erich, who hasn't felt much of anything in a very long time, begins to tell his tale about his last hunting trip. "Maybe a story might give them something else to think about at a time like this" he mutters under his breath before slowing his walk to match their pace.
     
-    "The Order was the top priority of the Knights, but it wasn't the only one. We made sure to have a little fun. Argonvost himself had starting a hunting party during our downtime before the war.  Giant goats used to roam wild over the Mount Ghakis region, but they were troublesome and dangerous.  
+    "The ~Order of the Silver Dragon~ was the top priority of the Knights, but it wasn't the only one. We made sure to have a little fun. Argynvost himself had starting a hunting party during our downtime before the war.  Giant goats used to roam wild over the Mount Ghakis region, but they were troublesome and dangerous.  
     
     "It all started when a couple of giant goats made their way into the church of Berez.  Within minutes the place was completely torn up.  The Burgomaster pleaded with Argonvost to do something, but the Order was never intended to defend individual settlements from wildlife.  Nevertheless, our silver leader did see an opportunity to bring the Knights together to hunt for sport. Before long there were fewer and fewer giant goats and we had developed a hunger for the hunt.  
     
     "When Strahd invaded Barovia to go to war with the Dusk Elves, strange people and creatures followed behind him. One of these creautres was a roc, a gargantuan monstrousity that terrorized the valley. The Knights would dream of hunting this beast, but Strahd's war eventually found its way onto our doorstep. Argonvost, in his silver dragon form fought bravely, but was struck down by Strahd himself. Vladimir swore his eternal revenge turning every Knight of the Order into a bloodlust-infested revenant. 
     
-    "I love this valley and I lived to serve Argonvost and the Order, but I have lived far longer than is natural for a man like myself and I'm ready to rest. If Sir Godfrey is correct about connecting with what we loved in our motal lives, I may find peace."
+    "I love this valley and I lived to serve Argynvost and the Order, but I have lived far longer than is natural for a man like myself and I'm ready to rest. If Sir Godfrey is correct about connecting with what we loved in our motal lives, I may find peace."
     
     As the party marches closer together, the cold becomes less and less bitter. They can see in the distance scarecrows and plant monsters marching west through the snow. No doubt another horror for another day.
     `

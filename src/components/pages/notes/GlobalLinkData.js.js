@@ -330,6 +330,7 @@ let globalHyperLinks = {
 
     // Argonvostholt
       "Argonvostholt": "/locations/13",
+      Argynvostholt: "/locations/13",
 
     // Village of Krezk
       "Village of Krezk": "/locations/14",
