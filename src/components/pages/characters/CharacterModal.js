@@ -84,6 +84,8 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
           {/* Details Box End */}
         </div>
 
+        {/* <div onClick={setCardOpen(false)}> */}
+
         {selectedObj.sections && selectedObj.sections.map((sectionsObj) => {
           return (
             <div key={sectionsObj.id} value={sectionsObj.id} className="page-section">
@@ -94,6 +96,8 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
             </div>
           )
         })}
+
+        {/* </div> */}
 
         <div className="popup__page-button--flexbox">
           {selected != 0 ? <span onClick={(event) => {

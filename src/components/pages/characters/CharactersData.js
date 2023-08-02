@@ -509,7 +509,7 @@ let charactersData = [
         name: "Parriwimple",
         status: "Alive",
         img: "https://i.imgur.com/FBIPhZK.png",
-        title: "",
+        title: "Commoner",
         race: "Barovian",
         firstAppearance: 2,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
@@ -539,7 +539,7 @@ let charactersData = [
         name: "Doru",
         status: "Dead",
         img: "https://i.imgur.com/AprGNcu.png",
-        title: "",
+        title: "Commoner",
         race: "Vampire",
         firstAppearance: 2,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
@@ -549,7 +549,7 @@ let charactersData = [
         name: "Mad Mary",
         status: "Alive",
         img: "https://i.imgur.com/96kr5JK.jpg",
-        title: "",
+        title: "Commoner",
         race: "Commoner",
         firstAppearance: 2,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
@@ -559,7 +559,7 @@ let charactersData = [
         name: "Lancelot",
         status: "Alive",
         img: "https://i.imgur.com/BNcaXW9.jpg",
-        title: "Dog",
+        title: "Loved by All",
         race: "Dog",
         firstAppearance: 2,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
@@ -979,37 +979,55 @@ let charactersData = [
         id: 1,
         name: "The Baron",
         status: "Alive",
-        img: "https://i.imgur.com/hHguveo.png"
+        img: "https://i.imgur.com/hHguveo.png",
+        title: "Barovian Noble",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 2,
         name: "The Baroness",
         status: "Alive",
-        img: "https://i.imgur.com/Uu6FNg4.png"
+        img: "https://i.imgur.com/Uu6FNg4.png",
+        title: "Barovian Noble",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 3,
         name: "Izek Strazni",
         status: "Alive",
-        img: "https://i.imgur.com/zwYIqcJ.png"
+        img: "https://i.imgur.com/zwYIqcJ.png",
+        title: "Head of the Guard",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 4,
         name: "Victor Vallakovich",
         status: "Alive",
-        img: "https://i.imgur.com/TZlpDIH.png"
+        img: "https://i.imgur.com/TZlpDIH.png",
+        title: "Barovian Noble",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 5,
         name: "Vallaki Guards",
         status: "Alive",
-        img: "https://i.imgur.com/mYrMJos.png"
+        img: "https://i.imgur.com/mYrMJos.png",
+        title: "Guards",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 6,
         name: "The Butler",
         status: "Alive",
-        img: "https://i.imgur.com/6vkrtpj.png"
+        img: "https://i.imgur.com/6vkrtpj.png",
+        title: "Commoner",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       }
     ]
   },
@@ -1024,38 +1042,56 @@ let charactersData = [
         name: "Lady Wachter",
         long: "Lady Fiona Wachter",
         status: "Alive",
-        img: "https://i.imgur.com/qLO3OuR.png"
+        img: "https://i.imgur.com/qLO3OuR.png",
+        title: "Barovian Noble",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 2,
         name: "Lord Wachter",
         long: "Lord Nikolai Wachter",
         status: "Alive",
-        img: "https://i.imgur.com/jo9RNTW.png"
+        img: "https://i.imgur.com/jo9RNTW.png",
+        title: "Barovian Noble",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 3,
         name: "Ernst Larnak",
         status: "Alive",
-        img: "https://i.imgur.com/VTYepBN.png"
+        img: "https://i.imgur.com/VTYepBN.png",
+        title: "Barovian Noble",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 4,
         name: "Stella Wachter",
         status: "Alive",
-        img: "https://i.imgur.com/jLxQzr1.png"
+        img: "https://i.imgur.com/jLxQzr1.png",
+        title: "Barovian Noble",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 5,
         name: "Nikolai Wachter",
         status: "Alive",
-        img: "https://i.imgur.com/xd7dn5q.png"
+        img: "https://i.imgur.com/xd7dn5q.png",
+        title: "Barovian Noble",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 6,
         name: "Karl Wachter",
         status: "Alive",
-        img: "https://i.imgur.com/PcJwUpU.png"
+        img: "https://i.imgur.com/PcJwUpU.png",
+        title: "Barovian Noble",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       }
     ]
   },
@@ -1070,61 +1106,88 @@ let charactersData = [
         name: "Dragomir",
         long: "Dragomir Valisov",
         status: "Alive",
-        img: "https://i.imgur.com/9xMXn7l.png"
+        img: "https://i.imgur.com/9xMXn7l.png",
+        title: "Merchant",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 2,
         name: "Alek",
         long: "Alek Alastroi",
         status: "Alive",
-        img: "https://i.imgur.com/ezgNkJR.png"
+        img: "https://i.imgur.com/ezgNkJR.png",
+        title: "Merchant",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 3,
         name: "Andrej",
         long: "Andrej Alastroi",
         status: "Alive",
-        img: "https://i.imgur.com/GkLBY9s.png"
+        img: "https://i.imgur.com/GkLBY9s.png",
+        title: "Merchant",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 4,
         name: "Alana",
         long: "Alana Alastroi",
         status: "Alive",
-        img: "https://i.imgur.com/qM3iqDT.png"
+        img: "https://i.imgur.com/qM3iqDT.png",
+        title: "Merchant",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 5,
         name: "Harkus",
         long: "Harkus Stefanovich",
         status: "Alive",
-        img: "https://i.imgur.com/CiucFK9.jpg"
+        img: "https://i.imgur.com/CiucFK9.jpg",
+        title: "Merchant",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 6,
         name: "Fatima",
         long: "Fatima Lukresh",
         status: "Alive",
-        img: "https://i.imgur.com/6M5oCvn.jpg"
+        img: "https://i.imgur.com/6M5oCvn.jpg",
+        title: "Merchant",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 7,
         name: "Tural",
         status: "Alive",
-        img: "https://i.imgur.com/LoWGZUj.jpg"
+        img: "https://i.imgur.com/LoWGZUj.jpg",
+        title: "Merchant",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 8,
         name: "Bilbo",
         status: "Alive",
-        img: "https://i.imgur.com/5nEcuuL.png"
+        img: "https://i.imgur.com/5nEcuuL.png",
+        title: "Merchant",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 9,
         name: "Ana",
         long: "Ana Krogarov",
         status: "Alive",
-        img: "https://i.imgur.com/5nEcuuL.png"
+        img: "https://i.imgur.com/5nEcuuL.png",
+        title: "Merchant",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       }
     ]
   },
@@ -1139,94 +1202,140 @@ let charactersData = [
         name: "Rictavio",
         long: "Rictavio / Rudloph Van Richten",
         status: "Alive",
-        img: "https://i.imgur.com/tYEzwNQ.png"
+        img: "https://i.imgur.com/tYEzwNQ.png",
+        title: "Monster Hunter",
+        race: "Half Elf",
+        description: "Disguised as the traveling bard Rictavio, Rudolph Van Richten the most famous monster hunter in the multiverse. He is plotting his attack on Strahd while hidden in plain sight"
       },
       {
         id: 2,
         name: "Blinsky",
         long: "Gadof Blinsky",
         status: "Alive",
-        img: "https://i.imgur.com/QefdavN.png"
+        img: "https://i.imgur.com/QefdavN.png",
+        title: "Toy Maker",
+        race: "Barovian",
+        descriptin: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 3,
         name: "Madame Genie",
         status: "Alive",
-        img: "https://i.imgur.com/W1VrGtT.png"
+        img: "https://i.imgur.com/W1VrGtT.png",
+        title: "Brothel Madame",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 4,
         name: "Genie's Ladies",
         status: "Alive",
-        img: "https://i.imgur.com/OqbzSGS.png"
+        img: "https://i.imgur.com/OqbzSGS.png",
+        title: "Sex Workers",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 5,
         name: "Vasili",
+        long: "Vasili Von Holtz",
         status: "Alive",
-        img: "https://i.imgur.com/3tdnSi9.png"
+        img: "https://i.imgur.com/3tdnSi9.png",
+        title: "Accountant",
+        race: "Barovian",
+        description: "Strahd posed as Vasili during his frequent visits to Vallaki. Vasili presented himself as a renown accountant and Barovian noble who had the chance to court Ireena"
       },
       {
         id: 6,
         name: "Henrik",
         long: "Henrik Van Der Root",
         status: "Dead",
-        img: "https://i.imgur.com/YBZxjjh.png"
+        img: "https://i.imgur.com/YBZxjjh.png",
+        title: "Coffin Maker",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 7,
         name: "Bluto",
         status: "Alive",
-        img: "https://i.imgur.com/RVBXqGV.png"
+        img: "https://i.imgur.com/RVBXqGV.png",
+        title: "Commoner",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 8,
         name: "Lars Kjurls",
         status: "Alive",
-        img: "https://i.imgur.com/iNCA7ea.jpg"
+        img: "https://i.imgur.com/iNCA7ea.jpg",
+        title: "Former Guard",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 9,
         name: "Orphans",
         status: "Active",
-        img: ",https://i.imgur.com/rMeg8Jx.png"
+        img: ",https://i.imgur.com/rMeg8Jx.png",
+        title: "Unwanted Children",
+        race: "Barovian",
+        description: "Children may have the worst fates in the valley of Barovia. Those who are lucky enough will eventually find their way to Claudia Belasco's orphanage"
       },
       {
         id: 10,
         name: "Felix",
         status: "Alive",
-        img: "https://i.imgur.com/EpTyfoZ.png"
+        img: "https://i.imgur.com/EpTyfoZ.png",
+        title: "Orphan",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 11,
         name: "Hair Puller",
         long: "Hair Pulling Girl",
         status: "Alive",
-        img: "https://i.imgur.com/3V86wmr.png"
+        img: "https://i.imgur.com/3V86wmr.png",
+        title: "Orphan",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 12,
         name: "Lizard Boy",
         status: "Alive",
-        img: "https://i.imgur.com/2n73COe.jpg"
+        img: "https://i.imgur.com/2n73COe.jpg",
+        title: "Orphan",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 13,
         name: "Ace",
         status: "Alive",
-        img: "https://i.imgur.com/OpBoXpH.jpg"
+        img: "https://i.imgur.com/OpBoXpH.jpg",
+        title: "Orphan",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 14,
         name: "Szoldar",
         status: "Alive",
-        img: "https://i.imgur.com/J3BbMEv.png"
+        img: "https://i.imgur.com/J3BbMEv.png",
+        title: "Wolf Hunter",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 15,
         name: "Yevgeni",
         status: "Alive",
-        img: "https://i.imgur.com/ikZfS2x.png"
+        img: "https://i.imgur.com/ikZfS2x.png",
+        title: "Wolf HUnter",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       }
     ]
   },
@@ -1240,85 +1349,126 @@ let charactersData = [
         id: 1,
         name: "Priests of Osybus",
         status: "Unknown",
-        img: "https://i.imgur.com/v0UJOI8.png"
+        img: "https://i.imgur.com/v0UJOI8.png",
+        title: "Cult",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 2,
         name: "Gustav Durst",
         status: "Dead",
-        img: "https://i.imgur.com/c5F4D19.jpg"
+        img: "https://i.imgur.com/c5F4D19.jpg",
+        title: "Cult Leader",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 3,
         name: "Elizabeth Durst",
         status: "Dead",
-        img: "https://i.imgur.com/otQXN1s.jpg"
+        img: "https://i.imgur.com/otQXN1s.jpg",
+        title: "Cult Leader",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 4,
         name: "Mill Witches",
         status: "Inactive",
-        img: "https://i.imgur.com/OVBsusR.png"
+        img: "https://i.imgur.com/OVBsusR.png",
+        title: "Coven",
+        race: "Night Hags",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 5,
         name: "Bella",
         status: "Alive",
-        img: "https://i.imgur.com/8KHprnt.png"
+        img: "https://i.imgur.com/8KHprnt.png",
+        title: "Mill Witch",
+        race: "Night Hag",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 6,
         name: "Ophelia",
         status: "Dead",
-        img: "https://i.imgur.com/RXoVXmW.png"
+        img: "https://i.imgur.com/RXoVXmW.png",
+        title: "Mill Witch",
+        race: "Night Hag",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 7,
         name: "Morgantha",
         status: "Alive",
-        img: "https://i.imgur.com/p7NId0c.png"
+        img: "https://i.imgur.com/p7NId0c.png",
+        title: "Mill Witch",
+        race: "Night Hag",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 8,
-        name: "Barovian Witches",
+        name: "Witches of Ravenloft",
         status: "Active",
-        img: "https://i.imgur.com/yZG0VQI.png"
+        img: "https://i.imgur.com/yZG0VQI.png",
+        title: "Witches",
+        race: "Boarian Witches",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 9,
         name: "Kavani Druids",
         status: "Active",
-        img: "https://i.imgur.com/KSYMOqH.png"
+        img: "https://i.imgur.com/KSYMOqH.png",
+        title: "Druidic Cult",
+        race: "Druids",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 10,
         name: "Gaine",
         status: "Dead",
-        img: "https://i.imgur.com/VoYlJs4.png"
+        img: "https://i.imgur.com/VoYlJs4.png",
+        title: "Kavani Youth",
+        race: "Druid",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 11,
         name: "Salali",
         status: "Dead",
-        img: "https://i.imgur.com/zFeuyQZ.png"
+        img: "https://i.imgur.com/zFeuyQZ.png",
+        title: "Kavani Youth",
+        race: "Druid",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 12,
         name: "Echo",
         status: "Dead",
-        img: "https://i.imgur.com/YkfPLBR.png"
+        img: "https://i.imgur.com/YkfPLBR.png",
+        title: "Kavani Youth",
+        race: "Druid",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 13,
         name: "Winery Druids",
         status: "Dead",
-        img: "https://i.imgur.com/2DdxjJp.png"
+        img: "https://i.imgur.com/2DdxjJp.png",
+        title: "Druidic Invaders",
+        race: "Druids",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 14,
         name: "Gulthias Holder",
         status: "Dead",
-        img: "https://i.imgur.com/0w6Wqx2.png"
+        img: "https://i.imgur.com/0w6Wqx2.png",
+        title: "Kavani Leader",
+        race: "Druid",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       }
     ]
   },
@@ -1338,147 +1488,195 @@ let charactersData = [
         id: 1,
         name: "Wolf",
         img: "https://i.imgur.com/FchATzr.png",
-        description: ""
+        title: "Creature",
+        race: "Beast",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 2,
         name: "Ghost",
         img: "https://i.imgur.com/BSf0lL6.png",
-        description: ""
+        title: "Creature",
+        race: "Undead",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 3,
         name: "Animated Armor",
         img: "https://i.imgur.com/TeqirPq.png",
-        description: ""
+        title: "Creature",
+        race: "Construct",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 4,
         name: "Animated Broom",
         long: "Broom of Animated Attack",
         img: "https://i.imgur.com/qIFem41.png",
-        description: ""
+        title: "Creature",
+        race: "Construct",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 5,
         name: "Flesh Mound",
         img: "https://i.imgur.com/inlnQP8.png",
-        description: ""
+        title: "Creature",
+        race: "Undead",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"      
       },
       {
         id: 6,
         name: "Dire Wolf",
         img: "https://i.imgur.com/Un8MIPO.png",
-        description: "",
+        title: "Creature",
+        race: "Beast",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 7, 
         name: "Revenant",
         img: "https://i.imgur.com/MRV3Uvp.png",
-        description: "",
+        title: "Creature",
+        race: "Undead",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 8,
         name: "Skeleton",
         img: "https://i.imgur.com/MbQkuxZ.png",
-        description: ""
+        title: "Creature",
+        race: "Undead",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 9,
         name: "Zombie",
         img: "https://i.imgur.com/uRYQa0I.png",
-        description: ""
+        title: "Creature",
+        race: "Undead",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 10,
         name: "Vampire Spawn",
         img: "https://i.imgur.com/EK3IakO.png",
-        description: ""
+        title: "Creature",
+        race: "Undead",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 11,
         name: "Bat",
         img: "https://i.imgur.com/o8uk0mv.png",
-        description: ""
+        title: "Creature",
+        race: "Beast",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 12,
         name: "Mimic",
         img: "https://i.imgur.com/uHvJOv1.png",
-        description: ""
+        title: "Creature",
+        race: "Monstrosity",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 13,
         name: "Smoke Mephit",
         img: "https://i.imgur.com/mId5MjR.png",
-        description: ""
+        title: "Creature",
+        race: "Elemental",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 14,
         name: "Phantom Warrior",
         img: "https://i.imgur.com/GKocPLC.png",
-        description: ""
+        title: "Creature",
+        race: "Undead",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 15,
         name: "Scarecrow",
         img: "https://i.imgur.com/r2Tqbat.png",
-        description: ""
+        title: "Creature",
+        race: "Construct",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 16,
         name: "Red Wyrmling",
         long: "Red Dragon Wyrmling",
         img: "https://i.imgur.com/eTV0kyQ.png",
-        description: ""
+        title: "Creature",
+        race: "Dragon",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 17,
         name: "Gargoyle",
         img: "https://i.imgur.com/WbNjTLi.png",
-        description: ""
+        title: "Creature",
+        race: "Elemental",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 18,
         name: "Twig Blight",
         img: "https://i.imgur.com/gwflAR2.png",
-        description: ""
+        title: "Creature",
+        race: "Plant",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 19,
         name: "Needle Blight",
         img: "https://i.imgur.com/c1FQ3g3.png",
-        description: ""
+        title: "Creature",
+        race: "Plant",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 20,
         name: "Vine Blight",
         img: "https://i.imgur.com/LusaZ0u.png",
-        description: ""
+        title: "Creature",
+        race: "Plant",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 21,
         name: "Flameskull",
         img: "https://i.imgur.com/X7kl2pr.png",
-        description: ""
+        title: "Creature",
+        race: "Undead",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 22,
         name: "Amber Golem",
         img: "https://i.imgur.com/koRNfiJ.png",
-        description: ""
+        title: "Creature",
+        race: "Construct",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 23,
         name: "Roc",
         img: "https://i.imgur.com/nNfX6Mw.png",
-        description: ""
+        title: "Creature",
+        race: "Monstrosity",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
         id: 24,
         name: "Tree Blight",
         img: "https://i.imgur.com/JYG1BK9.png",
-        description: ""
+        title: "Creature",
+        race: "Plant",
+        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       }
     ]
   }
