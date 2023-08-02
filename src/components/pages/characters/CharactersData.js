@@ -1641,6 +1641,7 @@ let charactersData = [
         img: "https://i.imgur.com/MbQkuxZ.png",
         title: "Creature",
         race: "Undead",
+        firstAppearance: 4,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
