@@ -619,7 +619,13 @@ let logData = [
     imgCap: "Wintersplinter cuts its way towards the winery",
     localLinks: {},
     short: "The Sunseekers save the winery from waves of attacks",
-    entry: ``
+    entry: `    With a massive animated tree marching towards the winery with a bloody spear stuck in its trunk, the Sunseekers prepare to defend the winery from this final Kavani attack.  The birdcage Alina has been holding since the ~Amber Temple~ finally loosens up and out flies the little bird inside transforming into a large female centaur.  She is ready to blow off some steam and fights along side the Sunseekers as they rush towards the huge plant and attack it with everything they have left.  German removes the fabled ~Blood Spear~ from the tree and instantly feels a connection to Alina's ~Gulthias Staff~.  Simultaneously they hear the words
+    
+    "A new hand touches the artifacts. Listen. Hear me and obey. A foul darkness has seeped into the valley. It will be a darkness that you will destroy. Work together and I will make you the instrument of my cleansing light."
+    
+    The fight ends and the Martikovs invite the Sunseekers in for a celebration. Wine is poured liberally and several drugs are passed around. The smell of victory and hard-earned peace fills the air within the winery and the party lasts nearly all night. The following morning the Sunseekers are introduced to the newest Martikov, ~Paint Drop~.  He is a newborn baby with feathers and a beak.  Despite being wereravens, lycanthropy is considered a gift given only once a child becomes of age.  This feathered Martikov was born with feathers resembling that of Freebird, the fallen Sunseeker.  After some discussion, it is believed that Freebird's soul must have found its way into the body of this newborn baby.  Even his nickname "~Paint Drop~" was a name that once belonged to Freebird earlier in his life.  Safzira is saddened by this miracle as it means she has truly lost her friend. 
+    
+    It is decided that the Sunseekers will work their way towards Argynvostholt to share the good news about ~Sir Erich~'s passing with ~Sir Godfrey~.`
   }
 ]
 
