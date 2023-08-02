@@ -492,7 +492,7 @@ let charactersData = [
         title: "Barovian Noble",
         race: "Barovian",
         firstAppearance: 2,
-        description: ""
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 11,
@@ -502,7 +502,7 @@ let charactersData = [
         title: "Barovian Noble",
         race: "Barovian",
         firstAppearance: 2,
-        descripton: ""
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 12,
@@ -512,7 +512,7 @@ let charactersData = [
         title: "",
         race: "Barovian",
         firstAppearance: 2,
-        description: ""
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 13,
@@ -522,7 +522,7 @@ let charactersData = [
         title: "Merchant",
         race: "Barovian",
         firstAppearance: 2,
-        description: ""
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 14,
@@ -532,7 +532,7 @@ let charactersData = [
         title: "Priest of Lathander",
         race: "Barovian",
         firstAppearance: 2,
-        description: ""
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 15,
@@ -542,7 +542,7 @@ let charactersData = [
         title: "",
         race: "Vampire",
         firstAppearance: 2,
-        description: ""
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 16,
@@ -552,7 +552,7 @@ let charactersData = [
         title: "",
         race: "Commoner",
         firstAppearance: 2,
-        description: ""
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 17,
@@ -562,7 +562,7 @@ let charactersData = [
         title: "Dog",
         race: "Dog",
         firstAppearance: 2,
-        description: ""
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 18,
@@ -572,7 +572,7 @@ let charactersData = [
         title: "Commoner",
         race: "Barovian",
         firstAppearance: 2,
-        description: ""
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 19,
@@ -582,7 +582,7 @@ let charactersData = [
         title: "Vistani Bar Owners",
         race: "Vistani",
         firstAppearance: 2,
-        description: ""
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       }
     ]
   },
@@ -596,82 +596,118 @@ let charactersData = [
         id: 1,
         name: "Viktor Lazlo",
         status: "Undead",
-        img: "https://i.imgur.com/DUF2lfE.png"
+        img: "https://i.imgur.com/DUF2lfE.png",
+        title: "Traveling Vistani",
+        race: "Vistani",
+        firstAppearance: 1,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 2,
         name: "Madame Eva",
         status: "Alive",
-        img: "https://i.imgur.com/4TAGQ2R.jpg"
-      },
-      {
-        id: 13,
-        name: "Tavern Owners",
-        status: "Alive",
-        img: "https://i.imgur.com/HU0bX4P.jpg"
+        img: "https://i.imgur.com/4TAGQ2R.jpg",
+        title: "Fortune Teller",
+        race: "Vistani",
+        firstAppearance: 3,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 3,
-        name: "Tser Pool Camp",
-        long: "Tser Pool Encampment",
-        status: "Active",
-        img: "https://i.imgur.com/4ESFX6g.png"
+        name: "Tavern Owners",
+        status: "Alive",
+        img: "https://i.imgur.com/HU0bX4P.jpg",
+        title: "Tavern Owners",
+        race: "Vistani",
+        firstAppearance: 2,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 4,
-        name: "Vallaki Camp",
-        long: "Vallaki Vistani Camp",
+        name: "Tser Pool Camp",
+        long: "Tser Pool Encampment",
         status: "Active",
-        img: "https://i.imgur.com/BhKS1uC.png"
+        img: "https://i.imgur.com/4ESFX6g.png",
+        title: "Vistani Outpost",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 5,
-        name: "Luvash",
-        status: "Alive",
-        img: "https://i.imgur.com/zPDSJWv.png"
+        name: "Vallaki Camp",
+        long: "Vallaki Vistani Camp",
+        status: "Active",
+        img: "https://i.imgur.com/BhKS1uC.png",
+        title: "Vistani Outpost",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 6,
-        name: "Arrigal",
+        name: "Luvash",
         status: "Alive",
-        img: "https://i.imgur.com/cJuJgQy.png"
+        img: "https://i.imgur.com/zPDSJWv.png",
+        title: "Vistani Leader",
+        race: "Vistani",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 7,
-        name: "Arabelle",
+        name: "Arrigal",
         status: "Alive",
-        img: "https://i.imgur.com/mUPMdul.png"
+        img: "https://i.imgur.com/cJuJgQy.png",
+        title: "Vistani Leader",
+        race: "Vistani",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 8,
-        name: "Alexei",
+        name: "Arabelle",
         status: "Alive",
-        img: "https://i.imgur.com/kJkTaka.png"
+        img: "https://i.imgur.com/mUPMdul.png",
+        title: "Vistani Child",
+        race: "Vistani",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 9,
-        name: "Kasimir",
-        long: "Kasimir Velikov",
+        name: "Alexei",
         status: "Alive",
-        img: "https://i.imgur.com/VbVKHji.png"
+        img: "https://i.imgur.com/kJkTaka.png",
+        title: "Vistani Child",
+        race: "Vistani",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 10,
-        name: "Dusk Elves",
-        status: "Active",
-        img: "https://i.imgur.com/q3lsE1z.png"
+        name: "Kasimir",
+        long: "Kasimir Velikov",
+        status: "Alive",
+        img: "https://i.imgur.com/VbVKHji.png",
+        title: "Dusk Elf Leader",
+        race: "Dusk Elf",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 11,
-        name: "Vistani Nomads",
+        name: "Dusk Elves",
         status: "Active",
-        img: "https://i.imgur.com/tyNOTjk.png"
+        img: "https://i.imgur.com/q3lsE1z.png",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 12,
+        name: "Vistani Nomads",
+        status: "Active",
+        img: "https://i.imgur.com/tyNOTjk.png",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+      },
+      {
+        id: 13,
         name: "Ez d'Avenir",
         status: "Alive",
-        img: "https://i.imgur.com/Zs0iM18.png"
+        img: "https://i.imgur.com/Zs0iM18.png",
+        title: "Monster Hunter",
+        race: "Vistani",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       }
     ]
   },

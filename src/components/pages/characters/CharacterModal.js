@@ -54,10 +54,10 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
               </div>
 
               {/* Race */}
-              <div className="details-box__section">
+              { selectedObj.race && <div className="details-box__section">
                 <div className="details-box__section--left"><b>Race</b></div>
                 <div className="details-box__section--right">{selectedObj.race}</div>
-              </div>
+              </div>}
 
               {/* First Appearance */}
               <div className="details-box__section">
