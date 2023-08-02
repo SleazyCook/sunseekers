@@ -721,67 +721,101 @@ let charactersData = [
         id: 1,
         name: "Danika Dorkova",
         status: "Alive",
-        img: "https://i.imgur.com/t76siZc.png"
+        img: "https://i.imgur.com/t76siZc.png",
+        title: "Tavern Owner",
+        race: "Wereraven",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 2,
         name: "Urwin Martikov",
         status: "Alive",
-        img: "https://i.imgur.com/se3nVYA.png"
+        img: "https://i.imgur.com/se3nVYA.png",
+        title: "Tavern Owner",
+        race: "Wereraven",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 3,
         name: "Brom Martikov",
         status: "Alive",
-        img: "https://i.imgur.com/BkKm4Az.png"
+        img: "https://i.imgur.com/BkKm4Az.png",
+        title: "Child",
+        race: "Wereraven",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 4,
         name: "Bray Martikov",
         status: "Dead",
-        img: "https://i.imgur.com/zHZCDfN.png"
+        img: "https://i.imgur.com/zHZCDfN.png",
+        title: "Child",
+        race: "Wereraven",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 5,
         name: "Adrian Martikov",
         status: "Alive",
-        img: "https://i.imgur.com/difX7Fx.png"
+        img: "https://i.imgur.com/difX7Fx.png",
+        title: "",
+        race: "Wereraven",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 6,
         name: "Davian Martikov",
         status: "Alive",
-        img: "https://i.imgur.com/07MZIud.png"
+        img: "https://i.imgur.com/07MZIud.png",
+        title: "Martikov Patriarch",
+        race: "Wereraven",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 7,
         name: "Elvir Martikov",
         status: "Alive",
-        img: "https://i.imgur.com/XKjOKyS.png"
+        img: "https://i.imgur.com/XKjOKyS.png",
+        title: "",
+        race: "Wereraven",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+
       },
       {
         id: 8,
         name: "Stefania Martikov",
         status: "Alive",
-        img: "https://i.imgur.com/8Ipfxo5.png"
+        img: "https://i.imgur.com/8Ipfxo5.png",
+        title: "",
+        race: "Wereraven",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 9,
         name: "Dag Tomescu",
         status: "Alive",
-        img: "https://i.imgur.com/h4eOBpz.png"
+        img: "https://i.imgur.com/h4eOBpz.png",
+        title: "",
+        race: "Wereraven",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 10,
         name: "Winery Children",
         status: "Alive",
-        img: "https://i.imgur.com/QaO9vpj.png"
+        img: "https://i.imgur.com/QaO9vpj.png",
+        title: "Children",
+        race: "Wereraven",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 11,
         name: "Paint Drop",
         status: "Alive",
-        img: "https://i.imgur.com/rNRl0Yz.png"
+        img: "https://i.imgur.com/rNRl0Yz.png",
+        title: "Child",
+        race: "Wereraven",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       }
     ]
   },
@@ -795,61 +829,88 @@ let charactersData = [
         id: 1,
         name: "Argynvost",
         status: "Dead",
-        img: "https://i.imgur.com/gMBEsmH.png"
+        img: "https://i.imgur.com/gMBEsmH.png",
+        title: "Founder of Order of the Silver Dragon",
+        race: "Silver Dragon",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 2,
         name: "Sir Vladimir",
         long: "Sir Vladimir Horngaard",
         status: "Undead",
-        img: "https://i.imgur.com/8s2uE3q.png"
+        img: "https://i.imgur.com/8s2uE3q.png",
+        title: "Silver Knight",
+        race: "Revenant",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 3,
         name: "Sir Godfrey",
         long: "Sir Godfrey Gilwyn",
         status: "Undead",
-        img: "https://i.imgur.com/I3Gc3uT.png"
+        img: "https://i.imgur.com/I3Gc3uT.png",
+        title: "Silver Knight",
+        race: "Revenant",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 4,
         name: "Revenants",
         status: "Active",
-        img: "https://i.imgur.com/0IVdyxP.png"
+        img: "https://i.imgur.com/0IVdyxP.png",
+        title: "Silver Knight",
+        race: "Revenant",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 5,
         name: "Gofrey's Knights",
         status: "Active",
-        img: "https://i.imgur.com/ESpelam.png"
+        img: "https://i.imgur.com/ESpelam.png",
+        title: "Silver Knight",
+        race: "Revenant",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 6,
         name: "Sir Erich",
         long: "Sir Erich Norinthaal",
         status: "Dead",
-        img: "https://i.imgur.com/akPmTiU.png"
+        img: "https://i.imgur.com/akPmTiU.png",
+        title: "Silver Knight",
+        race: "Revenant",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 7,
         name: "Sir Damien",
         long: "Sir Damien Hargrove",
         status: "Undead",
-        img: "https://i.imgur.com/lslqYhu.png"
+        img: "https://i.imgur.com/lslqYhu.png",
+        title: "Silver Knight",
+        race: "Revenant",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 8,
         name: "Sir Robern",
         long: "Sir Robern Boarwin",
         status: "Undead",
-        img: "https://i.imgur.com/oicL9Ap.png"
+        img: "https://i.imgur.com/oicL9Ap.png",
+        title: "Silver Knight",
+        race: "Revenant",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 9,
         name: "Arthund",
         long: "Arthund Boarwin",
         status: "Undead",
-        img: "https://i.imgur.com/TEMI1tp.png"
+        img: "https://i.imgur.com/TEMI1tp.png",
+        title: "Silver Squire",
+        race: "Revenant",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       }
     ]
   },
@@ -863,33 +924,48 @@ let charactersData = [
         id: 1,
         name: "Father Donavich",
         status: "Alive",
-        img: ""
+        img: "https://i.imgur.com/jr6osuv.jpg",
+        title: "Priest of Lathander",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 2,
         name: "Feather Lucien",
         long: "Father Lucien Petrovich",
         status: "Dead",
-        img: ""
+        img: "https://i.imgur.com/rgYIjKd.png",
+        title: "Priest of Lathander",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 3,
         name: "Father Franz",
         long: "Father Franz Petrovich",
         status: "Alive",
-        img: ""
+        img: "https://i.imgur.com/jT8iGgN.png",
+        title: "Priest of Lathander",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 4,
         name: "Claudia Belasco",
         status: "Alive",
-        img: "https://i.imgur.com/Ry4ksDE.png"
+        img: "https://i.imgur.com/Ry4ksDE.png",
+        title: "Orphanage Mistress",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
         id: 5,
         name: "Milivoj",
         status: "Dead",
-        img: "https://i.imgur.com/nYQC8VY.jpg"
+        img: "https://i.imgur.com/nYQC8VY.jpg",
+        title: "Orphan",
+        race: "Barovian",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
     ]
   },
