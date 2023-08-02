@@ -629,6 +629,7 @@ let charactersData = [
         status: "Active",
         img: "https://i.imgur.com/4ESFX6g.png",
         title: "Vistani Outpost",
+        firstAppearance: 3,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -638,6 +639,7 @@ let charactersData = [
         status: "Active",
         img: "https://i.imgur.com/BhKS1uC.png",
         title: "Vistani Outpost",
+        firstAppearance: 10,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -647,6 +649,7 @@ let charactersData = [
         img: "https://i.imgur.com/zPDSJWv.png",
         title: "Vistani Leader",
         race: "Vistani",
+        firstAppearance: 10,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -656,6 +659,7 @@ let charactersData = [
         img: "https://i.imgur.com/cJuJgQy.png",
         title: "Vistani Leader",
         race: "Vistani",
+        firstAppearance: 10,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -665,6 +669,7 @@ let charactersData = [
         img: "https://i.imgur.com/mUPMdul.png",
         title: "Vistani Child",
         race: "Vistani",
+        firstAppearance: 10,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -674,6 +679,7 @@ let charactersData = [
         img: "https://i.imgur.com/kJkTaka.png",
         title: "Vistani Child",
         race: "Vistani",
+        firstAppearance: 10,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -684,6 +690,7 @@ let charactersData = [
         img: "https://i.imgur.com/VbVKHji.png",
         title: "Dusk Elf Leader",
         race: "Dusk Elf",
+        firstAppearance: 10,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -691,6 +698,8 @@ let charactersData = [
         name: "Dusk Elves",
         status: "Active",
         img: "https://i.imgur.com/q3lsE1z.png",
+        race: "Dusk Elves",
+        firstAppearance: 10,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -698,6 +707,8 @@ let charactersData = [
         name: "Vistani Nomads",
         status: "Active",
         img: "https://i.imgur.com/tyNOTjk.png",
+        race: "Vistani",
+        firstAppearance: 1,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -707,6 +718,7 @@ let charactersData = [
         img: "https://i.imgur.com/Zs0iM18.png",
         title: "Monster Hunter",
         race: "Vistani",
+        firstAppearance: 16,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       }
     ]
@@ -724,6 +736,7 @@ let charactersData = [
         img: "https://i.imgur.com/t76siZc.png",
         title: "Tavern Owner",
         race: "Wereraven",
+        firstAppearance: 4,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -733,6 +746,7 @@ let charactersData = [
         img: "https://i.imgur.com/se3nVYA.png",
         title: "Tavern Owner",
         race: "Wereraven",
+        firstAppearance: 4,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -742,6 +756,7 @@ let charactersData = [
         img: "https://i.imgur.com/BkKm4Az.png",
         title: "Child",
         race: "Wereraven",
+        firstAppearance: 4,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -751,6 +766,7 @@ let charactersData = [
         img: "https://i.imgur.com/zHZCDfN.png",
         title: "Child",
         race: "Wereraven",
+        firstAppearance: 4,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -760,6 +776,7 @@ let charactersData = [
         img: "https://i.imgur.com/difX7Fx.png",
         title: "",
         race: "Wereraven",
+        firstAppearance: 23,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -769,6 +786,7 @@ let charactersData = [
         img: "https://i.imgur.com/07MZIud.png",
         title: "Martikov Patriarch",
         race: "Wereraven",
+        firstAppearance: 23,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -778,6 +796,7 @@ let charactersData = [
         img: "https://i.imgur.com/XKjOKyS.png",
         title: "",
         race: "Wereraven",
+        firstAppearance: 23,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
 
       },
@@ -788,6 +807,7 @@ let charactersData = [
         img: "https://i.imgur.com/8Ipfxo5.png",
         title: "",
         race: "Wereraven",
+        firstAppearance: 23,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -797,6 +817,7 @@ let charactersData = [
         img: "https://i.imgur.com/h4eOBpz.png",
         title: "",
         race: "Wereraven",
+        firstAppearance: 23,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -806,6 +827,7 @@ let charactersData = [
         img: "https://i.imgur.com/QaO9vpj.png",
         title: "Children",
         race: "Wereraven",
+        firstAppearance: 23,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -815,6 +837,7 @@ let charactersData = [
         img: "https://i.imgur.com/rNRl0Yz.png",
         title: "Child",
         race: "Wereraven",
+        firstAppearance: 24,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       }
     ]
@@ -832,6 +855,7 @@ let charactersData = [
         img: "https://i.imgur.com/gMBEsmH.png",
         title: "Founder of Order of the Silver Dragon",
         race: "Silver Dragon",
+        firstAppearance: 14,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -842,6 +866,7 @@ let charactersData = [
         img: "https://i.imgur.com/8s2uE3q.png",
         title: "Silver Knight",
         race: "Revenant",
+        firstAppearance: 14,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -852,6 +877,7 @@ let charactersData = [
         img: "https://i.imgur.com/I3Gc3uT.png",
         title: "Silver Knight",
         race: "Revenant",
+        firstAppearance: 14,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -861,6 +887,7 @@ let charactersData = [
         img: "https://i.imgur.com/0IVdyxP.png",
         title: "Silver Knight",
         race: "Revenant",
+        firstAppearance: 14,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -870,6 +897,7 @@ let charactersData = [
         img: "https://i.imgur.com/ESpelam.png",
         title: "Silver Knight",
         race: "Revenant",
+        firstAppearance: 14,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -880,6 +908,7 @@ let charactersData = [
         img: "https://i.imgur.com/akPmTiU.png",
         title: "Silver Knight",
         race: "Revenant",
+        firstAppearance: 14,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -890,6 +919,7 @@ let charactersData = [
         img: "https://i.imgur.com/lslqYhu.png",
         title: "Silver Knight",
         race: "Revenant",
+        firstAppearance: 14,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -900,6 +930,7 @@ let charactersData = [
         img: "https://i.imgur.com/oicL9Ap.png",
         title: "Silver Knight",
         race: "Revenant",
+        firstAppearance: 14,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -910,6 +941,7 @@ let charactersData = [
         img: "https://i.imgur.com/TEMI1tp.png",
         title: "Silver Squire",
         race: "Revenant",
+        firstAppearance: 14,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       }
     ]
@@ -927,6 +959,7 @@ let charactersData = [
         img: "https://i.imgur.com/jr6osuv.jpg",
         title: "Priest of Lathander",
         race: "Barovian",
+        firstAppearance: 2,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -937,6 +970,7 @@ let charactersData = [
         img: "https://i.imgur.com/rgYIjKd.png",
         title: "Priest of Lathander",
         race: "Barovian",
+        firstAppearance: 6,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -947,6 +981,7 @@ let charactersData = [
         img: "https://i.imgur.com/jT8iGgN.png",
         title: "Priest of Lathander",
         race: "Barovian",
+        firstAppearance: 6,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -956,6 +991,7 @@ let charactersData = [
         img: "https://i.imgur.com/Ry4ksDE.png",
         title: "Orphanage Mistress",
         race: "Barovian",
+        firstAppearance: 6,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -965,6 +1001,7 @@ let charactersData = [
         img: "https://i.imgur.com/nYQC8VY.jpg",
         title: "Orphan",
         race: "Barovian",
+        firstAppearance: 10,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
     ]
@@ -982,6 +1019,7 @@ let charactersData = [
         img: "https://i.imgur.com/hHguveo.png",
         title: "Barovian Noble",
         race: "Barovian",
+        firstAppearance: 4,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -991,6 +1029,7 @@ let charactersData = [
         img: "https://i.imgur.com/Uu6FNg4.png",
         title: "Barovian Noble",
         race: "Barovian",
+        firstAppearance: 4,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1000,6 +1039,7 @@ let charactersData = [
         img: "https://i.imgur.com/zwYIqcJ.png",
         title: "Head of the Guard",
         race: "Barovian",
+        firstAppearance: 4,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1009,6 +1049,7 @@ let charactersData = [
         img: "https://i.imgur.com/TZlpDIH.png",
         title: "Barovian Noble",
         race: "Barovian",
+        firstAppearance: 11,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1018,6 +1059,7 @@ let charactersData = [
         img: "https://i.imgur.com/mYrMJos.png",
         title: "Guards",
         race: "Barovian",
+        firstAppearance: 4,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1027,6 +1069,7 @@ let charactersData = [
         img: "https://i.imgur.com/6vkrtpj.png",
         title: "Commoner",
         race: "Barovian",
+        firstAppearance: 4,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       }
     ]
@@ -1045,6 +1088,7 @@ let charactersData = [
         img: "https://i.imgur.com/qLO3OuR.png",
         title: "Barovian Noble",
         race: "Barovian",
+        firstAppearance: 10,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1055,6 +1099,7 @@ let charactersData = [
         img: "https://i.imgur.com/jo9RNTW.png",
         title: "Barovian Noble",
         race: "Barovian",
+        firstAppearance: 10,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1064,6 +1109,7 @@ let charactersData = [
         img: "https://i.imgur.com/VTYepBN.png",
         title: "Barovian Noble",
         race: "Barovian",
+        firstAppearance: 10,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1073,6 +1119,7 @@ let charactersData = [
         img: "https://i.imgur.com/jLxQzr1.png",
         title: "Barovian Noble",
         race: "Barovian",
+        firstAppearance: 10,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1082,6 +1129,7 @@ let charactersData = [
         img: "https://i.imgur.com/xd7dn5q.png",
         title: "Barovian Noble",
         race: "Barovian",
+        firstAppearance: 6,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1091,6 +1139,7 @@ let charactersData = [
         img: "https://i.imgur.com/PcJwUpU.png",
         title: "Barovian Noble",
         race: "Barovian",
+        firstAppearance: 6,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       }
     ]
@@ -1109,6 +1158,7 @@ let charactersData = [
         img: "https://i.imgur.com/9xMXn7l.png",
         title: "Merchant",
         race: "Barovian",
+        firstAppearance: 5,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1119,6 +1169,7 @@ let charactersData = [
         img: "https://i.imgur.com/ezgNkJR.png",
         title: "Merchant",
         race: "Barovian",
+        firstAppearance: 5,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1129,6 +1180,7 @@ let charactersData = [
         img: "https://i.imgur.com/GkLBY9s.png",
         title: "Merchant",
         race: "Barovian",
+        firstAppearance: 5,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1139,6 +1191,7 @@ let charactersData = [
         img: "https://i.imgur.com/qM3iqDT.png",
         title: "Merchant",
         race: "Barovian",
+        firstAppearance: 5,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1149,6 +1202,7 @@ let charactersData = [
         img: "https://i.imgur.com/CiucFK9.jpg",
         title: "Merchant",
         race: "Barovian",
+        firstAppearance: 5,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1159,6 +1213,7 @@ let charactersData = [
         img: "https://i.imgur.com/6M5oCvn.jpg",
         title: "Merchant",
         race: "Barovian",
+        firstAppearance: 5,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1168,6 +1223,7 @@ let charactersData = [
         img: "https://i.imgur.com/LoWGZUj.jpg",
         title: "Merchant",
         race: "Barovian",
+        firstAppearance: 5,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1177,6 +1233,7 @@ let charactersData = [
         img: "https://i.imgur.com/5nEcuuL.png",
         title: "Merchant",
         race: "Barovian",
+        firstAppearance: 5,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       },
       {
@@ -1187,6 +1244,7 @@ let charactersData = [
         img: "https://i.imgur.com/5nEcuuL.png",
         title: "Merchant",
         race: "Barovian",
+        firstAppearance: 5,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
       }
     ]
@@ -1205,6 +1263,7 @@ let charactersData = [
         img: "https://i.imgur.com/tYEzwNQ.png",
         title: "Monster Hunter",
         race: "Half Elf",
+        firstAppearance: 5,
         description: "Disguised as the traveling bard Rictavio, Rudolph Van Richten the most famous monster hunter in the multiverse. He is plotting his attack on Strahd while hidden in plain sight"
       },
       {
@@ -1215,6 +1274,7 @@ let charactersData = [
         img: "https://i.imgur.com/QefdavN.png",
         title: "Toy Maker",
         race: "Barovian",
+        firstAppearance: 5,
         descriptin: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1224,6 +1284,7 @@ let charactersData = [
         img: "https://i.imgur.com/W1VrGtT.png",
         title: "Brothel Madame",
         race: "Barovian",
+        firstAppearance: 5,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1233,6 +1294,7 @@ let charactersData = [
         img: "https://i.imgur.com/OqbzSGS.png",
         title: "Sex Workers",
         race: "Barovian",
+        firstAppearance: 5,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1243,6 +1305,7 @@ let charactersData = [
         img: "https://i.imgur.com/3tdnSi9.png",
         title: "Accountant",
         race: "Barovian",
+        firstAppearance: 6,
         description: "Strahd posed as Vasili during his frequent visits to Vallaki. Vasili presented himself as a renown accountant and Barovian noble who had the chance to court Ireena"
       },
       {
@@ -1253,6 +1316,7 @@ let charactersData = [
         img: "https://i.imgur.com/YBZxjjh.png",
         title: "Coffin Maker",
         race: "Barovian",
+        firstAppearance: 12,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1262,6 +1326,7 @@ let charactersData = [
         img: "https://i.imgur.com/RVBXqGV.png",
         title: "Commoner",
         race: "Barovian",
+        firstAppearance: 10,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1271,6 +1336,7 @@ let charactersData = [
         img: "https://i.imgur.com/iNCA7ea.jpg",
         title: "Former Guard",
         race: "Barovian",
+        firstAppearance: 6,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1280,6 +1346,7 @@ let charactersData = [
         img: ",https://i.imgur.com/rMeg8Jx.png",
         title: "Unwanted Children",
         race: "Barovian",
+        firstAppearance: 6,
         description: "Children may have the worst fates in the valley of Barovia. Those who are lucky enough will eventually find their way to Claudia Belasco's orphanage"
       },
       {
@@ -1289,6 +1356,7 @@ let charactersData = [
         img: "https://i.imgur.com/EpTyfoZ.png",
         title: "Orphan",
         race: "Barovian",
+        firstAppearance: 6,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1299,6 +1367,7 @@ let charactersData = [
         img: "https://i.imgur.com/3V86wmr.png",
         title: "Orphan",
         race: "Barovian",
+        firstAppearance: 6,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1308,6 +1377,7 @@ let charactersData = [
         img: "https://i.imgur.com/2n73COe.jpg",
         title: "Orphan",
         race: "Barovian",
+        firstAppearance: 6,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1317,6 +1387,7 @@ let charactersData = [
         img: "https://i.imgur.com/OpBoXpH.jpg",
         title: "Orphan",
         race: "Barovian",
+        firstAppearance: 6,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1326,6 +1397,7 @@ let charactersData = [
         img: "https://i.imgur.com/J3BbMEv.png",
         title: "Wolf Hunter",
         race: "Barovian",
+        firstAppearance: 5,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1335,6 +1407,7 @@ let charactersData = [
         img: "https://i.imgur.com/ikZfS2x.png",
         title: "Wolf HUnter",
         race: "Barovian",
+        firstAppearance: 5,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       }
     ]
@@ -1351,6 +1424,7 @@ let charactersData = [
         status: "Unknown",
         img: "https://i.imgur.com/v0UJOI8.png",
         title: "Cult",
+        firstAppearance: 1,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1360,6 +1434,7 @@ let charactersData = [
         img: "https://i.imgur.com/c5F4D19.jpg",
         title: "Cult Leader",
         race: "Barovian",
+        firstAppearance: 1,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1369,6 +1444,7 @@ let charactersData = [
         img: "https://i.imgur.com/otQXN1s.jpg",
         title: "Cult Leader",
         race: "Barovian",
+        firstAppearance: 1,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1378,6 +1454,7 @@ let charactersData = [
         img: "https://i.imgur.com/OVBsusR.png",
         title: "Coven",
         race: "Night Hags",
+        firstAppearance: 3,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1387,6 +1464,7 @@ let charactersData = [
         img: "https://i.imgur.com/8KHprnt.png",
         title: "Mill Witch",
         race: "Night Hag",
+        firstAppearance: 3,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1396,6 +1474,7 @@ let charactersData = [
         img: "https://i.imgur.com/RXoVXmW.png",
         title: "Mill Witch",
         race: "Night Hag",
+        firstAppearance: 7,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1405,6 +1484,7 @@ let charactersData = [
         img: "https://i.imgur.com/p7NId0c.png",
         title: "Mill Witch",
         race: "Night Hag",
+        firstAppearance: 7,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1414,6 +1494,7 @@ let charactersData = [
         img: "https://i.imgur.com/yZG0VQI.png",
         title: "Witches",
         race: "Boarian Witches",
+        firstAppearance: 15,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1423,6 +1504,7 @@ let charactersData = [
         img: "https://i.imgur.com/KSYMOqH.png",
         title: "Druidic Cult",
         race: "Druids",
+        firstAppearance: 22,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1432,6 +1514,7 @@ let charactersData = [
         img: "https://i.imgur.com/VoYlJs4.png",
         title: "Kavani Youth",
         race: "Druid",
+        firstAppearance: 22,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1441,6 +1524,7 @@ let charactersData = [
         img: "https://i.imgur.com/zFeuyQZ.png",
         title: "Kavani Youth",
         race: "Druid",
+        firstAppearance: 22,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1450,6 +1534,7 @@ let charactersData = [
         img: "https://i.imgur.com/YkfPLBR.png",
         title: "Kavani Youth",
         race: "Druid",
+        firstAppearance: 22,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1459,6 +1544,7 @@ let charactersData = [
         img: "https://i.imgur.com/2DdxjJp.png",
         title: "Druidic Invaders",
         race: "Druids",
+        firstAppearance: 23,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1468,6 +1554,7 @@ let charactersData = [
         img: "https://i.imgur.com/0w6Wqx2.png",
         title: "Kavani Leader",
         race: "Druid",
+        firstAppearance: 23,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       }
     ]
@@ -1490,6 +1577,7 @@ let charactersData = [
         img: "https://i.imgur.com/FchATzr.png",
         title: "Creature",
         race: "Beast",
+        firstAppearance: 1,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1498,6 +1586,7 @@ let charactersData = [
         img: "https://i.imgur.com/BSf0lL6.png",
         title: "Creature",
         race: "Undead",
+        firstAppearance: 1,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1506,6 +1595,7 @@ let charactersData = [
         img: "https://i.imgur.com/TeqirPq.png",
         title: "Creature",
         race: "Construct",
+        firstAppearance: 1,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1515,6 +1605,7 @@ let charactersData = [
         img: "https://i.imgur.com/qIFem41.png",
         title: "Creature",
         race: "Construct",
+        firstAppearance: 1,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1523,6 +1614,7 @@ let charactersData = [
         img: "https://i.imgur.com/inlnQP8.png",
         title: "Creature",
         race: "Undead",
+        firstAppearance: 1,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"      
       },
       {
@@ -1531,6 +1623,7 @@ let charactersData = [
         img: "https://i.imgur.com/Un8MIPO.png",
         title: "Creature",
         race: "Beast",
+        firstAppearance: 4,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1539,6 +1632,7 @@ let charactersData = [
         img: "https://i.imgur.com/MRV3Uvp.png",
         title: "Creature",
         race: "Undead",
+        firstAppearance: 4,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1555,6 +1649,7 @@ let charactersData = [
         img: "https://i.imgur.com/uRYQa0I.png",
         title: "Creature",
         race: "Undead",
+        firstAppearance: 2,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1563,6 +1658,7 @@ let charactersData = [
         img: "https://i.imgur.com/EK3IakO.png",
         title: "Creature",
         race: "Undead",
+        firstAppearance: 2,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1571,6 +1667,7 @@ let charactersData = [
         img: "https://i.imgur.com/o8uk0mv.png",
         title: "Creature",
         race: "Beast",
+        firstAppearance: 7,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1579,6 +1676,7 @@ let charactersData = [
         img: "https://i.imgur.com/uHvJOv1.png",
         title: "Creature",
         race: "Monstrosity",
+        firstAppearance: 7,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1587,6 +1685,7 @@ let charactersData = [
         img: "https://i.imgur.com/mId5MjR.png",
         title: "Creature",
         race: "Elemental",
+        firstAppearance: 14,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1595,6 +1694,7 @@ let charactersData = [
         img: "https://i.imgur.com/GKocPLC.png",
         title: "Creature",
         race: "Undead",
+        firstAppearance: 14,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1603,6 +1703,7 @@ let charactersData = [
         img: "https://i.imgur.com/r2Tqbat.png",
         title: "Creature",
         race: "Construct",
+        firstAppearance: 17,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1612,6 +1713,7 @@ let charactersData = [
         img: "https://i.imgur.com/eTV0kyQ.png",
         title: "Creature",
         race: "Dragon",
+        firstAppearance: 19,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1620,6 +1722,7 @@ let charactersData = [
         img: "https://i.imgur.com/WbNjTLi.png",
         title: "Creature",
         race: "Elemental",
+        firstAppearance: 19,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1628,6 +1731,7 @@ let charactersData = [
         img: "https://i.imgur.com/gwflAR2.png",
         title: "Creature",
         race: "Plant",
+        firstAppearance: 18,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1636,6 +1740,7 @@ let charactersData = [
         img: "https://i.imgur.com/c1FQ3g3.png",
         title: "Creature",
         race: "Plant",
+        firstAppearance: 18,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1644,6 +1749,7 @@ let charactersData = [
         img: "https://i.imgur.com/LusaZ0u.png",
         title: "Creature",
         race: "Plant",
+        firstAppearance: 18,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1652,6 +1758,7 @@ let charactersData = [
         img: "https://i.imgur.com/X7kl2pr.png",
         title: "Creature",
         race: "Undead",
+        firstAppearance: 22,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1660,6 +1767,7 @@ let charactersData = [
         img: "https://i.imgur.com/koRNfiJ.png",
         title: "Creature",
         race: "Construct",
+        firstAppearance: 21,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1668,6 +1776,7 @@ let charactersData = [
         img: "https://i.imgur.com/nNfX6Mw.png",
         title: "Creature",
         race: "Monstrosity",
+        firstAppearance: 23,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       },
       {
@@ -1676,6 +1785,7 @@ let charactersData = [
         img: "https://i.imgur.com/JYG1BK9.png",
         title: "Creature",
         race: "Plant",
+        firstAppearance: 24,
         description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
       }
     ]
