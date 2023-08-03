@@ -234,6 +234,12 @@ let charactersData = [
             description: "After the deaths of two of his brides, Strahd demanded repayment from the Sunseekers in blood. Freebird was slain in front of Umnos and Elizana as they were trying to flee Castle Ravenloft.",
             localLinks: {}
           },
+          {
+            id: 6,
+            name: "Bafan's Coffin",
+            description: "Strahd ambushed the Sunseekers on the road disguised, at first, as a wolf. Once he transformed into his true form he willingly took several powerful attacks as he used his charms to manipulate them one by one.",
+            localLinks: {}
+          }
     
         ]
       },
