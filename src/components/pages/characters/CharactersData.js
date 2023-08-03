@@ -107,7 +107,7 @@ let charactersData = [
         class: "Artificer / Wizard",
         subclass: "Battle Smith / School of Necromancy",
         race: "Reborn",
-        description: "",
+        description: "A walking enigma (at least in appearance) Bafan is a tinkerer accompanied by his silent companion Gene. Together they have been stumbling through Barovia alongside The Barbarian",
       },
       {
         id: 4,
@@ -156,7 +156,7 @@ let charactersData = [
         class: "Cleric",
         subclass: "Forge Domain",
         race: "Half elf/human",
-        description: ""
+        description: "An old soldier turned, cleric looking to spread the word of his religion and do some good in the world. He came to Barovia looking to give a helping hand to those in need not knowing just how bad it really was here"
       },
       {
         id: 8,
@@ -183,7 +183,7 @@ let charactersData = [
         subclass: "Samurai",
         level: 4,
         race: "Human",
-        description: "",
+        description: "A skilled fighter with amnesia lost in the Svalich Woods. For a time he traveled south with Safzira and Kasimir in their quest towards the Amber Temple",
       },
     ]
   },
