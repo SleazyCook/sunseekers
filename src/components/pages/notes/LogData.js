@@ -640,7 +640,14 @@ let logData = [
     imgCap: "Strahd's charms on the Old Svalich Road",
     localLinks: {},
     short: "Strahd ambushes the Sunseekers on the road",
-    entry: `    `
+    entry: `    The Sunseekers are welcomed by ~Arthund Boarwin~ at Argynvostholt and led upstairs to ~Sir Godfrey Gilwyn~.  Godfrey is relieved to hear about ~Sir Erich~'s successful and peaceful passing.He insists that they take another revenant with them to resolve some more unfinished business. Bafan is skeptical, but German is happy to take on a new squire. Arthund volunteers himself to join the group. Armor and silvered weapons are offered to the group before they leave and German sees through a window that there is a horse-pulled cart approaching the dragon statue outside.  The vistana man steps off the wagon, relieves himself on the statue of Argynvost, disconnects the cart from the horse, and rides north. The Sunseekers rush outside to see the abandoned cart containing only a simple wooden coffin from Vallaki with a note pinned to it. The note reads:
+    
+    "A gift for a humble servant. Perhaps you will stay dead this time.
+    - Count Strahd Von Zarovich"
+    
+    Beneath the note is the name "Bafan" carved into the wood.  The group is unsettled as Bafan begins to explain himself.  He is caught off guard by the message as he has definitely not met Strahd before and explains to the best of his ability his mortal state. He has died before and he is in some kind of undead state currently. They decide to chase the Vistana rider north. In pursuit the wagon gets stuck in the road and they are surrounded by wolves. They easily fend off the attack until one transforms into Strahd.
+    
+    Strahd willingly takes every attack they throw at him, charming each of them along the way...`
   }
 ]
 
