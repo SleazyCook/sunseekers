@@ -608,7 +608,7 @@ let logData = [
   {
     number: 24,
     title: "Keepers of the Feather",
-    players: ["Alina", "Safzira", "German", "Bafan"],
+    players: ["Alina", "Safzira", "German", "Bafan", "Rydas"],
     npcs: ["Davian Martikov"],
     quests: [""],
     locations: ["Winery"],
@@ -626,6 +626,21 @@ let logData = [
     The fight ends and the Martikovs invite the Sunseekers in for a celebration. Wine is poured liberally and several drugs are passed around. The smell of victory and hard-earned peace fills the air within the winery and the party lasts nearly all night. The following morning the Sunseekers are introduced to the newest Martikov, ~Paint Drop~.  He is a newborn baby with feathers and a beak.  Despite being wereravens, lycanthropy is considered a gift given only once a child becomes of age.  This feathered Martikov was born with feathers resembling that of Freebird, the fallen Sunseeker.  After some discussion, it is believed that Freebird's soul must have found its way into the body of this newborn baby.  Even his nickname "~Paint Drop~" was a name that once belonged to Freebird earlier in his life.  Safzira is saddened by this miracle as it means she has truly lost her friend. 
     
     It is decided that the Sunseekers will work their way towards Argynvostholt to share the good news about ~Sir Erich~'s passing with ~Sir Godfrey~.`
+  },
+  {
+    number: 25,
+    title: "Bafan's Coffin",
+    players: ["Alina", "Bafan", "German", "Safzira"],
+    npcs: ["Godfrey", "Arthund", "Strahd"],
+    quests: [""],
+    locations: ["Argynvostholt", "Old Svalich Road"],
+    gameDate: "16th Afternoon of Alturiak",
+    realDate: "August 2nd",
+    imgUrl: "https://i.imgur.com/pMnjKAV.png",
+    imgCap: "Strahd's charms on the Old Svalich Road",
+    localLinks: {},
+    short: "Strahd ambushes the Sunseekers on the road",
+    entry: `    `
   }
 ]
 
