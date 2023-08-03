@@ -647,7 +647,7 @@ let logData = [
     
     Beneath the note is the name "Bafan" carved into the wood.  The group is unsettled as Bafan begins to explain himself.  He is caught off guard by the message as he has definitely not met Strahd before and explains to the best of his ability his mortal state. He has died before and he is in some kind of undead state currently. They decide to chase the Vistana rider north. In pursuit the wagon gets stuck in the road and they are surrounded by wolves. They easily fend off the attack until one transforms into Strahd.
     
-    Strahd willingly takes every attack they throw at him, charming each of them along the way...`
+    Strahd willingly takes every attack they throw at him, charming each of them along the way.  He uses his charm to convince Bafan to tie up his companion Jean and stay out of most of the fight. He summons a pack of wolves that surround the Sunseekers and offers safety to those who willingly do as he asks.  He charms Safzira into tying up Alina on the roc-skull wagon before animating it into a rolling animated bone sphere. It rolls towards ~Castle Ravenloft~ as he strikes ~German the Barbarian~ down and taunts Bafan saying "you should really crawl into that coffin and stay there" before disappearing into a dark mist. Bafan is surrounded by wolves and barely manages to squeeze by them to aid German.  They defeat the wolves, but are missing half of their adventuring party.`
   }
 ]
 
