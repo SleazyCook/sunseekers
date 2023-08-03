@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import charactersData from './CharactersData'
 import renderWithLinks from '../notes/HyperlinkFunction'
+import logData from '../notes/LogData'
 
 function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, selected, setSelected}) { 
 
@@ -12,12 +13,16 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
     }
   }
 
+  // console.log(logData)
+
   useEffect(() => {
     // window.scrollTo({top: 0, left: 0})
   }, [selected])
 
   return (
     <div className="modal-box modal-box--fixed" id="detailed-media-parent" onClick={handleCloseModal}>
+
+      {console.log(logData[0].title)}
 
       <div className="treasures__table--popup treasures-pop popup">
 
@@ -62,7 +67,7 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
               {/* First Appearance */}
               <div className="details-box__section">
                 <div className="details-box__section--left"><b>First Appearance</b></div>
-                <Link to={`/notes/adventure-log/${selectedObj.firstAppearance}`} className="details-box__section--right hyperlink-a">Session {selectedObj.firstAppearance}</Link>
+                <Link to={`/notes/adventure-log/${selectedObj.firstAppearance}`} className="details-box__section--right hyperlink-a">{selectedObj.firstAppearance}. {logData[selectedObj.firstAppearance - 1].title}</Link>
               </div>
 
               {/* Special Items */}
