@@ -164,7 +164,7 @@ let charactersData = [
         long: "Elizana the Halfling",
         status: "Inactive",
         img: "https://i.imgur.com/UNhjy3p.jpg",
-        firstAppearance: 14,
+        firstAppearance: 1,
         level: 5,
         class: "Rogue",
         subclass: "Thief",
