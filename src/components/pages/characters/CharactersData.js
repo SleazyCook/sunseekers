@@ -558,7 +558,7 @@ let charactersData = [
         title: "Commoner",
         race: "Commoner",
         firstAppearance: 2,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Mad Mary is an older woman found sobbing in her house clutching an old doll. She was consumed with grief and sadness over her daughter running away from home around a week ago and fears for her safety"
       },
       {
         id: 17,
@@ -568,7 +568,7 @@ let charactersData = [
         title: "Loved by All",
         race: "Dog",
         firstAppearance: 2,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Lancelot is Gertruda's faithful canine companion. Since she ran away, he has been trying to get back to her"
       },
       {
         id: 18,
@@ -578,7 +578,7 @@ let charactersData = [
         title: "Commoner",
         race: "Barovian",
         firstAppearance: 2,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "A runaway from the Village of Barovia. All that is known about Gertruda comes from a Mad Woman and small dog"
       },
       {
         id: 19,
@@ -588,7 +588,7 @@ let charactersData = [
         title: "Vistani Bar Owners",
         race: "Vistani",
         firstAppearance: 2,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "It is unclear how these Vistani women came to own and operate the Blood on the Vine Tavern, but anyone who passes through is bound to hear about the fortune teller Madame Eva"
       }
     ]
   },
