@@ -1009,6 +1009,18 @@ body {
     .npc-card__img--2-9 {
       background-image: url("https://i.imgur.com/3wcInwz.png");
       background-position: top; }
+    .npc-card__img--2-10 {
+      background-image: url("https://i.imgur.com/ersvEmO.png");
+      background-position: center; }
+    .npc-card__img--2-11 {
+      background-image: url("https://i.imgur.com/YVEINYa.png");
+      background-position: top; }
+    .npc-card__img--2-12 {
+      background-image: url("https://i.imgur.com/fndfbPo.png");
+      background-position-y: 40%; }
+    .npc-card__img--2-13 {
+      background-image: url("https://i.imgur.com/pke6BRs.png");
+      background-position: top; }
     .npc-card__img--3-1 {
       background-image: url("https://i.imgur.com/IrTKHqP.jpg");
       background-position: center; }

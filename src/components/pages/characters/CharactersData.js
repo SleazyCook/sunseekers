@@ -377,6 +377,49 @@ let charactersData = [
         race: "Mongrelfolk",
         firstAppearance: 8,
         description: "An amalgamation of beastly body parts, Cyrus Belview for works in Castle Ravenloft as a servant of Strahd. He mostly dwells below the first floor",
+      },
+      {
+        id: 10,
+        name: "Sergei",
+        long: "Sergei Von Zarovich",
+        status: "Dead",
+        img: "https://i.imgur.com/ersvEmO.png",
+        title: "Prince of Barovia",
+        race: "Human",
+        firstAppearance: 14,
+        description: "Strahd's younger brother and Tatyana's betrothed.  Sergei was murdered by Strahd in an act of violent jealousy."
+      },
+      {
+        id: 11,
+        name: "Tatyana",
+        status: "Dead",
+        img: "https://i.imgur.com/YVEINYa.png",
+        title: "Commoner",
+        race: "Barovian",
+        firstAppearance: 14,
+        description: "Strahd's long lost love and his brother's fiance, Tatyana leaped off the balcony of Castle Ravenloft after Sergei's death"
+      },
+      {
+        id: 12,
+        name: "Barov",
+        long: "King Barov Von Zarovich",
+        status: "Dead",
+        img: "https://i.imgur.com/fndfbPo.png",
+        title: "King of Barovia",
+        race: "Human",
+        firstAppearance: 3,
+        description: "Strahd invaded the valley in his father's name. Once he defeated the Dusk Elves, he moved his family into Castle Ravenloft to rule"
+      },
+      {
+        id: 13,
+        name: "Ravenovia",
+        long: "Queen Ravenovia Von Roeyen",
+        status: "Dead",
+        img: "https://i.imgur.com/pke6BRs.png",
+        title: "Queen of Barovia",
+        race: "Human",
+        firstAppearance: 3,
+        description: "After Strahd named the Dusk Elf valley after his father, he named the family home Castle Ravenloft after his mother"
       }
     ]
   },
