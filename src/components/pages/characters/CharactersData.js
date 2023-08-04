@@ -498,7 +498,7 @@ let charactersData = [
         title: "Barovian Noble",
         race: "Barovian",
         firstAppearance: 2,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: `Once known as "Ismark the Lesser", Ismark became Burgomaster of the Village of Barovia after his father's funeral. He has enlisted the Sunseekers to protect his sister, Ireena, in exchange for free food, drink, and lodging within the Village`
       },
       {
         id: 11,
@@ -508,7 +508,7 @@ let charactersData = [
         title: "Barovian Noble",
         race: "Barovian",
         firstAppearance: 2,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "In her home of the Village of Barovia, located just below Castle Ravenloft, Ireena was regularly stalked and harassed by Strahd. She has fled the Village with the Sunseekers in search of a better life"
       },
       {
         id: 12,
@@ -518,7 +518,7 @@ let charactersData = [
         title: "Commoner",
         race: "Barovian",
         firstAppearance: 2,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Parriwimple makes up for his lack of intelligence with near superhuman strength. He is friendly to all visitors of the Village of Barovia but fiercely loyal to his uncle Bildrath, the area's only merchant"
       },
       {
         id: 13,
@@ -528,7 +528,7 @@ let charactersData = [
         title: "Merchant",
         race: "Barovian",
         firstAppearance: 2,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: `Bildrath is the only merchant on the entire east side of the Valley, which to him means that he can over charge his patrons. He believes that if they want it that bad, they will have to pay for it`
       },
       {
         id: 14,
@@ -538,7 +538,7 @@ let charactersData = [
         title: "Priest of Lathander",
         race: "Barovian",
         firstAppearance: 2,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Father Donavich has been the priest and caretaker for the Village church for decades. He was known for his love and dedication to those around thim - that is until it was revealed that he has been dragging bodies to his vampire son in the church's undercroft"
       },
       {
         id: 15,
@@ -548,7 +548,7 @@ let charactersData = [
         title: "Commoner",
         race: "Vampire",
         firstAppearance: 2,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Doru, once the youngest and most joyous Villager, was believed dead after several wolf attacks in the area. The Sunseekers revealed that he was still alive - mostly, as a vampire in the church's undercroft"
       },
       {
         id: 16,
