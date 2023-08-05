@@ -64,6 +64,12 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
                 <div className="details-box__section--right">{selectedObj.race}</div>
               </div>}
 
+              {/* Age */}
+              { selectedObj.age && selectedObj.age && <div className="details-box__section">
+                <div className="details-box__section--left"><b>Age</b></div>
+                <div className="details-box__section--right">{selectedObj.age}</div>
+              </div>}
+
               {/* First Appearance */}
               <div className="details-box__section">
                 <div className="details-box__section--left"><b>First Appearance</b></div>

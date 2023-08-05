@@ -437,6 +437,7 @@ let charactersData = [
         img: "https://i.imgur.com/IrTKHqP.jpg",
         title: "Durst Family",
         race: "Barovian",
+        age: "11 years old",
         firstAppearance: 1,
         description: "After asking for help for their baby brother Walter, it was revealed that Rose and Thorn are ghosts. Their bodies were locked in their room leaving them to starve to death while their parents led a cult in the basement. Their bones were buried finally giving them peace"
       },
@@ -448,6 +449,7 @@ let charactersData = [
         img: "https://i.imgur.com/zvK212S.jpg",
         title: "Durst Family",
         race: "Barovian",
+        age: "7 years old",
         firstAppearance: 1,
         description: "After asking for help for their baby brother Walter, it was revealed that Rose and Thorn are ghosts. Their bodies were locked in their room leaving them to starve to death while their parents led a cult in the basement. Their bones were buried finally giving them peace"
       },
@@ -459,6 +461,7 @@ let charactersData = [
         img: "https://i.imgur.com/c5F4D19.jpg",
         title: "Durst Family",
         race: "Barovian",
+        age: "48 years old",
         firstAppearance: 1,
         description: "Gustav Durst, once a wealthy land owner before Strahd arrived in Barovia, was left in ruin and joined the Priests of Osybus. He had an affair with the nursemaid and commited suicide"
       },
@@ -470,6 +473,7 @@ let charactersData = [
         img: "https://i.imgur.com/otQXN1s.jpg",
         title: "Durst Family",
         race: "Barovian",
+        age: "44 years old",
         firstAppearance: 1,
         description: "Elizabeth Durst, once a wealthy land owner before Strahd arrived in Barovia, was left in ruin and joined the Priests of Osybus. He had an affair with the nursemaid and commited suicide"
       },
@@ -481,6 +485,7 @@ let charactersData = [
         img: "https://i.imgur.com/l2cD0Wh.jpg",
         title: "Durst Family",
         race: "Barovian",
+        age: "<1 year old",
         firstAppearance: 1,
         description: "Sacrified by Elizabeth Durst, baby Walter became the life force of a flesh mound that killed the Durst Manor cultists. The Sunseekers killed the flesh mound  and buried his remains"
       },
@@ -492,6 +497,7 @@ let charactersData = [
         img: "https://i.imgur.com/TPaXcpo.png",
         title: "Durst Family",
         race: "Barovian",
+        age: "24 years old",
         firstAppearance: 1,
         description: "Birth mother of Baby Walter. Murdered by the jealous and hateful Elizabeth Durst"
       },
@@ -648,6 +654,7 @@ let charactersData = [
         img: "https://i.imgur.com/DUF2lfE.png",
         title: "Traveling Vistani",
         race: "Vistani",
+        age: "52 years old",
         firstAppearance: 1,
         description: "A traveling Vistana with a large wagon, Viktor Lazlo was able to travel through the Mists of Barovia to bring in new adventurers from time to time.",
         sections: [
