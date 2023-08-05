@@ -807,8 +807,9 @@ let charactersData = [
         img: "https://i.imgur.com/t76siZc.png",
         title: "Tavern Owner",
         race: "Wereraven",
+        age: "35 years old",
         firstAppearance: 4,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Owner and barkeep of the Blue Water Inn in Vallaki along with her husband Urwin. The Inn takes in the few visitors that come into Vallaki and it is also the Vallaki hub for the secret organization known as the Keepers of the Feather. "
       },
       {
         id: 2,
@@ -817,8 +818,9 @@ let charactersData = [
         img: "https://i.imgur.com/se3nVYA.png",
         title: "Tavern Owner",
         race: "Wereraven",
+        age: "38 years old",
         firstAppearance: 4,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Owner and chef of the Blue Water Inn in Vallaki along with his wife Danika. The Inn takes in the few visitors that come into Vallaki and it is also the Vallaki hub for the secret organization known as the Keepers of the Feather."
       },
       {
         id: 3,
@@ -827,8 +829,9 @@ let charactersData = [
         img: "https://i.imgur.com/BkKm4Az.png",
         title: "Child",
         race: "Wereraven",
+        age: "12 years old",
         firstAppearance: 4,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Brom and his younger brother Bray are the youngest members of the Keepers of the Feather.  They are friendly to patrons as they are known to run around the Blue Water Inn."
       },
       {
         id: 4,
@@ -837,8 +840,17 @@ let charactersData = [
         img: "https://i.imgur.com/zHZCDfN.png",
         title: "Child",
         race: "Wereraven",
+        age: "10 years old",
         firstAppearance: 4,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Bray and his older brother Brom are the youngest members of the Keepers of the Feather.  They are friendly to patrons as they are known to run around the Blue Water Inn.",
+        sections: [
+          {
+            id: 1,
+            name: "Slain at the Feast",
+            description: "While many Barovians perished during the ~Feast of St Andral~, Bray was surely the youngest.",
+            localLinks: {}
+          }
+        ]
       },
       {
         id: 5,
