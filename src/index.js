@@ -20,27 +20,15 @@ import LogEntry from './components/pages/notes/LogEntry'
 
 import Market from './components/pages/market/Market'
 
-import Locations from './components/pages/locations/Locations'
+// import Locations from './components/pages/locations/Locations'
 import LocationPage from './components/pages/locations/LocationPage'
 
 import WorldMap from './components/pages/locations/WorldMap'
 
 import Treasures from './components/pages/treasures/Treasures'
 
-import Players from './components/pages/characters/sunseekers/Players'
 import Characters from './components/pages/characters/Characters'
 import CharsByCat from './components/pages/characters/CharsByCat'
-
-import Baron from './components/pages/characters/Baron'
-import Church from './components/pages/characters/Church'
-import Dragon from './components/pages/characters/Dragon'
-import Feather from './components/pages/characters/Feather'
-import Merchants from './components/pages/characters/Merchants'
-import Unknown from './components/pages/characters/Unknown'
-import Vallaki from './components/pages/characters/Vallaki'
-import Vistani from './components/pages/characters/Vistani'
-import Wachterhaus from './components/pages/characters/Wachterhaus'
-import Witches from './components/pages/characters/Witches'
 
 import Quests from './components/pages/quests/Quests'
 
@@ -135,50 +123,6 @@ export const router = createBrowserRouter([
       {
         path: "characters/:catNumber",
         element: <CharsByCat />
-      },
-      {
-        path: "characters/sunseekers",
-        element: <Players />
-      },
-      {
-        path: "characters/the-baron",
-        element: <Baron />
-      },
-      {
-        path: "characters/church-of-the-morninglord",
-        element: <Church />
-      },
-      {
-        path: "characters/order-of-the-silver-dragon",
-        element: <Dragon />
-      },
-      {
-        path: "characters/keepers-of-the-feather",
-        element: <Feather />
-      },
-      {
-        path: "characters/vallaki-merchants",
-        element: <Merchants />
-      },
-      {
-        path: "characters/unknown-alliance",
-        element: <Unknown />
-      },
-      {
-        path: "characters/vallaki-citizens",
-        element: <Vallaki />
-      },
-      {
-        path: "characters/vistani",
-        element: <Vistani />
-      },
-      {
-        path: "characters/wachterhaus",
-        element: <Wachterhaus />
-      },
-      {
-        path: "characters/witches-and-creatures",
-        element: <Witches />
       },
       {
         path: "quests",

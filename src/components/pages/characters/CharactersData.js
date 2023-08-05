@@ -673,7 +673,15 @@ let charactersData = [
         title: "Fortune Teller",
         race: "Vistani",
         firstAppearance: 3,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "The famed fortune teller Madame Eva has outlived generations of Vistani. She is well known for her wisdom and second sight. Most adventurers find their way to Madame Eva during their travels through Barovia",
+        sections: [
+          {
+            id: 1,
+            name: "Tarroka Reading",
+            description: "Madame Eva offered a special reading from her tarroka deck to the original Sunseekers - Elizana, German, and Safzira shortly after they arrived in Barovia. She believed that if they fulfilled the five prophecies she revealed that night, that the curse of Strahd in Barovia might be lifted.",
+            localLinks: {}
+          }
+        ]
       },
       {
         id: 3,
@@ -683,7 +691,7 @@ let charactersData = [
         title: "Tavern Owners",
         race: "Vistani",
         firstAppearance: 2,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "It is unclear how these Vistani women came to own and operate the Blood on the Vine Tavern, but anyone who passes through is bound to hear about the fortune teller Madame Eva"
       },
       {
         id: 4,
@@ -693,7 +701,7 @@ let charactersData = [
         img: "https://i.imgur.com/4ESFX6g.png",
         title: "Vistani Outpost",
         firstAppearance: 3,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "The Tser Pool Encampment is one of two hubs for traveling Vistani. Not too far from the Village of Barovia, Madame Eva is their leader and resident fortune teller"
       },
       {
         id: 5,
@@ -703,7 +711,7 @@ let charactersData = [
         img: "https://i.imgur.com/BhKS1uC.png",
         title: "Vistani Outpost",
         firstAppearance: 10,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "The Vistani Camp outside of Vallaki is one of two hubs for traveling Vistani.  The brothers Luvash and Arrigal are in charge of the camp at the top of the hill. The base of the hill is surrounded by hovels - which house the last of the dusk elves."
       },
       {
         id: 6,
@@ -713,7 +721,7 @@ let charactersData = [
         title: "Vistani Leader",
         race: "Vistani",
         firstAppearance: 10,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Leader of the Vallaki Vistani Camp, he lives atop the hill along with his younger brother Arrigal and his young daughter Arabelle.  His daughter was kidnapped by the Barovian Bluto and he expressed his thanks to the Sunseekers by offering them silver bars upon her safe return."
       },
       {
         id: 7,
@@ -723,7 +731,7 @@ let charactersData = [
         title: "Vistani Leader",
         race: "Vistani",
         firstAppearance: 10,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "The younger of the brothers in charge of the Vallaki Vistani Camp.  While smaller than Luvash, Arrigal has deadly reputation.  Luckily the Sunseekers won them over by rescuing his niece Arabelle."
       },
       {
         id: 8,
@@ -733,7 +741,7 @@ let charactersData = [
         title: "Vistani Child",
         race: "Vistani",
         firstAppearance: 10,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Arabelle, the daughter of Luvash and niece of Arrigal, is the youngest of all of the Vistani in Barovia. She was kidnapped by Bluto and rescued by the Sunseekers.  She may or may not have some kind of psychic visions like Madame Eva."
       },
       {
         id: 9,
@@ -743,7 +751,7 @@ let charactersData = [
         title: "Vistani Child",
         race: "Vistani",
         firstAppearance: 10,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Alexei, one of the younger Vistani in Barovia, was on lookout duty when he fell asleep during the kidnapping of young Arabelle.  The Sunseekers witnessed Luvash whipping him for the offense. "
       },
       {
         id: 10,
@@ -754,7 +762,7 @@ let charactersData = [
         title: "Dusk Elf Leader",
         race: "Dusk Elf",
         firstAppearance: 10,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Kasimir Velikov is the leader of the few remaining Dusk Elves, who were embraced by the Vistani. He in turn adopted the Vistani name Velikov. He once killed his own sister to keep Strahd's eyes off of her."
       },
       {
         id: 11,
@@ -763,7 +771,7 @@ let charactersData = [
         img: "https://i.imgur.com/q3lsE1z.png",
         race: "Dusk Elves",
         firstAppearance: 10,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "The Dusk Elves lost in a war against Strahd before the Mists descended on Barovia.  After they killed one of their own to keep her from becoming his consort, he had their women killed and their men castrated. The few that remain have been embraced by the Vallaki Vistani Camp."
       },
       {
         id: 12,
@@ -772,7 +780,7 @@ let charactersData = [
         img: "https://i.imgur.com/tyNOTjk.png",
         race: "Vistani",
         firstAppearance: 1,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "The Vistani are the only people in Strahd's Barovia that are allowed to come and go as they please.  The relationship between Strahd and the Vistani is mysterious to most people.  They are known to travel lightly though Barovia, although they are not considered welcome in most Barovian settlements."
       },
       {
         id: 13,
@@ -782,7 +790,7 @@ let charactersData = [
         title: "Monster Hunter",
         race: "Vistani",
         firstAppearance: 16,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Ezmerelda d'Avenir is a mysertious Vistana who saved Freebird and Umnos from certain death during their fight with Volenta in the Chamber of Sorrow. She stole the Tome Of Strahd from the Sunseekers and disappeared. "
       }
     ]
   },
