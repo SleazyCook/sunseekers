@@ -1,7 +1,7 @@
 import globalHyperLinks from './GlobalLinkData.js';
 import { Link } from 'react-router-dom';
 
-const renderWithLinks = (words, localLinks) => {
+const renderWithLinks = (words, localLinks, setCardOpen) => {
   let separator = ", ";
   if (typeof words == "string") {
     words = words.split(" ");
@@ -40,6 +40,7 @@ const renderWithLinks = (words, localLinks) => {
         <>
           <Link
             to={localLinks[currentPhrase] || globalHyperLinks[currentPhrase]}
+            onClick={()=>setCardOpen(false)}
           >
             {formattedPhrase}
           </Link>{separator}
@@ -79,7 +80,9 @@ const renderWithLinks = (words, localLinks) => {
       // if there isnt, this will be falsey so it will default to the global link
       returnValue.push(
         <>
-          <Link to={localLinks[formattedWord] || globalHyperLinks[formattedWord]}>
+          <Link to={localLinks[formattedWord] || globalHyperLinks[formattedWord]}
+            onClick={()=>{setCardOpen(false)}}
+          >
             {possessiveIndex >= 0 ? formattedWord + "'s" : formattedWord }
           </Link>{hasPunc ? lastChar + separator : separator}
         </>

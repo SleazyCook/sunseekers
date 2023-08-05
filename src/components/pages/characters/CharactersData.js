@@ -257,7 +257,7 @@ let charactersData = [
             id: 1,
             name: "Stable of the High Tower",
             description: "In one of the highest rooms of Castle Ravenloft and just above the ~Heart of Sorrow~, there is a stable filled with burned straw and wide double doors for Bucephalus to fly in and out of. The ~Tome of Strahd~ was once hidden there.",
-            localLinks: {}
+            localLinks: {},
           }
         ]
       },
@@ -649,7 +649,21 @@ let charactersData = [
         title: "Traveling Vistani",
         race: "Vistani",
         firstAppearance: 1,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "A traveling Vistana with a large wagon, Viktor Lazlo was able to travel through the Mists of Barovia to bring in new adventurers from time to time.",
+        sections: [
+          {
+            id: 1,
+            name: "Head Hunter",
+            description: "After threatening to offer poor Lancelot as a blood sacrifice on behalf of the ~Priests of Osybus~ within ~Durst Manor~, German the Barbarian chopped off his head. As a result, Viktor has sworn a blood oath of revenge and become a revenant that will seek out his revenge - no matter how many times it kills him in the process.",
+            localLinks: {}
+          },
+          {
+            id: 2,
+            name: "Head lamp",
+            description: "Viktor and German fought many times after their time in ~Durst Manor~ together, but Viktor never ceased to come back from the dead and fight again. ~Bafan Inko~ offered to assist the Barbarian by creating a special lantern that could seal Viktor's head safely inside preventing him from coming back over and over. Now the Barbarian keeps Viktor's head on his person at all times.",
+            localLinks: {}
+          }
+        ]
       },
       {
         id: 2,

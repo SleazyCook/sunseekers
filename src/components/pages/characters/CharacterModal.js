@@ -96,7 +96,7 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
             <div key={sectionsObj.id} value={sectionsObj.id} className="page-section">
               <span className="page-section__title heading-tertiary">{sectionsObj.name}</span>
               <p className="hyperlink" style={{whiteSpace:'break-spaces'}}>
-                {sectionsObj.description && renderWithLinks(sectionsObj.description, sectionsObj.localLinks)}
+                {sectionsObj.description && renderWithLinks(sectionsObj.description, sectionsObj.localLinks, setCardOpen)}
               </p>
             </div>
           )
