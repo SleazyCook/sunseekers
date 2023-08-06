@@ -36,7 +36,7 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
             <div className="character-modal__description">{selectedObj.description}</div>
               <div className="details-box character-modal__details-box">
 
-              {/* Player Character Top */}
+              {/* Player Character Top  - Level & Subclass */}
               {selectedObj.class && <>
                 <div className="details-box__section">
                   Level {selectedObj.level} {selectedObj.class}
@@ -45,7 +45,7 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
                 </div>
               </> }
 
-              {/* NPC Top */}
+              {/* NPC Top - Title / Type  */}
               {selectedObj.title && <>
                 <div className="details-box__section">
                   {selectedObj.title}

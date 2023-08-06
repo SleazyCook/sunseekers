@@ -201,6 +201,7 @@ let charactersData = [
         img: "https://i.imgur.com/AWQB28r.png",
         title: "Vampire Lord",
         race: "Vampire",
+        age: "Unknown",
         firstAppearance: 3,
         description: "Count Strahd von Zarovich is a vampire with immense power that has lorded over all of Barovia for centuries. He is resides at Castle Ravenloft but his watchful gaze can be felt all throughout the valley",
         sections: [
@@ -250,6 +251,7 @@ let charactersData = [
         img: "https://i.imgur.com/0xEadjh.png",
         title: "Strahd's Mount",
         race: "Nightmare",
+        age: "Unknown",
         firstAppearance: 16,
         description: "Strahd's loyal steed. Little is known of this incredible nightmare of a creature, save that he can fly and seems magically enrobbed in flame",
         sections: [
@@ -269,6 +271,7 @@ let charactersData = [
         img: "https://i.imgur.com/oPDH0ls.jpg",
         title: "Bride of Strahd",
         race: "Vampire",
+        age: "Unknown",
         firstAppearance: 12,
         description: "Anastrasya Karelova was a bride of Strahd and dominated on the battlefield. After a week of the bones of St. Andral missing from the St. Andral's Church, Anastrasya led a horde of the undead to attack Vallaki against Strahd's wishes",
         sections: [
@@ -288,6 +291,7 @@ let charactersData = [
         img: "https://i.imgur.com/m1q8zC7.png",
         title: "Bride of Strahd",
         race: "Vampire",
+        age: "Unknown",
         firstAppearance: 16,
         description: "Volenta Popofsky was a bride of Strahd and protected Castle Ravenloft from the shadows of the Heart of Sorrow",
         sections: [
@@ -307,6 +311,7 @@ let charactersData = [
         img: "https://i.imgur.com/YoAb0kL.png",
         title: "Bride of Strahd",
         race: "Vampire",
+        age: "Unknown",
         firstAppearance: 19,
         description: "Ludmilla Vilisevic is a bride of Strahd.  Unlike the other brides, Ludmilla enjoys her freedom leaning into her curiousity by exploring Barovia in search of her next big discovery",
         sections: [
@@ -326,6 +331,7 @@ let charactersData = [
         img: "https://i.imgur.com/LMWd8UB.png",
         title: "Strahd's Consort",
         race: "Vampire",
+        age: "Unknown",
         firstAppearance: 17,
         description: "Escher Belasco, Strahd's latest consort, was once an adventurer in a group much like the Sunseekers.  Strahd murdered the group when he grew bored of them, but kept Escher around for his musical ability",
         sections: [
@@ -344,6 +350,7 @@ let charactersData = [
         img: "https://i.imgur.com/CEgKJ5p.png",
         title: "Chamberlain of Castle Ravenloft",
         race: "Dusk Elf",
+        age: 500,
         firstAppearance: 19,
         description: "Rahadin is Strahd's chamberlain and right-hand man. As a dusk elf, he turned on his own people and swore loyalty to Strahd.  He has been responsible for most of the torment on the other dusk elves for their transgressions against Strahd",
         sections: []
@@ -356,6 +363,7 @@ let charactersData = [
         img: "https://i.imgur.com/iJl2lQb.png",
         title: "Accountant of Castle Ravenloft",
         race: "Barovian",
+        age: "Unknown",
         firstAppearance: 14,
         description: "Lief Lipsiege is Strahd's exhausted accountant.  Working all hours in Castle Ravenloft, Lief is usually consumed by his accountant duties although he can occasionally be helpful",
         sections: [
@@ -375,6 +383,7 @@ let charactersData = [
         img: "https://i.imgur.com/3wcInwz.png",
         title: "Servant of Castle Ravenloft",
         race: "Mongrelfolk",
+        age: "Unknown",
         firstAppearance: 8,
         description: "An amalgamation of beastly body parts, Cyrus Belview for works in Castle Ravenloft as a servant of Strahd. He mostly dwells below the first floor",
       },
@@ -386,6 +395,7 @@ let charactersData = [
         img: "https://i.imgur.com/ersvEmO.png",
         title: "Prince of Barovia",
         race: "Human",
+        age: "27 years old",
         firstAppearance: 14,
         description: "Strahd's younger brother and Tatyana's betrothed.  Sergei was murdered by Strahd in an act of violent jealousy."
       },
@@ -396,6 +406,7 @@ let charactersData = [
         img: "https://i.imgur.com/YVEINYa.png",
         title: "Commoner",
         race: "Barovian",
+        age: "20 years old",
         firstAppearance: 14,
         description: "Strahd's long lost love and his brother's fiance, Tatyana leaped off the balcony of Castle Ravenloft after Sergei's death"
       },
@@ -407,6 +418,7 @@ let charactersData = [
         img: "https://i.imgur.com/fndfbPo.png",
         title: "King of Barovia",
         race: "Human",
+        age: "65 years old",
         firstAppearance: 3,
         description: "Strahd invaded the valley in his father's name. Once he defeated the Dusk Elves, he moved his family into Castle Ravenloft to rule"
       },
@@ -418,6 +430,7 @@ let charactersData = [
         img: "https://i.imgur.com/pke6BRs.png",
         title: "Queen of Barovia",
         race: "Human",
+        age: "63 years old",
         firstAppearance: 3,
         description: "After Strahd named the Dusk Elf valley after his father, he named the family home Castle Ravenloft after his mother"
       }
@@ -506,8 +519,9 @@ let charactersData = [
         name: "Mrs. Cobb",
         status: "Dead",
         img: "https://i.imgur.com/Gd7Sfuw.jpg",
-        title: "Cobb Family",
+        title: "Commoner",
         race: "Barovian",
+        age: "60 years old",
         firstAppearance: 2,
         description: "Elizana encounters Mrs. Cobb while investigating some scratches on villagers homes. Gets eaten by dying husband that turns into a zombie"
       },
@@ -518,6 +532,7 @@ let charactersData = [
         img: "https://i.imgur.com/WMynXM9.jpg",
         title: "Cobb Family",
         race: "Barovian",
+        age: "65 years old",
         firstAppearance: 2,
         description: "Elizana encounters Mrs. Cobb while investigating some scratches on villagers homes. Is terminally ill due to consuming well water. Dies and turns into a zombie, eats his wife, then chases after Elizana. Is killed by Elizana and Freebird outside his home"
       },
@@ -528,6 +543,7 @@ let charactersData = [
         img: "https://i.imgur.com/tAjmnfI.jpg",
         title: "Barovian Noble",
         race: "Barovian",
+        age: "60 years old",
         firstAppearance: 2,
         description: "Kolyan was the Burgomaster of the Village of Barovia, but passed away shortly before the Sunseekers arrived in the valley. He was beloved by the villagers around him",
         sections: [
@@ -535,7 +551,7 @@ let charactersData = [
             id: 1,
             name: "Burgomaster's Funeral",
             localLinks: {},
-            description: ""
+            description: "Just before the Sunseekers first arrived in the ~Village of Barovia~, ~Kolyan Indirovich~ met his unfortunate demise. Due to the frequent wolf and monster attacks on the Village, proper burials have been on hold to prevent further injury or death. The Sunseekers were able to protect the family while proper arrangements were made at the local church cemetary."
           }
         ]
       },
@@ -546,6 +562,7 @@ let charactersData = [
         img: "https://i.imgur.com/R0aJebI.jpg",
         title: "Barovian Noble",
         race: "Barovian",
+        age: "28 years old",
         firstAppearance: 2,
         description: `Once known as "Ismark the Lesser", Ismark became Burgomaster of the Village of Barovia after his father's funeral. He has enlisted the Sunseekers to protect his sister, Ireena, in exchange for free food, drink, and lodging within the Village`
       },
@@ -556,6 +573,7 @@ let charactersData = [
         img: "https://i.imgur.com/5iWx4Sl.png",
         title: "Barovian Noble",
         race: "Barovian",
+        age: "24 years old",
         firstAppearance: 2,
         description: "In her home of the Village of Barovia, located just below Castle Ravenloft, Ireena was regularly stalked and harassed by Strahd. She has fled the Village with the Sunseekers in search of a better life"
       },
@@ -566,6 +584,7 @@ let charactersData = [
         img: "https://i.imgur.com/FBIPhZK.png",
         title: "Commoner",
         race: "Barovian",
+        age: "28 years old",
         firstAppearance: 2,
         description: "Parriwimple makes up for his lack of intelligence with near superhuman strength. He is friendly to all visitors of the Village of Barovia but fiercely loyal to his uncle Bildrath, the area's only merchant"
       },
@@ -576,6 +595,7 @@ let charactersData = [
         img: "https://i.imgur.com/XVWw2G1.png",
         title: "Merchant",
         race: "Barovian",
+        age: "55 years old",
         firstAppearance: 2,
         description: `Bildrath is the only merchant on the entire east side of the Valley, which to him means that he can over charge his patrons. He believes that if they want it that bad, they will have to pay for it`
       },
@@ -586,6 +606,7 @@ let charactersData = [
         img: "https://i.imgur.com/jr6osuv.jpg",
         title: "Priest of Lathander",
         race: "Barovian",
+        age: "65 years old",
         firstAppearance: 2,
         description: "Father Donavich has been the priest and caretaker for the Village church for decades. He was known for his love and dedication to those around thim - that is until it was revealed that he has been dragging bodies to his vampire son in the church's undercroft"
       },
@@ -596,6 +617,7 @@ let charactersData = [
         img: "https://i.imgur.com/AprGNcu.png",
         title: "Commoner",
         race: "Vampire",
+        age: "30 years old",
         firstAppearance: 2,
         description: "Doru, once the youngest and most joyous Villager, was believed dead after several wolf attacks in the area. The Sunseekers revealed that he was still alive - mostly, as a vampire in the church's undercroft"
       },
@@ -606,6 +628,7 @@ let charactersData = [
         img: "https://i.imgur.com/96kr5JK.jpg",
         title: "Commoner",
         race: "Commoner",
+        age: "55 years old",
         firstAppearance: 2,
         description: "Mad Mary is an older woman found sobbing in her house clutching an old doll. She was consumed with grief and sadness over her daughter running away from home around a week ago and fears for her safety"
       },
@@ -616,6 +639,7 @@ let charactersData = [
         img: "https://i.imgur.com/BNcaXW9.jpg",
         title: "Loved by All",
         race: "Dog",
+        age: "2 years old",
         firstAppearance: 2,
         description: "Lancelot is Gertruda's faithful canine companion. Since she ran away, he has been trying to get back to her"
       },
@@ -626,6 +650,7 @@ let charactersData = [
         img: "https://i.imgur.com/vxbkllB.png",
         title: "Commoner",
         race: "Barovian",
+        age: "Unknown",
         firstAppearance: 2,
         description: "A runaway from the Village of Barovia. All that is known about Gertruda comes from a Mad Woman and small dog"
       },
@@ -636,6 +661,7 @@ let charactersData = [
         img: "https://i.imgur.com/HU0bX4P.jpg",
         title: "Vistani Bar Owners",
         race: "Vistani",
+        age: "35-45 years old",
         firstAppearance: 2,
         description: "It is unclear how these Vistani women came to own and operate the Blood on the Vine Tavern, but anyone who passes through is bound to hear about the fortune teller Madame Eva"
       }
@@ -679,6 +705,7 @@ let charactersData = [
         img: "https://i.imgur.com/4TAGQ2R.jpg",
         title: "Fortune Teller",
         race: "Vistani",
+        age: "Unknown",
         firstAppearance: 3,
         description: "The famed fortune teller Madame Eva has outlived generations of Vistani. She is well known for her wisdom and second sight. Most adventurers find their way to Madame Eva during their travels through Barovia",
         sections: [
@@ -697,6 +724,7 @@ let charactersData = [
         img: "https://i.imgur.com/HU0bX4P.jpg",
         title: "Tavern Owners",
         race: "Vistani",
+        age: "35-45 years old",
         firstAppearance: 2,
         description: "It is unclear how these Vistani women came to own and operate the Blood on the Vine Tavern, but anyone who passes through is bound to hear about the fortune teller Madame Eva"
       },
@@ -727,6 +755,7 @@ let charactersData = [
         img: "https://i.imgur.com/zPDSJWv.png",
         title: "Vistani Leader",
         race: "Vistani",
+        age: "34 years old",
         firstAppearance: 10,
         description: "Leader of the Vallaki Vistani Camp, he lives atop the hill along with his younger brother Arrigal and his young daughter Arabelle.  His daughter was kidnapped by the Barovian Bluto and he expressed his thanks to the Sunseekers by offering them silver bars upon her safe return."
       },
@@ -737,6 +766,7 @@ let charactersData = [
         img: "https://i.imgur.com/cJuJgQy.png",
         title: "Vistani Leader",
         race: "Vistani",
+        age: "32 years old",
         firstAppearance: 10,
         description: "The younger of the brothers in charge of the Vallaki Vistani Camp.  While smaller than Luvash, Arrigal has deadly reputation.  Luckily the Sunseekers won them over by rescuing his niece Arabelle."
       },
@@ -757,6 +787,7 @@ let charactersData = [
         img: "https://i.imgur.com/kJkTaka.png",
         title: "Vistani Child",
         race: "Vistani",
+        age: "7 years old",
         firstAppearance: 10,
         description: "Alexei, one of the younger Vistani in Barovia, was on lookout duty when he fell asleep during the kidnapping of young Arabelle.  The Sunseekers witnessed Luvash whipping him for the offense. "
       },
@@ -768,6 +799,7 @@ let charactersData = [
         img: "https://i.imgur.com/VbVKHji.png",
         title: "Dusk Elf Leader",
         race: "Dusk Elf",
+        age: "350 years old",
         firstAppearance: 10,
         description: "Kasimir Velikov is the leader of the few remaining Dusk Elves, who were embraced by the Vistani. He in turn adopted the Vistani name Velikov. He once killed his own sister to keep Strahd's eyes off of her."
       },
@@ -796,6 +828,7 @@ let charactersData = [
         img: "https://i.imgur.com/Zs0iM18.png",
         title: "Monster Hunter",
         race: "Vistani",
+        age: "Unknown",
         firstAppearance: 16,
         description: "Ezmerelda d'Avenir is a mysertious Vistana who saved Freebird and Umnos from certain death during their fight with Volenta in the Chamber of Sorrow. She stole the Tome Of Strahd from the Sunseekers and disappeared. "
       }
@@ -825,7 +858,7 @@ let charactersData = [
         img: "https://i.imgur.com/se3nVYA.png",
         title: "Tavern Owner",
         race: "Wereraven",
-        age: "38 years old",
+        age: "40 years old",
         firstAppearance: 4,
         description: "Owner and chef of the Blue Water Inn in Vallaki along with his wife Danika. The Inn takes in the few visitors that come into Vallaki and it is also the Vallaki hub for the secret organization known as the Keepers of the Feather."
       },
@@ -866,8 +899,9 @@ let charactersData = [
         img: "https://i.imgur.com/difX7Fx.png",
         title: "",
         race: "Wereraven",
+        age: 38,
         firstAppearance: 23,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Adrian, younger brother to Urwin and older brother to Stefania and Elvir, works with his father, Davian, to run the spy network for the Keepers of the Feather as well as maintain the Wizard of Wines"
       },
       {
         id: 6,
@@ -876,8 +910,9 @@ let charactersData = [
         img: "https://i.imgur.com/07MZIud.png",
         title: "Martikov Patriarch",
         race: "Wereraven",
+        age: 68,
         firstAppearance: 23,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "The patriarch of the Martikov Family and the leader of the Keepers of the Feather, Davian has maintained the family business of the only winery in the valley in Barovia for decades"
       },
       {
         id: 7,
@@ -886,8 +921,9 @@ let charactersData = [
         img: "https://i.imgur.com/XKjOKyS.png",
         title: "",
         race: "Wereraven",
+        age: 29,
         firstAppearance: 23,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "The youngest of Davian's children, Elvir spends most of his time working at the winery"
 
       },
       {
@@ -897,8 +933,9 @@ let charactersData = [
         img: "https://i.imgur.com/8Ipfxo5.png",
         title: "",
         race: "Wereraven",
+        age: 32,
         firstAppearance: 23,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Stefania has been raising her children in the comfort and safety of her family's winery for several years.  She has passed on the gift of lycanthropy to most of her children"
       },
       {
         id: 9,
@@ -907,28 +944,41 @@ let charactersData = [
         img: "https://i.imgur.com/h4eOBpz.png",
         title: "",
         race: "Wereraven",
+        age: 36,
         firstAppearance: 23,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Dag is one of the few outsiders allowed into the intermost circles of the Martikov family. He and his children with Stefania have accepted the gift of lycanthropy"
       },
       {
         id: 10,
         name: "Winery Children",
+        long: "Claudiu, Martin, and Viggo Martikov",
         status: "Alive",
         img: "https://i.imgur.com/QaO9vpj.png",
         title: "Children",
         race: "Wereraven",
+        age: "12, 7, and 6 years old",
         firstAppearance: 23,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Claudiu, Martin, and Viggo are the youngest generation of the Martikov family and also the youngest in their family history to accept the gift of lycanthropy"
       },
       {
         id: 11,
         name: "Paint Drop",
+        long: "Yolanda Martikov (Paint Drop)",
         status: "Alive",
         img: "https://i.imgur.com/rNRl0Yz.png",
         title: "Child",
         race: "Wereraven",
+        age: "Newborn",
         firstAppearance: 24,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Yolanda Martikov, known by her nickname of Paint Drop, is the youngest member of the Martikov family. She was born with unique raven-like features",
+        sections: [
+          {
+            id: 1,
+            name: "Freebird Reincarnated",
+            description: "It is almost undeniable that Freebird's soul willingly found its way into ~Yolanda Martikov~. After being murdered by Stahd at ~Castle Ravenloft~, Umnos tried and failed to revive him - almost as if his soul was unavailable or unwilling to return to his body. It is well-known that souls cannot leave Barovia after death and are therefore trapped in a cycle of reincarnation. The raven-like blood of the Martikov family seems to have provided a viable host for his soul, which is now shared by the Martikov child.",
+            localLinks: {}
+          }
+        ]
       }
     ]
   },
