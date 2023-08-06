@@ -5,10 +5,12 @@ import charactersData from './CharactersData'
 import renderWithLinks from '../notes/HyperlinkFunction'
 import logData from '../notes/LogData'
 
+import { AiFillCloseCircle } from 'react-icons/ai'
+
 function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, selected, setSelected}) { 
 
   function handleCloseModal(event) {
-    if (event.target.id === 'detailed-media-parent') {
+    if (event.target.id === 'detailed-media-parent' || event.target.id === 'modal-close') {
       setCardOpen(false)
     }
   }
@@ -25,6 +27,7 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
       {console.log(logData[0].title)}
 
       <div className="treasures__table--popup treasures-pop popup">
+        <div onClick={handleCloseModal} className="modal-box__close" id="modal-close">X</div>
 
         <div className="item-card__heading">{selectedObj.long ? selectedObj.long : selectedObj.name}</div>
 
@@ -123,6 +126,8 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
             setSelected(selected+1)
             setSelectedObj(charsObj.characters[selected+1])
           }} className="popup__page-button popup__page-button--next">{charsObj.characters[selected+1].name}</span> : <span className="hidden"> No Next </span>}
+
+          {/* <div className="popup__page-button--flexbox-transparent"></div> */}
         </div>
 
         <br />

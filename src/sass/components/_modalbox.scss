@@ -12,6 +12,29 @@
     top: 0;
     left: 0;
   }
+
+  &__close {
+    position: absolute;
+    // position: sticky;
+    // position: -webkit-sticky;
+    top: 1%;
+    right: 1%;
+    font-family: $font-header;
+    color: $color-white-soft;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: #333333;
+    // border: 2px solid white;
+
+  }
+
 }
 
 .popup {
@@ -42,6 +65,15 @@
       margin-top: 2rem;
       justify-content: space-between;
       width: 100%;
+      position: sticky;
+      bottom: 5%;
+
+      // &--transparent {
+      //   position: absolute;
+      //   width: 100%;
+      //   height: 100%;
+      //   background-color: white;;
+      // }
     }
 
     

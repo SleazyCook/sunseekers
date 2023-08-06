@@ -867,6 +867,22 @@ body {
     position: fixed;
     top: 0;
     left: 0; }
+  .modal-box__close {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-family: "Cinzel Decorative", cursive;
+    color: #e6e6e6;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: #333333; }
 
 .popup {
   z-index: 10; }
@@ -887,7 +903,9 @@ body {
       padding: 1rem;
       margin-top: 2rem;
       justify-content: space-between;
-      width: 100%; }
+      width: 100%;
+      position: sticky;
+      bottom: 5%; }
 
 .notes-nav ul {
   text-align: center;
