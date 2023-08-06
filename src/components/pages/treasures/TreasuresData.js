@@ -213,34 +213,25 @@ let treasuresData = [
     possession: "German",
     pLong: "German the Barbarian",
     description: "The head of Viktor Lazlo was chopped off by German the Barbarian in the catacombs of Durst Manor. Viktor's vengeance turned him into a revenant leading his to forever chase after German usually throwing his head at the barbarian. Bafan's curiousity and innovation led to the creation of the lantern which controlled the revenant's curse in German's favor."
+  },
+  {
+    id: 25, 
+    name: "Bafan's Coffin",
+    image: "https://i.imgur.com/EcYG3mZ.png",
+    found: "Argynvostholt",
+    possession: "Bafan",
+    pLong: "Bafan Inko",
+    description: `A mysterious coffin was delivered outside of Argynvostholt while the Sunseekers were present. The coffin came with a note suggesting the intended user to "stay dead" and carved on the coffin was the name "Bafan." Bafan took this as his opportunity to return the package to sender and has since carried it with him for his eventually fight with Strahd.`
   }
 
   // undiscovered
-  // {
-  //   name: "Sunsword",
-  // image: [],
-  //   description: "",
-  // },
-    // {
-    //   name: "Pox Pendant", see Stakes p. 82 vilnius
-    //   image: "",
-    //   description: ""
-    // }
+
   // {
   //   name: "Omoyan Armor",
   // image: [],
   //   description: "",
   // },
   // {
-  //   name: "Blood Spear",
-  // image: [],
-  //   description: "",
-  // },
-  // {
-  //   name: "Guthias Staff",
-  // image: [],
-  //   description: "",
-  // },
   // {
   //   name: "Holy Symbol of Ravenkind",
   // image: [],

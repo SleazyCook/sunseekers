@@ -834,6 +834,9 @@ body {
     .item-card__img--24 {
       background-image: url("https://i.imgur.com/7ywr2ov.png");
       background-position: center; }
+    .item-card__img--25 {
+      background-image: url("https://i.imgur.com/EcYG3mZ.png");
+      background-position: center; }
 
 .maps-box {
   text-align: center;
