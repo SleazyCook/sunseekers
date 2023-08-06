@@ -1782,13 +1782,16 @@ body {
   -ms-user-select: none;
   /* Internet Explorer/Edge */
   user-select: none; }
-  .footer__logo-box {
+  .footer__logo-box,
+  .footer__logo-box a {
     text-align: center;
     margin-bottom: 3rem;
     font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
-    color: #a62b0d; }
-    .footer__logo-box--author {
+    color: #a62b0d;
+    text-decoration: none; }
+    .footer__logo-box--author,
+    .footer__logo-box a--author {
       font-family: "Berkshire Swash", cursive; }
   .footer__navigation {
     border-top: 1px solid grey;

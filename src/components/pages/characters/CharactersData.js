@@ -1072,7 +1072,7 @@ let charactersData = [
         age: "Unknown",
         firstAppearance: 14,
         description: "Sir Erich Norinthaal is one of the few remaining knights in Sir Godfrey's circle at Argynvostholt.  Following a theory from Sir Godfrey, his is on a mission to fulfill a passion from his mortal life to possibly end his undead existence. His mission is to finish his biggest hunt",
-        section: [
+        sections: [
           {
             id: 1,
             name: "Last Hunting Trip",

@@ -5,8 +5,8 @@ function Footer() {
     <div className="footer">
 
       <div className="footer__logo-box">
-        <span>Developed by </span>
-        <span className="footer__logo-box--author">Drewford</span>
+        <a href='https://drewford.dev' target='_blank' ><span>Developed by </span>
+        <span className="footer__logo-box--author">Drewford</span></a>
       </div>
 
       <div className="flexbox">
