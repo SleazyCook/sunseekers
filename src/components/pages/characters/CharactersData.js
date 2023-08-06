@@ -1516,7 +1516,7 @@ let charactersData = [
         id: 9,
         name: "Orphans",
         status: "Active",
-        img: ",https://i.imgur.com/rMeg8Jx.png",
+        img: "https://i.imgur.com/rMeg8Jx.png",
         title: "Unwanted Children",
         race: "Barovian",
         firstAppearance: 6,
@@ -1582,6 +1582,28 @@ let charactersData = [
         race: "Barovian",
         firstAppearance: 5,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+      },
+      {
+        id: 16,
+        name: "Piccolo",
+        status: "Alive",
+        img: "https://i.imgur.com/TH9vapW.png",
+        title: "Trained Companion",
+        race: "Monkey",
+        age: "7 years old",
+        firstAppearance: 5,
+        description: "Piccolo, longtime companion to Famed Monster Hunter Rudolph Van Richten, is staying with Gadof Blinksy the Toy Maker in Vallaki. Upon visiting his shop for the first time, Van Richten felt sympathetic for the down-on-his-luck toy maker and offered to leave Piccolo with him for a while."
+      },
+      {
+        id: 17,
+        name: "Ramses",
+        status: "Alive",
+        img: "https://i.imgur.com/ZwGamsr.png",
+        title: "Rictavio's Exotic Tiger",
+        race: "Saber-toothed Tiger",
+        age: "8 years old",
+        firstAppearance: 11,
+        description: "Rictavio's Exotic Tiger is actually Rudloph Van Richten's Vistani-tracking companion Ramses.  While Rudolph continues his ruse as Rictavio the Bard in Vallaki, Ramses plays his part as a trained circus animal patiently waiting in Ricavio's traveling show wagon waiting for his master to command him."
       }
     ]
   },
