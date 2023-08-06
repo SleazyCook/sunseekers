@@ -397,7 +397,7 @@ let charactersData = [
         race: "Human",
         age: "27 years old",
         firstAppearance: 14,
-        description: "Strahd's younger brother and Tatyana's betrothed.  Sergei was murdered by Strahd in an act of violent jealousy."
+        description: "Strahd's younger brother and Tatyana's betrothed.  Sergei was murdered by Strahd in an act of violent jealousy"
       },
       {
         id: 11,
@@ -682,7 +682,7 @@ let charactersData = [
         race: "Vistani",
         age: "52 years old",
         firstAppearance: 1,
-        description: "A traveling Vistana with a large wagon, Viktor Lazlo was able to travel through the Mists of Barovia to bring in new adventurers from time to time.",
+        description: "A traveling Vistana with a large wagon, Viktor Lazlo was able to travel through the Mists of Barovia to bring in new adventurers from time to time",
         sections: [
           {
             id: 1,
@@ -746,7 +746,7 @@ let charactersData = [
         img: "https://i.imgur.com/BhKS1uC.png",
         title: "Vistani Outpost",
         firstAppearance: 10,
-        description: "The Vistani Camp outside of Vallaki is one of two hubs for traveling Vistani.  The brothers Luvash and Arrigal are in charge of the camp at the top of the hill. The base of the hill is surrounded by hovels - which house the last of the dusk elves."
+        description: "The Vistani Camp outside of Vallaki is one of two hubs for traveling Vistani.  The brothers Luvash and Arrigal are in charge of the camp at the top of the hill. The base of the hill is surrounded by hovels - which house the last of the dusk elves"
       },
       {
         id: 6,
@@ -757,7 +757,7 @@ let charactersData = [
         race: "Vistani",
         age: "34 years old",
         firstAppearance: 10,
-        description: "Leader of the Vallaki Vistani Camp, he lives atop the hill along with his younger brother Arrigal and his young daughter Arabelle.  His daughter was kidnapped by the Barovian Bluto and he expressed his thanks to the Sunseekers by offering them silver bars upon her safe return."
+        description: "Leader of the Vallaki Vistani Camp, he lives atop the hill along with his younger brother Arrigal and his young daughter Arabelle.  His daughter was kidnapped by the Barovian Bluto and he expressed his thanks to the Sunseekers by offering them silver bars upon her safe return"
       },
       {
         id: 7,
@@ -768,7 +768,7 @@ let charactersData = [
         race: "Vistani",
         age: "32 years old",
         firstAppearance: 10,
-        description: "The younger of the brothers in charge of the Vallaki Vistani Camp.  While smaller than Luvash, Arrigal has deadly reputation.  Luckily the Sunseekers won them over by rescuing his niece Arabelle."
+        description: "The younger of the brothers in charge of the Vallaki Vistani Camp.  While smaller than Luvash, Arrigal has deadly reputation.  Luckily the Sunseekers won them over by rescuing his niece Arabelle"
       },
       {
         id: 8,
@@ -778,7 +778,7 @@ let charactersData = [
         title: "Vistani Child",
         race: "Vistani",
         firstAppearance: 10,
-        description: "Arabelle, the daughter of Luvash and niece of Arrigal, is the youngest of all of the Vistani in Barovia. She was kidnapped by Bluto and rescued by the Sunseekers.  She may or may not have some kind of psychic visions like Madame Eva."
+        description: "Arabelle, the daughter of Luvash and niece of Arrigal, is the youngest of all of the Vistani in Barovia. She was kidnapped by Bluto and rescued by the Sunseekers.  She may or may not have some kind of psychic visions like Madame Eva"
       },
       {
         id: 9,
@@ -789,7 +789,7 @@ let charactersData = [
         race: "Vistani",
         age: "7 years old",
         firstAppearance: 10,
-        description: "Alexei, one of the younger Vistani in Barovia, was on lookout duty when he fell asleep during the kidnapping of young Arabelle.  The Sunseekers witnessed Luvash whipping him for the offense. "
+        description: "Alexei, one of the younger Vistani in Barovia, was on lookout duty when he fell asleep during the kidnapping of young Arabelle.  The Sunseekers witnessed Luvash whipping him for the offense "
       },
       {
         id: 10,
@@ -801,7 +801,7 @@ let charactersData = [
         race: "Dusk Elf",
         age: "350 years old",
         firstAppearance: 10,
-        description: "Kasimir Velikov is the leader of the few remaining Dusk Elves, who were embraced by the Vistani. He in turn adopted the Vistani name Velikov. He once killed his own sister to keep Strahd's eyes off of her."
+        description: "Kasimir Velikov is the leader of the few remaining Dusk Elves, who were embraced by the Vistani. He in turn adopted the Vistani name Velikov. He once killed his own sister to keep Strahd's eyes off of her"
       },
       {
         id: 11,
@@ -810,7 +810,7 @@ let charactersData = [
         img: "https://i.imgur.com/q3lsE1z.png",
         race: "Dusk Elves",
         firstAppearance: 10,
-        description: "The Dusk Elves lost in a war against Strahd before the Mists descended on Barovia.  After they killed one of their own to keep her from becoming his consort, he had their women killed and their men castrated. The few that remain have been embraced by the Vallaki Vistani Camp."
+        description: "The Dusk Elves lost in a war against Strahd before the Mists descended on Barovia.  After they killed one of their own to keep her from becoming his consort, he had their women killed and their men castrated. The few that remain have been embraced by the Vallaki Vistani Camp"
       },
       {
         id: 12,
@@ -819,7 +819,7 @@ let charactersData = [
         img: "https://i.imgur.com/tyNOTjk.png",
         race: "Vistani",
         firstAppearance: 1,
-        description: "The Vistani are the only people in Strahd's Barovia that are allowed to come and go as they please.  The relationship between Strahd and the Vistani is mysterious to most people.  They are known to travel lightly though Barovia, although they are not considered welcome in most Barovian settlements."
+        description: "The Vistani are the only people in Strahd's Barovia that are allowed to come and go as they please.  The relationship between Strahd and the Vistani is mysterious to most people.  They are known to travel lightly though Barovia, although they are not considered welcome in most Barovian settlements"
       },
       {
         id: 13,
@@ -830,7 +830,7 @@ let charactersData = [
         race: "Vistani",
         age: "Unknown",
         firstAppearance: 16,
-        description: "Ezmerelda d'Avenir is a mysertious Vistana who saved Freebird and Umnos from certain death during their fight with Volenta in the Chamber of Sorrow. She stole the Tome Of Strahd from the Sunseekers and disappeared. "
+        description: "Ezmerelda d'Avenir is a mysertious Vistana who saved Freebird and Umnos from certain death during their fight with Volenta in the Chamber of Sorrow. She stole the Tome Of Strahd from the Sunseekers and disappeared "
       }
     ]
   },
@@ -849,7 +849,7 @@ let charactersData = [
         race: "Wereraven",
         age: "35 years old",
         firstAppearance: 4,
-        description: "Owner and barkeep of the Blue Water Inn in Vallaki along with her husband Urwin. The Inn takes in the few visitors that come into Vallaki and it is also the Vallaki hub for the secret organization known as the Keepers of the Feather. "
+        description: "Owner and barkeep of the Blue Water Inn in Vallaki along with her husband Urwin. The Inn takes in the few visitors that come into Vallaki and it is also the Vallaki hub for the secret organization known as the Keepers of the Feather "
       },
       {
         id: 2,
@@ -860,7 +860,7 @@ let charactersData = [
         race: "Wereraven",
         age: "40 years old",
         firstAppearance: 4,
-        description: "Owner and chef of the Blue Water Inn in Vallaki along with his wife Danika. The Inn takes in the few visitors that come into Vallaki and it is also the Vallaki hub for the secret organization known as the Keepers of the Feather."
+        description: "Owner and chef of the Blue Water Inn in Vallaki along with his wife Danika. The Inn takes in the few visitors that come into Vallaki and it is also the Vallaki hub for the secret organization known as the Keepers of the Feather"
       },
       {
         id: 3,
@@ -871,7 +871,7 @@ let charactersData = [
         race: "Wereraven",
         age: "12 years old",
         firstAppearance: 4,
-        description: "Brom and his younger brother Bray are the youngest members of the Keepers of the Feather.  They are friendly to patrons as they are known to run around the Blue Water Inn."
+        description: "Brom and his younger brother Bray are the youngest members of the Keepers of the Feather.  They are friendly to patrons as they are known to run around the Blue Water Inn"
       },
       {
         id: 4,
@@ -882,7 +882,7 @@ let charactersData = [
         race: "Wereraven",
         age: "10 years old",
         firstAppearance: 4,
-        description: "Bray and his older brother Brom are the youngest members of the Keepers of the Feather.  They are friendly to patrons as they are known to run around the Blue Water Inn.",
+        description: "Bray and his older brother Brom are the youngest members of the Keepers of the Feather.  They are friendly to patrons as they are known to run around the Blue Water Inn",
         sections: [
           {
             id: 1,
