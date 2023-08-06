@@ -1029,7 +1029,15 @@ let charactersData = [
         race: "Revenant",
         age: "Unknown",
         firstAppearance: 14,
-        description: "Sir Godfrey Gilwyn fought alongside Argynvost and Sir Vladimir Horngaard.  If Vladimir's hate and bloodlust brough the knights of the Order back from the death, it was Godfrey's love and patience that allowed a handful of knights to hold even the faintest hold on their humanity"
+        description: "Sir Godfrey Gilwyn fought alongside Argynvost and Sir Vladimir Horngaard.  If Vladimir's hate and bloodlust brough the knights of the Order back from the death, it was Godfrey's love and patience that allowed a handful of knights to hold even the faintest hold on their humanity",
+        sections: [
+          {
+            id: 1,
+            name: "Unfinished Business",
+            description: "~Sir Godfrey~ believes that if his knights can fulfill their most important mortal desires that they might have a chance at finding peace in the afterlife. He has asked the Sunseekers to assist with this task by helping each of his knights one by one.",
+            localLinks: {}
+          }
+        ]
       },
       {
         id: 4,
