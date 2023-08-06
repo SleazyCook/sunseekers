@@ -179,15 +179,16 @@ let treasuresData = [
     found: "Wizard of Wines",
     possession: "Alina",
     pLong: "Countess Alina",
-    description: "There is a powerful Kavani staff with unique abilities somewhere within the Kavani population."
+    description: "This powerful Kavani staff contains unique abilities and links its wielder with the Blood Spear. The sentience from this weapon has entrusted Alina and German with the responsibility to work together and use the power of cleansing light to oust the foul darkness that has seeped into the valley."
   },
   {
     id: 21,
     name: "Blood Spear",
     image: "https://i.imgur.com/7xBLd0E.png",
-    location: "Unknown",
-    possession: "Unknown",
-    description: "There is an ancient Kavani spear with unique abilities somewhere within the Kavani population."
+    found: "Tree Blight at Winery",
+    possession: "German",
+    plong: "German the Barbarian",
+    description: "This ancient Kavani spear contains unique abilities and links its wielder with the Gulthias staff. The sentience from this weapon has entrusted German and Alina with the responsibility to work together and use the power of cleansing light to oust the foul darkness that has seeped into the valley."
   },
   {
     id: 22,
