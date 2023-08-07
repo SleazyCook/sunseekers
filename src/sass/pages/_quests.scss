@@ -3,13 +3,15 @@
 
 
   &-main {
-    background-color: purple;
+    background-color: $color-grey-dark-3;
+    padding: 2rem;
+    border-radius: 1rem;
     height: 60rem;
     width: 120rem;
 
-    &__toolbar {
+    // &__toolbar {
 
-    }
+    // }
 
     &__flexbox {
       display: flex;
@@ -20,11 +22,12 @@
   }
 
   &__list {
-    background-color: brown;
+    background-color: $color-grey-dark-3;
     width: 40%;
     max-height: 55rem;
     overflow: scroll;
     padding: 1rem;
+    border-radius: 1rem 0 0 1rem;
 
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -34,9 +37,13 @@
     }
 
     &-item {
+      background-color: $color-grey-dark-1;
+      border-radius: 5px;
       padding: 1rem;
-      border: 1px solid black;
       cursor: pointer;
+      font-family: $font-display;
+      font-size: 2rem;
+      color: $color-white-soft;
 
       &:not(:first-child) {
         margin-top: .5rem;
@@ -52,6 +59,7 @@
       url('https://i.imgur.com/gBmNOuJ.png');
     background-size: cover;
     background-color: black;
+    border-radius: 1rem;
     width: 60%;
     height: 55rem;
     overflow: scroll;

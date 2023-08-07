@@ -147,6 +147,10 @@ let questsData = [
   },
   {
     id: 31,
+    name: "Mother in Berez"
+  },
+  {
+    id: 32,
     name: "Heroic Deed"
   }
 ]

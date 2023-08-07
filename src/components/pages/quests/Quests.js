@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 import questsData from './QuestsData'
@@ -6,6 +6,10 @@ import questsData from './QuestsData'
 function Quests() {
   const [selectedQuest, setSelectedQuest] = useState({})
   let questsByRecent = [...questsData].reverse()
+
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0})
+  }, [])
 
   return (
     <div className="quests">
@@ -19,11 +23,11 @@ function Quests() {
 
       <div className="centered">
 
-        <div className="quests-main">
+        <div className="quests-main centered">
 
-          <div className="quests-main__toolbar">
+          {/* <div className="quests-main__toolbar">
             Toolbar
-          </div>
+          </div> */}
 
           {/* Flexbox Container */}
           <div className="quests-main__flexbox">

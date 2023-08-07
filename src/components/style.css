@@ -2584,7 +2584,9 @@ body {
   flex-direction: column; }
 
 .quests-main {
-  background-color: purple;
+  background-color: #050505;
+  padding: 2rem;
+  border-radius: 1rem;
   height: 60rem;
   width: 120rem; }
   .quests-main__flexbox {
@@ -2593,11 +2595,12 @@ body {
     width: 100%; }
 
 .quests__list {
-  background-color: brown;
+  background-color: #050505;
   width: 40%;
   max-height: 55rem;
   overflow: scroll;
   padding: 1rem;
+  border-radius: 1rem 0 0 1rem;
   -ms-overflow-style: none;
   /* IE and Edge */
   scrollbar-width: none;
@@ -2605,9 +2608,13 @@ body {
   .quests__list::-webkit-scrollbar {
     display: none; }
   .quests__list-item {
+    background-color: #1a1a1a;
+    border-radius: 5px;
     padding: 1rem;
-    border: 1px solid black;
-    cursor: pointer; }
+    cursor: pointer;
+    font-family: "Staatliches", sans-serif;
+    font-size: 2rem;
+    color: #e6e6e6; }
     .quests__list-item:not(:first-child) {
       margin-top: .5rem; }
 
@@ -2615,6 +2622,7 @@ body {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://i.imgur.com/gBmNOuJ.png");
   background-size: cover;
   background-color: black;
+  border-radius: 1rem;
   width: 60%;
   height: 55rem;
   overflow: scroll;
