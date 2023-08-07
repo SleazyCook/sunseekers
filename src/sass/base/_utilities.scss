@@ -5,6 +5,18 @@
 
 .u-thin-border-top { border-top: 1px solid white}
 
+// Centered
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center !important;
+  margin: 0 auto;
+}
+
 
 // Margin
 

@@ -93,6 +93,12 @@ function CharacterModal({charsObj, selectedObj, setSelectedObj, setCardOpen, sel
                 </div>
               </div> }
 
+              {/* See More Below */}
+              {selectedObj.sections && <div className="details-box__section">
+                <div className="details-box__section--left"><b>See More</b></div>
+                <div className="details-box__section--right">Scroll Below</div>
+              </div>}
+
             </div>
           </div>
           {/* Details Box End */}

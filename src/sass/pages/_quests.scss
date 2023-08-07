@@ -1,0 +1,76 @@
+.quests {
+
+
+
+  &-main {
+    background-color: purple;
+    height: 60rem;
+    width: 120rem;
+
+    &__toolbar {
+
+    }
+
+    &__flexbox {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+
+  }
+
+  &__list {
+    background-color: brown;
+    width: 40%;
+    max-height: 55rem;
+    overflow: scroll;
+    padding: 1rem;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    &-item {
+      padding: 1rem;
+      border: 1px solid black;
+      cursor: pointer;
+
+      &:not(:first-child) {
+        margin-top: .5rem;
+      }
+    }
+  }
+
+  &__selected {
+    background-color: black;
+    width: 60%;
+    height: 55rem;
+    overflow: scroll;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    &--header {
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+      font-size: 2.5rem;
+      font-size: 3.5rem;
+      background-color: $color-primary;
+      // width: 50rem;
+      display: inline-block;
+      clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+      color: $color-white-soft;
+      padding: 0 3rem;
+      margin: 2rem 0;
+    }
+  }
+
+}

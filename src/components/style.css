@@ -185,6 +185,15 @@ body {
 .u-thin-border-top {
   border-top: 1px solid white; }
 
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.text-center {
+  text-align: center !important;
+  margin: 0 auto; }
+
 .u-margin-bottom-small {
   margin-bottom: 1.5rem !important; }
 
@@ -2573,6 +2582,58 @@ body {
 .market {
   display: flex;
   flex-direction: column; }
+
+.quests-main {
+  background-color: purple;
+  height: 60rem;
+  width: 120rem; }
+  .quests-main__flexbox {
+    display: flex;
+    flex-direction: row;
+    width: 100%; }
+
+.quests__list {
+  background-color: brown;
+  width: 40%;
+  max-height: 55rem;
+  overflow: scroll;
+  padding: 1rem;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */ }
+  .quests__list::-webkit-scrollbar {
+    display: none; }
+  .quests__list-item {
+    padding: 1rem;
+    border: 1px solid black;
+    cursor: pointer; }
+    .quests__list-item:not(:first-child) {
+      margin-top: .5rem; }
+
+.quests__selected {
+  background-color: black;
+  width: 60%;
+  height: 55rem;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */ }
+  .quests__selected::-webkit-scrollbar {
+    display: none; }
+  .quests__selected--header {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    font-size: 3.5rem;
+    background-color: #771f09;
+    display: inline-block;
+    clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+    color: #e6e6e6;
+    padding: 0 3rem;
+    margin: 2rem 0; }
 
 .resources__title {
   text-align: center;
