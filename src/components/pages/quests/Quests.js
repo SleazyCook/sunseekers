@@ -5,10 +5,7 @@ import questsData from './QuestsData'
 
 function Quests() {
   const [selectedQuest, setSelectedQuest] = useState({})
-
   let questsByRecent = [...questsData].reverse()
-
-  console.log('selectedQuest: ', selectedQuest)
 
   return (
     <div className="quests">
@@ -46,6 +43,9 @@ function Quests() {
 
             {/* Flex- Right */}
             <div className="quests__selected">
+
+              {!selectedQuest.name &&  <div className="centered"><img className="quests__selected--placeholder" src="https://i.imgur.com/RkKW0pG.png"/></div>}
+
               <div className="quests__selected--header heading-tertiary">
                 {selectedQuest.name}
               </div>

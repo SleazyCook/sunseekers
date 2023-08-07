@@ -45,6 +45,12 @@
   }
 
   &__selected {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(darken($color-primary-light, 50%), 0.8),  
+      rgba(darken($color-primary-dark, 50%), 0.8)),
+      url('https://i.imgur.com/gBmNOuJ.png');
+    background-size: cover;
     background-color: black;
     width: 60%;
     height: 55rem;
@@ -55,6 +61,10 @@
   
     &::-webkit-scrollbar {
       display: none;
+    }
+
+    &--placeholder {
+      max-height: 50rem;
     }
 
     &--header {

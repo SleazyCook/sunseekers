@@ -2612,6 +2612,8 @@ body {
       margin-top: .5rem; }
 
 .quests__selected {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://i.imgur.com/gBmNOuJ.png");
+  background-size: cover;
   background-color: black;
   width: 60%;
   height: 55rem;
@@ -2622,6 +2624,8 @@ body {
   /* Firefox */ }
   .quests__selected::-webkit-scrollbar {
     display: none; }
+  .quests__selected--placeholder {
+    max-height: 50rem; }
   .quests__selected--header {
     margin: 0 auto;
     display: block;
