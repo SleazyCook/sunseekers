@@ -2,9 +2,12 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 import questsData from './QuestsData'
+import renderWithLinks from '../notes/HyperlinkFunction'
+import logData from '../notes/LogData'
 
 function Quests() {
   const [selectedQuest, setSelectedQuest] = useState({})
+  const [cardOpen, setCardOpen] = useState(false)
   let questsByRecent = [...questsData].reverse()
 
   useEffect(() => {
@@ -25,11 +28,7 @@ function Quests() {
 
         <div className="quests-main centered">
 
-          {/* <div className="quests-main__toolbar">
-            Toolbar
-          </div> */}
-
-          {/* Flexbox Container */}
+          {/* Quest List */}
           <div className="quests-main__flexbox">
           
             {/* Flex- Left */}
@@ -45,14 +44,42 @@ function Quests() {
               })}
             </div>
 
-            {/* Flex- Right */}
-            <div className="quests__selected">
+            {/* Selected Quest Data */}
+            <div className="selected">
 
-              {!selectedQuest.name &&  <div className="centered"><img className="quests__selected--placeholder" src="https://i.imgur.com/RkKW0pG.png"/></div>}
+              {/* Placeholder Image */}
+              {!selectedQuest.name &&  <div className="centered"><img className="selected__placeholder" src="https://i.imgur.com/RkKW0pG.png"/></div>}
 
-              <div className="quests__selected--header heading-tertiary">
+              {/* Quest Name */}
+              <div className="selected__header heading-tertiary">
                 {selectedQuest.name}
               </div>
+
+              {/* Link to Session */}
+              {selectedQuest.sessionStarted && <Link to={`/notes/adventure-log/${selectedQuest.sessionStarted}`} className="selected__started">
+                Quest offered in Session {selectedQuest.sessionStarted}.&nbsp;
+              </Link>}
+
+              {/* Starting Hook */}
+              <div className="selected__starting-hook">{selectedQuest.initiated}</div>
+
+              {/* Developments */}
+              {selectedQuest.developments && selectedQuest.developments.map((sectionsObj) => {
+                return (
+                  <div key={sectionsObj.id} value={sectionsObj.id} className="page-section">
+                    {/* <span className="page-section__title heading-tertiary">{sectionsObj.name}</span> */}
+                    <p className="hyperlink" style={{whiteSpace:'break-spaces'}}>
+                      {sectionsObj.description && renderWithLinks(sectionsObj.description, sectionsObj.localLinks, setCardOpen)}
+                    </p>
+                  </div>
+                )
+              })}
+
+              {/* isComplete? */}
+              {selectedQuest.completed && <div className="selected__completed"> &rarr; Quest Completed &larr;</div>}
+
+              {/* Rewards */}
+              {selectedQuest.rewards && <div className="selected__rewards">Rewards go here</div>}
 
             </div>
 

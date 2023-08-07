@@ -2618,7 +2618,7 @@ body {
     .quests__list-item:not(:first-child) {
       margin-top: .5rem; }
 
-.quests__selected {
+.selected {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://i.imgur.com/gBmNOuJ.png");
   background-size: cover;
   background-color: black;
@@ -2626,15 +2626,16 @@ body {
   width: 60%;
   height: 55rem;
   overflow: scroll;
+  padding: 1.5rem;
   -ms-overflow-style: none;
   /* IE and Edge */
   scrollbar-width: none;
   /* Firefox */ }
-  .quests__selected::-webkit-scrollbar {
+  .selected::-webkit-scrollbar {
     display: none; }
-  .quests__selected--placeholder {
+  .selected__placeholder {
     max-height: 50rem; }
-  .quests__selected--header {
+  .selected__header {
     margin: 0 auto;
     display: block;
     text-align: center;
@@ -2646,6 +2647,18 @@ body {
     color: #e6e6e6;
     padding: 0 3rem;
     margin: 2rem 0; }
+  .selected__started, .selected__started:active, .selected__started:visited {
+    display: block;
+    text-align: none;
+    color: white;
+    text-decoration: none; }
+  .selected__starting-hook {
+    margin-top: 2rem; }
+  .selected__completed {
+    padding: 2rem;
+    font-family: "Eczar", serif;
+    font-size: 2rem;
+    text-align: center; }
 
 .resources__title {
   text-align: center;

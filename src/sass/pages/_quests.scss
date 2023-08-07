@@ -51,44 +51,65 @@
     }
   }
 
-  &__selected {
-    background-image: linear-gradient(
-      to right bottom,
-      rgba(darken($color-primary-light, 50%), 0.8),  
-      rgba(darken($color-primary-dark, 50%), 0.8)),
-      url('https://i.imgur.com/gBmNOuJ.png');
-    background-size: cover;
-    background-color: black;
-    border-radius: 1rem;
-    width: 60%;
-    height: 55rem;
-    overflow: scroll;
+}
 
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  
-    &::-webkit-scrollbar {
-      display: none;
-    }
+.selected {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(darken($color-primary-light, 50%), 0.8),  
+    rgba(darken($color-primary-dark, 50%), 0.8)),
+    url('https://i.imgur.com/gBmNOuJ.png');
+  background-size: cover;
+  background-color: black;
+  border-radius: 1rem;
+  width: 60%;
+  height: 55rem;
+  overflow: scroll;
+  padding: 1.5rem;
 
-    &--placeholder {
-      max-height: 50rem;
-    }
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 
-    &--header {
-      margin: 0 auto;
-      display: block;
-      text-align: center;
-      font-size: 2.5rem;
-      font-size: 3.5rem;
-      background-color: $color-primary;
-      // width: 50rem;
-      display: inline-block;
-      clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
-      color: $color-white-soft;
-      padding: 0 3rem;
-      margin: 2rem 0;
-    }
+  &::-webkit-scrollbar {
+    display: none;
   }
 
+  &__placeholder {
+    max-height: 50rem;
+  }
+
+  &__header {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    font-size: 3.5rem;
+    background-color: $color-primary;
+    // width: 50rem;
+    display: inline-block;
+    clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+    color: $color-white-soft;
+    padding: 0 3rem;
+    margin: 2rem 0;
+  }
+
+  &__started,
+  &__started:active,
+  &__started:visited {
+    display: block;
+    text-align: none;
+    color: white;
+    text-decoration: none;
+  }
+
+  &__starting-hook {
+    margin-top: 2rem;
+  }
+
+  &__completed {
+    padding: 2rem;
+    font-family: $font-quote;
+    font-size: 2rem;
+    text-align: center;
+  }
 }

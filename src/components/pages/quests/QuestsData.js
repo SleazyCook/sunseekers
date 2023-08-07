@@ -3,15 +3,20 @@ let questsData = [
     id: 1,
     name: "Death House",
     img: "https://i.imgur.com/ZzFQKI3.png",
-    finished: true,
-    chapter: 1,
-    sessionStarted: 1,
-    rewards: [""],
+    completed: true,
+    season: 1,
+    sessionStarted: 8,
+    rewards: [],
     initiated: "Children Rose and Thorn were on the street begging for help. Their baby brother Walter has been trapped in their family home with a monster.",
     developments: [
       {
         id: 1,
-        description: "",
+        description: "Once upon a time",
+        localLinks: {}
+      },
+      {
+        id: 2,
+        description: "Then a thing happened",
         localLinks: {}
       }
     ]
@@ -20,10 +25,10 @@ let questsData = [
     id: 2,
     name: "Village Plague",
     img: "https://i.imgur.com/q1DGuW9.png",
-    finsihed: true,
-    chapter: 1,
-    sesseionStarted: 2,
-    rewars: [""],
+    completed: true,
+    season: 1,
+    sessionStarted: 2,
+    rewards: [""],
     initiated: "At his shop, Bildrath offered up some local rumors about a plague and suggested visiting the Cobb House up the street",
     developments: [
       {
