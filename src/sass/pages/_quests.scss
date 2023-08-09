@@ -45,8 +45,8 @@
       font-size: 2rem;
       color: $color-white-soft;
 
-      &:not(:first-child) {
-        margin-top: .5rem;
+      &:not(:last-child) {
+        margin-bottom: .5rem;
       }
     }
   }

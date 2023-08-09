@@ -2615,8 +2615,8 @@ body {
     font-family: "Staatliches", sans-serif;
     font-size: 2rem;
     color: #e6e6e6; }
-    .quests__list-item:not(:first-child) {
-      margin-top: .5rem; }
+    .quests__list-item:not(:last-child) {
+      margin-bottom: .5rem; }
 
 .selected {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://i.imgur.com/gBmNOuJ.png");
