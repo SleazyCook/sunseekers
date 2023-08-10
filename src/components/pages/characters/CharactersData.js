@@ -1594,7 +1594,7 @@ let charactersData = [
         age: "10 years old",
         firstAppearance: 6,
         description: `Ace was adopted by the the Sunseekers, but quickly brought back to the orphanage after they made the terrible mistake of attempting to "rescue" several orphans on behalf of a group of ladies who were revealed to be witches grinding children into bone flour`
-      }
+      },
       {
         id: 14,
         name: "Szoldar",
