@@ -1133,7 +1133,7 @@ let charactersData = [
         title: "Priest of Lathander",
         race: "Barovian",
         firstAppearance: 2,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Father Donavich has been the priest and caretaker for the Village church for decades. He was known for his love and dedication to those around thim - that is until it was revealed that he has been dragging bodies to his vampire son in the church's undercroft"
       },
       {
         id: 2,
@@ -1144,7 +1144,7 @@ let charactersData = [
         title: "Priest of Lathander",
         race: "Barovian",
         firstAppearance: 6,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Father Lucien Petrovich presided over St. Andral's Church in Vallaki for a long time. He raised his family within the church and passed on his wisdom as a holy man. "
       },
       {
         id: 3,
@@ -1155,7 +1155,7 @@ let charactersData = [
         title: "Priest of Lathander",
         race: "Barovian",
         firstAppearance: 6,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Father Franz Petrovich was raised in the church by his father and grandfather. His father was slain on a mercenary trip to Berez by wolves, but his faith has held strong through the years"
       },
       {
         id: 4,
@@ -1165,7 +1165,7 @@ let charactersData = [
         title: "Orphanage Mistress",
         race: "Barovian",
         firstAppearance: 6,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Claudia Belasco is the headmistress of St. Andral's Orphanage in Vallaki. Although closely affiliated with the church, the orphanage has actually been owned and operated by her family for generations"
       },
       {
         id: 5,
@@ -1175,7 +1175,7 @@ let charactersData = [
         title: "Orphan",
         race: "Barovian",
         firstAppearance: 10,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Milivoj grew up in St. Andral's Orphanage and since aging out of the program he has been a loyal groundskeep for both the orphanage and the church"
       },
     ]
   },
@@ -1193,7 +1193,15 @@ let charactersData = [
         title: "Barovian Noble",
         race: "Barovian",
         firstAppearance: 4,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Baron Vargas Vallakovich is the Burgomaster of Vallaki. Secured behind the walls of Vallki, the Baron has spent decades of his life in denial about Strahd's Barovia.  He has made the utterance of the vampire's name illegal and mandates weekly attendence to city festivals",
+        sections: [
+          {
+            id: 1,
+            name: "Outlawed Sunseekers",
+            description: "After the ~Feast of St Andral~, the Baron blamed the Sunseekers for the massacre. Those who were present when the Baron gave the order were promptly arrested and he has sent Izek and other guards to patrol the roads surrounding the city to round up the rest.",
+            localLinks: {}
+          }
+        ]
       },
       {
         id: 2,
@@ -1203,7 +1211,7 @@ let charactersData = [
         title: "Barovian Noble",
         race: "Barovian",
         firstAppearance: 4,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "The Baron's wife is a devout member of the Church of the Morning Lord. She spends most of her time having tea with the poorest citizens of Vallaki spreading the word of the Morning Lord and assisting with festival planning"
       },
       {
         id: 3,
@@ -1213,7 +1221,10 @@ let charactersData = [
         title: "Head of the Guard",
         race: "Barovian",
         firstAppearance: 4,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Izek Strazni was once a Vallaki orphan with a violent childhood.  The Baron took responsibility for the troubled child.  As Izek grew up he continued to get into trouble the Baron saw an opportunity.  Izek was made the chief of the Vallaki Guard and is known to use his monstrous arm to get his hands dirty",
+        localLinks: {}
+        // ireena dolls
+        // german fight
       },
       {
         id: 4,
@@ -1223,7 +1234,7 @@ let charactersData = [
         title: "Barovian Noble",
         race: "Barovian",
         firstAppearance: 11,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Victor Vallakovich hates his father, the Baron, and is obsessed with magic.  He once courted Stella Wachter until a spell went awry and damaged her mind.  He now spends all of his time in the Burgomaster's attic secluded from everyone, especially his family, until he can figure out how to repair the damage and escape Barovia with his love"
       },
       {
         id: 5,
@@ -1233,7 +1244,7 @@ let charactersData = [
         title: "Guards",
         race: "Barovian",
         firstAppearance: 4,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "The Guards of Vallaki are the most elite militarized force in Barovia.  They are loyal to the Burgomaster and follow the orders of Izek Strazni"
       },
       {
         id: 6,
@@ -1243,7 +1254,7 @@ let charactersData = [
         title: "Commoner",
         race: "Barovian",
         firstAppearance: 4,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Grygori Antonova is the Burgomaster's butler and cook.  He used to work for the Baron's father.  He spends his days running the Burgomaster's mansion, cooking, cleaning, and assisting with festival preparation"
       }
     ]
   },
