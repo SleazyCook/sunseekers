@@ -1455,6 +1455,7 @@ let charactersData = [
         img: "https://i.imgur.com/tYEzwNQ.png",
         title: "Monster Hunter",
         race: "Half Elf",
+        age: "80 years old",
         firstAppearance: 5,
         description: "Disguised as the traveling bard Rictavio, Rudolph Van Richten the most famous monster hunter in the multiverse. He is plotting his attack on Strahd while hidden in plain sight"
       },
@@ -1466,8 +1467,9 @@ let charactersData = [
         img: "https://i.imgur.com/QefdavN.png",
         title: "Toy Maker",
         race: "Barovian",
+        age: "38 years old",
         firstAppearance: 5,
-        descriptin: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        descriptin: `Gadof Blinsky is the timid owner of Blinky's Toys.  His macabre toys can be found across Barovia with the tag "Is No Fun? Is No Blinsky!"  He is seen with a monkey companion Piccolo, on loan from Rictavio.  He is being forced by Izek to make custom dolls that resemble Ireena`
       },
       {
         id: 3,
@@ -1476,8 +1478,9 @@ let charactersData = [
         img: "https://i.imgur.com/W1VrGtT.png",
         title: "Brothel Madame",
         race: "Barovian",
+        age: "80 years old",
         firstAppearance: 5,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Madame of The Swift Finish, a brothel in Vallaki. Genie has offered her establishment as a safe space for the Sunseekers to meet with Rudolph Van Richten"
       },
       {
         id: 4,
@@ -1486,8 +1489,9 @@ let charactersData = [
         img: "https://i.imgur.com/OqbzSGS.png",
         title: "Sex Workers",
         race: "Barovian",
+        age: "20 - 75 years old",
         firstAppearance: 5,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Genie's Ladies work as escorts at The Swift Finish. While not all of Genie's Ladies are female, they are known for their discretion and professionalism. Most of the Ladies needed a place to go after they aged out of St. Andral's Orphanage"
       },
       {
         id: 5,
@@ -1497,8 +1501,9 @@ let charactersData = [
         img: "https://i.imgur.com/3tdnSi9.png",
         title: "Accountant",
         race: "Barovian",
+        age: "28 years old",
         firstAppearance: 6,
-        description: "Strahd posed as Vasili during his frequent visits to Vallaki. Vasili presented himself as a renown accountant and Barovian noble who had the chance to court Ireena"
+        description: "Vasili von Holtz was an accountant in Vallaki's high society.  As a popular lover of the arts, Vasili courted Ireena when she came to town.  It was revealed by Anastrasya during the Feast of St. Andral that Vasili was none other than Strahd von Zarovich in disguise"
       },
       {
         id: 6,
@@ -1508,8 +1513,9 @@ let charactersData = [
         img: "https://i.imgur.com/YBZxjjh.png",
         title: "Coffin Maker",
         race: "Barovian",
+        age: "70 years old",
         firstAppearance: 12,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Henrik van der Root was a coffin maker in Vallaki.  Strahd sent vampires to his shop to torment him and conspire to steal the bones of St. Andral.  When the Sunseekers approached him in his shop, they discovered a nest of vampires that slaughtered Henrik as the Feast of St. Andral began"
       },
       {
         id: 7,
@@ -1518,8 +1524,9 @@ let charactersData = [
         img: "https://i.imgur.com/RVBXqGV.png",
         title: "Commoner",
         race: "Barovian",
+        age: "60 years old",
         firstAppearance: 10,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Bluto was known as Vallaki's resident drunk.  He once enjoyed fishing, but after years of a dry harvest he kidnapped the young Vistana Arabelle and offered her to a possible god of the lake.  The Sunseekers rescued Arabelle and turned Bluto over to the Vallaki Vistani Camp to answer for his crime"
       },
       {
         id: 8,
@@ -1528,8 +1535,9 @@ let charactersData = [
         img: "https://i.imgur.com/iNCA7ea.jpg",
         title: "Former Guard",
         race: "Barovian",
+        age: "33 years old",
         firstAppearance: 6,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Lars Kjurls was a member of the Vallaki Guard.  During the Festival of the Sun he made the mistake of laughing for only a second when the Burgomaster's effigy collapsed. He was dragged by horse to the Vallaki jail and broke free with the help of Elizana and Umnos"
       },
       {
         id: 9,
@@ -1538,6 +1546,7 @@ let charactersData = [
         img: "https://i.imgur.com/rMeg8Jx.png",
         title: "Unwanted Children",
         race: "Barovian",
+        age: "0-17 years old",
         firstAppearance: 6,
         description: "Children may have the worst fates in the valley of Barovia. Those who are lucky enough will eventually find their way to Claudia Belasco's orphanage"
       },
@@ -1548,8 +1557,9 @@ let charactersData = [
         img: "https://i.imgur.com/EpTyfoZ.png",
         title: "Orphan",
         race: "Barovian",
+        age: "8 years old",
         firstAppearance: 6,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Felix came into the orphanage with a locket that was revealed to be possessed by a shadow demon.  German the Barbarian made a deal with the shadow demon to release the child and spare his life"
       },
       {
         id: 11,
@@ -1559,8 +1569,9 @@ let charactersData = [
         img: "https://i.imgur.com/3V86wmr.png",
         title: "Orphan",
         race: "Barovian",
+        age: "9 years old",
         firstAppearance: 6,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: `The Hair Pulling Girl, like many orphans when they first arrive at St. Andral's orphanage, lacks a proper name.  Her anxieties cause her to nearly contstantly pull out her own hair. She was one of the "rescued" children that were went to the Old Mill. She was fortunate to come back in one piece`
       },
       {
         id: 12,
@@ -1569,8 +1580,9 @@ let charactersData = [
         img: "https://i.imgur.com/2n73COe.jpg",
         title: "Orphan",
         race: "Barovian",
+        age: "8 years old",
         firstAppearance: 6,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: `The Lizard Boy, like many orphans when they first arrive at St. Andral's orphanage, lacks a proper name.  His anxieties cause him to nearly contstantly pull out his genitals and play with them calling it his "lizard". He was one of the "rescued" children that were went to the Old Mill. He was fortunate to come back in one piece`
       },
       {
         id: 13,
@@ -1579,9 +1591,10 @@ let charactersData = [
         img: "https://i.imgur.com/OpBoXpH.jpg",
         title: "Orphan",
         race: "Barovian",
+        age: "10 years old",
         firstAppearance: 6,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
-      },
+        description: `Ace was adopted by the the Sunseekers, but quickly brought back to the orphanage after they made the terrible mistake of attempting to "rescue" several orphans on behalf of a group of ladies who were revealed to be witches grinding children into bone flour`
+      }
       {
         id: 14,
         name: "Szoldar",
@@ -1589,8 +1602,9 @@ let charactersData = [
         img: "https://i.imgur.com/J3BbMEv.png",
         title: "Wolf Hunter",
         race: "Barovian",
+        age: "50 years old",
         firstAppearance: 5,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Szoldar and his brother Yevgeni are skilled wolf hunters.  They assist the Vallaki Guard on missions outside the walls as they are the most familiar with the area and it's threats"
       },
       {
         id: 15,
@@ -1599,8 +1613,9 @@ let charactersData = [
         img: "https://i.imgur.com/ikZfS2x.png",
         title: "Wolf HUnter",
         race: "Barovian",
+        age: "45 years old",
         firstAppearance: 5,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Yevgeni and his brother Szoldar are skilled wolf hunters.  They assist the Vallaki Guard on missions outside the walls as they are the most familiar with the area and it's threats"
       },
       {
         id: 16,
@@ -1611,7 +1626,7 @@ let charactersData = [
         race: "Monkey",
         age: "7 years old",
         firstAppearance: 5,
-        description: "Piccolo, longtime companion to Famed Monster Hunter Rudolph Van Richten, is staying with Gadof Blinksy the Toy Maker in Vallaki. Upon visiting his shop for the first time, Van Richten felt sympathetic for the down-on-his-luck toy maker and offered to leave Piccolo with him for a while."
+        description: "Piccolo, longtime companion to Famed Monster Hunter Rudolph Van Richten, is staying with Gadof Blinksy the Toy Maker in Vallaki. Upon visiting his shop for the first time, Van Richten felt sympathetic for the down-on-his-luck toy maker and offered to leave Piccolo with him for a while"
       },
       {
         id: 17,
@@ -1622,7 +1637,7 @@ let charactersData = [
         race: "Saber-toothed Tiger",
         age: "8 years old",
         firstAppearance: 11,
-        description: "Rictavio's Exotic Tiger is actually Rudloph Van Richten's Vistani-tracking companion Ramses.  While Rudolph continues his ruse as Rictavio the Bard in Vallaki, Ramses plays his part as a trained circus animal patiently waiting in Ricavio's traveling show wagon waiting for his master to command him."
+        description: "Rictavio's Exotic Tiger is actually Rudloph Van Richten's Vistani-tracking companion Ramses.  While Rudolph continues his ruse as Rictavio the Bard in Vallaki, Ramses plays his part as a trained circus animal patiently waiting in Ricavio's traveling show wagon waiting for his master to command him"
       }
     ]
   },
