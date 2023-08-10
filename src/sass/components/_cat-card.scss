@@ -171,18 +171,18 @@
     background-blend-mode: difference;
    }
 
-   &--characters-13 {
-    background-image: linear-gradient(
-      to right bottom, 
-      rgba($color-primary-light, 0.8), 
-      rgba($color-primary-dark, 0.8)), 
-      url("https://i.imgur.com/zRETq2O.png");
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: difference;
-   }
+  //  &--characters-13 {
+  //   background-image: linear-gradient(
+  //     to right bottom, 
+  //     rgba($color-primary-light, 0.8), 
+  //     rgba($color-primary-dark, 0.8)), 
+  //     url("https://i.imgur.com/zRETq2O.png");
+  //   background-size: cover;
+  //   background-position: center;
+  //   background-blend-mode: difference;
+  //  }
 
-   &--characters-14 {
+   &--characters-13 {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8), 

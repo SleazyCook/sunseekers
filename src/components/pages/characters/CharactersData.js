@@ -1831,12 +1831,6 @@ let charactersData = [
   },
   {
     number: 13,
-    name: "Unknown Alliance",
-    link: "/characters/unknown-alliance",
-    description: "Barovia is a dangerous place filled with questionable characters with unknown motivations.  Some people aren't honest about who they are or who they are allied with. It is ultimately up to the Sunseekers to decide for themselves who is trusworthy and who isn't. One can only hope that they make the best decisions."
-  },
-  {
-    number: 14,
     name: "Creatures",
     link: "/characters/creatures",
     description: "The Old Svalich Road and surrounding Svalich Woods are not safe to travel without an experienced guide.  There are vicious wolves ready to attack unsuspecting travelers at every possible moment and undead march through the valley without limitation.  One can never expect which horror or monstrosity they may encounter on their adventures.",
