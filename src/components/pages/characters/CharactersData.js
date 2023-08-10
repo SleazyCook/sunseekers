@@ -1273,7 +1273,7 @@ let charactersData = [
         title: "Barovian Noble",
         race: "Barovian",
         firstAppearance: 10,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Lady Fiona Wachter is the richest woman in Barovia.  She is conspiring against the Baron to replace him as Burgomaster of Vallaki with the help of her right-hand man Ernst Larnak and the Sunseekers"
       },
       {
         id: 2,
@@ -1284,7 +1284,7 @@ let charactersData = [
         title: "Barovian Noble",
         race: "Barovian",
         firstAppearance: 10,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Lady Fiona Wachter is the richest woman in Barovia.  She is conspiring against the Baron to replace him as Burgomaster of Vallaki with the help of her right-hand man Ernst Larnak and the Sunseekers"
       },
       {
         id: 3,
@@ -1294,7 +1294,7 @@ let charactersData = [
         title: "Barovian Noble",
         race: "Barovian",
         firstAppearance: 10,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Ernst Larnak has served Wachterhaus his entire life.  He is very loyal to them and treated like a member of the family. Ernst's responsibilites to Wachterhaus mostly involve keeping and eye on everything going on in Vallaki"
       },
       {
         id: 4,
@@ -1304,7 +1304,7 @@ let charactersData = [
         title: "Barovian Noble",
         race: "Barovian",
         firstAppearance: 10,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Stella Wachter is the youngest child of Lord and Lady Wachter. She once courted the Burgomaster's son Victor until one of his spells misfired and caused her to go insane. She spends her days locked in her room within Wachterhaus until her condition can be properly corrected"
       },
       {
         id: 5,
@@ -1314,7 +1314,7 @@ let charactersData = [
         title: "Barovian Noble",
         race: "Barovian",
         firstAppearance: 6,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Nikolai Wachter is the eldest son of Lord and Lady Wachter and the future of Wachterhaus. He spends most of his time drinking at the Blue Water Inn with his brother Karl and other patrons"
       },
       {
         id: 6,
@@ -1324,7 +1324,7 @@ let charactersData = [
         title: "Barovian Noble",
         race: "Barovian",
         firstAppearance: 6,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Karl Wachter is the middle child of Lord and Lady Wachter.  He spends most of his time drinking at the Blue Water Inn with his brother Nikolai and other patrons"
       }
     ]
   },
@@ -1343,7 +1343,15 @@ let charactersData = [
         title: "Merchant",
         race: "Barovian",
         firstAppearance: 5,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Dragomir Valisov is the proud purveryor of The Cracked Anvil which offers functional pieces including horseshoes, nails, hinges, spearheads, arrowheads, and daggers",
+        sections: [
+          {
+            id: 1,
+            name: "Silvered Weapons",
+            description: "Dragomir successfully silvered weapons for the first generation of Sunseekers before the ~Feast of St Andral~",
+            localLinks: {}
+          }
+        ]
       },
       {
         id: 2,
@@ -1354,7 +1362,7 @@ let charactersData = [
         title: "Merchant",
         race: "Barovian",
         firstAppearance: 5,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Alek Alastroi is the eldest of the Alastroi siblings and co-owner of Endless Delights.  The siblings are known for their materlistic priorities and expert level skills with a needle and thread"
       },
       {
         id: 3,
@@ -1365,7 +1373,7 @@ let charactersData = [
         title: "Merchant",
         race: "Barovian",
         firstAppearance: 5,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Andrej Alastroi is at the center of the Alastroi siblings and co-owner of Endless Delights.  The siblings are known for their materlistic priorities and expert level skills with a needle and thread"
       },
       {
         id: 4,
@@ -1376,7 +1384,7 @@ let charactersData = [
         title: "Merchant",
         race: "Barovian",
         firstAppearance: 5,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Alana Alastroi is the youngest of the Alastroi siblings and co-owner of Endless Delights.  The siblings are known for their materlistic priorities and expert level skills with a needle and thread"
       },
       {
         id: 5,
@@ -1387,7 +1395,7 @@ let charactersData = [
         title: "Merchant",
         race: "Barovian",
         firstAppearance: 5,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Harkus Stefanovich is the soft-spoken, but nonetheless eccentric owner of Stefanovich Apothecary. Possessed with an unnerving bedside manner and a lack of appreciation for personal space, Harkus is nonetheless a simple apothecary, rather than a potion-maker or alchemist"
       },
       {
         id: 6,
@@ -1398,7 +1406,7 @@ let charactersData = [
         title: "Merchant",
         race: "Barovian",
         firstAppearance: 5,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Fatima Lukresh is the dark-humored and abrasive owner of Lukresh Tannery. She is most experienced in the production of straps, harnesses, and belts, but can craft normal and studded leather armor on commission if asked. Her work is crude, but functional"
       },
       {
         id: 7,
@@ -1408,7 +1416,7 @@ let charactersData = [
         title: "Merchant",
         race: "Barovian",
         firstAppearance: 5,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Tural is Vallaki’s is a gruff, unpleasant man and most experienced wainwright. He occasionally exits Vallaki to do business with the Vistani, which leaves him a social pariah amongst some of the more mistrustful townsfolk"
       },
       {
         id: 8,
@@ -1418,7 +1426,7 @@ let charactersData = [
         title: "Merchant",
         race: "Barovian",
         firstAppearance: 5,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Bilbo is the gentle and soft spoken owner of Odds N Ends.  His shop offers a variety of inexpensive items"
       },
       {
         id: 9,
@@ -1429,7 +1437,7 @@ let charactersData = [
         title: "Merchant",
         race: "Barovian",
         firstAppearance: 5,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel."
+        description: "Ana Krogarov is the owner of The Straight Arrow. She crafts short and long bows as well as arrows and quills. Ana is a distant cousin of Bluto, Vallaki's town drunk"
       }
     ]
   },
