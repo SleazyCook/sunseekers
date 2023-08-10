@@ -1132,6 +1132,7 @@ let charactersData = [
         img: "https://i.imgur.com/jr6osuv.jpg",
         title: "Priest of Lathander",
         race: "Barovian",
+        age: 65,
         firstAppearance: 2,
         description: "Father Donavich has been the priest and caretaker for the Village church for decades. He was known for his love and dedication to those around thim - that is until it was revealed that he has been dragging bodies to his vampire son in the church's undercroft"
       },
@@ -1143,6 +1144,7 @@ let charactersData = [
         img: "https://i.imgur.com/rgYIjKd.png",
         title: "Priest of Lathander",
         race: "Barovian",
+        age: 70,
         firstAppearance: 6,
         description: "Father Lucien Petrovich presided over St. Andral's Church in Vallaki for a long time. He raised his family within the church and passed on his wisdom as a holy man. "
       },
@@ -1154,6 +1156,7 @@ let charactersData = [
         img: "https://i.imgur.com/jT8iGgN.png",
         title: "Priest of Lathander",
         race: "Barovian",
+        age: 22,
         firstAppearance: 6,
         description: "Father Franz Petrovich was raised in the church by his father and grandfather. His father was slain on a mercenary trip to Berez by wolves, but his faith has held strong through the years"
       },
@@ -1164,6 +1167,7 @@ let charactersData = [
         img: "https://i.imgur.com/Ry4ksDE.png",
         title: "Orphanage Mistress",
         race: "Barovian",
+        age: 70,
         firstAppearance: 6,
         description: "Claudia Belasco is the headmistress of St. Andral's Orphanage in Vallaki. Although closely affiliated with the church, the orphanage has actually been owned and operated by her family for generations"
       },
@@ -1173,6 +1177,7 @@ let charactersData = [
         status: "Dead",
         img: "https://i.imgur.com/nYQC8VY.jpg",
         title: "Orphan",
+        age: 20,
         race: "Barovian",
         firstAppearance: 10,
         description: "Milivoj grew up in St. Andral's Orphanage and since aging out of the program he has been a loyal groundskeep for both the orphanage and the church"
@@ -1192,6 +1197,7 @@ let charactersData = [
         img: "https://i.imgur.com/hHguveo.png",
         title: "Barovian Noble",
         race: "Barovian",
+        age: 60,
         firstAppearance: 4,
         description: "Baron Vargas Vallakovich is the Burgomaster of Vallaki. Secured behind the walls of Vallki, the Baron has spent decades of his life in denial about Strahd's Barovia.  He has made the utterance of the vampire's name illegal and mandates weekly attendence to city festivals",
         sections: [
@@ -1210,6 +1216,7 @@ let charactersData = [
         img: "https://i.imgur.com/Uu6FNg4.png",
         title: "Barovian Noble",
         race: "Barovian",
+        age: 55,
         firstAppearance: 4,
         description: "The Baron's wife is a devout member of the Church of the Morning Lord. She spends most of her time having tea with the poorest citizens of Vallaki spreading the word of the Morning Lord and assisting with festival planning"
       },
@@ -1220,6 +1227,7 @@ let charactersData = [
         img: "https://i.imgur.com/zwYIqcJ.png",
         title: "Head of the Guard",
         race: "Barovian",
+        age: 25,
         firstAppearance: 4,
         description: "Izek Strazni was once a Vallaki orphan with a violent childhood.  The Baron took responsibility for the troubled child.  As Izek grew up he continued to get into trouble the Baron saw an opportunity.  Izek was made the chief of the Vallaki Guard and is known to use his monstrous arm to get his hands dirty",
         localLinks: {}
@@ -1233,6 +1241,7 @@ let charactersData = [
         img: "https://i.imgur.com/TZlpDIH.png",
         title: "Barovian Noble",
         race: "Barovian",
+        age: 21,
         firstAppearance: 11,
         description: "Victor Vallakovich hates his father, the Baron, and is obsessed with magic.  He once courted Stella Wachter until a spell went awry and damaged her mind.  He now spends all of his time in the Burgomaster's attic secluded from everyone, especially his family, until he can figure out how to repair the damage and escape Barovia with his love"
       },
@@ -1253,6 +1262,7 @@ let charactersData = [
         img: "https://i.imgur.com/6vkrtpj.png",
         title: "Commoner",
         race: "Barovian",
+        age: 50,
         firstAppearance: 4,
         description: "Grygori Antonova is the Burgomaster's butler and cook.  He used to work for the Baron's father.  He spends his days running the Burgomaster's mansion, cooking, cleaning, and assisting with festival preparation"
       }
@@ -1272,6 +1282,7 @@ let charactersData = [
         img: "https://i.imgur.com/qLO3OuR.png",
         title: "Barovian Noble",
         race: "Barovian",
+        age: 60,
         firstAppearance: 10,
         description: "Lady Fiona Wachter is the richest woman in Barovia.  She is conspiring against the Baron to replace him as Burgomaster of Vallaki with the help of her right-hand man Ernst Larnak and the Sunseekers"
       },
@@ -1283,6 +1294,7 @@ let charactersData = [
         img: "https://i.imgur.com/jo9RNTW.png",
         title: "Barovian Noble",
         race: "Barovian",
+        age: 60,
         firstAppearance: 10,
         description: "Lady Fiona Wachter is the richest woman in Barovia.  She is conspiring against the Baron to replace him as Burgomaster of Vallaki with the help of her right-hand man Ernst Larnak and the Sunseekers"
       },
@@ -1293,6 +1305,7 @@ let charactersData = [
         img: "https://i.imgur.com/VTYepBN.png",
         title: "Barovian Noble",
         race: "Barovian",
+        age: 60,
         firstAppearance: 10,
         description: "Ernst Larnak has served Wachterhaus his entire life.  He is very loyal to them and treated like a member of the family. Ernst's responsibilites to Wachterhaus mostly involve keeping and eye on everything going on in Vallaki"
       },
@@ -1303,6 +1316,7 @@ let charactersData = [
         img: "https://i.imgur.com/jLxQzr1.png",
         title: "Barovian Noble",
         race: "Barovian",
+        age: 21,
         firstAppearance: 10,
         description: "Stella Wachter is the youngest child of Lord and Lady Wachter. She once courted the Burgomaster's son Victor until one of his spells misfired and caused her to go insane. She spends her days locked in her room within Wachterhaus until her condition can be properly corrected"
       },
@@ -1313,6 +1327,7 @@ let charactersData = [
         img: "https://i.imgur.com/xd7dn5q.png",
         title: "Barovian Noble",
         race: "Barovian",
+        age: 26,
         firstAppearance: 6,
         description: "Nikolai Wachter is the eldest son of Lord and Lady Wachter and the future of Wachterhaus. He spends most of his time drinking at the Blue Water Inn with his brother Karl and other patrons"
       },
@@ -1323,6 +1338,7 @@ let charactersData = [
         img: "https://i.imgur.com/PcJwUpU.png",
         title: "Barovian Noble",
         race: "Barovian",
+        age: 24,
         firstAppearance: 6,
         description: "Karl Wachter is the middle child of Lord and Lady Wachter.  He spends most of his time drinking at the Blue Water Inn with his brother Nikolai and other patrons"
       }
@@ -1342,6 +1358,7 @@ let charactersData = [
         img: "https://i.imgur.com/9xMXn7l.png",
         title: "Merchant",
         race: "Barovian",
+        age: 50,
         firstAppearance: 5,
         description: "Dragomir Valisov is the proud purveryor of The Cracked Anvil which offers functional pieces including horseshoes, nails, hinges, spearheads, arrowheads, and daggers",
         sections: [
@@ -1361,6 +1378,7 @@ let charactersData = [
         img: "https://i.imgur.com/ezgNkJR.png",
         title: "Merchant",
         race: "Barovian",
+        age: 31,
         firstAppearance: 5,
         description: "Alek Alastroi is the eldest of the Alastroi siblings and co-owner of Endless Delights.  The siblings are known for their materlistic priorities and expert level skills with a needle and thread"
       },
@@ -1372,6 +1390,7 @@ let charactersData = [
         img: "https://i.imgur.com/GkLBY9s.png",
         title: "Merchant",
         race: "Barovian",
+        age: 30,
         firstAppearance: 5,
         description: "Andrej Alastroi is at the center of the Alastroi siblings and co-owner of Endless Delights.  The siblings are known for their materlistic priorities and expert level skills with a needle and thread"
       },
@@ -1383,6 +1402,7 @@ let charactersData = [
         img: "https://i.imgur.com/qM3iqDT.png",
         title: "Merchant",
         race: "Barovian",
+        age: 29,
         firstAppearance: 5,
         description: "Alana Alastroi is the youngest of the Alastroi siblings and co-owner of Endless Delights.  The siblings are known for their materlistic priorities and expert level skills with a needle and thread"
       },
@@ -1394,6 +1414,7 @@ let charactersData = [
         img: "https://i.imgur.com/CiucFK9.jpg",
         title: "Merchant",
         race: "Barovian",
+        age: 58,
         firstAppearance: 5,
         description: "Harkus Stefanovich is the soft-spoken, but nonetheless eccentric owner of Stefanovich Apothecary. Possessed with an unnerving bedside manner and a lack of appreciation for personal space, Harkus is nonetheless a simple apothecary, rather than a potion-maker or alchemist"
       },
@@ -1405,6 +1426,7 @@ let charactersData = [
         img: "https://i.imgur.com/6M5oCvn.jpg",
         title: "Merchant",
         race: "Barovian",
+        age: 44,
         firstAppearance: 5,
         description: "Fatima Lukresh is the dark-humored and abrasive owner of Lukresh Tannery. She is most experienced in the production of straps, harnesses, and belts, but can craft normal and studded leather armor on commission if asked. Her work is crude, but functional"
       },
@@ -1415,6 +1437,7 @@ let charactersData = [
         img: "https://i.imgur.com/LoWGZUj.jpg",
         title: "Merchant",
         race: "Barovian",
+        age: 66,
         firstAppearance: 5,
         description: "Tural is Vallaki’s is a gruff, unpleasant man and most experienced wainwright. He occasionally exits Vallaki to do business with the Vistani, which leaves him a social pariah amongst some of the more mistrustful townsfolk"
       },
@@ -1425,6 +1448,7 @@ let charactersData = [
         img: "https://i.imgur.com/5nEcuuL.png",
         title: "Merchant",
         race: "Barovian",
+        age: 88,
         firstAppearance: 5,
         description: "Bilbo is the gentle and soft spoken owner of Odds N Ends.  His shop offers a variety of inexpensive items"
       },
@@ -1436,6 +1460,7 @@ let charactersData = [
         img: "https://i.imgur.com/5nEcuuL.png",
         title: "Merchant",
         race: "Barovian",
+        age: 43,
         firstAppearance: 5,
         description: "Ana Krogarov is the owner of The Straight Arrow. She crafts short and long bows as well as arrows and quills. Ana is a distant cousin of Bluto, Vallaki's town drunk"
       }
@@ -1469,7 +1494,7 @@ let charactersData = [
         race: "Barovian",
         age: "38 years old",
         firstAppearance: 5,
-        descriptin: `Gadof Blinsky is the timid owner of Blinky's Toys.  His macabre toys can be found across Barovia with the tag "Is No Fun? Is No Blinsky!"  He is seen with a monkey companion Piccolo, on loan from Rictavio.  He is being forced by Izek to make custom dolls that resemble Ireena`
+        description: `Gadof Blinsky is the timid owner of Blinky's Toys.  His macabre toys can be found across Barovia with the tag "Is No Fun? Is No Blinsky!"  He is seen with a monkey companion Piccolo, on loan from Rictavio.  He is being forced by Izek to make custom dolls that resemble Ireena`
       },
       {
         id: 3,
@@ -1663,8 +1688,9 @@ let charactersData = [
         img: "https://i.imgur.com/c5F4D19.jpg",
         title: "Cult Leader",
         race: "Barovian",
+        age: 48,
         firstAppearance: 1,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Gustav Durst, once a wealthy land owner before Strahd arrived in Barovia, was left in ruin and joined the Priests of Osybus. He had an affair with the nursemaid and commited suicide"
       },
       {
         id: 3,
@@ -1673,8 +1699,9 @@ let charactersData = [
         img: "https://i.imgur.com/otQXN1s.jpg",
         title: "Cult Leader",
         race: "Barovian",
+        age: 44,
         firstAppearance: 1,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Elizabeth Durst, once a wealthy land owner before Strahd arrived in Barovia, was left in ruin and joined the Priests of Osybus. He had an affair with the nursemaid and commited suicide"
       },
       {
         id: 4,
@@ -1684,7 +1711,15 @@ let charactersData = [
         title: "Coven",
         race: "Night Hags",
         firstAppearance: 3,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "The Mill Witch coven was formed by Morgantha and for several years they have used the Old Mill to churn the bodies of Barovian children into addictive Dream Pastries",
+        sections: [
+          {
+            id: 1,
+            name: "Mill Burned Down",
+            description: "Once the Sunseekers realized the nefarious intentions of the Mill Witches, they took their time using the bone grinder to violently kill Ophelia and burn down the Mill, shutting down the operation.",
+            localLinks: {}
+          }
+        ]
       },
       {
         id: 5,
@@ -1693,8 +1728,9 @@ let charactersData = [
         img: "https://i.imgur.com/8KHprnt.png",
         title: "Mill Witch",
         race: "Night Hag",
+        age: "Unknown",
         firstAppearance: 3,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "First appearing as a beautiful young Barovian woman, Bella ran the shop on the first floor of the Old Mill as the youngest member of the Mill Witch coven"
       },
       {
         id: 6,
@@ -1703,8 +1739,9 @@ let charactersData = [
         img: "https://i.imgur.com/RXoVXmW.png",
         title: "Mill Witch",
         race: "Night Hag",
+        age: "Unknown",
         firstAppearance: 7,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Ophelia was Morgantha's first recruit for the Mill Witch coven. She was responsible for housing baking goods and producing Dream Pastries with the Mill's massive grinder"
       },
       {
         id: 7,
@@ -1713,8 +1750,9 @@ let charactersData = [
         img: "https://i.imgur.com/p7NId0c.png",
         title: "Mill Witch",
         race: "Night Hag",
+        age: "Unknown",
         firstAppearance: 7,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Morgantha created the Mill Witch coven and created the recipe for Dream Pastries. Her role in the coven was sourcing materials across Barovia and selling Dream Pastries from her wooden cart"
       },
       {
         id: 8,
@@ -1724,7 +1762,7 @@ let charactersData = [
         title: "Witches",
         race: "Boarian Witches",
         firstAppearance: 15,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "There are several witches who lurk within the walls of Castle Ravenoft.  They usually work together to cook up magical potions and torture captured Barovians in the dungeons"
       },
       {
         id: 9,
@@ -1734,7 +1772,7 @@ let charactersData = [
         title: "Druidic Cult",
         race: "Druids",
         firstAppearance: 22,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "The Kavani Druids are known for lacking the ability to wildshape. They have spent generations worshipping Strahd and plotting to win back their wildshape with violent and bloody methods"
       },
       {
         id: 10,
@@ -1743,8 +1781,9 @@ let charactersData = [
         img: "https://i.imgur.com/VoYlJs4.png",
         title: "Kavani Youth",
         race: "Druid",
+        age: "16 years old",
         firstAppearance: 22,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Gaine was a young Kavani druid who grew up in a family of respected Blood Druids. The Blood Druids are responsible for the Gulthias Tree, a holy tree within the Kavani stronghold. He perished on his journey within the Amber Temple"
       },
       {
         id: 11,
@@ -1753,8 +1792,9 @@ let charactersData = [
         img: "https://i.imgur.com/zFeuyQZ.png",
         title: "Kavani Youth",
         race: "Druid",
+        age: "16 years old",
         firstAppearance: 22,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Salali was a young Kavani druid who was looking for her place in the world. She perished on her journey within the Amber Temple"
       },
       {
         id: 12,
@@ -1763,8 +1803,9 @@ let charactersData = [
         img: "https://i.imgur.com/YkfPLBR.png",
         title: "Kavani Youth",
         race: "Druid",
+        age: "16 year old",
         firstAppearance: 22,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: `formEcho was a young Kavani druid who was looking for their place in the world. They were extremely proud of their parent's recent deal struck with "Strahd's Mother" in Berez.`
       },
       {
         id: 13,
