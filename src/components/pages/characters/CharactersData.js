@@ -1756,7 +1756,8 @@ let charactersData = [
       },
       {
         id: 8,
-        name: "Witches of Ravenloft",
+        name: "Witches",
+        long: "Witches of Ravenloft",
         status: "Active",
         img: "https://i.imgur.com/yZG0VQI.png",
         title: "Witches",
@@ -1815,7 +1816,7 @@ let charactersData = [
         title: "Druidic Invaders",
         race: "Druids",
         firstAppearance: 23,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Kavani Druids were able to invade and occupy the Wizard of Wines winery. The Martikovs were only able to take it back with the help of the Sunseekers"
       },
       {
         id: 14,
@@ -1825,7 +1826,7 @@ let charactersData = [
         title: "Kavani Leader",
         race: "Druid",
         firstAppearance: 23,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Leader of the winery-occupying druids and parent to Kavani youth Echo, this unnamed druid was killed for their staff shortly after they were heard communicating to an elderly woman through a sending stone"
       }
     ]
   },
@@ -1842,7 +1843,7 @@ let charactersData = [
         title: "Creature",
         race: "Beast",
         firstAppearance: 1,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "The valley of Barovia is filled with shadows and wolves. Their howls are inescapable and its common to encounter packs of them at a time traveling between settlements"
       },
       {
         id: 2,
@@ -1851,7 +1852,7 @@ let charactersData = [
         title: "Creature",
         race: "Undead",
         firstAppearance: 1,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Souls are trapped within Barovia with no chance of escaping the mists to find their way into a proper afterlife. As a result, many of these lost souls are bitter and angry"
       },
       {
         id: 3,
@@ -1860,7 +1861,7 @@ let charactersData = [
         title: "Creature",
         race: "Construct",
         firstAppearance: 1,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Evil lurks in the most unsuspecting places, even from normally inanimate objects and armor sets"
       },
       {
         id: 4,
@@ -1870,7 +1871,7 @@ let charactersData = [
         title: "Creature",
         race: "Construct",
         firstAppearance: 1,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "An unassuming broom closet was once nearly the final resting place of a certain Sunseekers on their first day of being in Barovia"
       },
       {
         id: 5,
@@ -1879,7 +1880,7 @@ let charactersData = [
         title: "Creature",
         race: "Undead",
         firstAppearance: 1,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"      
+        description: "The Priests of Osybus of Durst Manor made many attempts to summon undead nightmares, but were only successful once they sacrificed Baby Walter Durst which became the lifeblood of a terrible flesh mound"      
       },
       {
         id: 6,
@@ -1888,7 +1889,7 @@ let charactersData = [
         title: "Creature",
         race: "Beast",
         firstAppearance: 4,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "There are some wolves in Barovia that are enormous in size and far more dangerous than most others"
       },
       {
         id: 7, 
@@ -1897,7 +1898,7 @@ let charactersData = [
         title: "Creature",
         race: "Undead",
         firstAppearance: 4,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "There are many souls that have become consumed by hate and revenge. Castle Ravenloft is attacked daily by those who have been marred by Strahd over the generations"
       },
       {
         id: 8,
@@ -1906,7 +1907,7 @@ let charactersData = [
         title: "Creature",
         race: "Undead",
         firstAppearance: 4,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Animated by dark magic, these creatures appear to be nothing but a set of bones"
       },
       {
         id: 9,
@@ -1915,7 +1916,7 @@ let charactersData = [
         title: "Creature",
         race: "Undead",
         firstAppearance: 2,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "These undead reanimated corpses shamble about in a jerky, uneven gait without fear or hesitation. When struck, their limbs can continue to move and attack on their own"
       },
       {
         id: 10,
@@ -1924,7 +1925,7 @@ let charactersData = [
         title: "Creature",
         race: "Undead",
         firstAppearance: 2,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Stahd and his consorts have created an army of vampire spawns that lurk in various pockets of Barovia waiting for their next meal"
       },
       {
         id: 11,
@@ -1933,7 +1934,7 @@ let charactersData = [
         title: "Creature",
         race: "Beast",
         firstAppearance: 7,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "While the bats of Barovia seem somewhat ordinary, there are far too many of them in the valley"
       },
       {
         id: 12,
@@ -1942,7 +1943,7 @@ let charactersData = [
         title: "Creature",
         race: "Monstrosity",
         firstAppearance: 7,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Anything could be a mimic. Once it was a large cooking pot, another time a spectacular chest. Be prepared for anything at anytime"
       },
       {
         id: 13,
@@ -1951,7 +1952,7 @@ let charactersData = [
         title: "Creature",
         race: "Elemental",
         firstAppearance: 14,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Composed of air and fire, these elementals are crude and lazy, as well as liars and tricksters who thrive on mockery and misdirection"
       },
       {
         id: 14,
@@ -1960,7 +1961,7 @@ let charactersData = [
         title: "Creature",
         race: "Undead",
         firstAppearance: 14,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Phantom Warriors are a pack of translucent humanoid beings, resembling men armed with long pikes. Only their magical outline is ever visible, so little is known about them"
       },
       {
         id: 15,
@@ -1969,7 +1970,7 @@ let charactersData = [
         title: "Creature",
         race: "Construct",
         firstAppearance: 17,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "While the scarecrow remains motionless, it is indistinguishable from an ordinary, inanimate scarecrow"
       },
       {
         id: 16,
@@ -1979,7 +1980,7 @@ let charactersData = [
         title: "Creature",
         race: "Dragon",
         firstAppearance: 19,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "The odor of sulfur and pumice surrounds a red dradon, whose swept-back horns and spinal frill deinite its silhouette"
       },
       {
         id: 17,
@@ -1988,7 +1989,7 @@ let charactersData = [
         title: "Creature",
         race: "Elemental",
         firstAppearance: 19,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Winged humanoid creatures with grotesque features. A gargoyle resembles a fiend, and has horns, sharp teeth, claws, a tail, and pair of bat-like wings"
       },
       {
         id: 18,
@@ -1997,7 +1998,7 @@ let charactersData = [
         title: "Creature",
         race: "Plant",
         firstAppearance: 18,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "An awakened plant that resembles a woody shrub that can pull its roots free of the ground. Its branches twist together to form a humanoid-looking body with a head and limbs"
       },
       {
         id: 19,
@@ -2006,7 +2007,7 @@ let charactersData = [
         title: "Creature",
         race: "Plant",
         firstAppearance: 18,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Needle blights looked enough like a hunched humanoid to be mistaken for one in the shadows of the Old Svalich Woods, but a closer look made their plant-like nautre obvious"
       },
       {
         id: 20,
@@ -2015,7 +2016,7 @@ let charactersData = [
         title: "Creature",
         race: "Plant",
         firstAppearance: 18,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Appearing as masses of slithering creepers, vine blights hide in undergrowth and wait for prey to draw near"
       },
       {
         id: 21,
@@ -2024,7 +2025,7 @@ let charactersData = [
         title: "Creature",
         race: "Undead",
         firstAppearance: 22,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "A literal flaming skull. What else is there to be said?"
       },
       {
         id: 22,
@@ -2033,7 +2034,7 @@ let charactersData = [
         title: "Creature",
         race: "Construct",
         firstAppearance: 21,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Amber golems are large amber constructs with humanoid bodies and animal heads. Their slam attacks can kill an adventurer quite easily"
       },
       {
         id: 23,
@@ -2042,7 +2043,7 @@ let charactersData = [
         title: "Creature",
         race: "Monstrosity",
         firstAppearance: 23,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "A unique colossal avian, the size of a mountain, protected Barovia from the horrors of the Amber Temple. It was believed that the roc only appears when someone with Dark Gifts from the Amber Temple attempts to return to the main land of the valley"
       },
       {
         id: 24,
@@ -2051,7 +2052,7 @@ let charactersData = [
         title: "Creature",
         race: "Plant",
         firstAppearance: 24,
-        description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio dolor. Integer vitae sodales magna, nec consequat ante. Maecenas laoreet scelerisque iaculis. Phasellus vel"
+        description: "Wintersplinter was a tree blight that was created by the Kavani Druids at Yester Hill. If it hadn't been stopped, it could have leveled the winery and then some"
       }
     ]
   }
