@@ -60,6 +60,8 @@ function Quests() {
                 Quest offered in Session {selectedQuest.sessionStarted}.&nbsp;
               </Link>}
 
+              {/* linked quest name */}
+
               {/* Starting Hook */}
               <div className="selected__starting-hook">{selectedQuest.initiated}</div>
 
