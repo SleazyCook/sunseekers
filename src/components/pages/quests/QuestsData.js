@@ -350,7 +350,13 @@ let questsData = [
     season: 1,
     sessionStarted: 1,
     rewards: [""],
-    developments: []
+    developments: [
+      {
+        id: 1,
+        description: "Outside the walls of Vallaki, Bafan and German met with ~Ernst Larnak~ about entry into the town and access to its resources. Ernst updated them about the Baron's search for the Sunseekers after teh ~Feast of St Andral~ and how ~Izek Strazni~ has been leading search parties outside of the walls. Ernst asked them to take out Izek and help overthrow the Baron in order to bring ~Lady Wachter~ to power and allow the Sunseekers back into Vallaki.",
+        localLinks: {}
+      }
+    ]
   }
 ]
 
