@@ -67,7 +67,7 @@ function Quests() {
               </div>
 
               {/* Starting Hook */}
-              <div className=" page-section page-section--quest page-section--quest-hook hyperlink" style={{whiteSpace:'break-space'}}>{selectedQuest.initiated && renderWithLinks(selectedQuest.initiated, selectedQuest.localLinks)}</div>
+              {selectedQuest.initiated && <div className=" page-section page-section--quest page-section--quest-hook hyperlink" style={{whiteSpace:'break-space'}}>{selectedQuest.initiated && renderWithLinks(selectedQuest.initiated, selectedQuest.localLinks)}</div>}
 
               {/* Developments */}
               {selectedQuest.developments && selectedQuest.developments.map((sectionsObj) => {
