@@ -63,12 +63,12 @@ function Quests() {
               {/* linked quest name */}
 
               {/* Starting Hook */}
-              <div className="selected__starting-hook">{selectedQuest.initiated}</div>
+              <div className=" page-section page-section--quest page-section--quest-hook hyperlink" style={{whiteSpace:'break-space'}}>{selectedQuest.initiated && renderWithLinks(selectedQuest.initiated, selectedQuest.localLinks)}</div>
 
               {/* Developments */}
               {selectedQuest.developments && selectedQuest.developments.map((sectionsObj) => {
                 return (
-                  <div key={sectionsObj.id} value={sectionsObj.id} className="page-section">
+                  <div key={sectionsObj.id} value={sectionsObj.id} className="page-section page-section--quest">
                     {/* <span className="page-section__title heading-tertiary">{sectionsObj.name}</span> */}
                     <p className="hyperlink" style={{whiteSpace:'break-spaces'}}>
                       {sectionsObj.description && renderWithLinks(sectionsObj.description, sectionsObj.localLinks, setCardOpen)}

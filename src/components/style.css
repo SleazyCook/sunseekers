@@ -1454,6 +1454,15 @@ body {
     background-color: #2b2b2b;
     border-radius: 1rem;
     padding: 2rem; }
+  .page-section--quest {
+    padding: 1rem 3rem; }
+    .page-section--quest-hook {
+      font-size: 1.8rem;
+      line-height: 3.2rem;
+      background-color: black;
+      border-radius: 1rem; }
+    .page-section--quest p {
+      background-color: black; }
 
 .shop {
   width: 100%;

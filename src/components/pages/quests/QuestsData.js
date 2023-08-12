@@ -7,6 +7,7 @@ let questsData = [
     season: 1,
     sessionStarted: 8,
     rewards: [],
+    localLinks: {},
     initiated: "Children Rose and Thorn were on the street begging for help. Their baby brother Walter has been trapped in their family home with a monster.",
     developments: [
       {
@@ -29,6 +30,7 @@ let questsData = [
     season: 1,
     sessionStarted: 2,
     rewards: [""],
+    localLinks: {},
     initiated: "At his shop, Bildrath offered up some local rumors about a plague and suggested visiting the Cobb House up the street",
     developments: [
       {
@@ -46,6 +48,7 @@ let questsData = [
     season: 1,
     sessionStarted: 2,
     rewards: [""],
+    localLinks: {},
     initiated: "In addition to the plague, Villagers of Barovia have been going missing in the darkest hours of the night.",
     developments: [
       {
@@ -63,6 +66,7 @@ let questsData = [
     season: 1,
     sessionStarted: 2,
     rewards: [""],
+    localLinks: {},
     initiated: "",
     developments: []
   },
@@ -73,7 +77,10 @@ let questsData = [
     completed: false,
     season: 1,
     sessionStarted: 2,
-    rewards: [""]
+    rewards: [""],
+    localLinks: {},
+    initiated: "",
+    developments: []
   },
   {
     id: 6,
@@ -82,7 +89,10 @@ let questsData = [
     completed: false,
     season: 1,
     sessionStarted: 2,
-    rewards: [""]
+    rewards: [""],
+    localLinks: {},
+    initiated: "",
+    developments: []
   },
   {
     id: 7,
@@ -91,7 +101,10 @@ let questsData = [
     completed: false,
     season: 1,
     sessionStarted: 2,
-    rewards: [""]
+    rewards: [""],
+    localLinks: {},
+    initiated: "",
+    developments: []
   },
   {
     id: 8,
@@ -100,7 +113,10 @@ let questsData = [
     completed: true,
     season: 1,
     sessionStarted: 3,
-    rewards: [""]
+    rewards: [""],
+    localLinks: {},
+    initiated: "",
+    developments: []
   },
   {
     id: 9,
@@ -110,6 +126,7 @@ let questsData = [
     season: 1,
     sessionStarted: 3,
     rewards: ["Tome of Strahd"],
+    initiated: "",
     developments: []
   },
   {
@@ -120,6 +137,8 @@ let questsData = [
     season: 1,
     sessionStarted: 3,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -129,7 +148,10 @@ let questsData = [
     completed: true,
     season: 1,
     sessionStarted: 3,
-    rewards: [""]
+    rewards: [""],
+    localLinks: {},
+    initiated: "",
+    developments: []
   },
   {
     id: 12,
@@ -139,6 +161,8 @@ let questsData = [
     sesason: 1,
     sessionStarted: 3,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -149,6 +173,8 @@ let questsData = [
     season: 1,
     sessionStarted: 3,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -159,6 +185,8 @@ let questsData = [
     season: 1,
     sessionStarted: 4,
     rewards: [""],
+    localLinks: {},
+    initaited: "",
     development: []
   },
   {
@@ -169,8 +197,9 @@ let questsData = [
     season: 1,
     sessionStarted: 4,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     development: []
-    // ernst makes a deal with bafan and german
   },
   {
     id: 16,
@@ -180,6 +209,8 @@ let questsData = [
     season: 1,
     sessionStarted: 4,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     development: []
   },
   {
@@ -190,6 +221,8 @@ let questsData = [
     season: 1,
     sessionStarted: 7,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -200,6 +233,8 @@ let questsData = [
     season: 1,
     sessionStarted: 10,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -210,6 +245,8 @@ let questsData = [
     season: 1,
     sessionStarted: 10,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -220,6 +257,8 @@ let questsData = [
     season: 1,
     sessionStarted: 6,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -230,6 +269,8 @@ let questsData = [
     season: 1,
     sessionStarted: 11,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -240,6 +281,8 @@ let questsData = [
     season: 1,
     sessionStarted: 1,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -250,6 +293,8 @@ let questsData = [
     season: 1,
     sessionStarted: 1,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -260,6 +305,8 @@ let questsData = [
     season: 1,
     sessionStarted: 1,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -270,6 +317,8 @@ let questsData = [
     season: 1,
     sessionStarted: 1,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -280,6 +329,8 @@ let questsData = [
     season: 1,
     sessionStarted: 1,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -290,6 +341,8 @@ let questsData = [
     season: 1,
     sessionStarted: 1,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -300,6 +353,8 @@ let questsData = [
     season: 1,
     sessionStarted: 1,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -310,6 +365,8 @@ let questsData = [
     season: 1,
     sessionStarted: 1,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -320,6 +377,8 @@ let questsData = [
     season: 1,
     sessionStarted: 1,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -330,6 +389,8 @@ let questsData = [
     season: 1,
     sessionStarted: 1,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -340,6 +401,8 @@ let questsData = [
     season: 1,
     sessionStarted: 1,
     rewards: [""],
+    localLinks: {},
+    initiated: "",
     developments: []
   },
   {
@@ -350,10 +413,12 @@ let questsData = [
     season: 1,
     sessionStarted: 1,
     rewards: [""],
+    localLinks: {},
+    initiated: "Outside the walls of Vallaki, Bafan and German met with ~Ernst Larnak~ about entry into the town and access to its resources. Ernst updated them about the Baron's search for the Sunseekers after teh ~Feast of St Andral~ and how ~Izek Strazni~ has been leading search parties outside of the walls. Ernst asked them to take out Izek and help overthrow the Baron in order to bring ~Lady Wachter~ to power and allow the Sunseekers back into Vallaki.",
     developments: [
       {
         id: 1,
-        description: "Outside the walls of Vallaki, Bafan and German met with ~Ernst Larnak~ about entry into the town and access to its resources. Ernst updated them about the Baron's search for the Sunseekers after teh ~Feast of St Andral~ and how ~Izek Strazni~ has been leading search parties outside of the walls. Ernst asked them to take out Izek and help overthrow the Baron in order to bring ~Lady Wachter~ to power and allow the Sunseekers back into Vallaki.",
+        description: "At his shop, Bildrath offered up some local rumors about a plague and suggested visiting the Cobb House up the street",
         localLinks: {}
       }
     ]

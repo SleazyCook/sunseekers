@@ -23,4 +23,20 @@
     border-radius: 1rem;
     padding: 2rem;
   }
+
+  &--quest {
+    padding: 1rem 3rem;
+
+    &-hook {
+      font-size: 1.8rem;
+      line-height: 3.2rem;
+      background-color: darken(#1e1e1e, 20);
+      border-radius: 1rem;
+    }
+
+    & p {
+      background-color: darken(#1e1e1e, 20);
+    }
+  }
+
 }
