@@ -55,12 +55,16 @@ function Quests() {
                 {selectedQuest.name}
               </div>
 
-              {/* Link to Session */}
-              {selectedQuest.sessionStarted && <Link to={`/notes/adventure-log/${selectedQuest.sessionStarted}`} className="selected__started">
-                Quest offered in Session {selectedQuest.sessionStarted}.&nbsp;
-              </Link>}
+              <div className="flexbox">
 
-              {/* linked quest name */}
+                {/* Link to Session */}
+                {selectedQuest.sessionStarted && <Link to={`/notes/adventure-log/${selectedQuest.sessionStarted}`} className="selected__started">
+                  Started in Session {selectedQuest.sessionStarted}.&nbsp;{logData[selectedQuest.sessionStarted -1].title}
+                </Link>}
+
+                {selectedQuest.relatedQuest ? <div>Related Quest: {selectedQuest.relatedQuest}</div> : <>&nbsp;</>}
+
+              </div>
 
               {/* Starting Hook */}
               <div className=" page-section page-section--quest page-section--quest-hook hyperlink" style={{whiteSpace:'break-space'}}>{selectedQuest.initiated && renderWithLinks(selectedQuest.initiated, selectedQuest.localLinks)}</div>

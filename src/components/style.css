@@ -1457,6 +1457,7 @@ body {
   .page-section--quest {
     padding: 1rem 3rem; }
     .page-section--quest-hook {
+      padding: 1.5rem 2rem;
       font-size: 1.8rem;
       line-height: 3.2rem;
       background-color: black;

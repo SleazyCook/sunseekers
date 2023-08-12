@@ -408,6 +408,7 @@ let questsData = [
   {
     id: 33,
     name: "Kill Izek",
+    relatedQuest: "Coup of Vallaki",
     img: "",
     completed: false,
     season: 1,
