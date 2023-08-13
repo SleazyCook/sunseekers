@@ -417,11 +417,11 @@ let questsData = [
     localLinks: {},
     initiated: "Outside the walls of Vallaki, Bafan and German met with ~Ernst Larnak~ about entry into the town and access to its resources. Ernst updated them about the Baron's search for the Sunseekers after teh ~Feast of St Andral~ and how ~Izek Strazni~ has been leading search parties outside of the walls. Ernst asked them to take out Izek and help overthrow the Baron in order to bring ~Lady Wachter~ to power and allow the Sunseekers back into Vallaki.",
     developments: [
-      {
-        id: 1,
-        description: "At his shop, Bildrath offered up some local rumors about a plague and suggested visiting the Cobb House up the street",
-        localLinks: {}
-      }
+      // {
+      //   id: 1,
+      //   description: "At his shop, Bildrath offered up some local rumors about a plague and suggested visiting the Cobb House up the street",
+      //   localLinks: {}
+      // }
     ]
   }
 ]
