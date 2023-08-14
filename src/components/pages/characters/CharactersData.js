@@ -1623,7 +1623,7 @@ let charactersData = [
       {
         id: 14,
         name: "Szoldar",
-        status: "Alive",
+        status: "Dead",
         img: "https://i.imgur.com/J3BbMEv.png",
         title: "Wolf Hunter",
         race: "Barovian",
@@ -1634,7 +1634,7 @@ let charactersData = [
       {
         id: 15,
         name: "Yevgeni",
-        status: "Alive",
+        status: "Dead",
         img: "https://i.imgur.com/ikZfS2x.png",
         title: "Wolf HUnter",
         race: "Barovian",
