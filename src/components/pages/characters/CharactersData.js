@@ -1223,7 +1223,7 @@ let charactersData = [
       {
         id: 3,
         name: "Izek Strazni",
-        status: "Alive",
+        status: "Dead",
         img: "https://i.imgur.com/zwYIqcJ.png",
         title: "Head of the Guard",
         race: "Barovian",
