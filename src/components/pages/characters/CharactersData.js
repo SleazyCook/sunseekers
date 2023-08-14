@@ -1229,10 +1229,28 @@ let charactersData = [
         race: "Barovian",
         age: 25,
         firstAppearance: 4,
-        description: "Izek Strazni was once a Vallaki orphan with a violent childhood.  The Baron took responsibility for the troubled child.  As Izek grew up he continued to get into trouble the Baron saw an opportunity.  Izek was made the chief of the Vallaki Guard and is known to use his monstrous arm to get his hands dirty",
-        localLinks: {}
-        // ireena dolls
-        // german fight
+        description: "Izek Strazni was once a Vallaki orphan with a violent childhood.  The Baron took responsibility for the troubled child.  As Izek grew up he continued to get into trouble the Baron saw an opportunity.  Izek suddenly had a monstrous arm and was made the chief of the Vallaki Guard and is known to use his monstrous arm to get his hands dirty",
+        localLinks: {},
+        sections: [
+          {
+            id: 1,
+            name: "Ireena Dolls",
+            description: "During a visit to Gadof Blinsky's shop, it was noticed that there were several dolls resembling ~Ireena Kolyana~ that were on hold for Izek.",
+            localLinks: []
+          },
+          {
+            id: 2,
+            name: "Duel with Barbarian",
+            description: "To distract the entire town square after the ~Festival of the Blazing Sun~, German fought Izek one-on-one and lost while the other Sunseekers were able to stealthily rescue a group of children.",
+            localLinks: []
+          },
+          {
+            id: 3,
+            name: "Battle Outside Vallaki",
+            description: "While searching the outskirts of Vallaki for the Sunseekers, wanted by ~the Baron~ for the ~Feast of St Andral~, German and Bafan led an assault on Izek's camp with Szoldar and Yevgeni. German got revenge killing Izek in the fight and taking his monster arm as a trophy.",
+            localLinks: []
+          }
+        ]
       },
       {
         id: 4,
